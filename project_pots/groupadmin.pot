@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/source/index.tt:66 templates/source/search_box.tt:55
+msgid "Country : "
+msgstr ""
+
+#: templates/source/index.tt:93 templates/source/search_box.tt:84
+msgid "Email address :"
+msgstr ""
+
+#: templates/source/index.tt:52 templates/source/search_box.tt:40
+msgid "Group (display) name contains : "
+msgstr ""
+
+#: templates/source/index.tt:32 templates/source/search_box.tt:18
+msgid "Group ID number :"
+msgstr ""
+
+#: templates/source/index.tt:55 templates/source/search_box.tt:43
+msgid "Group Status : "
+msgstr ""
+
+#: templates/source/index.tt:38 templates/source/search_box.tt:24
+msgid "Group URL :"
+msgstr ""
+
+#: templates/source/index.tt:7 templates/source/search_box.tt:4
+msgid "Location"
+msgstr ""
+
+#: templates/source/index.tt:9 templates/source/search_box.tt:6
+msgid "Moderators"
+msgstr ""
+
+#: templates/source/index.tt:90 templates/source/search_box.tt:81
+msgid "MyF username :"
+msgstr ""
+
+#: templates/source/index.tt:74 templates/source/search_box.tt:63
+msgid "Region : "
+msgstr ""
+
+#: templates/source/index.tt:42 templates/source/index.tt:82 templates/source/index.tt:97 templates/source/search_box.tt:28 templates/source/search_box.tt:70 templates/source/search_box.tt:88
+msgid "Search"
+msgstr ""
+
+#: templates/source/index.tt:6
+msgid "Search Groups/Applications by : "
+msgstr ""
+
+#: templates/source/index.tt:18
+msgid "Search Results"
+msgstr ""
+
+#: templates/source/search_box.tt:3
+msgid "Search by : "
+msgstr ""
+
+#: templates/source/search/unique_id.tt:4
+msgid "Search for Groups"
+msgstr ""
+
+#: templates/source/index.tt:8 templates/source/search_box.tt:5
+msgid "Unique IDs"
+msgstr ""
+
+#: templates/source/index.tt:35 templates/source/search_box.tt:21
+msgid "Unique name :"
+msgstr ""

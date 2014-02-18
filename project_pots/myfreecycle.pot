@@ -1,0 +1,1361 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/source/home/posts/index.tt:55 templates/source/home/posts/recently_closed.tt:27
+msgid "(awaiting Mod approval)"
+msgstr ""
+
+#: templates/source/home/posts/manage/show.tt:130
+msgid "(click on the thumbnail for full size image)"
+msgstr ""
+
+#: templates/source/home_group_box_search.tt:18
+msgid "(e.g. <b>Tucson, Arizona</b> or <b>\"milton keynes\"</b>)"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:75
+msgid "(home Group)"
+msgstr ""
+
+#: templates/source/home/info/index.tt:50
+msgid "(not set)"
+msgstr ""
+
+#: templates/source/home/groups/join_group.tt:24
+msgid "(please note that some local Groups do require approval of new Members and/or Posts and it may take a day or two before you are able to post)"
+msgstr ""
+
+#: templates/source/home/posts/new.tt:29
+msgid "--- Please choose a type ---"
+msgstr ""
+
+#. (My Freecycle" has been rewritten")
+#: templates/source/status.tt:3
+msgid "2010-04-01 : "
+msgstr ""
+
+#. (uri_for('Root', 'logout')
+#: templates/lib/standard_login_info.tt:26
+msgid "<a href='%1'>Log out</a></li>"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:144 templates/source/home/groups/options_display.tt:90
+msgid "A digest of 25 Posts"
+msgstr ""
+
+#: templates/source/signup.tt:211 templates/source/signup.tt:219
+msgid "A temporary error has occurred"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:248
+msgid "Accept invite"
+msgstr ""
+
+#: templates/source/home/agree_to_tos.tt:17
+msgid "According to your account records, you have not yet agreed to the current Freecycle Network Terms of Service. As this is required of all Freecycle members, we'd ask that you please do so now."
+msgstr ""
+
+#: templates/source/signup_okay.tt:12
+msgid "Account Created"
+msgstr ""
+
+#: templates/source/home/posts/index.tt:49 templates/source/home/posts/recently_closed.tt:21
+msgid "Actions"
+msgstr ""
+
+#: templates/source/home/info/index.tt:114 templates/source/home/info/index.tt:120
+msgid "Activate the Freecycle Facebook application to log in with your Facebook account"
+msgstr ""
+
+#: templates/lib/box_tabbar.tt:6
+msgid "All Items"
+msgstr ""
+
+#: templates/source/forgottenpassword.tt:88
+msgid "All passwords are stored in an encrypted format, and so cannot be retrieved. A new password will be generated and sent to you by email. You will need to change your password once you have logged in."
+msgstr ""
+
+#: templates/lib/box_tabbar.tt:11
+msgid "All posts"
+msgstr ""
+
+#: templates/source/home/groups/contact_mods_form.tt:75
+msgid "An error occured when we tried to send the email. You could try again right now (in case it was just a blip) or leave it for a bit and try again later (when the problem may have been fixed)"
+msgstr ""
+
+#. (e)
+#: templates/source/home/posts/display_issues.tt:22
+msgid "An unrecognised error was sent : '%1' - please report this to server.admins@freecycle.org"
+msgstr ""
+
+#. (e)
+#: templates/source/home/posts/display_issues.tt:54
+msgid "An unrecognised warning was sent : '%1' - please report this to server.admins@freecycle.org"
+msgstr ""
+
+#: templates/source/home/groups/options_display.tt:15
+msgid "Are you sure you want to leave this Group?"
+msgstr ""
+
+#: templates/source/home/groups/join_too_many.tt:14 templates/source/home/groups/join_too_many.tt:15
+msgid "Back to 'My Groups'"
+msgstr ""
+
+#: templates/source/home/posts/manage/show.tt:77 templates/source/home/posts/manage/show.tt:78
+msgid "Cancel and remove"
+msgstr ""
+
+#: templates/source/home/info/index.tt:147 templates/source/home/info/index.tt:148
+msgid "Change My Freecycle email address"
+msgstr ""
+
+#: templates/source/home/groups/options_display.tt:106
+msgid "Change email preference"
+msgstr ""
+
+#: templates/source/home/groups/options_display.tt:76
+msgid "Change level"
+msgstr ""
+
+#: templates/source/home/groups/home.tt:18
+msgid "Change my 'home' Group to: "
+msgstr ""
+
+#: templates/source/home/info/index.tt:142 templates/source/home/info/index.tt:143
+msgid "Change password"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:188
+msgid "Change settings"
+msgstr ""
+
+#: templates/source/home/info/change_username.tt:12 templates/source/home/info/change_username.tt:18
+msgid "Change username"
+msgstr ""
+
+#: templates/source/home/info/change_email_address.tt:14
+msgid "Change your 'My Freecycle' email address"
+msgstr ""
+
+#: templates/source/home/info/change_password.tt:14
+msgid "Change your 'My Freecycle' password"
+msgstr ""
+
+#: templates/source/home/info/change_username.tt:3
+msgid "Changing your username"
+msgstr ""
+
+#: templates/source/signup.tt:38
+msgid "Confirm email address :"
+msgstr ""
+
+#: templates/source/home/info/change_email_address.tt:33
+msgid "Confirm new email address:"
+msgstr ""
+
+#: templates/source/home/info/change_password.tt:31
+msgid "Confirm new password:"
+msgstr ""
+
+#: templates/source/signup.tt:47
+msgid "Confirm password"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:179
+msgid "Contact the ModTeam"
+msgstr ""
+
+#: templates/source/home/info/default_location.tt:18 templates/source/home/info/index.tt:49
+msgid "Default location for Posts :"
+msgstr ""
+
+#: templates/source/home/agree_to_tos.tt:30 templates/source/home/info/index.tt:157 templates/source/home/info/index.tt:158
+msgid "Delete account"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:255
+msgid "Delete invite"
+msgstr ""
+
+#: templates/source/home/info/delete_confirm.tt:16
+msgid "Delete my account"
+msgstr ""
+
+#. (email)
+#: templates/source/home/info/index.tt:48
+msgid "Email : %1"
+msgstr ""
+
+#: templates/source/forgottenpassword.tt:97 templates/source/forgottenusername.tt:20 templates/source/signup.tt:33
+msgid "Email address :"
+msgstr ""
+
+#: templates/source/signup.tt:218
+msgid "Email address invalid - an error was returned when it was checked"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:146 templates/source/home/groups/options_display.tt:88
+msgid "Email digest"
+msgstr ""
+
+#: templates/source/home/groups/options_display.tt:45
+msgid "Email preference :"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:136
+msgid "Email preference : "
+msgstr ""
+
+#: templates/source/home/info/change_email_address.tt:31
+msgid "Enter new email address:"
+msgstr ""
+
+#: templates/source/home/info/change_password.tt:29
+msgid "Enter new password:"
+msgstr ""
+
+#: templates/source/home/groups/contact_mods_form.tt:72
+msgid "Error sending email!"
+msgstr ""
+
+#: templates/source/home_group_box_search.tt:15
+msgid "Find a group near you :"
+msgstr ""
+
+#: templates/source/home_group_box_search.tt:21
+msgid "Find group"
+msgstr ""
+
+#: templates/source/home_group_box_search.tt:1
+msgid "Find other groups"
+msgstr ""
+
+#: templates/source/forgottenpassword.tt:85
+msgid "Forgotten your password?"
+msgstr ""
+
+#: templates/source/forgottenusername.tt:12
+msgid "Forgotten your username?"
+msgstr ""
+
+#: templates/source/home/groups/contact_mods_form.tt:57
+msgid "From :"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:203
+msgid "Go to ModTools"
+msgstr ""
+
+#: templates/source/home/groups/search.tt:93
+msgid "Go to group page"
+msgstr ""
+
+#. (uri_for('Root', 'signup', [], undef, {referer=> c.request.param('referer')
+#: templates/source/index.tt:31
+msgid "Go to the <a href='%1'>signup form</a> and create your account for free"
+msgstr ""
+
+#: templates/source/home/delete_account.tt:14
+msgid "Goodbye!"
+msgstr ""
+
+#: templates/lib/box_tabbar.tt:9
+msgid "Group Info"
+msgstr ""
+
+#: templates/source/home/posts/manage/show.tt:46
+msgid "Group Members can see and search for this Post"
+msgstr ""
+
+#: templates/lib/box_tabbar.tt:14
+msgid "Group info"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:246 templates/source/home/groups/search.tt:108
+msgid "Group limit reached"
+msgstr ""
+
+#. (loginbox.username)
+#: templates/source/home/info/index.tt:14
+msgid "Hello %1"
+msgstr ""
+
+#. (home_country)
+#: templates/source/home/info/index.tt:52
+msgid "Home country : %1"
+msgstr ""
+
+#. (home_group)
+#: templates/source/home/info/index.tt:54
+msgid "Home group : %1"
+msgstr ""
+
+#. (home_region_name)
+#: templates/source/home/info/index.tt:53
+msgid "Home region : %1"
+msgstr ""
+
+#. ("http://www.freecycle.org/tos")
+#: templates/source/signup.tt:71
+msgid "I agree to The Freecycle Network <a href='%1'>Terms of Service</a> and understand that the use of Yahoo!Groups is subject to their Terms of Service"
+msgstr ""
+
+#: templates/source/home/agree_to_tos.tt:27
+msgid "I agree to the Terms of Service"
+msgstr ""
+
+#: templates/source/index.tt:8
+msgid "I'm already a My Freecycle user!"
+msgstr ""
+
+#: templates/source/index.tt:30
+msgid "I'm not a My Freecycle user"
+msgstr ""
+
+#: templates/source/index.tt:35
+msgid "I'm not sure if I am..."
+msgstr ""
+
+#: templates/source/home/posts/manage/received_form.tt:17
+msgid "I've now RECEIVED this. Thank you to everyone who responded."
+msgstr ""
+
+#: templates/source/home/posts/new_okay.tt:21
+msgid ""
+"If you are on moderation (normally if this is your first post) then your message will not appear until a moderator has\n"
+"approved it. This measure is taken to stop spammers from joining groups and immediately posting junk - you should be taken\n"
+"off of moderation as soon as the group moderators are satisfied you're a genuine member.<br />\n"
+"If a moderator rejects your message, for whatever reason, you can go back and cancel it - this will remove it from the 'My Posts' tab."
+msgstr ""
+
+#: templates/source/home/info/delete_confirm.tt:13
+msgid "If you confirm this step, your account will be deleted. You will need to unsubscribe from any groups you are currently a member of - this will not be done automatically."
+msgstr ""
+
+#: templates/source/home/agree_to_tos.tt:23
+msgid "If you do not wish to agree to the Freecycle Network Terms of Service, you may delete your Freecycle membership account. Accounts that have not either agreed to the Terms of Service or have been deleted by their owners may be automatically deleted."
+msgstr ""
+
+#: templates/source/home/posts/manage/show.tt:96
+msgid "If you have a picture of the item (max file size: 256Kb), you can upload it now"
+msgstr ""
+
+#: templates/source/home/posts/new.tt:59
+msgid "If you have a picture of the item, you can upload it :<br />(max file size: 256Kb)"
+msgstr ""
+
+#. ('mailto: myfreecycleadmin@freecycle.org')
+#: templates/source/status.tt:9
+msgid "If you have any problems (that are not listed here) or feedback when using My Freecycle, please contact the <a href='%1'>admin team</a><br />For specific queries about groups, please contact the group moderators."
+msgstr ""
+
+#. ("/status")
+#: templates/lib/standard_header.tt:18
+msgid "If you have any problems or feedback when using My Freecycle, please check the <a href='%1'>status page</a><br /> For specific queries about groups, please contact your local group moderator whose contact info is noted at the top of each local group page"
+msgstr ""
+
+#. (uri_for('Root', 'oauth2', undef, undef, { provider=> 'facebook', referer => c.request.param('referer')
+#: templates/source/index.tt:23
+msgid "If you have authorised the Freecycle Facebook application, you can <a href=\"%1\">log in with your Facebook account</a>"
+msgstr ""
+
+#: templates/source/home/groups/seach_optout.tt:31
+msgid "If you wish to join this group, you may do so directly at the Yahoo!Groups page:"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:102
+msgid ""
+"If you're a member of groups running on Yahoo!Groups you will need to find and 'join' the groups here. We cannot automatically detect your group memberships due to the Yahoo! Terms of Service.<br />\n"
+"This system will automatically try and join your address to the Yahoo!Group - you should receive an automated email from Yahoo! either saying that you're an existing member, or to confirm your membership (if your registered 'My Freecycle' email address is different to your Yahoo! one.)<br />\n"
+"If you are already a member, you can immediately select the 'My join request has been approved'. Please note that this system is entirely separate from Yahoo!Groups - saying that your request has been approved will not magically join you to the group.<br />\n"
+"<br />\n"
+"Tip: Search for the unique Yahoo!Group name to find individual groups."
+msgstr ""
+
+#: templates/source/404.tt:8
+msgid ""
+"If you're already logged in, you might want to look at\n"
+"  <a href='/home/info'>your account information</a>,\n"
+"  <a href='/home/groups'>the Groups you are a Member of</a>, or\n"
+"  <a href='/home/posts'>the Posts you have made</a>."
+msgstr ""
+
+#: templates/source/signup.tt:64
+msgid "If you're having problems with CAPTCHAs, you can check this box to request an email confirmation. You will be sent a randomly generated password which you will need to use to log into My Freecycle"
+msgstr ""
+
+#. (uri_for('Root', 'signup')
+#: templates/source/index.tt:37
+msgid "If your email address hasn't been registered before, you can use the <a href='%1'>signup form</a> to create your new account for free"
+msgstr ""
+
+#. (postinfo.post_id)
+#: templates/source/home/posts/manage/show.tt:113
+msgid "Image for post %1"
+msgstr ""
+
+#: templates/source/home/posts/display_issues.tt:20
+msgid "Images are only accepted in JPEG, GIF and PNG format"
+msgstr ""
+
+#: templates/source/home/info/change_password.tt:21
+msgid "In certain cases you may be required to change your password (usually if you have just signed up or requested a new password) - if you find yourself here unexpectedly, this may be the case.  Please check the web address in your browser to make sure it doesn't contain anything suspicious (a phishing attempt, for example) and if you're in <b>any</b> doubt then open a new browser window and type in 'freecycle.org' yourself."
+msgstr ""
+
+#: templates/source/index.tt:49
+msgid "Incorrect username/password"
+msgstr ""
+
+#: templates/source/signup.tt:216
+msgid "Invalid country"
+msgstr ""
+
+#: templates/source/signup.tt:152 templates/source/signup.tt:165
+msgid "Invalid email address"
+msgstr ""
+
+#: templates/source/signup.tt:217
+msgid "Invalid region"
+msgstr ""
+
+#: templates/source/signup.tt:125 templates/source/signup.tt:138
+msgid "Invalid username"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:237
+msgid "Invitations"
+msgstr ""
+
+#. (i.sent_date)
+#: templates/source/home/groups/index.tt:242
+msgid "Invited on : %1"
+msgstr ""
+
+#: templates/source/home/posts/new.tt:31
+msgid "It's a request for a WANTED item"
+msgstr ""
+
+#: templates/source/home/posts/new.tt:30
+msgid "It's an OFFER of an item"
+msgstr ""
+
+#. (groupname)
+#: templates/source/home/groups/seach_optout.tt:34
+msgid "Join the %1 group on Yahoo!Groups"
+msgstr ""
+
+#: templates/source/home/groups/search.tt:111
+msgid "Join this group"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:130
+msgid "Joined/Applied : "
+msgstr ""
+
+#: templates/source/home/groups/index.tt:125 templates/source/home/groups/options_display.tt:36 templates/source/home/groups/options_display.tt:73
+msgid "Lead Moderator"
+msgstr ""
+
+#: templates/source/home/groups/options_display.tt:57 templates/source/home/groups/options_display.tt:58
+msgid "Leave this Group"
+msgstr ""
+
+#: templates/source/index.tt:19
+msgid "Log in"
+msgstr ""
+
+#: templates/source/home/posts/index.tt:26 templates/source/home/posts/index.tt:27
+msgid "Make a new post"
+msgstr ""
+
+#: templates/source/home/posts/new.tt:64
+msgid "Make the post"
+msgstr ""
+
+#: templates/source/home/posts/index.tt:62 templates/source/home/posts/index.tt:63
+msgid "Manage"
+msgstr ""
+
+#: templates/source/home/posts/manage/show.tt:14
+msgid "Manage this Post"
+msgstr ""
+
+#: templates/source/home/posts/manage/show.tt:87 templates/source/home/posts/manage/show.tt:88
+msgid "Mark as RECEIVED and remove"
+msgstr ""
+
+#: templates/source/home/posts/manage/show.tt:82 templates/source/home/posts/manage/show.tt:83
+msgid "Mark as TAKEN and remove"
+msgstr ""
+
+#. (num_of_results)
+#: templates/source/home/groups/search.tt:87
+msgid "Matched %1 Groups"
+msgstr ""
+
+#: templates/source/home/groups/search.tt:89
+msgid "Matched 1 Group"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:123 templates/source/home/groups/options_display.tt:34 templates/source/home/groups/options_display.tt:70
+msgid "Member"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:118 templates/source/home/groups/options_display.tt:26
+msgid "Membership level : "
+msgstr ""
+
+#: templates/source/home/groups/contact_mods_form.tt:66
+msgid "Message : "
+msgstr ""
+
+#: templates/lib/standard_login_info.tt:69
+msgid "Moderate"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:124 templates/source/home/groups/options_display.tt:35 templates/source/home/groups/options_display.tt:71
+msgid "Moderator"
+msgstr ""
+
+#: templates/lib/standard_login_info.tt:40
+msgid "My Freecycle"
+msgstr ""
+
+#: templates/source/home/posts/recently_closed.tt:1
+msgid "My Freecycle - recently expired Posts"
+msgstr ""
+
+#: templates/lib/box_tabbar.tt:18 templates/lib/standard_login_info.tt:42 templates/lib/standard_login_info.tt:53
+msgid "My Groups"
+msgstr ""
+
+#: templates/lib/box_tabbar.tt:19 templates/lib/standard_login_info.tt:41
+msgid "My Info"
+msgstr ""
+
+#: templates/lib/box_tabbar.tt:17 templates/lib/standard_login_info.tt:43
+msgid "My Posts"
+msgstr ""
+
+#: templates/source/forgottenpassword.tt:121
+msgid "New password generated"
+msgstr ""
+
+#: templates/source/home/info/change_username.tt:14
+msgid "New username"
+msgstr ""
+
+#: templates/lib/standard_login_info.tt:60
+msgid "No Groups"
+msgstr ""
+
+#: templates/source/forgottenusername.tt:39
+msgid "No account with that email address could be found in the database. You may have registered with another email address."
+msgstr ""
+
+#: templates/source/home/groups/search.tt:78
+msgid "No groups matched your search terms"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:140 templates/source/home/groups/options_display.tt:85
+msgid "None apart from ADMINs"
+msgstr ""
+
+#: templates/lib/standard_macros.tt:14 templates/source/home/posts/manage/show.tt:33
+msgid "OFFER"
+msgstr ""
+
+#: templates/lib/box_tabbar.tt:12 templates/lib/box_tabbar.tt:7
+msgid "Offers"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:141 templates/source/home/groups/options_display.tt:86
+msgid "One for each Post"
+msgstr ""
+
+#: templates/source/404.tt:3
+msgid "Oops!"
+msgstr ""
+
+#: templates/source/errors.tt:18
+msgid "Oops..."
+msgstr ""
+
+#: templates/source/signup.tt:44
+msgid "Password"
+msgstr ""
+
+#: templates/source/index.tt:16
+msgid "Password : "
+msgstr ""
+
+#: templates/source/signup.tt:179
+msgid "Passwords don't match"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:121 templates/source/home/groups/options_display.tt:32
+msgid "Pending approval"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:122 templates/source/home/groups/options_display.tt:33
+msgid "Pending unsubscribe"
+msgstr ""
+
+#. (uri_for('Root', 'login')
+#: templates/lib/standard_login_info.tt:18
+msgid "Please <a href='%1'>log in</a> or <a href='%2'>sign up</a>"
+msgstr ""
+
+#: templates/source/home/info/change_email_address.tt:17
+msgid "Please ensure you have entered the new email address in twice, and that both entries are the same"
+msgstr ""
+
+#: templates/source/home/info/change_password.tt:25
+msgid "Please ensure you have entered the new password in twice, and that both entries are the same"
+msgstr ""
+
+#: templates/source/home/posts/display_issues.tt:46
+msgid "Please enter some more details about this post"
+msgstr ""
+
+#: templates/source/home/posts/display_issues.tt:34
+msgid "Please enter something for the short description"
+msgstr ""
+
+#: templates/source/home/posts/display_issues.tt:40
+msgid "Please enter something for your location - it allows people to quickly see how far they may need to travel"
+msgstr ""
+
+#. (mmaker.maximum_location_length)
+#: templates/source/home/posts/display_issues.tt:42
+msgid "Please enter something shorter for your location - the group has a limit of %1 letters"
+msgstr ""
+
+#: templates/source/forgottenusername.tt:16
+msgid "Please enter your registered email address and your username will be sent to you."
+msgstr ""
+
+#: templates/source/forgottenpassword.tt:91
+msgid "Please enter your username and registered email address."
+msgstr ""
+
+#: templates/source/home/groups/contact_mods_sent.tt:28
+msgid "Please give the moderators time to read your message before sending them another - group moderators are all volunteers, and so may not be at their computers checking their messages all the time."
+msgstr ""
+
+#: templates/source/signup.tt:166
+msgid "Please make sure you've entered your email address correctly in both fields"
+msgstr ""
+
+#: templates/source/signup.tt:153
+msgid "Please make sure you've entered your email address in correctly"
+msgstr ""
+
+#: templates/source/signup.tt:221
+msgid "Please make sure you've entered your email address in correctly in both fields"
+msgstr ""
+
+#: templates/source/signup.tt:180
+msgid "Please make sure you've entered your password correctly in both fields"
+msgstr ""
+
+#: templates/lib/box_tabbar.tt:38
+msgid "Please select a \"home\" Group"
+msgstr ""
+
+#: templates/source/home/posts/display_issues.tt:16
+msgid "Please select a group from the list"
+msgstr ""
+
+#: templates/source/home/posts/new.tt:37
+msgid "Please select a group:"
+msgstr ""
+
+#: templates/source/home/posts/index.tt:44 templates/source/home/posts/recently_closed.tt:17
+msgid "Post ID"
+msgstr ""
+
+#: templates/source/home/posts/manage/show.tt:18
+msgid "Post ID: "
+msgstr ""
+
+#: templates/source/home/posts/index.tt:46 templates/source/home/posts/recently_closed.tt:19
+msgid "Post Subject"
+msgstr ""
+
+#: templates/source/home/posts/index.tt:45 templates/source/home/posts/recently_closed.tt:18
+msgid "Post Type"
+msgstr ""
+
+#: templates/source/home/posts/display_issues.tt:3
+msgid "Post errors"
+msgstr ""
+
+#: templates/source/home/posts/manage/show.tt:58
+msgid "Post image : "
+msgstr ""
+
+#: templates/source/home/posts/manage/show.tt:39
+msgid "Post location: "
+msgstr ""
+
+#: templates/source/home/posts/manage/show.tt:43
+msgid "Post status: "
+msgstr ""
+
+#: templates/source/home/posts/manage/show.tt:26
+msgid "Post title: "
+msgstr ""
+
+#: templates/source/home/posts/new.tt:35
+msgid "Post to :"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:166
+msgid "Post to this Group"
+msgstr ""
+
+#: templates/source/home/posts/manage/show.tt:30
+msgid "Post type: "
+msgstr ""
+
+#: templates/source/home/posts/display_issues.tt:29
+msgid "Post warnings"
+msgstr ""
+
+#: templates/source/home/posts/manage/show.tt:22
+msgid "Posted on : "
+msgstr ""
+
+#: templates/source/home/posts/index.tt:48
+msgid "Posted on:"
+msgstr ""
+
+#: templates/source/home/posts/manage/show.tt:53
+msgid "Posted to : "
+msgstr ""
+
+#: templates/source/home/posts/index.tt:47 templates/source/home/posts/recently_closed.tt:20
+msgid "Posted to:"
+msgstr ""
+
+#: templates/lib/standard_macros.tt:17
+msgid "RECEIVED"
+msgstr ""
+
+#: templates/source/home/posts/recently_closed.tt:33 templates/source/home/posts/recently_closed.tt:34
+msgid "Re-open"
+msgstr ""
+
+#: templates/source/home/posts/index.tt:30 templates/source/home/posts/index.tt:31 templates/source/home/posts/recently_closed.tt:3
+msgid "Recently expired Posts"
+msgstr ""
+
+#: templates/source/forgottenpassword.tt:100
+msgid "Request new password"
+msgstr ""
+
+#: templates/source/forgottenusername.tt:23
+msgid "Request username"
+msgstr ""
+
+#: templates/source/home/info/change_email_address.tt:35
+msgid "Save new email address"
+msgstr ""
+
+#: templates/source/home/info/change_password.tt:33
+msgid "Save new password"
+msgstr ""
+
+#: templates/source/home/groups/contact_mods_form.tt:69
+msgid "Send Message"
+msgstr ""
+
+#: templates/source/home/posts/manage/received_form.tt:18
+msgid "Send RECEIVED message"
+msgstr ""
+
+#: templates/source/home/posts/manage/taken_form.tt:18
+msgid "Send TAKEN message"
+msgstr ""
+
+#: templates/source/home/groups/home.tt:26
+msgid "Set 'home' Group"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:195
+msgid "Set as 'home' group"
+msgstr ""
+
+#. (group.group_name)
+#: templates/source/home/groups/options_display.tt:23
+msgid "Settings for %1"
+msgstr ""
+
+#: templates/source/home/posts/new.tt:46
+msgid "Short description :"
+msgstr ""
+
+#: templates/source/signup.tt:75
+msgid "Sign up"
+msgstr ""
+
+#: templates/source/signup.tt:15
+msgid "Sign up for My Freecycle"
+msgstr ""
+
+#: templates/source/signup.tt:24
+msgid "Sign up form"
+msgstr ""
+
+#: templates/source/signup.tt:93
+msgid "Sign up using Facebook"
+msgstr ""
+
+#: templates/source/signup.tt:25
+msgid "Sign up using freecycle.org"
+msgstr ""
+
+#: templates/source/errors.tt:21
+msgid "Something went wrong while trying to serve this page - please try again in a little while"
+msgstr ""
+
+#: templates/source/home/groups/contact_mods_form.tt:63
+msgid "Subject :"
+msgstr ""
+
+#: templates/lib/standard_macros.tt:16
+msgid "TAKEN"
+msgstr ""
+
+#: templates/source/index.tt:67
+msgid "Temporary error with the third-party provider - they may be having issues authorising logins. Please try again later, or log in with your My Freecycle username and password to continue"
+msgstr ""
+
+#: templates/source/home/groups/join_group.tt:15
+msgid "Thank you for using The Freecycle Network. You are now a member of the largest gifting and reuse network on the planet. You've automatically been registered as a member of the local Group in which you clicked the 'Join' button."
+msgstr ""
+
+#: templates/source/signup.tt:214
+msgid "That email address is already signed up"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:223
+msgid "That group cannot be found"
+msgstr ""
+
+#: templates/source/signup.tt:213
+msgid "That username is already taken"
+msgstr ""
+
+#: templates/source/index.tt:4
+msgid "The 'My Freecycle' site is aimed at making your experience of The Freecycle Network&trade; easier and more pleasant. Quickly and easily make and manage your Group memberships and Posts."
+msgstr ""
+
+#: templates/source/signup.tt:222
+msgid "The CAPTCHA was incorrect"
+msgstr ""
+
+#: templates/source/home/agree_to_tos.tt:14
+msgid "The Freecycle Network Terms of Service"
+msgstr ""
+
+#: templates/lib/standard_header.tt:17 templates/source/errors.tt:14
+msgid "The Freecycle Network logo"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:225
+msgid "The group has been removed"
+msgstr ""
+
+#: templates/source/home/posts/manage/show.tt:61
+msgid "The image is awaiting moderator approval"
+msgstr ""
+
+#: templates/source/home/posts/display_issues.tt:18
+msgid "The image you uploaded was too big"
+msgstr ""
+
+#: templates/source/home/groups/contact_mods_form.tt:60
+msgid "The moderator(s) of group.group_name"
+msgstr ""
+
+#: templates/source/home/groups/seach_optout.tt:28
+msgid "The moderators of this group have decided to opt-out of allowing members to use the \"My Freecycle\" facility for this group. Group moderators are empowered to make certain policy decisions regarding the running of the groups they look after, and as such the responsibility for making this decision is theirs. Other groups may still allow the use of this facility - the decision is made on a per-group basis."
+msgstr ""
+
+#: templates/source/404.tt:5
+msgid "The page you were looking for cannot be found!"
+msgstr ""
+
+#. (post_matches.join(", ")
+#: templates/source/home/posts/display_issues.tt:52
+msgid "The post appears to be a duplicate of these Posts : %1"
+msgstr ""
+
+#. (mmaker.maximum_description_caps_percentage)
+#: templates/source/home/posts/display_issues.tt:50
+msgid "The post body has too many capitals  - this group has a limit of %1%"
+msgstr ""
+
+#. (mmaker.maximum_description_length)
+#: templates/source/home/posts/display_issues.tt:48
+msgid "The post body is too long - this group has a limit of %1 letters"
+msgstr ""
+
+#. (mmaker.maximum_item_caps_percentage)
+#: templates/source/home/posts/display_issues.tt:38
+msgid "The post description has too many capitals  - this group has a limit of %1%"
+msgstr ""
+
+#. (mmaker.maximum_item_length)
+#: templates/source/home/posts/display_issues.tt:36
+msgid "The post description is too long - this group has a limit of %1 letters"
+msgstr ""
+
+#. (mmaker.maximum_location_caps_percentage)
+#: templates/source/home/posts/display_issues.tt:44
+msgid "The post location has too many capitals  - this group has a limit of %1%"
+msgstr ""
+
+#: templates/source/home/groups/set_email_confirmed.tt:14
+msgid "The request has been sent to Yahoo!Groups for processing."
+msgstr ""
+
+#: templates/source/home/posts/display_issues.tt:8
+msgid "The short description is not valid"
+msgstr ""
+
+#: templates/source/forgottenpassword.tt:106
+msgid "The site administrators have been informed of the problem."
+msgstr ""
+
+#: templates/source/signup.tt:212
+msgid "The username or email address was invalid"
+msgstr ""
+
+#: templates/source/forgottenpassword.tt:118
+msgid "The username/email combination could not be found in the database."
+msgstr ""
+
+#. (group.admins.size)
+#: templates/source/home/groups/index.tt:85
+msgid "There are %1 ADMIN message(s) for this Group - please make sure you've read them"
+msgstr ""
+
+#: templates/source/home/posts/manage/show.tt:64
+msgid "There is no image for this Post"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:227
+msgid "There was a problem sending the email - your request may not have been fulfilled"
+msgstr ""
+
+#: templates/source/forgottenpassword.tt:109
+msgid "There was a problem sending you the password"
+msgstr ""
+
+#: templates/source/forgottenpassword.tt:103
+msgid "There was an error generating a new password for you"
+msgstr ""
+
+#: templates/source/signup.tt:215
+msgid "There was an error sending the notification email"
+msgstr ""
+
+#: templates/source/home/info/index.tt:101
+msgid "This My Freecycle account is associated with this Facebook account : "
+msgstr ""
+
+#: templates/source/home/posts/manage/taken_form.tt:17
+msgid "This has now been taken. Thank you to everyone who has shown an interest."
+msgstr ""
+
+#: templates/source/errors.tt:22
+msgid "This incident has been automatically reported"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:77
+msgid "This is your home (default) Group"
+msgstr ""
+
+#: templates/source/home/posts/manage/received_form.tt:14
+msgid "This item will be marked as RECEIVED and removed from the Group.<br />If you want to edit the message, you can do so below :"
+msgstr ""
+
+#: templates/source/home/posts/manage/taken_form.tt:14
+msgid "This item will be marked as TAKEN and removed from the Group.<br />If you want to edit the message, you can do so below :"
+msgstr ""
+
+#: templates/source/home/info/change_email_address.tt:21
+msgid "This may be because this email address is used for another account (you can only have one account per email address) or because the email address is invalid."
+msgstr ""
+
+#: templates/source/status.tt:5
+msgid "This site has been rewritten to make it easier for us to add new features and fix any problems as they arise. Although we've done as much testing as we possible, there's still the chance that we've missed some issues - please report them, including as much detail about how to recreate the problem as possible (if we can reproduce the problem, it's <b>so</b> much easier to fix!)"
+msgstr ""
+
+#: templates/source/home/info/save_password.tt:17
+msgid "This will not affect your current session, but you will need your new password when you next log in."
+msgstr ""
+
+#: templates/source/home/groups/contact_mods_form.tt:54
+msgid "To :"
+msgstr ""
+
+#: templates/source/home/groups/join_too_many.tt:3
+msgid "Too many Groups!"
+msgstr ""
+
+#. (uri_for('Root', 'forgottenusername')
+#: templates/source/index.tt:36
+msgid "Try the <a href='%1'>forgotten username form</a> and see if your email address has been registered before. If it has, you'll be sent a reminder of your username, which you can then use in the <a href='%2'>forgotten password form</a> to get a new, temporary password sent to you."
+msgstr ""
+
+#. (e)
+#: templates/source/index.tt:55
+msgid "Untrapped error '%1' - please report this!"
+msgstr ""
+
+#: templates/source/home/posts/manage/show.tt:99
+msgid "Upload image"
+msgstr ""
+
+#: templates/source/forgottenpassword.tt:115 templates/source/forgottenusername.tt:38
+msgid "User not found"
+msgstr ""
+
+#: templates/source/forgottenpassword.tt:94 templates/source/index.tt:13 templates/source/signup.tt:29
+msgid "Username :"
+msgstr ""
+
+#. (username)
+#: templates/source/home/info/index.tt:43
+msgid "Username : %1"
+msgstr ""
+
+#: templates/source/forgottenusername.tt:42
+msgid "Username sent"
+msgstr ""
+
+#: templates/source/signup.tt:139
+msgid "Usernames may only contain the letters, numbers, underscores, minus signs and plus signs"
+msgstr ""
+
+#: templates/source/home/info/change_username.tt:5
+msgid "Usernames must"
+msgstr ""
+
+#: templates/source/signup.tt:126
+msgid "Usernames must be at least 4 characters long"
+msgstr ""
+
+#: templates/source/signup.tt:20
+msgid "Usernames must be between 4 and 32 characters in length, start with a letter or number, and may only contain alphanumeric characters (A-Z, 0-9), underscores (_) and plus (+) or minus (-) signs."
+msgstr ""
+
+#: templates/source/home/groups/index.tt:172
+msgid "View the Posts"
+msgstr ""
+
+#: templates/lib/standard_macros.tt:15 templates/source/home/posts/manage/show.tt:34
+msgid "WANTED"
+msgstr ""
+
+#: templates/source/home/posts/manage/show.tt:48
+msgid "Waiting for Moderator approval"
+msgstr ""
+
+#: templates/lib/box_tabbar.tt:13 templates/lib/box_tabbar.tt:8
+msgid "Wanteds"
+msgstr ""
+
+#: templates/source/home/groups/join_group.tt:21
+msgid "We hope you have fun as the newest member of this globally local and volunteer-run Freecycle Group!"
+msgstr ""
+
+#: templates/source/home/posts/new.tt:50
+msgid "What is your approximate location?"
+msgstr ""
+
+#: templates/source/home/posts/new.tt:27
+msgid "What type of post is this?"
+msgstr ""
+
+#. (groups.leadmod)
+#: templates/source/home/info/index.tt:31
+msgid "You are a LeadMod of %1 Group(s)"
+msgstr ""
+
+#. (group_counts.leadmod)
+#: templates/source/home/groups/index.tt:42
+msgid "You are a LeadMod of [_1} group(s)."
+msgstr ""
+
+#. (groups.moderator)
+#: templates/source/home/info/index.tt:27
+msgid "You are a Moderator of %1 Group(s)"
+msgstr ""
+
+#. (group_counts.moderator)
+#: templates/source/home/groups/index.tt:39
+msgid "You are a Moderator of %1 group(s)."
+msgstr ""
+
+#. (groups.member)
+#: templates/source/home/info/index.tt:23
+msgid "You are a member of %1 Group(s)"
+msgstr ""
+
+#. (group_counts.member)
+#: templates/source/home/groups/index.tt:36
+msgid "You are a member of %1 group(s)."
+msgstr ""
+
+#: templates/source/home/groups/search.tt:105
+msgid "You are already a Lead Moderator of this Group"
+msgstr ""
+
+#: templates/source/home/groups/join_too_many.tt:6
+msgid "You are already a Member of 20 Freecycle Groups - this should be more than sufficient. If you wish to join another Freecycle Group, you must leave one first."
+msgstr ""
+
+#: templates/source/home/groups/search.tt:102
+msgid "You are already a Moderator of this Group"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:221
+msgid "You are already subscribed to the maximum number of groups"
+msgstr ""
+
+#. (c.user.getUsername()
+#: templates/lib/standard_login_info.tt:32
+msgid "You are logged in as %1"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:99
+msgid "You are not a member of any groups."
+msgstr ""
+
+#: templates/source/home/posts/new.tt:54
+msgid "You can add more details here :"
+msgstr ""
+
+#: templates/source/home/agree_to_tos.tt:20
+msgid "You can always access the Freecycle Network Terms of Service at this address: "
+msgstr ""
+
+#: templates/source/home/info/index.tt:108 templates/source/home/info/index.tt:116 templates/source/home/info/index.tt:122
+msgid "You can associate the accounts <a href='#' onclick='set_fb_id()'>here</a>"
+msgstr ""
+
+#: templates/source/home/groups/home.tt:4
+msgid "You can nominate one of the Groups you belong to as your most local, 'home' Group. This Group will be used by default wherever possible (like, for example, when making a new Post)."
+msgstr ""
+
+#. (groupURL)
+#: templates/source/home/posts/new_okay.tt:29
+msgid "You can return to your <a href='/home/posts'>posts</a> page, go to the <a href='%1'>group page</a> or use any of the tabs above to continue."
+msgstr ""
+
+#: templates/source/home/info/change_password.tt:17
+msgid "You can use this form to change your login password for 'My Freecycle'."
+msgstr ""
+
+#: templates/source/home/info/change_email_address.tt:26
+msgid "You can use this form to change your registered email address.<br />Please note that email addresses must be unique - you cannot use an email address already assigned to a different 'My Freecycle' account."
+msgstr ""
+
+#: templates/source/signup.tt:193
+msgid "You cannot use My Freecycle without agreeing to the Terms of Service"
+msgstr ""
+
+#: templates/source/signup.tt:220
+msgid "You cannot use this service without agreeing to the Terms of Service"
+msgstr ""
+
+#. ('/home/groups')
+#: templates/lib/box_tabbar.tt:39
+msgid "You currently do not have a \"home\" Group selected - please choose one from <a href=\"%1\">your Group Membership list</a>"
+msgstr ""
+
+#: templates/source/index.tt:66
+msgid "You didn't authorise the third-party application - unless you authorise My Freecycle to access your account details, we cannot log you in"
+msgstr ""
+
+#: templates/source/home/posts/new.tt:72
+msgid "You do not belong to any groups yet!"
+msgstr ""
+
+#: templates/source/home/groups/home.tt:12
+msgid "You do not currently have a 'home' Group"
+msgstr ""
+
+#. (groups.pending)
+#: templates/source/home/info/index.tt:19
+msgid "You have %1 Group membership(s) waiting for approval."
+msgstr ""
+
+#. (posts.size)
+#: templates/source/home/posts/index.tt:40
+msgid "You have %1 Post(s) open"
+msgstr ""
+
+#. (group_counts.pending)
+#: templates/source/home/groups/index.tt:33
+msgid "You have %1 group membership(s) waiting for approval. "
+msgstr ""
+
+#. (posts.numPosts)
+#: templates/source/home/info/index.tt:16
+msgid "You have %1 post(s) open"
+msgstr ""
+
+#: templates/source/home/groups/search.tt:99
+msgid "You have already joined this group"
+msgstr ""
+
+#: templates/source/home/groups/index.tt:238
+msgid "You have been invited to join the following groups:"
+msgstr ""
+
+#: templates/source/home/posts/index.tt:75
+msgid "You have no open posts"
+msgstr ""
+
+#: templates/source/home/posts/recently_closed.tt:43
+msgid "You have no recently expired Posts"
+msgstr ""
+
+#. ("http://groups.freecycle.org/$group_unique_name","http://my.freecycle.org/home/posts/$group_unique_name/post_to_group","http://my.freecycle.org/home/groups/$group_unique_name/options")
+#: templates/source/home/groups/join_group.tt:18
+msgid "You may view the most recent Posts of this Group by clicking <a href='%1'>here</a>. You may make a Post by clicking <a href='%2'>here</a>. Or, you may edit your membership settings by clicking <a href='%3'>here</a>."
+msgstr ""
+
+#: templates/source/signup.tt:192
+msgid "You must accept the Terms of Service"
+msgstr ""
+
+#: templates/source/home/posts/display_issues.tt:12
+msgid "You must enter more details for this post"
+msgstr ""
+
+#: templates/source/home/posts/display_issues.tt:14
+msgid "You must enter something for the location"
+msgstr ""
+
+#: templates/source/home/posts/display_issues.tt:10
+msgid "You must enter something for the short description"
+msgstr ""
+
+#: templates/source/home/posts/new.tt:74
+msgid "You need to <a href='/home/groups'>join some groups</a> before you can post (please see your groups page for notes regarding membership to existing Yahoo!Groups)"
+msgstr ""
+
+#: templates/source/forgottenusername.tt:43
+msgid "You should receive an email with your username in soon."
+msgstr ""
+
+#: templates/source/forgottenpassword.tt:124
+msgid "You should receive your new password soon."
+msgstr ""
+
+#: templates/source/signup.tt:17
+msgid "You will need to create an account before you can use My Freecycle. You will need to pick a unique username and enter a valid email address that you read. If you are an existing Yahoo!Groups user, it is recommended that you either use your registered Yahoo! email address or add the new address to your Yahoo! profile."
+msgstr ""
+
+#: templates/source/home/info/index.tt:38
+msgid "You will need to join some Groups before you can start finding the items available through The Freecycle Network. Click on the 'My Groups' tab and you can search for Groups near you."
+msgstr ""
+
+#: templates/source/home/info/index.tt:106
+msgid "Your Facebook account is not linked to this My Freecycle account"
+msgstr ""
+
+#: templates/source/index.tt:65
+msgid "Your My Freecycle account is not associated - you need to log in with your My Freecycle username and password and associate your account before you can use a third-party login provider"
+msgstr ""
+
+#: templates/source/home/delete_account.tt:12
+msgid "Your account has been closed"
+msgstr ""
+
+#: templates/source/signup_okay.tt:14
+msgid "Your account has been created, and an email with your password in has been sent. You will need this password to log in for the first time, after which you can change it to something you prefer. Please check any 'Junk' and 'spam' folders in case the email has been quarantined."
+msgstr ""
+
+#. (home_group.getGroupName()
+#: templates/source/home/groups/home.tt:10
+msgid "Your current 'home' Group is: %1"
+msgstr ""
+
+#: templates/source/home/info/save_email.tt:13
+msgid "Your email address has been successfully changed"
+msgstr ""
+
+#: templates/source/home/groups/search.tt:96
+msgid "Your membership to this group is still pending"
+msgstr ""
+
+#: templates/source/home/posts/new_okay.tt:13
+msgid "Your message has been posted"
+msgstr ""
+
+#: templates/source/home/groups/contact_mods_sent.tt:25
+msgid "Your message has been sent"
+msgstr ""
+
+#: templates/source/home/info/change_email_address.tt:19
+msgid "Your new email address could not be saved"
+msgstr ""
+
+#. (post_id)
+#: templates/source/home/posts/new_okay.tt:16
+msgid "Your new message has been sent to the Group. This message has been given the ID number #%1."
+msgstr ""
+
+#: templates/source/forgottenpassword.tt:112
+msgid "Your password has been changed, but an error occured whilst trying to send you your new password."
+msgstr ""
+
+#: templates/source/home/info/save_password.tt:14
+msgid "Your password has been successfully changed"
+msgstr ""
+
+#: templates/source/index.tt:63
+msgid "Your third-party login attempt failed - the most common causes are:"
+msgstr ""
+
+#: templates/source/home/info/change_username.tt:7
+msgid "be between 4 and 32 characters in length"
+msgstr ""
+
+#: templates/source/home/info/index.tt:51
+msgid "change"
+msgstr ""
+
+#: templates/source/home/info/change_username.tt:9
+msgid "contain only alphanumeric characters (A-Z, 0-9), underscores (_) and plus (+) or minus (-) signs."
+msgstr ""
+
+#: templates/source/signup.tt:81
+msgid "or"
+msgstr ""
+
+#: templates/source/home/info/change_username.tt:8
+msgid "start with a letter or number"
+msgstr ""

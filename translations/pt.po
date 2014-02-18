@@ -1,40 +1,51 @@
+# #-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Freecycle.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Richard Wallman <richard@wallman.org.uk>\n"
+"Language-Team:  <richard.wallman@freecycle.org>\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #. (group.groupname, post.type, post.post_subject, post.location)
 #: templates/source/group/posts/display_post.tt:3
+#, fuzzy
 msgid "%1 Freecycle - %2: %3 (%4)"
-msgstr ""
+msgstr "My Freecycle"
 
 #. (group.pending_members)
 #: templates/source/index.tt:26
+#, fuzzy
 msgid "%1 Member(s) pending approval"
-msgstr ""
+msgstr "(aguardando aprovação do moderador)"
 
 #. (group.membercount)
 #: templates/lib/group_box.tt:11
+#, fuzzy
 msgid "%1 Members"
-msgstr ""
+msgstr "Membro"
 
 #. (group.pending_posts)
 #. (group.pending_images)
 #: templates/source/index.tt:31 templates/source/index.tt:36
+#, fuzzy
 msgid "%1 Post(s) pending approval"
-msgstr ""
+msgstr "(aguardando aprovação do moderador)"
 
 #: templates/source/tos.tt:38
 msgid "'stalk' or otherwise harass anyone;"
@@ -50,20 +61,21 @@ msgstr ""
 #: templates/source/home/posts/index.tt:55
 #: templates/source/home/posts/recently_closed.tt:27
 msgid "(awaiting Mod approval)"
-msgstr ""
+msgstr "(aguardando aprovação do moderador)"
 
 #: templates/source/home/posts/manage/show.tt:130
 #: templates/source/group/posts/display_post.tt:85
 msgid "(click on the thumbnail for full size image)"
-msgstr ""
+msgstr "(Clique no ícone para ver a imagem em tamanho grande)"
 
 #: templates/source/home_group_box_search.tt:18
+#, fuzzy
 msgid "(e.g. <b>Tucson, Arizona</b> or <b>\"milton keynes\"</b>)"
-msgstr ""
+msgstr "(e.g. Tucson, Arizona ou \"milton keynes\")"
 
 #: templates/source/home/groups/index.tt:75
 msgid "(home Group)"
-msgstr ""
+msgstr "(\"home Group\")"
 
 #: templates/source/manage/files/edit.tt:36
 #: templates/source/manage/files/new_file.tt:24
@@ -88,13 +100,16 @@ msgstr ""
 
 #: templates/source/home/info/index.tt:50
 msgid "(not set)"
-msgstr ""
+msgstr "(não definido)"
 
 #: templates/source/home/groups/join_group.tt:24
 msgid ""
 "(please note that some local Groups do require approval of new Members and/"
 "or Posts and it may take a day or two before you are able to post)"
 msgstr ""
+"(por favor repare que alguns grupos requerem aprovação de novos membros e/ou "
+"anúncios e que, como tal, pode demorar um ou mais dias até que o anúncio "
+"seja publicado)"
 
 #: templates/source/manage/files/edit.tt:75
 msgid "(this file is of a type that cannot be edited online)"
@@ -102,7 +117,7 @@ msgstr ""
 
 #: templates/source/home/posts/new.tt:29
 msgid "--- Please choose a type ---"
-msgstr ""
+msgstr "--- Se faz favor escolha um tipo ---"
 
 #: templates/source/about/pressroom.tt:36
 msgid ""
@@ -130,8 +145,9 @@ msgid ""
 msgstr ""
 
 #: templates/source/tos.tt:6
+#, fuzzy
 msgid "1. Acceptance of Terms"
-msgstr ""
+msgstr "Concordo com os Termos de Utilização"
 
 #: templates/source/about/pressroom.tt:44
 msgid "1/15/2007 - The Freecycle Network surpasses 3 Million Members"
@@ -181,7 +197,7 @@ msgstr ""
 #. (My Freecycle" has been rewritten")
 #: templates/source/status.tt:3
 msgid "2010-04-01 : "
-msgstr ""
+msgstr "2010-04-01 :"
 
 #: templates/source/about/pressroom.tt:38
 msgid ""
@@ -197,8 +213,9 @@ msgid "4. Conduct"
 msgstr ""
 
 #: templates/source/tos.tt:46
+#, fuzzy
 msgid "5. No Spam Policy"
-msgstr ""
+msgstr "Não tem anúncios abertos"
 
 #: templates/source/about/pressroom.tt:43
 msgid ""
@@ -212,12 +229,14 @@ msgid ""
 msgstr ""
 
 #: templates/source/tos.tt:49
+#, fuzzy
 msgid "6. Limitations on Service"
-msgstr ""
+msgstr "Concordo com os Termos de Utilização"
 
 #: templates/source/tos.tt:52
+#, fuzzy
 msgid "7. Termination of Service"
-msgstr ""
+msgstr "Concordo com os Termos de Utilização"
 
 #: templates/source/tos.tt:55
 msgid "8. Dealings with Organizations and Individuals"
@@ -232,7 +251,7 @@ msgstr ""
 #. (uri_for('Root', 'logout')
 #: templates/lib/standard_login_info.tt:26
 msgid "<a href='%1'>Log out</a></li>"
-msgstr ""
+msgstr "<a href='%1'>Sair</a></li>"
 
 #: templates/source/tos.tt:75
 msgid ""
@@ -268,7 +287,7 @@ msgstr ""
 #: templates/source/home/groups/index.tt:144
 #: templates/source/home/groups/options_display.tt:90
 msgid "A digest of 25 Posts"
-msgstr ""
+msgstr "Um resumo de 25 Anúncios"
 
 #: templates/source/group/posts/report_thanks.tt:5
 msgid ""
@@ -278,7 +297,7 @@ msgstr ""
 
 #: templates/source/signup.tt:211 templates/source/signup.tt:219
 msgid "A temporary error has occurred"
-msgstr ""
+msgstr "Ocorreu um erro temporário"
 
 #: templates/source/about/pressroom.tt:92
 msgid ""
@@ -292,17 +311,19 @@ msgid "ADMIN"
 msgstr ""
 
 #: templates/lib/standard_menu.tt:8
+#, fuzzy
 msgid "About Freecycle&trade;"
-msgstr ""
+msgstr "O logotipo da Rede Freecycle"
 
 #: templates/source/home/groups/index.tt:248
 msgid "Accept invite"
-msgstr ""
+msgstr "Aceitar convite"
 
 #: templates/source/manage/files/edit.tt:52
 #: templates/source/manage/files/new_file.tt:40
+#, fuzzy
 msgid "Accessible to"
-msgstr ""
+msgstr "Anunciar para :"
 
 #: templates/source/home/agree_to_tos.tt:17
 msgid ""
@@ -310,15 +331,19 @@ msgid ""
 "Freecycle Network Terms of Service. As this is required of all Freecycle "
 "members, we'd ask that you please do so now."
 msgstr ""
+"De acordo com os dados da sua conta, ainda não concordou com os actuais "
+"Termos de Utilização da Freecycle Network. Visto que este é um requisito "
+"obrigatório a todos os membros do Freecycle, pedimos que complete esta "
+"tarefa agora."
 
 #: templates/source/signup_okay.tt:12
 msgid "Account Created"
-msgstr ""
+msgstr "Conta criada"
 
 #: templates/source/home/posts/index.tt:49
 #: templates/source/home/posts/recently_closed.tt:21
 msgid "Actions"
-msgstr ""
+msgstr "Ações"
 
 #: templates/source/home/info/index.tt:114
 #: templates/source/home/info/index.tt:120
@@ -326,6 +351,8 @@ msgid ""
 "Activate the Freecycle Facebook application to log in with your Facebook "
 "account"
 msgstr ""
+"Ativar a aplicação Freecycle Facebook para fazer login juntamente com a sua "
+"conta Facebook"
 
 #. (region.region_name)
 #: templates/source/browse/group_list.tt:12
@@ -341,17 +368,20 @@ msgid "Add link"
 msgstr ""
 
 #: templates/source/manage/files/index.tt:32
+#, fuzzy
 msgid "Add new file"
-msgstr ""
+msgstr "Confirme a nova password:"
 
 #: templates/lib/moderator_menu.tt:124
 #: templates/source/manage/links/index.tt:36
+#, fuzzy
 msgid "Add new link"
-msgstr ""
+msgstr "Confirme a nova password:"
 
 #: templates/source/manage/files/automatic.tt:101
+#, fuzzy
 msgid "Add this file"
-msgstr ""
+msgstr "Adira ao grupo"
 
 #: templates/source/tos.tt:34
 msgid "Additionally, you agree not to:"
@@ -359,7 +389,7 @@ msgstr ""
 
 #: templates/lib/box_tabbar.tt:6
 msgid "All Items"
-msgstr ""
+msgstr "Todos os artigos"
 
 #: templates/source/forgottenpassword.tt:88
 msgid ""
@@ -367,10 +397,13 @@ msgid ""
 "A new password will be generated and sent to you by email. You will need to "
 "change your password once you have logged in."
 msgstr ""
+"Todas as palavras-passe são guardadas e encriptadas, não podendo ser "
+"recuperadas. Uma nova palavra-passe será criada e enviada para o seu e-mail. "
+"Terá de mudar a palavra-passe quando fizer log in."
 
 #: templates/lib/box_tabbar.tt:11
 msgid "All posts"
-msgstr ""
+msgstr "Todos os anúncios"
 
 #: templates/source/about/staff.tt:24
 msgid ""
@@ -390,6 +423,9 @@ msgid ""
 "now (in case it was just a blip) or leave it for a bit and try again later "
 "(when the problem may have been fixed)"
 msgstr ""
+"Surgiu um erro quando tentámos enviar o e-mail. Pode tentar novamente (no "
+"caso de ter sido um erro momentâneo) ou esperar e tentar mais tarde (o "
+"problema poderá estar então resolvido)"
 
 #. (e)
 #: templates/source/home/posts/display_issues.tt:22
@@ -397,6 +433,8 @@ msgid ""
 "An unrecognised error was sent : '%1' - please report this to server."
 "admins@freecycle.org"
 msgstr ""
+"Foi enviado um erro não reconhecido : '%1' - por favor informe server."
+"admins@freecycle.org sobre este acontecimento"
 
 #. (e)
 #: templates/source/home/posts/display_issues.tt:54
@@ -404,6 +442,8 @@ msgid ""
 "An unrecognised warning was sent : '%1' - please report this to server."
 "admins@freecycle.org"
 msgstr ""
+"Foi enviado um aviso não reconhecido : '%1' - por favor dê conhecimento "
+"desta ocorrência para server.admins@freecycle.org"
 
 #: templates/source/about/staff.tt:28
 msgid "And, finally there are Richard, and Nigel, our Web Gurus."
@@ -429,12 +469,13 @@ msgid ""
 msgstr ""
 
 #: templates/source/manage/files/automatic.tt:13
+#, fuzzy
 msgid "Applying to join"
-msgstr ""
+msgstr "Adira ao grupo"
 
 #: templates/source/home/groups/options_display.tt:15
 msgid "Are you sure you want to leave this Group?"
-msgstr ""
+msgstr "Tem a certeza de que quer sair abandonar este Grupo?"
 
 #: templates/source/about/background.tt:9
 msgid ""
@@ -459,12 +500,13 @@ msgstr ""
 #: templates/source/home/groups/join_too_many.tt:14
 #: templates/source/home/groups/join_too_many.tt:15
 msgid "Back to 'My Groups'"
-msgstr ""
+msgstr "Voltar aos 'Meus Grupos'"
 
 #: templates/source/manage/files/delete_file.tt:30
 #: templates/source/manage/files/send_file.tt:30
+#, fuzzy
 msgid "Back to file list"
-msgstr ""
+msgstr "Voltar aos 'Meus Grupos'"
 
 #: templates/source/about/privacy.tt:20
 msgid ""
@@ -522,8 +564,9 @@ msgid ""
 msgstr ""
 
 #: templates/lib/standard_menu.tt:6
+#, fuzzy
 msgid "Browse Groups"
-msgstr ""
+msgstr "Correspondência com %1 grupos"
 
 #: templates/source/about/background.tt:11
 msgid ""
@@ -548,56 +591,57 @@ msgstr ""
 #: templates/source/manage/files/delete_file.tt:20
 #: templates/source/manage/files/edit.tt:85
 #: templates/source/manage/files/send_file.tt:20
+#, fuzzy
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar e remover"
 
 #: templates/source/home/posts/manage/show.tt:77
 #: templates/source/home/posts/manage/show.tt:78
 msgid "Cancel and remove"
-msgstr ""
+msgstr "Cancelar e remover"
 
 #: templates/source/home/info/index.tt:147
 #: templates/source/home/info/index.tt:148
 msgid "Change My Freecycle email address"
-msgstr ""
+msgstr "Mudar o meu endereço de e-mail My Freecycle"
 
 #: templates/source/home/groups/options_display.tt:106
 msgid "Change email preference"
-msgstr ""
+msgstr "Mude as preferências de e-mail"
 
 #: templates/source/home/groups/options_display.tt:76
 msgid "Change level"
-msgstr ""
+msgstr "Nível de alteração"
 
 #: templates/source/home/groups/home.tt:18
 msgid "Change my 'home' Group to: "
-msgstr ""
+msgstr "Mudar o meu grupo prioritário para:"
 
 #: templates/source/home/info/index.tt:142
 #: templates/source/home/info/index.tt:143
 msgid "Change password"
-msgstr ""
+msgstr "Alterar password"
 
 #: templates/source/home/groups/index.tt:188
 msgid "Change settings"
-msgstr ""
+msgstr "Alterar definições"
 
 #: templates/source/home/info/change_username.tt:12
 #: templates/source/home/info/change_username.tt:18
 msgid "Change username"
-msgstr ""
+msgstr "Mudar o nome de utilizador"
 
 #: templates/source/home/info/change_email_address.tt:14
 msgid "Change your 'My Freecycle' email address"
-msgstr ""
+msgstr "Mude o seu e-mail associado ao 'My Freecycle'"
 
 #: templates/source/home/info/change_password.tt:14
 msgid "Change your 'My Freecycle' password"
-msgstr ""
+msgstr "Mude a sua password 'My Freecycle'"
 
 #: templates/source/home/info/change_username.tt:3
 msgid "Changing your username"
-msgstr ""
+msgstr "Alterar o nome de utilizador"
 
 #: templates/source/about/privacy.tt:12
 msgid "Children"
@@ -616,27 +660,28 @@ msgstr ""
 
 #: templates/source/signup.tt:38
 msgid "Confirm email address :"
-msgstr ""
+msgstr "Confirme o seu endereço de e-mail:"
 
 #: templates/source/home/info/change_email_address.tt:33
 msgid "Confirm new email address:"
-msgstr ""
+msgstr "Confirmar o novo endereço de e-mail:"
 
 #: templates/source/home/info/change_password.tt:31
 msgid "Confirm new password:"
-msgstr ""
+msgstr "Confirme a nova password:"
 
 #: templates/source/signup.tt:47
 msgid "Confirm password"
-msgstr ""
+msgstr "Confirme a password"
 
 #: templates/source/about/privacy.tt:28
+#, fuzzy
 msgid "Contact Us"
-msgstr ""
+msgstr "Contacte a Equipa de Moderadores"
 
 #: templates/source/home/groups/index.tt:179
 msgid "Contact the ModTeam"
-msgstr ""
+msgstr "Contacte a Equipa de Moderadores"
 
 #. ('<a href="http://www.freecycle.org">http://www.freecycle.org</a>',)
 #. ("<a href=\"http://www.freecycle.org\">http://www.freecycle.org</a>")
@@ -649,12 +694,14 @@ msgid ""
 msgstr ""
 
 #: templates/source/index.tt:66 templates/source/search_box.tt:55
+#, fuzzy
 msgid "Country : "
-msgstr ""
+msgstr "País natal : %1"
 
 #: templates/source/manage/files/new_file.tt:68
+#, fuzzy
 msgid "Create new file"
-msgstr ""
+msgstr "Confirme a nova password:"
 
 #: Freecycle/standard_templates/source/group_template_disclaimer.tt:1
 #: Freecycle/standard_templates/source/group_template_disclaimer.tt:2
@@ -674,45 +721,50 @@ msgstr ""
 #: templates/source/home/info/default_location.tt:18
 #: templates/source/home/info/index.tt:49
 msgid "Default location for Posts :"
-msgstr ""
+msgstr "Localização dos anúncios por omissão:"
 
 #: templates/source/preferences/index.tt:13
+#, fuzzy
 msgid "Default results"
-msgstr ""
+msgstr "Localização dos anúncios por omissão:"
 
 #: templates/source/home/agree_to_tos.tt:30
 #: templates/source/home/info/index.tt:157
 #: templates/source/home/info/index.tt:158
 msgid "Delete account"
-msgstr ""
+msgstr "Eliminar conta"
 
 #: templates/source/manage/files/edit.tt:87
+#, fuzzy
 msgid "Delete file"
-msgstr ""
+msgstr "Eliminar conta"
 
 #: templates/source/home/groups/index.tt:255
 msgid "Delete invite"
-msgstr ""
+msgstr "Eliminar convite"
 
 #: templates/source/manage/links/index.tt:26
+#, fuzzy
 msgid "Delete link"
-msgstr ""
+msgstr "Eliminar conta"
 
 #: templates/source/home/info/delete_confirm.tt:16
 msgid "Delete my account"
-msgstr ""
+msgstr "Apagar a minha conta"
 
 #: templates/source/manage/files/edit.tt:44
 #: templates/source/manage/files/new_file.tt:32
 #: templates/source/group/files/index.tt:23
 #: templates/source/group/links/index.tt:30
 #: templates/source/group/posts/display_post.tt:80
+#, fuzzy
 msgid "Description"
-msgstr ""
+msgstr "Pequena descrição:"
 
 #: templates/source/email/group_link_report.tt:14
+#, fuzzy
 msgid "Description:"
-msgstr ""
+msgstr "Pequena descrição:"
 
 #: templates/source/manage/files/edit.tt:15
 msgid "Details saved"
@@ -746,12 +798,14 @@ msgid "Donate and support Freecycle.org"
 msgstr ""
 
 #: templates/source/group/files/view_file.tt:27
+#, fuzzy
 msgid "Download this file"
-msgstr ""
+msgstr "Adira ao grupo"
 
 #: templates/source/form990/form.tt:43
+#, fuzzy
 msgid "Download this page"
-msgstr ""
+msgstr "Adira ao grupo"
 
 #. ("/about/funds")
 #: templates/source/donate.tt:16
@@ -796,56 +850,61 @@ msgid "Edit/upload file contents"
 msgstr ""
 
 #: templates/source/about/pressroom.tt:55
+#, fuzzy
 msgid "Editorials about Freecycle"
-msgstr ""
+msgstr "O logotipo da Rede Freecycle"
 
 #. (email)
 #: templates/source/home/info/index.tt:48
 msgid "Email : %1"
-msgstr ""
+msgstr "E-mail: %1"
 
 #: templates/source/index.tt:93 templates/source/search_box.tt:84
 #: templates/source/forgottenpassword.tt:97
 #: templates/source/forgottenusername.tt:20 templates/source/signup.tt:33
 msgid "Email address :"
-msgstr ""
+msgstr "Endereço de email :"
 
 #: templates/source/signup.tt:218
 msgid "Email address invalid - an error was returned when it was checked"
 msgstr ""
+"Endereço de e-mail inválido - foi originado um erro quando o e-mail foi "
+"verificado"
 
 #: templates/source/home/groups/index.tt:146
 #: templates/source/home/groups/options_display.tt:88
 msgid "Email digest"
-msgstr ""
+msgstr "Resumo de e-mails"
 
 #: templates/source/preferences/index.tt:14
+#, fuzzy
 msgid "Email on pending"
-msgstr ""
+msgstr "Mude as preferências de e-mail"
 
 #: templates/source/home/groups/options_display.tt:45
 msgid "Email preference :"
-msgstr ""
+msgstr "Preferência de e-mail :"
 
 #: templates/source/home/groups/index.tt:136
 msgid "Email preference : "
-msgstr ""
+msgstr "Opções de entrega das mensagens :"
 
 #: templates/source/manage/files/send_file.tt:27
+#, fuzzy
 msgid "Email queued for sending"
-msgstr ""
+msgstr "Ocorreu um erro no processo de envio do e-mail de notificação"
 
 #: templates/source/home/info/change_email_address.tt:31
 msgid "Enter new email address:"
-msgstr ""
+msgstr "Insira novo endereço de e-mail:"
 
 #: templates/source/home/info/change_password.tt:29
 msgid "Enter new password:"
-msgstr ""
+msgstr "Insira nova palavra-passe:"
 
 #: templates/source/home/groups/contact_mods_form.tt:72
 msgid "Error sending email!"
-msgstr ""
+msgstr "Ocorreu um erro ao enviar o email!"
 
 #: templates/source/manage/files/automatic.tt:17
 msgid "Every month"
@@ -867,8 +926,9 @@ msgid ""
 msgstr ""
 
 #: templates/source/manage/files/automatic.tt:67
+#, fuzzy
 msgid "File ID"
-msgstr ""
+msgstr "Identificação do anúncio"
 
 #: templates/source/manage/files/new_file.tt:62
 msgid "File contents"
@@ -882,8 +942,9 @@ msgstr ""
 #: templates/source/manage/files/edit.tt:35
 #: templates/source/manage/files/new_file.tt:23
 #: templates/source/group/files/index.tt:20
+#, fuzzy
 msgid "File name"
-msgstr ""
+msgstr "O(s) moderador(es) do group.group_name"
 
 #: templates/source/group/files/index.tt:21
 msgid "File size"
@@ -891,19 +952,20 @@ msgstr ""
 
 #: templates/source/home_group_box_search.tt:15
 msgid "Find a group near you :"
-msgstr ""
+msgstr "Encontre um grupo perto de si :"
 
 #: templates/source/home_group_box_search.tt:21
 msgid "Find group"
-msgstr ""
+msgstr "Procure grupo"
 
 #: templates/source/home_group_box_search.tt:1
 msgid "Find other groups"
-msgstr ""
+msgstr "Ver outros grupos"
 
 #: templates/source/about/pressroom.tt:7
+#, fuzzy
 msgid "For inquiries please contact:"
-msgstr ""
+msgstr "Por favor escreva algo que descreva brevemente o artigo"
 
 #. ('http://faq.freecycle.org/faq/?menu=manual/required')
 #: templates/source/tos.tt:60
@@ -924,16 +986,17 @@ msgstr ""
 
 #: templates/source/forgottenpassword.tt:85
 msgid "Forgotten your password?"
-msgstr ""
+msgstr "Esqueceu-se da palavra-passe?"
 
 #: templates/source/forgottenusername.tt:12
 msgid "Forgotten your username?"
-msgstr ""
+msgstr "Esqueceu-se do seu usuário?"
 
 #. (year)
 #: templates/source/form990/form.tt:9
+#, fuzzy
 msgid "Form 990 for %1"
-msgstr ""
+msgstr "Imagem do anúncio %1"
 
 #: templates/source/form990/index.tt:14
 msgid "Forms are available for each of these years:"
@@ -966,12 +1029,13 @@ msgstr ""
 
 #: templates/source/home/groups/contact_mods_form.tt:57
 msgid "From :"
-msgstr ""
+msgstr "De :"
 
 #. ("href='http://en.wikipedia.org/wiki/Form_990#990'")
 #: templates/source/form990/index.tt:7
+#, fuzzy
 msgid "From the <a %1>Wikipedia page</a>:"
-msgstr ""
+msgstr "Ir para a página do grupo"
 
 #: templates/source/about/funds.tt:4
 msgid "Funds"
@@ -979,98 +1043,111 @@ msgstr ""
 
 #: templates/source/home/groups/index.tt:203
 msgid "Go to ModTools"
-msgstr ""
+msgstr "Ir para ModTools (ferramentas de moderação)"
 
 #: templates/source/home/groups/search.tt:93
 msgid "Go to group page"
-msgstr ""
+msgstr "Ir para a página do grupo"
 
 #. (uri_for('Root', 'signup', [], undef, {referer=> c.request.param('referer')
 #: templates/source/index.tt:31
 msgid "Go to the <a href='%1'>signup form</a> and create your account for free"
 msgstr ""
+"Vá para o <a href='%1'>formulário de registo</a> e crie a sua conta "
+"gratuitamente"
 
 #: templates/source/home/delete_account.tt:14
 msgid "Goodbye!"
-msgstr ""
+msgstr "Até breve!"
 
 #: templates/source/about/volunteering.tt:21
+#, fuzzy
 msgid "Graphics Team Member"
-msgstr ""
+msgstr "É membro de %1 Grupo(s)"
 
 #: templates/source/index.tt:52 templates/source/search_box.tt:40
 msgid "Group (display) name contains : "
 msgstr ""
 
 #: templates/source/preferences/index.tt:17
+#, fuzzy
 msgid "Group ID"
-msgstr ""
+msgstr "Identificação do anúncio"
 
 #: templates/source/index.tt:32 templates/source/search_box.tt:18
+#, fuzzy
 msgid "Group ID number :"
-msgstr ""
+msgstr "Foi atingido o limite do grupo"
 
 #. (link.group.getGroupID)
 #: templates/source/email/group_link_report.tt:18
+#, fuzzy
 msgid "Group ID: %1"
-msgstr ""
+msgstr "Identificação do anúncio"
 
 #: templates/lib/box_tabbar.tt:9
 msgid "Group Info"
-msgstr ""
+msgstr "Informação do grupo"
 
 #: templates/source/email/group_link_report.tt:17
+#, fuzzy
 msgid "Group Information:"
-msgstr ""
+msgstr "(\"home Group\")"
 
 #: templates/lib/moderator_menu.tt:122
+#, fuzzy
 msgid "Group Links"
-msgstr ""
+msgstr "(\"home Group\")"
 
 #: templates/source/home/posts/manage/show.tt:46
 msgid "Group Members can see and search for this Post"
-msgstr ""
+msgstr "Membros do Grupo podem ver e pesquisar este anúncio"
 
 #. (link.group.getGroupName)
 #: templates/source/email/group_link_report.tt:19
+#, fuzzy
 msgid "Group Name: %1"
-msgstr ""
+msgstr "O(s) moderador(es) do group.group_name"
 
 #: templates/source/about/volunteering.tt:30
 msgid "Group Outreach and Assistance Team Member (GOA)"
 msgstr ""
 
 #: templates/source/index.tt:55 templates/source/search_box.tt:43
+#, fuzzy
 msgid "Group Status : "
-msgstr ""
+msgstr "Estado do anúncio:"
 
 #: templates/source/index.tt:38 templates/source/search_box.tt:24
+#, fuzzy
 msgid "Group URL :"
-msgstr ""
+msgstr "(\"home Group\")"
 
 #. (link.group.get_group_unique_name)
 #: templates/source/email/group_link_report.tt:20
+#, fuzzy
 msgid "Group Unique Name: %1"
-msgstr ""
+msgstr "O(s) moderador(es) do group.group_name"
 
 #. (group_file.group_file_id)
 #: templates/source/manage/files/edit.tt:21
+#, fuzzy
 msgid "Group file ID: %1"
-msgstr ""
+msgstr "Foi atingido o limite do grupo"
 
 #: templates/lib/box_tabbar.tt:14
 msgid "Group info"
-msgstr ""
+msgstr "Info do Grupo"
 
 #: templates/source/home/groups/index.tt:246
 #: templates/source/home/groups/search.tt:108
 msgid "Group limit reached"
-msgstr ""
+msgstr "Foi atingido o limite do grupo"
 
 #. (loginbox.username)
 #: templates/source/home/info/index.tt:14
 msgid "Hello %1"
-msgstr ""
+msgstr "Olá %1"
 
 #: templates/source/about/staff.tt:16
 msgid ""
@@ -1098,23 +1175,24 @@ msgid "History & Background Information"
 msgstr ""
 
 #: templates/lib/standard_menu.tt:5
+#, fuzzy
 msgid "Home"
-msgstr ""
+msgstr "(\"home Group\")"
 
 #. (home_country)
 #: templates/source/home/info/index.tt:52
 msgid "Home country : %1"
-msgstr ""
+msgstr "País natal : %1"
 
 #. (home_group)
 #: templates/source/home/info/index.tt:54
 msgid "Home group : %1"
-msgstr ""
+msgstr "Grupo de acolhimento : %1"
 
 #. (home_region_name)
 #: templates/source/home/info/index.tt:53
 msgid "Home region : %1"
-msgstr ""
+msgstr "Região em que habita : %1"
 
 #. ('http://faq.freecycle.org/faq/?menu=manual/required')
 #: templates/source/agreement.tt:11
@@ -1138,6 +1216,9 @@ msgid ""
 "I agree to The Freecycle Network <a href='%1'>Terms of Service</a> and "
 "understand that the use of Yahoo!Groups is subject to their Terms of Service"
 msgstr ""
+"Eu concordo com os <a href='%1'>Termos de Serviço</a> da Rede Freecycle e "
+"concordo com o facto de que o uso do Yahoo!Groups está sujeito aos seus "
+"Termos de Serviço"
 
 #: templates/source/agreement.tt:14
 msgid "I agree to the Collective Membership Mark Usage Agreement"
@@ -1145,7 +1226,7 @@ msgstr ""
 
 #: templates/source/home/agree_to_tos.tt:27
 msgid "I agree to the Terms of Service"
-msgstr ""
+msgstr "Concordo com os Termos de Utilização"
 
 #: templates/source/about/pressroom.tt:84
 msgid ""
@@ -1156,15 +1237,15 @@ msgstr ""
 
 #: templates/source/index.tt:8
 msgid "I'm already a My Freecycle user!"
-msgstr ""
+msgstr "Já sou membro do My Freecycle!"
 
 #: templates/source/index.tt:30
 msgid "I'm not a My Freecycle user"
-msgstr ""
+msgstr "Não sou um utilizador do \"My Freecycle\""
 
 #: templates/source/index.tt:35
 msgid "I'm not sure if I am..."
-msgstr ""
+msgstr "Não tenho a certeza se sou como %1"
 
 #. (e)
 #: templates/source/group/posts/reply_error.tt:28
@@ -1176,12 +1257,13 @@ msgstr ""
 
 #: templates/source/home/posts/manage/received_form.tt:17
 msgid "I've now RECEIVED this. Thank you to everyone who responded."
-msgstr ""
+msgstr "Eu acabo de RECEBER isto. Obrigado a todos que responderam."
 
 #. (link.link_id)
 #: templates/source/email/group_link_report.tt:12
+#, fuzzy
 msgid "ID: %1"
-msgstr ""
+msgstr "Identificação do anúncio"
 
 #. ('<a href="mailto:InterimMod@freecycle.org">InterimMod@freecycle.org</a>')
 #: templates/source/about/volunteering.tt:37
@@ -1245,6 +1327,9 @@ msgid ""
 "unsubscribe from any groups you are currently a member of - this will not be "
 "done automatically."
 msgstr ""
+"Se confirmar este passo a sua conta será eliminada. Será necessário anular a "
+"subscrição de quaisquer outros grupos dos quais seja membro - esta acção não "
+"será feita automaticamente."
 
 #: templates/source/home/agree_to_tos.tt:23
 msgid ""
@@ -1253,18 +1338,26 @@ msgid ""
 "agreed to the Terms of Service or have been deleted by their owners may be "
 "automatically deleted."
 msgstr ""
+"Caso não concorde com os Freecycle Network Terms of Service (Termos do "
+"Serviço da Freecycle Network), pode eliminar a sua conta de associado do "
+"Freecycle. As contas que não aceitara os Termos de Serviço ou que foram "
+"apagadas pelos próprios utilizadores, podem ser apagadas automaticamente."
 
 #: templates/source/home/posts/manage/show.tt:96
 msgid ""
 "If you have a picture of the item (max file size: 256Kb), you can upload it "
 "now"
 msgstr ""
+"Caso tenha uma fotografia do artigo (tamanho máx. do ficheiro: 256Kb), pode "
+"carregá-la:"
 
 #: templates/source/home/posts/new.tt:59
 msgid ""
 "If you have a picture of the item, you can upload it :<br />(max file size: "
 "256Kb)"
 msgstr ""
+"Caso tenha uma fotografia do artigo, pode carregá-la :<br />(tamanho máx. do "
+"ficheiro: 256Kb)"
 
 #. ('mailto: myfreecycleadmin@freecycle.org')
 #: templates/source/status.tt:9
@@ -1273,6 +1366,10 @@ msgid ""
 "My Freecycle, please contact the <a href='%1'>admin team</a><br />For "
 "specific queries about groups, please contact the group moderators."
 msgstr ""
+"Caso tenho um problema (que não esteja listado aqui) ou queria fazer alguma "
+"sugestão, crítica ou recomendação usando o My Freecyle, por favor contate a  "
+"<a href='%1'> equipa de administradores</a><br /> Para questões específicas "
+"sobre  grupo, por favor contate os moderadores do grupo."
 
 #: templates/source/email/group_link_report.tt:27
 msgid ""
@@ -1288,6 +1385,10 @@ msgid ""
 "please contact your local group moderator whose contact info is noted at the "
 "top of each local group page"
 msgstr ""
+"Se tiver alguns problemas quando utiliza o My Freecycle, por favor consulte "
+"<a href='%1'>Página de estado</a><br /> .Para questões sobre os grupos por "
+"favor contacte o Moderador do grupo cujos contactos estão no topo de cada "
+"página do grupo"
 
 #. (uri_for('Root', 'oauth2', undef, undef, { provider=> 'facebook', referer => c.request.param('referer')
 #: templates/source/index.tt:23
@@ -1295,6 +1396,8 @@ msgid ""
 "If you have authorised the Freecycle Facebook application, you can <a href="
 "\"%1\">log in with your Facebook account</a>"
 msgstr ""
+"Caso tenha autorizado a aplicação Freecycle do Facebook, você pode <a href="
+"\"%1\">fazer log in com a sua conta do Facebook</a>"
 
 #: templates/source/404.tt:16
 msgid ""
@@ -1307,6 +1410,8 @@ msgid ""
 "If you wish to join this group, you may do so directly at the Yahoo!Groups "
 "page:"
 msgstr ""
+"Se pretende aderir ao grupo pode aderir diretamente na página do Yahoo!"
+"Groups:"
 
 #: templates/source/home/groups/index.tt:102
 msgid ""
@@ -1339,6 +1444,10 @@ msgid ""
 "an email confirmation. You will be sent a randomly generated password which "
 "you will need to use to log into My Freecycle"
 msgstr ""
+"Se está a ter problemas em visualizar as imagens de confirmação, pode clicar "
+"aqui para confirmar através de e-mail. Ser-lhe-á enviado um e-mail com uma "
+"palavra-passe gerada aleatoriamente, da qual precisará, para fazer log in no "
+"My Freecycle"
 
 #. ("http://my.freecycle.org/home/groups")
 #: templates/source/404.tt:15
@@ -1354,15 +1463,17 @@ msgid ""
 "If your email address hasn't been registered before, you can use the <a "
 "href='%1'>signup form</a> to create your new account for free"
 msgstr ""
+"Se o seu endereço de e-mail não foi registado anteriormente, pode usar o <a "
+"href='%1'>formulário de inscrição</a> para criar uma nova conta gratuitamente"
 
 #. (postinfo.post_id)
 #: templates/source/home/posts/manage/show.tt:113
 msgid "Image for post %1"
-msgstr ""
+msgstr "Imagem do anúncio %1"
 
 #: templates/source/home/posts/display_issues.tt:20
 msgid "Images are only accepted in JPEG, GIF and PNG format"
-msgstr ""
+msgstr "Só são aceites imagens em JPEG, GIF e PNG"
 
 #: templates/source/home/info/change_password.tt:21
 msgid ""
@@ -1373,6 +1484,13 @@ msgid ""
 "attempt, for example) and if you're in <b>any</b> doubt then open a new "
 "browser window and type in 'freecycle.org' yourself."
 msgstr ""
+"Em alguns casos pode ser solicitado a mudar a sua palavra-passe (normalmente "
+"se acabou de se registar ou se pediu uma nova palavra-passe) - o que pode "
+"ser o seu caso, se chegou aqui sem perceber bem como. Por favor verifique o "
+"endereço do seu \"browser\" para se certificar que não contém nada de "
+"suspeito (uma tentativa de \"phishing\", por exemplo). Caso se sinta em "
+"dúvida ou hesitação <b>qualqer</b>, então abra uma nova janela e digite "
+"'freecycle.org'."
 
 #: templates/source/about/privacy.tt:16
 msgid ""
@@ -1395,12 +1513,14 @@ msgid ""
 msgstr ""
 
 #: templates/source/group/posts/display_list.tt:34
+#, fuzzy
 msgid "Include OFFER Posts?"
-msgstr ""
+msgstr "Um resumo de 25 Anúncios"
 
 #: templates/source/group/posts/display_list.tt:40
+#, fuzzy
 msgid "Include WANTED Posts?"
-msgstr ""
+msgstr "Um resumo de 25 Anúncios"
 
 #: templates/source/about/background.tt:15
 msgid "Incorporation"
@@ -1408,7 +1528,7 @@ msgstr ""
 
 #: templates/source/index.tt:49
 msgid "Incorrect username/password"
-msgstr ""
+msgstr "Usuário/Password incorrectos"
 
 #: templates/source/about/privacy.tt:15
 msgid "Information Collection"
@@ -1424,28 +1544,28 @@ msgstr ""
 
 #: templates/source/signup.tt:216
 msgid "Invalid country"
-msgstr ""
+msgstr "O país não é válido"
 
 #: templates/source/signup.tt:152 templates/source/signup.tt:165
 msgid "Invalid email address"
-msgstr ""
+msgstr "Endereço de e-mail inválido"
 
 #: templates/source/signup.tt:217
 msgid "Invalid region"
-msgstr ""
+msgstr "Região inválida"
 
 #: templates/source/signup.tt:125 templates/source/signup.tt:138
 msgid "Invalid username"
-msgstr ""
+msgstr "Utilizador incorrecto"
 
 #: templates/source/home/groups/index.tt:237
 msgid "Invitations"
-msgstr ""
+msgstr "Convites"
 
 #. (i.sent_date)
 #: templates/source/home/groups/index.tt:242
 msgid "Invited on : %1"
-msgstr ""
+msgstr "Convidado a : %1"
 
 #: templates/source/about/staff.tt:6
 msgid ""
@@ -1458,44 +1578,50 @@ msgstr ""
 
 #: templates/source/home/posts/new.tt:31
 msgid "It's a request for a WANTED item"
-msgstr ""
+msgstr "É necessário para um anúncio PROCURO"
 
 #: templates/source/home/posts/new.tt:30
 msgid "It's an OFFER of an item"
-msgstr ""
+msgstr "É a OFERTA de um artigo"
 
 #. (groupname)
 #: templates/source/home/groups/seach_optout.tt:34
 msgid "Join the %1 group on Yahoo!Groups"
-msgstr ""
+msgstr "Adira ao %1 grupo no Yahoo!Groups"
 
 #: templates/lib/group_box.tt:40 templates/source/group/description.tt:9
 #: templates/source/group/posts/display_list.tt:219
+#, fuzzy
 msgid "Join this Group"
-msgstr ""
+msgstr "Adira ao grupo"
 
 #: templates/source/home/groups/search.tt:111
 msgid "Join this group"
-msgstr ""
+msgstr "Adira ao grupo"
 
 #: templates/lib/group_box.tt:36 templates/lib/group_box.tt:47
+#, fuzzy
 msgid "Join this group at Yahoo!Groups"
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_groups.po  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"Adira ao %1 grupo no Yahoo!Groups"
 
 #: templates/source/home/groups/index.tt:130
 msgid "Joined/Applied : "
-msgstr ""
+msgstr "Juntou-se/Candidatou-se"
 
 #: templates/source/home/groups/index.tt:125
 #: templates/source/home/groups/options_display.tt:36
 #: templates/source/home/groups/options_display.tt:73
 msgid "Lead Moderator"
-msgstr ""
+msgstr "Moderador-chefe:"
 
 #: templates/source/home/groups/options_display.tt:57
 #: templates/source/home/groups/options_display.tt:58
 msgid "Leave this Group"
-msgstr ""
+msgstr "Sair deste Grupo"
 
 #. ('<a href="mailto:volunteer@freecycle.org">volunteer@freecycle.org</a>')
 #: templates/source/about/volunteering.tt:16
@@ -1517,69 +1643,78 @@ msgid "Links we like"
 msgstr ""
 
 #: templates/source/index.tt:7 templates/source/search_box.tt:4
+#, fuzzy
 msgid "Location"
-msgstr ""
+msgstr "Localização do Anúncio:"
 
 #: templates/source/group/posts/display_post.tt:70
+#, fuzzy
 msgid "Location :"
-msgstr ""
+msgstr "Localização do Anúncio:"
 
 #: templates/source/index.tt:19 templates/source/login.tt:14
 msgid "Log in"
-msgstr ""
+msgstr "Log in"
 
 #: templates/source/login.tt:1 templates/source/login.tt:3
+#, fuzzy
 msgid "Log in to Freecycle.org"
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"Registe-se através do Freecycle.org"
 
 #: templates/lib/standard_menu.tt:20
+#, fuzzy
 msgid "Log in/Sign up"
-msgstr ""
+msgstr "Entre utilizando o Facebook"
 
 #: templates/lib/standard_menu.tt:13
+#, fuzzy
 msgid "Log out"
-msgstr ""
+msgstr "<a href='%1'>Sair</a></li>"
 
 #: templates/source/group/posts/display_list.tt:213
+#, fuzzy
 msgid "Make a new Post"
-msgstr ""
+msgstr "Colocar novo anúncio"
 
 #: templates/source/home/posts/index.tt:26
 #: templates/source/home/posts/index.tt:27
 msgid "Make a new post"
-msgstr ""
+msgstr "Colocar novo anúncio"
 
 #: templates/source/home/posts/new.tt:64
 msgid "Make the post"
-msgstr ""
+msgstr "Escrever o anúncio"
 
 #: templates/source/home/posts/index.tt:62
 #: templates/source/home/posts/index.tt:63
 msgid "Manage"
-msgstr ""
+msgstr "Gerir"
 
 #: templates/source/home/posts/manage/show.tt:14
 msgid "Manage this Post"
-msgstr ""
+msgstr "Gerenciar este anúncio"
 
 #: templates/source/home/posts/manage/show.tt:87
 #: templates/source/home/posts/manage/show.tt:88
 msgid "Mark as RECEIVED and remove"
-msgstr ""
+msgstr "Marcar como RECEBIDO e remover"
 
 #: templates/source/home/posts/manage/show.tt:82
 #: templates/source/home/posts/manage/show.tt:83
 msgid "Mark as TAKEN and remove"
-msgstr ""
+msgstr "Marcar como ENTREGUE e remover"
 
 #. (num_of_results)
 #: templates/source/home/groups/search.tt:87
 msgid "Matched %1 Groups"
-msgstr ""
+msgstr "Correspondência com %1 grupos"
 
 #: templates/source/home/groups/search.tt:89
 msgid "Matched 1 Group"
-msgstr ""
+msgstr "Coincidiu 1 grupo"
 
 #: templates/source/about/pressroom.tt:15
 msgid "Media Intro and Tips"
@@ -1589,16 +1724,16 @@ msgstr ""
 #: templates/source/home/groups/options_display.tt:34
 #: templates/source/home/groups/options_display.tt:70
 msgid "Member"
-msgstr ""
+msgstr "Membro"
 
 #: templates/source/preferences/index.tt:19
 msgid "Members"
-msgstr ""
+msgstr "Membro"
 
 #: templates/source/home/groups/index.tt:118
 #: templates/source/home/groups/options_display.tt:26
 msgid "Membership level : "
-msgstr ""
+msgstr "Grau de associação :"
 
 #: templates/source/about/volunteering.tt:18
 msgid "Mentor Mods Team Member (MMods)"
@@ -1606,16 +1741,18 @@ msgstr ""
 
 #: templates/source/home/groups/contact_mods_form.tt:66
 msgid "Message : "
-msgstr ""
+msgstr "Mensagem:"
 
 #: templates/source/group/posts/display_post.tt:161
+#, fuzzy
 msgid "Message not found"
-msgstr ""
+msgstr "Utilizador não encontrado"
 
 #: templates/source/group/posts/reply_error.tt:27
 #: templates/source/group/posts/reply_error.tt:7
+#, fuzzy
 msgid "Message not sent"
-msgstr ""
+msgstr "A sua mensagem foi enviada"
 
 #: templates/source/group/posts/reply_error.tt:22
 msgid "Message not sent - problem with the your response"
@@ -1639,35 +1776,45 @@ msgid "Mission Statement"
 msgstr ""
 
 #: templates/lib/group_box.tt:13
+#, fuzzy
 msgid "ModTeam"
-msgstr ""
+msgstr "Contacte a Equipa de Moderadores"
 
 #: templates/source/manage/files/edit.tt:55
 #: templates/source/manage/files/new_file.tt:43
+#, fuzzy
 msgid "ModTeam and Members of this Group"
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"É membro de %1 Grupo(s)"
 
 #: templates/lib/moderator_menu.tt:4
+#, fuzzy
 msgid "ModTools Home"
-msgstr ""
+msgstr "(\"home Group\")"
 
 #: templates/lib/standard_login_info.tt:69 templates/lib/standard_menu.tt:17
 msgid "Moderate"
-msgstr ""
+msgstr "Moderar"
 
 #: templates/source/home/groups/index.tt:124
 #: templates/source/home/groups/options_display.tt:35
 #: templates/source/home/groups/options_display.tt:71
 msgid "Moderator"
-msgstr ""
+msgstr "Moderador"
 
 #: templates/source/about/volunteering.tt:24
 msgid "Moderator Resource Assistance Team (MRA)"
 msgstr ""
 
 #: templates/source/index.tt:9 templates/source/search_box.tt:6
+#, fuzzy
 msgid "Moderators"
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"Moderador"
 
 #: templates/source/group/files/index.tt:22
 msgid "Modified"
@@ -1675,8 +1822,12 @@ msgstr ""
 
 #: templates/source/manage/files/edit.tt:56
 #: templates/source/manage/files/new_file.tt:44
+#, fuzzy
 msgid "Mods and LMs of this Group"
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"Anuncie neste grupo"
 
 #: templates/source/donate.tt:51 templates/source/donate.tt:83
 msgid "Monthly donation"
@@ -1700,36 +1851,39 @@ msgstr ""
 #: templates/lib/standard_login_info.tt:40 templates/lib/standard_menu.tt:15
 #: templates/lib/standard_menu.tt:20
 msgid "My Freecycle"
-msgstr ""
+msgstr "My Freecycle"
 
 #: templates/source/home/posts/recently_closed.tt:1
 msgid "My Freecycle - recently expired Posts"
-msgstr ""
+msgstr "My Freecycle - Anúncios que expiraram recentemente"
 
 #: templates/lib/box_tabbar.tt:18 templates/lib/standard_login_info.tt:42
 #: templates/lib/standard_login_info.tt:53 templates/lib/standard_menu.tt:14
 msgid "My Groups"
-msgstr ""
+msgstr "Os Meus Grupos"
 
 #: templates/lib/box_tabbar.tt:19 templates/lib/standard_login_info.tt:41
 msgid "My Info"
-msgstr ""
+msgstr "Informação pessoal"
 
 #: templates/lib/box_tabbar.tt:17 templates/lib/standard_login_info.tt:43
 msgid "My Posts"
-msgstr ""
+msgstr "Os Meus Anúncios"
 
 #: templates/lib/moderator_menu.tt:5
+#, fuzzy
 msgid "MyF Home"
-msgstr ""
+msgstr "(\"home Group\")"
 
 #: templates/source/index.tt:90 templates/source/search_box.tt:81
+#, fuzzy
 msgid "MyF username :"
-msgstr ""
+msgstr "Mudar o nome de utilizador"
 
 #: templates/source/about/links.tt:14
+#, fuzzy
 msgid "New American Dream"
-msgstr ""
+msgstr "Confirme a nova password:"
 
 #: templates/source/about/volunteering.tt:27
 msgid "New Group Appprover Team Member (NGA)"
@@ -1737,11 +1891,11 @@ msgstr ""
 
 #: templates/source/forgottenpassword.tt:121
 msgid "New password generated"
-msgstr ""
+msgstr "Foi gerada uma nova password"
 
 #: templates/source/home/info/change_username.tt:14
 msgid "New username"
-msgstr ""
+msgstr "Novo nome de utilizador (username)"
 
 #: templates/source/about/index.tt:6
 msgid "Newswire"
@@ -1754,49 +1908,55 @@ msgstr ""
 
 #: templates/source/preferences/index.tt:49
 #: Freecycle/standard_templates/source/html/widget/buttonbar/yesno.tt:5
+#, fuzzy
 msgid "No"
-msgstr ""
+msgstr "Sem Grupos"
 
 #: templates/lib/standard_login_info.tt:60
 msgid "No Groups"
-msgstr ""
+msgstr "Sem Grupos"
 
 #: templates/source/forgottenusername.tt:39
 msgid ""
 "No account with that email address could be found in the database. You may "
 "have registered with another email address."
 msgstr ""
+"Não encontrámos nenhuma conta na nossa base de dados, com esse e-mail. "
+"Talvez te tenhas registado com outro endereço de e-mail."
 
 #: templates/source/home/groups/search.tt:78
 msgid "No groups matched your search terms"
-msgstr ""
+msgstr "Não foram encontrados grupos"
 
 #: templates/lib/search_box_group.tt:24
+#, fuzzy
 msgid "No local group?"
-msgstr ""
+msgstr "Foi atingido o limite do grupo"
 
 #: templates/source/home/groups/index.tt:140
 #: templates/source/home/groups/options_display.tt:85
 msgid "None apart from ADMINs"
-msgstr ""
+msgstr "Nenhum excepto ADMINs"
 
 #: templates/source/about/background.tt:20
+#, fuzzy
 msgid "Nonprofit Status"
-msgstr ""
+msgstr "Estado do anúncio:"
 
 #: templates/lib/standard_macros.tt:14
 #: templates/source/home/posts/manage/show.tt:33
 #: templates/source/group/posts/display_list.tt:263
 msgid "OFFER"
-msgstr ""
+msgstr "OFERTA"
 
 #: templates/source/about/volunteering.tt:15
+#, fuzzy
 msgid "Offer ideas"
-msgstr ""
+msgstr "É a OFERTA de um artigo"
 
 #: templates/lib/box_tabbar.tt:12 templates/lib/box_tabbar.tt:7
 msgid "Offers"
-msgstr ""
+msgstr "Ofertas"
 
 #: templates/source/about/background.tt:8
 msgid ""
@@ -1813,34 +1973,41 @@ msgid "On joining (auto or approved)"
 msgstr ""
 
 #: templates/source/manage/files/automatic.tt:16
+#, fuzzy
 msgid "On leaving"
-msgstr ""
+msgstr "Convidado a : %1"
 
 #: templates/source/home/groups/index.tt:141
 #: templates/source/home/groups/options_display.tt:86
 msgid "One for each Post"
-msgstr ""
+msgstr "Um por cada anúncio"
 
 #: templates/source/donate.tt:42 templates/source/donate.tt:74
+#, fuzzy
 msgid "One-time donation"
-msgstr ""
+msgstr "Um por cada anúncio"
 
 #: templates/source/manage/files/edit.tt:57
 #: templates/source/manage/files/new_file.tt:45
+#, fuzzy
 msgid "Only LMs of this Group"
-msgstr ""
+msgstr "Anuncie neste grupo"
 
 #: templates/source/404.tt:10
+#, fuzzy
 msgid "Oops - page not found!"
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"Utilizador não encontrado"
 
 #: templates/source/404.tt:3
 msgid "Oops!"
-msgstr ""
+msgstr "Oops!"
 
 #: templates/source/errors.tt:18
 msgid "Oops..."
-msgstr ""
+msgstr "Oops…"
 
 #: templates/source/about/background.tt:32
 msgid "Org Chart"
@@ -1851,13 +2018,15 @@ msgid "Organizational Chart"
 msgstr ""
 
 #: templates/source/email/post_abuse_report.tt:9
+#, fuzzy
 msgid "Original Post details:"
-msgstr ""
+msgstr "Imagem do anúncio %1"
 
 #. (region.country.country_name)
 #: templates/source/browse/group_list.tt:14
+#, fuzzy
 msgid "Other regions of %1"
-msgstr ""
+msgstr "Ver outros grupos"
 
 #: templates/source/about/privacy.tt:6
 msgid "Our Commitment to Privacy"
@@ -1898,41 +2067,48 @@ msgstr ""
 
 #: templates/source/signup.tt:44 templates/source/login.tt:11
 msgid "Password"
-msgstr ""
+msgstr "Password"
 
 #: templates/source/index.tt:16
 msgid "Password : "
-msgstr ""
+msgstr "Palavra-passe:"
 
 #: templates/source/signup.tt:179
 msgid "Passwords don't match"
-msgstr ""
+msgstr "As palavras-passe não coincidem"
 
 #: templates/source/manage/files/automatic.tt:14
+#, fuzzy
 msgid "Pending Member approved"
-msgstr ""
+msgstr "É membro de %1 Grupo(s)"
 
 #: templates/source/home/groups/index.tt:121
 #: templates/source/home/groups/options_display.tt:32
 msgid "Pending approval"
-msgstr ""
+msgstr "Pendente para aprovação"
 
 #: templates/source/home/groups/index.tt:122
 #: templates/source/home/groups/options_display.tt:33
 msgid "Pending unsubscribe"
-msgstr ""
+msgstr "Pedido de anulação de inscrição pendente"
 
 #. (uri_for('Root', 'login')
 #: templates/lib/standard_login_info.tt:18
 msgid "Please <a href='%1'>log in</a> or <a href='%2'>sign up</a>"
 msgstr ""
+"Por favor <a href='%1'>faça log in</a> ou <a href='%2'>faça o seu registo</a>"
 
 #. ("http://my.freecycle.org/login", "http://my.freecycle.org/signup")
 #: templates/lib/group_box.tt:50
+#, fuzzy
 msgid ""
 "Please <a href='%1'>login</a> or <a href='%2'>sign up</a> to My Freecycle to "
 "join this group."
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_groups.po  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"Por favor <a href='%1'>faça log in</a> ou <a href='%2'>faça o seu registo</a>"
 
 #: templates/source/manage/files/edit.tt:50
 #: templates/source/manage/files/new_file.tt:38
@@ -1959,17 +2135,21 @@ msgid ""
 "Please ensure you have entered the new email address in twice, and that both "
 "entries are the same"
 msgstr ""
+"Por favor confirme que introduziu duas vezes o novo e-mail e que são iguais"
 
 #: templates/source/home/info/change_password.tt:25
 msgid ""
 "Please ensure you have entered the new password in twice, and that both "
 "entries are the same"
 msgstr ""
+"Por favor verifique que voltou a inserir a palavra-passe e que ambas são "
+"iguais"
 
 #: templates/source/manage/files/edit.tt:42
 #: templates/source/manage/files/new_file.tt:30
+#, fuzzy
 msgid "Please enter a description for this file"
-msgstr ""
+msgstr "Por favor escreva algo que descreva brevemente o artigo"
 
 #: templates/source/manage/files/edit.tt:27
 #: templates/source/manage/files/new_file.tt:20
@@ -1979,22 +2159,28 @@ msgid ""
 msgstr ""
 
 #: templates/source/search/no_keywords.tt:4
+#, fuzzy
 msgid "Please enter some keywords to search for"
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"Por favor insira mais informações do anúncio"
 
 #: templates/source/home/posts/display_issues.tt:46
 msgid "Please enter some more details about this post"
-msgstr ""
+msgstr "Por favor insira mais informações do anúncio"
 
 #: templates/source/home/posts/display_issues.tt:34
 msgid "Please enter something for the short description"
-msgstr ""
+msgstr "Por favor escreva algo que descreva brevemente o artigo"
 
 #: templates/source/home/posts/display_issues.tt:40
 msgid ""
 "Please enter something for your location - it allows people to quickly see "
 "how far they may need to travel"
 msgstr ""
+"Por favor insira algo sobre a sua localização - permite a outras pessoas "
+"perceber rapidamente quanto elas terão que se deslocar"
 
 #. (mmaker.maximum_location_length)
 #: templates/source/home/posts/display_issues.tt:42
@@ -2002,16 +2188,19 @@ msgid ""
 "Please enter something shorter for your location - the group has a limit of "
 "%1 letters"
 msgstr ""
+"Por favor insira menos informação acerca da sua localização - o grupo tem um "
+"limite de %1 letras"
 
 #: templates/source/forgottenusername.tt:16
 msgid ""
 "Please enter your registered email address and your username will be sent to "
 "you."
 msgstr ""
+"Introduza o seu e-mail registado e o seu nome de utilizador será enviado."
 
 #: templates/source/forgottenpassword.tt:91
 msgid "Please enter your username and registered email address."
-msgstr ""
+msgstr "Se faz favor, digite o nome utilizador e e-mail com que se registou."
 
 #: templates/source/home/groups/contact_mods_sent.tt:28
 msgid ""
@@ -2019,6 +2208,10 @@ msgid ""
 "another - group moderators are all volunteers, and so may not be at their "
 "computers checking their messages all the time."
 msgstr ""
+"Por favor, dê tempo aos moderadores para lerem a sua mensage antes de lhes "
+"enviar outra - os moderadores do grupo são voluntários, e como tal "
+"provavelmente não estão sempre nos seus computadores a verificarem "
+"permanentemente as suas mensagens."
 
 #: templates/source/group/posts/display_post.tt:113
 msgid "Please indicate why you feel this Post is inappropriate:"
@@ -2032,20 +2225,26 @@ msgstr ""
 msgid ""
 "Please make sure you've entered your email address correctly in both fields"
 msgstr ""
+"Por favor verifique que inseriu o seu endereço de e-mail correctamente nos "
+"dois campos"
 
 #: templates/source/signup.tt:153
 msgid "Please make sure you've entered your email address in correctly"
 msgstr ""
+"Por favor certifique-se de que inseriu corretamente o seu endereço de e-mail"
 
 #: templates/source/signup.tt:221
 msgid ""
 "Please make sure you've entered your email address in correctly in both "
 "fields"
 msgstr ""
+"Por favor, verifique que inseriu o seu e-mail corretamente em ambos os campos"
 
 #: templates/source/signup.tt:180
 msgid "Please make sure you've entered your password correctly in both fields"
 msgstr ""
+"Certifique-se, por favor, que inseriu corretamente a password nos dois "
+"campos de preenchimento"
 
 #. ('http://www.freecycle.org/faq/faq/faq_guidelines')
 #: templates/source/group/posts/display_post.tt:116
@@ -2069,15 +2268,15 @@ msgstr ""
 
 #: templates/lib/box_tabbar.tt:38
 msgid "Please select a \"home\" Group"
-msgstr ""
+msgstr "Por favor escolha um Grupo de \"acolhimento\""
 
 #: templates/source/home/posts/display_issues.tt:16
 msgid "Please select a group from the list"
-msgstr ""
+msgstr "Por favor, seleccione um grupo da lisa"
 
 #: templates/source/home/posts/new.tt:37
 msgid "Please select a group:"
-msgstr ""
+msgstr "Por favor selecciona um grupo:"
 
 #: templates/source/about/disclaimer.tt:8
 msgid ""
@@ -2093,128 +2292,152 @@ msgstr ""
 #: templates/source/home/posts/recently_closed.tt:17
 #: templates/source/group/posts/display_post.tt:65
 msgid "Post ID"
-msgstr ""
+msgstr "Identificação do anúncio"
 
 #: templates/source/home/posts/manage/show.tt:18
+#, fuzzy
 msgid "Post ID: "
-msgstr ""
+msgstr "Número Identificativo do Anúncio:"
 
 #. (post.post_id)
 #: templates/source/email/post_abuse_report.tt:13
 msgid "Post ID: %1"
-msgstr ""
+msgstr "Identificação do anúncio: %1"
 
 #: templates/source/home/posts/index.tt:46
 #: templates/source/home/posts/recently_closed.tt:19
 msgid "Post Subject"
-msgstr ""
+msgstr "Assunto do Anúncio"
 
 #: templates/source/home/posts/index.tt:45
 #: templates/source/home/posts/recently_closed.tt:18
 msgid "Post Type"
-msgstr ""
+msgstr "Tipo de anúncio"
 
 #. (post.url)
 #: templates/source/email/post_abuse_report.tt:12
+#, fuzzy
 msgid "Post URL: %1"
-msgstr ""
+msgstr "Identificação do anúncio"
 
 #: templates/source/email/post_abuse_report.tt:16
+#, fuzzy
 msgid "Post description:"
-msgstr ""
+msgstr "Pequena descrição:"
 
 #: templates/source/home/posts/display_issues.tt:3
 msgid "Post errors"
-msgstr ""
+msgstr "Erros do Anúncio"
 
 #: templates/source/home/posts/manage/show.tt:58
 msgid "Post image : "
-msgstr ""
+msgstr "Afixar imagem :"
 
 #. (post.post_subject)
 #: templates/source/group/posts/display_post.tt:84
+#, fuzzy
 msgid "Post image for %1"
-msgstr ""
+msgstr "Imagem do anúncio %1"
 
 #: templates/source/home/posts/manage/show.tt:39
 msgid "Post location: "
-msgstr ""
+msgstr "Localização do Anúncio:"
 
 #: templates/source/home/posts/manage/show.tt:43
 msgid "Post status: "
-msgstr ""
+msgstr "Estado do anúncio:"
 
 #. (post.subject)
 #: templates/source/email/post_abuse_report.tt:15
+#, fuzzy
 msgid "Post subject: %1"
-msgstr ""
+msgstr "Assunto do Anúncio"
 
 #: templates/source/home/posts/manage/show.tt:26
 msgid "Post title: "
-msgstr ""
+msgstr "Título do anúncio:"
 
 #: templates/source/home/posts/new.tt:35
 msgid "Post to :"
-msgstr ""
+msgstr "Anunciar para :"
 
 #: templates/source/home/groups/index.tt:166
 msgid "Post to this Group"
-msgstr ""
+msgstr "Anuncie neste grupo"
 
 #: templates/source/home/posts/manage/show.tt:30
 msgid "Post type: "
-msgstr ""
+msgstr "Tipo de anúncio:"
 
 #. (post.post_type)
 #: templates/source/email/post_abuse_report.tt:14
+#, fuzzy
 msgid "Post type: %1"
-msgstr ""
+msgstr "Tipo de anúncio"
 
 #: templates/source/home/posts/display_issues.tt:29
 msgid "Post warnings"
-msgstr ""
+msgstr "Anunciar avisos"
 
 #: templates/source/group/posts/display_post.tt:75
+#, fuzzy
 msgid "Posted by :"
-msgstr ""
+msgstr "Anunciado em :"
 
 #: templates/source/home/posts/manage/show.tt:22
 msgid "Posted on : "
-msgstr ""
+msgstr "Anunciado em :"
 
 #: templates/source/group/posts/display_list.tt:44
+#, fuzzy
 msgid "Posted on or after"
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"Anunciado em :"
 
 #: templates/source/group/posts/display_list.tt:48
+#, fuzzy
 msgid "Posted on or before"
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"Anunciado em :"
 
 #: templates/source/home/posts/index.tt:48
 msgid "Posted on:"
-msgstr ""
+msgstr "Publicado a:"
 
 #: templates/source/home/posts/manage/show.tt:53
 msgid "Posted to : "
-msgstr ""
+msgstr "Anunciado para :"
 
 #: templates/source/home/posts/index.tt:47
 #: templates/source/home/posts/recently_closed.tt:20
 msgid "Posted to:"
-msgstr ""
+msgstr "Anúnciado a:"
 
 #. (poster.username _ ' <' _ poster.address _ '>')
 #: templates/source/email/post_abuse_report.tt:11
+#, fuzzy
 msgid "Poster: %1"
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"Tipo de anúncio:"
 
 #: templates/source/preferences/index.tt:20
+#, fuzzy
 msgid "Posts"
-msgstr ""
+msgstr "Todos os anúncios"
 
 #: templates/lib/moderator_menu.tt:6
+#, fuzzy
 msgid "Preferences"
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"Preferência de e-mail :"
 
 #: templates/source/about/pressroom.tt:32
 msgid "Press Releases"
@@ -2254,8 +2477,9 @@ msgid "Quote from 'People' magazine"
 msgstr ""
 
 #: templates/source/about/pressroom.tt:78
+#, fuzzy
 msgid "Quote from AARP"
-msgstr ""
+msgstr "Nenhum excepto ADMINs"
 
 #: templates/source/about/pressroom.tt:77
 msgid "Quote from PC Magazine"
@@ -2272,12 +2496,12 @@ msgstr ""
 #: templates/lib/standard_macros.tt:17
 #: templates/source/group/posts/display_list.tt:275
 msgid "RECEIVED"
-msgstr ""
+msgstr "RECEBIDO"
 
 #: templates/source/home/posts/recently_closed.tt:33
 #: templates/source/home/posts/recently_closed.tt:34
 msgid "Re-open"
-msgstr ""
+msgstr "Reabrir"
 
 #: templates/source/email/group_link_report.tt:22
 msgid "Reason given:"
@@ -2287,28 +2511,32 @@ msgstr ""
 #: templates/source/home/posts/index.tt:31
 #: templates/source/home/posts/recently_closed.tt:3
 msgid "Recently expired Posts"
-msgstr ""
+msgstr "Anúncios que passaram de validade recentemente"
 
 #: templates/source/index.tt:74 templates/source/search_box.tt:63
+#, fuzzy
 msgid "Region : "
-msgstr ""
+msgstr "Região em que habita : %1"
 
 #: templates/source/about/pressroom.tt:51
 msgid "Related Documents"
 msgstr ""
 
 #: templates/source/manage/files/automatic.tt:80
+#, fuzzy
 msgid "Remove"
-msgstr ""
+msgstr "Cancelar e remover"
 
 #: templates/source/group/posts/display_post.tt:140
+#, fuzzy
 msgid "Reply to this Post"
-msgstr ""
+msgstr "Anuncie neste grupo"
 
 #: templates/source/group/posts/display_post.tt:111
 #: templates/source/group/posts/display_post.tt:117
+#, fuzzy
 msgid "Report as inappropriate"
-msgstr ""
+msgstr "Definir como \"grupo local\""
 
 #: templates/source/group/links/index.tt:50
 msgid "Report link"
@@ -2326,19 +2554,21 @@ msgstr ""
 
 #: templates/source/forgottenpassword.tt:100
 msgid "Request new password"
-msgstr ""
+msgstr "Pedir uma nova password"
 
 #: templates/source/forgottenusername.tt:23
 msgid "Request username"
-msgstr ""
+msgstr "Pedir o nome de utilizador"
 
 #: templates/source/group/posts/display_list.tt:52
+#, fuzzy
 msgid "Results per page :"
-msgstr ""
+msgstr "Ir para a página do grupo"
 
 #: templates/lib/search_box_group.tt:11
+#, fuzzy
 msgid "Results per page:"
-msgstr ""
+msgstr "Ir para a página do grupo"
 
 #: templates/source/about/links.tt:29
 msgid "Reverend Billy"
@@ -2355,16 +2585,17 @@ msgstr ""
 
 #: templates/source/manage/files/edit.tt:84
 #: templates/source/preferences/index.tt:36
+#, fuzzy
 msgid "Save changes"
-msgstr ""
+msgstr "Guardar a nova password"
 
 #: templates/source/home/info/change_email_address.tt:35
 msgid "Save new email address"
-msgstr ""
+msgstr "Guardar novo endereço de email"
 
 #: templates/source/home/info/change_password.tt:33
 msgid "Save new password"
-msgstr ""
+msgstr "Guardar a nova password"
 
 #: templates/source/preferences/save_preferences.tt:3
 msgid "Saved"
@@ -2382,13 +2613,15 @@ msgid "Search"
 msgstr ""
 
 #: templates/source/index.tt:6
+#, fuzzy
 msgid "Search Groups/Applications by : "
-msgstr ""
+msgstr "Não foram encontrados grupos"
 
 #: templates/source/group/posts/display_list.tt:22
 #: templates/source/group/posts/display_list.tt:233
+#, fuzzy
 msgid "Search Posts"
-msgstr ""
+msgstr "Todos os anúncios"
 
 #: templates/source/index.tt:18
 msgid "Search Results"
@@ -2399,12 +2632,14 @@ msgid "Search by : "
 msgstr ""
 
 #: templates/source/search/unique_id.tt:4
+#, fuzzy
 msgid "Search for Groups"
-msgstr ""
+msgstr "Ver outros grupos"
 
 #: templates/source/group/posts/display_list.tt:61
+#, fuzzy
 msgid "Search for Posts"
-msgstr ""
+msgstr "Localização dos anúncios por omissão:"
 
 #: templates/source/search/results.tt:4
 msgid "Search results"
@@ -2421,15 +2656,15 @@ msgstr ""
 #: templates/source/home/groups/contact_mods_form.tt:69
 #: templates/source/group/posts/display_post.tt:144
 msgid "Send Message"
-msgstr ""
+msgstr "Faça um anúncio"
 
 #: templates/source/home/posts/manage/received_form.tt:18
 msgid "Send RECEIVED message"
-msgstr ""
+msgstr "Enviar mensagem RECEBIDO"
 
 #: templates/source/home/posts/manage/taken_form.tt:18
 msgid "Send TAKEN message"
-msgstr ""
+msgstr "Enviar mensagem ENTREGUE"
 
 #: templates/source/manage/files/edit.tt:88
 msgid "Send to all Members"
@@ -2437,16 +2672,16 @@ msgstr ""
 
 #: templates/source/home/groups/home.tt:26
 msgid "Set 'home' Group"
-msgstr ""
+msgstr "Definir o 'grupo de acolhimento'"
 
 #: templates/source/home/groups/index.tt:195
 msgid "Set as 'home' group"
-msgstr ""
+msgstr "Definir como \"grupo local\""
 
 #. (group.group_name)
 #: templates/source/home/groups/options_display.tt:23
 msgid "Settings for %1"
-msgstr ""
+msgstr "Definições para %1"
 
 #: templates/source/about/volunteering.tt:12
 msgid "Share a skill"
@@ -2454,47 +2689,51 @@ msgstr ""
 
 #: templates/source/home/posts/new.tt:46
 msgid "Short description :"
-msgstr ""
+msgstr "Pequena descrição:"
 
 #: templates/source/manage/links/add.tt:12
 #: templates/source/manage/links/edit.tt:12
+#, fuzzy
 msgid "Short description : "
-msgstr ""
+msgstr "Pequena descrição:"
 
 #. (((page - 1)
 #: templates/source/search/results.tt:31
+#, fuzzy
 msgid "Showing %1 to %2 of %3 results"
-msgstr ""
+msgstr "Ir para ModTools (ferramentas de moderação)"
 
 #. (res_start, res_end, numresults)
 #: templates/source/group/posts/display_list.tt:153
+#, fuzzy
 msgid "Showing %1 to %2 of %3 results."
-msgstr ""
+msgstr "Ir para ModTools (ferramentas de moderação)"
 
 #: templates/source/signup.tt:75
 msgid "Sign up"
-msgstr ""
+msgstr "Inscrição"
 
 #: templates/source/signup.tt:15
 msgid "Sign up for My Freecycle"
-msgstr ""
+msgstr "Regista-te no My Freecycle"
 
 #: templates/source/signup.tt:24
 msgid "Sign up form"
-msgstr ""
+msgstr "Formulário de inscrição"
 
 #: templates/source/signup.tt:93
 msgid "Sign up using Facebook"
-msgstr ""
+msgstr "Entre utilizando o Facebook"
 
 #: templates/source/signup.tt:25
 msgid "Sign up using freecycle.org"
-msgstr ""
+msgstr "Registe-se através do Freecycle.org"
 
 #: templates/source/group/description.tt:17
 #: templates/source/group/posts/display_list.tt:227
+#, fuzzy
 msgid "Sign up/log in"
-msgstr ""
+msgstr "Entre utilizando o Facebook"
 
 #: templates/source/about/staff.tt:8
 msgid ""
@@ -2513,6 +2752,8 @@ msgid ""
 "Something went wrong while trying to serve this page - please try again in a "
 "little while"
 msgstr ""
+"Ocorreu um erro enquanto estávamos a actualizar esta página - por favor "
+"tente de novo, dentro de alguns momentos"
 
 #: templates/source/about/index.tt:13
 msgid "Sources and Use of Funds"
@@ -2539,7 +2780,7 @@ msgstr ""
 
 #: templates/source/home/groups/contact_mods_form.tt:63
 msgid "Subject :"
-msgstr ""
+msgstr "Assunto:"
 
 #: templates/source/agreement.tt:15
 msgid "Submit"
@@ -2548,7 +2789,7 @@ msgstr ""
 #: templates/lib/standard_macros.tt:16
 #: templates/source/group/posts/display_list.tt:267
 msgid "TAKEN"
-msgstr ""
+msgstr "ENTREGUE"
 
 #: templates/source/about/pressroom.tt:19
 msgid ""
@@ -2570,15 +2811,20 @@ msgid ""
 "authorising logins. Please try again later, or log in with your My Freecycle "
 "username and password to continue"
 msgstr ""
+"Erro temporário com um fornecedor terçeiro - este pode estar com problemas "
+"em autorizar logins. Por favor tente mais tarde, ou entre com o seu usuário "
+"e password do My Freecycle, de modo a continuar"
 
 #: templates/source/about/index.tt:18 templates/source/tos.tt:5
+#, fuzzy
 msgid "Terms of Service"
-msgstr ""
+msgstr "Concordo com os Termos de Utilização"
 
 #: templates/source/email/group_link_report.tt:4
 #: templates/source/group/links/report_thanks.tt:3
+#, fuzzy
 msgid "Thank you"
-msgstr ""
+msgstr "Tem %1 anúncio(s) aberto(s)"
 
 #: templates/source/group/posts/report_thanks.tt:3
 msgid "Thank you for taking the time to report this."
@@ -2591,6 +2837,9 @@ msgid ""
 "registered as a member of the local Group in which you clicked the 'Join' "
 "button."
 msgstr ""
+"Obrigado por utilizar a rede Freecycle. É agora membro da maior rede de "
+"trocas do planeta. Foi automaticamente registado como membro do grupo local "
+"em que clicou 'Aderir'."
 
 #: templates/source/about/pressroom.tt:17
 msgid ""
@@ -2605,15 +2854,15 @@ msgstr ""
 
 #: templates/source/signup.tt:214
 msgid "That email address is already signed up"
-msgstr ""
+msgstr "Este endereço de e-mail já está registado"
 
 #: templates/source/home/groups/index.tt:223
 msgid "That group cannot be found"
-msgstr ""
+msgstr "O grupo que procura não foi encontrado"
 
 #: templates/source/signup.tt:213
 msgid "That username is already taken"
-msgstr ""
+msgstr "Esse usuário já existe"
 
 #: templates/source/about/background.tt:26
 msgid ""
@@ -2629,6 +2878,10 @@ msgid ""
 "Network&trade; easier and more pleasant. Quickly and easily make and manage "
 "your Group memberships and Posts."
 msgstr ""
+"O site 'My Freecycle' tem como objetivo tornar mais simples e agradável a "
+"tua experiência nos vários grupos da rede Freecycle. Assim podes criar e "
+"gerir facilmente os teus anúncios, assim como as tuas opções de associação "
+"ao teu grupo local."
 
 #: templates/source/about/staff.tt:26
 msgid ""
@@ -2641,7 +2894,7 @@ msgstr ""
 
 #: templates/source/signup.tt:222
 msgid "The CAPTCHA was incorrect"
-msgstr ""
+msgstr "O campo CAPTCHA estava incorreto"
 
 #: templates/source/about/links.tt:15
 msgid ""
@@ -2651,81 +2904,115 @@ msgstr ""
 
 #: templates/lib/standard_page.tt:26 templates/lib/standard_page.tt:5
 #: templates/source/donate.tt:6
+#, fuzzy
 msgid "The Freecycle Network"
-msgstr ""
+msgstr "O logotipo da Rede Freecycle"
 
 #. (group.groupname)
 #: templates/source/group/posts/display_post.tt:5
+#, fuzzy
 msgid "The Freecycle Network - %1 Group"
-msgstr ""
+msgstr "O logotipo da Rede Freecycle"
 
 #: templates/source/about/board.tt:1
+#, fuzzy
 msgid "The Freecycle Network - Board"
-msgstr ""
+msgstr "O logotipo da Rede Freecycle"
 
 #. (year)
 #: templates/source/form990/form.tt:2
+#, fuzzy
 msgid "The Freecycle Network - Form 990 for %1"
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"O logotipo da Rede Freecycle"
 
 #: templates/source/about/funds.tt:1
+#, fuzzy
 msgid "The Freecycle Network - Funds"
-msgstr ""
+msgstr "O logotipo da Rede Freecycle"
 
 #: templates/source/about/background.tt:1
+#, fuzzy
 msgid "The Freecycle Network - History &amp; Background"
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"O logotipo da Rede Freecycle"
 
 #: templates/source/about/in_memoriam.tt:1
+#, fuzzy
 msgid "The Freecycle Network - In Memoriam"
-msgstr ""
+msgstr "Os Termos de Serviço \"Freecycle Network Terms of Service\""
 
 #: templates/source/about/missionstatement.tt:1
+#, fuzzy
 msgid "The Freecycle Network - Mission Statement"
-msgstr ""
+msgstr "Os Termos de Serviço \"Freecycle Network Terms of Service\""
 
 #. (group.groupname)
 #: templates/source/group/posts/display_list.tt:3
+#, fuzzy
 msgid "The Freecycle Network - Posts on the %1 Group"
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_groups.po  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"O logotipo da Rede Freecycle"
 
 #: templates/source/about/promovideo.tt:1
+#, fuzzy
 msgid "The Freecycle Network - Promo video"
-msgstr ""
+msgstr "Os Termos de Serviço \"Freecycle Network Terms of Service\""
 
 #: templates/source/about/staff.tt:1
+#, fuzzy
 msgid "The Freecycle Network - Staff"
-msgstr ""
+msgstr "O logotipo da Rede Freecycle"
 
 #: templates/source/about/volunteering.tt:1
+#, fuzzy
 msgid "The Freecycle Network - Volunteering"
-msgstr ""
+msgstr "O logotipo da Rede Freecycle"
 
 #. (group.groupname)
 #: templates/source/group/admin.tt:1 templates/source/group/description.tt:1
 #: templates/source/group/files/index.tt:2
+#, fuzzy
 msgid "The Freecycle Network - about the %1 Group"
-msgstr ""
+msgstr "Os Termos de Serviço \"Freecycle Network Terms of Service\""
 
 #. (file.name)
 #: templates/source/group/files/view_file.tt:2
+#, fuzzy
 msgid "The Freecycle Network - file '%1'"
-msgstr ""
+msgstr "O logotipo da Rede Freecycle"
 
 #. (group.groupname)
 #: templates/source/group/links/index.tt:3
 #: templates/source/group/links/report_thanks.tt:1
+#, fuzzy
 msgid "The Freecycle Network - interesting links from the %1 Group"
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_groups.po  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"Os Termos de Serviço \"Freecycle Network Terms of Service\""
 
 #. (group.groupname)
 #: templates/source/group/links/report_issue.tt:1
+#, fuzzy
 msgid "The Freecycle Network - report link from the %1 Group"
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_groups.po  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"Os Termos de Serviço \"Freecycle Network Terms of Service\""
 
 #: templates/source/home/agree_to_tos.tt:14
 msgid "The Freecycle Network Terms of Service"
-msgstr ""
+msgstr "Os Termos de Serviço \"Freecycle Network Terms of Service\""
 
 #: templates/source/group/links/index.tt:58
 msgid ""
@@ -2763,8 +3050,12 @@ msgid ""
 msgstr ""
 
 #: templates/source/browse/index.tt:12
+#, fuzzy
 msgid "The Freecycle Network is active in these countries:"
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"Os Termos de Serviço \"Freecycle Network Terms of Service\""
 
 #: templates/source/about/background.tt:16
 msgid ""
@@ -2773,7 +3064,7 @@ msgstr ""
 
 #: templates/lib/standard_header.tt:17 templates/source/errors.tt:14
 msgid "The Freecycle Network logo"
-msgstr ""
+msgstr "O logotipo da Rede Freecycle"
 
 #: templates/source/about/privacy.tt:7
 msgid ""
@@ -2871,8 +3162,9 @@ msgid ""
 msgstr ""
 
 #: templates/source/group/posts/display_post.tt:165
+#, fuzzy
 msgid "The Post has been deleted."
-msgstr ""
+msgstr "O grupo foi eliminado"
 
 #: templates/source/group/posts/display_post.tt:167
 msgid "The Post is still awaiting approval by a Group Moderator."
@@ -2950,23 +3242,24 @@ msgstr ""
 
 #: templates/source/home/groups/index.tt:225
 msgid "The group has been removed"
-msgstr ""
+msgstr "O grupo foi eliminado"
 
 #: templates/source/home/posts/manage/show.tt:61
 msgid "The image is awaiting moderator approval"
-msgstr ""
+msgstr "A imagem está a aguardar a aprovação do Moderador"
 
 #: templates/source/home/posts/display_issues.tt:18
 msgid "The image you uploaded was too big"
-msgstr ""
+msgstr "A imagem que carregou é demasiado grande"
 
 #: templates/source/group/links/index.tt:37
+#, fuzzy
 msgid "The main Freecycle.org homepage"
-msgstr ""
+msgstr "Registe-se através do Freecycle.org"
 
 #: templates/source/home/groups/contact_mods_form.tt:60
 msgid "The moderator(s) of group.group_name"
-msgstr ""
+msgstr "O(s) moderador(es) do group.group_name"
 
 #: templates/source/home/groups/seach_optout.tt:28
 msgid ""
@@ -2977,6 +3270,12 @@ msgid ""
 "decision is theirs. Other groups may still allow the use of this facility - "
 "the decision is made on a per-group basis."
 msgstr ""
+"Os moderadores deste grupo decidiram não incluir esta funcionalidade na "
+"plataforma \"My freecycle\" deste grupo. Os moderadores do grupo têm o poder "
+"para tomar decisões sobre as normas dos grupos que supervisionam. Como tal, "
+"as decisões tomadas são da responsabilidade destes. Outros grupos podem "
+"permitir a utilização desta funcionalidade - a decisão é tomada por cada "
+"grupo."
 
 #: templates/source/404.tt:12
 msgid ""
@@ -2985,39 +3284,48 @@ msgstr ""
 
 #: templates/source/404.tt:5
 msgid "The page you were looking for cannot be found!"
-msgstr ""
+msgstr "A página que procurava não pôde ser encontrada!"
 
 #. (post_matches.join(", ")
 #: templates/source/home/posts/display_issues.tt:52
 msgid "The post appears to be a duplicate of these Posts : %1"
-msgstr ""
+msgstr "O seu anúncio parece ser uma repetição destes anúncios: 1%"
 
 #. (mmaker.maximum_description_caps_percentage)
 #: templates/source/home/posts/display_issues.tt:50
 msgid "The post body has too many capitals  - this group has a limit of %1%"
 msgstr ""
+"O corpo do anúncio tem demasiadas maiúsculas - este grupo tem um limite de "
+"%1%"
 
 #. (mmaker.maximum_description_length)
 #: templates/source/home/posts/display_issues.tt:48
 msgid "The post body is too long - this group has a limit of %1 letters"
 msgstr ""
+"O corpo do anúncio é demasiado longo - este grupo tem um limite de %1 letras"
 
 #. (mmaker.maximum_item_caps_percentage)
 #: templates/source/home/posts/display_issues.tt:38
 msgid ""
 "The post description has too many capitals  - this group has a limit of %1%"
 msgstr ""
+"A descrição do anúncio tem demasiadas letras maiúsculas - o grupo tem um "
+"limite de %1%"
 
 #. (mmaker.maximum_item_length)
 #: templates/source/home/posts/display_issues.tt:36
 msgid "The post description is too long - this group has a limit of %1 letters"
 msgstr ""
+"A descrição do anúncio é demasiado longa - este grupo tem um limite de %1 "
+"carateres"
 
 #. (mmaker.maximum_location_caps_percentage)
 #: templates/source/home/posts/display_issues.tt:44
 msgid ""
 "The post location has too many capitals  - this group has a limit of %1%"
 msgstr ""
+"A localização do anúncio tem demasiadas maiúsculas - este grupo tem um "
+"limite de %1%"
 
 #: templates/source/email/post_abuse_report.tt:5
 msgid "The reporter gave the following reason:"
@@ -3025,23 +3333,23 @@ msgstr ""
 
 #: templates/source/home/groups/set_email_confirmed.tt:14
 msgid "The request has been sent to Yahoo!Groups for processing."
-msgstr ""
+msgstr "O pedido foi enviado para o Yahoo!Groups para ser processado"
 
 #: templates/source/home/posts/display_issues.tt:8
 msgid "The short description is not valid"
-msgstr ""
+msgstr "A descrição resumida não é válida."
 
 #: templates/source/forgottenpassword.tt:106
 msgid "The site administrators have been informed of the problem."
-msgstr ""
+msgstr "Os administradores do site foram informados do problema"
 
 #: templates/source/signup.tt:212
 msgid "The username or email address was invalid"
-msgstr ""
+msgstr "O username ou o endereço de e-mal estavam incorretos"
 
 #: templates/source/forgottenpassword.tt:118
 msgid "The username/email combination could not be found in the database."
-msgstr ""
+msgstr "A combinação usuário/email não foi encontrada na base de dados"
 
 #. (group.admins.size)
 #: templates/source/home/groups/index.tt:85
@@ -3049,6 +3357,8 @@ msgid ""
 "There are %1 ADMIN message(s) for this Group - please make sure you've read "
 "them"
 msgstr ""
+"Há %1 mensagem(ns) para a ADMINISTRAÇÃO deste Grupo - assegure-se de que as "
+"leu"
 
 #: templates/source/about/volunteering.tt:6
 msgid ""
@@ -3058,12 +3368,16 @@ msgid ""
 msgstr ""
 
 #: templates/source/manage/links/index.tt:42
+#, fuzzy
 msgid "There are no links for this Group"
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"Este anúncio não tem imagem"
 
 #: templates/source/home/posts/manage/show.tt:64
 msgid "There is no image for this Post"
-msgstr ""
+msgstr "Este anúncio não tem imagem"
 
 #: templates/source/group/files/view_file.tt:33
 msgid ""
@@ -3075,22 +3389,28 @@ msgid ""
 "There was a problem sending the email - your request may not have been "
 "fulfilled"
 msgstr ""
+"Ocorreu um problema ao enviar o email - o seu pedido pode não ter sido "
+"submetido"
 
 #: templates/source/forgottenpassword.tt:109
 msgid "There was a problem sending you the password"
-msgstr ""
+msgstr "Ocorreu um problema ao enviar-lhe a sua palavra-passe"
 
 #: templates/source/forgottenpassword.tt:103
 msgid "There was an error generating a new password for you"
-msgstr ""
+msgstr "Ocorreu um erro gerando uma nova password para si"
 
 #: templates/source/signup.tt:215
 msgid "There was an error sending the notification email"
-msgstr ""
+msgstr "Ocorreu um erro no processo de envio do e-mail de notificação"
 
 #: templates/source/search/results.tt:50
+#, fuzzy
 msgid "There were no groups matching your search terms"
 msgstr ""
+"#-#-#-#-#  pt.po (Freecycle.org)  #-#-#-#-#\n"
+"#-#-#-#-#  pt_myf.po (Freecycle.org)  #-#-#-#-#\n"
+"Não foram encontrados grupos"
 
 #: templates/source/group/posts/display_list.tt:11
 msgid "There were no matching messages"
@@ -3127,7 +3447,7 @@ msgstr ""
 
 #: templates/source/home/info/index.tt:101
 msgid "This My Freecycle account is associated with this Facebook account : "
-msgstr ""
+msgstr "Esta conta My Freecycle está associada a esta conta do Facebook:"
 
 #: templates/source/email/post_abuse_report.tt:1
 msgid "This Post has been marked by a Member as being inappropriate"
@@ -3156,26 +3476,31 @@ msgstr ""
 msgid ""
 "This has now been taken. Thank you to everyone who has shown an interest."
 msgstr ""
+"O artigo já foi entregue. Obrigado a todos os que se mostraram interessados."
 
 #: templates/source/errors.tt:22
 msgid "This incident has been automatically reported"
-msgstr ""
+msgstr "O problema foi automaticamente reportado"
 
 #: templates/source/home/groups/index.tt:77
 msgid "This is your home (default) Group"
-msgstr ""
+msgstr "Por omissão, este é o seu 'home group'"
 
 #: templates/source/home/posts/manage/received_form.tt:14
 msgid ""
 "This item will be marked as RECEIVED and removed from the Group.<br />If you "
 "want to edit the message, you can do so below :"
 msgstr ""
+"Este artigo será marcado como ENTREGUE e removido do grupo. <br />Se quer "
+"editar a mensagem, pode fazê-lo abaixo :"
 
 #: templates/source/home/posts/manage/taken_form.tt:14
 msgid ""
 "This item will be marked as TAKEN and removed from the Group.<br />If you "
 "want to edit the message, you can do so below :"
 msgstr ""
+"Este artigo será marcado como ENTREGUE e removido do grupo. <br />Se quer "
+"editar a mensagem, pode fazê-lo abaixo :"
 
 #: templates/source/home/info/change_email_address.tt:21
 msgid ""
@@ -3183,6 +3508,9 @@ msgid ""
 "only have one account per email address) or because the email address is "
 "invalid."
 msgstr ""
+"Isto pode ser um resultado do seu e-mail estar a ser utilizado para outra "
+"conta (apenas pode associar um e-mail por conta) ou o endereço inserido não "
+"é válido"
 
 #: templates/source/about/links.tt:21
 msgid ""
@@ -3278,6 +3606,12 @@ msgid ""
 "possible (if we can reproduce the problem, it's <b>so</b> much easier to "
 "fix!)"
 msgstr ""
+"Este site foi redesenhado de modo a ser mais fácil adicionarmos novas "
+"funcionalidades e resolver imediatamente quaisquer problemas que surjam. "
+"Apesar de termos testado o site o mais possível, pode ter escapado algum "
+"problema - por favor indique-nos se encontrar algum, incluindo o máximo de "
+"detalhe possível (se conseguirmos reproduzir o problema será <b>muito</b> "
+"mais fácil de o reparar!)"
 
 #. ('<a href="mailto:modcoord@freecycle.org">modcoord@freecycle.org</a>')
 #: templates/source/about/volunteering.tt:25
@@ -3296,6 +3630,8 @@ msgid ""
 "This will not affect your current session, but you will need your new "
 "password when you next log in."
 msgstr ""
+"Isto não irá afetar a sua sessão atual, mas irá precisar da sua nova "
+"password quando fizer um novo login."
 
 #: templates/source/manage/files/delete_file.tt:17
 msgid ""
@@ -3311,11 +3647,11 @@ msgstr ""
 
 #: templates/source/home/groups/contact_mods_form.tt:54
 msgid "To :"
-msgstr ""
+msgstr "Para:"
 
 #: templates/source/home/groups/join_too_many.tt:3
 msgid "Too many Groups!"
-msgstr ""
+msgstr "Demasiados Grupos!"
 
 #: templates/source/about/background.tt:25
 msgid "Trademark"
@@ -3337,11 +3673,16 @@ msgid ""
 "your username, which you can then use in the <a href='%2'>forgotten password "
 "form</a> to get a new, temporary password sent to you."
 msgstr ""
+"Clique em <a href='%1'>Esqueceu-se do username?</a> e verifique se o seu "
+"endereço de e-mail já está registado. Caso sim, ser-lhe-á enviado o seu "
+"username que pode utilizar em <a href='%2'>Esqueceu-se da palavra-passe?</a> "
+"para obter uma nova palavra-passe temporária."
 
 #: templates/source/manage/files/edit.tt:65
 #: templates/source/manage/files/new_file.tt:53
+#, fuzzy
 msgid "Type of file"
-msgstr ""
+msgstr "Tipo de anúncio"
 
 #: templates/source/about/pressroom.tt:61
 msgid "UK Press and Related Documents"
@@ -3393,17 +3734,18 @@ msgid "Unique IDs"
 msgstr ""
 
 #: templates/source/index.tt:35 templates/source/search_box.tt:21
+#, fuzzy
 msgid "Unique name :"
-msgstr ""
+msgstr "O(s) moderador(es) do group.group_name"
 
 #. (e)
 #: templates/source/index.tt:55
 msgid "Untrapped error '%1' - please report this!"
-msgstr ""
+msgstr "Erro não detetado %1 - Informe-nos disto sff!"
 
 #: templates/source/home/posts/manage/show.tt:99
 msgid "Upload image"
-msgstr ""
+msgstr "Carregar imagem"
 
 #: templates/source/about/privacy.tt:9
 msgid "Use of Cookies"
@@ -3416,39 +3758,42 @@ msgstr ""
 #: templates/source/forgottenpassword.tt:115
 #: templates/source/forgottenusername.tt:38
 msgid "User not found"
-msgstr ""
+msgstr "Utilizador não encontrado"
 
 #: templates/source/login.tt:8
+#, fuzzy
 msgid "Username"
-msgstr ""
+msgstr "Nome de utilizador / Usuário :"
 
 #: templates/source/forgottenpassword.tt:94 templates/source/index.tt:13
 #: templates/source/signup.tt:29
 msgid "Username :"
-msgstr ""
+msgstr "Nome de utilizador / Usuário :"
 
 #. (username)
 #: templates/source/home/info/index.tt:43
 msgid "Username : %1"
-msgstr ""
+msgstr "Utilizador: %1"
 
 #: templates/source/forgottenusername.tt:42
 msgid "Username sent"
-msgstr ""
+msgstr "Utilizador enviado"
 
 #: templates/source/signup.tt:139
 msgid ""
 "Usernames may only contain the letters, numbers, underscores, minus signs "
 "and plus signs"
 msgstr ""
+"O nomes de utilizador (usernames) apenas podem conter letras, números, "
+"\"underscores\" e sinais de mais e menos"
 
 #: templates/source/home/info/change_username.tt:5
 msgid "Usernames must"
-msgstr ""
+msgstr "Os utilizadores têm que"
 
 #: templates/source/signup.tt:126
 msgid "Usernames must be at least 4 characters long"
-msgstr ""
+msgstr "Os nomes de usuário devem ter pelo menos 4 carateres"
 
 #: templates/source/signup.tt:20
 msgid ""
@@ -3456,6 +3801,9 @@ msgid ""
 "or number, and may only contain alphanumeric characters (A-Z, 0-9), "
 "underscores (_) and plus (+) or minus (-) signs."
 msgstr ""
+"Os nomes de utilizador deverão ter entre 4 e 32 carateres, iniciar com uma "
+"letra ou número, apenas podem conter carateres alfanuméricos (A-Z, 0-9), "
+"\"underscores\" (_), sinais de mais (+) e menos (-)."
 
 #: templates/source/about/pressroom.tt:64
 msgid "Various quotes from magazines in the UK"
@@ -3466,12 +3814,13 @@ msgid "Video"
 msgstr ""
 
 #: templates/source/browse/region_list.tt:12
+#, fuzzy
 msgid "View other countries"
-msgstr ""
+msgstr "Ver outros grupos"
 
 #: templates/source/home/groups/index.tt:172
 msgid "View the Posts"
-msgstr ""
+msgstr "Ver anúncio"
 
 #: templates/source/manage/files/index.tt:22
 msgid "View/Edit details"
@@ -3479,8 +3828,9 @@ msgstr ""
 
 #. (groupname)
 #: Freecycle/standard_templates/source/group_template_yahoogrouplink.tt:1
+#, fuzzy
 msgid "Visit the %1 Yahoo!Group page"
-msgstr ""
+msgstr "Ir para a página do grupo"
 
 #. (group.groupname)
 #: templates/source/group/description.tt:24
@@ -3495,15 +3845,15 @@ msgstr ""
 #: templates/source/home/posts/manage/show.tt:34
 #: templates/source/group/posts/display_list.tt:271
 msgid "WANTED"
-msgstr ""
+msgstr "PROCURO"
 
 #: templates/source/home/posts/manage/show.tt:48
 msgid "Waiting for Moderator approval"
-msgstr ""
+msgstr "Pendente para aprovação dos Moderadores"
 
 #: templates/lib/box_tabbar.tt:13 templates/lib/box_tabbar.tt:8
 msgid "Wanteds"
-msgstr ""
+msgstr "Procuros"
 
 #: templates/source/about/pressroom.tt:23
 msgid ""
@@ -3524,6 +3874,8 @@ msgid ""
 "We hope you have fun as the newest member of this globally local and "
 "volunteer-run Freecycle Group!"
 msgstr ""
+"Esperamos que se divirta, pois é o membro mais recente deste grupo local do "
+"Freecycle, e atenção, o grupo é gerido unicamente por voluntários!"
 
 #: templates/source/about/privacy.tt:17
 msgid ""
@@ -3546,16 +3898,17 @@ msgid ""
 msgstr ""
 
 #: templates/source/form990/index.tt:4
+#, fuzzy
 msgid "What is the \"Form 990\"?"
-msgstr ""
+msgstr "Qual é a sua localização aproximada?"
 
 #: templates/source/home/posts/new.tt:50
 msgid "What is your approximate location?"
-msgstr ""
+msgstr "Qual é a sua localização aproximada?"
 
 #: templates/source/home/posts/new.tt:27
 msgid "What type of post is this?"
-msgstr ""
+msgstr "Que tipo de anúncio é este?"
 
 #: templates/source/about/privacy.tt:23
 msgid ""
@@ -3566,8 +3919,9 @@ msgid ""
 msgstr ""
 
 #: templates/source/about/volunteering.tt:9
+#, fuzzy
 msgid "Within your local Group"
-msgstr ""
+msgstr "O seu 'home group' é: %1"
 
 #: templates/source/group/posts/display_list.tt:26
 msgid "Words to look for :"
@@ -3610,12 +3964,14 @@ msgid "Yes"
 msgstr ""
 
 #: templates/source/manage/files/delete_file.tt:19
+#, fuzzy
 msgid "Yes, delete it"
-msgstr ""
+msgstr "É a OFERTA de um artigo"
 
 #: templates/source/manage/files/send_file.tt:19
+#, fuzzy
 msgid "Yes, send it"
-msgstr ""
+msgstr "É a OFERTA de um artigo"
 
 #: templates/source/tos.tt:50
 msgid ""
@@ -3673,36 +4029,36 @@ msgstr ""
 #. (groups.leadmod)
 #: templates/source/home/info/index.tt:31
 msgid "You are a LeadMod of %1 Group(s)"
-msgstr ""
+msgstr "É o Moderador-Líder de %1 Grupo(s)"
 
 #. (group_counts.leadmod)
 #: templates/source/home/groups/index.tt:42
 msgid "You are a LeadMod of [_1} group(s)."
-msgstr ""
+msgstr "Você é um LeadMod de [_1} grupo(s)."
 
 #. (groups.moderator)
 #: templates/source/home/info/index.tt:27
 msgid "You are a Moderator of %1 Group(s)"
-msgstr ""
+msgstr "Você é Moderador de %1 grupo(s)."
 
 #. (group_counts.moderator)
 #: templates/source/home/groups/index.tt:39
 msgid "You are a Moderator of %1 group(s)."
-msgstr ""
+msgstr "Você é Moderador de %1 grupo(s)."
 
 #. (groups.member)
 #: templates/source/home/info/index.tt:23
 msgid "You are a member of %1 Group(s)"
-msgstr ""
+msgstr "É membro de %1 Grupo(s)"
 
 #. (group_counts.member)
 #: templates/source/home/groups/index.tt:36
 msgid "You are a member of %1 group(s)."
-msgstr ""
+msgstr "Você é membro de %1 grupo(s)."
 
 #: templates/source/home/groups/search.tt:105
 msgid "You are already a Lead Moderator of this Group"
-msgstr ""
+msgstr "Já é o Moderador-Líder deste Grupo"
 
 #: templates/source/home/groups/join_too_many.tt:6
 msgid ""
@@ -3710,27 +4066,30 @@ msgid ""
 "sufficient. If you wish to join another Freecycle Group, you must leave one "
 "first."
 msgstr ""
+"Já é membro de 20 Grupos do Freecycle - o que já deve bastar. Se quiser "
+"juntar-se a outro Grupo do Freecycle, deve primeiro deixar um."
 
 #: templates/source/home/groups/search.tt:102
 msgid "You are already a Moderator of this Group"
-msgstr ""
+msgstr "Já é um moderador deste grupo"
 
 #: templates/source/home/groups/index.tt:221
 msgid "You are already subscribed to the maximum number of groups"
-msgstr ""
+msgstr "Já se registou no número máximo de grupos"
 
 #. (c.user.getUsername()
 #: templates/lib/standard_login_info.tt:32
 msgid "You are logged in as %1"
-msgstr ""
+msgstr "Está logado como %1"
 
 #: templates/source/home/groups/index.tt:99
 msgid "You are not a member of any groups."
-msgstr ""
+msgstr "Não é membro de nenhum grupo."
 
 #: templates/source/index.tt:47
+#, fuzzy
 msgid "You are not a moderator of any Groups"
-msgstr ""
+msgstr "Não é membro de nenhum grupo."
 
 #. (c.uri_for_action('/browse/index')
 #: templates/source/404.tt:17
@@ -3741,20 +4100,22 @@ msgstr ""
 
 #: templates/source/home/posts/new.tt:54
 msgid "You can add more details here :"
-msgstr ""
+msgstr "Pode adicionar mais detalhes aqui:"
 
 #: templates/source/home/agree_to_tos.tt:20
 msgid ""
 "You can always access the Freecycle Network Terms of Service at this "
 "address: "
 msgstr ""
+"Pode aceder em qualquer instante, aos Termos de Serviço \"Freecycle Network "
+"Terms of Service\""
 
 #: templates/source/home/info/index.tt:108
 #: templates/source/home/info/index.tt:116
 #: templates/source/home/info/index.tt:122
 msgid ""
 "You can associate the accounts <a href='#' onclick='set_fb_id()'>here</a>"
-msgstr ""
+msgstr "Podes associar as contas <a href='#' onclick='set_fb_id()'>aqui</a>"
 
 #: templates/source/home/groups/home.tt:4
 msgid ""
@@ -3762,6 +4123,9 @@ msgid ""
 "Group. This Group will be used by default wherever possible (like, for "
 "example, when making a new Post)."
 msgstr ""
+"Pode seleccionar um dos Grupos a que pertence, como o grupo locaol, o seu "
+"'Grupo de Entrada'. Este grupo será utilizado por defeito onde quer que seja "
+"possível (por exemplo, quando fizer um novo anúncio)"
 
 #. (groupURL)
 #: templates/source/home/posts/new_okay.tt:29
@@ -3769,10 +4133,13 @@ msgid ""
 "You can return to your <a href='/home/posts'>posts</a> page, go to the <a "
 "href='%1'>group page</a> or use any of the tabs above to continue."
 msgstr ""
+"Pode voltar à <a href='/página inicial/posts'>página dos anúncios</a> , ir "
+"para <a href='%1'>página do grupo</a> ou usar uma das \"tabs\" acima."
 
 #: templates/source/home/info/change_password.tt:17
 msgid "You can use this form to change your login password for 'My Freecycle'."
 msgstr ""
+"Podes usar este formulário para alterar a tua password do 'My Freecycle'"
 
 #: templates/source/home/info/change_email_address.tt:26
 msgid ""
@@ -3780,14 +4147,19 @@ msgid ""
 "note that email addresses must be unique - you cannot use an email address "
 "already assigned to a different 'My Freecycle' account."
 msgstr ""
+"Pode utilizar este formulário para alterar o seu e-mail registado. <br/>Por "
+"favor repare que os endereços de email devem ser únicos - não poderá "
+"utilizar um endereço de e-mail que já esteja associado a outra conta do \"My "
+"Freecycle\"."
 
 #: templates/source/signup.tt:193
 msgid "You cannot use My Freecycle without agreeing to the Terms of Service"
 msgstr ""
+"Não pode utilizar o MyFreecycle sem aceitar os nossos termos de utilização."
 
 #: templates/source/signup.tt:220
 msgid "You cannot use this service without agreeing to the Terms of Service"
-msgstr ""
+msgstr "Não pode utilizar este serviço sem concordar com os Termos do Serviço"
 
 #. ('/home/groups')
 #: templates/lib/box_tabbar.tt:39
@@ -3795,56 +4167,60 @@ msgid ""
 "You currently do not have a \"home\" Group selected - please choose one from "
 "<a href=\"%1\">your Group Membership list</a>"
 msgstr ""
+"Ainda não tem o seu Grupo de \"acolhimento\" seleccionado - por favor "
+"escolha um grupo da <a href=\"%1\">sua lista de Associação a Grupos</a>"
 
 #: templates/source/index.tt:66
 msgid ""
 "You didn't authorise the third-party application - unless you authorise My "
 "Freecycle to access your account details, we cannot log you in"
 msgstr ""
+"Não autorizou uma aplicação exterior. A menos que autorize o My Freecycle a "
+"aceder aos detalhes da sua conta, não será possível que faça o login"
 
 #: templates/source/home/posts/new.tt:72
 msgid "You do not belong to any groups yet!"
-msgstr ""
+msgstr "Ainda não pertence a nenhuns grupos!"
 
 #: templates/source/home/groups/home.tt:12
 msgid "You do not currently have a 'home' Group"
-msgstr ""
+msgstr "Ainda não tem um Grupo de acolhimento"
 
 #. (groups.pending)
 #: templates/source/home/info/index.tt:19
 msgid "You have %1 Group membership(s) waiting for approval."
-msgstr ""
+msgstr "Tem %1 pedidos de associação pendentes para aprovação."
 
 #. (posts.size)
 #: templates/source/home/posts/index.tt:40
 msgid "You have %1 Post(s) open"
-msgstr ""
+msgstr "Tem %1 anúncio(s) aberto(s)"
 
 #. (group_counts.pending)
 #: templates/source/home/groups/index.tt:33
 msgid "You have %1 group membership(s) waiting for approval. "
-msgstr ""
+msgstr "Tem %1 aprovação(ões) de grupo(s) pendentes para aprovação."
 
 #. (posts.numPosts)
 #: templates/source/home/info/index.tt:16
 msgid "You have %1 post(s) open"
-msgstr ""
+msgstr "Tem %1 anúncio(s) aberto(s)"
 
 #: templates/source/home/groups/search.tt:99
 msgid "You have already joined this group"
-msgstr ""
+msgstr "Já pertence ao grupo"
 
 #: templates/source/home/groups/index.tt:238
 msgid "You have been invited to join the following groups:"
-msgstr ""
+msgstr "Foi convidado a juntar-se aos seguintes grupos:"
 
 #: templates/source/home/posts/index.tt:75
 msgid "You have no open posts"
-msgstr ""
+msgstr "Não tem anúncios abertos"
 
 #: templates/source/home/posts/recently_closed.tt:43
 msgid "You have no recently expired Posts"
-msgstr ""
+msgstr "Nenhum dos anúncios ultrapassou recentemente a sua validade"
 
 #. ("http://groups.freecycle.org/$group_unique_name","http://my.freecycle.org/home/posts/$group_unique_name/post_to_group","http://my.freecycle.org/home/groups/$group_unique_name/options")
 #: templates/source/home/groups/join_group.tt:18
@@ -3853,29 +4229,32 @@ msgid ""
 "href='%1'>here</a>. You may make a Post by clicking <a href='%2'>here</a>. "
 "Or, you may edit your membership settings by clicking <a href='%3'>here</a>."
 msgstr ""
+"Para ver os anúncios mais recentes clique em <a href='%1'>aqui</a>. Para "
+"publicar um anúncio clique em <a href='%2'>aqui</a>. Pode também alterar os "
+"seus dados clicando em <a href='%2'>aqui</a>."
 
 #: templates/source/signup.tt:192
 msgid "You must accept the Terms of Service"
-msgstr ""
+msgstr "Tem que aceitar as Condições de Serviço"
 
 #: templates/source/home/posts/display_issues.tt:12
 msgid "You must enter more details for this post"
-msgstr ""
+msgstr "Tem que incluir mais detalhes para este anúncio"
 
 #: templates/source/home/posts/display_issues.tt:14
 msgid "You must enter something for the location"
-msgstr ""
+msgstr "Tem que inserir algo no campo localização"
 
 #: templates/source/home/posts/display_issues.tt:10
 msgid "You must enter something for the short description"
-msgstr ""
+msgstr "Deve introduzir algo na breve descrição"
 
 #: templates/source/home/posts/new.tt:74
 msgid ""
 "You need to <a href='/home/groups'>join some groups</a> before you can post "
 "(please see your groups page for notes regarding membership to existing "
 "Yahoo!Groups)"
-msgstr ""
+msgstr "Você tem que <a href='/home/groups'>se inscrever em alguns grupos</a"
 
 #. (#TODO: hard-coded URL      "http://my.freecycle.org/login?referer=$thispage")
 #: templates/source/group/posts/display_post.tt:50
@@ -3893,11 +4272,11 @@ msgstr ""
 
 #: templates/source/forgottenusername.tt:43
 msgid "You should receive an email with your username in soon."
-msgstr ""
+msgstr "Receberá brevemente um e-mail com o seu nome de utilizador"
 
 #: templates/source/forgottenpassword.tt:124
 msgid "You should receive your new password soon."
-msgstr ""
+msgstr "Deverá receber a sua nova password de seguida."
 
 #: templates/source/tos.tt:47
 msgid ""
@@ -3966,6 +4345,11 @@ msgid ""
 "either use your registered Yahoo! email address or add the new address to "
 "your Yahoo! profile."
 msgstr ""
+"Vai precisar de criar uma conta antes de poder utilizar o My Freecycle. Terá "
+"que ecolher um nome de utilizador (username) e indicar um e-mail válido que "
+"consulte habitualmente. Se já é utilizador dos Yahoo!Groups, é recomendado "
+"que insira o seu e-mail que está registado no Yahoo ou que adicione o seu e-"
+"mail novo ao seu perfil o Yahoo."
 
 #: templates/source/home/info/index.tt:38
 msgid ""
@@ -3973,10 +4357,13 @@ msgid ""
 "available through The Freecycle Network. Click on the 'My Groups' tab and "
 "you can search for Groups near you."
 msgstr ""
+"Tem que se inscrever em alguns Grupos antes de poder procurar os artigos "
+"disponíveis na Rede Freecycle. Clique no separador 'My Groups' para procurar "
+"Grupos perto de si."
 
 #: templates/source/home/info/index.tt:106
 msgid "Your Facebook account is not linked to this My Freecycle account"
-msgstr ""
+msgstr "A sua conta Facebook não está ligada a esta conta \"My Freecycle\""
 
 #: templates/source/index.tt:65
 msgid ""
@@ -3984,10 +4371,14 @@ msgid ""
 "My Freecycle username and password and associate your account before you can "
 "use a third-party login provider"
 msgstr ""
+"A sua conta My Freecycle ainda não está associada. É necessário que entre "
+"com o seu nome de utilizador e palavra-passe do \"My Freecycle\", e que "
+"depois associe a sua conta, antes de poder fazer login através de um login "
+"terceiro. "
 
 #: templates/source/home/delete_account.tt:12
 msgid "Your account has been closed"
-msgstr ""
+msgstr "A sua conta foi encerrada"
 
 #: templates/source/signup_okay.tt:14
 msgid ""
@@ -3996,15 +4387,19 @@ msgid ""
 "you can change it to something you prefer. Please check any 'Junk' and "
 "'spam' folders in case the email has been quarantined."
 msgstr ""
+"A sua conta foi criada, e foi-lhe enviado um e-mail com a sua password. Você "
+"precisa desta password para fazer login pela primeira vez, mas depois pode "
+"alterá-la se preferir. Verifique sff no seu e-mail, as pastas 'Lixo' e "
+"'Spam' caso o seu e-mail tenha estado em quarentena."
 
 #. (home_group.getGroupName()
 #: templates/source/home/groups/home.tt:10
 msgid "Your current 'home' Group is: %1"
-msgstr ""
+msgstr "O seu 'home group' é: %1"
 
 #: templates/source/home/info/save_email.tt:13
 msgid "Your email address has been successfully changed"
-msgstr ""
+msgstr "O seu email foi alterado com sucesso"
 
 #: templates/source/tos.tt:56
 msgid ""
@@ -4019,23 +4414,24 @@ msgstr ""
 
 #: templates/source/home/groups/search.tt:96
 msgid "Your membership to this group is still pending"
-msgstr ""
+msgstr "O seu pedido de subscrição para este grupo ainda está pendente"
 
 #: templates/source/home/posts/new_okay.tt:13
 msgid "Your message has been posted"
-msgstr ""
+msgstr "A sua mensagem foi afixada"
 
 #: templates/source/home/groups/contact_mods_sent.tt:25
 msgid "Your message has been sent"
-msgstr ""
+msgstr "A sua mensagem foi enviada"
 
 #: templates/source/group/posts/reply_sent.tt:3
+#, fuzzy
 msgid "Your message was sent successfully"
-msgstr ""
+msgstr "A sua mensagem foi enviada"
 
 #: templates/source/home/info/change_email_address.tt:19
 msgid "Your new email address could not be saved"
-msgstr ""
+msgstr "O seu novo endereço de e-mail não foi gravado"
 
 #. (post_id)
 #: templates/source/home/posts/new_okay.tt:16
@@ -4043,16 +4439,20 @@ msgid ""
 "Your new message has been sent to the Group. This message has been given the "
 "ID number #%1."
 msgstr ""
+"A sua mensagem foi enviada para o Grupo. Esta mensagem tem o número de "
+"identificação #%1."
 
 #: templates/source/forgottenpassword.tt:112
 msgid ""
 "Your password has been changed, but an error occured whilst trying to send "
 "you your new password."
 msgstr ""
+"A sua password foi alterada, mas ocorreu um erro enquanto estava a ser "
+"enviada a sua nova password."
 
 #: templates/source/home/info/save_password.tt:14
 msgid "Your password has been successfully changed"
-msgstr ""
+msgstr "A sua password foi alterada com sucesso"
 
 #: templates/source/group/posts/reply_error.tt:18
 msgid ""
@@ -4083,6 +4483,8 @@ msgstr ""
 #: templates/source/index.tt:63
 msgid "Your third-party login attempt failed - the most common causes are:"
 msgstr ""
+"A sua tentativa para fazer login através de um segundo website, falhou - as "
+"causas mais habituais para tal acontecer são:"
 
 #: templates/source/tos.tt:43
 msgid ""
@@ -4094,15 +4496,16 @@ msgstr ""
 
 #: templates/source/home/info/change_username.tt:7
 msgid "be between 4 and 32 characters in length"
-msgstr ""
+msgstr "Ter entre 4 e 32 caracteres"
 
 #: templates/source/about/links.tt:26
 msgid "call2recycle"
 msgstr ""
 
 #: templates/source/home/info/index.tt:51
+#, fuzzy
 msgid "change"
-msgstr ""
+msgstr "Nível de alteração"
 
 #: templates/lib/standard_page.tt:27
 msgid "changing the world<br />one gift at a time&trade;"
@@ -4122,26 +4525,31 @@ msgid ""
 "contain only alphanumeric characters (A-Z, 0-9), underscores (_) and plus "
 "(+) or minus (-) signs."
 msgstr ""
+"contem apenas carateres alfanuméricos (A-Z, 0-9), \"underscores\" (_), "
+"sinais de mais (+) e menos (-)."
 
 #: templates/lib/search_box_group.tt:19
 msgid "e.g. Tucson, Arizona"
 msgstr ""
 
 #: templates/lib/search_box_group.tt:3
+#, fuzzy
 msgid "find a group near you"
-msgstr ""
+msgstr "Encontre um grupo perto de si :"
 
 #: templates/lib/search_box_group.tt:8
+#, fuzzy
 msgid "go"
-msgstr ""
+msgstr "Ir para ModTools (ferramentas de moderação)"
 
 #: templates/source/signup.tt:81
 msgid "or"
-msgstr ""
+msgstr "ou"
 
 #: templates/source/preferences/index.tt:18
+#, fuzzy
 msgid "per page"
-msgstr ""
+msgstr "Ir para a página do grupo"
 
 #: templates/source/tos.tt:42
 msgid ""
@@ -4152,7 +4560,7 @@ msgstr ""
 
 #: templates/source/home/info/change_username.tt:8
 msgid "start with a letter or number"
-msgstr ""
+msgstr "começa com uma letra ou um algarismo"
 
 #: templates/source/tos.tt:28
 msgid ""
