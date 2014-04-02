@@ -1,9 +1,27 @@
+# #-#-#-#-#  fr.po (The Freecycle Network Mobile Site)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# #-#-#-#-#  fr.po (PACKAGE VERSION)  #-#-#-#-#
+# French translations for PACKAGE package.
+# Copyright (C) 2010 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#  <wallmari@devserver.freecycle.org>, 2010.
+#
+# #-#-#-#-#  fr.po (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Freecycle.org\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2014-02-26 12:37-0700\n"
+"PO-Revision-Date: 2014-04-02 10:24-0700\n"
 "Last-Translator: Richard Wallman <richard@wallman.org.uk>\n"
 "Language-Team: French <richard.wallman@freecycle.org>\n"
 "Language: fr\n"
@@ -772,7 +790,7 @@ msgstr ""
 
 #: templates/lib/standard_menu.tt:9
 msgid "Donate"
-msgstr "Donner"
+msgstr "Faire un don"
 
 #: templates/source/donate.tt:1
 msgid "Donate and support Freecycle.org"
@@ -1341,7 +1359,7 @@ msgid ""
 msgstr ""
 "Si vous rencontrez un problème (qui ne serait pas déjà inscrit sur cette "
 "page) lors de l'utilisation de My Freecycle ou si vous souhaitez faire une "
-"suggestion, veuillez contacter <a href='%1'> l'équipe admin </a><br />. Si "
+"suggestion, veuillez contacter <a href='%1'> l'équipe admin. </a><br /> Si "
 "vous avez des questions spécifiques sur un groupe, veuillez contacter les "
 "modérateurs du groupe concerné."
 
