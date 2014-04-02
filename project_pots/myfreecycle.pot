@@ -115,6 +115,10 @@ msgstr ""
 msgid "Back to 'My Groups'"
 msgstr ""
 
+#: templates/lib/_fudge.tt:1
+msgid "Cancel"
+msgstr ""
+
 #: templates/source/home/posts/manage/show.tt:77 templates/source/home/posts/manage/show.tt:78
 msgid "Cancel and remove"
 msgstr ""
@@ -309,7 +313,7 @@ msgstr ""
 msgid "Home region : %1"
 msgstr ""
 
-#. ("http://www.freecycle.org/tos")
+#. ("//www.freecycle.org/tos")
 #: templates/source/signup.tt:71
 msgid "I agree to The Freecycle Network <a href='%1'>Terms of Service</a> and understand that the use of Yahoo!Groups is subject to their Terms of Service"
 msgstr ""
@@ -773,6 +777,10 @@ msgstr ""
 msgid "Request username"
 msgstr ""
 
+#: templates/source/home/info/default_location.tt:22
+msgid "Save"
+msgstr ""
+
 #: templates/source/home/info/change_email_address.tt:35
 msgid "Save new email address"
 msgstr ""
@@ -822,7 +830,7 @@ msgstr ""
 msgid "Sign up form"
 msgstr ""
 
-#: templates/source/signup.tt:93
+#: templates/source/signup.tt:84 templates/source/signup.tt:93
 msgid "Sign up using Facebook"
 msgstr ""
 
@@ -1241,7 +1249,7 @@ msgstr ""
 msgid "You have no recently expired Posts"
 msgstr ""
 
-#. ("http://groups.freecycle.org/$group_unique_name","http://my.freecycle.org/home/posts/$group_unique_name/post_to_group","http://my.freecycle.org/home/groups/$group_unique_name/options")
+#. ("//groups.freecycle.org/$group_unique_name","//my.freecycle.org/home/posts/$group_unique_name/post_to_group","//my.freecycle.org/home/groups/$group_unique_name/options")
 #: templates/source/home/groups/join_group.tt:18
 msgid "You may view the most recent Posts of this Group by clicking <a href='%1'>here</a>. You may make a Post by clicking <a href='%2'>here</a>. Or, you may edit your membership settings by clicking <a href='%3'>here</a>."
 msgstr ""
