@@ -20,20 +20,9 @@ msgstr ""
 msgid "%1 Freecycle - %2: %3 (%4)"
 msgstr ""
 
-#. (group.pending_members)
-#: templates/source/index.tt:26
-msgid "%1 Member(s) pending approval"
-msgstr ""
-
 #. (group.membercount)
 #: webapp_main/templates/lib/group_box.tt:11
 msgid "%1 Members"
-msgstr ""
-
-#. (group.pending_posts)
-#. (group.pending_images)
-#: templates/source/index.tt:31 templates/source/index.tt:36
-msgid "%1 Post(s) pending approval"
 msgstr ""
 
 #: webapp_main/templates/source/tos.tt:38
@@ -65,24 +54,24 @@ msgstr ""
 msgid "(home Group)"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:36
-#: templates/source/manage/files/new_file.tt:24
+#: webapp_modtools/templates/source/manage/files/edit.tt:36
+#: webapp_modtools/templates/source/manage/files/new_file.tt:24
 msgid ""
 "(include .doc or .txt, or just leave field empty to keep uploaded file name)"
 msgstr ""
 
-#: templates/source/manage/links/add.tt:8
-#: templates/source/manage/links/edit.tt:8
+#: webapp_modtools/templates/source/manage/links/add.tt:8
+#: webapp_modtools/templates/source/manage/links/edit.tt:8
 msgid "(include the 'http://' part!)"
 msgstr ""
 
-#: templates/source/manage/links/add.tt:14
-#: templates/source/manage/links/edit.tt:14
+#: webapp_modtools/templates/source/manage/links/add.tt:14
+#: webapp_modtools/templates/source/manage/links/edit.tt:14
 msgid "(max 1KB)"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:44
-#: templates/source/manage/files/new_file.tt:32
+#: webapp_modtools/templates/source/manage/files/edit.tt:44
+#: webapp_modtools/templates/source/manage/files/new_file.tt:32
 msgid "(max size: 1Kb)"
 msgstr ""
 
@@ -96,7 +85,7 @@ msgid ""
 "or Posts and it may take a day or two before you are able to post)"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:75
+#: webapp_modtools/templates/source/manage/files/edit.tt:75
 msgid "(this file is of a type that cannot be edited online)"
 msgstr ""
 
@@ -290,8 +279,8 @@ msgstr ""
 msgid "Accept invite"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:52
-#: templates/source/manage/files/new_file.tt:40
+#: webapp_modtools/templates/source/manage/files/edit.tt:52
+#: webapp_modtools/templates/source/manage/files/new_file.tt:40
 msgid "Accessible to"
 msgstr ""
 
@@ -328,20 +317,20 @@ msgstr ""
 msgid "Add a note:"
 msgstr ""
 
-#: templates/source/manage/links/add.tt:18
+#: webapp_modtools/templates/source/manage/links/add.tt:18
 msgid "Add link"
 msgstr ""
 
-#: templates/source/manage/files/index.tt:32
+#: webapp_modtools/templates/source/manage/files/index.tt:32
 msgid "Add new file"
 msgstr ""
 
-#: templates/lib/moderator_menu.tt:124
-#: templates/source/manage/links/index.tt:36
+#: webapp_modtools/templates/lib/moderator_menu.tt:173
+#: webapp_modtools/templates/source/manage/links/index.tt:36
 msgid "Add new link"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:101
+#: webapp_modtools/templates/source/manage/files/automatic.tt:100
 msgid "Add this file"
 msgstr ""
 
@@ -421,7 +410,7 @@ msgid ""
 "more volunteers who help administer the Web site and our extensive database."
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:13
+#: webapp_modtools/templates/source/manage/files/automatic.tt:13
 msgid "Applying to join"
 msgstr ""
 
@@ -445,7 +434,7 @@ msgid ""
 "and building supplies."
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:9
+#: webapp_modtools/templates/source/manage/files/automatic.tt:9
 msgid "Automatic sending of Group files"
 msgstr ""
 
@@ -454,8 +443,8 @@ msgstr ""
 msgid "Back to 'My Groups'"
 msgstr ""
 
-#: templates/source/manage/files/delete_file.tt:30
-#: templates/source/manage/files/send_file.tt:30
+#: webapp_modtools/templates/source/manage/files/delete_file.tt:30
+#: webapp_modtools/templates/source/manage/files/send_file.tt:30
 msgid "Back to file list"
 msgstr ""
 
@@ -472,7 +461,7 @@ msgid ""
 "reasonable effort to comply with your request."
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:44
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:43
 #: webapp_main/templates/source/about/board.tt:4
 #: webapp_main/templates/source/about/index.tt:16
 msgid "Board"
@@ -540,9 +529,9 @@ msgstr ""
 msgid "California Product Stewardship Council"
 msgstr ""
 
-#: templates/source/manage/files/delete_file.tt:20
-#: templates/source/manage/files/edit.tt:85
-#: templates/source/manage/files/send_file.tt:20
+#: webapp_modtools/templates/source/manage/files/delete_file.tt:20
+#: webapp_modtools/templates/source/manage/files/edit.tt:85
+#: webapp_modtools/templates/source/manage/files/send_file.tt:20
 #: webapp_myf/templates/lib/_fudge.tt:6
 msgid "Cancel"
 msgstr ""
@@ -606,7 +595,7 @@ msgid ""
 "information from individuals under the age of 13."
 msgstr ""
 
-#: templates/source/agreement.tt:9
+#: webapp_modtools/templates/source/agreement.tt:9
 msgid "Collective Membership Mark Usage Agreement"
 msgstr ""
 
@@ -659,7 +648,7 @@ msgstr ""
 msgid "Country : "
 msgstr ""
 
-#: templates/source/manage/files/new_file.tt:68
+#: webapp_modtools/templates/source/manage/files/new_file.tt:68
 msgid "Create new file"
 msgstr ""
 
@@ -683,17 +672,13 @@ msgstr ""
 msgid "Default location for Posts :"
 msgstr ""
 
-#: templates/source/preferences/index.tt:13
-msgid "Default results"
-msgstr ""
-
 #: webapp_myf/templates/source/home/agree_to_tos.tt:30
 #: webapp_myf/templates/source/home/info/index.tt:157
 #: webapp_myf/templates/source/home/info/index.tt:158
 msgid "Delete account"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:87
+#: webapp_modtools/templates/source/manage/files/edit.tt:87
 msgid "Delete file"
 msgstr ""
 
@@ -701,7 +686,7 @@ msgstr ""
 msgid "Delete invite"
 msgstr ""
 
-#: templates/source/manage/links/index.tt:26
+#: webapp_modtools/templates/source/manage/links/index.tt:26
 msgid "Delete link"
 msgstr ""
 
@@ -709,8 +694,8 @@ msgstr ""
 msgid "Delete my account"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:44
-#: templates/source/manage/files/new_file.tt:32
+#: webapp_modtools/templates/source/manage/files/edit.tt:44
+#: webapp_modtools/templates/source/manage/files/new_file.tt:32
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:55
 #: webapp_main/templates/source/group/files/index.tt:23
 #: webapp_main/templates/source/group/links/index.tt:30
@@ -722,11 +707,11 @@ msgstr ""
 msgid "Description:"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:15
+#: webapp_modtools/templates/source/manage/files/edit.tt:15
 msgid "Details saved"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:47
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:46
 #: webapp_main/templates/source/about/disclaimer.tt:5
 #: webapp_main/templates/source/about/index.tt:19
 msgid "Disclaimer"
@@ -794,12 +779,12 @@ msgstr ""
 msgid "Earth911"
 msgstr ""
 
-#: templates/source/manage/links/edit.tt:18
-#: templates/source/manage/links/index.tt:25
+#: webapp_modtools/templates/source/manage/links/edit.tt:18
+#: webapp_modtools/templates/source/manage/links/index.tt:25
 msgid "Edit link"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:74
+#: webapp_modtools/templates/source/manage/files/edit.tt:74
 msgid "Edit/upload file contents"
 msgstr ""
 
@@ -828,10 +813,6 @@ msgstr ""
 msgid "Email digest"
 msgstr ""
 
-#: templates/source/preferences/index.tt:14
-msgid "Email on pending"
-msgstr ""
-
 #: webapp_myf/templates/source/home/groups/options_display.tt:45
 msgid "Email preference :"
 msgstr ""
@@ -840,7 +821,7 @@ msgstr ""
 msgid "Email preference : "
 msgstr ""
 
-#: templates/source/manage/files/send_file.tt:27
+#: webapp_modtools/templates/source/manage/files/send_file.tt:27
 msgid "Email queued for sending"
 msgstr ""
 
@@ -856,12 +837,8 @@ msgstr ""
 msgid "Error sending email!"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:17
-msgid "Every month"
-msgstr ""
-
-#: templates/source/manage/files/edit.tt:54
-#: templates/source/manage/files/new_file.tt:42
+#: webapp_modtools/templates/source/manage/files/edit.tt:54
+#: webapp_modtools/templates/source/manage/files/new_file.tt:42
 msgid "Everyone (public file)"
 msgstr ""
 
@@ -876,21 +853,21 @@ msgid ""
 "instructions on how to use it correctly here:"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:67
+#: webapp_modtools/templates/source/manage/files/automatic.tt:66
 msgid "File ID"
 msgstr ""
 
-#: templates/source/manage/files/new_file.tt:62
+#: webapp_modtools/templates/source/manage/files/new_file.tt:62
 msgid "File contents"
 msgstr ""
 
-#: templates/source/manage/files/delete_file.tt:27
+#: webapp_modtools/templates/source/manage/files/delete_file.tt:27
 msgid "File deleted"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:68
-#: templates/source/manage/files/edit.tt:35
-#: templates/source/manage/files/new_file.tt:23
+#: webapp_modtools/templates/source/manage/files/automatic.tt:67
+#: webapp_modtools/templates/source/manage/files/edit.tt:35
+#: webapp_modtools/templates/source/manage/files/new_file.tt:23
 #: webapp_main/templates/source/group/files/index.tt:20
 msgid "File name"
 msgstr ""
@@ -1020,10 +997,6 @@ msgstr ""
 msgid "Group (display) name contains : "
 msgstr ""
 
-#: templates/source/preferences/index.tt:17
-msgid "Group ID"
-msgstr ""
-
 #: templates/source/index.tt:32 templates/source/search_box.tt:18
 msgid "Group ID number :"
 msgstr ""
@@ -1043,7 +1016,7 @@ msgstr ""
 msgid "Group Information:"
 msgstr ""
 
-#: templates/lib/moderator_menu.tt:122
+#: webapp_modtools/templates/lib/moderator_menu.tt:171
 msgid "Group Links"
 msgstr ""
 
@@ -1074,7 +1047,7 @@ msgid "Group Unique Name: %1"
 msgstr ""
 
 #. (group_file.group_file_id)
-#: templates/source/manage/files/edit.tt:21
+#: webapp_modtools/templates/source/manage/files/edit.tt:21
 msgid "Group file ID: %1"
 msgstr ""
 
@@ -1109,7 +1082,7 @@ msgid ""
 "about how to reduce, reuse and recycle:"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:35
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:34
 #: webapp_main/templates/source/about/index.tt:8
 msgid "History"
 msgstr ""
@@ -1138,7 +1111,7 @@ msgid "Home region : %1"
 msgstr ""
 
 #. ('http://faq.freecycle.org/faq/?menu=manual/required')
-#: templates/source/agreement.tt:11
+#: webapp_modtools/templates/source/agreement.tt:11
 msgid ""
 "I acknowledge and agree not to use the \"freecycle.org\" logo other than as "
 "a sign of local group membership in The Freecycle Network. I also agree not "
@@ -1160,7 +1133,7 @@ msgid ""
 "understand that the use of Yahoo!Groups is subject to their Terms of Service"
 msgstr ""
 
-#: templates/source/agreement.tt:14
+#: webapp_modtools/templates/source/agreement.tt:14
 msgid "I agree to the Collective Membership Mark Usage Agreement"
 msgstr ""
 
@@ -1242,10 +1215,6 @@ msgid ""
 "appropriate action, but please do not be offended if the ModTeam doesn't "
 "acknowledge your report - it may have been just one of many they've received "
 "in relation to this Post."
-msgstr ""
-
-#: templates/source/index.tt:49
-msgid "If you are a Group mod, please contact your GOA"
 msgstr ""
 
 #: webapp_myf/templates/source/home/posts/new_okay.tt:21
@@ -1436,7 +1405,7 @@ msgstr ""
 msgid "Information Collection"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:36
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:35
 #: webapp_main/templates/source/about/index.tt:9
 msgid "Instructional Video"
 msgstr ""
@@ -1540,7 +1509,7 @@ msgstr ""
 msgid "Links"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:48
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:47
 #: webapp_main/templates/source/about/index.tt:20
 #: webapp_main/templates/source/about/links.tt:4
 msgid "Links we like"
@@ -1623,8 +1592,8 @@ msgstr ""
 msgid "Member"
 msgstr ""
 
-#: templates/source/preferences/index.tt:19
-msgid "Members"
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:50
+msgid "Member FAQ"
 msgstr ""
 
 #. ('%%group_name')
@@ -1694,19 +1663,19 @@ msgstr ""
 msgid "Message to send to the person who made this Post:"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:38
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:37
 #: webapp_main/templates/source/about/index.tt:10
 #: webapp_main/templates/source/about/missionstatement.tt:4
 msgid "Mission Statement"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:55
-#: templates/source/manage/files/new_file.tt:43
-msgid "ModTeam and Members of this Group"
+#: webapp_modtools/templates/lib/moderator_menu.tt:4
+msgid "Mod Home"
 msgstr ""
 
-#: templates/lib/moderator_menu.tt:4
-msgid "ModTools Home"
+#: webapp_modtools/templates/source/manage/files/edit.tt:55
+#: webapp_modtools/templates/source/manage/files/new_file.tt:43
+msgid "ModTeam and Members of this Group"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:22
@@ -1717,6 +1686,10 @@ msgstr ""
 #: webapp_myf/templates/source/home/groups/options_display.tt:35
 #: webapp_myf/templates/source/home/groups/options_display.tt:71
 msgid "Moderator"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:51
+msgid "Moderator Manual"
 msgstr ""
 
 #: webapp_main/templates/source/about/volunteering.tt:24
@@ -1731,8 +1704,8 @@ msgstr ""
 msgid "Modified"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:56
-#: templates/source/manage/files/new_file.tt:44
+#: webapp_modtools/templates/source/manage/files/edit.tt:56
+#: webapp_modtools/templates/source/manage/files/new_file.tt:44
 msgid "Mods and LMs of this Group"
 msgstr ""
 
@@ -1786,7 +1759,7 @@ msgstr ""
 msgid "My Posts"
 msgstr ""
 
-#: templates/lib/moderator_menu.tt:5
+#: webapp_modtools/templates/lib/moderator_menu.tt:5
 msgid "MyF Home"
 msgstr ""
 
@@ -1810,7 +1783,7 @@ msgstr ""
 msgid "New username"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:34
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:33
 #: webapp_main/templates/source/about/index.tt:6
 msgid "Newswire"
 msgstr ""
@@ -1820,7 +1793,6 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: templates/source/preferences/index.tt:49
 #: core_modules/lib/Freecycle/standard_templates/source/html/widget/buttonbar/yesno.tt:5
 msgid "No"
 msgstr ""
@@ -1875,11 +1847,11 @@ msgid ""
 "Tucsonans in need."
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:15
+#: webapp_modtools/templates/source/manage/files/automatic.tt:15
 msgid "On joining (auto or approved)"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:16
+#: webapp_modtools/templates/source/manage/files/automatic.tt:16
 msgid "On leaving"
 msgstr ""
 
@@ -1893,8 +1865,8 @@ msgstr ""
 msgid "One-time donation"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:57
-#: templates/source/manage/files/new_file.tt:45
+#: webapp_modtools/templates/source/manage/files/edit.tt:57
+#: webapp_modtools/templates/source/manage/files/new_file.tt:45
 msgid "Only LMs of this Group"
 msgstr ""
 
@@ -1977,7 +1949,7 @@ msgstr ""
 msgid "Passwords don't match"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:14
+#: webapp_modtools/templates/source/manage/files/automatic.tt:14
 msgid "Pending Member approved"
 msgstr ""
 
@@ -1998,13 +1970,13 @@ msgid ""
 "join this group."
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:50
-#: templates/source/manage/files/new_file.tt:38
+#: webapp_modtools/templates/source/manage/files/edit.tt:50
+#: webapp_modtools/templates/source/manage/files/new_file.tt:38
 msgid "Please check the file access level"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:63
-#: templates/source/manage/files/new_file.tt:51
+#: webapp_modtools/templates/source/manage/files/edit.tt:63
+#: webapp_modtools/templates/source/manage/files/new_file.tt:51
 msgid "Please check the file type (upload/plain text/HMTL)"
 msgstr ""
 
@@ -2031,13 +2003,13 @@ msgid ""
 "entries are the same"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:42
-#: templates/source/manage/files/new_file.tt:30
+#: webapp_modtools/templates/source/manage/files/edit.tt:42
+#: webapp_modtools/templates/source/manage/files/new_file.tt:30
 msgid "Please enter a description for this file"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:27
-#: templates/source/manage/files/new_file.tt:20
+#: webapp_modtools/templates/source/manage/files/edit.tt:27
+#: webapp_modtools/templates/source/manage/files/new_file.tt:20
 msgid ""
 "Please enter a filename, or use an uploaded file (which uses the uploaded "
 "file name)"
@@ -2278,11 +2250,7 @@ msgstr ""
 msgid "Poster: %1"
 msgstr ""
 
-#: templates/source/preferences/index.tt:20
-msgid "Posts"
-msgstr ""
-
-#: templates/lib/moderator_menu.tt:6
+#: webapp_modtools/templates/lib/moderator_menu.tt:6
 msgid "Preferences"
 msgstr ""
 
@@ -2290,7 +2258,7 @@ msgstr ""
 msgid "Press Releases"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:39
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:38
 #: webapp_main/templates/source/about/index.tt:11
 #: webapp_main/templates/source/about/pressroom.tt:1
 #: webapp_main/templates/source/about/pressroom.tt:4
@@ -2302,7 +2270,7 @@ msgstr ""
 msgid "Previous"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:45
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:44
 #: webapp_main/templates/source/about/index.tt:17
 msgid "Privacy"
 msgstr ""
@@ -2311,7 +2279,7 @@ msgstr ""
 msgid "Privacy Policy"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:37
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:36
 msgid "Promo Video - Lamp"
 msgstr ""
 
@@ -2374,7 +2342,7 @@ msgstr ""
 msgid "Related Documents"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:80
+#: webapp_modtools/templates/source/manage/files/automatic.tt:79
 msgid "Remove"
 msgstr ""
 
@@ -2434,8 +2402,7 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:84
-#: templates/source/preferences/index.tt:36
+#: webapp_modtools/templates/source/manage/files/edit.tt:84
 msgid "Save changes"
 msgstr ""
 
@@ -2447,12 +2414,8 @@ msgstr ""
 msgid "Save new password"
 msgstr ""
 
-#: templates/source/preferences/save_preferences.tt:3
-msgid "Saved"
-msgstr ""
-
 #. (group_file.size)
-#: templates/source/manage/files/edit.tt:80
+#: webapp_modtools/templates/source/manage/files/edit.tt:80
 msgid "Saved file size: %1 bytes"
 msgstr ""
 
@@ -2516,7 +2479,7 @@ msgstr ""
 msgid "Send TAKEN message"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:88
+#: webapp_modtools/templates/source/manage/files/edit.tt:88
 msgid "Send to all Members"
 msgstr ""
 
@@ -2541,8 +2504,8 @@ msgstr ""
 msgid "Short description :"
 msgstr ""
 
-#: templates/source/manage/links/add.tt:12
-#: templates/source/manage/links/edit.tt:12
+#: webapp_modtools/templates/source/manage/links/add.tt:12
+#: webapp_modtools/templates/source/manage/links/edit.tt:12
 msgid "Short description : "
 msgstr ""
 
@@ -2604,20 +2567,20 @@ msgid ""
 "little while"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:41
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:40
 #: webapp_main/templates/source/about/index.tt:13
 msgid "Sources and Use of Funds"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:16
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:40
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:39
 #: webapp_main/templates/source/about/index.tt:12
 #: webapp_main/templates/source/about/sponsors.tt:4
 #: webapp_main/templates/source/index.tt:39
 msgid "Sponsors"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:43
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:42
 #: webapp_main/templates/source/about/index.tt:15
 #: webapp_main/templates/source/about/staff.tt:4
 msgid "Staff"
@@ -2637,7 +2600,7 @@ msgstr ""
 msgid "Subject :"
 msgstr ""
 
-#: templates/source/agreement.tt:15
+#: webapp_modtools/templates/source/agreement.tt:15
 msgid "Submit"
 msgstr ""
 
@@ -2667,7 +2630,7 @@ msgid ""
 "username and password to continue"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:46
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:45
 #: webapp_main/templates/source/about/index.tt:18
 #: webapp_main/templates/source/tos.tt:5
 msgid "Terms of Service"
@@ -3191,7 +3154,7 @@ msgid ""
 "function as a grassroots and nonprofit gifting movement."
 msgstr ""
 
-#: templates/source/manage/links/index.tt:42
+#: webapp_modtools/templates/source/manage/links/index.tt:42
 msgid "There are no links for this Group"
 msgstr ""
 
@@ -3230,28 +3193,28 @@ msgstr ""
 msgid "There were no matching messages"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:54
+#: webapp_modtools/templates/source/manage/files/automatic.tt:53
 msgid "These files will be sent to all Members at the start of every month"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:22
+#: webapp_modtools/templates/source/manage/files/automatic.tt:21
 msgid ""
 "These files will be sent when a Member applies to join, only if the Group "
 "approves new Members."
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:46
+#: webapp_modtools/templates/source/manage/files/automatic.tt:45
 msgid "These files will be sent when a Member leaves the Group"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:38
+#: webapp_modtools/templates/source/manage/files/automatic.tt:37
 msgid ""
 "These files will be sent when a new Member joins, either having been "
 "approved by a Moderator or if the Group does not require new Members to be "
 "approved"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:30
+#: webapp_modtools/templates/source/manage/files/automatic.tt:29
 msgid "These files will be sent when a pending Member has been approved."
 msgstr ""
 
@@ -3276,11 +3239,11 @@ msgid ""
 "functionality of the link itself based on the input below."
 msgstr ""
 
-#: templates/source/manage/files/delete_file.tt:29
+#: webapp_modtools/templates/source/manage/files/delete_file.tt:29
 msgid "This file has been deleted from the Group"
 msgstr ""
 
-#: templates/source/manage/files/send_file.tt:29
+#: webapp_modtools/templates/source/manage/files/send_file.tt:29
 msgid ""
 "This file has been queued for sending by the bulk email system, and will be "
 "processed as soon as possible."
@@ -3421,13 +3384,13 @@ msgid ""
 "password when you next log in."
 msgstr ""
 
-#: templates/source/manage/files/delete_file.tt:17
+#: webapp_modtools/templates/source/manage/files/delete_file.tt:17
 msgid ""
 "This will permanently delete the file from the Group - are you sure you want "
 "to do this?"
 msgstr ""
 
-#: templates/source/manage/files/send_file.tt:17
+#: webapp_modtools/templates/source/manage/files/send_file.tt:17
 msgid ""
 "This will send the Group file to ALL Members of this Group - are you sure "
 "you want to do this?"
@@ -3472,8 +3435,8 @@ msgid ""
 "form</a> to get a new, temporary password sent to you."
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:65
-#: templates/source/manage/files/new_file.tt:53
+#: webapp_modtools/templates/source/manage/files/edit.tt:65
+#: webapp_modtools/templates/source/manage/files/new_file.tt:53
 msgid "Type of file"
 msgstr ""
 
@@ -3506,8 +3469,8 @@ msgstr ""
 msgid "URL"
 msgstr ""
 
-#: templates/source/manage/links/add.tt:6
-#: templates/source/manage/links/edit.tt:6
+#: webapp_modtools/templates/source/manage/links/add.tt:6
+#: webapp_modtools/templates/source/manage/links/edit.tt:6
 msgid "URL : "
 msgstr ""
 
@@ -3608,7 +3571,7 @@ msgstr ""
 msgid "View the Posts"
 msgstr ""
 
-#: templates/source/manage/files/index.tt:22
+#: webapp_modtools/templates/source/manage/files/index.tt:22
 msgid "View/Edit details"
 msgstr ""
 
@@ -3622,7 +3585,7 @@ msgstr ""
 msgid "Visit the %1 group and see the posts"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:42
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:41
 #: webapp_main/templates/source/about/index.tt:14
 #: webapp_main/templates/source/about/volunteering.tt:4
 msgid "Volunteering"
@@ -3749,16 +3712,15 @@ msgstr ""
 msgid "Yahoo!"
 msgstr ""
 
-#: templates/source/preferences/index.tt:48
 #: core_modules/lib/Freecycle/standard_templates/source/html/widget/buttonbar/yesno.tt:3
 msgid "Yes"
 msgstr ""
 
-#: templates/source/manage/files/delete_file.tt:19
+#: webapp_modtools/templates/source/manage/files/delete_file.tt:19
 msgid "Yes, delete it"
 msgstr ""
 
-#: templates/source/manage/files/send_file.tt:19
+#: webapp_modtools/templates/source/manage/files/send_file.tt:19
 msgid "Yes, send it"
 msgstr ""
 
@@ -3809,7 +3771,7 @@ msgid ""
 "or your violation of any rights of another."
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:32
+#: webapp_modtools/templates/source/manage/files/edit.tt:32
 msgid ""
 "You already have a file with this name on this Group - files need unique "
 "names"
@@ -3866,10 +3828,6 @@ msgstr ""
 
 #: webapp_myf/templates/source/home/groups/index.tt:99
 msgid "You are not a member of any groups."
-msgstr ""
-
-#: templates/source/index.tt:47
-msgid "You are not a moderator of any Groups"
 msgstr ""
 
 #. (c.uri_for_action('/browse/index')
@@ -4279,10 +4237,6 @@ msgstr ""
 
 #: webapp_myf/templates/source/signup.tt:81
 msgid "or"
-msgstr ""
-
-#: templates/source/preferences/index.tt:18
-msgid "per page"
 msgstr ""
 
 #: webapp_main/templates/source/tos.tt:42
