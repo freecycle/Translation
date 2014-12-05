@@ -15,25 +15,192 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:13
+msgid "About Freecycle&trade;"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:32
+msgid "All Items"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:44
+msgid "Board"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:11
+msgid "Browse Groups"
+msgstr ""
+
 #. ('<a href="http://www.freecycle.org">http://www.freecycle.org</a>',)
-#. ("<a href=\"http://www.freecycle.org\">http://www.freecycle.org</a>")
-#: Freecycle/standard_templates/source/group_template_copyright.tt:1 Freecycle/standard_templates/source/group_template_copyright.tt:4
+#: core_modules/lib/Freecycle/standard_templates/source/group_template_copyright.tt:4
 msgid "Copyright &copy; 2013 The Freecycle Network (%1). All rights reserved. Freecycle and the Freecycle logo are trademarks of The Freecycle Network in various countries."
 msgstr ""
 
-#: Freecycle/standard_templates/source/group_template_disclaimer.tt:1 Freecycle/standard_templates/source/group_template_disclaimer.tt:2
+#. (date.format(date.now, '%Y')
+#: core_modules/lib/Freecycle/standard_templates/source/standard_copyright.tt:5
+msgid "Copyright &copy;%1 The Freecycle Network (%2). All rights reserved. Freecycle and the Freecycle logo are trademarks of The Freecycle Network in various countries."
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/group_template_disclaimer.tt:2 core_modules/lib/Freecycle/standard_templates/source/standard_disclaimer.tt:2
 msgid "DISCLAIMER: FREECYCLE NETWORK MEMBERS USE THE LIST AT THEIR OWN RISK. Please take reasonable measures to protect your safety and privacy when posting to the list or participating in an exchange. By joining the list, you agree to hold neither the list owners and moderators nor anyone affiliated with Freecycle.org responsible or liable for any circumstance resulting from a Freecycle-related exchange or communication."
 msgstr ""
 
-#: Freecycle/standard_templates/source/html/widget/buttonbar/yesno.tt:5
+#: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:55
+msgid "Description"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:47
+msgid "Disclaimer"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:14
+msgid "Donate"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:12
+msgid "FAQ"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:56
+msgid "Files"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:18 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:54
+msgid "Group Info"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:35
+msgid "History"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:10
+msgid "Home"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:36
+msgid "Instructional Video"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:57
+msgid "Links"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:48
+msgid "Links we like"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:25
+msgid "Log in/Sign up"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:18
+msgid "Log out"
+msgstr ""
+
+#. ('%%group_name')
+#: core_modules/lib/Freecycle/standard_templates/source/standard_group_description.tt:3
+msgid "Membership is free, and everything posted must be FREE, legal and appropriate for all ages. To view the items being given away or sought in %1, you must be a member of the local group."
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:38
+msgid "Mission Statement"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:22
+msgid "Moderate"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:20
+msgid "My Freecycle"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:19 core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:30 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:22 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:37
+msgid "My Groups"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:29 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:23 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:38
+msgid "My Info"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:31 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:21 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:36
+msgid "My Posts"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:34
+msgid "Newswire"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/html/widget/buttonbar/yesno.tt:5
 msgid "No"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:33
+msgid "Offers"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:39
+msgid "Press Room"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:45
+msgid "Privacy"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:37
+msgid "Promo Video - Lamp"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:7
+msgid "Skip navigation menu"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:41
+msgid "Sources and Use of Funds"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:16 core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:40
+msgid "Sponsors"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:43
+msgid "Staff"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:15
+msgid "Store"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:46
+msgid "Terms of Service"
+msgstr ""
+
+#. ('%%num_groups', '%%num_members')
+#: core_modules/lib/Freecycle/standard_templates/source/standard_group_description.tt:2
+msgid "The Freecycle Network&trade; is made up of %1 groups with %2 members across the globe. It's a grassroots and entirely nonprofit movement of people who are giving (and getting) stuff for free in their own towns and thus keeping good stuff out of landfills."
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/standard_group_description.tt:7
+msgid "To view the local group posts, visit the local Yahoo Group where they are located by clicking on the link below."
+msgstr ""
+
 #. (groupname)
-#: Freecycle/standard_templates/source/group_template_yahoogrouplink.tt:1
+#: core_modules/lib/Freecycle/standard_templates/source/group_template_yahoogrouplink.tt:1
 msgid "Visit the %1 Yahoo!Group page"
 msgstr ""
 
-#: Freecycle/standard_templates/source/html/widget/buttonbar/yesno.tt:3
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:42
+msgid "Volunteering"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:34
+msgid "Wanteds"
+msgstr ""
+
+#. ('%%group_name')
+#: core_modules/lib/Freecycle/standard_templates/source/standard_group_description.tt:1
+msgid "Welcome to the %1 Freecycle group!"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/html/widget/buttonbar/yesno.tt:3
 msgid "Yes"
 msgstr ""
