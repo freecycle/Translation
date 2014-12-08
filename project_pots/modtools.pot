@@ -15,332 +15,273 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. (group.pending_members)
-#: templates/source/index.tt:26
-msgid "%1 Member(s) pending approval"
-msgstr ""
-
-#. (group.pending_posts)
-#. (group.pending_images)
-#: templates/source/index.tt:31 templates/source/index.tt:36
-msgid "%1 Post(s) pending approval"
-msgstr ""
-
-#: templates/source/manage/files/edit.tt:36 templates/source/manage/files/new_file.tt:24
+#: webapp_modtools/templates/source/manage/files/edit.tt:36 webapp_modtools/templates/source/manage/files/new_file.tt:24
 msgid "(include .doc or .txt, or just leave field empty to keep uploaded file name)"
 msgstr ""
 
-#: templates/source/manage/links/add.tt:8 templates/source/manage/links/edit.tt:8
+#: webapp_modtools/templates/source/manage/links/add.tt:8 webapp_modtools/templates/source/manage/links/edit.tt:8
 msgid "(include the 'http://' part!)"
 msgstr ""
 
-#: templates/source/manage/links/add.tt:14 templates/source/manage/links/edit.tt:14
+#: webapp_modtools/templates/source/manage/links/add.tt:14 webapp_modtools/templates/source/manage/links/edit.tt:14
 msgid "(max 1KB)"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:44 templates/source/manage/files/new_file.tt:32
+#: webapp_modtools/templates/source/manage/files/edit.tt:44 webapp_modtools/templates/source/manage/files/new_file.tt:32
 msgid "(max size: 1Kb)"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:75
+#: webapp_modtools/templates/source/manage/files/edit.tt:75
 msgid "(this file is of a type that cannot be edited online)"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:52 templates/source/manage/files/new_file.tt:40
+#: webapp_modtools/templates/source/manage/files/edit.tt:52 webapp_modtools/templates/source/manage/files/new_file.tt:40
 msgid "Accessible to"
 msgstr ""
 
-#: templates/source/manage/links/add.tt:18
+#: webapp_modtools/templates/source/manage/links/add.tt:18
 msgid "Add link"
 msgstr ""
 
-#: templates/source/manage/files/index.tt:32
+#: webapp_modtools/templates/source/manage/files/index.tt:32
 msgid "Add new file"
 msgstr ""
 
-#: templates/lib/moderator_menu.tt:124 templates/source/manage/links/index.tt:36
+#: webapp_modtools/templates/lib/moderator_menu.tt:173 webapp_modtools/templates/source/manage/links/index.tt:36
 msgid "Add new link"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:101
+#: webapp_modtools/templates/source/manage/files/automatic.tt:100
 msgid "Add this file"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:13
+#: webapp_modtools/templates/source/manage/files/automatic.tt:13
 msgid "Applying to join"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:9
+#: webapp_modtools/templates/source/manage/files/automatic.tt:9
 msgid "Automatic sending of Group files"
 msgstr ""
 
-#: templates/source/manage/files/delete_file.tt:30 templates/source/manage/files/send_file.tt:30
+#: webapp_modtools/templates/source/manage/files/delete_file.tt:30 webapp_modtools/templates/source/manage/files/send_file.tt:30
 msgid "Back to file list"
 msgstr ""
 
-#: templates/source/manage/files/delete_file.tt:20 templates/source/manage/files/edit.tt:85 templates/source/manage/files/send_file.tt:20
+#: webapp_modtools/templates/source/manage/files/delete_file.tt:20 webapp_modtools/templates/source/manage/files/edit.tt:85 webapp_modtools/templates/source/manage/files/send_file.tt:20
 msgid "Cancel"
 msgstr ""
 
-#: templates/source/agreement.tt:9
+#: webapp_modtools/templates/source/agreement.tt:9
 msgid "Collective Membership Mark Usage Agreement"
 msgstr ""
 
-#: templates/source/manage/files/new_file.tt:68
+#: webapp_modtools/templates/source/manage/files/new_file.tt:68
 msgid "Create new file"
 msgstr ""
 
-#: templates/source/preferences/index.tt:13
-msgid "Default results"
-msgstr ""
-
-#: templates/source/manage/files/edit.tt:87
+#: webapp_modtools/templates/source/manage/files/edit.tt:87
 msgid "Delete file"
 msgstr ""
 
-#: templates/source/manage/links/index.tt:26
+#: webapp_modtools/templates/source/manage/links/index.tt:26
 msgid "Delete link"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:44 templates/source/manage/files/new_file.tt:32
+#: webapp_modtools/templates/source/manage/files/edit.tt:44 webapp_modtools/templates/source/manage/files/new_file.tt:32
 msgid "Description"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:15
+#: webapp_modtools/templates/source/manage/files/edit.tt:15
 msgid "Details saved"
 msgstr ""
 
-#: templates/source/manage/links/edit.tt:18 templates/source/manage/links/index.tt:25
+#: webapp_modtools/templates/source/manage/links/edit.tt:18 webapp_modtools/templates/source/manage/links/index.tt:25
 msgid "Edit link"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:74
+#: webapp_modtools/templates/source/manage/files/edit.tt:74
 msgid "Edit/upload file contents"
 msgstr ""
 
-#: templates/source/preferences/index.tt:14
-msgid "Email on pending"
-msgstr ""
-
-#: templates/source/manage/files/send_file.tt:27
+#: webapp_modtools/templates/source/manage/files/send_file.tt:27
 msgid "Email queued for sending"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:17
-msgid "Every month"
-msgstr ""
-
-#: templates/source/manage/files/edit.tt:54 templates/source/manage/files/new_file.tt:42
+#: webapp_modtools/templates/source/manage/files/edit.tt:54 webapp_modtools/templates/source/manage/files/new_file.tt:42
 msgid "Everyone (public file)"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:67
+#: webapp_modtools/templates/source/manage/files/automatic.tt:66
 msgid "File ID"
 msgstr ""
 
-#: templates/source/manage/files/new_file.tt:62
+#: webapp_modtools/templates/source/manage/files/new_file.tt:62
 msgid "File contents"
 msgstr ""
 
-#: templates/source/manage/files/delete_file.tt:27
+#: webapp_modtools/templates/source/manage/files/delete_file.tt:27
 msgid "File deleted"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:68 templates/source/manage/files/edit.tt:35 templates/source/manage/files/new_file.tt:23
+#: webapp_modtools/templates/source/manage/files/automatic.tt:67 webapp_modtools/templates/source/manage/files/edit.tt:35 webapp_modtools/templates/source/manage/files/new_file.tt:23
 msgid "File name"
 msgstr ""
 
-#: templates/source/preferences/index.tt:17
-msgid "Group ID"
-msgstr ""
-
-#: templates/lib/moderator_menu.tt:122
+#: webapp_modtools/templates/lib/moderator_menu.tt:171
 msgid "Group Links"
 msgstr ""
 
 #. (group_file.group_file_id)
-#: templates/source/manage/files/edit.tt:21
+#: webapp_modtools/templates/source/manage/files/edit.tt:21
 msgid "Group file ID: %1"
 msgstr ""
 
 #. ('http://faq.freecycle.org/faq/?menu=manual/required')
-#: templates/source/agreement.tt:11
+#: webapp_modtools/templates/source/agreement.tt:11
 msgid "I acknowledge and agree not to use the \"freecycle.org\" logo other than as a sign of local group membership in The Freecycle Network. I also agree not to alter the logo or The Freecycle Network's word mark \"freecycle.org\" (collectively \"Trademarks\") and to stop using the Trademarks when local group membership status is lost, and to only use the Trademarks in accordance with the local group required guidelines and policies found <a href=\"%1\">in the FAQ</a>. I further acknowledge in my role as a volunteer local group Lead Moderator, and local group member of The Freecycle Network, that I may only use the logo as a sign of local group membership in The Freecycle Network. Should I leave this volunteer role or be asked to step down, I agree I have no rights to the use of the Trademarks."
 msgstr ""
 
-#: templates/source/agreement.tt:14
+#: webapp_modtools/templates/source/agreement.tt:14
 msgid "I agree to the Collective Membership Mark Usage Agreement"
 msgstr ""
 
-#: templates/source/index.tt:49
-msgid "If you are a Group mod, please contact your GOA"
+#: webapp_modtools/templates/lib/moderator_menu.tt:4
+msgid "Mod Home"
 msgstr ""
 
-#: templates/source/preferences/index.tt:19
-msgid "Members"
-msgstr ""
-
-#: templates/source/manage/files/edit.tt:55 templates/source/manage/files/new_file.tt:43
+#: webapp_modtools/templates/source/manage/files/edit.tt:55 webapp_modtools/templates/source/manage/files/new_file.tt:43
 msgid "ModTeam and Members of this Group"
 msgstr ""
 
-#: templates/lib/moderator_menu.tt:4
-msgid "ModTools Home"
-msgstr ""
-
-#: templates/source/manage/files/edit.tt:56 templates/source/manage/files/new_file.tt:44
+#: webapp_modtools/templates/source/manage/files/edit.tt:56 webapp_modtools/templates/source/manage/files/new_file.tt:44
 msgid "Mods and LMs of this Group"
 msgstr ""
 
-#: templates/lib/moderator_menu.tt:5
+#: webapp_modtools/templates/lib/moderator_menu.tt:5
 msgid "MyF Home"
 msgstr ""
 
-#: templates/source/preferences/index.tt:49
-msgid "No"
-msgstr ""
-
-#: templates/source/manage/files/automatic.tt:15
+#: webapp_modtools/templates/source/manage/files/automatic.tt:15
 msgid "On joining (auto or approved)"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:16
+#: webapp_modtools/templates/source/manage/files/automatic.tt:16
 msgid "On leaving"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:57 templates/source/manage/files/new_file.tt:45
+#: webapp_modtools/templates/source/manage/files/edit.tt:57 webapp_modtools/templates/source/manage/files/new_file.tt:45
 msgid "Only LMs of this Group"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:14
+#: webapp_modtools/templates/source/manage/files/automatic.tt:14
 msgid "Pending Member approved"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:50 templates/source/manage/files/new_file.tt:38
+#: webapp_modtools/templates/source/manage/files/edit.tt:50 webapp_modtools/templates/source/manage/files/new_file.tt:38
 msgid "Please check the file access level"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:63 templates/source/manage/files/new_file.tt:51
+#: webapp_modtools/templates/source/manage/files/edit.tt:63 webapp_modtools/templates/source/manage/files/new_file.tt:51
 msgid "Please check the file type (upload/plain text/HMTL)"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:42 templates/source/manage/files/new_file.tt:30
+#: webapp_modtools/templates/source/manage/files/edit.tt:42 webapp_modtools/templates/source/manage/files/new_file.tt:30
 msgid "Please enter a description for this file"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:27 templates/source/manage/files/new_file.tt:20
+#: webapp_modtools/templates/source/manage/files/edit.tt:27 webapp_modtools/templates/source/manage/files/new_file.tt:20
 msgid "Please enter a filename, or use an uploaded file (which uses the uploaded file name)"
 msgstr ""
 
-#: templates/source/preferences/index.tt:20
-msgid "Posts"
-msgstr ""
-
-#: templates/lib/moderator_menu.tt:6
+#: webapp_modtools/templates/lib/moderator_menu.tt:6
 msgid "Preferences"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:80
+#: webapp_modtools/templates/source/manage/files/automatic.tt:79
 msgid "Remove"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:84 templates/source/preferences/index.tt:36
+#: webapp_modtools/templates/source/manage/files/edit.tt:84
 msgid "Save changes"
 msgstr ""
 
-#: templates/source/preferences/save_preferences.tt:3
-msgid "Saved"
-msgstr ""
-
 #. (group_file.size)
-#: templates/source/manage/files/edit.tt:80
+#: webapp_modtools/templates/source/manage/files/edit.tt:80
 msgid "Saved file size: %1 bytes"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:88
+#: webapp_modtools/templates/source/manage/files/edit.tt:88
 msgid "Send to all Members"
 msgstr ""
 
-#: templates/source/manage/links/add.tt:12 templates/source/manage/links/edit.tt:12
+#: webapp_modtools/templates/source/manage/links/add.tt:12 webapp_modtools/templates/source/manage/links/edit.tt:12
 msgid "Short description : "
 msgstr ""
 
-#: templates/source/agreement.tt:15
+#: webapp_modtools/templates/source/agreement.tt:15
 msgid "Submit"
 msgstr ""
 
-#: templates/source/manage/links/index.tt:42
+#: webapp_modtools/templates/source/manage/links/index.tt:42
 msgid "There are no links for this Group"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:54
+#: webapp_modtools/templates/source/manage/files/automatic.tt:53
 msgid "These files will be sent to all Members at the start of every month"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:22
+#: webapp_modtools/templates/source/manage/files/automatic.tt:21
 msgid "These files will be sent when a Member applies to join, only if the Group approves new Members."
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:46
+#: webapp_modtools/templates/source/manage/files/automatic.tt:45
 msgid "These files will be sent when a Member leaves the Group"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:38
+#: webapp_modtools/templates/source/manage/files/automatic.tt:37
 msgid "These files will be sent when a new Member joins, either having been approved by a Moderator or if the Group does not require new Members to be approved"
 msgstr ""
 
-#: templates/source/manage/files/automatic.tt:30
+#: webapp_modtools/templates/source/manage/files/automatic.tt:29
 msgid "These files will be sent when a pending Member has been approved."
 msgstr ""
 
-#: templates/source/manage/files/delete_file.tt:29
+#: webapp_modtools/templates/source/manage/files/delete_file.tt:29
 msgid "This file has been deleted from the Group"
 msgstr ""
 
-#: templates/source/manage/files/send_file.tt:29
+#: webapp_modtools/templates/source/manage/files/send_file.tt:29
 msgid "This file has been queued for sending by the bulk email system, and will be processed as soon as possible."
 msgstr ""
 
-#: templates/source/manage/files/delete_file.tt:17
+#: webapp_modtools/templates/source/manage/files/delete_file.tt:17
 msgid "This will permanently delete the file from the Group - are you sure you want to do this?"
 msgstr ""
 
-#: templates/source/manage/files/send_file.tt:17
+#: webapp_modtools/templates/source/manage/files/send_file.tt:17
 msgid "This will send the Group file to ALL Members of this Group - are you sure you want to do this?"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:65 templates/source/manage/files/new_file.tt:53
+#: webapp_modtools/templates/source/manage/files/edit.tt:65 webapp_modtools/templates/source/manage/files/new_file.tt:53
 msgid "Type of file"
 msgstr ""
 
-#: templates/source/manage/links/add.tt:6 templates/source/manage/links/edit.tt:6
+#: webapp_modtools/templates/source/manage/links/add.tt:6 webapp_modtools/templates/source/manage/links/edit.tt:6
 msgid "URL : "
 msgstr ""
 
-#: templates/source/manage/files/index.tt:22
+#: webapp_modtools/templates/source/manage/files/index.tt:22
 msgid "View/Edit details"
 msgstr ""
 
-#: templates/source/preferences/index.tt:48
-msgid "Yes"
-msgstr ""
-
-#: templates/source/manage/files/delete_file.tt:19
+#: webapp_modtools/templates/source/manage/files/delete_file.tt:19
 msgid "Yes, delete it"
 msgstr ""
 
-#: templates/source/manage/files/send_file.tt:19
+#: webapp_modtools/templates/source/manage/files/send_file.tt:19
 msgid "Yes, send it"
 msgstr ""
 
-#: templates/source/manage/files/edit.tt:32
+#: webapp_modtools/templates/source/manage/files/edit.tt:32
 msgid "You already have a file with this name on this Group - files need unique names"
-msgstr ""
-
-#: templates/source/index.tt:47
-msgid "You are not a moderator of any Groups"
-msgstr ""
-
-#: templates/source/preferences/index.tt:18
-msgid "per page"
 msgstr ""
