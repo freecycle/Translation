@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: Freecycle.org\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2015-01-02 15:11-0700\n"
+"PO-Revision-Date: 2015-01-05 16:51-0700\n"
 "Last-Translator: Steev Hise <steev@freecycle.org>\n"
 "Language-Team: French <richard.wallman@freecycle.org>\n"
 "Language: fr\n"
@@ -248,7 +248,7 @@ msgstr ""
 msgid "ADMIN"
 msgstr "ADMIN"
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:13
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:12
 msgid "About Freecycle&trade;"
 msgstr "A propos de Freecycle&trade;"
 
@@ -406,7 +406,7 @@ msgstr ""
 msgid "Board Vice Chair. Jennifer currently is employed with Habitat for Humanity Tucson. She had previously administered various graduate studies program at the University of Arizona. Before that, she spent several years working in membership and media relations with The Nature Conservancy in its main office in Arlington, VA as well as in its Arizona state office in Tucson. Previous to this she worked for Greenpeace USA in DC. Her years of nonprofit experience are an invaluable asset to us. And, in the interest of full disclosure and as a point of pride, Jennifer also happens to be married to Deron."
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:11
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:10
 msgid "Browse Groups"
 msgstr "Voir les groupes"
 
@@ -519,6 +519,10 @@ msgstr "Nous contacter"
 msgid "Contact the ModTeam"
 msgstr "Contacter modérateur"
 
+#: webapp_myf/templates/lib/standard_footer.tt:9
+msgid "Copyright"
+msgstr ""
+
 #. ('<a href="http://www.freecycle.org">http://www.freecycle.org</a>',)
 #: core_modules/lib/Freecycle/standard_templates/source/group_template_copyright.tt:4
 msgid "Copyright &copy; 2013 The Freecycle Network (%1). All rights reserved. Freecycle and the Freecycle logo are trademarks of The Freecycle Network in various countries."
@@ -607,7 +611,7 @@ msgstr ""
 msgid "Do you have some time available to help at events or to be trained as a moderator? To contact your local Group, go to your home page and click 'Contact the Mod Team'"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:14
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:13
 msgid "Donate"
 msgstr "Faire un don"
 
@@ -655,6 +659,12 @@ msgstr ""
 msgid "Email : %1"
 msgstr "E-mail:  %1"
 
+#: webapp_main/templates/source/login/forgotten_password.tt:7
+#: webapp_main/templates/source/login/index.tt:8
+#, fuzzy
+msgid "Email address"
+msgstr "Adresse e-mail :"
+
 #: templates/source/index.tt:93
 #: templates/source/search_box.tt:84
 #: webapp_myf/templates/source/forgottenpassword.tt:97
@@ -701,7 +711,7 @@ msgstr "Erreur lors de l'envoi de l'e-mail"
 msgid "Everyone (public file)"
 msgstr "Fichier publique"
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:12
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:11
 #: webapp_main/templates/source/about/index.tt:7
 msgid "FAQ"
 msgstr "FAQ"
@@ -759,7 +769,14 @@ msgstr "Pour toute questions veuillez contacter : "
 msgid "For members using The Freecycle Network in the United States, you acknowledge and agree not to use the 'freecycle.org' logo other than as a sign of local Membership in The Freecycle Network. You also agree not to alter the logo or The Freecycle Network word mark 'freecycle.org' (collectively 'Trademarks') and to stop using the Trademarks when membership status is lost, and to only use the Trademarks in accordance with the local Group required guidelines and policies found <a href='%1'>here</a>. You further acknowledge that as a local Group Member of The Freecycle Network, you may only use the Trademarks as a sign of Membership in The Freecycle Network. Should you unsubscribe/cancel your Membership or should you be removed as a Member, you agree you have no rights to use the Trademarks."
 msgstr ""
 
+#: webapp_main/templates/source/login/forgotten_password.tt:1
+#: webapp_main/templates/source/login/forgotten_password.tt:3
+#, fuzzy
+msgid "Forgotten password"
+msgstr "Mot de passe oublié ?"
+
 #: webapp_myf/templates/source/forgottenpassword.tt:85
+#: webapp_main/templates/source/login/index.tt:19
 msgid "Forgotten your password?"
 msgstr "Mot de passe oublié ?"
 
@@ -787,6 +804,11 @@ msgstr ""
 #: webapp_main/templates/source/donate.tt:11
 msgid "Freecycle&trade; performs many wonderful functions: building bonds and community, keeping material items from the landfills, and redeeming the clutter that consumes us by moving it forward to a new, productive life."
 msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:8
+#, fuzzy
+msgid "Freecycle.org"
+msgstr "Se connecter"
 
 #: webapp_main/templates/source/about/pressroom.tt:54
 msgid "Frequently Asked Questions about Freecycle"
@@ -924,7 +946,7 @@ msgstr "Historique"
 msgid "History & Background Information"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:10
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:9
 msgid "Home"
 msgstr "Page d'accueil"
 
@@ -1030,6 +1052,13 @@ msgstr "Si vous avez une photo, vous pouvez la télécharger. <br /> ( taille ma
 
 #: webapp_main/templates/source/email/group_link_report.tt:27
 msgid "If you have any problems addressing this link, please contact your GOA - email addresses for GOAs may be found here:"
+msgstr ""
+
+#. ('http://wiki.freecycle.org/MemberFAQ:/')
+#: webapp_myf/templates/lib/standard_footer.tt:4
+msgid ""
+"If you have any problems or feedback when using My Freecycle, please refer to the <a href=\"%1http://wiki.freecycle.org/MemberFAQ:/\">Member FAQ page</a>.\n"
+"For specific queries about groups, please contact your local group moderator whose contact info is noted at the top of each local group \"All Items\" page."
 msgstr ""
 
 #. (uri_for('Root', 'oauth2', undef, undef, { provider=> 'facebook', referer => c.request.param('referer')
@@ -1256,20 +1285,20 @@ msgid "Location :"
 msgstr "Lieu"
 
 #: webapp_myf/templates/source/index.tt:19
-#: webapp_main/templates/source/login.tt:14
+#: webapp_main/templates/source/login/index.tt:15
 msgid "Log in"
 msgstr "Se connecter"
 
-#: webapp_main/templates/source/login.tt:1
-#: webapp_main/templates/source/login.tt:3
+#: webapp_main/templates/source/login/index.tt:1
+#: webapp_main/templates/source/login/index.tt:3
 msgid "Log in to Freecycle.org"
 msgstr "Se connecter"
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:25
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:24
 msgid "Log in/Sign up"
 msgstr "S'inscrire/Se connecter"
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:18
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:17
 msgid "Log out"
 msgstr "Vous deconnecter"
 
@@ -1402,7 +1431,7 @@ msgstr "Outils Modos"
 msgid "ModTeam and Members of this Group"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:22
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:21
 msgid "Moderate"
 msgstr "Modérer"
 
@@ -1453,7 +1482,7 @@ msgstr ""
 msgid "My Daughters' stolen bicycles were replaced in time for Christmas!"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:20
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:19
 msgid "My Freecycle"
 msgstr "My Freecycle"
 
@@ -1462,22 +1491,22 @@ msgid "My Freecycle - recently expired Posts"
 msgstr "My Freecycle – Annonces récemment expirées"
 
 #: webapp_myf/templates/lib/box_tabbar.tt:18
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:19
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:30
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:18
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:29
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:22
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:37
 msgid "My Groups"
 msgstr "Mes groupes"
 
 #: webapp_myf/templates/lib/box_tabbar.tt:19
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:29
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:28
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:23
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:38
 msgid "My Info"
 msgstr "Mes infos"
 
 #: webapp_myf/templates/lib/box_tabbar.tt:17
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:31
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:30
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:21
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:36
 msgid "My Posts"
@@ -1534,6 +1563,11 @@ msgstr "Aucun groupe ne correspond à vos critères"
 #: webapp_main/templates/lib/search_box_group.tt:24
 msgid "No local group?"
 msgstr "Pas de groupe local?"
+
+#: webapp_main/templates/source/login/forgotten_password.tt:26
+#, fuzzy
+msgid "No user with that username/email address could be found"
+msgstr "Votre nouvelle adresse e-mail n'a pas pu être sauvegardée"
 
 #: webapp_myf/templates/source/home/groups/index.tt:140
 #: webapp_myf/templates/source/home/groups/options_display.tt:85
@@ -1637,7 +1671,7 @@ msgid "PDF files available : <br />"
 msgstr "Fichiers PDF disponibles : <br />"
 
 #: webapp_myf/templates/source/signup.tt:44
-#: webapp_main/templates/source/login.tt:11
+#: webapp_main/templates/source/login/index.tt:11
 msgid "Password"
 msgstr "Mot de passe"
 
@@ -2139,6 +2173,10 @@ msgstr "Marquer le message comme REÇU"
 msgid "Send TAKEN message"
 msgstr "Marquer le message comme PARTI"
 
+#: webapp_main/templates/source/login/forgotten_password.tt:13
+msgid "Send me a login link"
+msgstr ""
+
 #: webapp_modtools/templates/source/manage/files/edit.tt:88
 msgid "Send to all Members"
 msgstr "répondre à tous les membres"
@@ -2213,6 +2251,11 @@ msgstr ""
 msgid "Some 80 of these moderators volunteer further time to approve new groups for their state, province or country. In addition, there is a committed crew of some 20-30 moderators putting in countless hours for Group Outreach and Assistance, helping existing groups with day-to-day problems."
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.html.tt:13
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:3
+msgid "Someone requested a password reset link,blah de blah."
+msgstr ""
+
 #: webapp_main/templates/source/group/links/report_thanks.tt:4
 msgid "Someone will look into this link and take any appropriate action"
 msgstr "Quelqu'un va étudier le problème et s'attacher à le résoudre."
@@ -2226,7 +2269,7 @@ msgstr "Une erreur est survenue sur cette page - veuillez essayer ultérieuremen
 msgid "Sources and Use of Funds"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:16
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:15
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:39
 #: webapp_main/templates/source/about/index.tt:12
 #: webapp_main/templates/source/about/sponsors.tt:4
@@ -2240,7 +2283,7 @@ msgstr ""
 msgid "Staff"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:15
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:14
 msgid "Store"
 msgstr ""
 
@@ -2333,12 +2376,17 @@ msgstr "Le CAPTCHA est incorrect"
 msgid "The Center for a New American Dream helps Americans consume responsibly to protect the environment, enhance quality of life, and promote social justice."
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:26
-#: webapp_main/templates/lib/standard_page.tt:5
+#: webapp_main/templates/lib/standard_page.tt:27
+#: webapp_main/templates/lib/standard_page.tt:6
 #: webapp_main/templates/source/about/background.tt:8
 #: webapp_main/templates/source/donate.tt:6
 msgid "The Freecycle Network"
 msgstr "Le réseau Freecycle"
+
+#: webapp_myf/templates/lib/standard_footer.tt:9
+#, fuzzy
+msgid "The Freecycle Network (http://www.freecycle.org). All rights reserved. Freecycle and the Freecycle logo are trademarks of The Freecycle Network in various countries."
+msgstr "Copyright &copy; 2013 The Freecycle Network (<a href='%1'>http://www.Freecycle.org</a>). Tous droits réservés. Freecycle et le logo Freecycle sont des marques déposées du réseau Freecycle dans plusieurs pays."
 
 #. (group.groupname)
 #: webapp_main/templates/source/group/posts/display_post.tt:5
@@ -2557,6 +2605,18 @@ msgstr "L'adresse que vous visitez n'existe pas, mais vous avez les options suiv
 #: webapp_myf/templates/source/404.tt:5
 msgid "The page you were looking for cannot be found!"
 msgstr "La page demandée n'existe pas."
+
+#: webapp_main/templates/source/login/password_reset.tt:10
+msgid "The password reset link has already been used"
+msgstr ""
+
+#: webapp_main/templates/source/login/password_reset.tt:11
+msgid "The password reset link has expired"
+msgstr ""
+
+#: webapp_main/templates/source/login/password_reset.tt:6
+msgid "The password reset token you used has not been recognised. This may be because:"
+msgstr ""
 
 #. (post_matches.join(", ")
 #: webapp_myf/templates/source/home/posts/display_issues.tt:52
@@ -2873,7 +2933,8 @@ msgstr ""
 msgid "User not found"
 msgstr "Utilisateur non trouvé"
 
-#: webapp_main/templates/source/login.tt:8
+#: webapp_main/templates/source/login/forgotten_password.tt:7
+#: webapp_main/templates/source/login/index.tt:8
 msgid "Username"
 msgstr "Nom d'utilisateur"
 
@@ -3194,6 +3255,10 @@ msgstr "Vous appartenez déjà à ce groupe"
 msgid "You have been invited to join the following groups:"
 msgstr "Vous avez été invité à rejoindre les groupes suivants : "
 
+#: webapp_main/templates/source/login/password_reset.tt:9
+msgid "You have generated a new password reset link since the email was sent"
+msgstr ""
+
 #: webapp_myf/templates/source/home/posts/index.tt:75
 msgid "You have no open posts"
 msgstr "Vous n'avez pas d'annonce active"
@@ -3240,6 +3305,10 @@ msgstr "Vous devez être abonné à ce groupe et <a class='link_login' href='%1'
 #: webapp_myf/templates/source/forgottenusername.tt:43
 msgid "You should receive an email with your username in soon."
 msgstr "Vous devriez bientôt recevoir un e-mail avec votre identifiant."
+
+#: webapp_main/templates/source/login/login_link_sent.tt:6
+msgid "You should receive an password reset link in an email sent to your registered Freecycle.org email address shortly. Please follow the instructions in the email to reset the password for your Freecycle.org account"
+msgstr ""
 
 #: webapp_myf/templates/source/forgottenpassword.tt:124
 msgid "You should receive your new password soon."
@@ -3296,6 +3365,10 @@ msgstr "Votre groupe \"local\" actuel est : %1"
 msgid "Your email address has been successfully changed"
 msgstr "Votre nouvelle adresse e-mail a été enregistrée"
 
+#: webapp_main/templates/source/login/password_reset.tt:8
+msgid "Your email software has mangled the link"
+msgstr ""
+
 #: webapp_main/templates/source/tos.tt:56
 msgid "Your interactions with organizations and/or individuals found on or through the Service, including arrangement and delivery of goods or services, and any other terms, conditions, warranties or representations associated with such dealings, are solely between you and such organizations and/or individuals. You agree that The Freecycle Network shall not be responsible or liable for any loss or damage of any sort incurred as the result of any such dealings."
 msgstr ""
@@ -3335,6 +3408,18 @@ msgstr "Votre mot de passe a été modifié, mais une erreur s'est produite lors
 msgid "Your password has been successfully changed"
 msgstr "Votre mot de passe a été modifié."
 
+#: webapp_main/templates/source/login/password_reset.tt:1
+#: webapp_main/templates/source/login/password_reset.tt:3
+#, fuzzy
+msgid "Your password reset could not be actioned"
+msgstr "Votre nouvelle adresse e-mail n'a pas pu être sauvegardée"
+
+#: webapp_main/templates/source/login/login_link_sent.tt:1
+#: webapp_main/templates/source/login/login_link_sent.tt:3
+#, fuzzy
+msgid "Your password reset email has been sent"
+msgstr "Votre message a été envoyé"
+
 #: webapp_main/templates/source/group/posts/reply_error.tt:18
 msgid "Your response could not be sent because the person who made this Post has closed it to new replies."
 msgstr "Votre réponse n'a pu être envoyée car la personne à l'origine de cette annonce a choisi de ne plus recevoir de réponses."
@@ -3371,7 +3456,11 @@ msgstr ""
 msgid "change"
 msgstr "modifier"
 
-#: webapp_main/templates/lib/standard_page.tt:27
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:8
+msgid "changing the world one gift at a time"
+msgstr ""
+
+#: webapp_main/templates/lib/standard_page.tt:28
 msgid "changing the world<br />one gift at a time&trade;"
 msgstr ""
 

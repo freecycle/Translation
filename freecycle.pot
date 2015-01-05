@@ -271,7 +271,7 @@ msgstr ""
 msgid "ADMIN"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:13
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:12
 msgid "About Freecycle&trade;"
 msgstr ""
 
@@ -505,7 +505,7 @@ msgid ""
 "Deron."
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:11
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:10
 msgid "Browse Groups"
 msgstr ""
 
@@ -628,6 +628,10 @@ msgstr ""
 msgid "Contact the ModTeam"
 msgstr ""
 
+#: webapp_myf/templates/lib/standard_footer.tt:9
+msgid "Copyright"
+msgstr ""
+
 #. ('<a href="http://www.freecycle.org">http://www.freecycle.org</a>',)
 #: core_modules/lib/Freecycle/standard_templates/source/group_template_copyright.tt:4
 msgid ""
@@ -732,7 +736,7 @@ msgid ""
 "'Contact the Mod Team'"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:14
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:13
 msgid "Donate"
 msgstr ""
 
@@ -797,6 +801,11 @@ msgstr ""
 msgid "Email : %1"
 msgstr ""
 
+#: webapp_main/templates/source/login/forgotten_password.tt:7
+#: webapp_main/templates/source/login/index.tt:8
+msgid "Email address"
+msgstr ""
+
 #: templates/source/index.tt:93 templates/source/search_box.tt:84
 #: webapp_myf/templates/source/forgottenpassword.tt:97
 #: webapp_myf/templates/source/forgottenusername.tt:20
@@ -842,7 +851,7 @@ msgstr ""
 msgid "Everyone (public file)"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:12
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:11
 #: webapp_main/templates/source/about/index.tt:7
 msgid "FAQ"
 msgstr ""
@@ -913,7 +922,13 @@ msgid ""
 "Trademarks."
 msgstr ""
 
+#: webapp_main/templates/source/login/forgotten_password.tt:1
+#: webapp_main/templates/source/login/forgotten_password.tt:3
+msgid "Forgotten password"
+msgstr ""
+
 #: webapp_myf/templates/source/forgottenpassword.tt:85
+#: webapp_main/templates/source/login/index.tt:19
 msgid "Forgotten your password?"
 msgstr ""
 
@@ -949,6 +964,10 @@ msgid ""
 "Freecycle&trade; performs many wonderful functions: building bonds and "
 "community, keeping material items from the landfills, and redeeming the "
 "clutter that consumes us by moving it forward to a new, productive life."
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:8
+msgid "Freecycle.org"
 msgstr ""
 
 #: webapp_main/templates/source/about/pressroom.tt:54
@@ -1091,7 +1110,7 @@ msgstr ""
 msgid "History & Background Information"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:10
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:9
 msgid "Home"
 msgstr ""
 
@@ -1260,6 +1279,17 @@ msgstr ""
 msgid ""
 "If you have any problems addressing this link, please contact your GOA - "
 "email addresses for GOAs may be found here:"
+msgstr ""
+
+#. ('http://wiki.freecycle.org/MemberFAQ:/')
+#: webapp_myf/templates/lib/standard_footer.tt:4
+msgid ""
+"If you have any problems or feedback when using My Freecycle, please refer "
+"to the <a href=\"%1http://wiki.freecycle.org/MemberFAQ:/\">Member FAQ page</"
+"a>.\n"
+"For specific queries about groups, please contact your local group moderator "
+"whose contact info is noted at the top of each local group \"All Items\" "
+"page."
 msgstr ""
 
 #. (uri_for('Root', 'oauth2', undef, undef, { provider=> 'facebook', referer => c.request.param('referer')
@@ -1524,20 +1554,20 @@ msgid "Location :"
 msgstr ""
 
 #: webapp_myf/templates/source/index.tt:19
-#: webapp_main/templates/source/login.tt:14
+#: webapp_main/templates/source/login/index.tt:15
 msgid "Log in"
 msgstr ""
 
-#: webapp_main/templates/source/login.tt:1
-#: webapp_main/templates/source/login.tt:3
+#: webapp_main/templates/source/login/index.tt:1
+#: webapp_main/templates/source/login/index.tt:3
 msgid "Log in to Freecycle.org"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:25
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:24
 msgid "Log in/Sign up"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:18
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:17
 msgid "Log out"
 msgstr ""
 
@@ -1678,7 +1708,7 @@ msgstr ""
 msgid "ModTeam and Members of this Group"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:22
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:21
 msgid "Moderate"
 msgstr ""
 
@@ -1729,7 +1759,7 @@ msgstr ""
 msgid "My Daughters' stolen bicycles were replaced in time for Christmas!"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:20
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:19
 msgid "My Freecycle"
 msgstr ""
 
@@ -1738,22 +1768,22 @@ msgid "My Freecycle - recently expired Posts"
 msgstr ""
 
 #: webapp_myf/templates/lib/box_tabbar.tt:18
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:19
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:30
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:18
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:29
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:22
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:37
 msgid "My Groups"
 msgstr ""
 
 #: webapp_myf/templates/lib/box_tabbar.tt:19
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:29
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:28
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:23
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:38
 msgid "My Info"
 msgstr ""
 
 #: webapp_myf/templates/lib/box_tabbar.tt:17
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:31
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:30
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:21
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:36
 msgid "My Posts"
@@ -1810,6 +1840,10 @@ msgstr ""
 #: webapp_myf/templates/source/home/groups/search.tt:88
 #: webapp_main/templates/lib/search_box_group.tt:24
 msgid "No local group?"
+msgstr ""
+
+#: webapp_main/templates/source/login/forgotten_password.tt:26
+msgid "No user with that username/email address could be found"
 msgstr ""
 
 #: webapp_myf/templates/source/home/groups/index.tt:140
@@ -1937,7 +1971,7 @@ msgid "PDF files available : <br />"
 msgstr ""
 
 #: webapp_myf/templates/source/signup.tt:44
-#: webapp_main/templates/source/login.tt:11
+#: webapp_main/templates/source/login/index.tt:11
 msgid "Password"
 msgstr ""
 
@@ -2479,6 +2513,10 @@ msgstr ""
 msgid "Send TAKEN message"
 msgstr ""
 
+#: webapp_main/templates/source/login/forgotten_password.tt:13
+msgid "Send me a login link"
+msgstr ""
+
 #: webapp_modtools/templates/source/manage/files/edit.tt:88
 msgid "Send to all Members"
 msgstr ""
@@ -2557,6 +2595,11 @@ msgid ""
 "Assistance, helping existing groups with day-to-day problems."
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.html.tt:13
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:3
+msgid "Someone requested a password reset link,blah de blah."
+msgstr ""
+
 #: webapp_main/templates/source/group/links/report_thanks.tt:4
 msgid "Someone will look into this link and take any appropriate action"
 msgstr ""
@@ -2572,7 +2615,7 @@ msgstr ""
 msgid "Sources and Use of Funds"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:16
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:15
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:39
 #: webapp_main/templates/source/about/index.tt:12
 #: webapp_main/templates/source/about/sponsors.tt:4
@@ -2586,7 +2629,7 @@ msgstr ""
 msgid "Staff"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:15
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:14
 msgid "Store"
 msgstr ""
 
@@ -2714,11 +2757,18 @@ msgid ""
 "protect the environment, enhance quality of life, and promote social justice."
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:26
-#: webapp_main/templates/lib/standard_page.tt:5
+#: webapp_main/templates/lib/standard_page.tt:27
+#: webapp_main/templates/lib/standard_page.tt:6
 #: webapp_main/templates/source/about/background.tt:8
 #: webapp_main/templates/source/donate.tt:6
 msgid "The Freecycle Network"
+msgstr ""
+
+#: webapp_myf/templates/lib/standard_footer.tt:9
+msgid ""
+"The Freecycle Network (http://www.freecycle.org). All rights reserved. "
+"Freecycle and the Freecycle logo are trademarks of The Freecycle Network in "
+"various countries."
 msgstr ""
 
 #. (group.groupname)
@@ -3082,6 +3132,20 @@ msgstr ""
 
 #: webapp_myf/templates/source/404.tt:5
 msgid "The page you were looking for cannot be found!"
+msgstr ""
+
+#: webapp_main/templates/source/login/password_reset.tt:10
+msgid "The password reset link has already been used"
+msgstr ""
+
+#: webapp_main/templates/source/login/password_reset.tt:11
+msgid "The password reset link has expired"
+msgstr ""
+
+#: webapp_main/templates/source/login/password_reset.tt:6
+msgid ""
+"The password reset token you used has not been recognised. This may be "
+"because:"
 msgstr ""
 
 #. (post_matches.join(", ")
@@ -3515,7 +3579,8 @@ msgstr ""
 msgid "User not found"
 msgstr ""
 
-#: webapp_main/templates/source/login.tt:8
+#: webapp_main/templates/source/login/forgotten_password.tt:7
+#: webapp_main/templates/source/login/index.tt:8
 msgid "Username"
 msgstr ""
 
@@ -3936,6 +4001,10 @@ msgstr ""
 msgid "You have been invited to join the following groups:"
 msgstr ""
 
+#: webapp_main/templates/source/login/password_reset.tt:9
+msgid "You have generated a new password reset link since the email was sent"
+msgstr ""
+
 #: webapp_myf/templates/source/home/posts/index.tt:75
 msgid "You have no open posts"
 msgstr ""
@@ -3991,6 +4060,14 @@ msgstr ""
 
 #: webapp_myf/templates/source/forgottenusername.tt:43
 msgid "You should receive an email with your username in soon."
+msgstr ""
+
+#: webapp_main/templates/source/login/login_link_sent.tt:6
+msgid ""
+"You should receive an password reset link in an email sent to your "
+"registered Freecycle.org email address shortly. Please follow the "
+"instructions in the email to reset the password for your Freecycle.org "
+"account"
 msgstr ""
 
 #: webapp_myf/templates/source/forgottenpassword.tt:124
@@ -4104,6 +4181,10 @@ msgstr ""
 msgid "Your email address has been successfully changed"
 msgstr ""
 
+#: webapp_main/templates/source/login/password_reset.tt:8
+msgid "Your email software has mangled the link"
+msgstr ""
+
 #: webapp_main/templates/source/tos.tt:56
 msgid ""
 "Your interactions with organizations and/or individuals found on or through "
@@ -4152,6 +4233,16 @@ msgstr ""
 
 #: webapp_myf/templates/source/home/info/save_password.tt:14
 msgid "Your password has been successfully changed"
+msgstr ""
+
+#: webapp_main/templates/source/login/password_reset.tt:1
+#: webapp_main/templates/source/login/password_reset.tt:3
+msgid "Your password reset could not be actioned"
+msgstr ""
+
+#: webapp_main/templates/source/login/login_link_sent.tt:1
+#: webapp_main/templates/source/login/login_link_sent.tt:3
+msgid "Your password reset email has been sent"
 msgstr ""
 
 #: webapp_main/templates/source/group/posts/reply_error.tt:18
@@ -4204,7 +4295,11 @@ msgstr ""
 msgid "change"
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:27
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:8
+msgid "changing the world one gift at a time"
+msgstr ""
+
+#: webapp_main/templates/lib/standard_page.tt:28
 msgid "changing the world<br />one gift at a time&trade;"
 msgstr ""
 

@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:13
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:12
 msgid "About Freecycle&trade;"
 msgstr ""
 
@@ -27,7 +27,7 @@ msgstr ""
 msgid "Board"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:11
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:10
 msgid "Browse Groups"
 msgstr ""
 
@@ -53,16 +53,20 @@ msgstr ""
 msgid "Disclaimer"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:14
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:13
 msgid "Donate"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:12
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:11
 msgid "FAQ"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:56
 msgid "Files"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:8
+msgid "Freecycle.org"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:18 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:54
@@ -73,7 +77,7 @@ msgstr ""
 msgid "History"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:10
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:9
 msgid "Home"
 msgstr ""
 
@@ -89,11 +93,11 @@ msgstr ""
 msgid "Links we like"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:25
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:24
 msgid "Log in/Sign up"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:18
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:17
 msgid "Log out"
 msgstr ""
 
@@ -110,7 +114,7 @@ msgstr ""
 msgid "Mission Statement"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:22
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:21
 msgid "Moderate"
 msgstr ""
 
@@ -118,19 +122,19 @@ msgstr ""
 msgid "Moderator Manual"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:20
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:19
 msgid "My Freecycle"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:19 core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:30 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:22 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:37
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:18 core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:29 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:22 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:37
 msgid "My Groups"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:29 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:23 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:38
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:28 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:23 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:38
 msgid "My Info"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:31 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:21 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:36
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:30 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:21 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:36
 msgid "My Posts"
 msgstr ""
 
@@ -162,11 +166,15 @@ msgstr ""
 msgid "Skip navigation menu"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.html.tt:13 core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:3
+msgid "Someone requested a password reset link,blah de blah."
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:40
 msgid "Sources and Use of Funds"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:16 core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:39
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:15 core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:39
 msgid "Sponsors"
 msgstr ""
 
@@ -174,7 +182,7 @@ msgstr ""
 msgid "Staff"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:15
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:14
 msgid "Store"
 msgstr ""
 
@@ -211,4 +219,8 @@ msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/html/widget/buttonbar/yesno.tt:3
 msgid "Yes"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:8
+msgid "changing the world one gift at a time"
 msgstr ""

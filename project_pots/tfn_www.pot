@@ -310,6 +310,10 @@ msgstr ""
 msgid "Editorials about Freecycle"
 msgstr ""
 
+#: webapp_main/templates/source/login/forgotten_password.tt:7 webapp_main/templates/source/login/index.tt:8
+msgid "Email address"
+msgstr ""
+
 #: webapp_main/templates/source/about/index.tt:7
 msgid "FAQ"
 msgstr ""
@@ -333,6 +337,14 @@ msgstr ""
 #. ('http://faq.freecycle.org/faq/?menu=manual/required')
 #: webapp_main/templates/source/tos.tt:60
 msgid "For members using The Freecycle Network in the United States, you acknowledge and agree not to use the 'freecycle.org' logo other than as a sign of local Membership in The Freecycle Network. You also agree not to alter the logo or The Freecycle Network word mark 'freecycle.org' (collectively 'Trademarks') and to stop using the Trademarks when membership status is lost, and to only use the Trademarks in accordance with the local Group required guidelines and policies found <a href='%1'>here</a>. You further acknowledge that as a local Group Member of The Freecycle Network, you may only use the Trademarks as a sign of Membership in The Freecycle Network. Should you unsubscribe/cancel your Membership or should you be removed as a Member, you agree you have no rights to use the Trademarks."
+msgstr ""
+
+#: webapp_main/templates/source/login/forgotten_password.tt:1 webapp_main/templates/source/login/forgotten_password.tt:3
+msgid "Forgotten password"
+msgstr ""
+
+#: webapp_main/templates/source/login/index.tt:19
+msgid "Forgotten your password?"
 msgstr ""
 
 #. (year)
@@ -535,11 +547,11 @@ msgstr ""
 msgid "Location :"
 msgstr ""
 
-#: webapp_main/templates/source/login.tt:14
+#: webapp_main/templates/source/login/index.tt:15
 msgid "Log in"
 msgstr ""
 
-#: webapp_main/templates/source/login.tt:1 webapp_main/templates/source/login.tt:3
+#: webapp_main/templates/source/login/index.tt:1 webapp_main/templates/source/login/index.tt:3
 msgid "Log in to Freecycle.org"
 msgstr ""
 
@@ -640,6 +652,10 @@ msgstr ""
 msgid "No local group?"
 msgstr ""
 
+#: webapp_main/templates/source/login/forgotten_password.tt:26
+msgid "No user with that username/email address could be found"
+msgstr ""
+
 #: webapp_main/templates/source/about/background.tt:27
 msgid "Nonprofit Status"
 msgstr ""
@@ -701,7 +717,7 @@ msgstr ""
 msgid "PDF files available : <br />"
 msgstr ""
 
-#: webapp_main/templates/source/login.tt:11
+#: webapp_main/templates/source/login/index.tt:11
 msgid "Password"
 msgstr ""
 
@@ -924,6 +940,10 @@ msgstr ""
 msgid "Send Message"
 msgstr ""
 
+#: webapp_main/templates/source/login/forgotten_password.tt:13
+msgid "Send me a login link"
+msgstr ""
+
 #: webapp_main/templates/source/about/volunteering.tt:12
 msgid "Share a skill"
 msgstr ""
@@ -1010,7 +1030,7 @@ msgstr ""
 msgid "The Center for a New American Dream helps Americans consume responsibly to protect the environment, enhance quality of life, and promote social justice."
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:26 webapp_main/templates/lib/standard_page.tt:5 webapp_main/templates/source/about/background.tt:8 webapp_main/templates/source/donate.tt:6
+#: webapp_main/templates/lib/standard_page.tt:27 webapp_main/templates/lib/standard_page.tt:6 webapp_main/templates/source/about/background.tt:8 webapp_main/templates/source/donate.tt:6
 msgid "The Freecycle Network"
 msgstr ""
 
@@ -1187,6 +1207,18 @@ msgstr ""
 msgid "The page you requested doesn't exist, but you've got a couple of options:"
 msgstr ""
 
+#: webapp_main/templates/source/login/password_reset.tt:10
+msgid "The password reset link has already been used"
+msgstr ""
+
+#: webapp_main/templates/source/login/password_reset.tt:11
+msgid "The password reset link has expired"
+msgstr ""
+
+#: webapp_main/templates/source/login/password_reset.tt:6
+msgid "The password reset token you used has not been recognised. This may be because:"
+msgstr ""
+
 #: webapp_main/templates/source/email/post_abuse_report.tt:5
 msgid "The reporter gave the following reason:"
 msgstr ""
@@ -1303,7 +1335,7 @@ msgstr ""
 msgid "Use of Information"
 msgstr ""
 
-#: webapp_main/templates/source/login.tt:8
+#: webapp_main/templates/source/login/forgotten_password.tt:7 webapp_main/templates/source/login/index.tt:8
 msgid "Username"
 msgstr ""
 
@@ -1398,6 +1430,10 @@ msgstr ""
 msgid "You can <a href='%1' title='List of countries, regions and Groups within the Freecycle Network'>browse the list of all Freecycle Groups</a>"
 msgstr ""
 
+#: webapp_main/templates/source/login/password_reset.tt:9
+msgid "You have generated a new password reset link since the email was sent"
+msgstr ""
+
 #. (#TODO: hard-coded URL      "http://my.freecycle.org/login?referer=$thispage")
 #: webapp_main/templates/source/group/posts/display_post.tt:50
 msgid "You need to be <a class='link_login' href='%1'>logged in</a> and a Member of this Group to reply to this Post"
@@ -1406,6 +1442,10 @@ msgstr ""
 #. (#TODO: hard-coded URL      "http://my.freecycle.org/login?referer=$thispage")
 #: webapp_main/templates/source/group/posts/display_post.tt:44
 msgid "You need to be <a class='link_login' href='%1'>logged in</a> and a Member of this Group to view the Post details"
+msgstr ""
+
+#: webapp_main/templates/source/login/login_link_sent.tt:6
+msgid "You should receive an password reset link in an email sent to your registered Freecycle.org email address shortly. Please follow the instructions in the email to reset the password for your Freecycle.org account"
 msgstr ""
 
 #: webapp_main/templates/source/tos.tt:47
@@ -1426,6 +1466,10 @@ msgstr ""
 msgid "You will need to <a href='%1'>join this group</a> before you can view this message."
 msgstr ""
 
+#: webapp_main/templates/source/login/password_reset.tt:8
+msgid "Your email software has mangled the link"
+msgstr ""
+
 #: webapp_main/templates/source/tos.tt:56
 msgid "Your interactions with organizations and/or individuals found on or through the Service, including arrangement and delivery of goods or services, and any other terms, conditions, warranties or representations associated with such dealings, are solely between you and such organizations and/or individuals. You agree that The Freecycle Network shall not be responsible or liable for any loss or damage of any sort incurred as the result of any such dealings."
 msgstr ""
@@ -1436,6 +1480,14 @@ msgstr ""
 
 #: webapp_main/templates/source/group/posts/reply_sent.tt:3
 msgid "Your message was sent successfully"
+msgstr ""
+
+#: webapp_main/templates/source/login/password_reset.tt:1 webapp_main/templates/source/login/password_reset.tt:3
+msgid "Your password reset could not be actioned"
+msgstr ""
+
+#: webapp_main/templates/source/login/login_link_sent.tt:1 webapp_main/templates/source/login/login_link_sent.tt:3
+msgid "Your password reset email has been sent"
 msgstr ""
 
 #: webapp_main/templates/source/group/posts/reply_error.tt:18
@@ -1462,7 +1514,7 @@ msgstr ""
 msgid "call2recycle"
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:27
+#: webapp_main/templates/lib/standard_page.tt:28
 msgid "changing the world<br />one gift at a time&trade;"
 msgstr ""
 
