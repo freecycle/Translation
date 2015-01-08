@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. (group.groupname, post.type, post.post_subject, post.location)
-#: webapp_main/templates/source/group/posts/display_post.tt:3
+#: webapp_main/templates/source/group/posts/display_post.tt:12
 msgid "%1 Freecycle - %2: %3 (%4)"
 msgstr ""
 
@@ -33,7 +33,7 @@ msgstr ""
 msgid "(When contacting us, please make sure to provide the full name of the Freecycle group (website address is best) and the State/Province/Country to which you are referring)"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:85
+#: webapp_main/templates/source/group/posts/display_post.tt:94
 msgid "(click on the thumbnail for full size image)"
 msgstr ""
 
@@ -255,11 +255,11 @@ msgstr ""
 msgid "Contact Us"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:72
+#: webapp_main/templates/source/group/posts/display_post.tt:81
 msgid "Date :"
 msgstr ""
 
-#: webapp_main/templates/source/group/files/index.tt:23 webapp_main/templates/source/group/links/index.tt:30 webapp_main/templates/source/group/posts/display_post.tt:80
+#: webapp_main/templates/source/group/files/index.tt:23 webapp_main/templates/source/group/links/index.tt:30 webapp_main/templates/source/group/posts/display_post.tt:89
 msgid "Description"
 msgstr ""
 
@@ -543,7 +543,7 @@ msgstr ""
 msgid "Links we like"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:70
+#: webapp_main/templates/source/group/posts/display_post.tt:79
 msgid "Location :"
 msgstr ""
 
@@ -571,7 +571,7 @@ msgstr ""
 msgid "Mentor Mods Team Member (MMods)"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:161
+#: webapp_main/templates/source/group/posts/display_post.tt:170
 msgid "Message not found"
 msgstr ""
 
@@ -599,7 +599,7 @@ msgstr ""
 msgid "Message to send"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:141
+#: webapp_main/templates/source/group/posts/display_post.tt:150
 msgid "Message to send to the person who made this Post:"
 msgstr ""
 
@@ -644,7 +644,7 @@ msgstr ""
 msgid "Newswire"
 msgstr ""
 
-#: webapp_main/templates/source/form990/form.tt:45 webapp_main/templates/source/group/posts/display_post.tt:128
+#: webapp_main/templates/source/form990/form.tt:45 webapp_main/templates/source/group/posts/display_post.tt:137
 msgid "Next"
 msgstr ""
 
@@ -660,7 +660,7 @@ msgstr ""
 msgid "Nonprofit Status"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:263
+#: webapp_main/templates/source/group/posts/display_list.tt:263 webapp_main/templates/source/group/posts/display_post.tt:5
 msgid "OFFER"
 msgstr ""
 
@@ -738,7 +738,7 @@ msgstr ""
 msgid "Please enter some keywords to search for"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:113
+#: webapp_main/templates/source/group/posts/display_post.tt:122
 msgid "Please indicate why you feel this Post is inappropriate:"
 msgstr ""
 
@@ -747,7 +747,7 @@ msgid "Please let us know why you think this link is an issue:"
 msgstr ""
 
 #. ('http://www.freecycle.org/faq/faq/faq_guidelines')
-#: webapp_main/templates/source/group/posts/display_post.tt:116
+#: webapp_main/templates/source/group/posts/display_post.tt:125
 msgid "Please note that required guidelines are posted in each Group as well as centrally <a href=\"%1\">in the FAQ</a> and while you may personally feel that a Post is inappropriate it may still be following these Guidelines. You are advised to read the rules and any ADMINs that have been posted before submitting reports."
 msgstr ""
 
@@ -764,7 +764,7 @@ msgstr ""
 msgid "Please take reasonable measures to protect your safety and privacy when posting to group lists or when completing a direct gifting with another member. By joining a Freecycle list, you agree to hold neither the list owners, moderators, nor anyone affiliated with The Freecycle Network responsible or liable for any circumstance resulting from a Freecycle-related gifting or communication."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:65
+#: webapp_main/templates/source/group/posts/display_post.tt:74
 msgid "Post ID"
 msgstr ""
 
@@ -783,7 +783,7 @@ msgid "Post description:"
 msgstr ""
 
 #. (post.post_subject)
-#: webapp_main/templates/source/group/posts/display_post.tt:84
+#: webapp_main/templates/source/group/posts/display_post.tt:93
 msgid "Post image for %1"
 msgstr ""
 
@@ -797,7 +797,7 @@ msgstr ""
 msgid "Post type: %1"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:75
+#: webapp_main/templates/source/group/posts/display_post.tt:84
 msgid "Posted by :"
 msgstr ""
 
@@ -822,7 +822,7 @@ msgstr ""
 msgid "Press Room"
 msgstr ""
 
-#: webapp_main/templates/source/form990/form.tt:41 webapp_main/templates/source/group/posts/display_post.tt:125
+#: webapp_main/templates/source/form990/form.tt:41 webapp_main/templates/source/group/posts/display_post.tt:134
 msgid "Previous"
 msgstr ""
 
@@ -866,6 +866,10 @@ msgstr ""
 msgid "RECEIVED"
 msgstr ""
 
+#: webapp_main/templates/source/group/posts/display_post.tt:8
+msgid "RECIEVED"
+msgstr ""
+
 #: webapp_main/templates/source/email/group_link_report.tt:22
 msgid "Reason given:"
 msgstr ""
@@ -874,11 +878,11 @@ msgstr ""
 msgid "Related Documents"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:140
+#: webapp_main/templates/source/group/posts/display_post.tt:149
 msgid "Reply to this Post"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:111 webapp_main/templates/source/group/posts/display_post.tt:117
+#: webapp_main/templates/source/group/posts/display_post.tt:120 webapp_main/templates/source/group/posts/display_post.tt:126
 msgid "Report as inappropriate"
 msgstr ""
 
@@ -936,7 +940,7 @@ msgstr ""
 msgid "Send"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:144
+#: webapp_main/templates/source/group/posts/display_post.tt:153
 msgid "Send Message"
 msgstr ""
 
@@ -986,7 +990,7 @@ msgstr ""
 msgid "Street performer Reverend Billy preaches his message of reducing consumption in his Church of Stop Shopping."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:267
+#: webapp_main/templates/source/group/posts/display_list.tt:267 webapp_main/templates/source/group/posts/display_post.tt:6
 msgid "TAKEN"
 msgstr ""
 
@@ -1035,7 +1039,7 @@ msgid "The Freecycle Network"
 msgstr ""
 
 #. (group.groupname)
-#: webapp_main/templates/source/group/posts/display_post.tt:5
+#: webapp_main/templates/source/group/posts/display_post.tt:14
 msgid "The Freecycle Network - %1 Group"
 msgstr ""
 
@@ -1158,15 +1162,15 @@ msgstr ""
 msgid "The Internet Consumer Recycling Guide"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:169
+#: webapp_main/templates/source/group/posts/display_post.tt:178
 msgid "The Post ID is invalid - either the Post does not exist, or does not belong to this Group."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:165
+#: webapp_main/templates/source/group/posts/display_post.tt:174
 msgid "The Post has been deleted."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:167
+#: webapp_main/templates/source/group/posts/display_post.tt:176
 msgid "The Post is still awaiting approval by a Group Moderator."
 msgstr ""
 
@@ -1360,7 +1364,7 @@ msgstr ""
 msgid "Volunteering"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:271
+#: webapp_main/templates/source/group/posts/display_list.tt:271 webapp_main/templates/source/group/posts/display_post.tt:7
 msgid "WANTED"
 msgstr ""
 
@@ -1435,12 +1439,12 @@ msgid "You have generated a new password reset link since the email was sent"
 msgstr ""
 
 #. (#TODO: hard-coded URL      "http://my.freecycle.org/login?referer=$thispage")
-#: webapp_main/templates/source/group/posts/display_post.tt:50
+#: webapp_main/templates/source/group/posts/display_post.tt:59
 msgid "You need to be <a class='link_login' href='%1'>logged in</a> and a Member of this Group to reply to this Post"
 msgstr ""
 
 #. (#TODO: hard-coded URL      "http://my.freecycle.org/login?referer=$thispage")
-#: webapp_main/templates/source/group/posts/display_post.tt:44
+#: webapp_main/templates/source/group/posts/display_post.tt:53
 msgid "You need to be <a class='link_login' href='%1'>logged in</a> and a Member of this Group to view the Post details"
 msgstr ""
 
@@ -1457,12 +1461,12 @@ msgid "You understand that all postings, messages, text, files, images, photos, 
 msgstr ""
 
 #. (#TODO: hard-coded URL      "http://my.freecycle.org/home/groups/join_group/$group.unique_name?referer=$thispage")
-#: webapp_main/templates/source/group/posts/display_post.tt:36
+#: webapp_main/templates/source/group/posts/display_post.tt:45
 msgid "You will need to <a href='%1'>join this group</a> before you can reply to this message."
 msgstr ""
 
 #. (#TODO: hard-coded URL      "http://my.freecycle.org/home/groups/join_group/$group.unique_name?referer=$thispage")
-#: webapp_main/templates/source/group/posts/display_post.tt:30
+#: webapp_main/templates/source/group/posts/display_post.tt:39
 msgid "You will need to <a href='%1'>join this group</a> before you can view this message."
 msgstr ""
 

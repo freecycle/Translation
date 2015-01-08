@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. (group.groupname, post.type, post.post_subject, post.location)
-#: webapp_main/templates/source/group/posts/display_post.tt:3
+#: webapp_main/templates/source/group/posts/display_post.tt:12
 msgid "%1 Freecycle - %2: %3 (%4)"
 msgstr ""
 
@@ -42,7 +42,7 @@ msgid "(awaiting Mod approval)"
 msgstr ""
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:130
-#: webapp_main/templates/source/group/posts/display_post.tt:85
+#: webapp_main/templates/source/group/posts/display_post.tt:94
 msgid "(click on the thumbnail for full size image)"
 msgstr ""
 
@@ -271,7 +271,7 @@ msgstr ""
 msgid "ADMIN"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:12
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:13
 msgid "About Freecycle&trade;"
 msgstr ""
 
@@ -461,7 +461,7 @@ msgid ""
 "reasonable effort to comply with your request."
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:43
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:44
 #: webapp_main/templates/source/about/board.tt:4
 #: webapp_main/templates/source/about/index.tt:16
 msgid "Board"
@@ -505,7 +505,7 @@ msgid ""
 "Deron."
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:10
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:11
 msgid "Browse Groups"
 msgstr ""
 
@@ -667,7 +667,7 @@ msgid ""
 "Freecycle-related exchange or communication."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:72
+#: webapp_main/templates/source/group/posts/display_post.tt:81
 msgid "Date :"
 msgstr ""
 
@@ -703,7 +703,7 @@ msgstr ""
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:55
 #: webapp_main/templates/source/group/files/index.tt:23
 #: webapp_main/templates/source/group/links/index.tt:30
-#: webapp_main/templates/source/group/posts/display_post.tt:80
+#: webapp_main/templates/source/group/posts/display_post.tt:89
 msgid "Description"
 msgstr ""
 
@@ -715,7 +715,7 @@ msgstr ""
 msgid "Details saved"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:46
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:47
 #: webapp_main/templates/source/about/disclaimer.tt:5
 #: webapp_main/templates/source/about/index.tt:19
 msgid "Disclaimer"
@@ -736,7 +736,7 @@ msgid ""
 "'Contact the Mod Team'"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:13
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:14
 msgid "Donate"
 msgstr ""
 
@@ -851,7 +851,7 @@ msgstr ""
 msgid "Everyone (public file)"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:11
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:12
 #: webapp_main/templates/source/about/index.tt:7
 msgid "FAQ"
 msgstr ""
@@ -1101,7 +1101,7 @@ msgid ""
 "about how to reduce, reuse and recycle:"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:34
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:35
 #: webapp_main/templates/source/about/index.tt:8
 msgid "History"
 msgstr ""
@@ -1110,7 +1110,7 @@ msgstr ""
 msgid "History & Background Information"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:9
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:10
 msgid "Home"
 msgstr ""
 
@@ -1435,7 +1435,7 @@ msgstr ""
 msgid "Information Collection"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:35
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:36
 #: webapp_main/templates/source/about/index.tt:9
 msgid "Instructional Video"
 msgstr ""
@@ -1539,7 +1539,7 @@ msgstr ""
 msgid "Links"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:47
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:48
 #: webapp_main/templates/source/about/index.tt:20
 #: webapp_main/templates/source/about/links.tt:4
 msgid "Links we like"
@@ -1549,7 +1549,7 @@ msgstr ""
 msgid "Location"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:70
+#: webapp_main/templates/source/group/posts/display_post.tt:79
 msgid "Location :"
 msgstr ""
 
@@ -1563,11 +1563,11 @@ msgstr ""
 msgid "Log in to Freecycle.org"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:24
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:25
 msgid "Log in/Sign up"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:17
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:18
 msgid "Log out"
 msgstr ""
 
@@ -1622,7 +1622,7 @@ msgstr ""
 msgid "Member"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:50
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:51
 msgid "Member FAQ"
 msgstr ""
 
@@ -1660,7 +1660,7 @@ msgstr ""
 msgid "Message : "
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:161
+#: webapp_main/templates/source/group/posts/display_post.tt:170
 msgid "Message not found"
 msgstr ""
 
@@ -1689,11 +1689,11 @@ msgstr ""
 msgid "Message to send"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:141
+#: webapp_main/templates/source/group/posts/display_post.tt:150
 msgid "Message to send to the person who made this Post:"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:37
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:38
 #: webapp_main/templates/source/about/index.tt:10
 #: webapp_main/templates/source/about/missionstatement.tt:4
 msgid "Mission Statement"
@@ -1708,7 +1708,7 @@ msgstr ""
 msgid "ModTeam and Members of this Group"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:21
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:22
 msgid "Moderate"
 msgstr ""
 
@@ -1718,7 +1718,7 @@ msgstr ""
 msgid "Moderator"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:51
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:52
 msgid "Moderator Manual"
 msgstr ""
 
@@ -1759,7 +1759,7 @@ msgstr ""
 msgid "My Daughters' stolen bicycles were replaced in time for Christmas!"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:19
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:20
 msgid "My Freecycle"
 msgstr ""
 
@@ -1768,22 +1768,22 @@ msgid "My Freecycle - recently expired Posts"
 msgstr ""
 
 #: webapp_myf/templates/lib/box_tabbar.tt:18
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:18
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:29
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:19
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:30
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:22
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:37
 msgid "My Groups"
 msgstr ""
 
 #: webapp_myf/templates/lib/box_tabbar.tt:19
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:28
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:29
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:23
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:38
 msgid "My Info"
 msgstr ""
 
 #: webapp_myf/templates/lib/box_tabbar.tt:17
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:30
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:31
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:21
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:36
 msgid "My Posts"
@@ -1813,13 +1813,13 @@ msgstr ""
 msgid "New username"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:33
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:34
 #: webapp_main/templates/source/about/index.tt:6
 msgid "Newswire"
 msgstr ""
 
 #: webapp_main/templates/source/form990/form.tt:45
-#: webapp_main/templates/source/group/posts/display_post.tt:128
+#: webapp_main/templates/source/group/posts/display_post.tt:137
 msgid "Next"
 msgstr ""
 
@@ -1858,6 +1858,7 @@ msgstr ""
 #: webapp_myf/templates/lib/standard_macros.tt:14
 #: webapp_myf/templates/source/home/posts/manage/show.tt:33
 #: webapp_main/templates/source/group/posts/display_list.tt:263
+#: webapp_main/templates/source/group/posts/display_post.tt:5
 msgid "OFFER"
 msgstr ""
 
@@ -2091,7 +2092,7 @@ msgid ""
 "computers checking their messages all the time."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:113
+#: webapp_main/templates/source/group/posts/display_post.tt:122
 msgid "Please indicate why you feel this Post is inappropriate:"
 msgstr ""
 
@@ -2119,7 +2120,7 @@ msgid "Please make sure you've entered your password correctly in both fields"
 msgstr ""
 
 #. ('http://www.freecycle.org/faq/faq/faq_guidelines')
-#: webapp_main/templates/source/group/posts/display_post.tt:116
+#: webapp_main/templates/source/group/posts/display_post.tt:125
 msgid ""
 "Please note that required guidelines are posted in each Group as well as "
 "centrally <a href=\"%1\">in the FAQ</a> and while you may personally feel "
@@ -2167,7 +2168,7 @@ msgstr ""
 
 #: webapp_myf/templates/source/home/posts/index.tt:44
 #: webapp_myf/templates/source/home/posts/recently_closed.tt:17
-#: webapp_main/templates/source/group/posts/display_post.tt:65
+#: webapp_main/templates/source/group/posts/display_post.tt:74
 msgid "Post ID"
 msgstr ""
 
@@ -2208,7 +2209,7 @@ msgid "Post image : "
 msgstr ""
 
 #. (post.post_subject)
-#: webapp_main/templates/source/group/posts/display_post.tt:84
+#: webapp_main/templates/source/group/posts/display_post.tt:93
 msgid "Post image for %1"
 msgstr ""
 
@@ -2250,7 +2251,7 @@ msgstr ""
 msgid "Post warnings"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:75
+#: webapp_main/templates/source/group/posts/display_post.tt:84
 msgid "Posted by :"
 msgstr ""
 
@@ -2292,7 +2293,7 @@ msgstr ""
 msgid "Press Releases"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:38
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:39
 #: webapp_main/templates/source/about/index.tt:11
 #: webapp_main/templates/source/about/pressroom.tt:1
 #: webapp_main/templates/source/about/pressroom.tt:4
@@ -2300,11 +2301,11 @@ msgid "Press Room"
 msgstr ""
 
 #: webapp_main/templates/source/form990/form.tt:41
-#: webapp_main/templates/source/group/posts/display_post.tt:125
+#: webapp_main/templates/source/group/posts/display_post.tt:134
 msgid "Previous"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:44
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:45
 #: webapp_main/templates/source/about/index.tt:17
 msgid "Privacy"
 msgstr ""
@@ -2313,7 +2314,7 @@ msgstr ""
 msgid "Privacy Policy"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:36
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:37
 msgid "Promo Video - Lamp"
 msgstr ""
 
@@ -2353,6 +2354,10 @@ msgstr ""
 msgid "RECEIVED"
 msgstr ""
 
+#: webapp_main/templates/source/group/posts/display_post.tt:8
+msgid "RECIEVED"
+msgstr ""
+
 #: webapp_myf/templates/source/home/posts/recently_closed.tt:33
 #: webapp_myf/templates/source/home/posts/recently_closed.tt:34
 msgid "Re-open"
@@ -2380,12 +2385,12 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:140
+#: webapp_main/templates/source/group/posts/display_post.tt:149
 msgid "Reply to this Post"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:111
-#: webapp_main/templates/source/group/posts/display_post.tt:117
+#: webapp_main/templates/source/group/posts/display_post.tt:120
+#: webapp_main/templates/source/group/posts/display_post.tt:126
 msgid "Report as inappropriate"
 msgstr ""
 
@@ -2501,7 +2506,7 @@ msgid "Send"
 msgstr ""
 
 #: webapp_myf/templates/source/home/groups/contact_mods_form.tt:69
-#: webapp_main/templates/source/group/posts/display_post.tt:144
+#: webapp_main/templates/source/group/posts/display_post.tt:153
 msgid "Send Message"
 msgstr ""
 
@@ -2610,26 +2615,26 @@ msgid ""
 "little while"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:40
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:41
 #: webapp_main/templates/source/about/index.tt:13
 msgid "Sources and Use of Funds"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:15
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:39
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:16
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:40
 #: webapp_main/templates/source/about/index.tt:12
 #: webapp_main/templates/source/about/sponsors.tt:4
 #: webapp_main/templates/source/index.tt:39
 msgid "Sponsors"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:42
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:43
 #: webapp_main/templates/source/about/index.tt:15
 #: webapp_main/templates/source/about/staff.tt:4
 msgid "Staff"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:14
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:15
 msgid "Store"
 msgstr ""
 
@@ -2649,6 +2654,7 @@ msgstr ""
 
 #: webapp_myf/templates/lib/standard_macros.tt:16
 #: webapp_main/templates/source/group/posts/display_list.tt:267
+#: webapp_main/templates/source/group/posts/display_post.tt:6
 msgid "TAKEN"
 msgstr ""
 
@@ -2673,7 +2679,7 @@ msgid ""
 "username and password to continue"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:45
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:46
 #: webapp_main/templates/source/about/index.tt:18
 #: webapp_main/templates/source/tos.tt:5
 msgid "Terms of Service"
@@ -2772,7 +2778,7 @@ msgid ""
 msgstr ""
 
 #. (group.groupname)
-#: webapp_main/templates/source/group/posts/display_post.tt:5
+#: webapp_main/templates/source/group/posts/display_post.tt:14
 msgid "The Freecycle Network - %1 Group"
 msgstr ""
 
@@ -3006,17 +3012,17 @@ msgstr ""
 msgid "The Internet Consumer Recycling Guide"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:169
+#: webapp_main/templates/source/group/posts/display_post.tt:178
 msgid ""
 "The Post ID is invalid - either the Post does not exist, or does not belong "
 "to this Group."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:165
+#: webapp_main/templates/source/group/posts/display_post.tt:174
 msgid "The Post has been deleted."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:167
+#: webapp_main/templates/source/group/posts/display_post.tt:176
 msgid "The Post is still awaiting approval by a Group Moderator."
 msgstr ""
 
@@ -3650,7 +3656,7 @@ msgstr ""
 msgid "Visit the %1 group and see the posts"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:41
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:42
 #: webapp_main/templates/source/about/index.tt:14
 #: webapp_main/templates/source/about/volunteering.tt:4
 msgid "Volunteering"
@@ -3659,6 +3665,7 @@ msgstr ""
 #: webapp_myf/templates/lib/standard_macros.tt:15
 #: webapp_myf/templates/source/home/posts/manage/show.tt:34
 #: webapp_main/templates/source/group/posts/display_list.tt:271
+#: webapp_main/templates/source/group/posts/display_post.tt:7
 msgid "WANTED"
 msgstr ""
 
@@ -4045,14 +4052,14 @@ msgid ""
 msgstr ""
 
 #. (#TODO: hard-coded URL      "http://my.freecycle.org/login?referer=$thispage")
-#: webapp_main/templates/source/group/posts/display_post.tt:50
+#: webapp_main/templates/source/group/posts/display_post.tt:59
 msgid ""
 "You need to be <a class='link_login' href='%1'>logged in</a> and a Member of "
 "this Group to reply to this Post"
 msgstr ""
 
 #. (#TODO: hard-coded URL      "http://my.freecycle.org/login?referer=$thispage")
-#: webapp_main/templates/source/group/posts/display_post.tt:44
+#: webapp_main/templates/source/group/posts/display_post.tt:53
 msgid ""
 "You need to be <a class='link_login' href='%1'>logged in</a> and a Member of "
 "this Group to view the Post details"
@@ -4120,14 +4127,14 @@ msgid ""
 msgstr ""
 
 #. (#TODO: hard-coded URL      "http://my.freecycle.org/home/groups/join_group/$group.unique_name?referer=$thispage")
-#: webapp_main/templates/source/group/posts/display_post.tt:36
+#: webapp_main/templates/source/group/posts/display_post.tt:45
 msgid ""
 "You will need to <a href='%1'>join this group</a> before you can reply to "
 "this message."
 msgstr ""
 
 #. (#TODO: hard-coded URL      "http://my.freecycle.org/home/groups/join_group/$group.unique_name?referer=$thispage")
-#: webapp_main/templates/source/group/posts/display_post.tt:30
+#: webapp_main/templates/source/group/posts/display_post.tt:39
 msgid ""
 "You will need to <a href='%1'>join this group</a> before you can view this "
 "message."

@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: Freecycle.org\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2015-01-05 16:51-0700\n"
+"PO-Revision-Date: 2015-01-08 13:27-0700\n"
 "Last-Translator: Steev Hise <steev@freecycle.org>\n"
 "Language-Team: French <richard.wallman@freecycle.org>\n"
 "Language: fr\n"
@@ -1300,7 +1300,7 @@ msgstr "S'inscrire/Se connecter"
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:17
 msgid "Log out"
-msgstr "Vous deconnecter"
+msgstr "Vous déconnecter"
 
 #: webapp_main/templates/source/group/posts/display_list.tt:213
 msgid "Make a new Post"
@@ -1353,10 +1353,10 @@ msgstr ""
 msgid "Member"
 msgstr "Membre"
 
+# what about FAQ?
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:50
-#, fuzzy
 msgid "Member FAQ"
-msgstr "Membre"
+msgstr "Membre FAQ"
 
 #. ('%%group_name')
 #: core_modules/lib/Freecycle/standard_templates/source/standard_group_description.tt:3
@@ -1806,6 +1806,7 @@ msgstr "Vous trouverez les consignes d'utilisation dans chaque groupe ainsi que 
 msgid "Please note that the person who made the Post may receive a number of responses, and may not be able to acknowledge all of them. If you don't get a response to your message, you must assume that the person has chosen someone else. As this is a private transaction, The Freecycle Network&trade; has no power to intervene, although you should report any abuse to the Group Moderators."
 msgstr "Veuillez noter que la personne ayant publié cette annonce peut recevoir un grand nombre de réponses et peut choisir de ne pas répondre à tout le monde. Si vous ne recevez pas de réponse, veuillez en conclure que la personne a choisi quelqu'un d'autre. Comme cette transaction est privée, le réseau Freecycle &trade ne peut pas intervenir. En cas d'abus, vous pouvez néanmoins contacter le modérateur du groupe. "
 
+# si vous plais,  keep the %1 - this will read "please see the Member FAQ for help" (%1 will get turned into "Member FAQ"
 #. ('<a href="http://wiki.freecycle.org/Main_Page#Members">' _ c.loc('Member FAQ')
 #: webapp_main/templates/lib/group_box.tt:16
 #, fuzzy
