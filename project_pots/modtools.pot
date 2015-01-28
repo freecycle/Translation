@@ -15,6 +15,22 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:22
+msgid ""
+" Custom logos <b>must</b> be:\n"
+"   <ul>\n"
+"   <li>In JPEG or GIF format</li>\n"
+"   <li>Less that 256Kb in size</li>"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:374
+msgid " Deletions happen before resends, so be careful when putting in the numbers. If in doubt, delete first and then resend."
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:28
+msgid " Or, delete current logo?"
+msgstr ""
+
 #: webapp_modtools/templates/source/manage/files/edit.tt:36 webapp_modtools/templates/source/manage/files/new_file.tt:24
 msgid "(include .doc or .txt, or just leave field empty to keep uploaded file name)"
 msgstr ""
@@ -35,8 +51,24 @@ msgstr ""
 msgid "(this file is of a type that cannot be edited online)"
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:46
+msgid "A link to the Yahoo!Group"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:110
+msgid "ADMINs"
+msgstr ""
+
 #: webapp_modtools/templates/source/manage/files/edit.tt:52 webapp_modtools/templates/source/manage/files/new_file.tt:40
 msgid "Accessible to"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:55
+msgid "Actions"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:16 webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:34 webapp_modtools/templates/perl/source/moderator_group_activity_log:16 webapp_modtools/templates/perl/source/moderator_group_activity_log:34
+msgid "Actor"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/links/add.tt:18
@@ -47,7 +79,11 @@ msgstr ""
 msgid "Add new file"
 msgstr ""
 
-#: webapp_modtools/templates/lib/moderator_menu.tt:173 webapp_modtools/templates/source/manage/links/index.tt:36
+#: webapp_modtools/templates/perl/source/moderator_display_hotwords:21 webapp_modtools/templates/perl/source/moderator_display_hotwords:23
+msgid "Add new hotword"
+msgstr ""
+
+#: webapp_modtools/templates/lib/moderator_menu.tt:173 webapp_modtools/templates/perl/source/moderator_menu:139 webapp_modtools/templates/source/manage/links/index.tt:36
 msgid "Add new link"
 msgstr ""
 
@@ -55,20 +91,73 @@ msgstr ""
 msgid "Add this file"
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_menu:84
+msgid "All Types"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_options_display:37
+msgid "Allow the posting forms to upload images?"
+msgstr ""
+
 #: webapp_modtools/templates/source/manage/files/automatic.tt:13
 msgid "Applying to join"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:76
+msgid "Approve all pending Members"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_options_display:30
+msgid "Are all new members automatically on moderation?"
+msgstr ""
+
+#. (group_name)
+#: webapp_modtools/templates/perl/source/moderator_areacodes:6
+msgid "Area codes for the %1 group"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:153
+msgid "Automatic sending"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/automatic.tt:9
 msgid "Automatic sending of Group files"
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_displaytimezones:14
+msgid "Available timezones"
+msgstr ""
+
 #: webapp_modtools/templates/source/manage/files/delete_file.tt:30 webapp_modtools/templates/source/manage/files/send_file.tt:30
 msgid "Back to file list"
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_members_list:369
+msgid "Bulk invitation actions"
+msgstr ""
+
 #: webapp_modtools/templates/source/manage/files/delete_file.tt:20 webapp_modtools/templates/source/manage/files/edit.tt:85 webapp_modtools/templates/source/manage/files/send_file.tt:20
 msgid "Cancel"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_display_group_invites:72
+msgid "Cancel invitation"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_posts_overview:62
+msgid "Cancelled/deleted"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:29
+msgid "Change custom logo"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:40
+msgid "Change timezone"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_posts_overview:21
+msgid "Closed"
 msgstr ""
 
 #: webapp_modtools/templates/source/agreement.tt:9
@@ -77,6 +166,22 @@ msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/new_file.tt:68
 msgid "Create new file"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_overview:125
+msgid "Current status"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_options_display:44
+msgid "Default email delivery option for new Members"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_display_hotwords:15
+msgid "Delete"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:372
+msgid "Delete all invitations older than"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:87
@@ -95,6 +200,22 @@ msgstr ""
 msgid "Details saved"
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_group_options_display:48
+msgid "Digest"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_options_display:23
+msgid "Does this group have to approve all new members?"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_overview:140
+msgid "ENABLE EMERGENCY FULL MODERATION"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:41
+msgid "Edit description"
+msgstr ""
+
 #: webapp_modtools/templates/source/manage/links/edit.tt:18 webapp_modtools/templates/source/manage/links/index.tt:25
 msgid "Edit link"
 msgstr ""
@@ -103,12 +224,46 @@ msgstr ""
 msgid "Edit/upload file contents"
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_members_list:46
+msgid "Email address"
+msgstr ""
+
 #: webapp_modtools/templates/source/manage/files/send_file.tt:27
 msgid "Email queued for sending"
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_members_list:54
+msgid "Emails"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_overview:118
+msgid "Emergency Full Moderation"
+msgstr ""
+
+#. (pending', requiring Mod approval. This optionis an <b>emergency measure</b> and only lasts for up to three days, although this can be extended by hitting the button again.<b>It is intended for short-term use only.</b>')
+#: webapp_modtools/templates/perl/source/moderator_group_overview:122
+msgid "Emergency Full Moderation will automatically hold all Posts made to the Group in "
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_overview:127
+msgid "Enabled until"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:17 webapp_modtools/templates/perl/source/moderator_group_activity_log:17
+msgid "Event"
+msgstr ""
+
 #: webapp_modtools/templates/source/manage/files/edit.tt:54 webapp_modtools/templates/source/manage/files/new_file.tt:42
 msgid "Everyone (public file)"
+msgstr ""
+
+#. (group_name)
+#: webapp_modtools/templates/perl/source/moderator_members_list:19
+msgid "Everyone on the %1 group"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_overview:134
+msgid "Extend EFM by another 3 days"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/automatic.tt:66
@@ -123,17 +278,100 @@ msgstr ""
 msgid "File deleted"
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_menu:150
+msgid "File list"
+msgstr ""
+
 #: webapp_modtools/templates/source/manage/files/automatic.tt:67 webapp_modtools/templates/source/manage/files/edit.tt:35 webapp_modtools/templates/source/manage/files/new_file.tt:23
 msgid "File name"
 msgstr ""
 
-#: webapp_modtools/templates/lib/moderator_menu.tt:171
+#: webapp_modtools/templates/perl/source/moderator_menu:26
+msgid "Go"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_display_group_invites:58
+msgid "Go!"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_overview:43
+msgid "Group (displayed) name"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:181
+msgid "Group Activity"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:148
+msgid "Group Files"
+msgstr ""
+
+#: webapp_modtools/templates/lib/moderator_menu.tt:171 webapp_modtools/templates/perl/source/moderator_menu:137
 msgid "Group Links"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_overview:39
+msgid "Group ModTeam email address"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:38
+msgid "Group Options"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_overview:35
+msgid "Group Post email address"
+msgstr ""
+
+#. (group_name)
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescription:6
+msgid "Group description for the %1 group"
 msgstr ""
 
 #. (group_file.group_file_id)
 #: webapp_modtools/templates/source/manage/files/edit.tt:21
 msgid "Group file ID: %1"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_overview:28
+msgid "Group short(er) URLs"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_overview:101
+msgid "Group specific postal codes"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_overview:47
+msgid "Group time zone"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_overview:24
+msgid "Group unique name"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:44
+msgid "Hotword Management"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_display_hotwords:11
+msgid "Hotwords"
+msgstr ""
+
+#. (group_name)
+#: webapp_modtools/templates/perl/source/moderator_display_hotwords:6
+msgid "Hotwords for the %1 group"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_display_hotwords:28
+msgid ""
+"Hotwords match entire word(s) - if there is anything other than whitespace before or after your \"hotword\", it won't match. For example, \"hen\" would not match \"when\" or \"henchman\".\n"
+"</p>\n"
+"<p>There are two \"wildcard\" characters you can use:</p>\n"
+"<ul>\n"
+"  <li>? (question mark) - this matches <b>any single</b> letter or number</li> e.g. \"tast?\" would match \"taste\" and \"tasty\", but not \"tasted\"\n"
+"  <li>* (asterisk) - this matches <b>zero or more</b> letters or numbers</li> e.g. \"tast*\" would match \"taste\", \"tasty\", \"tasted\" and also \"tast\"\n"
+"</ul>\n"
+"<p>\n"
+"If you want to match one or more letters, use \"?*\" or \"*?\", e.g. \"grub?*\" would match \"grubs\" and \"grubby\" but not \"grub\""
 msgstr ""
 
 #. ('http://faq.freecycle.org/faq/?menu=manual/required')
@@ -145,7 +383,157 @@ msgstr ""
 msgid "I agree to the Collective Membership Mark Usage Agreement"
 msgstr ""
 
-#: webapp_modtools/templates/lib/moderator_menu.tt:4
+#: webapp_modtools/templates/perl/source/moderator_members_search_form:30
+msgid "Include Lead Moderators"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_search_form:20
+msgid "Include Members"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_search_form:25
+msgid "Include Moderators"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:27
+msgid "Include closed posts"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_search_form:10
+msgid "Include invitations"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_search_form:15
+msgid "Include pending Members"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:32
+msgid "Include pending posts"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:9
+msgid "Include posts made to all Groups"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_options_display:47
+msgid "Individual emails"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:36
+msgid "Info and Options"
+msgstr ""
+
+#. (group_name)
+#: webapp_modtools/templates/perl/source/moderator_display_group_invites:6 webapp_modtools/templates/perl/source/moderator_group_options_display:11 webapp_modtools/templates/perl/source/moderator_group_overview:14
+msgid "Information for the %1 group"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:49
+msgid "Invitation date"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:379
+msgid ""
+"Invitation emails will be sent to <b>everyone</b> whose last invitation is older than this - which could lead to some truly\n"
+"    ancient invitations being resent. It's best to delete very old invitations before resending."
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:48
+msgid "Invitation/Join date"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:89
+msgid "Invite Members"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_display_group_invites:48 webapp_modtools/templates/perl/source/moderator_members_overview:35
+msgid "Invited"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:50
+msgid "Join date"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/group_display_join_message:4
+msgid "Join this group"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:109 webapp_modtools/templates/perl/source/moderator_members_list:110 webapp_modtools/templates/perl/source/moderator_members_overview:47
+msgid "Lead Moderator"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:88
+msgid "Lead Moderators"
+msgstr ""
+
+#. (group_name)
+#: webapp_modtools/templates/perl/source/moderator_members_list:23
+msgid "Lead Moderators of the %1 group"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_overview:33
+msgid "Level"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:8
+msgid "Logout"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:70 webapp_modtools/templates/perl/source/moderator_menu:71
+msgid "Manage Postal Codes"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:72
+msgid "Manage Postal codes"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:69
+msgid "Manage Postcodes"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:68
+msgid "Manage Zip Codes"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:37
+msgid "Meaning"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:105 webapp_modtools/templates/perl/source/moderator_members_list:106 webapp_modtools/templates/perl/source/moderator_members_overview:41
+msgid "Member"
+msgstr ""
+
+#. (group_name)
+#: webapp_modtools/templates/perl/source/moderator_members_overview:25
+msgid "Member info for the %1 group"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:82 webapp_modtools/templates/perl/source/moderator_menu:86
+msgid "Members"
+msgstr ""
+
+#. (group_name)
+#: webapp_modtools/templates/perl/source/moderator_members_list:25
+msgid "Members of the %1 group"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_overview:30
+msgid "Members/Mods/Lead Mods on this Group."
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_display_group_invites:35 webapp_modtools/templates/perl/source/moderator_members_list:45
+msgid "Membership Level"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_search_form:9
+msgid "Membership levels"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:42
+msgid "Message Maker Prefs"
+msgstr ""
+
+#: webapp_modtools/templates/lib/moderator_menu.tt:4 webapp_modtools/templates/perl/source/moderator_menu:3
 msgid "Mod Home"
 msgstr ""
 
@@ -153,12 +541,81 @@ msgstr ""
 msgid "ModTeam and Members of this Group"
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_members_list:119 webapp_modtools/templates/perl/source/moderator_members_list:121
+msgid "Moderated"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:53
+msgid "Moderation"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:107 webapp_modtools/templates/perl/source/moderator_members_list:108 webapp_modtools/templates/perl/source/moderator_members_overview:44
+msgid "Moderator"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:87
+msgid "Moderators"
+msgstr ""
+
+#. (group_name)
+#: webapp_modtools/templates/perl/source/moderator_members_list:27
+msgid "Moderators of the %1 group"
+msgstr ""
+
 #: webapp_modtools/templates/source/manage/files/edit.tt:56 webapp_modtools/templates/source/manage/files/new_file.tt:44
 msgid "Mods and LMs of this Group"
 msgstr ""
 
-#: webapp_modtools/templates/lib/moderator_menu.tt:5
+#: webapp_modtools/templates/perl/source/moderator_group_options_display:54
+msgid "My Freecycle opt-out status"
+msgstr ""
+
+#: webapp_modtools/templates/lib/moderator_menu.tt:5 webapp_modtools/templates/perl/source/moderator_menu:4
 msgid "MyF Home"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:27
+msgid "New custom logo:"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:151
+msgid "New file"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_options_display:26 webapp_modtools/templates/perl/source/moderator_group_options_display:33 webapp_modtools/templates/perl/source/moderator_group_options_display:40
+msgid "No"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_options_display:46
+msgid "No emails"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_overview:33
+msgid "Number"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_overview:55
+msgid "Number of Members"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_posts_overview:26 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:297
+msgid "OFFER"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:105
+msgid "OFFERs"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:14
+msgid "OR"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:18 webapp_modtools/templates/perl/source/moderator_group_activity_log:18
+msgid "Object"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_overview:35
+msgid "On Yahoo!Groups"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/automatic.tt:15
@@ -173,8 +630,54 @@ msgstr ""
 msgid "Only LMs of this Group"
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_group_posts_overview:20
+msgid "Open"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:101 webapp_modtools/templates/perl/source/moderator_members_list:102
+msgid "Open invitation"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:85
+msgid "Open invitations"
+msgstr ""
+
+#. (group_name)
+#: webapp_modtools/templates/perl/source/moderator_members_list:21
+msgid "Open invitations to the %1 group"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_options_display:59
+msgid "Opted in. To opt-out, send an email to your GOA requesting the opt-out."
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_options_display:57
+msgid "Opted out"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:19
+msgid "Overview page"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_posts_overview:22 webapp_modtools/templates/perl/source/moderator_members_overview:38 webapp_modtools/templates/perl/source/moderator_menu:112 webapp_modtools/templates/perl/source/moderator_menu:128 webapp_modtools/templates/perl/source/moderator_menu:92
+msgid "Pending"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:103 webapp_modtools/templates/perl/source/moderator_members_list:104
+msgid "Pending Member"
+msgstr ""
+
 #: webapp_modtools/templates/source/manage/files/automatic.tt:14
 msgid "Pending Member approved"
+msgstr ""
+
+#. (group_name)
+#: webapp_modtools/templates/perl/source/moderator_members_list:29
+msgid "Pending Members of the %1 group"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:382
+msgid "Perform these actions"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:50 webapp_modtools/templates/source/manage/files/new_file.tt:38
@@ -193,21 +696,115 @@ msgstr ""
 msgid "Please enter a filename, or use an uploaded file (which uses the uploaded file name)"
 msgstr ""
 
-#: webapp_modtools/templates/lib/moderator_menu.tt:6
+#: webapp_modtools/templates/perl/source/moderator_areacodes:12
+msgid "Please enter the codes separated by a comma (spaces and new lines are all ignored, so you can space things out if it helps)"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:119
+msgid "Post"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:14
+msgid "Post ID"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:21
+msgid "Post flags"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:123
+msgid "Post images"
+msgstr ""
+
+#. (group_name)
+#: webapp_modtools/templates/perl/source/moderator_group_posts_overview:16
+msgid "Posting history for the %1 group"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_overview:59
+msgid "Posts in last 24 hours/7 days"
+msgstr ""
+
+#: webapp_modtools/templates/lib/moderator_menu.tt:6 webapp_modtools/templates/perl/source/moderator_menu:5
 msgid "Preferences"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:16
+msgid "Preview group description"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:17
+msgid "Quick jump to"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_posts_overview:55 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:309
+msgid "RECEIVED"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:108
+msgid "RECEIVEDs"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_overview:51
+msgid "Region/Country"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:77
+msgid "Reject all pending Members"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/automatic.tt:79
 msgid "Remove"
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_members_list:377
+msgid "Resend all invitations older than"
+msgstr ""
+
 #: webapp_modtools/templates/source/manage/files/edit.tt:84
 msgid "Save changes"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_areacodes:17
+msgid "Save codes"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:14
+msgid "Save group description"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_options_display:67
+msgid "Save these options"
 msgstr ""
 
 #. (group_file.size)
 #: webapp_modtools/templates/source/manage/files/edit.tt:80
 msgid "Saved file size: %1 bytes"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:2
+msgid "Search Posts"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_search_form:38
+msgid "Search for Members"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:42
+msgid "Search for Posts"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_search_form:4
+msgid "Search members"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:5
+msgid "Search options"
+msgstr ""
+
+#. (group_name)
+#: webapp_modtools/templates/perl/source/moderator_members_list:17
+msgid "Search results for the %1 group"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:88
@@ -222,8 +819,67 @@ msgstr ""
 msgid "Submit"
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_group_posts_overview:37 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:301
+msgid "TAKEN"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:106
+msgid "TAKENs"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:39
+msgid "The custom group log"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:42
+msgid "The display name for this Group"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:44
+msgid "The number of members in this group"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:43
+msgid "The number of official Freecycle group"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:38
+msgid "The official TFN copyright notice"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:40
+msgid "The official TFN disclaimer"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:41
+msgid "The official TFN logo (bare &lt;img> tag with width and height attributes)"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:45
+msgid "The total number of members in all groups"
+msgstr ""
+
+#. (pending_members)
+#: webapp_modtools/templates/perl/source/moderator_group_overview:75
+msgid "There are %1 Members waiting for approval"
+msgstr ""
+
+#. (pending_posts)
+#: webapp_modtools/templates/perl/source/moderator_group_overview:80
+msgid "There are %1 Posts waiting for approval"
+msgstr ""
+
+#. (memberlist.size)
+#: webapp_modtools/templates/perl/source/moderator_display_group_invites:31
+msgid "There are %1 accounts at this level."
+msgstr ""
+
 #: webapp_modtools/templates/source/manage/links/index.tt:42
 msgid "There are no links for this Group"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:34
+msgid "There are some template variables you can use:"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/automatic.tt:53
@@ -246,12 +902,34 @@ msgstr ""
 msgid "These files will be sent when a pending Member has been approved."
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:49
+msgid ""
+"These will get automatically replaced by the system with the right values, and saves you having to keep editing your group\n"
+"description. Let your GOA know if you can think of anything else you would like."
+msgstr ""
+
 #: webapp_modtools/templates/source/manage/files/delete_file.tt:29
 msgid "This file has been deleted from the Group"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/send_file.tt:29
 msgid "This file has been queued for sending by the bulk email system, and will be processed as soon as possible."
+msgstr ""
+
+#. (http://groups.yahoo.com/group/[_1]/members'>member management pages</a> to handle users. Any memberslisted here have gone through the 'My Freecycle' system, and this list should be considered <b>incomplete and informationalonly', yahoo_group_name)
+#: webapp_modtools/templates/perl/source/moderator_display_group_invites:21
+msgid ""
+"This group is still on the Yahoo!Groups system - you need to use the Yahoo!Groups\n"
+"<a href="
+msgstr ""
+
+#. (yahoo_group_name)
+#: webapp_modtools/templates/perl/source/moderator_members_list:34
+msgid ""
+"This group is still on the Yahoo!Groups system - you need to use the Yahoo!Groups\n"
+"<a href=\"http://groups.yahoo.com/group/%1/members\">member management pages</a> to handle users. Any members\n"
+"listed here have gone through the 'My Freecycle' system, and this list should be considered <b>incomplete and informational\n"
+"only"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/delete_file.tt:17
@@ -262,6 +940,14 @@ msgstr ""
 msgid "This will send the Group file to ALL Members of this Group - are you sure you want to do this?"
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_group_overview:130
+msgid "Turn off EFM"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_posts_overview:19
+msgid "Type"
+msgstr ""
+
 #: webapp_modtools/templates/source/manage/files/edit.tt:65 webapp_modtools/templates/source/manage/files/new_file.tt:53
 msgid "Type of file"
 msgstr ""
@@ -270,8 +956,69 @@ msgstr ""
 msgid "URL : "
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_group_overview:20
+msgid "Unique TFN Group ID"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:119 webapp_modtools/templates/perl/source/moderator_members_list:121
+msgid "Unmoderated"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_displaytimezones:20
+msgid "Update timezone"
+msgstr ""
+
+#. (group_name)
+#: webapp_modtools/templates/perl/source/moderator_displaytimezones:11
+msgid "Updating the timezone for %1"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:44
+msgid "User name"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:6
+msgid "User name, ID, or email address"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_search_form:6
+msgid "Username or email address"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_display_hotwords:26
+msgid "Using hotwords"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:37
+msgid "Variable Name"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:125
+msgid "View Posts"
+msgstr ""
+
 #: webapp_modtools/templates/source/manage/files/index.tt:22
 msgid "View/Edit details"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:71 webapp_modtools/templates/perl/source/moderator_group_activity_log:71
+msgid "Viewing"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_posts_overview:44 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:305
+msgid "WANTED"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_menu:107
+msgid "WANTEDs"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:19 webapp_modtools/templates/perl/source/moderator_group_activity_log:19
+msgid "When"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_options_display:25 webapp_modtools/templates/perl/source/moderator_group_options_display:32 webapp_modtools/templates/perl/source/moderator_group_options_display:39
+msgid "Yes"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/delete_file.tt:19
@@ -284,4 +1031,36 @@ msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:32
 msgid "You already have a file with this name on this Group - files need unique names"
+msgstr ""
+
+#. (numgroups)
+#: webapp_modtools/templates/perl/source/moderator_overview:20
+msgid "You are a Moderator or Lead Moderator of %1 group"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_search_form:42
+msgid ""
+"You can search for Members using their username and/or email address. You can specify more than one username/email address\n"
+"    by separating them with a space, tab, newline or comma.<br />\n"
+"    The search will be limited to this Group only."
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:51 webapp_modtools/templates/perl/source/moderator_group_activity_log:51
+msgid "approved Post ID"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:49 webapp_modtools/templates/perl/source/moderator_group_activity_log:49
+msgid "approved membership of"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_members_list:372 webapp_modtools/templates/perl/source/moderator_members_list:377
+msgid "days"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_overview:52
+msgid "in"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:48 webapp_modtools/templates/perl/source/moderator_group_activity_log:48
+msgid "sent an invitation to"
 msgstr ""

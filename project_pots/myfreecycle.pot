@@ -88,12 +88,12 @@ msgid "An error occured when we tried to send the email. You could try again rig
 msgstr ""
 
 #. (e)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:22
+#: webapp_myf/templates/source/home/posts/display_issues.tt:24
 msgid "An unrecognised error was sent : '%1' - please report this to server.admins@freecycle.org"
 msgstr ""
 
 #. (e)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:54
+#: webapp_myf/templates/source/home/posts/display_issues.tt:56
 msgid "An unrecognised warning was sent : '%1' - please report this to server.admins@freecycle.org"
 msgstr ""
 
@@ -359,7 +359,7 @@ msgstr ""
 #. ('http://wiki.freecycle.org/MemberFAQ:/')
 #: webapp_myf/templates/lib/standard_footer.tt:4
 msgid ""
-"If you have any problems or feedback when using My Freecycle, please refer to the <a href=\"%1http://wiki.freecycle.org/MemberFAQ:/\">Member FAQ page</a>.\n"
+"If you have any problems or feedback when using My Freecycle, please refer to the <a href=\"%1\">Member FAQ page</a>.\n"
 "For specific queries about groups, please contact your local group moderator whose contact info is noted at the top of each local group \"All Items\" page."
 msgstr ""
 
@@ -614,20 +614,20 @@ msgstr ""
 msgid "Please ensure you have entered the new password in twice, and that both entries are the same"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:46
+#: webapp_myf/templates/source/home/posts/display_issues.tt:48
 msgid "Please enter some more details about this post"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:34
+#: webapp_myf/templates/source/home/posts/display_issues.tt:36
 msgid "Please enter something for the short description"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:40
+#: webapp_myf/templates/source/home/posts/display_issues.tt:42
 msgid "Please enter something for your location - it allows people to quickly see how far they may need to travel"
 msgstr ""
 
 #. (mmaker.maximum_location_length)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:42
+#: webapp_myf/templates/source/home/posts/display_issues.tt:44
 msgid "Please enter something shorter for your location - the group has a limit of %1 letters"
 msgstr ""
 
@@ -719,7 +719,7 @@ msgstr ""
 msgid "Post type: "
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:29
+#: webapp_myf/templates/source/home/posts/display_issues.tt:31
 msgid "Post warnings"
 msgstr ""
 
@@ -884,6 +884,10 @@ msgstr ""
 msgid "The image you uploaded was too big"
 msgstr ""
 
+#: webapp_myf/templates/source/home/posts/display_issues.tt:22
+msgid "The location you provided is invalid"
+msgstr ""
+
 #: webapp_myf/templates/source/home/groups/contact_mods_form.tt:60
 msgid "The moderator(s) of group.group_name"
 msgstr ""
@@ -897,32 +901,32 @@ msgid "The page you were looking for cannot be found!"
 msgstr ""
 
 #. (post_matches.join(", ")
-#: webapp_myf/templates/source/home/posts/display_issues.tt:52
+#: webapp_myf/templates/source/home/posts/display_issues.tt:54
 msgid "The post appears to be a duplicate of these Posts : %1"
 msgstr ""
 
 #. (mmaker.maximum_description_caps_percentage)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:50
+#: webapp_myf/templates/source/home/posts/display_issues.tt:52
 msgid "The post body has too many capitals  - this group has a limit of %1%"
 msgstr ""
 
 #. (mmaker.maximum_description_length)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:48
+#: webapp_myf/templates/source/home/posts/display_issues.tt:50
 msgid "The post body is too long - this group has a limit of %1 letters"
 msgstr ""
 
 #. (mmaker.maximum_item_caps_percentage)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:38
+#: webapp_myf/templates/source/home/posts/display_issues.tt:40
 msgid "The post description has too many capitals  - this group has a limit of %1%"
 msgstr ""
 
 #. (mmaker.maximum_item_length)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:36
+#: webapp_myf/templates/source/home/posts/display_issues.tt:38
 msgid "The post description is too long - this group has a limit of %1 letters"
 msgstr ""
 
 #. (mmaker.maximum_location_caps_percentage)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:44
+#: webapp_myf/templates/source/home/posts/display_issues.tt:46
 msgid "The post location has too many capitals  - this group has a limit of %1%"
 msgstr ""
 

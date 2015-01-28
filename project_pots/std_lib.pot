@@ -65,12 +65,23 @@ msgstr ""
 msgid "Files"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:8
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:12
 msgid "Freecycle.org"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:18 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:54
 msgid "Group Info"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:3
+msgid ""
+"Hello Freecycle Member, \n"
+"\n"
+"A password reset request has been submitted to Freecycle.org for your email address. Simply click on the link below to complete this process. Please note that this link is only valid for a single use. If you did not make this request, then simply ignore it and it will expire."
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.html.tt:13
+msgid "Hello Freecycle Member, <br>A password reset request has been submitted to Freecycle.org for your email address. Simply click on the link below to complete this process. Please note that this link is only valid for a single use. If you did not make this request, then simply ignore it and it will expire."
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:35
@@ -166,10 +177,6 @@ msgstr ""
 msgid "Skip navigation menu"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.html.tt:13 core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:3
-msgid "Someone requested a password reset link,blah de blah."
-msgstr ""
-
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:41
 msgid "Sources and Use of Funds"
 msgstr ""
@@ -188,6 +195,10 @@ msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:46
 msgid "Terms of Service"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.html.tt:17 core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:9
+msgid "Thanks and see you on Freecycle.org!"
 msgstr ""
 
 #. ('%%num_groups', '%%num_members')
@@ -221,6 +232,6 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:8
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:12
 msgid "changing the world one gift at a time"
 msgstr ""

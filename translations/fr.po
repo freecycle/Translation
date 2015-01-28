@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: Freecycle.org\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2015-01-08 13:27-0700\n"
+"PO-Revision-Date: 2015-01-16 09:40-0700\n"
 "Last-Translator: Steev Hise <steev@freecycle.org>\n"
 "Language-Team: French <richard.wallman@freecycle.org>\n"
 "Language: fr\n"
@@ -33,7 +33,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. (group.groupname, post.type, post.post_subject, post.location)
-#: webapp_main/templates/source/group/posts/display_post.tt:3
+#: webapp_main/templates/source/group/posts/display_post.tt:12
 msgid "%1 Freecycle - %2: %3 (%4)"
 msgstr "%1 Freecycle - %2: %3 (%4)"
 
@@ -56,7 +56,7 @@ msgid "(awaiting Mod approval)"
 msgstr "(En attente d'approbation par le modérateur)"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:130
-#: webapp_main/templates/source/group/posts/display_post.tt:85
+#: webapp_main/templates/source/group/posts/display_post.tt:94
 msgid "(click on the thumbnail for full size image)"
 msgstr "(cliquez sur l'icône pour voir la photo)"
 
@@ -210,40 +210,16 @@ msgstr "8. Transactions avec des organisations et des individus"
 
 #: webapp_main/templates/source/tos.tt:59
 msgid "9. Collective Membership Mark Usage (limited to Members using The Freecycle Network in the United States)"
-msgstr ""
-"9. Utilisation du logo comme marque d'association collective (limitée aux "
-"membres de The Freecycle Network aux États-Unis)"
+msgstr "9. Utilisation du logo comme marque d'association collective (limitée aux membres de The Freecycle Network aux États-Unis)"
 
 #: webapp_main/templates/source/tos.tt:75
 msgid "<b>The Terms constitute the entire agreement between you and The Freecycle Network and govern your use of the Service, superceding any prior agreements between you and The Freecycle Network. The Terms and the relationship between you and The Freecycle Network shall be governed by the laws of the State of Arizona without regard to its conflict of law provisions. You and The Freecycle Network agree to submit to the personal and exclusive jurisdiction of the courts located within the county of Pima, Arizona. The failure of The Freecycle Network to exercise or enforce any right or provision of the Terms shall not constitute a waiver of such right or provision. If any provision of the Terms is found by a court of competent jurisdiction to be invalid, the parties nevertheless agree that the court should endeavor to give effect to the parties' intentions as reflected in the provision, and the other provisions of the Terms remain in full force and effect. You agree that regardless of any statute or law to the contrary, any claim or cause of action arising out of or related to use of the Service or the Terms must be filed within one (1) year after such claim or cause of action arose or be forever barred.</b>"
-msgstr ""
-"<b>Les Conditions constituent le contrat intégral et exclusif vous liant à "
-"The Freecycle Network et régissent l'utilisation que vous faites du Service, "
-"remplaçant tout accord préalable conclu entre The Freecycle Network et vous. "
-"Les Conditions et la relation entre vous et The Freecycle Network seront "
-"régis et interprétés par les lois de l'État d'Arizona quelle que soit la "
-"nature des autres lois ou dispositions. Vous et The Freecycle Network vous "
-"engagez à vous en remettre aux compétences personnelles et exclusives des "
-"tribunaux situés dans le comté de Pima, en Arizona. Le fait que The "
-"Freecycle Network n'exerce pas ou ne fait pas valoir les droits ou les "
-"dispositions des Conditions ne constitue pas le renoncement à ces droits ou "
-"dispositions. Si une quelconque disposition des Conditions est jugée non "
-"valide par un tribunal de juridiction compétente, les parties s'engagent "
-"cependant à reconnaître que le tribunal doit s'efforcer de mettre en vigueur "
-"les intentions des parties comme indiqué dans la disposition en question, et "
-"les autres dispositions des Conditions restent en vigueur. Vous acceptez "
-"que, nonobstant toute règle ou loi stipulant le contraire, toute déclaration "
-"ou tout fondement d'une action en justice découlant de ou étant lié(e) à "
-"l'utilisation du Service ou des Conditions, doit être déposé(e) dans l'année "
-"(1 an) suivant une telle déclaration ou fondement d'une action de justice, "
-"ou sera classé(e) à jamais. <b>"
+msgstr "<b>Les Conditions constituent le contrat intégral et exclusif vous liant à The Freecycle Network et régissent l'utilisation que vous faites du Service, remplaçant tout accord préalable conclu entre The Freecycle Network et vous. Les Conditions et la relation entre vous et The Freecycle Network seront régis et interprétés par les lois de l'État d'Arizona quelle que soit la nature des autres lois ou dispositions. Vous et The Freecycle Network vous engagez à vous en remettre aux compétences personnelles et exclusives des tribunaux situés dans le comté de Pima, en Arizona. Le fait que The Freecycle Network n'exerce pas ou ne fait pas valoir les droits ou les dispositions des Conditions ne constitue pas le renoncement à ces droits ou dispositions. Si une quelconque disposition des Conditions est jugée non valide par un tribunal de juridiction compétente, les parties s'engagent cependant à reconnaître que le tribunal doit s'efforcer de mettre en vigueur les intentions des parties comme indiqué dans la disposition en question, et les autres dispositions des Conditions restent en vigueur. Vous acceptez que, nonobstant toute règle ou loi stipulant le contraire, toute déclaration ou tout fondement d'une action en justice découlant de ou étant lié(e) à l'utilisation du Service ou des Conditions, doit être déposé(e) dans l'année (1 an) suivant une telle déclaration ou fondement d'une action de justice, ou sera classé(e) à jamais. <b>"
 
 #. ('<a href="mailto:info@freecycle.org">info@freecycle.org</a>')
 #: webapp_main/templates/source/tos.tt:78
 msgid "<b>We welcome your feedback on this document. Please contact us at %1</b>"
-msgstr ""
-"<b>Nous vous invitons à nous faire part de vos commentaires sur ce document. "
-"Vous pouvez nous envoyer un message à l'adresse info@freecycle.org<b>"
+msgstr "<b>Nous vous invitons à nous faire part de vos commentaires sur ce document. Vous pouvez nous envoyer un message à l'adresse info@freecycle.org<b>"
 
 #: webapp_main/templates/source/about/background.tt:14
 msgid "A Brief History"
@@ -272,7 +248,7 @@ msgstr ""
 msgid "ADMIN"
 msgstr "ADMIN"
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:12
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:13
 msgid "About Freecycle&trade;"
 msgstr "A propos de Freecycle&trade;"
 
@@ -357,12 +333,12 @@ msgid "An error occured when we tried to send the email. You could try again rig
 msgstr "Une erreur s'est produite lors de l'envoi d'e-mail. Vous pouvez réessayer de suite (au cas où l'erreur serait bénigne ) ou réessayer un peu plus tard (le temps pour nous de résoudre le problème)."
 
 #. (e)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:22
+#: webapp_myf/templates/source/home/posts/display_issues.tt:24
 msgid "An unrecognised error was sent : '%1' - please report this to server.admins@freecycle.org"
 msgstr "Une erreur non reconnue s'est produite : '%1' - merci de bien vouloir envoyer ce code à server.admins@freecycle.org."
 
 #. (e)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:54
+#: webapp_myf/templates/source/home/posts/display_issues.tt:56
 msgid "An unrecognised warning was sent : '%1' - please report this to server.admins@freecycle.org"
 msgstr "Une erreur non reconnue s'est produite : '%1' - merci de bien vouloir envoyer un email à server.admins@freecycle.org pour nous en informer."
 
@@ -412,7 +388,7 @@ msgstr ""
 msgid "Before we collect any personally identifiable information, we will provide an explanation for the possible use of your data. For example, the information you supply might be used by The Freecycle Network to respond to your inquiries or supply you with requested information. It may be necessary, if required by law or if pertinent to judicial or governmental investigations, to release your personally identifiable information. If you have submitted personal information to us electronically and would like it removed or modified, please contact us. We will use every possible reasonable effort to comply with your request."
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:43
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:44
 #: webapp_main/templates/source/about/board.tt:4
 #: webapp_main/templates/source/about/index.tt:16
 msgid "Board"
@@ -430,7 +406,7 @@ msgstr ""
 msgid "Board Vice Chair. Jennifer currently is employed with Habitat for Humanity Tucson. She had previously administered various graduate studies program at the University of Arizona. Before that, she spent several years working in membership and media relations with The Nature Conservancy in its main office in Arlington, VA as well as in its Arizona state office in Tucson. Previous to this she worked for Greenpeace USA in DC. Her years of nonprofit experience are an invaluable asset to us. And, in the interest of full disclosure and as a point of pride, Jennifer also happens to be married to Deron."
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:10
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:11
 msgid "Browse Groups"
 msgstr "Voir les groupes"
 
@@ -572,7 +548,7 @@ msgstr "Créer un nouveau fichier"
 msgid "DISCLAIMER: FREECYCLE NETWORK MEMBERS USE THE LIST AT THEIR OWN RISK. Please take reasonable measures to protect your safety and privacy when posting to the list or participating in an exchange. By joining the list, you agree to hold neither the list owners and moderators nor anyone affiliated with Freecycle.org responsible or liable for any circumstance resulting from a Freecycle-related exchange or communication."
 msgstr "Avis de non responsabilité: LES MEMBRES DE FREECYCLE UTILISENT LES GROUPES  À LEURS PROPRES RISQUES. Prenez, SVP, les mesures nécéssaires pour protéger votre sécurité et votre vie privée quand vous diffusez à la liste ou quand vous participez à un échange. En vous inscrivant, vous acceptez qu'en aucun cas, ni les propriétaires de la liste, ni les modérateurs, ni aucune personne affiliée au réseau Freecycle ne pourront être tenus responsables de tout événement résultant d’un échange ou d’une communication en liaison avec Freecycle.  "
 
-#: webapp_main/templates/source/group/posts/display_post.tt:72
+#: webapp_main/templates/source/group/posts/display_post.tt:81
 msgid "Date :"
 msgstr "Date: "
 
@@ -608,7 +584,7 @@ msgstr "Supprimer mon compte"
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:55
 #: webapp_main/templates/source/group/files/index.tt:23
 #: webapp_main/templates/source/group/links/index.tt:30
-#: webapp_main/templates/source/group/posts/display_post.tt:80
+#: webapp_main/templates/source/group/posts/display_post.tt:89
 msgid "Description"
 msgstr "Description"
 
@@ -620,7 +596,7 @@ msgstr "Description :"
 msgid "Details saved"
 msgstr " Enregistré"
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:46
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:47
 #: webapp_main/templates/source/about/disclaimer.tt:5
 #: webapp_main/templates/source/about/index.tt:19
 msgid "Disclaimer"
@@ -635,7 +611,7 @@ msgstr ""
 msgid "Do you have some time available to help at events or to be trained as a moderator? To contact your local Group, go to your home page and click 'Contact the Mod Team'"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:13
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:14
 msgid "Donate"
 msgstr "Faire un don"
 
@@ -735,7 +711,7 @@ msgstr "Erreur lors de l'envoi de l'e-mail"
 msgid "Everyone (public file)"
 msgstr "Fichier publique"
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:11
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:12
 #: webapp_main/templates/source/about/index.tt:7
 msgid "FAQ"
 msgstr "FAQ"
@@ -791,20 +767,7 @@ msgstr "Pour toute questions veuillez contacter : "
 #. ('http://faq.freecycle.org/faq/?menu=manual/required')
 #: webapp_main/templates/source/tos.tt:60
 msgid "For members using The Freecycle Network in the United States, you acknowledge and agree not to use the 'freecycle.org' logo other than as a sign of local Membership in The Freecycle Network. You also agree not to alter the logo or The Freecycle Network word mark 'freecycle.org' (collectively 'Trademarks') and to stop using the Trademarks when membership status is lost, and to only use the Trademarks in accordance with the local Group required guidelines and policies found <a href='%1'>here</a>. You further acknowledge that as a local Group Member of The Freecycle Network, you may only use the Trademarks as a sign of Membership in The Freecycle Network. Should you unsubscribe/cancel your Membership or should you be removed as a Member, you agree you have no rights to use the Trademarks."
-msgstr ""
-"Pour les membres de The Freecycle Network aux États-Unis, vous reconnaissez "
-"et acceptez de ne pas utiliser le logo « freecycle.org » autrement que comme "
-"marque d'association collective au réseau. Vous acceptez également de ne pas "
-"modifier le logo ou l'expression verbale « freecycle.org » de The Freecycle "
-"Network (« Marques commerciales »), de cesser d'utiliser les Marques "
-"commerciales en cas de perte du statut de membre, et d'utiliser les Marques "
-"commerciales uniquement en conformité avec les recommandations et politiques "
-"applicables aux groupes locaux, consultables sur la page suivante. Par "
-"ailleurs, vous reconnaissez qu'en tant que membre d'un groupe local du "
-"réseau The Freecycle Network, vous pouvez utiliser les Marques commerciales "
-"uniquement en signe d'appartenance au réseau. En cas de désinscription du "
-"service ou de résiliation du statut de membre, vous reconnaissez ne disposer "
-"d'aucun droit sur les Marques commerciales."
+msgstr "Pour les membres de The Freecycle Network aux États-Unis, vous reconnaissez et acceptez de ne pas utiliser le logo « freecycle.org » autrement que comme marque d'association collective au réseau. Vous acceptez également de ne pas modifier le logo ou l'expression verbale « freecycle.org » de The Freecycle Network (« Marques commerciales »), de cesser d'utiliser les Marques commerciales en cas de perte du statut de membre, et d'utiliser les Marques commerciales uniquement en conformité avec les recommandations et politiques applicables aux groupes locaux, consultables sur la page suivante. Par ailleurs, vous reconnaissez qu'en tant que membre d'un groupe local du réseau The Freecycle Network, vous pouvez utiliser les Marques commerciales uniquement en signe d'appartenance au réseau. En cas de désinscription du service ou de résiliation du statut de membre, vous reconnaissez ne disposer d'aucun droit sur les Marques commerciales."
 
 #: webapp_main/templates/source/login/forgotten_password.tt:1
 #: webapp_main/templates/source/login/forgotten_password.tt:3
@@ -974,7 +937,7 @@ msgstr ""
 msgid "Here's just a start on where we recommend you go on the 'Net to learn more about how to reduce, reuse and recycle:"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:34
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:35
 #: webapp_main/templates/source/about/index.tt:8
 msgid "History"
 msgstr "Historique"
@@ -983,7 +946,7 @@ msgstr "Historique"
 msgid "History & Background Information"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:9
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:10
 msgid "Home"
 msgstr "Page d'accueil"
 
@@ -1057,21 +1020,7 @@ msgstr ""
 
 #: webapp_main/templates/source/tos.tt:57
 msgid "If there is a dispute between participants on this site, or between users and any third party, you understand and agree that The Freecycle Network is under no obligation to become involved. In the event that you have a dispute with one or more other users, you hereby release The Freecycle Network, its officers, employees, volunteers, agents and successors in rights from claims, demands and damages (actual and consequential) of every kind or nature, known or unknown, suspected and unsuspected, disclosed and undisclosed, arising out of or in any way related to such disputes and / or our service. If you are a California resident, you waive California Civil Code Section 1542, which says: 'A general release does not extend to claims which the creditor does not know or suspect to exist in his favor at the time of executing the release, which, if known by him must have materially affected his settlement with the debtor.'"
-msgstr ""
-"En cas de litige entre participants du site, ou entre des utilisateurs et "
-"des tiers, vous comprenez et acceptez que The Freecycle Network n'est soumis "
-"à aucune obligation d'intervenir. En cas de litige entre vous et un ou "
-"plusieurs utilisateurs, vous dégagez The Freecycle Network, ses "
-"responsables, ses employés, ses participants volontaires, ses agents et ses "
-"ayants-droit, de toute responsabilité, réclamation ou de tout dommage (réel "
-"ou indirect), présent ou futur, présumé ou non, constaté ou non, résultant "
-"de manière directe ou indirecte d'un tel litige ou de notre Service. Si vous "
-"résidez en Californie, vous renoncez à la section 1542 du code civil de la "
-"Californie, qui stipule : « Un dégagement général de responsabilité ne "
-"couvre pas les demandes dont le créditeur n'a pas connaissance ou dont il ne "
-"soupçonne pas l'existence au moment d'un tel dégagement, qui, s'il en avait "
-"eu connaissance, auraient affecté de manière significative son règlement à "
-"l'amiable avec le débiteur. »"
+msgstr "En cas de litige entre participants du site, ou entre des utilisateurs et des tiers, vous comprenez et acceptez que The Freecycle Network n'est soumis à aucune obligation d'intervenir. En cas de litige entre vous et un ou plusieurs utilisateurs, vous dégagez The Freecycle Network, ses responsables, ses employés, ses participants volontaires, ses agents et ses ayants-droit, de toute responsabilité, réclamation ou de tout dommage (réel ou indirect), présent ou futur, présumé ou non, constaté ou non, résultant de manière directe ou indirecte d'un tel litige ou de notre Service. Si vous résidez en Californie, vous renoncez à la section 1542 du code civil de la Californie, qui stipule : « Un dégagement général de responsabilité ne couvre pas les demandes dont le créditeur n'a pas connaissance ou dont il ne soupçonne pas l'existence au moment d'un tel dégagement, qui, s'il en avait eu connaissance, auraient affecté de manière significative son règlement à l'amiable avec le débiteur. »"
 
 #: webapp_main/templates/source/group/posts/report_thanks.tt:8
 msgid "If this Post really is inappropriate for the Group, the ModTeam will take appropriate action, but please do not be offended if the ModTeam doesn't acknowledge your report - it may have been just one of many they've received in relation to this Post."
@@ -1223,7 +1172,7 @@ msgstr "Identifiant ou mot de passe incorrect"
 msgid "Information Collection"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:35
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:36
 #: webapp_main/templates/source/about/index.tt:9
 msgid "Instructional Video"
 msgstr ""
@@ -1320,7 +1269,7 @@ msgstr ""
 msgid "Links"
 msgstr "Liens"
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:47
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:48
 #: webapp_main/templates/source/about/index.tt:20
 #: webapp_main/templates/source/about/links.tt:4
 msgid "Links we like"
@@ -1331,7 +1280,7 @@ msgstr ""
 msgid "Location"
 msgstr "Lieu"
 
-#: webapp_main/templates/source/group/posts/display_post.tt:70
+#: webapp_main/templates/source/group/posts/display_post.tt:79
 msgid "Location :"
 msgstr "Lieu"
 
@@ -1345,11 +1294,11 @@ msgstr "Se connecter"
 msgid "Log in to Freecycle.org"
 msgstr "Se connecter"
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:24
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:25
 msgid "Log in/Sign up"
 msgstr "S'inscrire/Se connecter"
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:17
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:18
 msgid "Log out"
 msgstr "Vous déconnecter"
 
@@ -1405,7 +1354,7 @@ msgid "Member"
 msgstr "Membre"
 
 # what about FAQ?
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:50
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:51
 msgid "Member FAQ"
 msgstr "Membre FAQ"
 
@@ -1431,7 +1380,7 @@ msgstr ""
 msgid "Message : "
 msgstr "Message :"
 
-#: webapp_main/templates/source/group/posts/display_post.tt:161
+#: webapp_main/templates/source/group/posts/display_post.tt:170
 msgid "Message not found"
 msgstr "Message non trouvé"
 
@@ -1462,11 +1411,11 @@ msgstr "Votre message n'a pas été envoyé"
 msgid "Message to send"
 msgstr "Votre message n'a pas été envoyé"
 
-#: webapp_main/templates/source/group/posts/display_post.tt:141
+#: webapp_main/templates/source/group/posts/display_post.tt:150
 msgid "Message to send to the person who made this Post:"
 msgstr "Ce message va être envoyé à la personne qui a publié cette annonce."
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:37
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:38
 #: webapp_main/templates/source/about/index.tt:10
 #: webapp_main/templates/source/about/missionstatement.tt:4
 msgid "Mission Statement"
@@ -1482,7 +1431,7 @@ msgstr "Outils Modos"
 msgid "ModTeam and Members of this Group"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:21
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:22
 msgid "Moderate"
 msgstr "Modérer"
 
@@ -1492,7 +1441,7 @@ msgstr "Modérer"
 msgid "Moderator"
 msgstr "Modérateur"
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:51
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:52
 #, fuzzy
 msgid "Moderator Manual"
 msgstr "Modérateur"
@@ -1533,7 +1482,7 @@ msgstr ""
 msgid "My Daughters' stolen bicycles were replaced in time for Christmas!"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:19
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:20
 msgid "My Freecycle"
 msgstr "My Freecycle"
 
@@ -1542,22 +1491,22 @@ msgid "My Freecycle - recently expired Posts"
 msgstr "My Freecycle – Annonces récemment expirées"
 
 #: webapp_myf/templates/lib/box_tabbar.tt:18
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:18
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:29
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:19
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:30
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:22
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:37
 msgid "My Groups"
 msgstr "Mes groupes"
 
 #: webapp_myf/templates/lib/box_tabbar.tt:19
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:28
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:29
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:23
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:38
 msgid "My Info"
 msgstr "Mes infos"
 
 #: webapp_myf/templates/lib/box_tabbar.tt:17
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:30
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:31
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:21
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:36
 msgid "My Posts"
@@ -1588,13 +1537,13 @@ msgstr "Nouveau mot de passe créé "
 msgid "New username"
 msgstr "Nouvel identifiant"
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:33
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:34
 #: webapp_main/templates/source/about/index.tt:6
 msgid "Newswire"
 msgstr ""
 
 #: webapp_main/templates/source/form990/form.tt:45
-#: webapp_main/templates/source/group/posts/display_post.tt:128
+#: webapp_main/templates/source/group/posts/display_post.tt:137
 msgid "Next"
 msgstr "Suivant"
 
@@ -1632,6 +1581,7 @@ msgstr ""
 #: webapp_myf/templates/lib/standard_macros.tt:14
 #: webapp_myf/templates/source/home/posts/manage/show.tt:33
 #: webapp_main/templates/source/group/posts/display_list.tt:263
+#: webapp_main/templates/source/group/posts/display_post.tt:5
 msgid "OFFER"
 msgstr "OFFRE"
 
@@ -1648,6 +1598,11 @@ msgstr "Offre"
 #: webapp_main/templates/source/about/background.tt:15
 msgid "On May 1st, 2003, Deron Beal sent out the first e-mail announcing The Freecycle Network&trade; to about 30 or 40 friends and a handful of nonprofits in Tucson, Arizona. At the time Deron founded The Freecycle Network, he worked with a small nonprofit organization, RISE, which provides recycling services to downtown businesses and transitional employment to Tucsonans in need."
 msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_overview:35
+#, fuzzy
+msgid "On Yahoo!Groups"
+msgstr "Devenir membre de ce groupe sur Yahoo!Groupes"
 
 #: webapp_modtools/templates/source/manage/files/automatic.tt:15
 msgid "On joining (auto or approved)"
@@ -1795,20 +1750,20 @@ msgstr ""
 msgid "Please enter some keywords to search for"
 msgstr "Veuillez entrer un ou plusieurs mot-clés"
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:46
+#: webapp_myf/templates/source/home/posts/display_issues.tt:48
 msgid "Please enter some more details about this post"
 msgstr "Veuillez ajouter plus d'informations concernant votre message."
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:34
+#: webapp_myf/templates/source/home/posts/display_issues.tt:36
 msgid "Please enter something for the short description"
 msgstr "Veuillez ajouter une brève description."
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:40
+#: webapp_myf/templates/source/home/posts/display_issues.tt:42
 msgid "Please enter something for your location - it allows people to quickly see how far they may need to travel"
 msgstr "Veuillez préciser votre lieu - cela permet aux membres de connaître la distance qu'ils auront à parcourir."
 
 #. (mmaker.maximum_location_length)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:42
+#: webapp_myf/templates/source/home/posts/display_issues.tt:44
 msgid "Please enter something shorter for your location - the group has a limit of %1 letters"
 msgstr "Veuillez abréger la description du lieu - le groupe à une limite de %1 lettres."
 
@@ -1824,7 +1779,7 @@ msgstr "Veuillez préciser votre identifiant et votre adresse e-mail."
 msgid "Please give the moderators time to read your message before sending them another - group moderators are all volunteers, and so may not be at their computers checking their messages all the time."
 msgstr "Les modérateurs des groupes Freecycle sont tous des volontaires et ne lisent pas toujours les messages sur le champ. Merci de bien vouloir leur laisser le temps de lire votre message avant de leur en envoyer un deuxième. "
 
-#: webapp_main/templates/source/group/posts/display_post.tt:113
+#: webapp_main/templates/source/group/posts/display_post.tt:122
 msgid "Please indicate why you feel this Post is inappropriate:"
 msgstr "Veuillez indiquer pourquoi vous trouvez cette annonce inappropriée"
 
@@ -1849,7 +1804,7 @@ msgid "Please make sure you've entered your password correctly in both fields"
 msgstr "Veuillez vérifier que votre mot de passe est correct dans les deux champs"
 
 #. ('http://www.freecycle.org/faq/faq/faq_guidelines')
-#: webapp_main/templates/source/group/posts/display_post.tt:116
+#: webapp_main/templates/source/group/posts/display_post.tt:125
 msgid "Please note that required guidelines are posted in each Group as well as centrally <a href=\"%1\">in the FAQ</a> and while you may personally feel that a Post is inappropriate it may still be following these Guidelines. You are advised to read the rules and any ADMINs that have been posted before submitting reports."
 msgstr "Vous trouverez les consignes d'utilisation dans chaque groupe ainsi que dans les FAQ. Veuillez noter qu'il est possible qu'une annonce  qui vous paraitrait inappropriée soit tout de même acceptable du point de vue des consignes. Avant de soumettre un rapport, nous vous conseillons de lire les règles et les messages ADMINS qui ont été publiés sur le groupe "
 
@@ -1882,7 +1837,7 @@ msgstr "Avis de non responsabilité: LES MEMBRES DE FREECYCLE UTILISENT LES GROU
 
 #: webapp_myf/templates/source/home/posts/index.tt:44
 #: webapp_myf/templates/source/home/posts/recently_closed.tt:17
-#: webapp_main/templates/source/group/posts/display_post.tt:65
+#: webapp_main/templates/source/group/posts/display_post.tt:74
 msgid "Post ID"
 msgstr "Numéro de l'annonce"
 
@@ -1923,7 +1878,7 @@ msgid "Post image : "
 msgstr "Photo :"
 
 #. (post.post_subject)
-#: webapp_main/templates/source/group/posts/display_post.tt:84
+#: webapp_main/templates/source/group/posts/display_post.tt:93
 msgid "Post image for %1"
 msgstr ""
 
@@ -1961,11 +1916,11 @@ msgstr "Type d'annonce"
 msgid "Post type: %1"
 msgstr "Type d'annonce: %1"
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:29
+#: webapp_myf/templates/source/home/posts/display_issues.tt:31
 msgid "Post warnings"
 msgstr "Attention"
 
-#: webapp_main/templates/source/group/posts/display_post.tt:75
+#: webapp_main/templates/source/group/posts/display_post.tt:84
 msgid "Posted by :"
 msgstr "Publié par : "
 
@@ -2007,7 +1962,7 @@ msgstr "Préférences"
 msgid "Press Releases"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:38
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:39
 #: webapp_main/templates/source/about/index.tt:11
 #: webapp_main/templates/source/about/pressroom.tt:1
 #: webapp_main/templates/source/about/pressroom.tt:4
@@ -2015,11 +1970,11 @@ msgid "Press Room"
 msgstr ""
 
 #: webapp_main/templates/source/form990/form.tt:41
-#: webapp_main/templates/source/group/posts/display_post.tt:125
+#: webapp_main/templates/source/group/posts/display_post.tt:134
 msgid "Previous"
 msgstr "Précédent"
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:44
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:45
 #: webapp_main/templates/source/about/index.tt:17
 msgid "Privacy"
 msgstr ""
@@ -2028,7 +1983,7 @@ msgstr ""
 msgid "Privacy Policy"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:36
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:37
 msgid "Promo Video - Lamp"
 msgstr ""
 
@@ -2065,6 +2020,10 @@ msgstr ""
 msgid "RECEIVED"
 msgstr "REÇU"
 
+#: webapp_main/templates/source/group/posts/display_post.tt:8
+msgid "RECIEVED"
+msgstr ""
+
 #: webapp_myf/templates/source/home/posts/recently_closed.tt:33
 #: webapp_myf/templates/source/home/posts/recently_closed.tt:34
 msgid "Re-open"
@@ -2093,12 +2052,12 @@ msgstr ""
 msgid "Remove"
 msgstr "Supprimer"
 
-#: webapp_main/templates/source/group/posts/display_post.tt:140
+#: webapp_main/templates/source/group/posts/display_post.tt:149
 msgid "Reply to this Post"
 msgstr "Répondre à cette annonce"
 
-#: webapp_main/templates/source/group/posts/display_post.tt:111
-#: webapp_main/templates/source/group/posts/display_post.tt:117
+#: webapp_main/templates/source/group/posts/display_post.tt:120
+#: webapp_main/templates/source/group/posts/display_post.tt:126
 msgid "Report as inappropriate"
 msgstr "Signaler un abus"
 
@@ -2213,7 +2172,7 @@ msgid "Send"
 msgstr ""
 
 #: webapp_myf/templates/source/home/groups/contact_mods_form.tt:69
-#: webapp_main/templates/source/group/posts/display_post.tt:144
+#: webapp_main/templates/source/group/posts/display_post.tt:153
 msgid "Send Message"
 msgstr "Envoyer le message"
 
@@ -2316,26 +2275,26 @@ msgstr "Quelqu'un va étudier le problème et s'attacher à le résoudre."
 msgid "Something went wrong while trying to serve this page - please try again in a little while"
 msgstr "Une erreur est survenue sur cette page - veuillez essayer ultérieurement et merci de votre patience."
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:40
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:41
 #: webapp_main/templates/source/about/index.tt:13
 msgid "Sources and Use of Funds"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:15
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:39
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:16
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:40
 #: webapp_main/templates/source/about/index.tt:12
 #: webapp_main/templates/source/about/sponsors.tt:4
 #: webapp_main/templates/source/index.tt:39
 msgid "Sponsors"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:42
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:43
 #: webapp_main/templates/source/about/index.tt:15
 #: webapp_main/templates/source/about/staff.tt:4
 msgid "Staff"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:14
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:15
 msgid "Store"
 msgstr ""
 
@@ -2353,6 +2312,7 @@ msgstr "Envoyer"
 
 #: webapp_myf/templates/lib/standard_macros.tt:16
 #: webapp_main/templates/source/group/posts/display_list.tt:267
+#: webapp_main/templates/source/group/posts/display_post.tt:6
 msgid "TAKEN"
 msgstr "PARTI"
 
@@ -2364,7 +2324,7 @@ msgstr ""
 msgid "Temporary error with the third-party provider - they may be having issues authorising logins. Please try again later, or log in with your My Freecycle username and password to continue"
 msgstr "Erreur temporaire avec le site tiers – il se peut qu'ils aient des problèmes avec l'authentification des mots de passe. Veuillez essayer ultérieurement ou vous connecter avec votre identifiant et mot de passe MyFreecycle pour continuer."
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:45
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:46
 #: webapp_main/templates/source/about/index.tt:18
 #: webapp_main/templates/source/tos.tt:5
 msgid "Terms of Service"
@@ -2441,7 +2401,7 @@ msgid "The Freecycle Network (http://www.freecycle.org). All rights reserved. Fr
 msgstr "Copyright &copy; 2013 The Freecycle Network (<a href='%1'>http://www.Freecycle.org</a>). Tous droits réservés. Freecycle et le logo Freecycle sont des marques déposées du réseau Freecycle dans plusieurs pays."
 
 #. (group.groupname)
-#: webapp_main/templates/source/group/posts/display_post.tt:5
+#: webapp_main/templates/source/group/posts/display_post.tt:14
 msgid "The Freecycle Network - %1 Group"
 msgstr "Le réseau Freecycle - Groupe de %1 "
 
@@ -2522,21 +2482,7 @@ msgstr "Le réseau freecycle ne recommande pas officiellement les liens listés 
 
 #: webapp_main/templates/source/tos.tt:14
 msgid "The Freecycle Network has established a Privacy Policy to explain to users how their information is collected and used, located at <a href='/about/privacy'>Privacy Statement.</a> Your use of The Freecycle Network website or the Service signifies acknowledgement of and agreement to our Privacy Policy. You further acknowledge and agree that The Freecycle Network may, in its sole discretion, preserve or disclose your Content, as well as your information, such as email addresses, IP addresses, timestamps, and other user information, if required to do so by law or in the good faith belief that such preservation or disclosure is reasonably necessary to: comply with legal process; enforce these Terms; respond to claims that any Content violates the rights of third-parties; or protect the rights, property, or personal safety of The Freecycle Network, its users or the general public."
-msgstr ""
-"The Freecycle Network a mis en place une Politique de confidentialité, afin "
-"d'expliquer aux utilisateurs la manière dont leurs informations sont "
-"collectées, consultable sur la page de la Déclaration de confidentialité. En "
-"utilisant le site et le Service The Freecycle Network, vous reconnaissez et "
-"acceptez notre Politique de confidentialité. Par ailleurs, vous reconnaissez "
-"et acceptez que The Freecycle Network peut, à sa seule discrétion, conserver "
-"ou divulguer votre Contenu, ainsi que vous informations, comme des adresses "
-"électroniques, des adresses IP, des informations d'horodatage, ou d'autres "
-"informations relatives aux utilisateurs, en cas d'injonction par une "
-"autorité juridique ou si une telle divulgation est jugée raisonnablement "
-"nécessaire pour se conformer à des procédures juridiques, pour procéder à "
-"l'application des présentes Conditions, pour répondre à des réclamations "
-"relatives au Contenu violant les droits de tiers, ou pour la sécurité de The "
-"Freecycle Network, de ses utilisateurs ou du public."
+msgstr "The Freecycle Network a mis en place une Politique de confidentialité, afin d'expliquer aux utilisateurs la manière dont leurs informations sont collectées, consultable sur la page de la Déclaration de confidentialité. En utilisant le site et le Service The Freecycle Network, vous reconnaissez et acceptez notre Politique de confidentialité. Par ailleurs, vous reconnaissez et acceptez que The Freecycle Network peut, à sa seule discrétion, conserver ou divulguer votre Contenu, ainsi que vous informations, comme des adresses électroniques, des adresses IP, des informations d'horodatage, ou d'autres informations relatives aux utilisateurs, en cas d'injonction par une autorité juridique ou si une telle divulgation est jugée raisonnablement nécessaire pour se conformer à des procédures juridiques, pour procéder à l'application des présentes Conditions, pour répondre à des réclamations relatives au Contenu violant les droits de tiers, ou pour la sécurité de The Freecycle Network, de ses utilisateurs ou du public."
 
 #: webapp_main/templates/source/about/background.tt:28
 msgid "The Freecycle Network is a private, nonprofit organization incorporated in the State of Arizona. Our application for federal nonprofit status -- what's known as a 501(c)3 ruling -- was approved in November, 2006 by the IRS. This means that <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KRKYQ7CC8LB5W' title='Donate'>any donations made to The Freecycle Network are tax deductible </a>retroactively stretching back to our original application date in July of 2004."
@@ -2576,24 +2522,7 @@ msgstr "Le réseau Freecycle est composé de %1 groupes et de %2 membres à trav
 
 #: webapp_main/templates/source/tos.tt:8
 msgid "The Freecycle Network&trade; provides online resources, including free gift-item postings, and various email and board posting services, (referred to hereafter as &quot;the Service&quot;) subject to the following Terms of Use (&quot;Terms&quot;), which may be updated by The Freecycle Network from time to time. The Freecycle Network will provide notice of materially significant changes to the Term by posting notice on The Freecycle Network site. You can review the most current version of the Terms at <a href='/terms'>Terms of Service</a>. By using the Service in any way, you are agreeing to comply with these Terms. In addition, when using particular Freecycle Network services, you agree to abide by any applicable posted guidelines for all Freecycle Network services, which may change from time to time. Should you object to any term or condition of these Terms, any guidelines, or any subsequent modifications thereto or become dissatisfied with The Freecycle Network in any way, your only recourse is to immediately discontinue use of The Freecycle Network."
-msgstr ""
-"Le mouvement The Freecycle Network™ propose des ressources en ligne, "
-"incluant l'envoi gratuit de dons, et divers services de messagerie email et "
-"de forum (le « Service »), qui sont soumis aux présentes Conditions de "
-"service (« Conditions »), qui peuvent être mises à jour par The Freecycle "
-"Network de temps à autre. The Freecycle Network transmet des notifications "
-"pour toute modification significative apportée aux Conditions, sous la forme "
-"de notifications postées sur le site de The Freecycle Network. Vous pouvez "
-"consulter la dernière version en date des Conditions sur la page des "
-"Conditions de service. En utilisant le Service, vous vous engagez à accepter "
-"ces Conditions. Par ailleurs, en utilisant des services particuliers de The "
-"Freecycle Network, vous vous engagez à accepter toutes les recommandations "
-"publiées qui sont applicables à ces services, et qui peuvent être mises à "
-"jour de temps à autre. Si vous n'acceptez pas l'une des conditions énoncées "
-"dans le présent document, l'une des recommandations applicables aux services "
-"ou les modifications qui y seront apportées ultérieurement, ou si vous "
-"deviez vous déclarer insatisfait de The Freecycle Network, votre seul "
-"recours est de cesser d'utiliser les services de The Freecycle Network."
+msgstr "Le mouvement The Freecycle Network™ propose des ressources en ligne, incluant l'envoi gratuit de dons, et divers services de messagerie email et de forum (le « Service »), qui sont soumis aux présentes Conditions de service (« Conditions »), qui peuvent être mises à jour par The Freecycle Network de temps à autre. The Freecycle Network transmet des notifications pour toute modification significative apportée aux Conditions, sous la forme de notifications postées sur le site de The Freecycle Network. Vous pouvez consulter la dernière version en date des Conditions sur la page des Conditions de service. En utilisant le Service, vous vous engagez à accepter ces Conditions. Par ailleurs, en utilisant des services particuliers de The Freecycle Network, vous vous engagez à accepter toutes les recommandations publiées qui sont applicables à ces services, et qui peuvent être mises à jour de temps à autre. Si vous n'acceptez pas l'une des conditions énoncées dans le présent document, l'une des recommandations applicables aux services ou les modifications qui y seront apportées ultérieurement, ou si vous deviez vous déclarer insatisfait de The Freecycle Network, votre seul recours est de cesser d'utiliser les services de The Freecycle Network."
 
 #: webapp_main/templates/source/about/funds.tt:6
 msgid "The Freecycle Network's current annual budget is running at about $140,000 in income. The funding comes from corporate underwriting, on-site advertising (in the form of a Google sponsor bar), grants and <a href='https://www.freecycle.org/donate' title='donate'>individual donations</a>. Approximately 90% of these funds are used directly for program expenses. The remaining 10% is split evenly between membership, fundraising and other administrative expenses. Our IRS 990s are posted at the hotlink below as well as on Guidestar.com. We are delighted to report that we have now received our 501(c)3 status from the IRS (11/06) and that donations to The Freecycle Network are tax-deductible! We likewise are a charity in the UK. Further, we are registered as a nonprofit corporation in the State of Arizona. Tax deductibility is retroactive to our application date in July of 2004.Members can show support for the mission of the Freecycle Network by <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KRKYQ7CC8LB5W' title='Donate'>making a one dollar donation today</a>.</p>"
@@ -2615,54 +2544,21 @@ msgstr ""
 msgid "The Internet Consumer Recycling Guide"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:169
+#: webapp_main/templates/source/group/posts/display_post.tt:178
 msgid "The Post ID is invalid - either the Post does not exist, or does not belong to this Group."
 msgstr "Le numéro de l'annonce est incorrect - soit l'annonce n'existe pas, soit elle n'appartient pas à ce groupe."
 
-#: webapp_main/templates/source/group/posts/display_post.tt:165
+#: webapp_main/templates/source/group/posts/display_post.tt:174
 msgid "The Post has been deleted."
 msgstr "Cette annonce a été supprimée"
 
-#: webapp_main/templates/source/group/posts/display_post.tt:167
+#: webapp_main/templates/source/group/posts/display_post.tt:176
 msgid "The Post is still awaiting approval by a Group Moderator."
 msgstr "Ce message est en attente d'approbation par le modérateur"
 
 #: webapp_main/templates/source/tos.tt:63
 msgid "The Service is protected to the maximum extent permitted by copyright and other intellectual property laws and international treaties. Content displayed on or through the Service is protected by copyright, including as a collective work and/or compilation, pursuant to copyrights laws, and international conventions. Any reproduction, modification, creation of derivative works from or redistribution of the Sites or the Content is prohibited. Copying or reproducing the Sites or any portion thereof to any other server or location for further reproduction or redistribution is prohibited. You further agree not to reproduce, duplicate or copy Content from the Service, and agree to abide by any and all copyright notices displayed on the Service. You may not decompile or disassemble, reverse engineer or otherwise attempt to discover any source code contained in the Service. Without limiting the foregoing, you agree not to reproduce, duplicate, copy, sell, resell or exploit for any commercial purposes, any aspect of the Service. To the maximum extent possible, all aspects of the Freecycle.org site are copyright 2003-2011 by The Freecycle Network. Although The Freecycle Network does not claim ownership of content that its users post, by posting Content to any public area of the Service, you automatically grant, and you represent and warrant that you have the right to grant, to The Freecycle Network an irrevocable, perpetual, non-exclusive, fully paid, worldwide license to use, copy, perform, display, and distribute said Content and to prepare derivative works of, or incorporate into other works, said Content, and to grant and authorize sublicenses (through multiple tiers) of the foregoing. In addition, by posting Content to any public area of the Service, you automatically grant, and you represent and warrant that you have the right to grant, to The Freecycle Network an irrevocable, perpetual, exclusive, fully paid, worldwide license to limit or otherwise control the reproduction, transmission, deletion, or distribution of Content from the Sites or Service."
-msgstr ""
-"Le Service est protégé dans la limite des lois et traités internationaux "
-"relatifs au copyright et à la propriété intellectuelle. Le contenu présenté "
-"dans le Service ou par le biais du Service est protégé par le copyright, y "
-"compris en tant qu'œuvre collective ou compilation, en vertu des lois et "
-"conventions internationales relatives au copyright. Toute reproduction, "
-"modification, création d'œuvres dérivées ou redistribution des Sites et du "
-"Contenu est interdite. La copie ou la reproduction, intégrale ou en partie, "
-"des Sites vers un serveur ou un emplacement différents pour une nouvelle "
-"reproduction ou redistribution, est interdite. Vous acceptez par ailleurs de "
-"ne pas reproduire, dupliquer ou copier le Contenu à partir du Service, et "
-"acceptez de vous conformer à toutes les mentions de copyright affichées dans "
-"le Service. Vous n'êtes pas autorisé à décompiler, désassembler, effectuer "
-"une ingénierie inverse ou tenter de découvrir le code source contenu dans le "
-"Service. Sans limiter ce qui précède, vous acceptez de ne pas reproduire, "
-"dupliquer, copier, vendre, revendre ou exploiter à des fins commerciales le "
-"Service sous tous ses aspects. Dans la plus large mesure du possible le site "
-"Freecycle.org, sous tous ses aspects, est copyright 2003-2014 par The "
-"Freecycle Network. Bien que The Freecycle Network ne revendique pas la "
-"propriété du Contenu posté par les utilisateurs, en postant du Contenu dans "
-"une zone publique du Service, vous accordez automatiquement à The Freecycle "
-"Network, et vous certifiez que vous avez le droit d'accorder à The Freecycle "
-"Network, une licence irrévocable, perpétuelle, non exclusive, franche de "
-"redevances et valable dans le monde entier, pour utiliser, copier, "
-"représenter, afficher et distribuer le Contenu en question, ainsi que pour "
-"en préparer des œuvres dérivées ou pour l'intégrer à d'autres œuvres, et "
-"pour accorder et autoriser des sous-licences (par le biais de plusieurs "
-"tiers) pour effectuer les actions qui précèdent. Par ailleurs, en postant du "
-"Contenu dans une zone publique du Service, vous accordez automatiquement à "
-"The Freecycle Network, et vous certifiez que vous avez le droit d'accorder à "
-"The Freecycle Network, une licence irrévocable, perpétuelle, non exclusive, "
-"franche de redevances et valable dans le monde entier pour limiter ou "
-"contrôler toute reproduction, transmission, suppression ou distribution du "
-"Contenu des Sites ou du Service."
+msgstr "Le Service est protégé dans la limite des lois et traités internationaux relatifs au copyright et à la propriété intellectuelle. Le contenu présenté dans le Service ou par le biais du Service est protégé par le copyright, y compris en tant qu'œuvre collective ou compilation, en vertu des lois et conventions internationales relatives au copyright. Toute reproduction, modification, création d'œuvres dérivées ou redistribution des Sites et du Contenu est interdite. La copie ou la reproduction, intégrale ou en partie, des Sites vers un serveur ou un emplacement différents pour une nouvelle reproduction ou redistribution, est interdite. Vous acceptez par ailleurs de ne pas reproduire, dupliquer ou copier le Contenu à partir du Service, et acceptez de vous conformer à toutes les mentions de copyright affichées dans le Service. Vous n'êtes pas autorisé à décompiler, désassembler, effectuer une ingénierie inverse ou tenter de découvrir le code source contenu dans le Service. Sans limiter ce qui précède, vous acceptez de ne pas reproduire, dupliquer, copier, vendre, revendre ou exploiter à des fins commerciales le Service sous tous ses aspects. Dans la plus large mesure du possible le site Freecycle.org, sous tous ses aspects, est copyright 2003-2014 par The Freecycle Network. Bien que The Freecycle Network ne revendique pas la propriété du Contenu posté par les utilisateurs, en postant du Contenu dans une zone publique du Service, vous accordez automatiquement à The Freecycle Network, et vous certifiez que vous avez le droit d'accorder à The Freecycle Network, une licence irrévocable, perpétuelle, non exclusive, franche de redevances et valable dans le monde entier, pour utiliser, copier, représenter, afficher et distribuer le Contenu en question, ainsi que pour en préparer des œuvres dérivées ou pour l'intégrer à d'autres œuvres, et pour accorder et autoriser des sous-licences (par le biais de plusieurs tiers) pour effectuer les actions qui précèdent. Par ailleurs, en postant du Contenu dans une zone publique du Service, vous accordez automatiquement à The Freecycle Network, et vous certifiez que vous avez le droit d'accorder à The Freecycle Network, une licence irrévocable, perpétuelle, non exclusive, franche de redevances et valable dans le monde entier pour limiter ou contrôler toute reproduction, transmission, suppression ou distribution du Contenu des Sites ou du Service."
 
 #: webapp_main/templates/source/about/links.tt:8
 msgid "The Story of Stuff"
@@ -2695,6 +2591,10 @@ msgstr "Cette image est en attente d'approbation par le modérateur"
 #: webapp_myf/templates/source/home/posts/display_issues.tt:18
 msgid "The image you uploaded was too big"
 msgstr "Votre image est trop grande"
+
+#: webapp_myf/templates/source/home/posts/display_issues.tt:22
+msgid "The location you provided is invalid"
+msgstr ""
 
 #: webapp_main/templates/source/group/links/index.tt:37
 msgid "The main Freecycle.org homepage"
@@ -2735,32 +2635,32 @@ msgid "The password reset token you used has not been recognised. This may be be
 msgstr ""
 
 #. (post_matches.join(", ")
-#: webapp_myf/templates/source/home/posts/display_issues.tt:52
+#: webapp_myf/templates/source/home/posts/display_issues.tt:54
 msgid "The post appears to be a duplicate of these Posts : %1"
 msgstr "Il semble que cette annonce est un double de ces annonces : %1"
 
 #. (mmaker.maximum_description_caps_percentage)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:50
+#: webapp_myf/templates/source/home/posts/display_issues.tt:52
 msgid "The post body has too many capitals  - this group has a limit of %1%"
 msgstr "Le corps du message a trop de majuscules - ce groupe a une limite de %1%"
 
 #. (mmaker.maximum_description_length)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:48
+#: webapp_myf/templates/source/home/posts/display_issues.tt:50
 msgid "The post body is too long - this group has a limit of %1 letters"
 msgstr "Le corps du message est trop long - ce groupe à une limite de %1 lettres"
 
 #. (mmaker.maximum_item_caps_percentage)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:38
+#: webapp_myf/templates/source/home/posts/display_issues.tt:40
 msgid "The post description has too many capitals  - this group has a limit of %1%"
 msgstr "La description du message contient trop de majuscules - ce groupe a une limite de %1%"
 
 #. (mmaker.maximum_item_length)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:36
+#: webapp_myf/templates/source/home/posts/display_issues.tt:38
 msgid "The post description is too long - this group has a limit of %1 letters"
 msgstr "La description du message est trop longue - ce groupe a une limite de %1 lettres"
 
 #. (mmaker.maximum_location_caps_percentage)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:44
+#: webapp_myf/templates/source/home/posts/display_issues.tt:46
 msgid "The post location has too many capitals  - this group has a limit of %1%"
 msgstr "Le lieu contient trop de majuscules - ce groupe a une limite de %1%"
 
@@ -2997,23 +2897,7 @@ msgstr ""
 
 #: webapp_main/templates/source/tos.tt:69
 msgid "UNDER NO CIRCUMSTANCES SHALL THE FREECYCLE NETWORK BE LIABLE FOR DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES (EVEN IF THE FREECYCLE NETWORK HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES), RESULTING FROM ANY ASPECT OF YOUR USE OF THE FREECYCLE NETWORK SITE OR THE SERVICE, WHETHER THE DAMAGES ARISE FROM USE OR MISUSE OF THE FREECYCLE NETWORK SITE OR THE SERVICE, FROM INABILITY TO USE THE FREECYCLE NETWORK SITE OR THE SERVICE, OR THE INTERRUPTION, SUSPENSION, MODIFICATION, ALTERATION, OR TERMINATION OF THE FREECYCLE NETWORK SITE OR THE SERVICE. SUCH LIMITATION SHALL ALSO APPLY WITH RESPECT TO DAMAGES INCURRED BY REASON OF OTHER SERVICES OR PRODUCTS RECEIVED THROUGH OR ADVERTISED IN CONNECTION WITH THE FREECYCLE NETWORK SITE OR THE SERVICE OR ANY LINKS ON THE FREECYCLE NETWORK SITE, AS WELL AS BY REASON OF ANY INFORMATION OR ADVICE RECEIVED THROUGH OR ADVERTISED IN CONNECTION WITH THE FREECYCLE NETWORK SITE OR THE SERVICE OR ANY LINKS ON THE FREECYCLE NETWORK SITE. THESE LIMITATIONS SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW. In some jurisdiction, limitations of liability are not permitted. In such jurisdictions, some of the foregoing limitation may not apply to you."
-msgstr ""
-"THE FREECYCLE NETWORK NE SAURAIT EN AUCUN CAS ÊTRE TENU RESPONSABLE DE TOUT "
-"DOMMAGE DIRECT, INDIRECT, SECONDAIRE, ACCESSOIRE OU EXEMPLAIRE (MÊME SI THE "
-"FREECYCLE NETWORK A ÉTÉ INFORMÉ DE L'ÉVENTUALITÉ DE TELS DOMMAGES) RÉSULTANT "
-"DE VOTRE UTILISATION DU SITE OU DU SERVICE THE FREECYCLE NETWORK, QUE CES "
-"DOMMAGES DÉCOULENT D'UNE UTILISATION NORMALE OU ABUSIVE DU SITE OU DU "
-"SERVICE, OU DE L'INTERRUPTION, DE LA SUSPENSION, DE LA MODIFICATION, DE "
-"L'ALTÉRATION OU DE L'ARRÊT DU SITE OU DU SERVICE. UNE TELLE LIMITATION "
-"S'APPLIQUE ÉGALEMENT AUX DOMMAGES EFFECTIVEMENT ENCOURUS DÉCOULANT DES "
-"SERVICES OU PRODUITS REÇUS PAR LE BIAIS DU SITE OU DU SERVICE, OU PRÉSENTÉS "
-"PAR LE BIAIS DU SITE OU DU SERVICE, OU DE LIENS FIGURANT SUR LE SITE OU LE "
-"SERVICE, AINSI QUE CEUX DÉCOULANT D'INFORMATIONS OU DE CONSEILS REÇUS PAR LE "
-"BIAIS DU SITE OU DU SERVICE, OU PRÉSENTÉS PAR LE BIAIS DU SITE OU DU "
-"SERVICE. CES LIMITATIONS SONT APPLICABLES DANS LA LIMITE DE LA LÉGISLATION "
-"EN VIGUEUR. Dans certaines juridictions, les limitations de responsabilité "
-"ne sont pas autorisées. Dans ces juridictions, certaines des limitations "
-"mentionnées dans le présent document peuvent ne pas s'appliquer à vous."
+msgstr "THE FREECYCLE NETWORK NE SAURAIT EN AUCUN CAS ÊTRE TENU RESPONSABLE DE TOUT DOMMAGE DIRECT, INDIRECT, SECONDAIRE, ACCESSOIRE OU EXEMPLAIRE (MÊME SI THE FREECYCLE NETWORK A ÉTÉ INFORMÉ DE L'ÉVENTUALITÉ DE TELS DOMMAGES) RÉSULTANT DE VOTRE UTILISATION DU SITE OU DU SERVICE THE FREECYCLE NETWORK, QUE CES DOMMAGES DÉCOULENT D'UNE UTILISATION NORMALE OU ABUSIVE DU SITE OU DU SERVICE, OU DE L'INTERRUPTION, DE LA SUSPENSION, DE LA MODIFICATION, DE L'ALTÉRATION OU DE L'ARRÊT DU SITE OU DU SERVICE. UNE TELLE LIMITATION S'APPLIQUE ÉGALEMENT AUX DOMMAGES EFFECTIVEMENT ENCOURUS DÉCOULANT DES SERVICES OU PRODUITS REÇUS PAR LE BIAIS DU SITE OU DU SERVICE, OU PRÉSENTÉS PAR LE BIAIS DU SITE OU DU SERVICE, OU DE LIENS FIGURANT SUR LE SITE OU LE SERVICE, AINSI QUE CEUX DÉCOULANT D'INFORMATIONS OU DE CONSEILS REÇUS PAR LE BIAIS DU SITE OU DU SERVICE, OU PRÉSENTÉS PAR LE BIAIS DU SITE OU DU SERVICE. CES LIMITATIONS SONT APPLICABLES DANS LA LIMITE DE LA LÉGISLATION EN VIGUEUR. Dans certaines juridictions, les limitations de responsabilité ne sont pas autorisées. Dans ces juridictions, certaines des limitations mentionnées dans le présent document peuvent ne pas s'appliquer à vous."
 
 #: webapp_main/templates/source/group/links/index.tt:29
 msgid "URL"
@@ -3131,7 +3015,7 @@ msgstr "Visiter la page Yahoo!Groupe de %1"
 msgid "Visit the %1 group and see the posts"
 msgstr "Visiter le groupe %1 et voir les annonces"
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:41
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:42
 #: webapp_main/templates/source/about/index.tt:14
 #: webapp_main/templates/source/about/volunteering.tt:4
 msgid "Volunteering"
@@ -3140,6 +3024,7 @@ msgstr ""
 #: webapp_myf/templates/lib/standard_macros.tt:15
 #: webapp_myf/templates/source/home/posts/manage/show.tt:34
 #: webapp_main/templates/source/group/posts/display_list.tt:271
+#: webapp_main/templates/source/group/posts/display_post.tt:7
 msgid "WANTED"
 msgstr "CHERCHE"
 
@@ -3167,10 +3052,7 @@ msgstr "Les bénévoles locaux qui gèrent ce groupe vous souhaitent la bienvenu
 
 #: webapp_main/templates/source/about/privacy.tt:17
 msgid "We will not sell or exchange your personal information at any time. We will collect general information (such as the type of browser you use, the files you request, and the domain name and country from which you request information) to improve our Web site and better meet your needs."
-msgstr ""
-"Les bénévoles locaux qui gèrent ce groupe vous souhaitent la bienvenue sur "
-"ce groupe du réseau Freecycle. Nous espérons que vous apprécieriez ce groupe "
-"autant que nous !"
+msgstr "Les bénévoles locaux qui gèrent ce groupe vous souhaitent la bienvenue sur ce groupe du réseau Freecycle. Nous espérons que vous apprécieriez ce groupe autant que nous !"
 
 #. ('%%group_name')
 #: core_modules/lib/Freecycle/standard_templates/source/standard_group_description.tt:1
@@ -3212,27 +3094,7 @@ msgstr ""
 
 #: webapp_main/templates/source/tos.tt:66
 msgid "YOU AGREE THAT USE OF THE FREECYCLE NETWORK SITE AND THE SERVICE IS ENTIRELY AT YOUR OWN RISK. THE FREECYCLE NETWORK SITE AND THE SERVICE ARE PROVIDED ON AN &quot;AS IS&quot; OR &quot;AS AVAILABLE&quot; BASIS, WITHOUT ANY WARRANTIES OF ANY KIND. ALL EXPRESS AND IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT OF PROPRIETARY RIGHTS ARE EXPRESSLY DISCLAIMED TO THE FULLEST EXTENT PERMITTED BY LAW. TO THE FULLEST EXTENT PERMITTED BY LAW, THE FREECYCLE NETWORK DISCLAIMS ANY WARRANTIES FOR THE SECURITY, RELIABILITY, TIMELINESS, ACCURACY, AND PERFORMANCE OF THE FREECYCLE NETWORK SITE AND THE SERVICE. TO THE FULLEST EXTENT PERMITTED BY LAW, THE FREECYCLE NETWORK DISCLAIMS ANY WARRANTIES FOR OTHER SERVICES OR GOODS RECEIVED THROUGH OR POSTED ON THE FREECYCLE NETWORK SITE OR THE SITES OR SERVICE, OR ACCESSED THROUGH ANY LINKS ON THE FREECYCLE NETWORK SITE. TO THE FULLEST EXTENT PERMITTED BY LAW, THE FREECYCLE NETWORK DISCLAIMS ANY WARRANTIES FOR VIRUSES OR OTHER HARMFUL COMPONENTS IN CONNECTION WITH THE FREECYCLE NETWORK SITE OR THE SERVICE. Some jurisdictions do not allow the disclaimer of implied warranties. In such jurisdictions, some of the foregoing disclaimers may not apply to you insofar as they relate to implied warranties."
-msgstr ""
-"VOUS ACCEPTEZ QUE VOUS UTILISEZ LE SITE DE THE FREECYCLE NETWORK ENTIÈREMENT "
-"À VOS RISQUES. LE SITE ET LE SERVICE DE THE FREECYCLE NETWORK SONT FOURNIS "
-"EN L'ÉTAT ET TELS QUE DISPONIBLES, SANS GARANTIE D'AUCUNE SORTE. TOUTES LES "
-"GARANTIES, EXPRESSES OU IMPLICITES, INCLUANT, SANS S'Y LIMITER, LES "
-"GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION À UN USAGE PARTICULIER, ET DE "
-"RESPECT DES DROITS DE LA PROPRIÉTÉ SONT DÉCLINÉES EXPRESSÉMENT DANS LA "
-"LIMITE DE LA LÉGISLATION EN VIGUEUR. DANS LA LIMITE DE LA LÉGISLATION EN "
-"VIGUEUR, THE FREECYCLE NETWORK DÉCLINE TOUTE GARANTIE CONCERNANT LA "
-"SÉCURITÉ, L'OPPORTUNITÉ, LA PRÉCISION ET LA PERFORMANCE DU SITE ET DU "
-"SERVICE DE THE FREECYCLE NETWORK. DANS LA LIMITE DE LA LÉGISLATION EN "
-"VIGUEUR, THE FREECYCLE NETWORK DÉCLINE TOUTE GARANTIE POUR LES AUTRES "
-"SERVICES ET MARCHANDISES POSTÉS OU OBTENUS PAR LE BIAIS DU SITE OU DU "
-"SERVICE DE THE FREECYCLE NETWORK, OU FAISANT L'OBJET D'UN ACCÈS PAR LE BIAIS "
-"DU SITE. DANS LA LIMITE DE LA LÉGISLATION EN VIGUEUR, THE FREECYCLE NETWORK "
-"DÉCLINE TOUTE GARANTIE CONCERNANT LES VIRUS OU LES COMPOSANTS MALVEILLANTS "
-"LIÉS AU SITE OU AU SERVICE DE THE FREECYCLE NETWORK. Certaines juridictions "
-"n'autorisent pas l'exclusion des garanties implicites. Dans ces "
-"juridictions, certaines des exclusions mentionnées dans le présent document "
-"peuvent ne pas s'appliquer à vous, dans la mesure où elles concernent des "
-"garanties implicites."
+msgstr "VOUS ACCEPTEZ QUE VOUS UTILISEZ LE SITE DE THE FREECYCLE NETWORK ENTIÈREMENT À VOS RISQUES. LE SITE ET LE SERVICE DE THE FREECYCLE NETWORK SONT FOURNIS EN L'ÉTAT ET TELS QUE DISPONIBLES, SANS GARANTIE D'AUCUNE SORTE. TOUTES LES GARANTIES, EXPRESSES OU IMPLICITES, INCLUANT, SANS S'Y LIMITER, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION À UN USAGE PARTICULIER, ET DE RESPECT DES DROITS DE LA PROPRIÉTÉ SONT DÉCLINÉES EXPRESSÉMENT DANS LA LIMITE DE LA LÉGISLATION EN VIGUEUR. DANS LA LIMITE DE LA LÉGISLATION EN VIGUEUR, THE FREECYCLE NETWORK DÉCLINE TOUTE GARANTIE CONCERNANT LA SÉCURITÉ, L'OPPORTUNITÉ, LA PRÉCISION ET LA PERFORMANCE DU SITE ET DU SERVICE DE THE FREECYCLE NETWORK. DANS LA LIMITE DE LA LÉGISLATION EN VIGUEUR, THE FREECYCLE NETWORK DÉCLINE TOUTE GARANTIE POUR LES AUTRES SERVICES ET MARCHANDISES POSTÉS OU OBTENUS PAR LE BIAIS DU SITE OU DU SERVICE DE THE FREECYCLE NETWORK, OU FAISANT L'OBJET D'UN ACCÈS PAR LE BIAIS DU SITE. DANS LA LIMITE DE LA LÉGISLATION EN VIGUEUR, THE FREECYCLE NETWORK DÉCLINE TOUTE GARANTIE CONCERNANT LES VIRUS OU LES COMPOSANTS MALVEILLANTS LIÉS AU SITE OU AU SERVICE DE THE FREECYCLE NETWORK. Certaines juridictions n'autorisent pas l'exclusion des garanties implicites. Dans ces juridictions, certaines des exclusions mentionnées dans le présent document peuvent ne pas s'appliquer à vous, dans la mesure où elles concernent des garanties implicites."
 
 #: webapp_main/templates/source/about/privacy.tt:25
 msgid "Yahoo!"
@@ -3252,53 +3114,19 @@ msgstr ""
 
 #: webapp_main/templates/source/tos.tt:50
 msgid "You acknowledge that The Freecycle Network may establish limits concerning use of the Service, including the maximum number of days that Content will be retained by the Service, the maximum number and size of postings, email messages, or other Content that may be transmitted or stored by the Service, and the frequency with which you may access the Service. You agree that The Freecycle Network has no responsibility or liability for the deletion or failure to store any Content maintained or transmitted by the Service. You acknowledge that The Freecycle Network reserves the right at any time to modify or discontinue the Service (or any part thereof) with or without notice, and that The Freecycle Network shall not be liable to you or to any third party for any modification, suspension or discontinuance of the Service."
-msgstr ""
-"Vous reconnaissez que The Freecycle Network peut mettre en place des limites "
-"à l'utilisation du Service, incluant le nombre maximal de jours de "
-"conservation du Contenu par le Service, le nombre maximal et la taille des "
-"messages, emails ou tout autre type de Contenu transmis ou stocké par le "
-"Service, ainsi que la fréquence d'accès au Service. Vous acceptez que The "
-"Freecycle Network ne soit pas tenu responsable de la suppression ou de "
-"l'échec de conservation de tout Contenu conservé ou transmis par le Service. "
-"Vous reconnaissez que The Freecycle Network se réserve le droit de modifier "
-"ou arrêter, à tout moment, le Service, en intégralité ou en partie, avec ou "
-"sans notification préalable, et que The Freecycle Network ne peut être tenu "
-"pour responsable, envers vous ou un tiers, de toute modification ou "
-"suspension, ou de tout arrêt du Service."
+msgstr "Vous reconnaissez que The Freecycle Network peut mettre en place des limites à l'utilisation du Service, incluant le nombre maximal de jours de conservation du Contenu par le Service, le nombre maximal et la taille des messages, emails ou tout autre type de Contenu transmis ou stocké par le Service, ainsi que la fréquence d'accès au Service. Vous acceptez que The Freecycle Network ne soit pas tenu responsable de la suppression ou de l'échec de conservation de tout Contenu conservé ou transmis par le Service. Vous reconnaissez que The Freecycle Network se réserve le droit de modifier ou arrêter, à tout moment, le Service, en intégralité ou en partie, avec ou sans notification préalable, et que The Freecycle Network ne peut être tenu pour responsable, envers vous ou un tiers, de toute modification ou suspension, ou de tout arrêt du Service."
 
 #: webapp_main/templates/source/tos.tt:18
 msgid "You agree not to post, email, or otherwise make available Content:"
-msgstr ""
-"Vous acceptez de ne pas poster, envoyer par email ou mettre à disposition du "
-"Contenu :"
+msgstr "Vous acceptez de ne pas poster, envoyer par email ou mettre à disposition du Contenu :"
 
 #: webapp_main/templates/source/tos.tt:53
 msgid "You agree that The Freecycle Network, in its sole discretion, has the right (but not the obligation) to delete or deactivate your account, block your email or IP address, or otherwise terminate your access to or use of the Service (or any part thereof), immediately and without notice, and remove and discard any Content within the Service, for any reason, including, without limitation, if The Freecycle Network believes that you have acted inconsistently with the letter or spirit of the Terms. Further, you agree that The Freecycle Network shall not be liable to you or any third-party for any termination of your access to the Service. Further, you agree not to attempt to use the Service after said termination. Sections 2, 4, 6 and 9-13 shall survive termination of these Terms."
-msgstr ""
-"Vous acceptez que The Freecycle Network, à sa seule discrétion, peut, (sans "
-"que cela ne constitue une obligation), supprimer ou désactiver votre compte, "
-"bloquer votre adresse électronique ou IP, ou mettre fin à votre accès ou à "
-"votre utilisation du Service (intégralement ou en partie), immédiatement et "
-"sans préavis, pour quelque raison que ce soit, y compris, sans s'y limiter, "
-"si The Freecycle Network estime que votre comportement ne correspond pas à "
-"l'esprit ou à l'intention des Conditions. Par ailleurs, vous acceptez que "
-"The Freecycle Network ne saurait en aucun cas être tenu responsable, par "
-"vous ou toute autre tierce partie, de la résiliation de votre accès au "
-"Service. Vous acceptez également ne pas tenter d'utiliser le Service suite à "
-"une telle résiliation. Les sections 2, 4, 6 et 9-13 perdureront après la "
-"résiliation."
+msgstr "Vous acceptez que The Freecycle Network, à sa seule discrétion, peut, (sans que cela ne constitue une obligation), supprimer ou désactiver votre compte, bloquer votre adresse électronique ou IP, ou mettre fin à votre accès ou à votre utilisation du Service (intégralement ou en partie), immédiatement et sans préavis, pour quelque raison que ce soit, y compris, sans s'y limiter, si The Freecycle Network estime que votre comportement ne correspond pas à l'esprit ou à l'intention des Conditions. Par ailleurs, vous acceptez que The Freecycle Network ne saurait en aucun cas être tenu responsable, par vous ou toute autre tierce partie, de la résiliation de votre accès au Service. Vous acceptez également ne pas tenter d'utiliser le Service suite à une telle résiliation. Les sections 2, 4, 6 et 9-13 perdureront après la résiliation."
 
 #: webapp_main/templates/source/tos.tt:72
 msgid "You agree to indemnify and hold The Freecycle Network, its officers, subsidiaries, affiliates, successors, assigns, directors, officers, agents, service providers, suppliers and employees, harmless from any claim or demand, including reasonable attorney fees and court costs, made by any third party due to or arising out of Content you submit, post or make available through the Service, your use of the Service, your violation of the Terms, your breach of any of the representations and warranties herein, or your violation of any rights of another."
-msgstr ""
-"Vous vous engagez à indemniser et à renoncer à toute réclamation ou demande, "
-"y compris des frais d'avocat ou juridiques raisonnables, effectuée par toute "
-"tierce partie et découlant du Contenu soumis, publié ou mis à disposition "
-"par le biais du Service, de votre utilisation du Service, de votre violation "
-"des conditions, des certifications ou garanties, ou de votre violation de "
-"tout autre droit envers The Freecycle Network et ses agents, filiales, "
-"ayants-droit, responsables représentants, employés, prestataires ou autres "
-"partenaires."
+msgstr "Vous vous engagez à indemniser et à renoncer à toute réclamation ou demande, y compris des frais d'avocat ou juridiques raisonnables, effectuée par toute tierce partie et découlant du Contenu soumis, publié ou mis à disposition par le biais du Service, de votre utilisation du Service, de votre violation des conditions, des certifications ou garanties, ou de votre violation de tout autre droit envers The Freecycle Network et ses agents, filiales, ayants-droit, responsables représentants, employés, prestataires ou autres partenaires."
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:32
 msgid "You already have a file with this name on this Group - files need unique names"
@@ -3324,6 +3152,12 @@ msgstr "Vous êtes le modérateur de %1 groupe(s)"
 #: webapp_myf/templates/source/home/groups/index.tt:39
 msgid "You are a Moderator of %1 group(s)."
 msgstr "Vous êtes le modérateur de %1 groupe(s)"
+
+#. ([% numgroups %])
+#: webapp_modtools/templates/perl/source/moderator_overview:20
+#, fuzzy
+msgid "You are a Moderator or Lead Moderator of %1 group"
+msgstr "Vous êtes un modérateur ou modérateur principal pour %1 groupe."
 
 #. (groups.member)
 #: webapp_myf/templates/source/home/info/index.tt:23
@@ -3482,12 +3316,12 @@ msgid "You need to <a href='/home/groups'>join some groups</a> before you can po
 msgstr "Vous devez tout d'abord adhérer à un ou plusieurs <a href='/home/groups'>groupes </a> avant de pouvoir publier une annonce. (Pour l'adhésion à des groupes administrés sous Yahoo!Groupes, veuillez consulter la page du groupe.)"
 
 #. (#TODO: hard-coded URL      "http://my.freecycle.org/login?referer=$thispage")
-#: webapp_main/templates/source/group/posts/display_post.tt:50
+#: webapp_main/templates/source/group/posts/display_post.tt:59
 msgid "You need to be <a class='link_login' href='%1'>logged in</a> and a Member of this Group to reply to this Post"
 msgstr "Pour pouvoir répondre à cette annonce, vous devez être membre de ce groupe et vous être <a class='link_login' href='%1'>connecté</a>."
 
 #. (#TODO: hard-coded URL      "http://my.freecycle.org/login?referer=$thispage")
-#: webapp_main/templates/source/group/posts/display_post.tt:44
+#: webapp_main/templates/source/group/posts/display_post.tt:53
 msgid "You need to be <a class='link_login' href='%1'>logged in</a> and a Member of this Group to view the Post details"
 msgstr "Vous devez être abonné à ce groupe et <a class='link_login' href='%1'>connecté</a> pour voir les détails de l'annonce"
 
@@ -3505,60 +3339,19 @@ msgstr "Vous devriez bientôt recevoir un nouveau mot de passe."
 
 #: webapp_main/templates/source/tos.tt:47
 msgid "You understand and agree that sending unsolicited email advertisements to The Freecycle Network email addresses or through The Freecycle Network computer systems, which is expressly prohibited by these Terms, will use or cause to be used servers located in Arizona. Any unauthorized use of The Freecycle Network computer systems is a violation of these Terms and certain federal and state laws. Such violations may subject the sender and his or her agents to civil and criminal penalties."
-msgstr ""
-"Vous comprenez et acceptez que l'envoi de messages publicitaires non "
-"sollicités par email aux adresses électroniques The Freecycle Network ou par "
-"le biais des systèmes informatiques de The Freecycle Network, qui est "
-"expressément proscrit par les présentes Conditions, fait usage des serveurs "
-"situés en Arizona. Toute utilisation non autorisée des systèmes "
-"informatiques de The Freecycle Network constitue une violation des présentes "
-"Conditions et de certaines lois fédérales et des États. De telles violations "
-"peuvent exposer leur auteur et ses agents à des sanctions civiles et pénales."
+msgstr "Vous comprenez et acceptez que l'envoi de messages publicitaires non sollicités par email aux adresses électroniques The Freecycle Network ou par le biais des systèmes informatiques de The Freecycle Network, qui est expressément proscrit par les présentes Conditions, fait usage des serveurs situés en Arizona. Toute utilisation non autorisée des systèmes informatiques de The Freecycle Network constitue une violation des présentes Conditions et de certaines lois fédérales et des États. De telles violations peuvent exposer leur auteur et ses agents à des sanctions civiles et pénales."
 
 #: webapp_main/templates/source/tos.tt:11
 msgid "You understand that all postings, messages, text, files, images, photos, video, sounds, or other materials (&quot;Content&quot;) posted on, transmitted through, or linked from the Service are the sole responsibility of the person from whom such Content originated. More specifically, you are entirely responsible for all Content that you post, email or otherwise make available via the Service. You understand that The Freecycle Network does not control, and is not responsible for Content made available through the Service, and that by using the Service, you may be exposed to Content that is offensive, indecent, inaccurate, misleading, or otherwise objectionable. Furthermore, The Freecycle Network site and Content available through the Service may contain links to other websites, which are completely independent of The Freecycle Network. The Freecycle Network makes no representation or warranty as to the accuracy, completeness or authenticity of the information contained in any such site. Your linking to any other websites is at your own risk. You agree that you must evaluate, and bear all risks associated with, the use of any Content, that you may not rely on said Content, and that under no circumstances will The Freecycle Network be liable in any way for any Content or for any loss or damage of any kind incurred as a result of the use of any Content posted, emailed or otherwise made available via the Service. You acknowledge that The Freecycle Network does not pre-screen or approve Content, but that The Freecycle Network shall have the right (but not the obligation) in its sole discretion to refuse, delete or move any Content that is available via the Service, for violating the letter or spirit of the Terms or for any other reason. Should you be a moderator of a local group, you agree to abide by all Terms as well as the rules noted in bold on Freecycle.org within the FAQ section. Should you not do so, you will be asked to step down and remove yourself from the role of moderator and/or owner of the local Freecycle group. The local members are Freecycle members to which you volunteer to provide moderating services as a steward."
-msgstr ""
-"Vous comprenez que tout contenu, incluant les messages, le texte, les "
-"fichiers, les images, les photos, les vidéos, le contenu sonore ou tout "
-"autre type de contenu (« Contenu »), posté, transmis ou référencé par le "
-"biais du Service relève de la seule responsabilité de la personne à "
-"l'origine du Contenu en question. De manière plus spécifique, vous êtes "
-"entièrement responsable de tout Contenu que vous postez, envoyez par email "
-"ou mettez à disposition par le biais du Service. Vous comprenez que The "
-"Freecycle Network ne contrôle pas le Contenu, et n'est pas responsable du "
-"Contenu mis à disposition par le biais du Service, et qu'en utilisant le "
-"Service, vous pouvez être exposé à du Contenu pouvant être choquant, "
-"indécent, inexact, erroné ou discutable. De plus, le site et le Contenu de "
-"The Freecycle Network mis à disposition par le biais du Service peuvent "
-"contenir des liens vers d'autres sites, qui ne dépendent pas de The "
-"Freecycle Network. The Freecycle Network ne certifie pas que les "
-"informations contenues sur ces sites sont adéquates, complètes ou "
-"authentiques. Les liens que vous postez vers d'autres sites sont à vos "
-"propres risques. Vous acceptez que vous devez évaluer, et assumer tous les "
-"risques associés à l'utilisation de tout Contenu, que la fiabilité de ce "
-"Contenu n'est pas garantie, et qu'en aucun cas The Freecycle Network ne peut "
-"être tenu responsable du Contenu posté, ou en cas de perte ou de dégâts "
-"résultant du Contenu posté, envoyé par email ou mis à disposition par le "
-"biais du Service. Vous reconnaissez que The Freecycle Network n'effectue pas "
-"de contrôle ou d'approbation préalables du Contenu, mais que The Freecycle "
-"Network peut (sans que cela ne constitue une obligation), à sa discrétion, "
-"refuser, supprimer ou déplacer tout Contenu mis à disposition par le biais "
-"du Service, pour violation de l'esprit ou de l'intention des Conditions, ou "
-"pour une autre raison. Si vous êtes modérateur d'un groupe local, vous "
-"acceptez également de respecter toutes les Conditions mis en gras dans la "
-"section FAQ du site Freecycle.org. Dans le cas contraire, vous serez tenu de "
-"démissionner de votre rôle de modérateur et/ou de responsable du groupe "
-"local Freecycle. En tant que modérateur, vous vous engagez à jouer "
-"bénévolement un rôle d'organisation et d'animation pour les membres locaux "
-"Freecycle."
+msgstr "Vous comprenez que tout contenu, incluant les messages, le texte, les fichiers, les images, les photos, les vidéos, le contenu sonore ou tout autre type de contenu (« Contenu »), posté, transmis ou référencé par le biais du Service relève de la seule responsabilité de la personne à l'origine du Contenu en question. De manière plus spécifique, vous êtes entièrement responsable de tout Contenu que vous postez, envoyez par email ou mettez à disposition par le biais du Service. Vous comprenez que The Freecycle Network ne contrôle pas le Contenu, et n'est pas responsable du Contenu mis à disposition par le biais du Service, et qu'en utilisant le Service, vous pouvez être exposé à du Contenu pouvant être choquant, indécent, inexact, erroné ou discutable. De plus, le site et le Contenu de The Freecycle Network mis à disposition par le biais du Service peuvent contenir des liens vers d'autres sites, qui ne dépendent pas de The Freecycle Network. The Freecycle Network ne certifie pas que les informations contenues sur ces sites sont adéquates, complètes ou authentiques. Les liens que vous postez vers d'autres sites sont à vos propres risques. Vous acceptez que vous devez évaluer, et assumer tous les risques associés à l'utilisation de tout Contenu, que la fiabilité de ce Contenu n'est pas garantie, et qu'en aucun cas The Freecycle Network ne peut être tenu responsable du Contenu posté, ou en cas de perte ou de dégâts résultant du Contenu posté, envoyé par email ou mis à disposition par le biais du Service. Vous reconnaissez que The Freecycle Network n'effectue pas de contrôle ou d'approbation préalables du Contenu, mais que The Freecycle Network peut (sans que cela ne constitue une obligation), à sa discrétion, refuser, supprimer ou déplacer tout Contenu mis à disposition par le biais du Service, pour violation de l'esprit ou de l'intention des Conditions, ou pour une autre raison. Si vous êtes modérateur d'un groupe local, vous acceptez également de respecter toutes les Conditions mis en gras dans la section FAQ du site Freecycle.org. Dans le cas contraire, vous serez tenu de démissionner de votre rôle de modérateur et/ou de responsable du groupe local Freecycle. En tant que modérateur, vous vous engagez à jouer bénévolement un rôle d'organisation et d'animation pour les membres locaux Freecycle."
 
 #. (#TODO: hard-coded URL      "http://my.freecycle.org/home/groups/join_group/$group.unique_name?referer=$thispage")
-#: webapp_main/templates/source/group/posts/display_post.tt:36
+#: webapp_main/templates/source/group/posts/display_post.tt:45
 msgid "You will need to <a href='%1'>join this group</a> before you can reply to this message."
 msgstr "Vous devrez <a href='%1'>vous abonner à ce groupe</a> avant de pouvoir répondre à cette annonce."
 
 #. (#TODO: hard-coded URL      "http://my.freecycle.org/home/groups/join_group/$group.unique_name?referer=$thispage")
-#: webapp_main/templates/source/group/posts/display_post.tt:30
+#: webapp_main/templates/source/group/posts/display_post.tt:39
 msgid "You will need to <a href='%1'>join this group</a> before you can view this message."
 msgstr "Vous devez <a href='%1'>vous abonner</a> pour pouvoir voir ce message."
 
@@ -3672,11 +3465,7 @@ msgstr "Votre connexion par un tiers a échoué – les causes les plus courante
 
 #: webapp_main/templates/source/tos.tt:43
 msgid "attempt to gain unauthorized access to The Freecycle Network's computer systems or engage in any activity that disrupts, diminishes the quality of, interferes with the performance of, or impairs the functionality of, the Service or The Freecycle Network website."
-msgstr ""
-"tenter d'accéder de manière non autorisée aux systèmes informatiques de The "
-"Freecycle Network, ou participer à des activités visant à perturber, à "
-"affecter la qualité ou à interférer avec les performances et les "
-"fonctionnalités du Service ou du site The Freecycle Network."
+msgstr "tenter d'accéder de manière non autorisée aux systèmes informatiques de The Freecycle Network, ou participer à des activités visant à perturber, à affecter la qualité ou à interférer avec les performances et les fonctionnalités du Service ou du site The Freecycle Network."
 
 #: webapp_myf/templates/source/home/info/change_username.tt:7
 msgid "be between 4 and 32 characters in length"
@@ -3700,9 +3489,7 @@ msgstr ""
 
 #: webapp_main/templates/source/tos.tt:39
 msgid "collect personal data about other users for commercial or unlawful purposes;"
-msgstr ""
-"collecter des données personnelles sur les autres utilisateurs à des fins "
-"commerciales ou illicites ;"
+msgstr "collecter des données personnelles sur les autres utilisateurs à des fins commerciales ou illicites ;"
 
 #: webapp_main/templates/source/tos.tt:37
 msgid "contact anyone who has asked not to be contacted;"
@@ -3730,10 +3517,7 @@ msgstr "ou"
 
 #: webapp_main/templates/source/tos.tt:42
 msgid "purposefully post Content in a irrelevant category or city, repeatedly post the same or similar Content or otherwise impose an unreasonable or disproportionately large load on our infrastructure; or"
-msgstr ""
-"poster volontairement du Contenu dans une catégorie ou une ville sans "
-"rapport, poster de manière répétée du Contenu identique ou similaire, ou "
-"imposer une charge excessive et déraisonnable à notre infrastructure ; ou"
+msgstr "poster volontairement du Contenu dans une catégorie ou une ville sans rapport, poster de manière répétée du Contenu identique ou similaire, ou imposer une charge excessive et déraisonnable à notre infrastructure ; ou"
 
 #: webapp_myf/templates/source/home/info/change_username.tt:8
 msgid "start with a letter or number"
@@ -3741,62 +3525,35 @@ msgstr "commencer avec une lettre ou un nombre"
 
 #: webapp_main/templates/source/tos.tt:28
 msgid "that advertises any illegal services or the sale of any items the sale of which is prohibited or restricted by applicable law, including without limitation items the sale of which is prohibited or regulated by law;"
-msgstr ""
-"qui fait la promotion de services illégaux ou d'articles dont la vente est "
-"prohibée ou limitée par la législation, incluant, sans s'y limiter, les "
-"articles dont la vente est interdite ou réglementée par la loi ;"
+msgstr "qui fait la promotion de services illégaux ou d'articles dont la vente est prohibée ou limitée par la législation, incluant, sans s'y limiter, les articles dont la vente est interdite ou réglementée par la loi ;"
 
 #: webapp_main/templates/source/tos.tt:24
 msgid "that constitutes or contains 'affiliate marketing', 'link referral code', 'junk mail', 'spam', 'chain letters', 'pyramid schemes', or unsolicited commercial advertisement;"
-msgstr ""
-"qui constitue du marketing par affilié, des lettres en chaîne, des systèmes "
-"pyramidaux ou de la publicité non sollicité, ou qui contient des codes de "
-"parrainage, ou du spam ;"
+msgstr "qui constitue du marketing par affilié, des lettres en chaîne, des systèmes pyramidaux ou de la publicité non sollicité, ou qui contient des codes de parrainage, ou du spam ;"
 
 #: webapp_main/templates/source/tos.tt:25
 msgid "that constitutes or contains any form of advertising or solicitation if (1) posted in areas of The Freecycle Network sites; or (2) emailed to The Freecycle Network users who have requested not to be contacted about other services, products or commercial interests;"
-msgstr ""
-"qui constitue ou contient une forme de publicité ou de sollicitation si (1) "
-"ce Contenu est posté sur les sites de The Freecycle Network, ou (2) envoyé "
-"par email aux utilisateurs de The Freecycle Network, qui ont demandé à ne "
-"pas recevoir de notifications commerciales, sur les services ou sur les "
-"produits ;"
+msgstr "qui constitue ou contient une forme de publicité ou de sollicitation si (1) ce Contenu est posté sur les sites de The Freecycle Network, ou (2) envoyé par email aux utilisateurs de The Freecycle Network, qui ont demandé à ne pas recevoir de notifications commerciales, sur les services ou sur les produits ;"
 
 #: webapp_main/templates/source/tos.tt:26
 msgid "that constitutes posting essentially the same item or service to several local groups simultaneously;"
-msgstr ""
-"qui constitue une annonce pour un même bien ou service postée simultanément "
-"dans plusieurs groupes locaux ;"
+msgstr "qui constitue une annonce pour un même bien ou service postée simultanément dans plusieurs groupes locaux ;"
 
 #: webapp_main/templates/source/tos.tt:29
 msgid "that contains software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer software or hardware or telecommunications equipment;"
-msgstr ""
-"qui contient des virus ou d'autres formes de code informatique, de fichiers "
-"ou de programmes destinés à perturber, détruire ou limiter le fonctionnement "
-"d'un logiciel, de matériel informatique ou d'équipement de "
-"télécommunications ;"
+msgstr "qui contient des virus ou d'autres formes de code informatique, de fichiers ou de programmes destinés à perturber, détruire ou limiter le fonctionnement d'un logiciel, de matériel informatique ou d'équipement de télécommunications ;"
 
 #: webapp_main/templates/source/tos.tt:30
 msgid "that disrupts the normal function of the site via an excessive number of messages (flooding attack) to the Service, or that otherwise negatively affects other users' ability to use the Service; or"
-msgstr ""
-"qui perturbe le fonctionnement normal du site, par le biais d'un nombre "
-"excessif de messages (inondation) envoyés au Service, ou qui affecte de "
-"manière négative la capacité des utilisateurs d'accéder au Service ; ou"
+msgstr "qui perturbe le fonctionnement normal du site, par le biais d'un nombre excessif de messages (inondation) envoyés au Service, ou qui affecte de manière négative la capacité des utilisateurs d'accéder au Service ; ou"
 
 #: webapp_main/templates/source/tos.tt:31
 msgid "that employs misleading email addresses, or forged headers or otherwise manipulated identifiers in order to disguise the origin of Content transmitted through the Service."
-msgstr ""
-"qui utilise des adresses électroniques trompeuses, des en-têtes contrefaits "
-"ou des informations d'identification falsifiées dans le but de dissimuler "
-"l'origine du Contenu mis à disposition par le biais du Service."
+msgstr "qui utilise des adresses électroniques trompeuses, des en-têtes contrefaits ou des informations d'identification falsifiées dans le but de dissimuler l'origine du Contenu mis à disposition par le biais du Service."
 
 #: webapp_main/templates/source/tos.tt:21
 msgid "that impersonates any person or entity, including, but not limited to, a The Freecycle Network employee, or falsely states or otherwise misrepresents your affiliation with a person or entity;"
-msgstr ""
-"en usurpant l'identité de toute personne ou entité, incluant, sans s'y "
-"limiter, un employé de The Freecycle Network, en déformant ou en faisant de "
-"fausses affirmations quant à votre affiliation avec ces personnes ou "
-"entités ;"
+msgstr "en usurpant l'identité de toute personne ou entité, incluant, sans s'y limiter, un employé de The Freecycle Network, en déformant ou en faisant de fausses affirmations quant à votre affiliation avec ces personnes ou entités ;"
 
 #: webapp_main/templates/source/tos.tt:27
 msgid "that includes links to commercial services or web sites;"
@@ -3804,34 +3561,19 @@ msgstr "qui inclut des liens vers des services ou des sites commerciaux ;"
 
 #: webapp_main/templates/source/tos.tt:23
 msgid "that infringes any patent, trademark, trade secret, copyright or other proprietary rights of any party, or Content that you do not have a right to make available under any law or under contractual or fiduciary relationships;"
-msgstr ""
-"qui constitue une violation d'un brevet, d'une marque déposée, d'un secret "
-"professionnel, de droits d'auteur ou d'autres droits de propriété de "
-"parties, ou du Contenu que vous n'êtes pas autorisé à mettre à disposition "
-"en vertu de la législation ou d'autres obligations contractuelles ou "
-"fiduciaires ;"
+msgstr "qui constitue une violation d'un brevet, d'une marque déposée, d'un secret professionnel, de droits d'auteur ou d'autres droits de propriété de parties, ou du Contenu que vous n'êtes pas autorisé à mettre à disposition en vertu de la législation ou d'autres obligations contractuelles ou fiduciaires ;"
 
 #: webapp_main/templates/source/tos.tt:22
 msgid "that is false, deceptive, misleading, deceitful, misinformative, or constitutes 'bait and switch';"
-msgstr ""
-"qui est incorrect, trompeur, inexact, erroné ou visant à appâter les "
-"utilisateurs ;"
+msgstr "qui est incorrect, trompeur, inexact, erroné ou visant à appâter les utilisateurs ;"
 
 #: webapp_main/templates/source/tos.tt:40
 msgid "transmit through the service any unlawful, harassing, libelous, abusive, threatening, harmful, vulgar, obscene, or otherwise objectionable material or any kind or nature;"
-msgstr ""
-"transmettre par le biais du Service tout Contenu de nature illicite, "
-"menaçante, diffamatoire, offensante, vulgaire, obscène, choquante ou "
-"discutable "
+msgstr "transmettre par le biais du Service tout Contenu de nature illicite, menaçante, diffamatoire, offensante, vulgaire, obscène, choquante ou discutable "
 
 #: webapp_main/templates/source/tos.tt:41
 msgid "use automated means, including spiders, robots, crawlers, data mining tools, or the like to download data from the Service - exception is made for internet search engines (e.g. Google) and non-commercial public archives (e.g. archive.org) that comply with our robots.txt file;"
-msgstr ""
-"utiliser des outils automatisés, incluant les robots d'indexation, les "
-"outils d'exploration de données ou les outils similaires pour télécharger "
-"des données depuis le Service, à l'exception des moteurs de recherche "
-"(Google, par exemple) et les outils d'archivage public non commercial "
-"(archive.org, par exemple), qui sont conformes à notre fichier robots.txt ;"
+msgstr "utiliser des outils automatisés, incluant les robots d'indexation, les outils d'exploration de données ou les outils similaires pour télécharger des données depuis le Service, à l'exception des moteurs de recherche (Google, par exemple) et les outils d'archivage public non commercial (archive.org, par exemple), qui sont conformes à notre fichier robots.txt ;"
 
 #~ msgid "%1 Member(s) pending approval"
 #~ msgstr "(En attente d'approbation par le modérateur)"
