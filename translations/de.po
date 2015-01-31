@@ -95,7 +95,7 @@ msgstr "(Dieser Dateityp kann online nicht bearbeitet werden)"
 
 #: webapp_myf/templates/source/home/posts/new.tt:29
 msgid "--- Please choose a type ---"
-msgstr "--- Bitte wähle einen Typ ---"
+msgstr "--- Bitte wählen ---"
 
 #: webapp_main/templates/source/about/pressroom.tt:36
 msgid "03/09/2012 - The Freecycle Network Busts Through the '9 Million Member' Mark! Now the Largest Environmental Web Community in the World! (PDF)"
@@ -287,7 +287,7 @@ msgstr "Aktiviere die Freecycle Facebook-Anwendung, um Dich mit deinem Facebook-
 #. (region.region_name)
 #: webapp_main/templates/source/browse/group_list.tt:12
 msgid "Active groups in the %1 region :"
-msgstr "Aktive Freecycle Gruppen in der %1 Region :"
+msgstr "Aktive Freecycle Gruppen in der %1 Region:"
 
 #: webapp_main/templates/source/donate.tt:62 webapp_main/templates/source/donate.tt:95
 msgid "Add a note:"
@@ -315,7 +315,7 @@ msgstr "Zusätzlich stimmst Du zu, die folgenden Aktivitäten zu vermeiden:"
 
 #: webapp_myf/templates/lib/box_tabbar.tt:6 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:32
 msgid "All Items"
-msgstr "Alle Angebote"
+msgstr "Alles"
 
 #: webapp_myf/templates/source/forgottenpassword.tt:88
 msgid ""
@@ -353,7 +353,7 @@ msgstr ""
 #. (e)
 #: webapp_myf/templates/source/home/posts/display_issues.tt:22
 msgid "An unrecognised error was sent : '%1' - please report this to server.admins@freecycle.org"
-msgstr "Ein unbekannter Fehler wurde gesendet : '%1' - bitte gib diesen Fehler an server.admins@freecycle.org weiter"
+msgstr "Ein unbekannter Fehler wurde gesendet: '%1' - bitte gib diesen Fehler an server.admins@freecycle.org weiter"
 
 #. (e)
 #: webapp_myf/templates/source/home/posts/display_issues.tt:54
@@ -444,7 +444,7 @@ msgid ""
 "loves cats"
 msgstr ""
 "Vorstandsvorsitzender & Schatzmeister. Deron gründete 'The Freecycle Network' am 1. Mai 2003. Er hat jetzt auch die Position des Geschäftsführers inne. Währenddessen und davor "
-"war er 2 1/2 Jahre bei RISE als Betriebsleiter tätig. RISE betreibt ein Wiederverwertungs- und Übergangsbeschäftigungsprogramm in Tucson. Davor arbeitete für eine "
+"war er 2 1/2 Jahre bei RISE als Betriebsleiter tätig. RISE betreibt ein Wiederverwertungs- und Übergangsbeschäftigungsprogramm in Tucson. Davor arbeitete er für eine "
 "Umweltschutzgruppe namens Native Seeds/SEARCH als Stiftungsdirektor Giving & Venture Philantropy und davor als deren Leiter der Entwicklung. Er hat den Bachelor of Science (BS) "
 "Auswärtiger/Diplomatischer Dienst bei der Georgetown University und einen MBA im Internationalen Management bei Thunderbird erworben. Er hat mehrere Jahre in Deutschland gelebt, "
 "studiert und gearbeitet. Er ist groß, gutaussehend und liebt Katzen."
@@ -515,7 +515,7 @@ msgstr "Ändere die E-Mail-Einstellung"
 
 #: webapp_myf/templates/source/home/groups/options_display.tt:76
 msgid "Change level"
-msgstr "Ändere Level"
+msgstr "Status ändern"
 
 #: webapp_myf/templates/source/home/groups/home.tt:18
 msgid "Change my 'home' Group to: "
@@ -1100,9 +1100,10 @@ msgstr "Ich bin bereits ein 'My Freecycle' Benutzer!"
 msgid "I'm not a My Freecycle user"
 msgstr "Ich bin kein 'My Freecycle' Benutzer"
 
+# Anders übersetzt da "Ich bin nicht sicher dass ich ... bin" nicht so ganz klar ist.
 #: webapp_myf/templates/source/index.tt:35
 msgid "I'm not sure if I am..."
-msgstr "Ich bin nicht sicher, dass ich es bin ..."
+msgstr "Du weißt Deinen Benutzernamen/das Passwort nicht mehr?"
 
 #. (e)
 #: webapp_main/templates/source/group/posts/reply_error.tt:28
@@ -1193,7 +1194,7 @@ msgstr "Wenn Du ein Bild von der Sache hast (maximale Dateigröße: 256Kb), kann
 
 #: webapp_myf/templates/source/home/posts/new.tt:59
 msgid "If you have a picture of the item, you can upload it :<br />(max file size: 256Kb)"
-msgstr "Wenn Du ein Bild von der Sache hast, kannst Du es hochladen : <br />(maximale Dateigröße: 256Kb)"
+msgstr "Wenn Du ein Bild von der Sache hast, kannst Du es hochladen: <br />(maximale Dateigröße: 256Kb)"
 
 #: webapp_main/templates/source/email/group_link_report.tt:27
 msgid "If you have any problems addressing this link, please contact your GOA - email addresses for GOAs may be found here:"
@@ -1242,8 +1243,8 @@ msgid ""
 "If you'd like to become a sponsor for The Freecycle Network, please email %1. We've been fortunate to count Intuit, Nokia and Waste Management amongst our sponsors over the "
 "years."
 msgstr ""
-"If you'd like to become a sponsor for The Freecycle Network, please email %1. We've been fortunate to count Intuit, Nokia and Waste Management amongst our sponsors over the "
-"years. "
+"Wenn Du Sponsor des Freecycle-Netzwerks werden möchtest, schreibe bitte eine E-Mail an %1. Wir haben das Glück Intuit, Nokia und die Amerikanische Abfallwirtschaft über viele "
+"Jahre zu unseren Sponsoren zu zählen."
 
 #: webapp_myf/templates/source/home/groups/index.tt:102
 msgid ""
@@ -1701,7 +1702,7 @@ msgstr "Neuer Benutzername"
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:34 webapp_main/templates/source/about/index.tt:6
 msgid "Newswire"
-msgstr "Nachrichtenagentur "
+msgstr "Neuigkeiten"
 
 #: webapp_main/templates/source/form990/form.tt:45 webapp_main/templates/source/group/posts/display_post.tt:137
 msgid "Next"
@@ -1729,7 +1730,7 @@ msgstr "Es gibt keinen Benutzer mit diesem Nutzernamen oder dieser E-Mail-Adress
 
 #: webapp_myf/templates/source/home/groups/index.tt:140 webapp_myf/templates/source/home/groups/options_display.tt:85
 msgid "None apart from ADMINs"
-msgstr "keine, abgesehen von ADMIN E-Mails"
+msgstr "nur ADMIN-Nachrichten"
 
 #: webapp_main/templates/source/about/background.tt:27
 msgid "Nonprofit Status"
@@ -1768,7 +1769,7 @@ msgstr "Beim Verlassen"
 
 #: webapp_myf/templates/source/home/groups/index.tt:141 webapp_myf/templates/source/home/groups/options_display.tt:86
 msgid "One for each Post"
-msgstr "separate E-Mail für jedes Angebot"
+msgstr "eine E-Mail pro Anzeige"
 
 #: webapp_main/templates/source/donate.tt:42 webapp_main/templates/source/donate.tt:74
 msgid "One-time donation"
@@ -1805,7 +1806,7 @@ msgstr "Originale Anzeigen-Details:"
 #. (region.country.country_name)
 #: webapp_main/templates/source/browse/group_list.tt:14
 msgid "Other regions of %1"
-msgstr "Andere Regionen von %1"
+msgstr "Andere Länder neben %1"
 
 #: webapp_main/templates/source/about/privacy.tt:6
 msgid "Our Commitment to Privacy"
@@ -1882,7 +1883,7 @@ msgstr "Bitte prüfe den Dateityp (Hochladen/reiner Text/HTML)"
 
 #: webapp_myf/templates/source/home/groups/search.tt:90 webapp_main/templates/lib/search_box_group.tt:26
 msgid "Please click here if you are interested in applying to set one up, and become a moderator of one in your community"
-msgstr "Bitte klicke hier wenn Du daran interessiert bist, eine zu gründen und Moderator einer in Deiner Gemeinschaft zu werden"
+msgstr "Bitte klicke hier wenn Du daran interessiert bist, eine neue Gruppe zu gründen und deren Moderator zu werden"
 
 #: webapp_main/templates/source/about/privacy.tt:29
 msgid "Please contact us by email or in writing at:"
@@ -2114,7 +2115,7 @@ msgstr "Gesendet am:"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:53
 msgid "Posted to : "
-msgstr "Anzeige geschrieben an :"
+msgstr "Anzeige geschrieben an:"
 
 #: webapp_myf/templates/source/home/posts/index.tt:47 webapp_myf/templates/source/home/posts/recently_closed.tt:20
 msgid "Posted to:"
@@ -2736,7 +2737,7 @@ msgid ""
 msgstr ""
 "Willkommen! 'The Freecycle Network&trade;' besteht aus %1 Gruppen mit %2 Mitgliedern weltweit. Es ist eine Basis- und gänzlich nicht-kommerzielle Bewegung von Menschen, die "
 "Dinge in ihren Städten kostenlos abgeben oder erhalten. Es geht um Wiederverwendung und darum, dass gute Sachen nicht auf der Müllkippe landen. Jede lokale Gruppe wird von "
-"ortsansässigen Ehrenamtlichen moderiert (diese netten Menschen). Die Mitgliedschaft ist kostenlos. Um beizutreten, gebe den Namen Deiner Gemeinde in das Suchfeld oben ein oder "
+"ortsansässigen Ehrenamtlichen moderiert (diese netten Menschen). Die Mitgliedschaft ist kostenlos. Um beizutreten, gebe den Namen Deiner Stadt in das Suchfeld oben ein oder "
 "klicke auf 'Gruppen durchsuchen' über der Suchfunktion. Viel Spaß!"
 
 #: webapp_main/templates/source/about/background.tt:9
@@ -2746,7 +2747,7 @@ msgid ""
 msgstr ""
 "Willkommen! 'The Freecycle Network&trade;' besteht aus %1 Gruppen mit %2 Mitgliedern weltweit. Es ist eine Basis- und gänzlich nicht-kommerzielle Bewegung von Menschen, die "
 "Dinge in ihren Städten kostenlos abgeben oder erhalten. Es geht um Wiederverwendung und darum, dass gute Sachen nicht auf der Müllkippe landen. Jede lokale Gruppe wird von "
-"ortsansässigen Ehrenamtlichen moderiert (diese netten Menschen). Die Mitgliedschaft ist kostenlos. Um beizutreten, gebe den Namen Deiner Gemeinde in das Suchfeld oben ein oder "
+"ortsansässigen Ehrenamtlichen moderiert (diese netten Menschen). Die Mitgliedschaft ist kostenlos. Um beizutreten, gebe den Namen Deiner Stadt in das Suchfeld oben ein oder "
 "klicke auf 'Gruppen durchsuchen' über der Suchfunktion. Viel Spaß!"
 
 #: webapp_main/templates/source/tos.tt:8
@@ -3076,7 +3077,7 @@ msgstr "Keine Dateien zum Anzeigen in dieser Gruppe vorhanden"
 
 #: webapp_myf/templates/source/home/info/index.tt:101
 msgid "This My Freecycle account is associated with this Facebook account : "
-msgstr "Dieses 'My Freecycle' Konto ist mit dem folgenden Facebook-Benutzerkonto verbunden :"
+msgstr "Dieses 'My Freecycle' Konto ist mit dem folgenden Facebook-Benutzerkonto verbunden:"
 
 #: webapp_main/templates/source/email/post_abuse_report.tt:1
 msgid "This Post has been marked by a Member as being inappropriate"
@@ -3110,15 +3111,15 @@ msgstr "Dieses Ereignis wurde automatisch gemeldet"
 
 #: webapp_myf/templates/source/home/groups/index.tt:77
 msgid "This is your home (default) Group"
-msgstr "Dies ist Deine 'Haupt' (Standard)-Gruppe"
+msgstr "Dies ist Deine Haupt-Gruppe (Standard)"
 
 #: webapp_myf/templates/source/home/posts/manage/received_form.tt:14
 msgid "This item will be marked as RECEIVED and removed from the Group.<br />If you want to edit the message, you can do so below :"
-msgstr "Diese Sache wird als ERHALTEN markiert und von der Gruppe entfernt. <br />Wenn Du die Nachricht anpassen möchtest, kannst Du dies hier tun :"
+msgstr "Diese Sache wird als ERHALTEN markiert und von der Gruppe entfernt. <br />Wenn Du die Nachricht anpassen möchtest, kannst Du dies hier tun:"
 
 #: webapp_myf/templates/source/home/posts/manage/taken_form.tt:14
 msgid "This item will be marked as TAKEN and removed from the Group.<br />If you want to edit the message, you can do so below :"
-msgstr "Diese Sache wird als ABGEHOLT markiert und von der Gruppe entfernt. <br />Wenn Du die Nachricht anpassen möchtest, kannst Du dies hier tun :"
+msgstr "Diese Sache wird als ABGEHOLT markiert und von der Gruppe entfernt. <br />Wenn Du die Nachricht anpassen möchtest, kannst Du dies hier tun:"
 
 #: webapp_myf/templates/source/home/info/change_email_address.tt:21
 msgid "This may be because this email address is used for another account (you can only have one account per email address) or because the email address is invalid."
@@ -3358,7 +3359,7 @@ msgstr "Benutzername:"
 #. (username)
 #: webapp_myf/templates/source/home/info/index.tt:43
 msgid "Username : %1"
-msgstr "Benutzername : %1"
+msgstr "Benutzername: %1"
 
 #: webapp_myf/templates/source/forgottenusername.tt:42
 msgid "Username sent"
@@ -3470,7 +3471,7 @@ msgid ""
 msgstr ""
 "Willkommen! 'The Freecycle Network&trade;' besteht aus %1 Gruppen mit %2 Mitgliedern weltweit. Es ist eine Basis- und gänzlich nicht-kommerzielle Bewegung von Menschen, die "
 "Dinge in ihren Städten kostenlos abgeben oder erhalten. Es geht um Wiederverwendung und darum, dass gute Sachen nicht auf der Müllkippe landen. Jede lokale Gruppe wird von "
-"ortsansässigen Ehrenamtlichen moderiert (diese netten Menschen). Die Mitgliedschaft ist kostenlos. Um beizutreten, gebe den Namen Deiner Gemeinde in das Suchfeld oben ein oder "
+"ortsansässigen Ehrenamtlichen moderiert (diese netten Menschen). Die Mitgliedschaft ist kostenlos. Um beizutreten, gebe den Namen Deiner Stadt in das Suchfeld oben ein oder "
 "klicke auf 'Gruppen durchsuchen' über der Suchfunktion. Viel Spaß!"
 
 #: webapp_main/templates/source/form990/index.tt:4
@@ -3483,7 +3484,7 @@ msgstr "Bitte gib Deinen Ort ein (ungefähr bzw. nächstgrößerer Ort)"
 
 #: webapp_myf/templates/source/home/posts/new.tt:27
 msgid "What type of post is this?"
-msgstr "Welche Art von Angebot ist ist dies? "
+msgstr "Welcher Art ist Deine Anzeige? "
 
 #: webapp_main/templates/source/about/privacy.tt:23
 msgid ""
@@ -3499,7 +3500,7 @@ msgstr "Innerhalb Deiner lokalen Gruppe"
 
 #: webapp_main/templates/source/group/posts/display_list.tt:26
 msgid "Words to look for :"
-msgstr "Suchwörter :"
+msgstr "Suchbegriffe:"
 
 #: webapp_main/templates/source/about/staff.tt:12
 msgid "Wow! Hats off to ALL these wonderful people!!"
@@ -3745,7 +3746,7 @@ msgstr "Du hast keine offenen Anzeigen"
 
 #: webapp_myf/templates/source/home/posts/recently_closed.tt:43
 msgid "You have no recently expired Posts"
-msgstr "Du hast keine aktuell abgelaufenen Anzeigen"
+msgstr "Du hast keine abgelaufenen Anzeigen"
 
 #. ("//groups.freecycle.org/$group_unique_name","//my.freecycle.org/home/posts/$group_unique_name/post_to_group","//my.freecycle.org/home/groups/$group_unique_name/options")
 #: webapp_myf/templates/source/home/groups/join_group.tt:18
