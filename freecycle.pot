@@ -1498,9 +1498,7 @@ msgstr ""
 
 #. ("//www.freecycle.org/tos")
 #: webapp_myf/templates/source/signup.tt:71
-msgid ""
-"I agree to The Freecycle Network <a href='%1'>Terms of Service</a> and "
-"understand that the use of Yahoo!Groups is subject to their Terms of Service"
+msgid "I agree to The Freecycle Network <a href='%1'>Terms of Service</a>."
 msgstr ""
 
 #: webapp_modtools/templates/source/agreement.tt:14

@@ -1324,8 +1324,8 @@ msgstr "I acknowledge and agree not to use the \"freecycle.org\" logo other than
 
 #. ("//www.freecycle.org/tos")
 #: webapp_myf/templates/source/signup.tt:71
-msgid "I agree to The Freecycle Network <a href='%1'>Terms of Service</a> and understand that the use of Yahoo!Groups is subject to their Terms of Service"
-msgstr "Ich stimme den <a href='%1'>Nutzungsbedingungen</a> von 'The Freecycle Network' zu und verstehe, dass die Nutzung von Yahoo!Groups unter deren Nutzungsbedingungen steht"
+msgid "I agree to The Freecycle Network <a href='%1'>Terms of Service</a>."
+msgstr "Ich stimme den 'The Freecycle Network' <a href='%1'>Nutzungsbedingungen</a>."
 
 #: webapp_modtools/templates/source/agreement.tt:14
 msgid "I agree to the Collective Membership Mark Usage Agreement"
@@ -4744,6 +4744,15 @@ msgstr "über den Dienst jedwedes ungesetzliches, belästigendes, beleidigendes,
 #: webapp_main/templates/source/tos.tt:41
 msgid "use automated means, including spiders, robots, crawlers, data mining tools, or the like to download data from the Service - exception is made for internet search engines (e.g. Google) and non-commercial public archives (e.g. archive.org) that comply with our robots.txt file;"
 msgstr "die Verwendung von automatisierten Programmen wie Spider, Searchbots, Webcrawler, Programme zur Auswertung von Daten oder ähnliches um Daten des Dienstes herunterzuladen - Ausnahmen gelten für Suchmaschinen (z.B. Google) und nichtkommerzielle öffentliche Archive (z.B. archive.org), die sich an unsere robots.txt-Datei halten;"
+
+#~ msgid ""
+#~ "I agree to The Freecycle Network <a href='%1'>Terms of Service</a> and "
+#~ "understand that the use of Yahoo!Groups is subject to their Terms of "
+#~ "Service"
+#~ msgstr ""
+#~ "Ich stimme den <a href='%1'>Nutzungsbedingungen</a> von 'The Freecycle "
+#~ "Network' zu und verstehe, dass die Nutzung von Yahoo!Groups unter deren "
+#~ "Nutzungsbedingungen steht"
 
 #~ msgid "Someone requested a password reset link,blah de blah."
 #~ msgstr "Jemand hat beantragt Dein Passwort zurückzusetzen,blah de blah."
