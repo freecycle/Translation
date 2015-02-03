@@ -173,7 +173,7 @@ msgstr ""
 msgid "Contact the ModTeam"
 msgstr ""
 
-#: webapp_myf/templates/lib/standard_footer.tt:9
+#: webapp_myf/templates/lib/standard_footer.tt:10
 msgid "Copyright"
 msgstr ""
 
@@ -210,12 +210,8 @@ msgstr ""
 msgid "Email digest"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/options_display.tt:45
-msgid "Email preference :"
-msgstr ""
-
-#: webapp_myf/templates/source/home/groups/index.tt:136
-msgid "Email preference : "
+#: webapp_myf/templates/source/home/groups/index.tt:136 webapp_myf/templates/source/home/groups/options_display.tt:45
+msgid "Email preference"
 msgstr ""
 
 #: webapp_myf/templates/source/home/info/change_email_address.tt:31
@@ -240,6 +236,10 @@ msgstr ""
 
 #: webapp_myf/templates/source/home_group_box_search.tt:1
 msgid "Find other groups"
+msgstr ""
+
+#: webapp_myf/templates/lib/standard_footer.tt:6
+msgid "For specific queries about groups, please contact your local group moderator whose contact info is noted at the top of each local group \"All Items\" page."
 msgstr ""
 
 #: webapp_myf/templates/source/forgottenpassword.tt:85
@@ -356,11 +356,9 @@ msgstr ""
 msgid "If you have a picture of the item, you can upload it :<br />(max file size: 256Kb)"
 msgstr ""
 
-#. ('http://wiki.freecycle.org/MemberFAQ:/')
+#. ('<a href="http://wiki.freecycle.org/MemberFAQ:/">')
 #: webapp_myf/templates/lib/standard_footer.tt:4
-msgid ""
-"If you have any problems or feedback when using My Freecycle, please refer to the <a href=\"%1\">Member FAQ page</a>.\n"
-"For specific queries about groups, please contact your local group moderator whose contact info is noted at the top of each local group \"All Items\" page."
+msgid "If you have any problems or feedback when using My Freecycle, please refer to the %1"
 msgstr ""
 
 #. (uri_for('Root', 'oauth2', undef, undef, { provider=> 'facebook', referer => c.request.param('referer')
@@ -458,7 +456,7 @@ msgid "Join this group"
 msgstr ""
 
 #: webapp_myf/templates/source/home/groups/index.tt:130
-msgid "Joined/Applied : "
+msgid "Joined/Applied"
 msgstr ""
 
 #: webapp_myf/templates/source/home/groups/index.tt:125 webapp_myf/templates/source/home/groups/options_display.tt:36 webapp_myf/templates/source/home/groups/options_display.tt:73
@@ -510,8 +508,12 @@ msgstr ""
 msgid "Member"
 msgstr ""
 
+#: webapp_myf/templates/lib/standard_footer.tt:5
+msgid "Member FAQ page"
+msgstr ""
+
 #: webapp_myf/templates/source/home/groups/index.tt:118 webapp_myf/templates/source/home/groups/options_display.tt:26
-msgid "Membership level : "
+msgid "Membership level"
 msgstr ""
 
 #: webapp_myf/templates/source/home/groups/contact_mods_form.tt:66
@@ -860,7 +862,7 @@ msgstr ""
 msgid "The CAPTCHA was incorrect"
 msgstr ""
 
-#: webapp_myf/templates/lib/standard_footer.tt:9
+#: webapp_myf/templates/lib/standard_footer.tt:10
 msgid "The Freecycle Network (http://www.freecycle.org). All rights reserved. Freecycle and the Freecycle logo are trademarks of The Freecycle Network in various countries."
 msgstr ""
 
