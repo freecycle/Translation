@@ -1418,9 +1418,8 @@ msgstr "Falls Du Probleme mit diesem Link hast, kontaktiere bitte Deinen GA - E-
 # please doublecheck this still is right. (-steev)
 #. ('<a href="http://wiki.freecycle.org/MemberFAQ:/">')
 #: webapp_myf/templates/lib/standard_footer.tt:4
-#, fuzzy
 msgid "If you have any problems or feedback when using My Freecycle, please refer to the %1"
-msgstr "Wenn Du bei der Benutzung von My Freecycle Probleme, oder Anregungen irgendeiner Art hast, schaue Dir bitte die Seite mit den"
+msgstr "Wenn Du bei der Benutzung von My Freecycle Probleme, oder Anregungen irgendeiner Art hast, schaue Dir bitte die Seite mit den %1"
 
 #. (uri_for('Root', 'oauth2', undef, undef, { provider=> 'facebook', referer => c.request.param('referer')
 #: webapp_myf/templates/source/index.tt:23
