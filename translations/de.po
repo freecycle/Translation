@@ -1015,7 +1015,7 @@ msgstr "For members using The Freecycle Network in the United States, you acknow
 
 #: webapp_myf/templates/lib/standard_footer.tt:6
 msgid "For specific queries about groups, please contact your local group moderator whose contact info is noted at the top of each local group \"All Items\" page."
-msgstr "Bei spezifischen Fragen zu Gruppen nimm bitte Kontakt mit dem entsprechenden Gruppenmoderator auf, dessen Kontaktinfos Du oben auf jeder Gruppenseite bei \"Alle Dinge\" findest"
+msgstr "an. Bei spezifischen Fragen zu Gruppen nimm bitte Kontakt mit dem entsprechenden Gruppenmoderator auf, dessen Kontaktinfos Du oben auf jeder Gruppenseite bei \"Alles\" findest."
 
 #: webapp_main/templates/source/login/forgotten_password.tt:1
 #: webapp_main/templates/source/login/forgotten_password.tt:3
