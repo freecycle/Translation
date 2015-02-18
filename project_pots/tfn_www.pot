@@ -1034,7 +1034,7 @@ msgstr ""
 msgid "The Center for a New American Dream helps Americans consume responsibly to protect the environment, enhance quality of life, and promote social justice."
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:27 webapp_main/templates/lib/standard_page.tt:6 webapp_main/templates/source/about/background.tt:8 webapp_main/templates/source/donate.tt:6
+#: webapp_main/templates/lib/standard_page.tt:28 webapp_main/templates/lib/standard_page.tt:6 webapp_main/templates/source/about/background.tt:8 webapp_main/templates/source/donate.tt:6
 msgid "The Freecycle Network"
 msgstr ""
 
@@ -1518,7 +1518,7 @@ msgstr ""
 msgid "call2recycle"
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:28
+#: webapp_main/templates/lib/standard_page.tt:29
 msgid "changing the world<br />one gift at a time&trade;"
 msgstr ""
 

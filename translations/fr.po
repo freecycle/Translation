@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: Freecycle.org\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2015-02-03 15:46-0700\n"
+"PO-Revision-Date: 2015-02-05 16:37-0700\n"
 "Last-Translator: Steev Hise <steev@freecycle.org>\n"
 "Language-Team: French <richard.wallman@freecycle.org>\n"
 "Language: fr\n"
@@ -642,9 +642,8 @@ msgstr "Confirmer votre mot de passe"
 
 #: webapp_main/templates/lib/group_box.tt:14
 #: webapp_main/templates/source/group/contact_moderators.tt:3
-#, fuzzy
 msgid "Contact Moderators"
-msgstr "Modérateurs"
+msgstr "Contactez les modérateurs"
 
 #: webapp_main/templates/source/about/privacy.tt:28
 msgid "Contact Us"
@@ -1019,8 +1018,9 @@ msgid "For members using The Freecycle Network in the United States, you acknowl
 msgstr "Pour les membres de The Freecycle Network aux États-Unis, vous reconnaissez et acceptez de ne pas utiliser le logo « freecycle.org » autrement que comme marque d'association collective au réseau. Vous acceptez également de ne pas modifier le logo ou l'expression verbale « freecycle.org » de The Freecycle Network (« Marques commerciales »), de cesser d'utiliser les Marques commerciales en cas de perte du statut de membre, et d'utiliser les Marques commerciales uniquement en conformité avec les recommandations et politiques applicables aux groupes locaux, consultables sur la page suivante. Par ailleurs, vous reconnaissez qu'en tant que membre d'un groupe local du réseau The Freecycle Network, vous pouvez utiliser les Marques commerciales uniquement en signe d'appartenance au réseau. En cas de désinscription du service ou de résiliation du statut de membre, vous reconnaissez ne disposer d'aucun droit sur les Marques commerciales."
 
 #: webapp_myf/templates/lib/standard_footer.tt:6
+#, fuzzy
 msgid "For specific queries about groups, please contact your local group moderator whose contact info is noted at the top of each local group \"All Items\" page."
-msgstr ""
+msgstr "Si vous avez des questions sur les groupes, veuillez contacter le modérateur de votre groupe local."
 
 #: webapp_main/templates/source/login/forgotten_password.tt:1
 #: webapp_main/templates/source/login/forgotten_password.tt:3
@@ -1419,7 +1419,7 @@ msgstr ""
 #. ('<a href="http://wiki.freecycle.org/MemberFAQ:/">')
 #: webapp_myf/templates/lib/standard_footer.tt:4
 msgid "If you have any problems or feedback when using My Freecycle, please refer to the %1"
-msgstr ""
+msgstr "Si vous avez des questions concernant Freecycle, veuillez consulter "
 
 #. (uri_for('Root', 'oauth2', undef, undef, { provider=> 'facebook', referer => c.request.param('referer')
 #: webapp_myf/templates/source/index.tt:23
@@ -1884,9 +1884,8 @@ msgstr "Membre FAQ"
 
 # page?
 #: webapp_myf/templates/lib/standard_footer.tt:5
-#, fuzzy
 msgid "Member FAQ page"
-msgstr "Membre FAQ"
+msgstr "la page FAQ de Membres"
 
 #. (group_name)
 #: webapp_modtools/templates/perl/source/moderator_members_overview:25
