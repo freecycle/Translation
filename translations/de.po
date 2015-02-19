@@ -57,7 +57,7 @@ msgstr "Oder, das aktuelle Logo löschen?"
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:67
 msgid "\"My Freecycle\" users to be invited"
-msgstr ""
+msgstr "\"My Freecycle\"-Benutzer, die eingeladen werden sollen"
 
 #. (group.groupname, post.type, post.post_subject, post.location)
 #: webapp_main/templates/source/group/posts/display_post.tt:12
@@ -1092,7 +1092,7 @@ msgstr "E-Mail-Kopfangaben (Header)"
 
 #: webapp_modtools/templates/perl/source/moderator_preferences:18
 msgid "Email on pending"
-msgstr ""
+msgstr "E-Mail bei zu genehmigenden Dingen"
 
 #: webapp_myf/templates/source/home/groups/index.tt:136 webapp_myf/templates/source/home/groups/options_display.tt:45
 msgid "Email preference"
@@ -2225,27 +2225,27 @@ msgstr "Eine Gruppe gefunden"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:103
 msgid "Maximum length of description before they are warned"
-msgstr ""
+msgstr "Maximale Länge der Beschreibung, vor einer Wanrnung"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:73
 msgid "Maximum length of location before they are warned"
-msgstr ""
+msgstr "Maximale Länge der Ortsangabe, vor einer Warnung"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:43
 msgid "Maximum length of subject line before they are warned"
-msgstr ""
+msgstr "Maximale Länge des Betreffs, vor einer Warnung"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:111
 msgid "Maximum percentage of capitals in the description before they are warned"
-msgstr ""
+msgstr "Maximale Prozentzahl an Großbuchstaben in der Beschreibung, vor einer Warnung"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:81
 msgid "Maximum percentage of capitals in the location before they are warned"
-msgstr ""
+msgstr "Maximale Prozentzahl an Großbuchstaben in der Ortsangabe, vor einer Warnung"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:51
 msgid "Maximum percentage of capitals in the subject line before they are warned"
-msgstr ""
+msgstr "Maximale Prozentzahl an Großbuchstaben im Betreff, vor einer Warnung"
 
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:37
 msgid "Meaning"
@@ -2341,7 +2341,7 @@ msgstr "Voreinstellungen für Nachrichten"
 #. (group_name)
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:6
 msgid "Message Maker preferences for"
-msgstr ""
+msgstr "Einstellungen für das Fenster für neue Anzeigen"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:64
 msgid "Message body"
@@ -2576,7 +2576,7 @@ msgstr "Es wurde kein Benutzer gefunden"
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:80
 msgid "Non-\"My Freecycle\" email addresses"
-msgstr ""
+msgstr "Keine-\"My Freecycle\"-E-Mail-Adresse"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:130
 msgid "None"
@@ -2610,7 +2610,7 @@ msgstr "BIETE"
 #. (group_name)
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:14
 msgid "OFFER posts for the %1 group"
-msgstr ""
+msgstr "ANGEBOTS-Anzeigen für die Gruppe %1"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:300 webapp_modtools/templates/perl/source/moderator_menu:105
 msgid "OFFERs"
@@ -2726,7 +2726,7 @@ msgstr "Originale Anzeigen-Details:"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:154
 msgid "Other Posts from this Member: (max 10)"
-msgstr ""
+msgstr "Weitere Anzeigen dieses Benutzers: (max 10)"
 
 #. (region.country.country_name)
 #: webapp_main/templates/source/browse/group_list.tt:14
@@ -2786,7 +2786,7 @@ msgstr "Seite:"
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:126 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:119
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:119 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:119
 msgid "Paging options"
-msgstr ""
+msgstr "Optionen für den Seitenumbruch"
 
 #: webapp_myf/templates/source/signup.tt:44 webapp_main/templates/source/login/index.tt:11
 msgid "Password"
@@ -2838,7 +2838,7 @@ msgstr "Bestätigung steht noch aus"
 #. (group_name)
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:16
 msgid "Pending posts for the %1 group"
-msgstr ""
+msgstr "Ungenehmigte Anzeigen der Gruppe %1"
 
 #: webapp_myf/templates/source/home/groups/index.tt:122 webapp_myf/templates/source/home/groups/options_display.tt:33
 msgid "Pending unsubscribe"
@@ -2916,7 +2916,7 @@ msgstr "Bitte gib die Zahlen ein, mit einem Komma getrennt (Leerzeichen und Zeil
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_form:15
 msgid "Please enter user IDs or email addresses, one per line, in the box below"
-msgstr ""
+msgstr "Gib bitte die Benutzer ID oder E-Mail-Adresse in die Box hierunter ein, jeweils eines pro Zeile"
 
 #: webapp_myf/templates/source/forgottenusername.tt:16
 msgid "Please enter your registered email address and your username will be sent to you."
@@ -3042,7 +3042,7 @@ msgstr "Anzeige URL: %1"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:88
 msgid "Post description settings"
-msgstr ""
+msgstr "Einstellungen für die Anzeigenbeschreibung"
 
 #: webapp_main/templates/source/email/post_abuse_report.tt:16
 msgid "Post description:"
@@ -3074,7 +3074,7 @@ msgstr "Bilder senden"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:58
 msgid "Post location settings"
-msgstr ""
+msgstr "Einstellungen für den Ort"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:39
 msgid "Post location: "
@@ -3082,7 +3082,7 @@ msgstr "Ort der Anzeige:"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:177
 msgid "Post reject reason"
-msgstr ""
+msgstr "Anzeigen-Ablehnungsgrund"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:43
 msgid "Post status: "
@@ -3107,7 +3107,7 @@ msgstr "Anzeige aufgeben"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:26
 msgid "Post type"
-msgstr ""
+msgstr "Art der Anzeige"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:30
 msgid "Post type: "
@@ -3159,7 +3159,7 @@ msgstr "Gesendet am:"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:159 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:22
 msgid "Posted to"
-msgstr ""
+msgstr "gesendet an"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:53
 msgid "Posted to : "
@@ -3279,7 +3279,7 @@ msgstr "ERHALTEN"
 #. (group_name)
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:14
 msgid "RECEIVED posts for the %1 group"
-msgstr ""
+msgstr "ERHALTEN-Anzeigen der Gruppe %1"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:303 webapp_modtools/templates/perl/source/moderator_menu:108
 msgid "RECEIVEDs"
@@ -3566,7 +3566,7 @@ msgstr "Sende an alle Mitglieder"
 #. (group_name)
 #: webapp_modtools/templates/perl/source/moderator_post_admin_form:3
 msgid "Sending an ADMIN to the %1 Group"
-msgstr ""
+msgstr "Sende ADMIN-Nachrichten an die Gruppe %1"
 
 #: webapp_myf/templates/source/home/groups/home.tt:26
 msgid "Set 'home' Group"
@@ -3610,13 +3610,13 @@ msgstr "Kurze Beschreibung:"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:17
 msgid "Show \"Fair Offer Policy\" option?"
-msgstr ""
+msgstr "Soll die \"\"Fair Offer Policy\"-Option angezeigt werden?"
 
 #. (first, last, total_results)
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:101 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:94
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:94 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:94
 msgid "Showing %1 to %2 of %3"
-msgstr ""
+msgstr "Zeige %1 bis %2, von %3"
 
 #. (((page - 1)
 #: webapp_main/templates/source/search/results.tt:31
@@ -3727,7 +3727,7 @@ msgstr "ABGEHOLT"
 #. (group_name)
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:14
 msgid "TAKEN posts for the %1 group"
-msgstr ""
+msgstr "ABGEHOLT-Anzeigen der Gruppe %1"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:302 webapp_modtools/templates/perl/source/moderator_menu:106
 msgid "TAKENs"
@@ -4250,7 +4250,7 @@ msgstr "Der Passwort-Zurücksetzen-Schlüssel wurde nicht erkannt. Dies könnte 
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:34 webapp_modtools/templates/perl/source/moderator_group_activity_log:34
 msgid "The person who <b>did</b> it"
-msgstr ""
+msgstr "Die Person, die dies getan hat"
 
 #. (post_matches.join(", ")
 #: webapp_myf/templates/source/home/posts/display_issues.tt:54
@@ -4340,7 +4340,7 @@ msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:89
 msgid "There are no OFFERs matching your selection"
-msgstr ""
+msgstr "Keine ANGEBOTS-Anzeigen entsprechen Deiner Auswahl"
 
 #: webapp_modtools/templates/source/manage/links/index.tt:42
 msgid "There are no links for this Group"
@@ -4348,12 +4348,12 @@ msgstr "Es gibt keine Links für diese Gruppe"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:37
 msgid "There are no pending posts"
-msgstr ""
+msgstr "Es gibt keine ungenehmigten Anzeigen"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:82 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:82
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:82
 msgid "There are no posts matching your selection"
-msgstr ""
+msgstr "Es gibt keine Anzeigen, die zu Deiner Auswahl passen"
 
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:34
 msgid "There are some template variables you can use:"
@@ -4361,7 +4361,7 @@ msgstr "Es gibt ein paar Variablen, die Du in Deinen Vorlagen verwenden kannst:"
 
 #: webapp_modtools/templates/perl/source/moderator_display_hotwords:32
 msgid "There are two \"wildcard\" characters you can use:"
-msgstr ""
+msgstr "Es gibt zwei \"wildcard\"-Zeichen, die du benutzen kannst:"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:64
 msgid "There is no image for this Post"
@@ -4419,15 +4419,15 @@ msgstr "Diese Dateien werden verschickt wenn ein anstehendes Mitglied genehmigt 
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:37
 msgid "These people already appear to be involved in this Group"
-msgstr ""
+msgstr "Diese Personen scheinen schon in diese Gruppe eingebunden zu sein"
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:81
 msgid "These people will be sent a generic email inviting them to create a \"My Freecycle\" account and join the Group."
-msgstr ""
+msgstr "Diese Personen bekommen eine E-Mail, in der sie dazu eingeladen werden sich ein Benutzerkonto auf \"My Freecycle\" anzulegen und der Gruppe beizutreten."
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:68
 msgid "These people will be sent an email inviting them to join the Group, and the invitation will be shown on their \"My Groups\" page"
-msgstr ""
+msgstr "Diesen Personen wird eine E-Mail geschickt, die sie dazu einlädt der Gruppe beizutreten. Außerdem wird diese Einladung auf ihrer  \"My Groups\" -Seite angezeigt"
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_form:22
 msgid "These user IDs and email addresses will be checked and you will be able to confirm them on the next page."
@@ -4435,7 +4435,7 @@ msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:95
 msgid "These usernames could not be found on the system."
-msgstr ""
+msgstr "Diese Benutzernamen konnten im System nicht gefunden werden."
 
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:49
 msgid ""
@@ -4516,11 +4516,11 @@ msgstr "Dies wurde nun abgeholt. Danke an alle, die Interesse daran gezeigt habe
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:66
 msgid "This image is available for everyone to see"
-msgstr ""
+msgstr "Dieses Bild ist für jede Person sichtbar"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:68
 msgid "This image is waiting for Moderator approval"
-msgstr ""
+msgstr "Dieses Bild wartet auf Genehmigung durch einen Moderator"
 
 #: webapp_myf/templates/source/errors.tt:22
 msgid "This incident has been automatically reported"
@@ -4655,7 +4655,7 @@ msgstr "Diese Aktion wird die Gruppen-Datei an ALLE Mitglieder dieser Gruppe sch
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:60
 msgid "Time (HH:MM:SS, 24 hour clock)"
-msgstr ""
+msgstr "Zeit (HH:MM:SS, 24 Stunden)"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:23 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:23
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:23 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:23
@@ -4953,7 +4953,7 @@ msgstr "SUCHE"
 #. (group_name)
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:14
 msgid "WANTED posts for the %1 group"
-msgstr ""
+msgstr "GESUCHE-Anzeigen für die Gruppe %1"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:301 webapp_modtools/templates/perl/source/moderator_menu:107
 msgid "WANTEDs"
@@ -4969,39 +4969,39 @@ msgstr "Gesuche"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:65
 msgid "Warn people if they have not put something in the location box?"
-msgstr ""
+msgstr "Benutzer warnen, wenn sie keine Ortsangabe gemacht haben?"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:95
 msgid "Warn people if they haven't put something in the description box?"
-msgstr ""
+msgstr "Benutzer warnen, wenn sie keine Beschreibung eingegeben haben?"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:35
 msgid "Warn people if they haven't put something in the subject line"
-msgstr ""
+msgstr "Benutzer warnen, wenn sie keinen Betreff eingegeben haben?"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:99
 msgid "Warn people if they've made the description too long?"
-msgstr ""
+msgstr "Benutzer warnen, wenn die Beschreibung zu lang ist?"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:69
 msgid "Warn people if they've made the location too long?"
-msgstr ""
+msgstr "Benutzer warnen, wenn die Ortsangabe zu lang ist?"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:39
 msgid "Warn people if they've made the subject line too long?"
-msgstr ""
+msgstr "Benutzer warnen, wenn sie zu viele Großbuchstaben in der Beschreibung verwendet haben?"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:107
 msgid "Warn people if they've used too many capital letters in the description?"
-msgstr ""
+msgstr "Benutzer warnen, wenn sie zu viele Großbuchstaben in der Beschreibung verwendet haben?"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:77
 msgid "Warn people if they've used too many capital letters in the location?"
-msgstr ""
+msgstr "Benutzer warnen, wenn sie zu viele Großbuchstaben in der Ortsangabe verwendet haben?"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:47
 msgid "Warn people if they've used too many capital letters in the subject line?"
-msgstr ""
+msgstr "Benutzer warnen, wenn sie zu viele Großbuchstaben im Betreff verwendet haben?"
 
 #: webapp_main/templates/source/about/pressroom.tt:23
 msgid "We are a big grassroots movement but a tiny little nonprofit organization with a staff of one so defending our trademark takes many hands and hearts."
@@ -5047,7 +5047,7 @@ msgstr ""
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:35 webapp_modtools/templates/perl/source/moderator_group_activity_log:35
 msgid "What actually happened"
-msgstr ""
+msgstr "Was passierte aktuell"
 
 #: webapp_main/templates/source/form990/index.tt:4
 msgid "What is the \"Form 990\"?"
@@ -5063,7 +5063,7 @@ msgstr "Welcher Art ist Deine Anzeige? "
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:36 webapp_modtools/templates/perl/source/moderator_group_activity_log:36
 msgid "What was done <b>to</b> - a Member or Post"
-msgstr ""
+msgstr "Was wurde an einem Benutzer oder einer Anzeige geändert"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:19 webapp_modtools/templates/perl/source/moderator_group_activity_log:19
 msgid "When"
@@ -5218,7 +5218,7 @@ msgstr "Du bist schon ein leitender Moderator dieser Gruppe"
 
 #: webapp_myf/templates/source/home/groups/join_too_many.tt:6
 msgid "You are already a Member of too many Freecycle Groups - If you wish to join another Freecycle Group, you must leave one first."
-msgstr ""
+msgstr "Du bist bereits Mitglied von zu vielen Freecycle-Gruppen. Wenn Du dieser Gruppe beitreten möchtest, verlasse bitte vorher eine der anderen."
 
 #: webapp_myf/templates/source/home/groups/search.tt:117
 msgid "You are already a Moderator of this Group"
@@ -5596,7 +5596,7 @@ msgstr "Gruppen-Link hinzugefügt"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:221 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:144
 msgid "ago"
-msgstr ""
+msgstr "her"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:173 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:57
 msgid "approved"
@@ -5640,7 +5640,7 @@ msgstr "changing the world<br />one gift at a time&trade;"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:287
 msgid "click on the thumbnail for full size image"
-msgstr ""
+msgstr "Klicke auf das Minibild um es in voller Größe anzuzeigen"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:84
 msgid "click to edit Post"
@@ -5669,7 +5669,7 @@ msgstr "Tage"
 
 #: webapp_modtools/templates/perl/source/moderator/options/main.tt:87 webapp_modtools/templates/perl/source/moderator/options/main.tt:91
 msgid "days (0 to turn off. Max value: 255)"
-msgstr ""
+msgstr "Tage (0 deaktiviert, 255 ist maximaler Wert)"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:47
 msgid "days ago"
@@ -5741,19 +5741,19 @@ msgstr ""
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:52 webapp_modtools/templates/perl/source/moderator_group_activity_log:52
 msgid "rejected Post ID"
-msgstr ""
+msgstr "Abgelehnte Anzeigen-ID"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:50 webapp_modtools/templates/perl/source/moderator_group_activity_log:50
 msgid "rejected membership request from"
-msgstr ""
+msgstr "abgelehnter Antrag auf Benutzergenehmigung von"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:58 webapp_modtools/templates/perl/source/moderator_group_activity_log:58
 msgid "removed a Group link "
-msgstr ""
+msgstr "einen Gruppen-Link entfernt"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:217 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:140
 msgid "seconds"
-msgstr ""
+msgstr "Sekunden"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:48 webapp_modtools/templates/perl/source/moderator_group_activity_log:48
 msgid "sent an invitation to"
@@ -5761,15 +5761,15 @@ msgstr "Sende Einladung an"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:55 webapp_modtools/templates/perl/source/moderator_group_activity_log:55
 msgid "set this person to \"LeadMod\" level"
-msgstr ""
+msgstr "dieser Person den status \"Leitender Moderator\" vergeben"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:53 webapp_modtools/templates/perl/source/moderator_group_activity_log:53
 msgid "set this person to \"Member\" level"
-msgstr ""
+msgstr "dieser Person den Status  \"Mitglied\" vergeben"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:54 webapp_modtools/templates/perl/source/moderator_group_activity_log:54
 msgid "set this person to \"Mod\" level"
-msgstr ""
+msgstr "dieser Person den Status \"Moderator\" vergeben"
 
 #: webapp_myf/templates/source/home/info/change_username.tt:8
 msgid "start with a letter or number"
