@@ -511,6 +511,10 @@ msgstr ""
 msgid "Force people to put something in the subject line?"
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_overview:86
+msgid "Freecycle Tech Status"
+msgstr ""
+
 #: webapp_modtools/templates/perl/source/moderator_menu:26
 msgid "Go"
 msgstr ""
@@ -569,11 +573,11 @@ msgstr ""
 msgid "Group file ID: %1"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:24
+#: webapp_modtools/templates/perl/source/moderator_overview:25
 msgid "Group home"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:23
+#: webapp_modtools/templates/perl/source/moderator_overview:24
 msgid "Group name"
 msgstr ""
 
@@ -621,6 +625,10 @@ msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_group_admins_view:24
 msgid "ID"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_overview:74
+msgid "If you are a Group mod, please contact your GOA"
 msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_display_hotwords:38
@@ -855,7 +863,7 @@ msgstr ""
 msgid "Member info for the %1 group"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_menu:82 webapp_modtools/templates/perl/source/moderator_menu:86 webapp_modtools/templates/perl/source/moderator_overview:25 webapp_modtools/templates/perl/source/moderator_preferences:23
+#: webapp_modtools/templates/perl/source/moderator_menu:82 webapp_modtools/templates/perl/source/moderator_menu:86 webapp_modtools/templates/perl/source/moderator_overview:26 webapp_modtools/templates/perl/source/moderator_preferences:23
 msgid "Members"
 msgstr ""
 
@@ -1015,11 +1023,11 @@ msgstr ""
 msgid "Object"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:35
+#: webapp_modtools/templates/perl/source/moderator_overview:36
 msgid "On Yahoo!Groups"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:37
+#: webapp_modtools/templates/perl/source/moderator_overview:38
 msgid "On freecycle.org"
 msgstr ""
 
@@ -1088,7 +1096,7 @@ msgstr ""
 msgid "Pending"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:28
+#: webapp_modtools/templates/perl/source/moderator_overview:29
 msgid "Pending Images"
 msgstr ""
 
@@ -1100,7 +1108,7 @@ msgstr ""
 msgid "Pending Member approved"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:26
+#: webapp_modtools/templates/perl/source/moderator_overview:27
 msgid "Pending Members"
 msgstr ""
 
@@ -1109,7 +1117,7 @@ msgstr ""
 msgid "Pending Members of the %1 group"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:27
+#: webapp_modtools/templates/perl/source/moderator_overview:28
 msgid "Pending Messages"
 msgstr ""
 
@@ -1809,8 +1817,12 @@ msgid "You already have a file with this name on this Group - files need unique 
 msgstr ""
 
 #. (numgroups)
-#: webapp_modtools/templates/perl/source/moderator_overview:20
+#: webapp_modtools/templates/perl/source/moderator_overview:21
 msgid "You are a Moderator or Lead Moderator of %1 group"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_overview:73
+msgid "You are not a moderator of any groups."
 msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_members_search_form:43

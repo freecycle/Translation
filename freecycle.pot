@@ -307,8 +307,8 @@ msgid ""
 "check this Post as soon as possible."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:211
-#: webapp_myf/templates/source/signup.tt:219
+#: webapp_myf/templates/source/signup.tt:212
+#: webapp_myf/templates/source/signup.tt:220
 msgid "A temporary error has occurred"
 msgstr ""
 
@@ -818,7 +818,7 @@ msgstr ""
 msgid "Collective Membership Mark Usage Agreement"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:38
+#: webapp_myf/templates/source/signup.tt:39
 msgid "Confirm email address :"
 msgstr ""
 
@@ -830,7 +830,7 @@ msgstr ""
 msgid "Confirm new password:"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:47
+#: webapp_myf/templates/source/signup.tt:48
 msgid "Confirm password"
 msgstr ""
 
@@ -1171,11 +1171,11 @@ msgstr ""
 #: templates/source/index.tt:93 templates/source/search_box.tt:84
 #: webapp_myf/templates/source/forgottenpassword.tt:97
 #: webapp_myf/templates/source/forgottenusername.tt:20
-#: webapp_myf/templates/source/signup.tt:33
+#: webapp_myf/templates/source/signup.tt:34
 msgid "Email address :"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:218
+#: webapp_myf/templates/source/signup.tt:219
 msgid "Email address invalid - an error was returned when it was checked"
 msgstr ""
 
@@ -1387,6 +1387,10 @@ msgstr ""
 msgid "Forms are available for each of these years:"
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_overview:86
+msgid "Freecycle Tech Status"
+msgstr ""
+
 #: webapp_main/templates/source/about/pressroom.tt:72
 msgid ""
 "Freecycle can educate the world at a local level about how critical "
@@ -1564,7 +1568,7 @@ msgstr ""
 msgid "Group file ID: %1"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:24
+#: webapp_modtools/templates/perl/source/moderator_overview:25
 msgid "Group home"
 msgstr ""
 
@@ -1577,7 +1581,7 @@ msgstr ""
 msgid "Group limit reached"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:23
+#: webapp_modtools/templates/perl/source/moderator_overview:24
 msgid "Group name"
 msgstr ""
 
@@ -1703,7 +1707,7 @@ msgid ""
 msgstr ""
 
 #. ("//www.freecycle.org/tos")
-#: webapp_myf/templates/source/signup.tt:71
+#: webapp_myf/templates/source/signup.tt:72
 msgid "I agree to The Freecycle Network <a href='%1'>Terms of Service</a>."
 msgstr ""
 
@@ -1793,6 +1797,10 @@ msgid ""
 "appropriate action, but please do not be offended if the ModTeam doesn't "
 "acknowledge your report - it may have been just one of many they've received "
 "in relation to this Post."
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_overview:74
+msgid "If you are a Group mod, please contact your GOA"
 msgstr ""
 
 #: webapp_myf/templates/source/home/posts/new_okay.tt:21
@@ -1915,7 +1923,7 @@ msgid ""
 "  <a href='/home/posts'>the Posts you have made</a>."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:64
+#: webapp_myf/templates/source/signup.tt:65
 msgid ""
 "If you're having problems with CAPTCHAs, you can check this box to request "
 "an email confirmation. You will be sent a randomly generated password which "
@@ -2102,21 +2110,21 @@ msgstr ""
 msgid "Interim Mod Team Member (IMod Team)"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:216
+#: webapp_myf/templates/source/signup.tt:217
 msgid "Invalid country"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:152
-#: webapp_myf/templates/source/signup.tt:165
+#: webapp_myf/templates/source/signup.tt:153
+#: webapp_myf/templates/source/signup.tt:166
 msgid "Invalid email address"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:217
+#: webapp_myf/templates/source/signup.tt:218
 msgid "Invalid region"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:125
-#: webapp_myf/templates/source/signup.tt:138
+#: webapp_myf/templates/source/signup.tt:126
+#: webapp_myf/templates/source/signup.tt:139
 msgid "Invalid username"
 msgstr ""
 
@@ -2445,7 +2453,7 @@ msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_menu:82
 #: webapp_modtools/templates/perl/source/moderator_menu:86
-#: webapp_modtools/templates/perl/source/moderator_overview:25
+#: webapp_modtools/templates/perl/source/moderator_overview:26
 #: webapp_modtools/templates/perl/source/moderator_preferences:23
 msgid "Members"
 msgstr ""
@@ -2862,11 +2870,11 @@ msgid ""
 "Tucsonans in need."
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:35
+#: webapp_modtools/templates/perl/source/moderator_overview:36
 msgid "On Yahoo!Groups"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:37
+#: webapp_modtools/templates/perl/source/moderator_overview:38
 msgid "On freecycle.org"
 msgstr ""
 
@@ -3018,7 +3026,7 @@ msgstr ""
 msgid "Paging options"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:44
+#: webapp_myf/templates/source/signup.tt:45
 #: webapp_main/templates/source/login/index.tt:11
 msgid "Password"
 msgstr ""
@@ -3027,7 +3035,7 @@ msgstr ""
 msgid "Password : "
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:179
+#: webapp_myf/templates/source/signup.tt:180
 msgid "Passwords don't match"
 msgstr ""
 
@@ -3039,7 +3047,7 @@ msgstr ""
 msgid "Pending"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:28
+#: webapp_modtools/templates/perl/source/moderator_overview:29
 msgid "Pending Images"
 msgstr ""
 
@@ -3053,7 +3061,7 @@ msgstr ""
 msgid "Pending Member approved"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:26
+#: webapp_modtools/templates/perl/source/moderator_overview:27
 msgid "Pending Members"
 msgstr ""
 
@@ -3062,7 +3070,7 @@ msgstr ""
 msgid "Pending Members of the %1 group"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:27
+#: webapp_modtools/templates/perl/source/moderator_overview:28
 msgid "Pending Messages"
 msgstr ""
 
@@ -3202,22 +3210,22 @@ msgstr ""
 msgid "Please let us know why you think this link is an issue:"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:166
+#: webapp_myf/templates/source/signup.tt:167
 msgid ""
 "Please make sure you've entered your email address correctly in both fields"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:153
+#: webapp_myf/templates/source/signup.tt:154
 msgid "Please make sure you've entered your email address in correctly"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:221
+#: webapp_myf/templates/source/signup.tt:222
 msgid ""
 "Please make sure you've entered your email address in correctly in both "
 "fields"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:180
+#: webapp_myf/templates/source/signup.tt:181
 msgid "Please make sure you've entered your password correctly in both fields"
 msgstr ""
 
@@ -3943,24 +3951,24 @@ msgstr ""
 msgid "Showing %1 to %2 of %3 results."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:75
+#: webapp_myf/templates/source/signup.tt:76
 msgid "Sign up"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:15
+#: webapp_myf/templates/source/signup.tt:16
 msgid "Sign up for My Freecycle"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:24
+#: webapp_myf/templates/source/signup.tt:25
 msgid "Sign up form"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:84
-#: webapp_myf/templates/source/signup.tt:93
+#: webapp_myf/templates/source/signup.tt:85
+#: webapp_myf/templates/source/signup.tt:94
 msgid "Sign up using Facebook"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:25
+#: webapp_myf/templates/source/signup.tt:26
 msgid "Sign up using freecycle.org"
 msgstr ""
 
@@ -4139,7 +4147,7 @@ msgstr ""
 msgid "Thanks to you!"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:214
+#: webapp_myf/templates/source/signup.tt:215
 msgid "That email address is already signed up"
 msgstr ""
 
@@ -4147,7 +4155,7 @@ msgstr ""
 msgid "That group cannot be found"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:213
+#: webapp_myf/templates/source/signup.tt:214
 msgid "That username is already taken"
 msgstr ""
 
@@ -4175,7 +4183,7 @@ msgid ""
 "of headphones... (boc@freecycle.org)"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:222
+#: webapp_myf/templates/source/signup.tt:223
 msgid "The CAPTCHA was incorrect"
 msgstr ""
 
@@ -4666,7 +4674,7 @@ msgstr ""
 msgid "The total number of members in all groups"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:212
+#: webapp_myf/templates/source/signup.tt:213
 msgid "The username or email address was invalid"
 msgstr ""
 
@@ -4752,7 +4760,7 @@ msgstr ""
 msgid "There was an error generating a new password for you"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:215
+#: webapp_myf/templates/source/signup.tt:216
 msgid "There was an error sending the notification email"
 msgstr ""
 
@@ -5262,7 +5270,7 @@ msgstr ""
 
 #: webapp_myf/templates/source/forgottenpassword.tt:94
 #: webapp_myf/templates/source/index.tt:13
-#: webapp_myf/templates/source/signup.tt:29
+#: webapp_myf/templates/source/signup.tt:30
 msgid "Username :"
 msgstr ""
 
@@ -5279,7 +5287,7 @@ msgstr ""
 msgid "Username sent"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:139
+#: webapp_myf/templates/source/signup.tt:140
 msgid ""
 "Usernames may only contain the letters, numbers, underscores, minus signs "
 "and plus signs"
@@ -5289,11 +5297,11 @@ msgstr ""
 msgid "Usernames must"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:126
+#: webapp_myf/templates/source/signup.tt:127
 msgid "Usernames must be at least 4 characters long"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:20
+#: webapp_myf/templates/source/signup.tt:21
 msgid ""
 "Usernames must be between 4 and 32 characters in length, start with a letter "
 "or number, and may only contain alphanumeric characters (A-Z, 0-9), "
@@ -5640,7 +5648,7 @@ msgid "You are a Moderator of %1 group(s)."
 msgstr ""
 
 #. (numgroups)
-#: webapp_modtools/templates/perl/source/moderator_overview:20
+#: webapp_modtools/templates/perl/source/moderator_overview:21
 msgid "You are a Moderator or Lead Moderator of %1 group"
 msgstr ""
 
@@ -5674,6 +5682,10 @@ msgstr ""
 
 #: webapp_myf/templates/source/home/groups/index.tt:99
 msgid "You are not a member of any groups."
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_overview:73
+msgid "You are not a moderator of any groups."
 msgstr ""
 
 #. (c.uri_for_action('/browse/index')
@@ -5733,11 +5745,11 @@ msgid ""
 "already assigned to a different 'My Freecycle' account."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:193
+#: webapp_myf/templates/source/signup.tt:194
 msgid "You cannot use My Freecycle without agreeing to the Terms of Service"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:220
+#: webapp_myf/templates/source/signup.tt:221
 msgid "You cannot use this service without agreeing to the Terms of Service"
 msgstr ""
 
@@ -5810,7 +5822,7 @@ msgid ""
 "Or, you may edit your membership settings by clicking <a href='%3'>here</a>."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:192
+#: webapp_myf/templates/source/signup.tt:193
 msgid "You must accept the Terms of Service"
 msgstr ""
 
@@ -5926,7 +5938,7 @@ msgid ""
 "message."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:17
+#: webapp_myf/templates/source/signup.tt:18
 msgid ""
 "You will need to create an account before you can use My Freecycle. You will "
 "need to pick a unique username and enter a valid email address that you "
@@ -6220,7 +6232,7 @@ msgstr ""
 msgid "open"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:81
+#: webapp_myf/templates/source/signup.tt:82
 msgid "or"
 msgstr ""
 
