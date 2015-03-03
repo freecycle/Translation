@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:42 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:59
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:47 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:59 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:59 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:59
 msgid " (closed)"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:43 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:60
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:48 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:60 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:60 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:60
 msgid " (pending)"
 msgstr ""
 
@@ -79,7 +79,7 @@ msgstr ""
 msgid "A link to the Yahoo!Group"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:111 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:150 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:100 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:143 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:143 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:143
+#: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:111 webapp_modtools/templates/perl/source/moderator_group_posts_search_results:74 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:150 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:102 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:148 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:148 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:149
 msgid "ADMIN"
 msgstr ""
 
@@ -163,7 +163,7 @@ msgstr ""
 msgid "Approve Post and unmoderate Member"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:297
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:298
 msgid "Approve all"
 msgstr ""
 
@@ -220,7 +220,7 @@ msgstr ""
 msgid "Back to file list"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:26 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:112 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:51
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:26 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:112 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:52
 msgid "Body"
 msgstr ""
 
@@ -230,6 +230,10 @@ msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:115
 msgid "CANCEL"
+msgstr ""
+
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:326 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:122 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:169
+msgid "CANCELLED"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/delete_file.tt:20 webapp_modtools/templates/source/manage/files/edit.tt:85 webapp_modtools/templates/source/manage/files/send_file.tt:20
@@ -252,7 +256,7 @@ msgstr ""
 msgid "Change custom logo"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:105 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:98 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:98 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:98
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:105 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:103 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:103 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:104
 msgid "Change list criteria"
 msgstr ""
 
@@ -286,7 +290,7 @@ msgid ""
 "        available in the wiki for public viewing - that way we can all point people to a single, definitive document"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:27 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:108 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:26 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:47 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:27 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:27 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:27
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:27 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:108 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:26 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:48 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:27 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:27 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:27
 msgid "Date"
 msgstr ""
 
@@ -310,7 +314,7 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:298
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:299
 msgid "Delete all"
 msgstr ""
 
@@ -385,7 +389,7 @@ msgstr ""
 msgid "Do it"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:40 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:71 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:64 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:64 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:64 webapp_modtools/templates/perl/source/moderator_members_list:153
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:40 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:71 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:69 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:69 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:70 webapp_modtools/templates/perl/source/moderator_members_list:153
 msgid "Do nothing"
 msgstr ""
 
@@ -405,7 +409,7 @@ msgstr ""
 msgid "Edit link"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:92
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:94
 msgid "Edit this Post"
 msgstr ""
 
@@ -417,7 +421,7 @@ msgstr ""
 msgid "Email address"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:185 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:75
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:186 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:77
 msgid "Email headers"
 msgstr ""
 
@@ -635,11 +639,11 @@ msgstr ""
 msgid "If you want to match one or more letters, use \"?*\" or \"*?\", e.g. \"grub?*\" would match \"grubs\" and \"grubby\" but not \"grub\""
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:117 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:63 webapp_modtools/templates/perl/source/moderator_members_list:121
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:117 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:64 webapp_modtools/templates/perl/source/moderator_members_list:121
 msgid "Image"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:253
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:254
 msgid "Image for Post"
 msgstr ""
 
@@ -647,16 +651,11 @@ msgstr ""
 msgid "In addition to saving any changes you've made"
 msgstr ""
 
-#. (closed' posts?')
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:121 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:114
-msgid "Include "
-msgstr ""
-
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:114 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:114
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:121 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:119 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:119 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:120
 msgid "Include 'closed' posts?"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:117 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:110 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:110 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:110
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:117 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:115 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:115 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:116
 msgid "Include 'open' (approved) posts?"
 msgstr ""
 
@@ -672,11 +671,11 @@ msgstr ""
 msgid "Include Moderators"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:22
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:19
 msgid "Include approved posts"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:27
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:23
 msgid "Include closed posts"
 msgstr ""
 
@@ -688,15 +687,15 @@ msgstr ""
 msgid "Include pending Members"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:32
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:27
 msgid "Include pending posts"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:113 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:106 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:106 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:106
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:113 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:111 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:111 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:112
 msgid "Include pending posts?"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:9
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:8
 msgid "Include posts made to all Groups"
 msgstr ""
 
@@ -774,7 +773,7 @@ msgstr ""
 msgid "Lead Moderators of the %1 group"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:205 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:128
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:206 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:134
 msgid "Less than a day"
 msgstr ""
 
@@ -782,7 +781,7 @@ msgstr ""
 msgid "Level"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:48 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:24 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:100 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:24 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:39 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:24 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:24 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:24
+#: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:48 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:24 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:100 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:24 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:40 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:24 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:24 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:24
 msgid "Location"
 msgstr ""
 
@@ -974,7 +973,7 @@ msgstr ""
 msgid "No ADMINs have been sent to this Group yet"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:59
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:64
 msgid "No Posts match your search terms"
 msgstr ""
 
@@ -1002,7 +1001,7 @@ msgstr ""
 msgid "Number of Members"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:119 webapp_modtools/templates/perl/source/moderator_group_posts_overview:26 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:154 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:309 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:104 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:147 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:147 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:147
+#: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:119 webapp_modtools/templates/perl/source/moderator_group_posts_overview:26 webapp_modtools/templates/perl/source/moderator_group_posts_search_results:78 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:154 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:310 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:106 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:152 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:152 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:153
 msgid "OFFER"
 msgstr ""
 
@@ -1011,11 +1010,11 @@ msgstr ""
 msgid "OFFER posts for the %1 group"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:300 webapp_modtools/templates/perl/source/moderator_menu:105
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:301 webapp_modtools/templates/perl/source/moderator_menu:105
 msgid "OFFERs"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:14
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:12
 msgid "OR"
 msgstr ""
 
@@ -1080,7 +1079,7 @@ msgstr ""
 msgid "Overview page"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:88 webapp_modtools/templates/perl/source/moderator_group_activity_log:88 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:134 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:127 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:127 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:127
+#: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:88 webapp_modtools/templates/perl/source/moderator_group_activity_log:88 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:134 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:132 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:132 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:133
 msgid "Page"
 msgstr ""
 
@@ -1088,7 +1087,7 @@ msgstr ""
 msgid "Page:"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:126 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:119 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:119 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:119
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:126 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:124 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:124 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:125
 msgid "Paging options"
 msgstr ""
 
@@ -1126,7 +1125,7 @@ msgstr ""
 msgid "Pending posts for the %1 group"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:304
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:305
 msgid "Perform bulk operation"
 msgstr ""
 
@@ -1162,7 +1161,7 @@ msgstr ""
 msgid "Post"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:22 webapp_modtools/templates/perl/source/moderator_group_posts_search_form:14 webapp_modtools/templates/perl/source/moderator_group_posts_search_results:18 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:21 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:157 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:21 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:83 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:18 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:21 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:21 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:21
+#: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:22 webapp_modtools/templates/perl/source/moderator_group_posts_search_form:12 webapp_modtools/templates/perl/source/moderator_group_posts_search_results:18 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:21 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:157 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:21 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:83 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:18 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:21 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:21 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:21
 msgid "Post ID"
 msgstr ""
 
@@ -1170,7 +1169,7 @@ msgstr ""
 msgid "Post description settings"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:21 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:111 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:104 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:104 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:104
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:18 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:111 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:109 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:109 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:110
 msgid "Post flags"
 msgstr ""
 
@@ -1182,7 +1181,7 @@ msgstr ""
 msgid "Post location settings"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:177
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:178
 msgid "Post reject reason"
 msgstr ""
 
@@ -1190,7 +1189,7 @@ msgstr ""
 msgid "Post type"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:22 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:26 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:104 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:25 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:43 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:26 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:26 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:26
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:22 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:26 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:104 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:25 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:44 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:26 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:26 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:26
 msgid "Posted By"
 msgstr ""
 
@@ -1243,7 +1242,7 @@ msgstr ""
 msgid "Quick jump to"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:131 webapp_modtools/templates/perl/source/moderator_group_posts_overview:55 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:166 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:321 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:116 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:159 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:159 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:159
+#: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:131 webapp_modtools/templates/perl/source/moderator_group_posts_overview:55 webapp_modtools/templates/perl/source/moderator_group_posts_search_results:90 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:166 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:322 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:118 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:164 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:164 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:165
 msgid "RECEIVED"
 msgstr ""
 
@@ -1252,7 +1251,7 @@ msgstr ""
 msgid "RECEIVED posts for the %1 group"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:303 webapp_modtools/templates/perl/source/moderator_menu:108
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:304 webapp_modtools/templates/perl/source/moderator_menu:108
 msgid "RECEIVEDs"
 msgstr ""
 
@@ -1284,11 +1283,11 @@ msgstr ""
 msgid "Remove Member from Group"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:74 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:67 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:67 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:67
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:74 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:72 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:72 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:73
 msgid "Remove Post and mod Member"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:72 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:65 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:65 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:65
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:72 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:70 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:70 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:71
 msgid "Remove Post from My Freecycle"
 msgstr ""
 
@@ -1296,7 +1295,7 @@ msgstr ""
 msgid "Resend all invitations older than"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:81 webapp_modtools/templates/perl/source/moderator_group_activity_log:81 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:127 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:120 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:120 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:120
+#: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:81 webapp_modtools/templates/perl/source/moderator_group_activity_log:81 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:127 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:125 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:125 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:126
 msgid "Results per page"
 msgstr ""
 
@@ -1345,7 +1344,7 @@ msgstr ""
 msgid "Search for Members"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:42
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:36
 msgid "Search for Posts"
 msgstr ""
 
@@ -1420,15 +1419,15 @@ msgid "Show \"Fair Offer Policy\" option?"
 msgstr ""
 
 #. (first, last, total_results)
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:101 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:94 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:94 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:94
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:101 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:99 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:99 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:100
 msgid "Showing %1 to %2 of %3"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:55
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:56
 msgid "Status"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:25 webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:44 webapp_modtools/templates/perl/source/moderator_group_posts_search_results:21 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:158 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:23 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:96 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:35
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:25 webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:44 webapp_modtools/templates/perl/source/moderator_group_posts_search_results:21 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:158 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:23 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:96 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:36
 msgid "Subject"
 msgstr ""
 
@@ -1440,7 +1439,7 @@ msgstr ""
 msgid "Submit"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:123 webapp_modtools/templates/perl/source/moderator_group_posts_overview:37 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:158 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:313 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:108 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:151 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:151 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:151
+#: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:123 webapp_modtools/templates/perl/source/moderator_group_posts_overview:37 webapp_modtools/templates/perl/source/moderator_group_posts_search_results:82 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:158 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:314 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:110 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:156 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:156 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:157
 msgid "TAKEN"
 msgstr ""
 
@@ -1449,7 +1448,7 @@ msgstr ""
 msgid "TAKEN posts for the %1 group"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:302 webapp_modtools/templates/perl/source/moderator_menu:106
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:303 webapp_modtools/templates/perl/source/moderator_menu:106
 msgid "TAKENs"
 msgstr ""
 
@@ -1489,6 +1488,10 @@ msgstr ""
 msgid "The person who <b>did</b> it"
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:70
+msgid "The policy is now that no images will be moderated."
+msgstr ""
+
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:45
 msgid "The total number of members in all groups"
 msgstr ""
@@ -1520,7 +1523,7 @@ msgstr ""
 msgid "There are no pending posts"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:82 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:82 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:82
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:87 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:87 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:88
 msgid "There are no posts matching your selection"
 msgstr ""
 
@@ -1610,11 +1613,11 @@ msgid ""
 "only"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:66
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:67
 msgid "This image is available for everyone to see"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:68
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:69
 msgid "This image is waiting for Moderator approval"
 msgstr ""
 
@@ -1739,7 +1742,7 @@ msgstr ""
 msgid "View/Edit details"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:127 webapp_modtools/templates/perl/source/moderator_group_posts_overview:44 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:162 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:317 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:112 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:155 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:155 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:155
+#: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:127 webapp_modtools/templates/perl/source/moderator_group_posts_overview:44 webapp_modtools/templates/perl/source/moderator_group_posts_search_results:86 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:162 webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:318 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:114 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:160 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:160 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:161
 msgid "WANTED"
 msgstr ""
 
@@ -1748,7 +1751,7 @@ msgstr ""
 msgid "WANTED posts for the %1 group"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:301 webapp_modtools/templates/perl/source/moderator_menu:107
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:302 webapp_modtools/templates/perl/source/moderator_menu:107
 msgid "WANTEDs"
 msgstr ""
 
@@ -1840,11 +1843,11 @@ msgstr ""
 msgid "added a Group link "
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:221 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:144
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:222 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:150
 msgid "ago"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:173 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:57
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:174 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:58
 msgid "approved"
 msgstr ""
 
@@ -1856,7 +1859,7 @@ msgstr ""
 msgid "approved membership of"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:287
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:288
 msgid "click on the thumbnail for full size image"
 msgstr ""
 
@@ -1864,11 +1867,11 @@ msgstr ""
 msgid "click to edit Post"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:174 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:58
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:175 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:59
 msgid "closed"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:201 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:124 webapp_modtools/templates/perl/source/moderator_members_list:371 webapp_modtools/templates/perl/source/moderator_members_list:376
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:202 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:130 webapp_modtools/templates/perl/source/moderator_members_list:371 webapp_modtools/templates/perl/source/moderator_members_list:376
 msgid "days"
 msgstr ""
 
@@ -1876,7 +1879,7 @@ msgstr ""
 msgid "days (0 to turn off. Max value: 255)"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:47
+#: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:52
 msgid "days ago"
 msgstr ""
 
@@ -1888,7 +1891,7 @@ msgstr ""
 msgid "edited a Group link "
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:209 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:132
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:210 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:138
 msgid "hours"
 msgstr ""
 
@@ -1904,7 +1907,7 @@ msgstr ""
 msgid "member management pages"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:213 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:136
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:214 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:142
 msgid "minutes"
 msgstr ""
 
@@ -1912,11 +1915,11 @@ msgstr ""
 msgid "note: unticking 'approve' boxes will clear any existing approval, moving it back to pending"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:174 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:58
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:175 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:59
 msgid "open"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:173 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:57
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:174 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:58
 msgid "pending"
 msgstr ""
 
@@ -1932,7 +1935,7 @@ msgstr ""
 msgid "removed a Group link "
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:217 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:140
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:218 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:146
 msgid "seconds"
 msgstr ""
 
@@ -1952,7 +1955,7 @@ msgstr ""
 msgid "set this person to \"Mod\" level"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:95 webapp_modtools/templates/perl/source/moderator_group_activity_log:95 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:142 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:135 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:135 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:135
+#: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:95 webapp_modtools/templates/perl/source/moderator_group_activity_log:95 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:142 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:140 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:140 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:141
 msgid "submit"
 msgstr ""
 
@@ -1964,10 +1967,10 @@ msgstr ""
 msgid "uploaded or modified Group file with ID "
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:108 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:101 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:101 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:101
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:108 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:106 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:106 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:107
 msgid "view_offers"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:109 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:102 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:102 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:102
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:109 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:107 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:107 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:108
 msgid "yes"
 msgstr ""
