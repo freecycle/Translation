@@ -584,12 +584,8 @@ msgstr ""
 msgid "Oops..."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:44
+#: webapp_myf/templates/source/index.tt:16 webapp_myf/templates/source/signup.tt:44
 msgid "Password"
-msgstr ""
-
-#: webapp_myf/templates/source/index.tt:16
-msgid "Password : "
 msgstr ""
 
 #: webapp_myf/templates/source/signup.tt:179
@@ -1031,7 +1027,11 @@ msgstr ""
 msgid "User not found"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenpassword.tt:94 webapp_myf/templates/source/index.tt:13 webapp_myf/templates/source/signup.tt:29
+#: webapp_myf/templates/source/index.tt:13
+msgid "Username (or email address)"
+msgstr ""
+
+#: webapp_myf/templates/source/forgottenpassword.tt:94 webapp_myf/templates/source/signup.tt:29
 msgid "Username :"
 msgstr ""
 

@@ -172,7 +172,7 @@ msgstr ""
 
 #. (region.region_name)
 #: webapp_main/templates/source/browse/group_list.tt:12
-msgid "Active groups in the %1 region :"
+msgid "Active groups in %1 :"
 msgstr ""
 
 #: webapp_main/templates/source/donate.tt:62 webapp_main/templates/source/donate.tt:95
@@ -310,6 +310,11 @@ msgstr ""
 msgid "Editorials about Freecycle"
 msgstr ""
 
+#. (region.country.country_name)
+#: webapp_main/templates/source/browse/group_list.tt:14
+msgid "Elsewhere in %1"
+msgstr ""
+
 #: webapp_main/templates/source/login/forgotten_password.tt:7 webapp_main/templates/source/login/index.tt:8
 msgid "Email address"
 msgstr ""
@@ -361,7 +366,7 @@ msgid "Freecycle can educate the world at a local level about how critical recyc
 msgstr ""
 
 #: webapp_main/templates/source/browse/region_list.tt:15
-msgid "Freecycle is active in these regions :"
+msgid "Freecycle is active in the following :"
 msgstr ""
 
 #: webapp_main/templates/source/donate.tt:11
@@ -690,11 +695,6 @@ msgstr ""
 
 #: webapp_main/templates/source/email/post_abuse_report.tt:9
 msgid "Original Post details:"
-msgstr ""
-
-#. (region.country.country_name)
-#: webapp_main/templates/source/browse/group_list.tt:14
-msgid "Other regions of %1"
 msgstr ""
 
 #: webapp_main/templates/source/about/privacy.tt:6
