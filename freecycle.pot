@@ -5639,6 +5639,7 @@ msgid "Yes"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/delete_file.tt:19
+#: core_modules/lib/Freecycle/Email.pm:3655
 msgid "Yes, delete it"
 msgstr ""
 

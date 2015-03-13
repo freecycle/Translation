@@ -232,6 +232,10 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
+#: core_modules/lib/Freecycle/Email.pm:3655
+msgid "Yes, delete it"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:12
 msgid "changing the world one gift at a time"
 msgstr ""
