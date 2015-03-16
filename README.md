@@ -3,11 +3,22 @@ Translation
 
 Translation catalogs for The Freecycle Network sites
 
-There are several sub-projects within the Freecycle.org system - these each have a separate translation catalogs, which are combined to form a single master translation catalog. This master catalog is used to update the translation files, allowing for an overview of how "complete" a translation is.
+There are several sub-projects within the Freecycle.org system - these each have separate translation catalogs, which are combined to form a single master translation catalog. This master catalog (freecycle.pot) is used to update the translation files (the various .po files like de.po, fr.po, etc), allowing for an overview of how "complete" a translation is.
 
 ## Using the translation catalogs
 
 The main "freecycle.pot" catalog file can be used to start a new language translation, or update an existing translation file. It contains a list of **all** the strings requiring translation, and is used to update the individual translations when new strings are added or existing strings become obsolete.
+
+Our system is centered on using Github, which is a way for us to share our
+translatable text publicly and let anyone help out.  The first step to getting involved is to create an account on Github if you don't have one already ( at https://github.com/ ).
+
+Once you have an account, our files are here at this repository:  
+https://github.com/freecycle/Translation.  
+You need to fork the repository, and then clone a copy of your fork onto your local computer.  (if you need help doing that see  https://help.github.com/articles/fork-a-repo/ ).  You should also "watch" our repository, so that you get notified when we update anything.
+
+Translation work is done via the cross-platform free application POEdit (if you don't have POedit, you can download it at http://poedit.net  )
+
+If you have any problems, you can open an issue on this repo, or contact steev AT freecycle.org.
 
 ### Creating a new language translation
 
@@ -18,14 +29,25 @@ The main "freecycle.pot" catalog file can be used to start a new language transl
 
 The most important field is "Language" - this should be filled in with the ISO 639-1 language code (e.g. "fr" for French, "de" for German, "es" for Spanish, etc.) along with locale if required ("en_US", "en_GB", "es_MX")
 
-The file should be saved under the same name as the "Language" field (e.g. "en_US.po") - this allows us to easily see which languages have (at least a partial) translation.
+The file should be saved under the same name as the "Language" field (e.g. "en_US.po") - this allows us to easily see which languages have (at least a partial) translation. 
 
 ### Updating an existing translation
 
 Firstly, it's important that you have the latest version of any existing translation catalog and you update the catalog before you perform any additional translations.
 
-Updating the translation catalog ensures that you receive any work performed by another translator, potentially saving duplicated work.
+Updating the translation catalog ensures that you receive any work performed by another translator, potentially saving duplicated work, and ensures that your po file reflects any changes in the software that have happened.  As we change anything on the site, the translatable entries may also likely change.  So you should get in the habit of updating your po file from the freecycle.pot file often.  
 
 Updating the catalog with the .pot file will remove any obsolete string (text that is no longer found to need translating) and add any new strings to the translation catalog. The translations for obsolete strings will still remain in the translation catalog until they are purged (Catalogue->Purge Deleted Translations)
 
-To update the catalog using the .pot file, simply select "Update from POT file" from the "Catalogue" menu, and open the "freecycle.pot" file.
+To update the catalog using the .pot file, update your repository and then in POEdit simply select "Update from POT file" from the "Catalogue" menu, and open the "freecycle.pot" file.
+
+### Submitting your work to us
+
+Whenever you're finished with enough new work on your translation to warrant getting it to us, first make sure your po file is saved and in the translations directory. That's the only file you should ever need to create or change.  When you're ready to submit your work to us, commit and push your changes to your forked repository.  Then create a pull request, which is basically a way to tell us you have changes in your fork that you'd like us to use.  see
+https://help.github.com/articles/creating-a-pull-request 
+
+When you issue the pull request, We'll get a notification and can take a look and confirm the changes and merge it into our repository. Then there might be a delay of a few days before your translation changes appear on the website, as it involves copying your .po file and deploying it to our servers, etc.  But, new revisions to the website are usually pushed live at least once a week, so you'll probably see your changes happen in that timeframe. We'll also try to keep in direct touch with you when things are being updated.
+
+Again, don't hesitate to contact Steev with any questions or need for further clarification. 
+
+Thanks for all your hard work!
