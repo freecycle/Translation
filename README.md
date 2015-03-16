@@ -14,13 +14,30 @@ translatable text publicly and let anyone help out.  The first step to getting i
 
 Once you have an account, our files are here at this repository:  
 https://github.com/freecycle/Translation.  
-You need to fork the repository, and then clone a copy of your fork onto your local computer.  (if you need help doing that see  https://help.github.com/articles/fork-a-repo/ ).  You should also "watch" our repository, so that you get notified when we update anything.
+You need to fork the repository, and then clone a copy of your fork onto your local computer.  (if you need help doing that see  https://help.github.com/articles/fork-a-repo/ ).  
+(If you need help cloning your repo,  this page explains how:
+https://help.github.com/articles/cloning-a-repository/
+or if you need help setting up Git on your computer, see https://help.github.com/articles/set-up-git/
+
+You should also "watch" our repository, so that you get notified when we update anything.
 
 Translation work is done via the cross-platform free application POEdit (if you don't have POedit, you can download it at http://poedit.net  )
 
 If you have any problems, you can open an issue on this repo, or contact steev AT freecycle.org.
 
+### Updating an existing translation
+
+Firstly, it's important that you have the latest version of any existing translation catalog and you update the catalog before you perform any additional translations. (Before creating a new one, make sure there isn't already a catalog for your language - for instance, "es.po", or "fr.po".) Note that this is the only file you'll likely ever need to change.  Never change any .pot files!
+
+Updating the translation catalog ensures that you receive any work performed by another translator, potentially saving duplicated work, and ensures that your po file reflects any changes in the software that have happened.  As we change anything on the site, the translatable entries may also likely change.  So you should get in the habit of updating your po file from the freecycle.pot file often.  
+
+Updating the catalog with the .pot file will remove any obsolete string (text that is no longer found to need translating) and add any new strings to the translation catalog. The translations for obsolete strings will still remain in the translation catalog until they are purged (Catalogue->Purge Deleted Translations)
+
+To update the catalog using the .pot file, update your repository and then in POEdit simply select "Update from POT file" from the "Catalogue" menu, and open the "freecycle.pot" file.
+
 ### Creating a new language translation
+
+Before creating a new one, make sure there isn't already a catalog for your language.
 
 1. Load poedit
 2. Select "New catalog from POT file" from the "File" menu
@@ -31,15 +48,7 @@ The most important field is "Language" - this should be filled in with the ISO 6
 
 The file should be saved under the same name as the "Language" field (e.g. "en_US.po") - this allows us to easily see which languages have (at least a partial) translation. 
 
-### Updating an existing translation
 
-Firstly, it's important that you have the latest version of any existing translation catalog and you update the catalog before you perform any additional translations.
-
-Updating the translation catalog ensures that you receive any work performed by another translator, potentially saving duplicated work, and ensures that your po file reflects any changes in the software that have happened.  As we change anything on the site, the translatable entries may also likely change.  So you should get in the habit of updating your po file from the freecycle.pot file often.  
-
-Updating the catalog with the .pot file will remove any obsolete string (text that is no longer found to need translating) and add any new strings to the translation catalog. The translations for obsolete strings will still remain in the translation catalog until they are purged (Catalogue->Purge Deleted Translations)
-
-To update the catalog using the .pot file, update your repository and then in POEdit simply select "Update from POT file" from the "Catalogue" menu, and open the "freecycle.pot" file.
 
 ### a note about using POedit
 In case this is not obvious, one important thing to remember is that in some of the translation entries there will be special "variables" that look like %1, %2, etc... It's important to leave those in your translated text, unchanged.  Those will be replaced with a value (often a number like in a sentence that lists who many members are in a group, etc).  Also, occasionally there will be HTML code that is included, like "&lt;br&gt;" or "&lt;P&gt;" - please also leave those unchanged in your translation.
