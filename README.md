@@ -42,7 +42,7 @@ Updating the catalog with the .pot file will remove any obsolete string (text th
 To update the catalog using the .pot file, update your repository and then in POEdit simply select "Update from POT file" from the "Catalogue" menu, and open the "freecycle.pot" file.
 
 ### a note about using POedit
-In case this is not obvious, one important thing to remember is that in some of the translation entries there will be special "variables" that look like %1, %2, etc... It's important to leave those in your translated text, unchanged.  Those will be replaced with a value (often a number like in a sentence that lists who many members are in a group, etc).  Also, occasionally there will be HTML code that is included, like "<br>" or "<P>" - please also leave those unchanged in your translation.
+In case this is not obvious, one important thing to remember is that in some of the translation entries there will be special "variables" that look like %1, %2, etc... It's important to leave those in your translated text, unchanged.  Those will be replaced with a value (often a number like in a sentence that lists who many members are in a group, etc).  Also, occasionally there will be HTML code that is included, like "&lt;br&gt;" or "&lt;P&gt;" - please also leave those unchanged in your translation.
 
 ### Submitting your work to us
 
