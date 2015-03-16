@@ -27,7 +27,7 @@ If you have any problems, you can open an issue on this repo, or contact steev A
 
 ### Updating an existing translation
 
-Firstly, it's important that you have the latest version of any existing translation catalog and you update the catalog before you perform any additional translations. (Before creating a new one, make sure there isn't already a catalog for your language - for instance, "es.po", or "fr.po".) Note that this is the only file you'll likely ever need to change.  Never change any .pot files!
+Firstly, it's important that you have the latest version of any existing translation catalog and you update the catalog before you perform any additional translations. (Before creating a new one, make sure there isn't already a catalog for your language - for instance, "es.po", or "fr.po".) Note that **this is the only file you'll likely ever need to change**.  Never change any .pot files!
 
 Updating the translation catalog ensures that you receive any work performed by another translator, potentially saving duplicated work, and ensures that your po file reflects any changes in the software that have happened.  As we change anything on the site, the translatable entries may also likely change.  So you should get in the habit of updating your po file from the freecycle.pot file often.  
 
@@ -55,7 +55,7 @@ In case this is not obvious, one important thing to remember is that in some of 
 
 ### Submitting your work to us
 
-Whenever you're finished with enough new work on your translation to warrant getting it to us, first make sure your po file is saved and in the translations directory. That's the only file you should ever need to create or change.  When you're ready to submit your work to us, commit and push your changes to your forked repository.  Then create a pull request, which is basically a way to tell us you have changes in your fork that you'd like us to use.  see
+Whenever you're finished with enough new work on your translation to warrant getting it to us, first make sure your po file is saved and in the translations directory. That's **the only file you should ever need to create or change**.  When you're ready to submit your work to us, commit and push your changes to your forked repository.  Then create a pull request, which is basically a way to tell us you have changes in your fork that you'd like us to use.  see
 https://help.github.com/articles/creating-a-pull-request 
 
 When you issue the pull request, We'll get a notification and can take a look and confirm the changes and merge it into our repository. Then there might be a delay of a few days before your translation changes appear on the website, as it involves copying your .po file and deploying it to our servers, etc.  But, new revisions to the website are usually pushed live at least once a week, so you'll probably see your changes happen in that timeframe. We'll also try to keep in direct touch with you when things are being updated.
