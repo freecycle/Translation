@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: Freecycle.org\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2015-02-27 12:10-0700\n"
+"PO-Revision-Date: 2015-03-16 21:43+0100\n"
 "Last-Translator: Steev Hise <steev@freecycle.org>\n"
 "Language-Team: French <richard.wallman@freecycle.org>\n"
 "Language: fr\n"
@@ -29,13 +29,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 1.7.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:42
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:59
 msgid " (closed)"
-msgstr "(fermé)"
+msgstr "(clos)"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:43
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:60
@@ -49,10 +49,14 @@ msgid ""
 "   <li>In JPEG or GIF format</li>\n"
 "   <li>Less that 256Kb in size</li>"
 msgstr ""
+"Les logos personnalisés <b>doivent</b> être;\n"
+"   <ul>\n"
+"   <li>Au format JPEG ou GIF</li>\n"
+"   <li>de taille inférieure à 256Kb</li>"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:373
 msgid " Deletions happen before resends, so be careful when putting in the numbers. If in doubt, delete first and then resend."
-msgstr ""
+msgstr "Les suppressions se font avant les renvois, soyez donc attentifs quand vous saisissez les nombres. En cas de doute, supprimez d'abord, puis renvoyez."
 
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:28
 msgid " Or, delete current logo?"
@@ -746,8 +750,7 @@ msgstr "Copyright &copy; 2013 The Freecycle Network (<a href='%1'>http://www.Fre
 msgid "Copyright &copy;%1 The Freecycle Network (%2). All rights reserved. Freecycle and the Freecycle logo are trademarks of The Freecycle Network in various countries."
 msgstr "Copyright &copy; %1 The Freecycle Network (%2). Tous droits réservés. Freecycle et le logo Freecycle sont des marques déposées du réseau Freecycle dans plusieurs pays."
 
-#: templates/source/index.tt:66
-#: templates/source/search_box.tt:55
+#: templates/source/index.tt:66 templates/source/search_box.tt:55
 msgid "Country : "
 msgstr "Pays :"
 
@@ -1019,8 +1022,7 @@ msgstr "E-mail:  %1"
 msgid "Email address"
 msgstr "Adresse e-mail"
 
-#: templates/source/index.tt:93
-#: templates/source/search_box.tt:84
+#: templates/source/index.tt:93 templates/source/search_box.tt:84
 #: webapp_myf/templates/source/forgottenpassword.tt:97
 #: webapp_myf/templates/source/forgottenusername.tt:20
 #: webapp_myf/templates/source/signup.tt:34
@@ -1295,8 +1297,7 @@ msgstr ""
 msgid "Group"
 msgstr "Groupe"
 
-#: templates/source/index.tt:52
-#: templates/source/search_box.tt:40
+#: templates/source/index.tt:52 templates/source/search_box.tt:40
 msgid "Group (display) name contains : "
 msgstr ""
 
@@ -1321,8 +1322,7 @@ msgstr "Fichiers du groupe"
 msgid "Group ID"
 msgstr "Numéro du groupe : "
 
-#: templates/source/index.tt:32
-#: templates/source/search_box.tt:18
+#: templates/source/index.tt:32 templates/source/search_box.tt:18
 msgid "Group ID number :"
 msgstr "Numero du groupe"
 
@@ -1371,13 +1371,11 @@ msgstr ""
 msgid "Group Post email address"
 msgstr "Adresse e-mail pour les annonces du groupe"
 
-#: templates/source/index.tt:55
-#: templates/source/search_box.tt:43
+#: templates/source/index.tt:55 templates/source/search_box.tt:43
 msgid "Group Status : "
 msgstr "État actuel"
 
-#: templates/source/index.tt:38
-#: templates/source/search_box.tt:24
+#: templates/source/index.tt:38 templates/source/search_box.tt:24
 msgid "Group URL :"
 msgstr "URL du groupe :"
 
@@ -1981,8 +1979,7 @@ msgstr "Liens"
 msgid "Links we like"
 msgstr ""
 
-#: templates/source/index.tt:7
-#: templates/source/search_box.tt:4
+#: templates/source/index.tt:7 templates/source/search_box.tt:4
 #: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:48
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:24
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:100
@@ -2316,8 +2313,7 @@ msgstr ""
 msgid "Moderator Resource Assistance Team (MRA)"
 msgstr ""
 
-#: templates/source/index.tt:9
-#: templates/source/search_box.tt:6
+#: templates/source/index.tt:9 templates/source/search_box.tt:6
 #: webapp_modtools/templates/perl/source/moderator_menu:87
 msgid "Moderators"
 msgstr "Modérateurs"
@@ -2394,8 +2390,7 @@ msgstr "Mes messages"
 msgid "MyF Home"
 msgstr "MyF"
 
-#: templates/source/index.tt:90
-#: templates/source/search_box.tt:81
+#: templates/source/index.tt:90 templates/source/search_box.tt:81
 msgid "MyF username :"
 msgstr "Mon identifiant freecycle"
 
@@ -3231,8 +3226,7 @@ msgstr ""
 msgid "Recently expired Posts"
 msgstr "Annonces récemment expirées"
 
-#: templates/source/index.tt:74
-#: templates/source/search_box.tt:63
+#: templates/source/index.tt:74 templates/source/search_box.tt:63
 msgid "Region : "
 msgstr "Région :"
 
@@ -3389,12 +3383,9 @@ msgstr "Enregistrer ces options"
 msgid "Saved file size: %1 bytes"
 msgstr ""
 
-#: templates/source/index.tt:42
-#: templates/source/index.tt:82
-#: templates/source/index.tt:97
-#: templates/source/search_box.tt:28
-#: templates/source/search_box.tt:70
-#: templates/source/search_box.tt:88
+#: templates/source/index.tt:42 templates/source/index.tt:82
+#: templates/source/index.tt:97 templates/source/search_box.tt:28
+#: templates/source/search_box.tt:70 templates/source/search_box.tt:88
 msgid "Search"
 msgstr "Rechercher"
 
@@ -4480,8 +4471,7 @@ msgstr ""
 msgid "Unexpire the ADMIN and send emails"
 msgstr ""
 
-#: templates/source/index.tt:8
-#: templates/source/search_box.tt:5
+#: templates/source/index.tt:8 templates/source/search_box.tt:5
 msgid "Unique IDs"
 msgstr ""
 
@@ -4489,8 +4479,7 @@ msgstr ""
 msgid "Unique TFN Group ID"
 msgstr "Identifiant du groupe"
 
-#: templates/source/index.tt:35
-#: templates/source/search_box.tt:21
+#: templates/source/index.tt:35 templates/source/search_box.tt:21
 msgid "Unique name :"
 msgstr "Nom unique :"
 
@@ -5480,14 +5469,8 @@ msgstr ""
 msgid "yes"
 msgstr "Oui"
 
-#~ msgid ""
-#~ "I agree to The Freecycle Network <a href='%1'>Terms of Service</a> and "
-#~ "understand that the use of Yahoo!Groups is subject to their Terms of "
-#~ "Service"
-#~ msgstr ""
-#~ "J'accepte <a href='%1'>les conditions d'utilisation</a> du réseau "
-#~ "Freecycle et je comprends que l'utilisation de Yahoo!Groupes dépend des "
-#~ "conditions d'utilisation de Yahoo! et non de Freecycle. "
+#~ msgid "I agree to The Freecycle Network <a href='%1'>Terms of Service</a> and understand that the use of Yahoo!Groups is subject to their Terms of Service"
+#~ msgstr "J'accepte <a href='%1'>les conditions d'utilisation</a> du réseau Freecycle et je comprends que l'utilisation de Yahoo!Groupes dépend des conditions d'utilisation de Yahoo! et non de Freecycle. "
 
 #~ msgid "%1 Member(s) pending approval"
 #~ msgstr "(En attente d'approbation par le modérateur)"
