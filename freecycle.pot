@@ -47,6 +47,12 @@ msgstr ""
 msgid " Or, delete current logo?"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:2
+msgid ""
+" To respond to any of these Posts, please use the links below - do\n"
+"                      not reply directly to this email"
+msgstr ""
+
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:67
 msgid "\"My Freecycle\" users to be invited"
 msgstr ""
@@ -311,6 +317,10 @@ msgid ""
 "check this Post as soon as possible."
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_member_username_reminder_email.tpl:1
+msgid "A request was received to retrieve your Freecycle username."
+msgstr ""
+
 #: webapp_myf/templates/source/signup.tt:211
 #: webapp_myf/templates/source/signup.tt:219
 msgid "A temporary error has occurred"
@@ -329,6 +339,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:148
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:148
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:149
+#: core_modules/lib/Freecycle/Email.pm:386
 #: webapp_main/templates/source/group/admin.tt:2
 #: webapp_main/templates/source/group/posts/display_list.tt:259
 msgid "ADMIN"
@@ -490,6 +501,10 @@ msgid ""
 "(when the problem may have been fixed)"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:3
+msgid "An image of this item can be seen at"
+msgstr ""
+
 #. (e)
 #: webapp_myf/templates/source/home/posts/display_issues.tt:24
 msgid ""
@@ -628,6 +643,10 @@ msgstr ""
 #: webapp_modtools/templates/source/manage/files/delete_file.tt:30
 #: webapp_modtools/templates/source/manage/files/send_file.tt:30
 msgid "Back to file list"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:125
+msgid "Back to the top"
 msgstr ""
 
 #: webapp_main/templates/source/about/privacy.tt:20
@@ -864,6 +883,11 @@ msgstr ""
 msgid "Contact the ModTeam"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:56
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:44
+msgid "Contact your Group Moderators"
+msgstr ""
+
 #: webapp_myf/templates/lib/standard_footer.tt:13
 msgid "Copyright"
 msgstr ""
@@ -1025,6 +1049,7 @@ msgstr ""
 #: webapp_modtools/templates/source/manage/files/index.tt:15
 #: webapp_modtools/templates/source/manage/files/new_file.tt:32
 #: webapp_modtools/templates/source/manage/links/index.tt:20
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:59
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:55
 #: webapp_main/templates/source/group/files/index.tt:23
 #: webapp_main/templates/source/group/links/index.tt:30
@@ -1104,6 +1129,10 @@ msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:14
 msgid "Donate"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:43
+msgid "Donate a dollar"
 msgstr ""
 
 #: webapp_main/templates/source/donate.tt:1
@@ -1422,6 +1451,11 @@ msgstr ""
 
 #: webapp_modtools/templates/lib/standard_header.tt:5
 msgid "Freecycle Moderator Tools"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:44
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:29
+msgid "Freecycle Newswire"
 msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_overview:86
@@ -1866,6 +1900,10 @@ msgid ""
 "done automatically."
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_member_username_reminder_email.tpl:7
+msgid "If you did not request this, please ignore."
+msgstr ""
+
 #: webapp_myf/templates/source/home/agree_to_tos.tt:23
 msgid ""
 "If you do not wish to agree to the Freecycle Network Terms of Service, you "
@@ -2285,6 +2323,10 @@ msgstr ""
 msgid "Lead Moderators of the %1 group"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:47
+msgid "Leave the local Group"
+msgstr ""
+
 #: webapp_myf/templates/source/home/groups/options_display.tt:57
 #: webapp_myf/templates/source/home/groups/options_display.tt:58
 msgid "Leave this Group"
@@ -2335,6 +2377,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:24
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:24
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:24
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:58
 msgid "Location"
 msgstr ""
 
@@ -2372,6 +2415,10 @@ msgstr ""
 #: webapp_myf/templates/source/home/posts/index.tt:26
 #: webapp_myf/templates/source/home/posts/index.tt:27
 msgid "Make a new post"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:42
+msgid "Make a post"
 msgstr ""
 
 #: webapp_myf/templates/source/home/posts/new.tt:64
@@ -2881,6 +2928,10 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:153
 #: webapp_myf/templates/lib/standard_macros.tt:14
 #: webapp_myf/templates/source/home/posts/manage/show.tt:33
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:11
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:51
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:103
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:76
 #: webapp_main/templates/source/group/posts/display_list.tt:263
 #: webapp_main/templates/source/group/posts/display_post.tt:5
 msgid "OFFER"
@@ -3384,6 +3435,10 @@ msgstr ""
 msgid "Post description:"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:24
+msgid "Post details follow"
+msgstr ""
+
 #: webapp_myf/templates/source/home/posts/display_issues.tt:3
 msgid "Post errors"
 msgstr ""
@@ -3628,6 +3683,10 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:164
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:165
 #: webapp_myf/templates/lib/standard_macros.tt:17
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:14
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:54
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:106
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:79
 #: webapp_main/templates/source/group/posts/display_list.tt:275
 msgid "RECEIVED"
 msgstr ""
@@ -3654,6 +3713,10 @@ msgstr ""
 
 #: webapp_main/templates/source/email/group_link_report.tt:22
 msgid "Reason given:"
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:874
+msgid "Recent Posts on"
 msgstr ""
 
 #: webapp_myf/templates/source/home/posts/index.tt:30
@@ -3712,8 +3775,20 @@ msgstr ""
 msgid "Remove Post from My Freecycle"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:117
+msgid "Reply by email"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:116
+msgid "Reply online"
+msgstr ""
+
 #: webapp_main/templates/source/group/posts/display_post.tt:149
 msgid "Reply to this Post"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:63
+msgid "Reply to this online at"
 msgstr ""
 
 #: webapp_main/templates/source/group/posts/display_post.tt:120
@@ -4115,6 +4190,10 @@ msgstr ""
 msgid "Submit"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:45
+msgid "Switch to digest email"
+msgstr ""
+
 #: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:123
 #: webapp_modtools/templates/perl/source/moderator_group_posts_overview:37
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:82
@@ -4125,6 +4204,10 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:156
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:157
 #: webapp_myf/templates/lib/standard_macros.tt:16
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:12
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:52
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:104
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:77
 #: webapp_main/templates/source/group/posts/display_list.tt:267
 #: webapp_main/templates/source/group/posts/display_post.tt:6
 msgid "TAKEN"
@@ -4744,6 +4827,12 @@ msgstr ""
 msgid "The username/email combination could not be found in the database."
 msgstr ""
 
+#. ((postlist.size == 1 ? c.loc('has')
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:68
+msgid "There %1 been %2 %3 since the last digest"
+msgstr ""
+
 #. (group.admins.size)
 #: webapp_myf/templates/source/home/groups/index.tt:85
 msgid ""
@@ -5132,10 +5221,57 @@ msgstr ""
 msgid "To :"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:36
+msgid ""
+"To change your Group settings directly on the site click here. You may\n"
+"need to log-in to the site before being able to use this option."
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:10
+msgid ""
+"To change your group settings directly on the site click here. You may\n"
+"need to log-in to the site before being able to use this option."
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:35
+msgid ""
+"To respond to any of these Posts, please use the links below - do not reply "
+"directly to this email"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:14
+msgid "To send a message to the group moderators click here"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:40
+msgid "To send an email to the Group Moderators, use this link"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:17
+msgid "To switch to a batched digest of emails, use this link"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:43
+msgid "To turn off these digest emails, use this link"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:46
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:20
+msgid "To unsubscribe from this Group, use this link"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/standard_group_description.tt:7
 msgid ""
 "To view the local group posts, visit the local Yahoo Group where they are "
 "located by clicking on the link below."
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:33
+msgid "To visit your Group on the web, go to:"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:7
+msgid "To visit your group on the web, go to"
 msgstr ""
 
 #: webapp_myf/templates/source/home/groups/join_too_many.tt:3
@@ -5169,6 +5305,10 @@ msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_group_overview:130
 msgid "Turn off EFM"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:57
+msgid "Turn off digest emails"
 msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_overview:19
@@ -5270,6 +5410,14 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_members_list:119
 #: webapp_modtools/templates/perl/source/moderator_members_list:121
 msgid "Unmoderated"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:46
+msgid "Unsubscribe from emails"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:58
+msgid "Unsubscribe from the Group"
 msgstr ""
 
 #. (e)
@@ -5402,6 +5550,10 @@ msgstr ""
 msgid "View Posts"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:41
+msgid "View all items"
+msgstr ""
+
 #: webapp_main/templates/source/browse/region_list.tt:12
 msgid "View other countries"
 msgstr ""
@@ -5424,6 +5576,10 @@ msgstr ""
 msgid "Visit the %1 group and see the posts"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:55
+msgid "Visit the Group on the web"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:42
 #: webapp_main/templates/source/about/index.tt:14
 #: webapp_main/templates/source/about/volunteering.tt:4
@@ -5441,6 +5597,10 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:161
 #: webapp_myf/templates/lib/standard_macros.tt:15
 #: webapp_myf/templates/source/home/posts/manage/show.tt:34
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:13
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:53
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:105
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:78
 #: webapp_main/templates/source/group/posts/display_list.tt:271
 #: webapp_main/templates/source/group/posts/display_post.tt:7
 msgid "WANTED"
@@ -5639,7 +5799,6 @@ msgid "Yes"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/delete_file.tt:19
-#: core_modules/lib/Freecycle/Email.pm:3655
 msgid "Yes, delete it"
 msgstr ""
 
@@ -6031,11 +6190,19 @@ msgstr ""
 msgid "Your Facebook account is not linked to this My Freecycle account"
 msgstr ""
 
+#: core_modules/lib/Freecycle/Email.pm:1820
+msgid "Your My Freecycle account has been created"
+msgstr ""
+
 #: webapp_myf/templates/source/index.tt:65
 msgid ""
 "Your My Freecycle account is not associated - you need to log in with your "
 "My Freecycle username and password and associate your account before you can "
 "use a third-party login provider"
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:1999
+msgid "Your My Freecycle username reminder"
 msgstr ""
 
 #: webapp_myf/templates/source/home/delete_account.tt:12
@@ -6061,6 +6228,10 @@ msgstr ""
 
 #: webapp_main/templates/source/login/password_reset.tt:8
 msgid "Your email software has mangled the link"
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:3697
+msgid "Your forgotten password link"
 msgstr ""
 
 #: webapp_main/templates/source/tos.tt:56
@@ -6151,6 +6322,10 @@ msgstr ""
 
 #: webapp_myf/templates/source/index.tt:63
 msgid "Your third-party login attempt failed - the most common causes are:"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_member_username_reminder_email.tpl:4
+msgid "Your username is"
 msgstr ""
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:57
@@ -6272,6 +6447,11 @@ msgstr ""
 msgid "go"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:68
+msgid "have"
+msgstr ""
+
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:210
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:138
 msgid "hours"
@@ -6312,6 +6492,16 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:174
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:58
 msgid "pending"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:68
+msgid "post"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:68
+msgid "posts"
 msgstr ""
 
 #: webapp_main/templates/source/tos.tt:42

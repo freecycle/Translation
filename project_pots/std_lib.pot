@@ -15,6 +15,20 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:2
+msgid ""
+" To respond to any of these Posts, please use the links below - do\n"
+"                      not reply directly to this email"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_member_username_reminder_email.tpl:1
+msgid "A request was received to retrieve your Freecycle username."
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:386
+msgid "ADMIN"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:13
 msgid "About Freecycle&trade;"
 msgstr ""
@@ -23,12 +37,24 @@ msgstr ""
 msgid "All Items"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:3
+msgid "An image of this item can be seen at"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:125
+msgid "Back to the top"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:44
 msgid "Board"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:11
 msgid "Browse Groups"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:56 core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:44
+msgid "Contact your Group Moderators"
 msgstr ""
 
 #. ('<a href="http://www.freecycle.org">http://www.freecycle.org</a>',)
@@ -45,7 +71,7 @@ msgstr ""
 msgid "DISCLAIMER: FREECYCLE NETWORK MEMBERS USE THE LIST AT THEIR OWN RISK. Please take reasonable measures to protect your safety and privacy when posting to the list or participating in an exchange. By joining the list, you agree to hold neither the list owners and moderators nor anyone affiliated with Freecycle.org responsible or liable for any circumstance resulting from a Freecycle-related exchange or communication."
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:55
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:59 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:55
 msgid "Description"
 msgstr ""
 
@@ -57,12 +83,20 @@ msgstr ""
 msgid "Donate"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:43
+msgid "Donate a dollar"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:12
 msgid "FAQ"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:56
 msgid "Files"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:44 core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:29
+msgid "Freecycle Newswire"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:12
@@ -92,8 +126,16 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_member_username_reminder_email.tpl:7
+msgid "If you did not request this, please ignore."
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:36
 msgid "Instructional Video"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:47
+msgid "Leave the local Group"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:57
@@ -104,12 +146,20 @@ msgstr ""
 msgid "Links we like"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:58
+msgid "Location"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:25
 msgid "Log in/Sign up"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:18
 msgid "Log out"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:42
+msgid "Make a post"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:51
@@ -157,8 +207,16 @@ msgstr ""
 msgid "No"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:11 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:51 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:103 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:76
+msgid "OFFER"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:33
 msgid "Offers"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:24
+msgid "Post details follow"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:39
@@ -171,6 +229,26 @@ msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:37
 msgid "Promo Video - Lamp"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:14 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:54 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:106 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:79
+msgid "RECEIVED"
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:874
+msgid "Recent Posts on"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:117
+msgid "Reply by email"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:116
+msgid "Reply online"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:63
+msgid "Reply to this online at"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:7
@@ -193,6 +271,14 @@ msgstr ""
 msgid "Store"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:45
+msgid "Switch to digest email"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:12 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:52 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:104 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:77
+msgid "TAKEN"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:46
 msgid "Terms of Service"
 msgstr ""
@@ -206,8 +292,73 @@ msgstr ""
 msgid "The Freecycle Network&trade; is made up of %1 groups with %2 members across the globe. It's a grassroots and entirely nonprofit movement of people who are giving (and getting) stuff for free in their own towns and thus keeping good stuff out of landfills."
 msgstr ""
 
+#. ((postlist.size == 1 ? c.loc('has')
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:68
+msgid "There %1 been %2 %3 since the last digest"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:36
+msgid ""
+"To change your Group settings directly on the site click here. You may\n"
+"need to log-in to the site before being able to use this option."
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:10
+msgid ""
+"To change your group settings directly on the site click here. You may\n"
+"need to log-in to the site before being able to use this option."
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:35
+msgid "To respond to any of these Posts, please use the links below - do not reply directly to this email"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:14
+msgid "To send a message to the group moderators click here"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:40
+msgid "To send an email to the Group Moderators, use this link"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:17
+msgid "To switch to a batched digest of emails, use this link"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:43
+msgid "To turn off these digest emails, use this link"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:46 core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:20
+msgid "To unsubscribe from this Group, use this link"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/standard_group_description.tt:7
 msgid "To view the local group posts, visit the local Yahoo Group where they are located by clicking on the link below."
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:33
+msgid "To visit your Group on the web, go to:"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:7
+msgid "To visit your group on the web, go to"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:57
+msgid "Turn off digest emails"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:46
+msgid "Unsubscribe from emails"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:58
+msgid "Unsubscribe from the Group"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:41
+msgid "View all items"
 msgstr ""
 
 #. (groupname)
@@ -215,8 +366,16 @@ msgstr ""
 msgid "Visit the %1 Yahoo!Group page"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:55
+msgid "Visit the Group on the web"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:42
 msgid "Volunteering"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:13 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:53 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:105 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:78
+msgid "WANTED"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:34
@@ -232,10 +391,34 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:3655
-msgid "Yes, delete it"
+#: core_modules/lib/Freecycle/Email.pm:1820
+msgid "Your My Freecycle account has been created"
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:1999
+msgid "Your My Freecycle username reminder"
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:3697
+msgid "Your forgotten password link"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_member_username_reminder_email.tpl:4
+msgid "Your username is"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:12
 msgid "changing the world one gift at a time"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:68
+msgid "have"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:68
+msgid "post"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:68
+msgid "posts"
 msgstr ""
