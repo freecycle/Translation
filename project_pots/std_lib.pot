@@ -49,8 +49,20 @@ msgstr ""
 msgid "Board"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:13
+msgid "Body"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_nomember_email:11 core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_notamember_email:11
+msgid "Body:"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:11
 msgid "Browse Groups"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_member_created_okay_email.tpl:1
+msgid "Congratulations! Your new freecycle.org account has been set up."
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:56 core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:44
@@ -67,12 +79,24 @@ msgstr ""
 msgid "Copyright &copy;%1 The Freecycle Network (%2). All rights reserved. Freecycle and the Freecycle logo are trademarks of The Freecycle Network in various countries."
 msgstr ""
 
+#: core_modules/lib/Freecycle/Email.pm:1486
+msgid "Could not process your email: you are not a Member of this Group"
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:1429
+msgid "Could not process your email: your address has not been recognised"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/group_template_disclaimer.tt:2 core_modules/lib/Freecycle/standard_templates/source/standard_disclaimer.tt:2
 msgid "DISCLAIMER: FREECYCLE NETWORK MEMBERS USE THE LIST AT THEIR OWN RISK. Please take reasonable measures to protect your safety and privacy when posting to the list or participating in an exchange. By joining the list, you agree to hold neither the list owners and moderators nor anyone affiliated with Freecycle.org responsible or liable for any circumstance resulting from a Freecycle-related exchange or communication."
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:59 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:55
 msgid "Description"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:3
+msgid "Direct link to group pending posts:"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:47
@@ -146,7 +170,7 @@ msgstr ""
 msgid "Links we like"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:58
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:58 core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:12
 msgid "Location"
 msgstr ""
 
@@ -164,6 +188,14 @@ msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:51
 msgid "Member FAQ"
+msgstr ""
+
+#. (member.username, member.email)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_member_email:3
+msgid ""
+"Member details:\n"
+"Username      : %1\n"
+"Email address : %2"
 msgstr ""
 
 #. ('%%group_name')
@@ -215,8 +247,59 @@ msgstr ""
 msgid "Offers"
 msgstr ""
 
+#. (My Groups' tab - any invitations you have will be listed at the bottom.')
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_nonmyf_email:9
+msgid "Once you have set your account up, you can accept or decline this invitation by logging in to My Freecycle and viewing the "
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:2290
+msgid "Pending Post for "
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:2187
+msgid "Pending member for "
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reply_nopost_email:10
+msgid ""
+"Please do not try and re-send the message, as this condition is\n"
+"permanent and your message will be returned again.\n"
+"\n"
+"The subject line for your email was:"
+msgstr ""
+
+#. (My Groups' tab,search for your local group and join it.If you have any difficulties please write to support@freecycle.orgThanks for joining!')
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_member_created_okay_email.tpl:11
+msgid ""
+"Please now return to the page http://my.freecycle.org and log in using\n"
+"the details above.\n"
+"\n"
+"Once you have logged in please change your password to one of your\n"
+"choice. When you have done this please click on the "
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:2534
+msgid "Please unsubscribe me"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:7
+msgid "Post ID"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:6
+msgid "Post details"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:24
 msgid "Post details follow"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:10
+msgid "Post type"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:9
+msgid "Posted by"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:39
@@ -235,8 +318,12 @@ msgstr ""
 msgid "RECEIVED"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:874
+#: core_modules/lib/Freecycle/Email.pm:873
 msgid "Recent Posts on"
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:2523
+msgid "Recent emails (digest)"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:117
@@ -249,6 +336,10 @@ msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:63
 msgid "Reply to this online at"
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:2762
+msgid "Response to Post"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:7
@@ -271,6 +362,14 @@ msgstr ""
 msgid "Store"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:11
+msgid "Subject"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_nomember_email:9 core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_notamember_email:9
+msgid "Subject:"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:45
 msgid "Switch to digest email"
 msgstr ""
@@ -287,14 +386,83 @@ msgstr ""
 msgid "Thanks and see you on Freecycle.org!"
 msgstr ""
 
+#. (group_name)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email:6 core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_nonmyf_email:12 core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reject_email:11
+msgid "The %1 Mod Team"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_nonmyf_email:3
+msgid ""
+"The Freecycle Network is a nonprofit and globally local group of individuals giving (and getting) stuff for free. Doing so enables us to reduce waste and keep good used items out of the landfill in our own community. Membership is free.\n"
+"\n"
+"You can sign up for your free account here:"
+msgstr ""
+
 #. ('%%num_groups', '%%num_members')
 #: core_modules/lib/Freecycle/standard_templates/source/standard_group_description.tt:2
 msgid "The Freecycle Network&trade; is made up of %1 groups with %2 members across the globe. It's a grassroots and entirely nonprofit movement of people who are giving (and getting) stuff for free in their own towns and thus keeping good stuff out of landfills."
 msgstr ""
 
+#. (group_name)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email:1 core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_nonmyf_email:1
+msgid "The Moderators of the %1 group have invited you to join the group on My Freecycle."
+msgstr ""
+
+#. (group_name)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reject_email:1
+msgid "The Moderators of the %1 group have not approved your post to the group:"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_nomember_email:7 core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_notamember_email:7
+msgid "The details of the original email were:"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reply_nopost_email:6
+msgid ""
+"The email you sent in reply to a Post could not be delivered to the\n"
+"person who made the Post, as they have indicated that they no longer\n"
+"wish to receive any more responses to it."
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reply_notmfaddress_email:6
+msgid ""
+"The email you sent in reply to a Post could not be delivered, as the\n"
+"email address you sent it from could not be found in the My Freecycle\n"
+"user database.\n"
+"\n"
+"Replying to Posts in this manner requires the use of a My Freecycle\n"
+"registered email address, to help reduce the amount of junk that our\n"
+"Member's receive.\n"
+"\n"
+"If you are a My Freecycle user, please resend your email using your\n"
+"registered My Freecyle email address, or directly on the Post listings\n"
+"for the Group on http://www.freecycle.org\n"
+"\n"
+"-- \n"
+"This is an automated email - please do not reply"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reject_email:5
+msgid "The reason given was:"
+msgstr ""
+
 #. ((postlist.size == 1 ? c.loc('has')
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:68
 msgid "There %1 been %2 %3 since the last digest"
+msgstr ""
+
+#. (group_name)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_member_email:1
+msgid "There is a new Member awaiting approval to %1 group."
+msgstr ""
+
+#. (group_name)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:1
+msgid "There is a new Post awaiting approval to %1 group."
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reply_nopost_email:17
+msgid "This is an automated email - please do not reply"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:36
@@ -349,6 +517,10 @@ msgstr ""
 msgid "Turn off digest emails"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:8
+msgid "URL"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:46
 msgid "Unsubscribe from emails"
 msgstr ""
@@ -391,20 +563,71 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1820
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email:3
+msgid "You can accept or decline this invitation by logging in to My Freecycle and viewing the 'My Groups' tab - any invitations you have will be listed at the bottom."
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:1714 core_modules/lib/Freecycle/Email.pm:1796
+msgid "You've been invited to a group on My Freecycle"
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:1847
 msgid "Your My Freecycle account has been created"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1999
+#: core_modules/lib/Freecycle/Email.pm:2026
 msgid "Your My Freecycle username reminder"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:3697
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reply_nopost_email:4 core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reply_notmfaddress_email:4
+msgid "Your email could not be processed"
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:3756
 msgid "Your forgotten password link"
+msgstr ""
+
+#. (passwd)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_member_created_okay_email.tpl:4
+msgid "Your password is: %1"
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:2633
+msgid "Your post has not been approved"
+msgstr ""
+
+#. (attempted_address)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_notamember_email:1
+msgid ""
+"Your recent email to:\n"
+"\n"
+"%1\n"
+"\n"
+"could not be delivered, as the email address you sent it from was not recognised as belonging to a Member of that Group. You must use your registered My Freecycle email address to send to Groups."
+msgstr ""
+
+#. (attempted_address)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_nomember_email:1
+msgid ""
+"Your recent email to:\n"
+"\n"
+"%1\n"
+"\n"
+"could not be delivered, as the email address you sent it from was not recognised. You must use your registered My Freecycle email address to send to Groups."
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_member_username_reminder_email.tpl:4
 msgid "Your username is"
+msgstr ""
+
+#. (username)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_member_created_okay_email.tpl:3
+msgid "Your username is: %1"
+msgstr ""
+
+#. ('http://moderator.freecycle.org/manage/' _ unique_groupname _ '/members/pending')
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_member_email:7
+msgid "approve pending members at %1"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:12
@@ -421,4 +644,8 @@ msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:68
 msgid "posts"
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:2825
+msgid "{not available}"
 msgstr ""
