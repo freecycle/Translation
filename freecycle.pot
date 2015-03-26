@@ -713,6 +713,7 @@ msgstr ""
 msgid "Body"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_mfoptout_email:13
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_nomember_email:11
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_notamember_email:11
 msgid "Body:"
@@ -918,11 +919,15 @@ msgid ""
 "various countries."
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1486
+#: core_modules/lib/Freecycle/Email.pm:1241
+msgid "Could not process your email: group does not use My Freecycle"
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:1494
 msgid "Could not process your email: you are not a Member of this Group"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1429
+#: core_modules/lib/Freecycle/Email.pm:1437
 msgid "Could not process your email: your address has not been recognised"
 msgstr ""
 
@@ -1505,7 +1510,7 @@ msgid ""
 "clutter that consumes us by moving it forward to a new, productive life."
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:12
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:11
 msgid "Freecycle.org"
 msgstr ""
 
@@ -1699,12 +1704,17 @@ msgstr ""
 msgid "Group unique name"
 msgstr ""
 
+#. (post.group.getGroupName)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:24
+msgid "Group: %1"
+msgstr ""
+
 #. (loginbox.username)
 #: webapp_myf/templates/source/home/info/index.tt:14
 msgid "Hello %1"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:3
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:2
 msgid ""
 "Hello Freecycle Member, \n"
 "\n"
@@ -1714,7 +1724,7 @@ msgid ""
 "request, then simply ignore it and it will expire."
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.html.tt:13
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.html.tt:12
 msgid ""
 "Hello Freecycle Member, <br>A password reset request has been submitted to "
 "Freecycle.org for your email address. Simply click on the link below to "
@@ -2979,6 +2989,11 @@ msgstr ""
 msgid "OFFERs"
 msgstr ""
 
+#. (post.group.getGroupName, post.group.expire_offers_days)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:10
+msgid "OFFERs posted to %1 will automatically expire after %2 days. "
+msgstr ""
+
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:12
 msgid "OR"
 msgstr ""
@@ -3036,6 +3051,15 @@ msgstr ""
 #: webapp_myf/templates/source/home/groups/index.tt:141
 #: webapp_myf/templates/source/home/groups/options_display.tt:86
 msgid "One for each Post"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:2
+msgid ""
+"One of your Posts to a Freecycle Group has automatically been expired\n"
+"and removed from display. This happens to keep Freecycle Groups tidy, so\n"
+"that visitors to the Group can see what is currently going on, and to\n"
+"prevent Members receiving unexpected replies to old Posts they may have\n"
+"forgotten about."
 msgstr ""
 
 #: webapp_main/templates/source/donate.tt:42
@@ -3218,7 +3242,7 @@ msgstr ""
 msgid "Pending Messages"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2290
+#: core_modules/lib/Freecycle/Email.pm:2298
 msgid "Pending Post for "
 msgstr ""
 
@@ -3227,7 +3251,7 @@ msgstr ""
 msgid "Pending approval"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2187
+#: core_modules/lib/Freecycle/Email.pm:2195
 msgid "Pending member for "
 msgstr ""
 
@@ -3446,7 +3470,7 @@ msgid ""
 "related gifting or communication."
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2534
+#: core_modules/lib/Freecycle/Email.pm:2542
 msgid "Please unsubscribe me"
 msgstr ""
 
@@ -3477,6 +3501,7 @@ msgid "Post ID: "
 msgstr ""
 
 #. (post.post_id)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:23
 #: webapp_main/templates/source/email/post_abuse_report.tt:13
 msgid "Post ID: %1"
 msgstr ""
@@ -3794,7 +3819,7 @@ msgstr ""
 msgid "Recent Posts on"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2523
+#: core_modules/lib/Freecycle/Email.pm:2531
 msgid "Recent emails (digest)"
 msgstr ""
 
@@ -3901,7 +3926,7 @@ msgstr ""
 msgid "Resend all invitations older than"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2762
+#: core_modules/lib/Freecycle/Email.pm:2770
 msgid "Response to Post"
 msgstr ""
 
@@ -4274,6 +4299,11 @@ msgstr ""
 msgid "Subject:"
 msgstr ""
 
+#. (subject)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_mfoptout_email:11
+msgid "Subject: %1"
+msgstr ""
+
 #: webapp_modtools/templates/perl/source/moderator_members_list:341
 #: webapp_modtools/templates/source/agreement.tt:17
 msgid "Submit"
@@ -4372,8 +4402,8 @@ msgstr ""
 msgid "Thank you for your time and support!"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.html.tt:17
-#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:9
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.html.tt:16
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:8
 msgid "Thanks and see you on Freecycle.org!"
 msgstr ""
 
@@ -4786,6 +4816,11 @@ msgstr ""
 msgid "The custom group log"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:21
+msgid "The details of the expired Post are:"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_mfoptout_email:9
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_nomember_email:7
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_notamember_email:7
 msgid "The details of the original email were:"
@@ -5381,6 +5416,11 @@ msgstr ""
 msgid "Title"
 msgstr ""
 
+#. (post.subject)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:25
+msgid "Title: %1"
+msgstr ""
+
 #: webapp_main/templates/source/group/contact_moderators.tt:13
 msgid "To"
 msgstr ""
@@ -5786,6 +5826,11 @@ msgstr ""
 msgid "WANTEDs"
 msgstr ""
 
+#. (post.group.getGroupName, post.group.expire_wanteds_days)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:14
+msgid "WANTEDs posted to %1 will automatically expire after %2 days."
+msgstr ""
+
 #: webapp_myf/templates/source/home/posts/manage/show.tt:48
 msgid "Waiting for Moderator approval"
 msgstr ""
@@ -6127,6 +6172,10 @@ msgid ""
 "example, when making a new Post)."
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:17
+msgid "You can re-open this Post using My Freecycle"
+msgstr ""
+
 #. (groupURL)
 #: webapp_myf/templates/source/home/posts/new_okay.tt:29
 msgid ""
@@ -6362,8 +6411,8 @@ msgid ""
 "you can search for Groups near you."
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1714
-#: core_modules/lib/Freecycle/Email.pm:1796
+#: core_modules/lib/Freecycle/Email.pm:1722
+#: core_modules/lib/Freecycle/Email.pm:1804
 msgid "You've been invited to a group on My Freecycle"
 msgstr ""
 
@@ -6371,7 +6420,7 @@ msgstr ""
 msgid "Your Facebook account is not linked to this My Freecycle account"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1847
+#: core_modules/lib/Freecycle/Email.pm:1855
 msgid "Your My Freecycle account has been created"
 msgstr ""
 
@@ -6382,7 +6431,7 @@ msgid ""
 "use a third-party login provider"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2026
+#: core_modules/lib/Freecycle/Email.pm:2034
 msgid "Your My Freecycle username reminder"
 msgstr ""
 
@@ -6416,7 +6465,7 @@ msgstr ""
 msgid "Your email software has mangled the link"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:3756
+#: core_modules/lib/Freecycle/Email.pm:3768
 msgid "Your forgotten password link"
 msgstr ""
 
@@ -6485,7 +6534,7 @@ msgstr ""
 msgid "Your password reset email has been sent"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2633
+#: core_modules/lib/Freecycle/Email.pm:2641
 msgid "Your post has not been approved"
 msgstr ""
 
@@ -6511,6 +6560,11 @@ msgid ""
 "could not be delivered, as the email address you sent it from was not "
 "recognised. You must use your registered My Freecycle email address to send "
 "to Groups."
+msgstr ""
+
+#. (attempted_address)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_mfoptout_email:1
+msgid "Your recent email to: %1"
 msgstr ""
 
 #: webapp_main/templates/source/group/posts/reply_error.tt:18
@@ -6602,7 +6656,7 @@ msgstr ""
 msgid "change"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:12
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:11
 msgid "changing the world one gift at a time"
 msgstr ""
 
@@ -6636,6 +6690,13 @@ msgstr ""
 msgid ""
 "contain only alphanumeric characters (A-Z, 0-9), underscores (_) and plus "
 "(+) or minus (-) signs."
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_mfoptout_email:3
+msgid ""
+"could not be delivered, as that Group had decided to not use the My "
+"Freecycle interface. You will need to send your email\n"
+"again, to this address:\n"
 msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:202
@@ -6904,6 +6965,6 @@ msgstr ""
 msgid "yes"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2825
+#: core_modules/lib/Freecycle/Email.pm:2833
 msgid "{not available}"
 msgstr ""

@@ -53,7 +53,7 @@ msgstr ""
 msgid "Body"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_nomember_email:11 core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_notamember_email:11
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_mfoptout_email:13 core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_nomember_email:11 core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_notamember_email:11
 msgid "Body:"
 msgstr ""
 
@@ -79,11 +79,15 @@ msgstr ""
 msgid "Copyright &copy;%1 The Freecycle Network (%2). All rights reserved. Freecycle and the Freecycle logo are trademarks of The Freecycle Network in various countries."
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1486
+#: core_modules/lib/Freecycle/Email.pm:1241
+msgid "Could not process your email: group does not use My Freecycle"
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:1494
 msgid "Could not process your email: you are not a Member of this Group"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1429
+#: core_modules/lib/Freecycle/Email.pm:1437
 msgid "Could not process your email: your address has not been recognised"
 msgstr ""
 
@@ -123,7 +127,7 @@ msgstr ""
 msgid "Freecycle Newswire"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:12
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:11
 msgid "Freecycle.org"
 msgstr ""
 
@@ -131,14 +135,19 @@ msgstr ""
 msgid "Group Info"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:3
+#. (post.group.getGroupName)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:24
+msgid "Group: %1"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:2
 msgid ""
 "Hello Freecycle Member, \n"
 "\n"
 "A password reset request has been submitted to Freecycle.org for your email address. Simply click on the link below to complete this process. Please note that this link is only valid for a single use. If you did not make this request, then simply ignore it and it will expire."
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.html.tt:13
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.html.tt:12
 msgid "Hello Freecycle Member, <br>A password reset request has been submitted to Freecycle.org for your email address. Simply click on the link below to complete this process. Please note that this link is only valid for a single use. If you did not make this request, then simply ignore it and it will expire."
 msgstr ""
 
@@ -243,6 +252,11 @@ msgstr ""
 msgid "OFFER"
 msgstr ""
 
+#. (post.group.getGroupName, post.group.expire_offers_days)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:10
+msgid "OFFERs posted to %1 will automatically expire after %2 days. "
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:33
 msgid "Offers"
 msgstr ""
@@ -252,11 +266,20 @@ msgstr ""
 msgid "Once you have set your account up, you can accept or decline this invitation by logging in to My Freecycle and viewing the "
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2290
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:2
+msgid ""
+"One of your Posts to a Freecycle Group has automatically been expired\n"
+"and removed from display. This happens to keep Freecycle Groups tidy, so\n"
+"that visitors to the Group can see what is currently going on, and to\n"
+"prevent Members receiving unexpected replies to old Posts they may have\n"
+"forgotten about."
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:2298
 msgid "Pending Post for "
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2187
+#: core_modules/lib/Freecycle/Email.pm:2195
 msgid "Pending member for "
 msgstr ""
 
@@ -278,12 +301,17 @@ msgid ""
 "choice. When you have done this please click on the "
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2534
+#: core_modules/lib/Freecycle/Email.pm:2542
 msgid "Please unsubscribe me"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:7
 msgid "Post ID"
+msgstr ""
+
+#. (post.post_id)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:23
+msgid "Post ID: %1"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:6
@@ -322,7 +350,7 @@ msgstr ""
 msgid "Recent Posts on"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2523
+#: core_modules/lib/Freecycle/Email.pm:2531
 msgid "Recent emails (digest)"
 msgstr ""
 
@@ -338,7 +366,7 @@ msgstr ""
 msgid "Reply to this online at"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2762
+#: core_modules/lib/Freecycle/Email.pm:2770
 msgid "Response to Post"
 msgstr ""
 
@@ -370,6 +398,11 @@ msgstr ""
 msgid "Subject:"
 msgstr ""
 
+#. (subject)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_mfoptout_email:11
+msgid "Subject: %1"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:45
 msgid "Switch to digest email"
 msgstr ""
@@ -382,7 +415,7 @@ msgstr ""
 msgid "Terms of Service"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.html.tt:17 core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:9
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.html.tt:16 core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:8
 msgid "Thanks and see you on Freecycle.org!"
 msgstr ""
 
@@ -413,7 +446,11 @@ msgstr ""
 msgid "The Moderators of the %1 group have not approved your post to the group:"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_nomember_email:7 core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_notamember_email:7
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:21
+msgid "The details of the expired Post are:"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_mfoptout_email:9 core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_nomember_email:7 core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_notamember_email:7
 msgid "The details of the original email were:"
 msgstr ""
 
@@ -463,6 +500,11 @@ msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reply_nopost_email:17
 msgid "This is an automated email - please do not reply"
+msgstr ""
+
+#. (post.subject)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:25
+msgid "Title: %1"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:36
@@ -550,6 +592,11 @@ msgstr ""
 msgid "WANTED"
 msgstr ""
 
+#. (post.group.getGroupName, post.group.expire_wanteds_days)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:14
+msgid "WANTEDs posted to %1 will automatically expire after %2 days."
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:34
 msgid "Wanteds"
 msgstr ""
@@ -567,15 +614,19 @@ msgstr ""
 msgid "You can accept or decline this invitation by logging in to My Freecycle and viewing the 'My Groups' tab - any invitations you have will be listed at the bottom."
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1714 core_modules/lib/Freecycle/Email.pm:1796
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:17
+msgid "You can re-open this Post using My Freecycle"
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:1722 core_modules/lib/Freecycle/Email.pm:1804
 msgid "You've been invited to a group on My Freecycle"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1847
+#: core_modules/lib/Freecycle/Email.pm:1855
 msgid "Your My Freecycle account has been created"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2026
+#: core_modules/lib/Freecycle/Email.pm:2034
 msgid "Your My Freecycle username reminder"
 msgstr ""
 
@@ -583,7 +634,7 @@ msgstr ""
 msgid "Your email could not be processed"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:3756
+#: core_modules/lib/Freecycle/Email.pm:3768
 msgid "Your forgotten password link"
 msgstr ""
 
@@ -592,7 +643,7 @@ msgstr ""
 msgid "Your password is: %1"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2633
+#: core_modules/lib/Freecycle/Email.pm:2641
 msgid "Your post has not been approved"
 msgstr ""
 
@@ -616,6 +667,11 @@ msgid ""
 "could not be delivered, as the email address you sent it from was not recognised. You must use your registered My Freecycle email address to send to Groups."
 msgstr ""
 
+#. (attempted_address)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_mfoptout_email:1
+msgid "Your recent email to: %1"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_member_username_reminder_email.tpl:4
 msgid "Your username is"
 msgstr ""
@@ -630,8 +686,14 @@ msgstr ""
 msgid "approve pending members at %1"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:12
+#: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:11
 msgid "changing the world one gift at a time"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_mfoptout_email:3
+msgid ""
+"could not be delivered, as that Group had decided to not use the My Freecycle interface. You will need to send your email\n"
+"again, to this address:\n"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:68
@@ -646,6 +708,6 @@ msgstr ""
 msgid "posts"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2825
+#: core_modules/lib/Freecycle/Email.pm:2833
 msgid "{not available}"
 msgstr ""
