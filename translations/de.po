@@ -2796,6 +2796,12 @@ msgid ""
 "prevent Members receiving unexpected replies to old Posts they may have\n"
 "forgotten about."
 msgstr ""
+"Eine Deiner Anzeigen in einer Freecycle-Gruppe ist automatisch abgelaufen\n"
+"und wird nicht mehr angezeigt. Dies ist für die Freecycle-Gruppen so eingestellt,\n"
+"um diese sauber zu halten. So sehen neue Freecycle-Benutzer nur was aktuell in\n"
+"der Gruppe passiert und es schützt Mitglieder davor unerwartete Antworten auf\n"
+"Anzeigen zu bekommen die schon sehr alt sind und sie vielleicht schon vergessen\n"
+"haben. "
 
 #: webapp_main/templates/source/donate.tt:42 webapp_main/templates/source/donate.tt:74
 msgid "One-time donation"
@@ -4417,6 +4423,9 @@ msgid ""
 "person who made the Post, as they have indicated that they no longer\n"
 "wish to receive any more responses to it."
 msgstr ""
+"Die Antwort, die Du auf eine Anzeige gesendet hast, konnte nicht zugestellt\n"
+"werden. Die Person, die diese Anzeige geschrieben hat, gab an dass sie keine\n"
+"weiteren Rückmeldungen mehr dazu haben möchte."
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reply_notmfaddress_email:6
 msgid ""
@@ -4435,6 +4444,22 @@ msgid ""
 "-- \n"
 "This is an automated email - please do not reply"
 msgstr ""
+"Die Antwort, die Du auf eine Anzeige geschrieben hast, konnte nicht\n"
+"zugestellt werden. Deine E-Mail-Adresse wurde nicht in der Freecycle-\n"
+"Datenbank gefunden \n"
+"\n"
+"Um per E-Mail auf diese Anzeige zu antworten, verwende bitte als\n"
+"Absender die E-Mail-Adresse, mit der Du bei Freecycle registriert bist.\n"
+"Dieses Vorgehen hilft uns die Spam-E-Mail-Flut an unsere Mitglieder\n"
+"einzudämmen.\n"
+"\n"
+"Wenn Du bereits einen registrierten Freecycle-Nutzer hast, nutze bitte\n"
+"die zur Registrierung verwendete E-Mail-Adresse und schicke Deine E-Mail\n"
+"damit noch einmal.  Alternativ kannst Du auch auf der Website, bei der\n"
+"Anzeige in der Gruppe direkt antworten, siehe http://www.freecycle.org\n"
+"\n"
+"--- \n"
+"Dies ist eine automatisierte E-Mail, daher bitte nicht hierauf antworten"
 
 #: webapp_main/templates/source/about/staff.tt:14
 msgid ""
@@ -4983,16 +5008,22 @@ msgid ""
 "To change your Group settings directly on the site click here. You may\n"
 "need to log-in to the site before being able to use this option."
 msgstr ""
+"Um die Gruppen-Einstellungen  direkt auf der Website zu ändern, klicke\n"
+"bitte hier. Wahrscheinlich wirst Du dazu aufgefordert Dich auf der Seite\n"
+"anzumelden, bevor Du dies einstellen kannst."
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:10
 msgid ""
 "To change your group settings directly on the site click here. You may\n"
 "need to log-in to the site before being able to use this option."
 msgstr ""
+"Um die Gruppen-Einstellungen  direkt auf der Website zu ändern, klicke\n"
+"bitte hier. Wahrscheinlich wirst Du dazu aufgefordert Dich auf der Seite\n"
+"anzumelden, bevor Du dies einstellen kannst."
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:35
 msgid "To respond to any of these Posts, please use the links below - do not reply directly to this email"
-msgstr ""
+msgstr "Bitte sende keine direkten Antworten auf diese E-Mail. Um auf Anzeigen zu antworten, nutze bitte die Links darunter"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:14
 msgid "To send a message to the group moderators click here"
@@ -5626,7 +5657,7 @@ msgstr "Du kannst Dir <a href='%1' title='Liste der Länder, Regionen und Gruppe
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email:3
 msgid "You can accept or decline this invitation by logging in to My Freecycle and viewing the 'My Groups' tab - any invitations you have will be listed at the bottom."
-msgstr ""
+msgstr "Wenn Du dich bei Mein Freecycle anmeldest, kannst Du Dir die Einladungen anschauen und ihnen zustimmen oder sie ablehnen. Alle Einladungen werden unten aufgeführt sein."
 
 #: webapp_myf/templates/source/home/posts/new.tt:54
 msgid "You can add more details here :"
@@ -5996,6 +6027,13 @@ msgid ""
 "could not be delivered, as the email address you sent it from was not recognised as belonging to a Member of that Group. You must use your registered My Freecycle email address to "
 "send to Groups."
 msgstr ""
+"Deine aktuelle E-Mail an:\n"
+"\n"
+"%1\n"
+"\n"
+"konnte nicht übermittelt werden, da die verwendete E-Mail-Adresse mit der Du gesendet hast nicht in dieser Gruppe registriert ist. Um E-Mails an eine Gruppe zu senden, ist es "
+"erforderlich, dass diese Adresse bei Mein Freecycle registriert ist iund Dein Benutzer die Gruppe abonniert hat.  Möglicherweise hast Du zur Registrierung Deines Benutzers eine andere "
+"Adresse verwendet."
 
 #. (attempted_address)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_nomember_email:1
@@ -6006,6 +6044,12 @@ msgid ""
 "\n"
 "could not be delivered, as the email address you sent it from was not recognised. You must use your registered My Freecycle email address to send to Groups."
 msgstr ""
+"Deine aktuelle E-Mail an:\n"
+"\n"
+"%1\n"
+"\n"
+"konnte nicht übermittelt werden, da die verwendete E-Mail-Adresse mit der Du gesendet hast, nicht erkannt wurde. Um E-Mails an eine Gruppe zu senden, ist es erforderlich, dass diese "
+"Adresse bei Mein Freecycle registriert ist iund Dein Benutzer die Gruppe abonniert hat. Möglicherweise hast Du zur Registrierung Deines Benutzers eine andere Adresse verwendet."
 
 #. (attempted_address)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_mfoptout_email:1
@@ -6127,6 +6171,8 @@ msgid ""
 "could not be delivered, as that Group had decided to not use the My Freecycle interface. You will need to send your email\n"
 "again, to this address:\n"
 msgstr ""
+"konnte nicht zugestellt werden, da die Gruppe sich noch nicht dazu entschieden hat die Gruppenfunktion von Freecycle zu verwenden.\n"
+"Bitte sende Deine E-Mail noch einmal an die folgende Adresse:\n"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:202 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:130
 #: webapp_modtools/templates/perl/source/moderator_members_list:364 webapp_modtools/templates/perl/source/moderator_members_list:369
