@@ -67,7 +67,7 @@ msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:67
 msgid "\"My Freecycle\" users to be invited"
-msgstr "\"My Freecycle\"-Benutzer, die eingeladen werden sollen"
+msgstr "\"Mein Freecycle\"-Benutzer, die eingeladen werden sollen"
 
 #. (group.groupname, post.type, post.post_subject, post.location)
 #: webapp_main/templates/source/group/posts/display_post.tt:12
@@ -721,7 +721,7 @@ msgstr "abgebrochen/gelöscht"
 
 #: webapp_myf/templates/source/home/info/index.tt:147 webapp_myf/templates/source/home/info/index.tt:148
 msgid "Change My Freecycle email address"
-msgstr "Die 'My Freecycle' E-Mail-Adresse ändern"
+msgstr "Die 'Mein Freecycle'-E-Mail-Adresse ändern"
 
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:29
 msgid "Change custom logo"
@@ -762,11 +762,11 @@ msgstr "Benutzernamen ändern"
 
 #: webapp_myf/templates/source/home/info/change_email_address.tt:14
 msgid "Change your 'My Freecycle' email address"
-msgstr "Ändere Deine 'My Freecycle' E-Mail-Adresse"
+msgstr "Ändere Deine 'Mein Freecycle' E-Mail-Adresse"
 
 #: webapp_myf/templates/source/home/info/change_password.tt:14
 msgid "Change your 'My Freecycle' password"
-msgstr "Ändere Dein 'My Freecycle' Kennwort"
+msgstr "Ändere Dein 'Mein Freecycle' Kennwort"
 
 #: webapp_myf/templates/source/home/info/change_username.tt:3
 msgid "Changing your username"
@@ -1694,11 +1694,11 @@ msgstr ""
 
 #: webapp_myf/templates/source/index.tt:8
 msgid "I'm already a My Freecycle user!"
-msgstr "Ich bin bereits ein 'My Freecycle' Benutzer!"
+msgstr "Ich bin bereits ein 'Mein Freecycle' Benutzer!"
 
 #: webapp_myf/templates/source/index.tt:30
 msgid "I'm not a My Freecycle user"
-msgstr "Ich bin kein 'My Freecycle' Benutzer"
+msgstr "Ich bin noch kein 'Mein Freecycle' Benutzer"
 
 # Anders übersetzt da "Ich bin nicht sicher dass ich ... bin" nicht so ganz klar ist.
 #: webapp_myf/templates/source/index.tt:35
@@ -1816,7 +1816,7 @@ msgstr "Falls Du Probleme mit diesem Link hast, kontaktiere bitte Deinen GA - E-
 #. ('<a href="http://wiki.freecycle.org/MemberFAQ:/">')
 #: webapp_myf/templates/lib/standard_footer.tt:7
 msgid "If you have any problems or feedback when using My Freecycle, please refer to the %1"
-msgstr "Wenn Du bei der Benutzung von My Freecycle Probleme, oder Anregungen irgendeiner Art hast, schaue Dir bitte die Seite mit den %1"
+msgstr "Wenn Du bei der Benutzung von Mein Freecycle Probleme, oder Anregungen irgendeiner Art hast, schaue Dir bitte die Seite mit den %1"
 
 #. (uri_for('Root', 'oauth2', undef, undef, { provider=> 'facebook', referer => c.request.param('referer')
 #: webapp_myf/templates/source/index.tt:23
@@ -1872,7 +1872,7 @@ msgstr ""
 "Falls Du Mitglied von Gruppen bist, welche Yahoo!Groups nutzen, musst Du die Gruppen bei Yahoo! finden und ihnen dort beitreten. Wir können Deine Gruppenmitgliedschaften wegen der "
 "Geschäftsbedingungen von Yahoo! nicht automatisch überprüfen.<br />\n"
 "Dieses System wird automatisch versuchen, Deine Adresse der Yahoo!Group hinzuzufügen - Du erhältst eine automatische E-Mail von Yahoo!, welche Dir entweder mitteilt, dass Du schon "
-"Mitglied bist oder Dich bittet, Deine Mitgliedschaft zu bestätigen (falls Deine registrierte 'My Freecycle' E-Mail Adresse von Deiner Yahoo! E-Mail Adresse abweicht.)<br />\n"
+"Mitglied bist oder Dich bittet, Deine Mitgliedschaft zu bestätigen (falls Deine registrierte 'Mein Freecycle' E-Mail Adresse von Deiner Yahoo! E-Mail Adresse abweicht.)<br />\n"
 "Falls Du bereits Mitglied bist, kannst Du sofort 'Mein Beitrittsgesuch wurde genehmigt' auswählen. Bitte beachte, dass dieses System komplett unabhängig von Yahoo!Groups ist - nur die "
 "Antwort, dass Dein Beitrittsgesuch genehmigt wurde, lässt Dich nicht automatisch der Gruppe beitreten.<br />\n"
 "<br />\n"
@@ -1896,7 +1896,7 @@ msgid ""
 "My Freecycle"
 msgstr ""
 "Wenn Du Probleme beim Erkennen der Zeichen (CAPTCHA) hast, kannst Du hier einen Haken setzen für eine E-Mail-Bestätigung. Es wird Dir ein per Zufall generiertes Kennwort gesendet, mit "
-"dem Du Dich bei 'My Freecycle' anmelden kannst."
+"dem Du Dich bei 'Mein Freecycle' anmelden kannst."
 
 #. ("http://my.freecycle.org/home/groups")
 #: webapp_main/templates/source/404.tt:15
@@ -1904,7 +1904,7 @@ msgid ""
 "If you're logged in to My Freecycle, you should be able to use the links under \"<a href='%1' title='A list of the Groups that you have joined'>My Groups</a>\" to jump straight to a "
 "Group"
 msgstr ""
-"Wenn Du bei 'My Freecycle' angemeldet bist, kannst du mit den Links unter \"<a href='%1' title='Liste der Gruppen, denen Du beigetreten bist'>Meine Gruppen</a>\" direkt zu einer "
+"Wenn Du bei 'Mein Freecycle' angemeldet bist, kannst du mit den Links unter \"<a href='%1' title='Liste der Gruppen, denen Du beigetreten bist'>Meine Gruppen</a>\" direkt zu einer "
 "Gruppe springen"
 
 #. (uri_for('Root', 'signup')
@@ -2509,7 +2509,7 @@ msgstr "Moderatoren und Mitglieder dieser Gruppe"
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:22
 msgid "Moderate"
-msgstr "moderiert"
+msgstr "Moderieren"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:186 webapp_modtools/templates/perl/source/moderator_members_list:214
 #: webapp_modtools/templates/perl/source/moderator_members_list:233
@@ -2576,15 +2576,15 @@ msgstr "Die Fahrräder meiner Töchter waren leider gestohlen worden, aber über
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:20
 msgid "My Freecycle"
-msgstr "My Freecycle"
+msgstr "Mein Freecycle"
 
 #: webapp_myf/templates/source/home/posts/recently_closed.tt:1
 msgid "My Freecycle - recently expired Posts"
-msgstr "My Freecycle - zuletzt abgelaufene Anzeigen"
+msgstr "Mein Freecycle - zuletzt abgelaufene Anzeigen"
 
 #: webapp_modtools/templates/perl/source/moderator/options/main.tt:44 webapp_modtools/templates/perl/source/moderator_group_options_display:54
 msgid "My Freecycle opt-out status"
-msgstr "My Freecycle "
+msgstr "Mein Freecycle abmeldestatus"
 
 #: webapp_myf/templates/lib/box_tabbar.tt:18 core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:19
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:30 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:22
@@ -2688,7 +2688,7 @@ msgstr "Es wurde kein Benutzer gefunden"
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:80
 msgid "Non-\"My Freecycle\" email addresses"
-msgstr "Keine-\"My Freecycle\"-E-Mail-Adresse"
+msgstr "Keine-\"Mein Freecycle\"-E-Mail-Adresse"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:130
 msgid "None"
@@ -2995,7 +2995,7 @@ msgstr "Diese Aktionen durchführen"
 #. ("http://my.freecycle.org/login", "http://my.freecycle.org/signup")
 #: webapp_main/templates/lib/group_box.tt:49
 msgid "Please <a href='%1'>login</a> or <a href='%2'>sign up</a> to My Freecycle to join this group."
-msgstr "Bitte bei 'My Freecycle' <a href='%1'>anmelden</a> oder <a href='%2'>registrieren</a> um dieser Gruppe beizutreten."
+msgstr "Bitte bei 'Mein Freecycle' <a href='%1'>anmelden</a> oder <a href='%2'>registrieren</a> um dieser Gruppe beizutreten."
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:50 webapp_modtools/templates/source/manage/files/new_file.tt:38
 msgid "Please check the file access level"
@@ -3535,7 +3535,7 @@ msgstr "Anzeige entfernen und Benutzer auf moderiert stellen"
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:72 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:70
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:70 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:71
 msgid "Remove Post from My Freecycle"
-msgstr "Anzeige von My Freecycle entfernen"
+msgstr "Anzeige von Mein Freecycle entfernen"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:117
 msgid "Reply by email"
@@ -3840,7 +3840,7 @@ msgstr "Registrieren"
 
 #: webapp_myf/templates/source/signup.tt:15
 msgid "Sign up for My Freecycle"
-msgstr "Für 'My Freecycle' registrieren"
+msgstr "Für 'Mein Freecycle' registrieren"
 
 #: webapp_myf/templates/source/signup.tt:24
 msgid "Sign up form"
@@ -3976,7 +3976,7 @@ msgid ""
 "Temporary error with the third-party provider - they may be having issues authorising logins. Please try again later, or log in with your My Freecycle username and password to continue"
 msgstr ""
 "Vorübergehender Fehler mit einem Drittanbieter - möglicherweise haben diese Probleme bei der Autorisierung der Anmeldung. Bitte versuche es später noch einmal, oder melde Dich mit "
-"deinem 'My Freecycle' Benutzernamen und Kennwort an um weiterzumachen"
+"deinem 'Mein Freecycle' Benutzernamen und Kennwort an um weiterzumachen"
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:46 webapp_main/templates/source/about/index.tt:18 webapp_main/templates/source/tos.tt:5
 msgid "Terms of Service"
@@ -4053,7 +4053,7 @@ msgid ""
 "The 'My Freecycle' site is aimed at making your experience of The Freecycle Network&trade; easier and more pleasant. Quickly and easily make and manage your Group memberships and "
 "Posts."
 msgstr ""
-"Ziel der 'My Freecycle' Site ist es, Dir die Nutzung des 'The Freecycle Network&trade;' einfacher und schöner zu gestalten. Hier kannst Du schnell und einfach Anzeigen erstellen und "
+"Ziel der 'Mein Freecycle' Site ist es, Dir die Nutzung des 'The Freecycle Network&trade;' einfacher und schöner zu gestalten. Hier kannst Du schnell und einfach Anzeigen erstellen und "
 "Deine Gruppenmitgliedschaften verwalten."
 
 #: webapp_main/templates/source/about/staff.tt:26
@@ -4500,9 +4500,9 @@ msgid ""
 "decisions regarding the running of the groups they look after, and as such the responsibility for making this decision is theirs. Other groups may still allow the use of this facility "
 "- the decision is made on a per-group basis."
 msgstr ""
-"Die Moderatoren dieser Gruppe haben eingestellt, dass Mitglieder die 'My Freecycle' Funktion in dieser Gruppe nicht nutzen können. Gruppenmoderatoren können dies für ihre Gruppe nach "
-"eigenem Ermessen anpassen, um den Verlauf in der Gruppe zu kontrollieren. In anderen Gruppen könnte diese Funktion noch erlaubt sein. Dies ist eine Einstellung, die für jede Gruppe "
-"separat vorgenommen wird."
+"Die Moderatoren dieser Gruppe haben eingestellt, dass Mitglieder die 'Mein Freecycle' Funktion in dieser Gruppe nicht nutzen können. Gruppenmoderatoren können dies für ihre Gruppe "
+"nach eigenem Ermessen anpassen, um den Verlauf in der Gruppe zu kontrollieren. In anderen Gruppen könnte diese Funktion noch erlaubt sein. Dies ist eine Einstellung, die für jede "
+"Gruppe separat vorgenommen wird."
 
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:44
 msgid "The number of members in this group"
@@ -4743,7 +4743,7 @@ msgstr "Diese Personen scheinen schon in diese Gruppe eingebunden zu sein"
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:81
 msgid "These people will be sent a generic email inviting them to create a \"My Freecycle\" account and join the Group."
-msgstr "Diese Personen bekommen eine E-Mail, in der sie dazu eingeladen werden sich ein Benutzerkonto auf \"My Freecycle\" anzulegen und der Gruppe beizutreten."
+msgstr "Diese Personen bekommen eine E-Mail, in der sie dazu eingeladen werden sich ein Benutzerkonto auf \"Mein Freecycle\" anzulegen und der Gruppe beizutreten."
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:68
 msgid "These people will be sent an email inviting them to join the Group, and the invitation will be shown on their \"My Groups\" page"
@@ -4771,7 +4771,7 @@ msgstr "Keine Dateien zum Anzeigen in dieser Gruppe vorhanden"
 
 #: webapp_myf/templates/source/home/info/index.tt:101
 msgid "This My Freecycle account is associated with this Facebook account : "
-msgstr "Dieses 'My Freecycle' Konto ist mit dem folgenden Facebook-Benutzerkonto verbunden:"
+msgstr "Dieses 'Freecycle' Konto ist mit dem folgenden Facebook-Benutzerkonto verbunden:"
 
 #: webapp_main/templates/source/email/post_abuse_report.tt:1
 msgid "This Post has been marked by a Member as being inappropriate"
@@ -4832,7 +4832,7 @@ msgid ""
 msgstr ""
 "Diese Gruppe befindet sich noch im Yahoo!Groups System - Du musst die Yahoo!Groups\n"
 "<a href=\"http://groups.yahoo.com/group/%1/members\">Mitglieder Verwaltungsseiten</a>verwenden um Benutzer zu verwalten. Jegliche Mitglieder\n"
-"die hier gelistet werden sind durch das 'My Freecycle' System gegangen, und diese Liste sollte nur als <b>unvollständig und nur zur Information\n"
+"die hier gelistet werden sind durch das 'Freecycle' System gegangen, und diese Liste sollte nur als <b>unvollständig und nur zur Information\n"
 "angesehen werden"
 
 #: webapp_myf/templates/source/home/posts/manage/taken_form.tt:17
@@ -5182,7 +5182,7 @@ msgstr "Anzeigenersteller nicht mehr moderieren"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:119 webapp_modtools/templates/perl/source/moderator_members_list:121
 msgid "Unmoderated"
-msgstr "unmoderiert"
+msgstr "Unmoderiert"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:46
 msgid "Unsubscribe from emails"
@@ -5699,18 +5699,18 @@ msgstr ""
 
 #: webapp_myf/templates/source/home/info/change_password.tt:17
 msgid "You can use this form to change your login password for 'My Freecycle'."
-msgstr "Du kannst dieses Formular nutzen um Dein Kennwort für 'My Freecycle' zu ändern."
+msgstr "Du kannst dieses Formular nutzen um Dein Kennwort für 'Mein Freecycle' zu ändern."
 
 #: webapp_myf/templates/source/home/info/change_email_address.tt:26
 msgid ""
 "You can use this form to change your registered email address.<br />Please note that email addresses must be unique - you cannot use an email address already assigned to a different "
 "'My Freecycle' account."
 msgstr ""
-"Du kannst dieses Formular nutzen, um Deine E-Mail-Adresse zu ändern.<br />E-Mail-Adressen können nicht mehrfach bei verschiedenen 'My Freecycle' Benutzerkonten verwendet werden. "
+"Du kannst dieses Formular nutzen, um Deine E-Mail-Adresse zu ändern.<br />E-Mail-Adressen können nicht mehrfach bei verschiedenen 'Mein Freecycle' Benutzerkonten verwendet werden. "
 
 #: webapp_myf/templates/source/signup.tt:193
 msgid "You cannot use My Freecycle without agreeing to the Terms of Service"
-msgstr "Du kannst 'My Freecycle' nicht nutzen, ohne den Nutzungsbedingungen zuzustimmen"
+msgstr "Du kannst 'Freecycle' nicht nutzen, ohne den Nutzungsbedingungen zuzustimmen"
 
 #: webapp_myf/templates/source/signup.tt:220
 msgid "You cannot use this service without agreeing to the Terms of Service"
@@ -5723,7 +5723,7 @@ msgstr "Du hast noch keine \"Haupt\"-Gruppe gewählt. Bitte wähle eine aus <a h
 
 #: webapp_myf/templates/source/index.tt:66
 msgid "You didn't authorise the third-party application - unless you authorise My Freecycle to access your account details, we cannot log you in"
-msgstr "Du hast die Drittanbieter-Anwendung nicht autorisiert. Solange Du 'My Freecycle' nicht genehmigst, auf Deine Daten zuzugreifen, können wir Dich nicht anmelden. "
+msgstr "Du hast die Drittanbieter-Anwendung nicht autorisiert. Solange Du 'Freecycle' nicht genehmigst, auf Deine Daten zuzugreifen, können wir Dich nicht anmelden. "
 
 #: webapp_myf/templates/source/home/posts/new.tt:72
 msgid "You do not belong to any groups yet!"
@@ -5889,8 +5889,8 @@ msgid ""
 "You will need to create an account before you can use My Freecycle. You will need to pick a unique username and enter a valid email address that you read. If you are an existing Yahoo!"
 "Groups user, it is recommended that you either use your registered Yahoo! email address or add the new address to your Yahoo! profile."
 msgstr ""
-"Du benötigst ein Benutzerkonto, bevor Du 'My Freecycle' nutzen kannst. Hierfür benötigst Du einen eindeutigen Benutzernamen und eine gültige E-Mail-Adresse. Solltest Du bereits einen "
-"Yahoo!Groups Benutzer haben, ist es empfehlenswert, dass Du entweder die Yahoo!-E-Mail-Adresse verwendest oder die neue E-Mail-Adresse zu Deinem Yahoo!-Benutzerprofil hinzufügst."
+"Du benötigst ein Benutzerkonto, bevor Du 'Mein Freecycle' nutzen kannst. Hierfür benötigst Du einen eindeutigen Benutzernamen und eine gültige E-Mail-Adresse. Solltest Du bereits "
+"einen Yahoo!Groups Benutzer haben, ist es empfehlenswert, dass Du entweder die Yahoo!-E-Mail-Adresse verwendest oder die neue E-Mail-Adresse zu Deinem Yahoo!-Benutzerprofil hinzufügst."
 
 #: webapp_myf/templates/source/home/info/index.tt:38
 msgid ""
@@ -5905,7 +5905,7 @@ msgstr "Du bist zu einer Gruppe auf Freecycle eingeladen worden"
 
 #: webapp_myf/templates/source/home/info/index.tt:106
 msgid "Your Facebook account is not linked to this My Freecycle account"
-msgstr "Dein Facebook-Benutzerkonto ist nicht mit diesem 'My Freecycle' Benutzerkonto verknüpft"
+msgstr "Dein Facebook-Benutzerkonto ist nicht mit diesem 'Freecycle' Benutzerkonto verknüpft"
 
 #: core_modules/lib/Freecycle/Email.pm:1855
 msgid "Your My Freecycle account has been created"
@@ -5915,8 +5915,8 @@ msgstr "Dein Benutzerkonto wurde angelegt"
 msgid ""
 "Your My Freecycle account is not associated - you need to log in with your My Freecycle username and password and associate your account before you can use a third-party login provider"
 msgstr ""
-"Dein 'My Freecycle' Benutzerkonto ist nicht verbunden - bitte nutze Deinen 'My Freecycle' Benutzernamen und das Kennwort, um Dich anzumelden. Danach kannst Du Dein Benutzerkonto mit "
-"dem bei einem Drittanbieter verbinden und es zu Anmeldung nutzen"
+"Dein 'Freecycle' Benutzerkonto ist nicht verbunden - bitte nutze Deinen 'Freecycle' Benutzernamen und das Kennwort, um Dich anzumelden. Danach kannst Du Dein Benutzerkonto mit dem bei "
+"einem Drittanbieter verbinden und es zu Anmeldung nutzen"
 
 #: core_modules/lib/Freecycle/Email.pm:2034
 msgid "Your My Freecycle username reminder"
