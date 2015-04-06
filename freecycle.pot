@@ -787,6 +787,11 @@ msgstr ""
 msgid "Change My Freecycle email address"
 msgstr ""
 
+#: webapp_myf/templates/source/home/info/index.tt:153
+#: webapp_myf/templates/source/home/info/index.tt:154
+msgid "Change My Freecycle email language preferences"
+msgstr ""
+
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:29
 msgid "Change custom logo"
 msgstr ""
@@ -835,6 +840,10 @@ msgstr ""
 
 #: webapp_myf/templates/source/home/info/change_password.tt:14
 msgid "Change your 'My Freecycle' password"
+msgstr ""
+
+#: webapp_myf/templates/source/home/info/change_languages.tt:14
+msgid "Change your email languages setting"
 msgstr ""
 
 #: webapp_myf/templates/source/home/info/change_username.tt:3
@@ -1007,8 +1016,8 @@ msgid "Delete"
 msgstr ""
 
 #: webapp_myf/templates/source/home/agree_to_tos.tt:30
-#: webapp_myf/templates/source/home/info/index.tt:157
-#: webapp_myf/templates/source/home/info/index.tt:158
+#: webapp_myf/templates/source/home/info/index.tt:163
+#: webapp_myf/templates/source/home/info/index.tt:164
 msgid "Delete account"
 msgstr ""
 
@@ -1485,7 +1494,7 @@ msgstr ""
 msgid "Freecycle Newswire"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:86
+#: webapp_modtools/templates/perl/source/moderator_overview:88
 msgid "Freecycle Tech Status"
 msgstr ""
 
@@ -1671,7 +1680,7 @@ msgstr ""
 msgid "Group file ID: %1"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:25
+#: webapp_modtools/templates/perl/source/moderator_overview:24
 msgid "Group home"
 msgstr ""
 
@@ -1684,7 +1693,7 @@ msgstr ""
 msgid "Group limit reached"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:24
+#: webapp_modtools/templates/perl/source/moderator_overview:23
 msgid "Group name"
 msgstr ""
 
@@ -1909,7 +1918,7 @@ msgid ""
 "in relation to this Post."
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:74
+#: webapp_modtools/templates/perl/source/moderator_overview:76
 msgid "If you are a Group mod, please contact your GOA"
 msgstr ""
 
@@ -2280,7 +2289,7 @@ msgid "Invite members to the %1 group"
 msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_display_group_invites:48
-#: webapp_modtools/templates/perl/source/moderator_members_overview:36
+#: webapp_modtools/templates/perl/source/moderator_members_overview:45
 msgid "Invited"
 msgstr ""
 
@@ -2338,7 +2347,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:54
 #: webapp_modtools/templates/perl/source/moderator_members_list:109
 #: webapp_modtools/templates/perl/source/moderator_members_list:110
-#: webapp_modtools/templates/perl/source/moderator_members_overview:48
+#: webapp_modtools/templates/perl/source/moderator_members_overview:57
 #: webapp_myf/templates/source/home/groups/index.tt:125
 #: webapp_myf/templates/source/home/groups/options_display.tt:36
 #: webapp_myf/templates/source/home/groups/options_display.tt:73
@@ -2376,7 +2385,7 @@ msgid ""
 "%1"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_members_overview:34
+#: webapp_modtools/templates/perl/source/moderator_members_overview:43
 msgid "Level"
 msgstr ""
 
@@ -2565,7 +2574,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:52
 #: webapp_modtools/templates/perl/source/moderator_members_list:105
 #: webapp_modtools/templates/perl/source/moderator_members_list:106
-#: webapp_modtools/templates/perl/source/moderator_members_overview:42
+#: webapp_modtools/templates/perl/source/moderator_members_overview:51
 #: webapp_myf/templates/source/home/groups/index.tt:123
 #: webapp_myf/templates/source/home/groups/options_display.tt:34
 #: webapp_myf/templates/source/home/groups/options_display.tt:70
@@ -2597,7 +2606,7 @@ msgstr ""
 #: webapp_modtools/templates/lib/moderator_menu:86
 #: webapp_modtools/templates/perl/source/moderator_menu:82
 #: webapp_modtools/templates/perl/source/moderator_menu:86
-#: webapp_modtools/templates/perl/source/moderator_overview:26
+#: webapp_modtools/templates/perl/source/moderator_overview:25
 #: webapp_modtools/templates/perl/source/moderator_preferences:23
 msgid "Members"
 msgstr ""
@@ -2745,7 +2754,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:53
 #: webapp_modtools/templates/perl/source/moderator_members_list:107
 #: webapp_modtools/templates/perl/source/moderator_members_list:108
-#: webapp_modtools/templates/perl/source/moderator_members_overview:45
+#: webapp_modtools/templates/perl/source/moderator_members_overview:54
 #: webapp_myf/templates/source/home/groups/index.tt:124
 #: webapp_myf/templates/source/home/groups/options_display.tt:35
 #: webapp_myf/templates/source/home/groups/options_display.tt:71
@@ -2950,7 +2959,7 @@ msgstr ""
 msgid "Nonprofit Status"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_members_overview:34
+#: webapp_modtools/templates/perl/source/moderator_members_overview:43
 msgid "Number"
 msgstr ""
 
@@ -3025,11 +3034,11 @@ msgid ""
 "Tucsonans in need."
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:36
+#: webapp_modtools/templates/perl/source/moderator_overview:35
 msgid "On Yahoo!Groups"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:38
+#: webapp_modtools/templates/perl/source/moderator_overview:37
 msgid "On freecycle.org"
 msgstr ""
 
@@ -3208,14 +3217,14 @@ msgstr ""
 #: webapp_modtools/templates/lib/moderator_menu:128
 #: webapp_modtools/templates/lib/moderator_menu:92
 #: webapp_modtools/templates/perl/source/moderator_group_posts_overview:22
-#: webapp_modtools/templates/perl/source/moderator_members_overview:39
+#: webapp_modtools/templates/perl/source/moderator_members_overview:48
 #: webapp_modtools/templates/perl/source/moderator_menu:112
 #: webapp_modtools/templates/perl/source/moderator_menu:128
 #: webapp_modtools/templates/perl/source/moderator_menu:92
 msgid "Pending"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:29
+#: webapp_modtools/templates/perl/source/moderator_overview:28
 msgid "Pending Images"
 msgstr ""
 
@@ -3229,7 +3238,7 @@ msgstr ""
 msgid "Pending Member approved"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:27
+#: webapp_modtools/templates/perl/source/moderator_overview:26
 msgid "Pending Members"
 msgstr ""
 
@@ -3238,7 +3247,7 @@ msgstr ""
 msgid "Pending Members of the %1 group"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:28
+#: webapp_modtools/templates/perl/source/moderator_overview:27
 msgid "Pending Messages"
 msgstr ""
 
@@ -4608,7 +4617,7 @@ msgid ""
 "The Freecycle Network is incorporated as a nonprofit in the State of Arizona."
 msgstr ""
 
-#: webapp_myf/templates/lib/standard_header.tt:18
+#: webapp_myf/templates/lib/standard_header.tt:19
 #: webapp_myf/templates/source/errors.tt:14
 msgid "The Freecycle Network logo"
 msgstr ""
@@ -5602,6 +5611,10 @@ msgstr ""
 msgid "Unique name :"
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_members_overview:36
+msgid "Unmoderate Entire Group"
+msgstr ""
+
 #: webapp_modtools/templates/perl/source/moderator_members_list:190
 msgid "Unmoderate Member for Post images"
 msgstr ""
@@ -6094,7 +6107,7 @@ msgid "You are a Moderator of %1 group(s)."
 msgstr ""
 
 #. (numgroups)
-#: webapp_modtools/templates/perl/source/moderator_overview:21
+#: webapp_modtools/templates/perl/source/moderator_overview:20
 msgid "You are a Moderator or Lead Moderator of %1 group"
 msgstr ""
 
@@ -6130,7 +6143,7 @@ msgstr ""
 msgid "You are not a member of any groups."
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:73
+#: webapp_modtools/templates/perl/source/moderator_overview:75
 msgid "You are not a moderator of any groups."
 msgstr ""
 
@@ -6200,6 +6213,11 @@ msgid ""
 "You can use this form to change your registered email address.<br />Please "
 "note that email addresses must be unique - you cannot use an email address "
 "already assigned to a different 'My Freecycle' account."
+msgstr ""
+
+#: webapp_myf/templates/source/home/info/change_languages.tt:17
+msgid ""
+"You can use this form to choose the languages you prefer to get emails in."
 msgstr ""
 
 #: webapp_myf/templates/source/signup.tt:193

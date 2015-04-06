@@ -524,7 +524,7 @@ msgstr ""
 msgid "Freecycle Moderator Tools"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:86
+#: webapp_modtools/templates/perl/source/moderator_overview:88
 msgid "Freecycle Tech Status"
 msgstr ""
 
@@ -586,11 +586,11 @@ msgstr ""
 msgid "Group file ID: %1"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:25
+#: webapp_modtools/templates/perl/source/moderator_overview:24
 msgid "Group home"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:24
+#: webapp_modtools/templates/perl/source/moderator_overview:23
 msgid "Group name"
 msgstr ""
 
@@ -640,7 +640,7 @@ msgstr ""
 msgid "ID"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:74
+#: webapp_modtools/templates/perl/source/moderator_overview:76
 msgid "If you are a Group mod, please contact your GOA"
 msgstr ""
 
@@ -757,7 +757,7 @@ msgstr ""
 msgid "Invite members to the %1 group"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_display_group_invites:48 webapp_modtools/templates/perl/source/moderator_members_overview:36
+#: webapp_modtools/templates/perl/source/moderator_display_group_invites:48 webapp_modtools/templates/perl/source/moderator_members_overview:45
 msgid "Invited"
 msgstr ""
 
@@ -769,7 +769,7 @@ msgstr ""
 msgid "Join this group"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:54 webapp_modtools/templates/perl/source/moderator_members_list:109 webapp_modtools/templates/perl/source/moderator_members_list:110 webapp_modtools/templates/perl/source/moderator_members_overview:48
+#: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:54 webapp_modtools/templates/perl/source/moderator_members_list:109 webapp_modtools/templates/perl/source/moderator_members_list:110 webapp_modtools/templates/perl/source/moderator_members_overview:57
 msgid "Lead Moderator"
 msgstr ""
 
@@ -786,7 +786,7 @@ msgstr ""
 msgid "Less than a day"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_members_overview:34
+#: webapp_modtools/templates/perl/source/moderator_members_overview:43
 msgid "Level"
 msgstr ""
 
@@ -867,7 +867,7 @@ msgstr ""
 msgid "Meaning"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:52 webapp_modtools/templates/perl/source/moderator_members_list:105 webapp_modtools/templates/perl/source/moderator_members_list:106 webapp_modtools/templates/perl/source/moderator_members_overview:42
+#: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:52 webapp_modtools/templates/perl/source/moderator_members_list:105 webapp_modtools/templates/perl/source/moderator_members_list:106 webapp_modtools/templates/perl/source/moderator_members_overview:51
 msgid "Member"
 msgstr ""
 
@@ -876,7 +876,7 @@ msgstr ""
 msgid "Member info for the %1 group"
 msgstr ""
 
-#: webapp_modtools/templates/lib/moderator_menu:82 webapp_modtools/templates/lib/moderator_menu:86 webapp_modtools/templates/perl/source/moderator_menu:82 webapp_modtools/templates/perl/source/moderator_menu:86 webapp_modtools/templates/perl/source/moderator_overview:26 webapp_modtools/templates/perl/source/moderator_preferences:23
+#: webapp_modtools/templates/lib/moderator_menu:82 webapp_modtools/templates/lib/moderator_menu:86 webapp_modtools/templates/perl/source/moderator_menu:82 webapp_modtools/templates/perl/source/moderator_menu:86 webapp_modtools/templates/perl/source/moderator_overview:25 webapp_modtools/templates/perl/source/moderator_preferences:23
 msgid "Members"
 msgstr ""
 
@@ -938,7 +938,7 @@ msgstr ""
 msgid "Moderation"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:53 webapp_modtools/templates/perl/source/moderator_members_list:107 webapp_modtools/templates/perl/source/moderator_members_list:108 webapp_modtools/templates/perl/source/moderator_members_overview:45
+#: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:53 webapp_modtools/templates/perl/source/moderator_members_list:107 webapp_modtools/templates/perl/source/moderator_members_list:108 webapp_modtools/templates/perl/source/moderator_members_overview:54
 msgid "Moderator"
 msgstr ""
 
@@ -1003,7 +1003,7 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_members_overview:34
+#: webapp_modtools/templates/perl/source/moderator_members_overview:43
 msgid "Number"
 msgstr ""
 
@@ -1032,11 +1032,11 @@ msgstr ""
 msgid "Object"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:36
+#: webapp_modtools/templates/perl/source/moderator_overview:35
 msgid "On Yahoo!Groups"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:38
+#: webapp_modtools/templates/perl/source/moderator_overview:37
 msgid "On freecycle.org"
 msgstr ""
 
@@ -1101,11 +1101,11 @@ msgstr ""
 msgid "Paging options"
 msgstr ""
 
-#: webapp_modtools/templates/lib/moderator_menu:112 webapp_modtools/templates/lib/moderator_menu:128 webapp_modtools/templates/lib/moderator_menu:92 webapp_modtools/templates/perl/source/moderator_group_posts_overview:22 webapp_modtools/templates/perl/source/moderator_members_overview:39 webapp_modtools/templates/perl/source/moderator_menu:112 webapp_modtools/templates/perl/source/moderator_menu:128 webapp_modtools/templates/perl/source/moderator_menu:92
+#: webapp_modtools/templates/lib/moderator_menu:112 webapp_modtools/templates/lib/moderator_menu:128 webapp_modtools/templates/lib/moderator_menu:92 webapp_modtools/templates/perl/source/moderator_group_posts_overview:22 webapp_modtools/templates/perl/source/moderator_members_overview:48 webapp_modtools/templates/perl/source/moderator_menu:112 webapp_modtools/templates/perl/source/moderator_menu:128 webapp_modtools/templates/perl/source/moderator_menu:92
 msgid "Pending"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:29
+#: webapp_modtools/templates/perl/source/moderator_overview:28
 msgid "Pending Images"
 msgstr ""
 
@@ -1117,7 +1117,7 @@ msgstr ""
 msgid "Pending Member approved"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:27
+#: webapp_modtools/templates/perl/source/moderator_overview:26
 msgid "Pending Members"
 msgstr ""
 
@@ -1126,7 +1126,7 @@ msgstr ""
 msgid "Pending Members of the %1 group"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:28
+#: webapp_modtools/templates/perl/source/moderator_overview:27
 msgid "Pending Messages"
 msgstr ""
 
@@ -1684,6 +1684,10 @@ msgstr ""
 msgid "Unique TFN Group ID"
 msgstr ""
 
+#: webapp_modtools/templates/perl/source/moderator_members_overview:36
+msgid "Unmoderate Entire Group"
+msgstr ""
+
 #: webapp_modtools/templates/perl/source/moderator_members_list:190
 msgid "Unmoderate Member for Post images"
 msgstr ""
@@ -1835,11 +1839,11 @@ msgid "You already have a file with this name on this Group - files need unique 
 msgstr ""
 
 #. (numgroups)
-#: webapp_modtools/templates/perl/source/moderator_overview:21
+#: webapp_modtools/templates/perl/source/moderator_overview:20
 msgid "You are a Moderator or Lead Moderator of %1 group"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_overview:73
+#: webapp_modtools/templates/perl/source/moderator_overview:75
 msgid "You are not a moderator of any groups."
 msgstr ""
 

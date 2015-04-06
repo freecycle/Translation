@@ -117,6 +117,10 @@ msgstr ""
 msgid "Change My Freecycle email address"
 msgstr ""
 
+#: webapp_myf/templates/source/home/info/index.tt:153 webapp_myf/templates/source/home/info/index.tt:154
+msgid "Change My Freecycle email language preferences"
+msgstr ""
+
 #: webapp_myf/templates/source/home/groups/options_display.tt:106
 msgid "Change email preference"
 msgstr ""
@@ -147,6 +151,10 @@ msgstr ""
 
 #: webapp_myf/templates/source/home/info/change_password.tt:14
 msgid "Change your 'My Freecycle' password"
+msgstr ""
+
+#: webapp_myf/templates/source/home/info/change_languages.tt:14
+msgid "Change your email languages setting"
 msgstr ""
 
 #: webapp_myf/templates/source/home/info/change_username.tt:3
@@ -181,7 +189,7 @@ msgstr ""
 msgid "Default location for Posts :"
 msgstr ""
 
-#: webapp_myf/templates/source/home/agree_to_tos.tt:30 webapp_myf/templates/source/home/info/index.tt:157 webapp_myf/templates/source/home/info/index.tt:158
+#: webapp_myf/templates/source/home/agree_to_tos.tt:30 webapp_myf/templates/source/home/info/index.tt:163 webapp_myf/templates/source/home/info/index.tt:164
 msgid "Delete account"
 msgstr ""
 
@@ -866,7 +874,7 @@ msgstr ""
 msgid "The Freecycle Network Terms of Service"
 msgstr ""
 
-#: webapp_myf/templates/lib/standard_header.tt:18 webapp_myf/templates/source/errors.tt:14
+#: webapp_myf/templates/lib/standard_header.tt:19 webapp_myf/templates/source/errors.tt:14
 msgid "The Freecycle Network logo"
 msgstr ""
 
@@ -1165,6 +1173,10 @@ msgstr ""
 
 #: webapp_myf/templates/source/home/info/change_email_address.tt:26
 msgid "You can use this form to change your registered email address.<br />Please note that email addresses must be unique - you cannot use an email address already assigned to a different 'My Freecycle' account."
+msgstr ""
+
+#: webapp_myf/templates/source/home/info/change_languages.tt:17
+msgid "You can use this form to choose the languages you prefer to get emails in."
 msgstr ""
 
 #: webapp_myf/templates/source/signup.tt:193
