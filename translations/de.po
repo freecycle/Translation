@@ -723,6 +723,10 @@ msgstr "abgebrochen/gelöscht"
 msgid "Change My Freecycle email address"
 msgstr "Die 'Mein Freecycle'-E-Mail-Adresse ändern"
 
+#: webapp_myf/templates/source/home/info/index.tt:153 webapp_myf/templates/source/home/info/index.tt:154
+msgid "Change My Freecycle email language preferences"
+msgstr "Freecycle E-Mail-Spracheinstellungen ändern"
+
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:29
 msgid "Change custom logo"
 msgstr "Eigenes Logo ändern"
@@ -767,6 +771,10 @@ msgstr "Ändere Deine 'Mein Freecycle' E-Mail-Adresse"
 #: webapp_myf/templates/source/home/info/change_password.tt:14
 msgid "Change your 'My Freecycle' password"
 msgstr "Ändere Dein 'Mein Freecycle' Kennwort"
+
+#: webapp_myf/templates/source/home/info/change_languages.tt:14
+msgid "Change your email languages setting"
+msgstr "E-Mail-Spracheinstellungen anpassen"
 
 #: webapp_myf/templates/source/home/info/change_username.tt:3
 msgid "Changing your username"
@@ -923,7 +931,7 @@ msgstr "Ergebnisse pro Seite (Standard)"
 msgid "Delete"
 msgstr "Löschen"
 
-#: webapp_myf/templates/source/home/agree_to_tos.tt:30 webapp_myf/templates/source/home/info/index.tt:157 webapp_myf/templates/source/home/info/index.tt:158
+#: webapp_myf/templates/source/home/agree_to_tos.tt:30 webapp_myf/templates/source/home/info/index.tt:163 webapp_myf/templates/source/home/info/index.tt:164
 msgid "Delete account"
 msgstr "Benutzerkonto löschen"
 
@@ -1352,7 +1360,7 @@ msgstr "Freecycle Moderatorentools"
 msgid "Freecycle Newswire"
 msgstr "Neugkeiten von Freecycle"
 
-#: webapp_modtools/templates/perl/source/moderator_overview:86
+#: webapp_modtools/templates/perl/source/moderator_overview:88
 msgid "Freecycle Tech Status"
 msgstr "Technischer Status von Freecycle"
 
@@ -1530,7 +1538,7 @@ msgstr "Gruppenbeschreibung der Gruppe %1"
 msgid "Group file ID: %1"
 msgstr "ID der Gruppen-Datei: %1"
 
-#: webapp_modtools/templates/perl/source/moderator_overview:25
+#: webapp_modtools/templates/perl/source/moderator_overview:24
 msgid "Group home"
 msgstr "Ort der Gruppe"
 
@@ -1542,7 +1550,7 @@ msgstr "Gruppen-Info"
 msgid "Group limit reached"
 msgstr "Gruppenlimit erreicht"
 
-#: webapp_modtools/templates/perl/source/moderator_overview:24
+#: webapp_modtools/templates/perl/source/moderator_overview:23
 msgid "Group name"
 msgstr "Name der Gruppe"
 
@@ -1766,7 +1774,7 @@ msgstr ""
 "Sollte diese Anzeige für die Gruppe unangebracht sein, wird das Moderatoren-Team entsprechend handeln. Aber sei bitte nicht verärgert, wenn das Moderatoren-Team sich nicht zurück "
 "meldet. Es kann sein, dass sie für diese Anzeige mehrere Meldungen erhalten haben."
 
-#: webapp_modtools/templates/perl/source/moderator_overview:74
+#: webapp_modtools/templates/perl/source/moderator_overview:76
 msgid "If you are a Group mod, please contact your GOA"
 msgstr "Wenn Du ein Gruppenmoderator bist, nimm bitte Kontakt mit dem \"Group Outreach and Assistance\" Verantwortlichen (GOA) auf"
 
@@ -2116,7 +2124,7 @@ msgstr "Mitglieder einladen"
 msgid "Invite members to the %1 group"
 msgstr "Mitglieder zur Gruppe %1 einladen"
 
-#: webapp_modtools/templates/perl/source/moderator_display_group_invites:48 webapp_modtools/templates/perl/source/moderator_members_overview:36
+#: webapp_modtools/templates/perl/source/moderator_display_group_invites:48 webapp_modtools/templates/perl/source/moderator_members_overview:45
 msgid "Invited"
 msgstr "Eingeladen"
 
@@ -2167,7 +2175,7 @@ msgid "Joined/Applied"
 msgstr "Beigetreten"
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:54 webapp_modtools/templates/perl/source/moderator_members_list:109
-#: webapp_modtools/templates/perl/source/moderator_members_list:110 webapp_modtools/templates/perl/source/moderator_members_overview:48
+#: webapp_modtools/templates/perl/source/moderator_members_list:110 webapp_modtools/templates/perl/source/moderator_members_overview:57
 #: webapp_myf/templates/source/home/groups/index.tt:125 webapp_myf/templates/source/home/groups/options_display.tt:36 webapp_myf/templates/source/home/groups/options_display.tt:73
 msgid "Lead Moderator"
 msgstr "Leitender Moderator"
@@ -2198,7 +2206,7 @@ msgstr "Weniger als ein Tag"
 msgid "Let us know what you think would improve the Freecycle experience - contact %1"
 msgstr "Teile uns Deine Gedanken mit, wie man Freecycle verbessern könnte - kontaktiere %1"
 
-#: webapp_modtools/templates/perl/source/moderator_members_overview:34
+#: webapp_modtools/templates/perl/source/moderator_members_overview:43
 msgid "Level"
 msgstr "Status"
 
@@ -2363,7 +2371,7 @@ msgid "Media Intro and Tips"
 msgstr "Medien Einführung und Tipps"
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:52 webapp_modtools/templates/perl/source/moderator_members_list:105
-#: webapp_modtools/templates/perl/source/moderator_members_list:106 webapp_modtools/templates/perl/source/moderator_members_overview:42
+#: webapp_modtools/templates/perl/source/moderator_members_list:106 webapp_modtools/templates/perl/source/moderator_members_overview:51
 #: webapp_myf/templates/source/home/groups/index.tt:123 webapp_myf/templates/source/home/groups/options_display.tt:34 webapp_myf/templates/source/home/groups/options_display.tt:70
 msgid "Member"
 msgstr "Mitglied"
@@ -2393,7 +2401,7 @@ msgid "Member info for the %1 group"
 msgstr "Mitglieder-Information für die Gruppe %1"
 
 #: webapp_modtools/templates/lib/moderator_menu:82 webapp_modtools/templates/lib/moderator_menu:86 webapp_modtools/templates/perl/source/moderator_menu:82
-#: webapp_modtools/templates/perl/source/moderator_menu:86 webapp_modtools/templates/perl/source/moderator_overview:26 webapp_modtools/templates/perl/source/moderator_preferences:23
+#: webapp_modtools/templates/perl/source/moderator_menu:86 webapp_modtools/templates/perl/source/moderator_overview:25 webapp_modtools/templates/perl/source/moderator_preferences:23
 msgid "Members"
 msgstr "Mitglieder"
 
@@ -2525,7 +2533,7 @@ msgid "Moderation"
 msgstr "Moderation"
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:53 webapp_modtools/templates/perl/source/moderator_members_list:107
-#: webapp_modtools/templates/perl/source/moderator_members_list:108 webapp_modtools/templates/perl/source/moderator_members_overview:45
+#: webapp_modtools/templates/perl/source/moderator_members_list:108 webapp_modtools/templates/perl/source/moderator_members_overview:54
 #: webapp_myf/templates/source/home/groups/index.tt:124 webapp_myf/templates/source/home/groups/options_display.tt:35 webapp_myf/templates/source/home/groups/options_display.tt:71
 msgid "Moderator"
 msgstr "Moderator"
@@ -2702,7 +2710,7 @@ msgstr "nur ADMIN-Nachrichten"
 msgid "Nonprofit Status"
 msgstr "Gemeinnütziger Status "
 
-#: webapp_modtools/templates/perl/source/moderator_members_overview:34
+#: webapp_modtools/templates/perl/source/moderator_members_overview:43
 msgid "Number"
 msgstr "Anzahl"
 
@@ -2763,11 +2771,11 @@ msgstr ""
 "Deron founded The Freecycle Network, he worked with a small nonprofit organization, RISE, which provides recycling services to downtown businesses and transitional employment to "
 "Tucsonans in need."
 
-#: webapp_modtools/templates/perl/source/moderator_overview:36
+#: webapp_modtools/templates/perl/source/moderator_overview:35
 msgid "On Yahoo!Groups"
 msgstr "Auf Yahoo!Groups"
 
-#: webapp_modtools/templates/perl/source/moderator_overview:38
+#: webapp_modtools/templates/perl/source/moderator_overview:37
 msgid "On freecycle.org"
 msgstr "Auf freecycle.org"
 
@@ -2932,12 +2940,12 @@ msgid "Passwords don't match"
 msgstr "Die Kennwörter stimmen nicht überein"
 
 #: webapp_modtools/templates/lib/moderator_menu:112 webapp_modtools/templates/lib/moderator_menu:128 webapp_modtools/templates/lib/moderator_menu:92
-#: webapp_modtools/templates/perl/source/moderator_group_posts_overview:22 webapp_modtools/templates/perl/source/moderator_members_overview:39
+#: webapp_modtools/templates/perl/source/moderator_group_posts_overview:22 webapp_modtools/templates/perl/source/moderator_members_overview:48
 #: webapp_modtools/templates/perl/source/moderator_menu:112 webapp_modtools/templates/perl/source/moderator_menu:128 webapp_modtools/templates/perl/source/moderator_menu:92
 msgid "Pending"
 msgstr "Ausstehend"
 
-#: webapp_modtools/templates/perl/source/moderator_overview:29
+#: webapp_modtools/templates/perl/source/moderator_overview:28
 msgid "Pending Images"
 msgstr "Ausstehende Bilder"
 
@@ -2950,7 +2958,7 @@ msgstr "Ausstehendes Mitglied"
 msgid "Pending Member approved"
 msgstr "Ausstehendes Mitglied bestätigt"
 
-#: webapp_modtools/templates/perl/source/moderator_overview:27
+#: webapp_modtools/templates/perl/source/moderator_overview:26
 msgid "Pending Members"
 msgstr "Ausstehende Mitglieder"
 
@@ -2959,7 +2967,7 @@ msgstr "Ausstehende Mitglieder"
 msgid "Pending Members of the %1 group"
 msgstr "Ausstehende Mitglieder der Gruppe %1"
 
-#: webapp_modtools/templates/perl/source/moderator_overview:28
+#: webapp_modtools/templates/perl/source/moderator_overview:27
 msgid "Pending Messages"
 msgstr "Ausstehende Anzeigen"
 
@@ -4211,7 +4219,7 @@ msgstr "'The Freecycle Network' ist in folgenden Ländern aktiv:"
 msgid "The Freecycle Network is incorporated as a nonprofit in the State of Arizona."
 msgstr "'The Freecycle Network' ist im Staat Arizona als gemeinnützig anerkannt. "
 
-#: webapp_myf/templates/lib/standard_header.tt:18 webapp_myf/templates/source/errors.tt:14
+#: webapp_myf/templates/lib/standard_header.tt:19 webapp_myf/templates/source/errors.tt:14
 msgid "The Freecycle Network logo"
 msgstr "'The Freecycle Network' Logo"
 
@@ -5167,6 +5175,10 @@ msgstr "Eindeutige TFN Gruppen-ID"
 msgid "Unique name :"
 msgstr "Eindeutiger Name:"
 
+#: webapp_modtools/templates/perl/source/moderator_members_overview:36
+msgid "Unmoderate Entire Group"
+msgstr "Aktuelle Gruppe auf unmoderiert schalten"
+
 #: webapp_modtools/templates/perl/source/moderator_members_list:190
 msgid "Unmoderate Member for Post images"
 msgstr "Benutzer für Bilder auf unmoderiert stellen"
@@ -5612,7 +5624,7 @@ msgid "You are a Moderator of %1 group(s)."
 msgstr "Du bist Moderator von %1 Gruppe(n)."
 
 #. (numgroups)
-#: webapp_modtools/templates/perl/source/moderator_overview:21
+#: webapp_modtools/templates/perl/source/moderator_overview:20
 msgid "You are a Moderator or Lead Moderator of %1 group"
 msgstr "Du bist Moderator oder leitender Moderator von %1 Gruppe(n)"
 
@@ -5646,7 +5658,7 @@ msgstr "Du hast die maximale Anzahl an Gruppen erreicht, denen Du beitreten kann
 msgid "You are not a member of any groups."
 msgstr "Du bist Mitglied in keiner Gruppe."
 
-#: webapp_modtools/templates/perl/source/moderator_overview:73
+#: webapp_modtools/templates/perl/source/moderator_overview:75
 msgid "You are not a moderator of any groups."
 msgstr "Du bist kein Moderator irgendeiner Gruppe."
 
@@ -5707,6 +5719,10 @@ msgid ""
 "'My Freecycle' account."
 msgstr ""
 "Du kannst dieses Formular nutzen, um Deine E-Mail-Adresse zu ändern.<br />E-Mail-Adressen können nicht mehrfach bei verschiedenen 'Mein Freecycle' Benutzerkonten verwendet werden. "
+
+#: webapp_myf/templates/source/home/info/change_languages.tt:17
+msgid "You can use this form to choose the languages you prefer to get emails in."
+msgstr "Hier kannst Du wählen in welcher Sprache Du E-Mails erhalten möchtest."
 
 #: webapp_myf/templates/source/signup.tt:193
 msgid "You cannot use My Freecycle without agreeing to the Terms of Service"
