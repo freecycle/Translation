@@ -2973,7 +2973,7 @@ msgstr "Ausstehende Anzeigen"
 
 #: core_modules/lib/Freecycle/Email.pm:2298
 msgid "Pending Post for "
-msgstr "Zu genhmigende Anzeigen bei"
+msgstr "Zu genehmigende Anzeigen bei Freecycle "
 
 #: webapp_myf/templates/source/home/groups/index.tt:121 webapp_myf/templates/source/home/groups/options_display.tt:32
 msgid "Pending approval"
