@@ -119,7 +119,7 @@ msgstr ""
 msgid "Add new link"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/automatic.tt:100
+#: webapp_modtools/templates/source/manage/files/automatic.tt:92
 msgid "Add this file"
 msgstr ""
 
@@ -479,7 +479,7 @@ msgstr ""
 msgid "Fair Offer Policy"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/automatic.tt:66
+#: webapp_modtools/templates/source/manage/files/automatic.tt:58
 msgid "File ID"
 msgstr ""
 
@@ -495,7 +495,7 @@ msgstr ""
 msgid "File list"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/automatic.tt:67 webapp_modtools/templates/source/manage/files/edit.tt:35 webapp_modtools/templates/source/manage/files/index.tt:14 webapp_modtools/templates/source/manage/files/new_file.tt:23
+#: webapp_modtools/templates/source/manage/files/automatic.tt:59 webapp_modtools/templates/source/manage/files/edit.tt:35 webapp_modtools/templates/source/manage/files/index.tt:14 webapp_modtools/templates/source/manage/files/new_file.tt:23
 msgid "File name"
 msgstr ""
 
@@ -1285,7 +1285,7 @@ msgstr ""
 msgid "Reject this Post and send message"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/automatic.tt:79
+#: webapp_modtools/templates/source/manage/files/automatic.tt:71
 msgid "Remove"
 msgstr ""
 
@@ -1543,10 +1543,6 @@ msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_display_hotwords:32
 msgid "There are two \"wildcard\" characters you can use:"
-msgstr ""
-
-#: webapp_modtools/templates/source/manage/files/automatic.tt:53
-msgid "These files will be sent to all Members at the start of every month"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/automatic.tt:21

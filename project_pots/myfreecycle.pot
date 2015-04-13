@@ -874,7 +874,7 @@ msgstr ""
 msgid "The Freecycle Network Terms of Service"
 msgstr ""
 
-#: webapp_myf/templates/lib/standard_header.tt:19 webapp_myf/templates/source/errors.tt:14
+#: webapp_myf/templates/lib/standard_header.tt:18 webapp_myf/templates/source/errors.tt:14
 msgid "The Freecycle Network logo"
 msgstr ""
 
