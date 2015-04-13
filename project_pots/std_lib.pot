@@ -95,6 +95,10 @@ msgstr ""
 msgid "DISCLAIMER: FREECYCLE NETWORK MEMBERS USE THE LIST AT THEIR OWN RISK. Please take reasonable measures to protect your safety and privacy when posting to the list or participating in an exchange. By joining the list, you agree to hold neither the list owners and moderators nor anyone affiliated with Freecycle.org responsible or liable for any circumstance resulting from a Freecycle-related exchange or communication."
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:57 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:97
+msgid "Date"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:59 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:55
 msgid "Description"
 msgstr ""
@@ -129,6 +133,10 @@ msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:11
 msgid "Freecycle.org"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:93
+msgid "From"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:18 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:54
@@ -275,6 +283,10 @@ msgid ""
 "forgotten about."
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:65
+msgid "Or by email"
+msgstr ""
+
 #: core_modules/lib/Freecycle/Email.pm:2299
 msgid "Pending Post for "
 msgstr ""
@@ -318,7 +330,7 @@ msgstr ""
 msgid "Post details"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:24
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:24 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:87
 msgid "Post details follow"
 msgstr ""
 
@@ -326,7 +338,7 @@ msgstr ""
 msgid "Post type"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:9
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:56 core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:9
 msgid "Posted by"
 msgstr ""
 
@@ -500,6 +512,10 @@ msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reply_nopost_email:17
 msgid "This is an automated email - please do not reply"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:50
+msgid "Title"
 msgstr ""
 
 #. (post.subject)

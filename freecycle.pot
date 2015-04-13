@@ -983,6 +983,8 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:27
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:27
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:27
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:57
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:97
 msgid "Date"
 msgstr ""
 
@@ -1527,6 +1529,7 @@ msgstr ""
 msgid "Frequently Asked Questions about Freecycle"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:93
 #: webapp_main/templates/source/group/contact_moderators.tt:8
 msgid "From"
 msgstr ""
@@ -3123,6 +3126,10 @@ msgstr ""
 msgid "Opted out"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:65
+msgid "Or by email"
+msgstr ""
+
 #: webapp_modtools/templates/perl/source/moderator_members_list:312
 msgid "Order by:"
 msgstr ""
@@ -3545,6 +3552,7 @@ msgid "Post details"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:24
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:87
 msgid "Post details follow"
 msgstr ""
 
@@ -3641,6 +3649,7 @@ msgid "Posted On"
 msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:52
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:56
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:9
 msgid "Posted by"
 msgstr ""
@@ -5426,6 +5435,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:23
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:23
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:23
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:50
 msgid "Title"
 msgstr ""
 
