@@ -693,10 +693,6 @@ msgstr ""
 msgid "Organizational Chart"
 msgstr ""
 
-#: webapp_main/templates/source/email/post_abuse_report.tt:9
-msgid "Original Post details:"
-msgstr ""
-
 #: webapp_main/templates/source/about/privacy.tt:6
 msgid "Our Commitment to Privacy"
 msgstr ""
@@ -768,33 +764,9 @@ msgstr ""
 msgid "Post ID"
 msgstr ""
 
-#. (post.post_id)
-#: webapp_main/templates/source/email/post_abuse_report.tt:13
-msgid "Post ID: %1"
-msgstr ""
-
-#. (post.url)
-#: webapp_main/templates/source/email/post_abuse_report.tt:12
-msgid "Post URL: %1"
-msgstr ""
-
-#: webapp_main/templates/source/email/post_abuse_report.tt:16
-msgid "Post description:"
-msgstr ""
-
 #. (post.post_subject)
 #: webapp_main/templates/source/group/posts/display_post.tt:93
 msgid "Post image for %1"
-msgstr ""
-
-#. (post.subject)
-#: webapp_main/templates/source/email/post_abuse_report.tt:15
-msgid "Post subject: %1"
-msgstr ""
-
-#. (post.post_type)
-#: webapp_main/templates/source/email/post_abuse_report.tt:14
-msgid "Post type: %1"
 msgstr ""
 
 #: webapp_main/templates/source/group/posts/display_post.tt:84
@@ -807,11 +779,6 @@ msgstr ""
 
 #: webapp_main/templates/source/group/posts/display_list.tt:48
 msgid "Posted on or before"
-msgstr ""
-
-#. (poster.username _ ' <' _ poster.address _ '>')
-#: webapp_main/templates/source/email/post_abuse_report.tt:11
-msgid "Poster: %1"
 msgstr ""
 
 #: webapp_main/templates/source/about/pressroom.tt:32
@@ -888,11 +855,6 @@ msgstr ""
 
 #: webapp_main/templates/source/group/links/index.tt:50
 msgid "Report link"
-msgstr ""
-
-#. (reporter.username _ ' <' _ reporter.address _ '>')
-#: webapp_main/templates/source/email/post_abuse_report.tt:3
-msgid "Reporter: %1"
 msgstr ""
 
 #. (c.user.getUsername, c.user.getUserEmailAddress)
@@ -1223,10 +1185,6 @@ msgstr ""
 msgid "The password reset token you used has not been recognised. This may be because:"
 msgstr ""
 
-#: webapp_main/templates/source/email/post_abuse_report.tt:5
-msgid "The reporter gave the following reason:"
-msgstr ""
-
 #: webapp_main/templates/source/about/volunteering.tt:6
 msgid "There are literally thousands of volunteers who represent the passion and commitment behind the scenes which enable The Freecycle Network&trade; to function as a grassroots and nonprofit gifting movement."
 msgstr ""
@@ -1245,10 +1203,6 @@ msgstr ""
 
 #: webapp_main/templates/source/group/files/index.tt:13
 msgid "This Group has no files for you to view"
-msgstr ""
-
-#: webapp_main/templates/source/email/post_abuse_report.tt:1
-msgid "This Post has been marked by a Member as being inappropriate"
 msgstr ""
 
 #: webapp_main/templates/source/email/group_link_report.tt:1
