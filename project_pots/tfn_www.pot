@@ -1080,7 +1080,7 @@ msgstr ""
 msgid "The Freecycle Network is a private, nonprofit organization incorporated in the State of Arizona. Our application for federal nonprofit status -- what's known as a 501(c)3 ruling -- was approved in November, 2006 by the IRS. This means that <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KRKYQ7CC8LB5W' title='Donate'>any donations made to The Freecycle Network are tax deductible </a>retroactively stretching back to our original application date in July of 2004."
 msgstr ""
 
-#: webapp_main/templates/source/browse/index.tt:12
+#: webapp_main/templates/source/browse/index.tt:13
 msgid "The Freecycle Network is active in these countries:"
 msgstr ""
 

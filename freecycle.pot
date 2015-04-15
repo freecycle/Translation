@@ -321,8 +321,8 @@ msgstr ""
 msgid "A request was received to retrieve your Freecycle username."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:211
-#: webapp_myf/templates/source/signup.tt:219
+#: webapp_myf/templates/source/signup.tt:198
+#: webapp_myf/templates/source/signup.tt:206
 msgid "A temporary error has occurred"
 msgstr ""
 
@@ -875,7 +875,7 @@ msgstr ""
 msgid "Collective Membership Mark Usage Agreement"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:38
+#: webapp_myf/templates/source/signup.tt:40
 msgid "Confirm email address :"
 msgstr ""
 
@@ -887,7 +887,7 @@ msgstr ""
 msgid "Confirm new password:"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:47
+#: webapp_myf/templates/source/signup.tt:49
 msgid "Confirm password"
 msgstr ""
 
@@ -1268,11 +1268,11 @@ msgstr ""
 #: templates/source/index.tt:93 templates/source/search_box.tt:84
 #: webapp_myf/templates/source/forgottenpassword.tt:97
 #: webapp_myf/templates/source/forgottenusername.tt:20
-#: webapp_myf/templates/source/signup.tt:33
+#: webapp_myf/templates/source/signup.tt:35
 msgid "Email address :"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:218
+#: webapp_myf/templates/source/signup.tt:205
 msgid "Email address invalid - an error was returned when it was checked"
 msgstr ""
 
@@ -1566,7 +1566,7 @@ msgid "Go to group page"
 msgstr ""
 
 #. (uri_for('Root', 'signup', [], undef, {referer=> c.request.param('referer')
-#: webapp_myf/templates/source/index.tt:31
+#: webapp_myf/templates/source/index.tt:34
 msgid "Go to the <a href='%1'>signup form</a> and create your account for free"
 msgstr ""
 
@@ -1833,7 +1833,7 @@ msgid ""
 msgstr ""
 
 #. ("//www.freecycle.org/tos")
-#: webapp_myf/templates/source/signup.tt:71
+#: webapp_myf/templates/source/signup.tt:73
 msgid "I agree to The Freecycle Network <a href='%1'>Terms of Service</a>."
 msgstr ""
 
@@ -1856,11 +1856,11 @@ msgstr ""
 msgid "I'm already a My Freecycle user!"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:30
+#: webapp_myf/templates/source/index.tt:33
 msgid "I'm not a My Freecycle user"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:35
+#: webapp_myf/templates/source/index.tt:38
 msgid "I'm not sure if I am..."
 msgstr ""
 
@@ -1986,11 +1986,11 @@ msgid ""
 "to the %1"
 msgstr ""
 
-#. (uri_for('Root', 'oauth2', undef, undef, { provider=> 'facebook', referer => c.request.param('referer')
-#: webapp_myf/templates/source/index.tt:23
+#. (('<a href="' _ c.uri_for_action('/oauth/facebook_login', {referer => c.request.param('referer')
+#: webapp_myf/templates/source/index.tt:24
 msgid ""
-"If you have authorised the Freecycle Facebook application, you can <a href="
-"\"%1\">log in with your Facebook account</a>"
+"If you have authorised the Freecycle Facebook application, you can %1log in "
+"with your Facebook account%2"
 msgstr ""
 
 #: webapp_main/templates/source/404.tt:16
@@ -2054,7 +2054,7 @@ msgid ""
 "  <a href='/home/posts'>the Posts you have made</a>."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:64
+#: webapp_myf/templates/source/signup.tt:66
 msgid ""
 "If you're having problems with CAPTCHAs, you can check this box to request "
 "an email confirmation. You will be sent a randomly generated password which "
@@ -2070,7 +2070,7 @@ msgid ""
 msgstr ""
 
 #. (uri_for('Root', 'signup')
-#: webapp_myf/templates/source/index.tt:37
+#: webapp_myf/templates/source/index.tt:40
 msgid ""
 "If your email address hasn't been registered before, you can use the <a "
 "href='%1'>signup form</a> to create your new account for free"
@@ -2198,7 +2198,7 @@ msgstr ""
 msgid "Incorporation"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:49
+#: webapp_myf/templates/source/index.tt:52
 msgid "Incorrect username/password"
 msgstr ""
 
@@ -2238,21 +2238,21 @@ msgstr ""
 msgid "Interim Mod Team Member (IMod Team)"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:216
+#: webapp_myf/templates/source/signup.tt:203
 msgid "Invalid country"
 msgstr ""
 
+#: webapp_myf/templates/source/signup.tt:139
 #: webapp_myf/templates/source/signup.tt:152
-#: webapp_myf/templates/source/signup.tt:165
 msgid "Invalid email address"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:217
+#: webapp_myf/templates/source/signup.tt:204
 msgid "Invalid region"
 msgstr ""
 
+#: webapp_myf/templates/source/signup.tt:112
 #: webapp_myf/templates/source/signup.tt:125
-#: webapp_myf/templates/source/signup.tt:138
 msgid "Invalid username"
 msgstr ""
 
@@ -3220,12 +3220,12 @@ msgid "Paging options"
 msgstr ""
 
 #: webapp_myf/templates/source/index.tt:16
-#: webapp_myf/templates/source/signup.tt:44
+#: webapp_myf/templates/source/signup.tt:46
 #: webapp_main/templates/source/login/index.tt:11
 msgid "Password"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:179
+#: webapp_myf/templates/source/signup.tt:166
 msgid "Passwords don't match"
 msgstr ""
 
@@ -3419,22 +3419,22 @@ msgstr ""
 msgid "Please let us know why you think this link is an issue:"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:166
+#: webapp_myf/templates/source/signup.tt:153
 msgid ""
 "Please make sure you've entered your email address correctly in both fields"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:153
+#: webapp_myf/templates/source/signup.tt:140
 msgid "Please make sure you've entered your email address in correctly"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:221
+#: webapp_myf/templates/source/signup.tt:208
 msgid ""
 "Please make sure you've entered your email address in correctly in both "
 "fields"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:180
+#: webapp_myf/templates/source/signup.tt:167
 msgid "Please make sure you've entered your password correctly in both fields"
 msgstr ""
 
@@ -4223,24 +4223,23 @@ msgstr ""
 msgid "Showing %1 to %2 of %3 results."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:75
+#: webapp_myf/templates/source/signup.tt:77
 msgid "Sign up"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:15
+#: webapp_myf/templates/source/signup.tt:17
 msgid "Sign up for My Freecycle"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:24
+#: webapp_myf/templates/source/signup.tt:26
 msgid "Sign up form"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:84
-#: webapp_myf/templates/source/signup.tt:93
+#: webapp_myf/templates/source/signup.tt:86
 msgid "Sign up using Facebook"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:25
+#: webapp_myf/templates/source/signup.tt:27
 msgid "Sign up using freecycle.org"
 msgstr ""
 
@@ -4390,7 +4389,7 @@ msgid ""
 "as good as the sum of our parts so we want to attract good parts, right?"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:67
+#: webapp_myf/templates/source/index.tt:70
 msgid ""
 "Temporary error with the third-party provider - they may be having issues "
 "authorising logins. Please try again later, or log in with your My Freecycle "
@@ -4444,7 +4443,7 @@ msgstr ""
 msgid "Thanks to you!"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:214
+#: webapp_myf/templates/source/signup.tt:201
 msgid "That email address is already signed up"
 msgstr ""
 
@@ -4452,7 +4451,7 @@ msgstr ""
 msgid "That group cannot be found"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:213
+#: webapp_myf/templates/source/signup.tt:200
 msgid "That username is already taken"
 msgstr ""
 
@@ -4487,7 +4486,7 @@ msgid ""
 "of headphones... (boc@freecycle.org)"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:222
+#: webapp_myf/templates/source/signup.tt:209
 msgid "The CAPTCHA was incorrect"
 msgstr ""
 
@@ -4632,7 +4631,7 @@ msgid ""
 "to our original application date in July of 2004."
 msgstr ""
 
-#: webapp_main/templates/source/browse/index.tt:12
+#: webapp_main/templates/source/browse/index.tt:13
 msgid "The Freecycle Network is active in these countries:"
 msgstr ""
 
@@ -5041,7 +5040,7 @@ msgstr ""
 msgid "The total number of members in all groups"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:212
+#: webapp_myf/templates/source/signup.tt:199
 msgid "The username or email address was invalid"
 msgstr ""
 
@@ -5143,7 +5142,7 @@ msgstr ""
 msgid "There was an error generating a new password for you"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:215
+#: webapp_myf/templates/source/signup.tt:202
 msgid "There was an error sending the notification email"
 msgstr ""
 
@@ -5533,7 +5532,7 @@ msgid "Trademark Tips and Guidelines"
 msgstr ""
 
 #. (uri_for('Root', 'forgottenusername')
-#: webapp_myf/templates/source/index.tt:36
+#: webapp_myf/templates/source/index.tt:39
 msgid ""
 "Try the <a href='%1'>forgotten username form</a> and see if your email "
 "address has been registered before. If it has, you'll be sent a reminder of "
@@ -5664,7 +5663,7 @@ msgid "Unsubscribe from the Group"
 msgstr ""
 
 #. (e)
-#: webapp_myf/templates/source/index.tt:55
+#: webapp_myf/templates/source/index.tt:58
 msgid "Untrapped error '%1' - please report this!"
 msgstr ""
 
@@ -5730,7 +5729,7 @@ msgid "Username (or email address)"
 msgstr ""
 
 #: webapp_myf/templates/source/forgottenpassword.tt:94
-#: webapp_myf/templates/source/signup.tt:29
+#: webapp_myf/templates/source/signup.tt:31
 msgid "Username :"
 msgstr ""
 
@@ -5747,7 +5746,7 @@ msgstr ""
 msgid "Username sent"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:139
+#: webapp_myf/templates/source/signup.tt:126
 msgid ""
 "Usernames may only contain the letters, numbers, underscores, minus signs "
 "and plus signs"
@@ -5757,11 +5756,11 @@ msgstr ""
 msgid "Usernames must"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:126
+#: webapp_myf/templates/source/signup.tt:113
 msgid "Usernames must be at least 4 characters long"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:20
+#: webapp_myf/templates/source/signup.tt:22
 msgid ""
 "Usernames must be between 4 and 32 characters in length, start with a letter "
 "or number, and may only contain alphanumeric characters (A-Z, 0-9), "
@@ -6245,11 +6244,11 @@ msgid ""
 "You can use this form to choose the languages you prefer to get emails in."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:193
+#: webapp_myf/templates/source/signup.tt:180
 msgid "You cannot use My Freecycle without agreeing to the Terms of Service"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:220
+#: webapp_myf/templates/source/signup.tt:207
 msgid "You cannot use this service without agreeing to the Terms of Service"
 msgstr ""
 
@@ -6260,7 +6259,7 @@ msgid ""
 "<a href=\"%1\">your Group Membership list</a>"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:66
+#: webapp_myf/templates/source/index.tt:69
 msgid ""
 "You didn't authorise the third-party application - unless you authorise My "
 "Freecycle to access your account details, we cannot log you in"
@@ -6322,7 +6321,7 @@ msgid ""
 "Or, you may edit your membership settings by clicking <a href='%3'>here</a>."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:192
+#: webapp_myf/templates/source/signup.tt:179
 msgid "You must accept the Terms of Service"
 msgstr ""
 
@@ -6438,7 +6437,7 @@ msgid ""
 "message."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:17
+#: webapp_myf/templates/source/signup.tt:19
 msgid ""
 "You will need to create an account before you can use My Freecycle. You will "
 "need to pick a unique username and enter a valid email address that you "
@@ -6467,7 +6466,7 @@ msgstr ""
 msgid "Your My Freecycle account has been created"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:65
+#: webapp_myf/templates/source/index.tt:68
 msgid ""
 "Your My Freecycle account is not associated - you need to log in with your "
 "My Freecycle username and password and associate your account before you can "
@@ -6636,7 +6635,7 @@ msgid ""
 "details on record."
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:63
+#: webapp_myf/templates/source/index.tt:66
 msgid "Your third-party login attempt failed - the most common causes are:"
 msgstr ""
 
@@ -6818,7 +6817,7 @@ msgstr ""
 msgid "open"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:81
+#: webapp_myf/templates/source/signup.tt:83
 msgid "or"
 msgstr ""
 
