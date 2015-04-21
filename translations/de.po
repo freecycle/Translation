@@ -3247,7 +3247,7 @@ msgstr "Inhalt der Anzeige"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:24 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:87
 msgid "Post details follow"
-msgstr "Details zur Anzeige golgen"
+msgstr "Details der Anzeige/n"
 
 #: webapp_myf/templates/source/home/posts/display_issues.tt:3
 msgid "Post errors"
