@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Freecycle.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Steev Hise <steev@freecycle.org>\n"
+"Last-Translator: Valentin Bachem <vbachem@gmx.de>\n"
 "Language-Team:  <steev@freecycle.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -824,8 +824,7 @@ msgstr "Wir konnten Deine E-Mail nicht verarbeiten, da Du kein Mitglied dieser G
 msgid "Could not process your email: your address has not been recognised"
 msgstr "Wir konnten Deine E-Mail nicht verarbeiten, da wir Deine E-Mail-Adresse nicht kennen"
 
-#: templates/source/index.tt:66
-#: templates/source/search_box.tt:55
+#: templates/source/index.tt:66 templates/source/search_box.tt:55
 msgid "Country : "
 msgstr "Land:"
 
@@ -1108,8 +1107,7 @@ msgstr "E-Mail: %1"
 msgid "Email address"
 msgstr "E-Mail-Adresse"
 
-#: templates/source/index.tt:93
-#: templates/source/search_box.tt:84
+#: templates/source/index.tt:93 templates/source/search_box.tt:84
 #: webapp_myf/templates/source/forgottenpassword.tt:97
 #: webapp_myf/templates/source/forgottenusername.tt:20
 #: webapp_myf/templates/source/signup.tt:35
@@ -1317,9 +1315,8 @@ msgstr "Formulare stehen für folgende Jahre zur Verfügung:"
 
 #. (region.region_name, region.country.country_name)
 #: webapp_main/templates/source/browse/group_list.tt:2
-#, fuzzy
 msgid "Freecycle Groups in %1, %2"
-msgstr "Aktive Gruppen in %1 :"
+msgstr "Freecycle-Gruppen in %1, %2"
 
 #: webapp_modtools/templates/lib/standard_header.tt:5
 msgid "Freecycle Moderator Tools"
@@ -1407,8 +1404,7 @@ msgstr "Mitglied des Grafikteams"
 msgid "Group"
 msgstr "Gruppe"
 
-#: templates/source/index.tt:52
-#: templates/source/search_box.tt:40
+#: templates/source/index.tt:52 templates/source/search_box.tt:40
 msgid "Group (display) name contains : "
 msgstr "Gruppen(anzeige)name enthält:"
 
@@ -1435,8 +1431,7 @@ msgstr "Dateien der Gruppe"
 msgid "Group ID"
 msgstr "Gruppen ID"
 
-#: templates/source/index.tt:32
-#: templates/source/search_box.tt:18
+#: templates/source/index.tt:32 templates/source/search_box.tt:18
 msgid "Group ID number :"
 msgstr "Gruppen ID Nummer:"
 
@@ -1487,13 +1482,11 @@ msgstr "Gruppenberater und Assistenzteammitglied (GA)"
 msgid "Group Post email address"
 msgstr "Gruppen E-Mail-Adresse"
 
-#: templates/source/index.tt:55
-#: templates/source/search_box.tt:43
+#: templates/source/index.tt:55 templates/source/search_box.tt:43
 msgid "Group Status : "
 msgstr "Status der Gruppe:"
 
-#: templates/source/index.tt:38
-#: templates/source/search_box.tt:24
+#: templates/source/index.tt:38 templates/source/search_box.tt:24
 msgid "Group URL :"
 msgstr "URL der Gruppe:"
 
@@ -2129,8 +2122,7 @@ msgstr "Links der Gruppe %1"
 msgid "Links we like"
 msgstr "Linktipps"
 
-#: templates/source/index.tt:7
-#: templates/source/search_box.tt:4
+#: templates/source/index.tt:7 templates/source/search_box.tt:4
 #: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:48
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:24
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:100
@@ -2385,9 +2377,8 @@ msgstr "Voreinstellungen für Nachrichten"
 
 #. (group_name)
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:6
-#, fuzzy
 msgid "Message Maker preferences for %1 Group"
-msgstr "Einstellungen für das Eingabeformular bei neuen Anzeigen"
+msgstr "\"Neue Anzeigen\"-Einstellungen für die Gruppe %1"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:64
 msgid "Message body"
@@ -2480,8 +2471,7 @@ msgstr "Moderatorenhandbuch"
 msgid "Moderator Resource Assistance Team (MRA)"
 msgstr "Moderator Ressourcen Assistenzteam (MRA)"
 
-#: templates/source/index.tt:9
-#: templates/source/search_box.tt:6
+#: templates/source/index.tt:9 templates/source/search_box.tt:6
 #: webapp_modtools/templates/lib/moderator_menu:87
 #: webapp_modtools/templates/perl/source/moderator_menu:87
 msgid "Moderators"
@@ -2560,8 +2550,7 @@ msgstr "Meine Anzeigen"
 msgid "MyF Home"
 msgstr "MyF Startseite"
 
-#: templates/source/index.tt:90
-#: templates/source/search_box.tt:81
+#: templates/source/index.tt:90 templates/source/search_box.tt:81
 msgid "MyF username :"
 msgstr "MyF Benutzername:"
 
@@ -3003,7 +2992,7 @@ msgstr "Bitte klicke hier wenn Du daran interessiert bist, eine neue Gruppe zu g
 #. ('<a href="//www.freecycle.org/donate">' _ c.loc('donation')
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:66
 msgid "Please consider turning off your ad-blocking software for this site, and/or making a %1. As a charitable nonprofit we rely on this income to keep this site running. <br>Big thank-you hug!"
-msgstr ""
+msgstr "Bitte denke darüber nach deinen Werbeblocker für diese Seite abzuschalten oder mache eine %1. <br> Als gemeinnützige nonprofit Organisation rechnen wir auf diesen Einnahmen, um die Seite am <br> Laufen zu halten. Die ein großes Dankeschön für Deine Unterstützung!"
 
 #: webapp_main/templates/source/about/privacy.tt:29
 msgid "Please contact us by email or in writing at:"
@@ -3507,8 +3496,7 @@ msgstr "Neueste E-Mails (Zusammenfassung)"
 msgid "Recently expired Posts"
 msgstr "Zuletzt abgelaufene Anzeigen"
 
-#: templates/source/index.tt:74
-#: templates/source/search_box.tt:63
+#: templates/source/index.tt:74 templates/source/search_box.tt:63
 msgid "Region : "
 msgstr "Region:"
 
@@ -3517,9 +3505,8 @@ msgid "Region/Country"
 msgstr "Bundesland/Land"
 
 #: webapp_main/templates/source/browse/region_list.tt:24
-#, fuzzy
 msgid "Regions from "
-msgstr "Region:"
+msgstr "Regionen"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:179
 msgid "Reject Member"
@@ -3688,12 +3675,9 @@ msgstr "Optionen speichern"
 msgid "Saved file size: %1 bytes"
 msgstr "Gespeicherte Dateigröße: %1 Bytes"
 
-#: templates/source/index.tt:42
-#: templates/source/index.tt:82
-#: templates/source/index.tt:97
-#: templates/source/search_box.tt:28
-#: templates/source/search_box.tt:70
-#: templates/source/search_box.tt:88
+#: templates/source/index.tt:42 templates/source/index.tt:82
+#: templates/source/index.tt:97 templates/source/search_box.tt:28
+#: templates/source/search_box.tt:70 templates/source/search_box.tt:88
 msgid "Search"
 msgstr "Suchen"
 
@@ -4984,8 +4968,7 @@ msgstr "Uncle Sam bietet eine Menge Statistiken sowie Neuigkeiten und praktische
 msgid "Unexpire the ADMIN and send emails"
 msgstr "Setze die ADMIN auf nicht abgelaufen und sende E-Mails"
 
-#: templates/source/index.tt:8
-#: templates/source/search_box.tt:5
+#: templates/source/index.tt:8 templates/source/search_box.tt:5
 msgid "Unique IDs"
 msgstr "Eindeutige IDs"
 
@@ -4993,8 +4976,7 @@ msgstr "Eindeutige IDs"
 msgid "Unique TFN Group ID"
 msgstr "Eindeutige TFN Gruppen-ID"
 
-#: templates/source/index.tt:35
-#: templates/source/search_box.tt:21
+#: templates/source/index.tt:35 templates/source/search_box.tt:21
 msgid "Unique name :"
 msgstr "Eindeutiger Name:"
 
@@ -6151,16 +6133,11 @@ msgstr "(nicht verfügbar)"
 #~ msgstr "Automatisch das FOP-Tag in die Betreffzeile einfügen?"
 
 #~ msgid ""
-#~ "Currently, this does nothing for the forms on the main website and MyF. "
-#~ "I'd like the FOP to be canonised, and a copy made\n"
-#~ "        available in the wiki for public viewing - that way we can all "
-#~ "point people to a single, definitive document"
+#~ "Currently, this does nothing for the forms on the main website and MyF. I'd like the FOP to be canonised, and a copy made\n"
+#~ "        available in the wiki for public viewing - that way we can all point people to a single, definitive document"
 #~ msgstr ""
-#~ "Aktuell ändert dies nichts an den Eingabeformularen der Website und von "
-#~ "MyFreecycle. Ich möchte, dass die Fair Offer Policy (FOP) \n"
-#~ "vereinheitlicht und ins Wiki gestellt wird, so dass jeder Zugriff darauf "
-#~ "hat - so dass wir alle Menschen auf ein einheitliches Dokument verweisen "
-#~ "können."
+#~ "Aktuell ändert dies nichts an den Eingabeformularen der Website und von MyFreecycle. Ich möchte, dass die Fair Offer Policy (FOP) \n"
+#~ "vereinheitlicht und ins Wiki gestellt wird, so dass jeder Zugriff darauf hat - so dass wir alle Menschen auf ein einheitliches Dokument verweisen können."
 
 #~ msgid "Fair Offer Policy"
 #~ msgstr "Fair Offer Policy (FOP)"
@@ -6168,12 +6145,8 @@ msgstr "(nicht verfügbar)"
 #~ msgid "Show \"Fair Offer Policy\" option?"
 #~ msgstr "Soll die \"\"Fair Offer Policy\"-Option angezeigt werden?"
 
-#~ msgid ""
-#~ "If you have authorised the Freecycle Facebook application, you can <a "
-#~ "href=\"%1\">log in with your Facebook account</a>"
-#~ msgstr ""
-#~ "Wenn Du die Freecycle Facebook-Anwendung autorisiert hast, kannst Du Dich "
-#~ "<a href=\"%1\">mit Deinem Facebook-Benutzerkonto anmelden</a>"
+#~ msgid "If you have authorised the Freecycle Facebook application, you can <a href=\"%1\">log in with your Facebook account</a>"
+#~ msgstr "Wenn Du die Freecycle Facebook-Anwendung autorisiert hast, kannst Du Dich <a href=\"%1\">mit Deinem Facebook-Benutzerkonto anmelden</a>"
 
 #~ msgid "Post type: %1"
 #~ msgstr "Anzeigentyp: %1"
