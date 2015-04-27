@@ -361,6 +361,11 @@ msgstr ""
 msgid "Forms are available for each of these years:"
 msgstr ""
 
+#. (region.region_name, region.country.country_name)
+#: webapp_main/templates/source/browse/group_list.tt:2
+msgid "Freecycle Groups in %1, %2"
+msgstr ""
+
 #: webapp_main/templates/source/about/pressroom.tt:72
 msgid "Freecycle can educate the world at a local level about how critical recycling and reducing waste are. It empowers people on a grassroots and local level to take charge and make the world a better place, keeping countless tons of reusable items out of local landfills. It is a cycle of giving, not charity. Everyone gives to everyone with absolutely no expectations of anything at all in return."
 msgstr ""
@@ -841,6 +846,10 @@ msgstr ""
 msgid "Reason given:"
 msgstr ""
 
+#: webapp_main/templates/source/browse/region_list.tt:24
+msgid "Regions from "
+msgstr ""
+
 #: webapp_main/templates/source/about/pressroom.tt:51
 msgid "Related Documents"
 msgstr ""
@@ -996,7 +1005,7 @@ msgstr ""
 msgid "The Center for a New American Dream helps Americans consume responsibly to protect the environment, enhance quality of life, and promote social justice."
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:28 webapp_main/templates/lib/standard_page.tt:6 webapp_main/templates/source/about/background.tt:8 webapp_main/templates/source/donate.tt:6
+#: webapp_main/templates/lib/standard_page.tt:29 webapp_main/templates/lib/standard_page.tt:6 webapp_main/templates/source/about/background.tt:8 webapp_main/templates/source/donate.tt:6
 msgid "The Freecycle Network"
 msgstr ""
 
@@ -1080,7 +1089,7 @@ msgstr ""
 msgid "The Freecycle Network is a private, nonprofit organization incorporated in the State of Arizona. Our application for federal nonprofit status -- what's known as a 501(c)3 ruling -- was approved in November, 2006 by the IRS. This means that <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KRKYQ7CC8LB5W' title='Donate'>any donations made to The Freecycle Network are tax deductible </a>retroactively stretching back to our original application date in July of 2004."
 msgstr ""
 
-#: webapp_main/templates/source/browse/index.tt:13
+#: webapp_main/templates/source/browse/index.tt:19
 msgid "The Freecycle Network is active in these countries:"
 msgstr ""
 
@@ -1472,7 +1481,7 @@ msgstr ""
 msgid "call2recycle"
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:29
+#: webapp_main/templates/lib/standard_page.tt:30
 msgid "changing the world<br />one gift at a time&trade;"
 msgstr ""
 

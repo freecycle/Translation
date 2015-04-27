@@ -304,6 +304,11 @@ msgstr ""
 msgid "Pending member for "
 msgstr ""
 
+#. ('<a href="//www.freecycle.org/donate">' _ c.loc('donation')
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:66
+msgid "Please consider turning off your ad-blocking software for this site, and/or making a %1. As a charitable nonprofit we rely on this income to keep this site running. <br>Big thank-you hug!"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reply_nopost_email:10
 msgid ""
 "Please do not try and re-send the message, as this condition is\n"

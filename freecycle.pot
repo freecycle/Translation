@@ -631,10 +631,6 @@ msgstr ""
 msgid "Automatically expire WANTED posts after :"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:21
-msgid "Automatically include the FOP tag in the subject line?"
-msgstr ""
-
 #: webapp_modtools/templates/perl/source/en/html/moderator_displaytimezones:14
 #: webapp_modtools/templates/perl/source/moderator_displaytimezones:14
 msgid "Available timezones"
@@ -960,14 +956,6 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_overview:125
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:42
 msgid "Current status"
-msgstr ""
-
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:12
-msgid ""
-"Currently, this does nothing for the forms on the main website and MyF. I'd "
-"like the FOP to be canonised, and a copy made\n"
-"        available in the wiki for public viewing - that way we can all point "
-"people to a single, definitive document"
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/group_template_disclaimer.tt:2
@@ -1370,10 +1358,6 @@ msgid ""
 "instructions on how to use it correctly here:"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:10
-msgid "Fair Offer Policy"
-msgstr ""
-
 #: webapp_modtools/templates/source/manage/files/automatic.tt:58
 msgid "File ID"
 msgstr ""
@@ -1457,15 +1441,15 @@ msgid ""
 "page."
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:91
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:73
 msgid "Force people to put something in the description box?"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:61
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:43
 msgid "Force people to put something in the location box"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:31
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:13
 msgid "Force people to put something in the subject line?"
 msgstr ""
 
@@ -1490,6 +1474,11 @@ msgstr ""
 
 #: webapp_main/templates/source/form990/index.tt:14
 msgid "Forms are available for each of these years:"
+msgstr ""
+
+#. (region.region_name, region.country.country_name)
+#: webapp_main/templates/source/browse/group_list.tt:2
+msgid "Freecycle Groups in %1, %2"
 msgstr ""
 
 #: webapp_modtools/templates/lib/standard_header.tt:5
@@ -2545,28 +2534,28 @@ msgstr ""
 msgid "Matched 1 Group"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:103
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:85
 msgid "Maximum length of description before they are warned"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:73
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:55
 msgid "Maximum length of location before they are warned"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:43
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:25
 msgid "Maximum length of subject line before they are warned"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:111
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:93
 msgid ""
 "Maximum percentage of capitals in the description before they are warned"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:81
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:63
 msgid "Maximum percentage of capitals in the location before they are warned"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:51
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:33
 msgid ""
 "Maximum percentage of capitals in the subject line before they are warned"
 msgstr ""
@@ -2683,7 +2672,7 @@ msgstr ""
 
 #. (group_name)
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:6
-msgid "Message Maker preferences for"
+msgid "Message Maker preferences for %1 Group"
 msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:64
@@ -3322,6 +3311,14 @@ msgid ""
 "become a moderator of one in your community"
 msgstr ""
 
+#. ('<a href="//www.freecycle.org/donate">' _ c.loc('donation')
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:66
+msgid ""
+"Please consider turning off your ad-blocking software for this site, and/or "
+"making a %1. As a charitable nonprofit we rely on this income to keep this "
+"site running. <br>Big thank-you hug!"
+msgstr ""
+
 #: webapp_main/templates/source/about/privacy.tt:29
 msgid "Please contact us by email or in writing at:"
 msgstr ""
@@ -3546,7 +3543,7 @@ msgstr ""
 msgid "Post URL: %1"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:88
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:70
 msgid "Post description settings"
 msgstr ""
 
@@ -3589,7 +3586,7 @@ msgstr ""
 msgid "Post images"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:58
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:40
 msgid "Post location settings"
 msgstr ""
 
@@ -3864,6 +3861,10 @@ msgstr ""
 msgid "Region/Country"
 msgstr ""
 
+#: webapp_main/templates/source/browse/region_list.tt:24
+msgid "Regions from "
+msgstr ""
+
 #: webapp_modtools/templates/perl/source/moderator_members_list:179
 msgid "Reject Member"
 msgstr ""
@@ -4022,7 +4023,7 @@ msgstr ""
 msgid "Save post edits"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:118
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:100
 msgid "Save preferences"
 msgstr ""
 
@@ -4201,10 +4202,6 @@ msgstr ""
 msgid "Short description : "
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:17
-msgid "Show \"Fair Offer Policy\" option?"
-msgstr ""
-
 #. (first, last, total_results)
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:101
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:99
@@ -4318,7 +4315,7 @@ msgstr ""
 msgid "Subject :"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:28
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:10
 msgid "Subject line settings"
 msgstr ""
 
@@ -4496,7 +4493,7 @@ msgid ""
 "protect the environment, enhance quality of life, and promote social justice."
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:28
+#: webapp_main/templates/lib/standard_page.tt:29
 #: webapp_main/templates/lib/standard_page.tt:6
 #: webapp_main/templates/source/about/background.tt:8
 #: webapp_main/templates/source/donate.tt:6
@@ -4631,7 +4628,7 @@ msgid ""
 "to our original application date in July of 2004."
 msgstr ""
 
-#: webapp_main/templates/source/browse/index.tt:13
+#: webapp_main/templates/source/browse/index.tt:19
 msgid "The Freecycle Network is active in these countries:"
 msgstr ""
 
@@ -5878,40 +5875,40 @@ msgstr ""
 msgid "Wanteds"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:65
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:47
 msgid "Warn people if they have not put something in the location box?"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:95
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:77
 msgid "Warn people if they haven't put something in the description box?"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:35
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:17
 msgid "Warn people if they haven't put something in the subject line"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:99
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:81
 msgid "Warn people if they've made the description too long?"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:69
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:51
 msgid "Warn people if they've made the location too long?"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:39
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:21
 msgid "Warn people if they've made the subject line too long?"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:107
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:89
 msgid ""
 "Warn people if they've used too many capital letters in the description?"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:77
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:59
 msgid "Warn people if they've used too many capital letters in the location?"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:47
+#: webapp_modtools/templates/perl/source/moderator_mmakerprefs:29
 msgid ""
 "Warn people if they've used too many capital letters in the subject line?"
 msgstr ""
@@ -6702,7 +6699,7 @@ msgstr ""
 msgid "changing the world one gift at a time"
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:29
+#: webapp_main/templates/lib/standard_page.tt:30
 msgid "changing the world<br />one gift at a time&trade;"
 msgstr ""
 
