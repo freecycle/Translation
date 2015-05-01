@@ -42,7 +42,7 @@ msgid "An image of this item can be seen at"
 msgstr ""
 
 #. ($post->getPostID()
-#: core_modules/lib/Freecycle/Email.pm:3820
+#: core_modules/lib/Freecycle/Email.pm:3823
 msgid "Auto-abuse report: Post %1 has been flagged"
 msgstr ""
 
@@ -84,15 +84,15 @@ msgstr ""
 msgid "Copyright &copy;%1 The Freecycle Network (%2). All rights reserved. Freecycle and the Freecycle logo are trademarks of The Freecycle Network in various countries."
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1243
+#: core_modules/lib/Freecycle/Email.pm:1246
 msgid "Could not process your email: group does not use My Freecycle"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1496
+#: core_modules/lib/Freecycle/Email.pm:1499
 msgid "Could not process your email: you are not a Member of this Group"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1439
+#: core_modules/lib/Freecycle/Email.pm:1442
 msgid "Could not process your email: your address has not been recognised"
 msgstr ""
 
@@ -146,6 +146,10 @@ msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:18 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:54
 msgid "Group Info"
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:1025
+msgid "Group file"
 msgstr ""
 
 #. (post.group.getGroupName)
@@ -261,7 +265,7 @@ msgstr ""
 msgid "No"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:3099 core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:17 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:11 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:51 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:103 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:76 core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:11 core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:36
+#: core_modules/lib/Freecycle/Email.pm:3102 core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:17 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:11 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:51 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:103 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:76 core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:11 core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:36
 msgid "OFFER"
 msgstr ""
 
@@ -296,11 +300,11 @@ msgstr ""
 msgid "Original Post details:"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2301
+#: core_modules/lib/Freecycle/Email.pm:2304
 msgid "Pending Post for "
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2197
+#: core_modules/lib/Freecycle/Email.pm:2200
 msgid "Pending member for "
 msgstr ""
 
@@ -327,7 +331,7 @@ msgid ""
 "choice. When you have done this please click on the "
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2545
+#: core_modules/lib/Freecycle/Email.pm:2548
 msgid "Please unsubscribe me"
 msgstr ""
 
@@ -391,7 +395,7 @@ msgstr ""
 msgid "Promo Video - Lamp"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:3102 core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:20 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:14 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:54 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:106 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:79 core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:14 core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:39
+#: core_modules/lib/Freecycle/Email.pm:3105 core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:20 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:14 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:54 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:106 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:79 core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:14 core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:39
 msgid "RECEIVED"
 msgstr ""
 
@@ -399,7 +403,7 @@ msgstr ""
 msgid "Recent Posts on"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2534
+#: core_modules/lib/Freecycle/Email.pm:2537
 msgid "Recent emails (digest)"
 msgstr ""
 
@@ -420,7 +424,7 @@ msgstr ""
 msgid "Reporter: %1"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2773
+#: core_modules/lib/Freecycle/Email.pm:2776
 msgid "Response to Post"
 msgstr ""
 
@@ -461,7 +465,7 @@ msgstr ""
 msgid "Switch to digest email"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:3100 core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:18 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:12 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:52 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:104 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:77 core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:12 core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:37
+#: core_modules/lib/Freecycle/Email.pm:3103 core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:18 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:12 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:52 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:104 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:77 core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:12 core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:37
 msgid "TAKEN"
 msgstr ""
 
@@ -474,7 +478,7 @@ msgid "Thanks and see you on Freecycle.org!"
 msgstr ""
 
 #. (group_name)
-#: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email:6 core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_nonmyf_email:12 core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reject_email:11
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email.tpl:13 core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email:6 core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_nonmyf_email:12 core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reject_email:11
 msgid "The %1 Mod Team"
 msgstr ""
 
@@ -491,7 +495,7 @@ msgid "The Freecycle Network&trade; is made up of %1 groups with %2 members acro
 msgstr ""
 
 #. (group_name)
-#: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email:1 core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_nonmyf_email:1
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email.tpl:7 core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email:1 core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_nonmyf_email:1
 msgid "The Moderators of the %1 group have invited you to join the group on My Freecycle."
 msgstr ""
 
@@ -562,6 +566,10 @@ msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reply_nopost_email:17
 msgid "This is an automated email - please do not reply"
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:975
+msgid "This is an automatic email containing a file from the Group."
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:50
@@ -654,7 +662,7 @@ msgstr ""
 msgid "Volunteering"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:3101 core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:19 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:13 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:53 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:105 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:78 core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:13 core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:38
+#: core_modules/lib/Freecycle/Email.pm:3104 core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:19 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:13 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:53 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:105 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:78 core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:13 core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:38
 msgid "WANTED"
 msgstr ""
 
@@ -676,7 +684,12 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email:3
+#. (ve been invited to a group on My Freecycle')
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email.tpl:4
+msgid "You"
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email.tpl:9 core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email:3
 msgid "You can accept or decline this invitation by logging in to My Freecycle and viewing the 'My Groups' tab - any invitations you have will be listed at the bottom."
 msgstr ""
 
@@ -684,15 +697,15 @@ msgstr ""
 msgid "You can re-open this Post using My Freecycle"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1724 core_modules/lib/Freecycle/Email.pm:1806
+#: core_modules/lib/Freecycle/Email.pm:1727 core_modules/lib/Freecycle/Email.pm:1809
 msgid "You've been invited to a group on My Freecycle"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1857
+#: core_modules/lib/Freecycle/Email.pm:1860
 msgid "Your My Freecycle account has been created"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2036
+#: core_modules/lib/Freecycle/Email.pm:2039
 msgid "Your My Freecycle username reminder"
 msgstr ""
 
@@ -700,7 +713,7 @@ msgstr ""
 msgid "Your email could not be processed"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:3785
+#: core_modules/lib/Freecycle/Email.pm:3788
 msgid "Your forgotten password link"
 msgstr ""
 
@@ -709,7 +722,7 @@ msgstr ""
 msgid "Your password is: %1"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2644
+#: core_modules/lib/Freecycle/Email.pm:2647
 msgid "Your post has not been approved"
 msgstr ""
 
@@ -778,6 +791,6 @@ msgstr ""
 msgid "posts"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2836
+#: core_modules/lib/Freecycle/Email.pm:2839
 msgid "{not available}"
 msgstr ""

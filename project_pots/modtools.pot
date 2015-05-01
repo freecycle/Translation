@@ -47,7 +47,7 @@ msgstr ""
 msgid "(asterisk) - this matches <b>zero or more</b> letters or numbers</li> e.g. \"tast*\" would match \"taste\", \"tasty\", \"tasted\" and also \"tast\""
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/edit.tt:36 webapp_modtools/templates/source/manage/files/new_file.tt:24
+#: webapp_modtools/templates/source/manage/files/edit.tt:36 webapp_modtools/templates/source/manage/files/new_file.tt:25
 msgid "(include .doc or .txt, or just leave field empty to keep uploaded file name)"
 msgstr ""
 
@@ -59,7 +59,7 @@ msgstr ""
 msgid "(max 1KB)"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/edit.tt:44 webapp_modtools/templates/source/manage/files/new_file.tt:32
+#: webapp_modtools/templates/source/manage/files/edit.tt:44 webapp_modtools/templates/source/manage/files/new_file.tt:33
 msgid "(max size: 1Kb)"
 msgstr ""
 
@@ -91,7 +91,7 @@ msgstr ""
 msgid "ADMINs"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/edit.tt:52 webapp_modtools/templates/source/manage/files/new_file.tt:40
+#: webapp_modtools/templates/source/manage/files/edit.tt:52 webapp_modtools/templates/source/manage/files/new_file.tt:41
 msgid "Accessible to"
 msgstr ""
 
@@ -272,7 +272,7 @@ msgstr ""
 msgid "Create ADMIN"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/new_file.tt:68
+#: webapp_modtools/templates/source/manage/files/new_file.tt:69
 msgid "Create new file"
 msgstr ""
 
@@ -348,7 +348,7 @@ msgstr ""
 msgid "Descending"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:25 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:25 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:25 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:25 webapp_modtools/templates/source/manage/files/edit.tt:44 webapp_modtools/templates/source/manage/files/index.tt:15 webapp_modtools/templates/source/manage/files/new_file.tt:32 webapp_modtools/templates/source/manage/links/index.tt:20
+#: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:25 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:25 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:25 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:25 webapp_modtools/templates/source/manage/files/edit.tt:44 webapp_modtools/templates/source/manage/files/index.tt:15 webapp_modtools/templates/source/manage/files/new_file.tt:33 webapp_modtools/templates/source/manage/links/index.tt:20
 msgid "Description"
 msgstr ""
 
@@ -444,7 +444,7 @@ msgstr ""
 msgid "Event"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/edit.tt:54 webapp_modtools/templates/source/manage/files/new_file.tt:42
+#: webapp_modtools/templates/source/manage/files/edit.tt:54 webapp_modtools/templates/source/manage/files/new_file.tt:43
 msgid "Everyone (public file)"
 msgstr ""
 
@@ -469,7 +469,7 @@ msgstr ""
 msgid "File ID"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/new_file.tt:62
+#: webapp_modtools/templates/source/manage/files/new_file.tt:63
 msgid "File contents"
 msgstr ""
 
@@ -481,7 +481,7 @@ msgstr ""
 msgid "File list"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/automatic.tt:59 webapp_modtools/templates/source/manage/files/edit.tt:35 webapp_modtools/templates/source/manage/files/index.tt:14 webapp_modtools/templates/source/manage/files/new_file.tt:23
+#: webapp_modtools/templates/source/manage/files/automatic.tt:59 webapp_modtools/templates/source/manage/files/edit.tt:35 webapp_modtools/templates/source/manage/files/index.tt:14 webapp_modtools/templates/source/manage/files/new_file.tt:24
 msgid "File name"
 msgstr ""
 
@@ -908,7 +908,7 @@ msgstr ""
 msgid "Mod Home"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/edit.tt:55 webapp_modtools/templates/source/manage/files/new_file.tt:43
+#: webapp_modtools/templates/source/manage/files/edit.tt:55 webapp_modtools/templates/source/manage/files/new_file.tt:44
 msgid "ModTeam and Members of this Group"
 msgstr ""
 
@@ -937,7 +937,7 @@ msgstr ""
 msgid "Moderators of the %1 group"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/edit.tt:56 webapp_modtools/templates/source/manage/files/new_file.tt:44
+#: webapp_modtools/templates/source/manage/files/edit.tt:56 webapp_modtools/templates/source/manage/files/new_file.tt:45
 msgid "Mods and LMs of this Group"
 msgstr ""
 
@@ -1034,7 +1034,7 @@ msgstr ""
 msgid "On leaving"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/edit.tt:57 webapp_modtools/templates/source/manage/files/new_file.tt:45
+#: webapp_modtools/templates/source/manage/files/edit.tt:57 webapp_modtools/templates/source/manage/files/new_file.tt:46
 msgid "Only LMs of this Group"
 msgstr ""
 
@@ -1129,19 +1129,19 @@ msgstr ""
 msgid "Perform these actions"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/edit.tt:50 webapp_modtools/templates/source/manage/files/new_file.tt:38
+#: webapp_modtools/templates/source/manage/files/edit.tt:50 webapp_modtools/templates/source/manage/files/new_file.tt:39
 msgid "Please check the file access level"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/edit.tt:63 webapp_modtools/templates/source/manage/files/new_file.tt:51
+#: webapp_modtools/templates/source/manage/files/edit.tt:63 webapp_modtools/templates/source/manage/files/new_file.tt:52
 msgid "Please check the file type (upload/plain text/HMTL)"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/edit.tt:42 webapp_modtools/templates/source/manage/files/new_file.tt:30
+#: webapp_modtools/templates/source/manage/files/edit.tt:42 webapp_modtools/templates/source/manage/files/new_file.tt:31
 msgid "Please enter a description for this file"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/edit.tt:27 webapp_modtools/templates/source/manage/files/new_file.tt:20
+#: webapp_modtools/templates/source/manage/files/edit.tt:27 webapp_modtools/templates/source/manage/files/new_file.tt:21
 msgid "Please enter a filename, or use an uploaded file (which uses the uploaded file name)"
 msgstr ""
 
@@ -1642,7 +1642,7 @@ msgstr ""
 msgid "Type"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/edit.tt:65 webapp_modtools/templates/source/manage/files/new_file.tt:53
+#: webapp_modtools/templates/source/manage/files/edit.tt:65 webapp_modtools/templates/source/manage/files/new_file.tt:54
 msgid "Type of file"
 msgstr ""
 

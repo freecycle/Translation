@@ -251,7 +251,7 @@ msgstr ""
 msgid "Contact Moderators"
 msgstr ""
 
-#: webapp_main/templates/source/about/privacy.tt:28
+#: webapp_main/templates/source/about/privacy.tt:25
 msgid "Contact Us"
 msgstr ""
 
@@ -629,11 +629,6 @@ msgstr ""
 msgid "Monthly donation"
 msgstr ""
 
-#. ("http://privacy.yahoo.com/privacy/us/")
-#: webapp_main/templates/source/about/privacy.tt:26
-msgid "Most local Freecycle groups are currently members of Yahoo!Groups and to remain as such must follow Yahoo's privacy policy, which can be found at %1"
-msgstr ""
-
 #: webapp_main/templates/source/about/funds.tt:13
 msgid "Most recent Form 990"
 msgstr ""
@@ -731,7 +726,7 @@ msgstr ""
 msgid "Please click here if you are interested in applying to set one up, and become a moderator of one in your community"
 msgstr ""
 
-#: webapp_main/templates/source/about/privacy.tt:29
+#: webapp_main/templates/source/about/privacy.tt:26
 msgid "Please contact us by email or in writing at:"
 msgstr ""
 
@@ -1370,10 +1365,6 @@ msgstr ""
 
 #: webapp_main/templates/source/tos.tt:66
 msgid "YOU AGREE THAT USE OF THE FREECYCLE NETWORK SITE AND THE SERVICE IS ENTIRELY AT YOUR OWN RISK. THE FREECYCLE NETWORK SITE AND THE SERVICE ARE PROVIDED ON AN &quot;AS IS&quot; OR &quot;AS AVAILABLE&quot; BASIS, WITHOUT ANY WARRANTIES OF ANY KIND. ALL EXPRESS AND IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT OF PROPRIETARY RIGHTS ARE EXPRESSLY DISCLAIMED TO THE FULLEST EXTENT PERMITTED BY LAW. TO THE FULLEST EXTENT PERMITTED BY LAW, THE FREECYCLE NETWORK DISCLAIMS ANY WARRANTIES FOR THE SECURITY, RELIABILITY, TIMELINESS, ACCURACY, AND PERFORMANCE OF THE FREECYCLE NETWORK SITE AND THE SERVICE. TO THE FULLEST EXTENT PERMITTED BY LAW, THE FREECYCLE NETWORK DISCLAIMS ANY WARRANTIES FOR OTHER SERVICES OR GOODS RECEIVED THROUGH OR POSTED ON THE FREECYCLE NETWORK SITE OR THE SITES OR SERVICE, OR ACCESSED THROUGH ANY LINKS ON THE FREECYCLE NETWORK SITE. TO THE FULLEST EXTENT PERMITTED BY LAW, THE FREECYCLE NETWORK DISCLAIMS ANY WARRANTIES FOR VIRUSES OR OTHER HARMFUL COMPONENTS IN CONNECTION WITH THE FREECYCLE NETWORK SITE OR THE SERVICE. Some jurisdictions do not allow the disclaimer of implied warranties. In such jurisdictions, some of the foregoing disclaimers may not apply to you insofar as they relate to implied warranties."
-msgstr ""
-
-#: webapp_main/templates/source/about/privacy.tt:25
-msgid "Yahoo!"
 msgstr ""
 
 #: webapp_main/templates/source/tos.tt:50

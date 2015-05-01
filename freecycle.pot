@@ -103,7 +103,7 @@ msgid "(home Group)"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:36
-#: webapp_modtools/templates/source/manage/files/new_file.tt:24
+#: webapp_modtools/templates/source/manage/files/new_file.tt:25
 msgid ""
 "(include .doc or .txt, or just leave field empty to keep uploaded file name)"
 msgstr ""
@@ -119,7 +119,7 @@ msgid "(max 1KB)"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:44
-#: webapp_modtools/templates/source/manage/files/new_file.tt:32
+#: webapp_modtools/templates/source/manage/files/new_file.tt:33
 msgid "(max size: 1Kb)"
 msgstr ""
 
@@ -363,7 +363,7 @@ msgid "Accept invite"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:52
-#: webapp_modtools/templates/source/manage/files/new_file.tt:40
+#: webapp_modtools/templates/source/manage/files/new_file.tt:41
 msgid "Accessible to"
 msgstr ""
 
@@ -610,7 +610,7 @@ msgid ""
 msgstr ""
 
 #. ($post->getPostID()
-#: core_modules/lib/Freecycle/Email.pm:3820
+#: core_modules/lib/Freecycle/Email.pm:3823
 msgid "Auto-abuse report: Post %1 has been flagged"
 msgstr ""
 
@@ -896,7 +896,7 @@ msgstr ""
 msgid "Contact Moderators"
 msgstr ""
 
-#: webapp_main/templates/source/about/privacy.tt:28
+#: webapp_main/templates/source/about/privacy.tt:25
 msgid "Contact Us"
 msgstr ""
 
@@ -929,15 +929,15 @@ msgid ""
 "various countries."
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1243
+#: core_modules/lib/Freecycle/Email.pm:1246
 msgid "Could not process your email: group does not use My Freecycle"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1496
+#: core_modules/lib/Freecycle/Email.pm:1499
 msgid "Could not process your email: you are not a Member of this Group"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1439
+#: core_modules/lib/Freecycle/Email.pm:1442
 msgid "Could not process your email: your address has not been recognised"
 msgstr ""
 
@@ -949,7 +949,7 @@ msgstr ""
 msgid "Create ADMIN"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/new_file.tt:68
+#: webapp_modtools/templates/source/manage/files/new_file.tt:69
 msgid "Create new file"
 msgstr ""
 
@@ -1074,7 +1074,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:25
 #: webapp_modtools/templates/source/manage/files/edit.tt:44
 #: webapp_modtools/templates/source/manage/files/index.tt:15
-#: webapp_modtools/templates/source/manage/files/new_file.tt:32
+#: webapp_modtools/templates/source/manage/files/new_file.tt:33
 #: webapp_modtools/templates/source/manage/links/index.tt:20
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:59
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:55
@@ -1326,7 +1326,7 @@ msgid "Event"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:54
-#: webapp_modtools/templates/source/manage/files/new_file.tt:42
+#: webapp_modtools/templates/source/manage/files/new_file.tt:43
 msgid "Everyone (public file)"
 msgstr ""
 
@@ -1362,7 +1362,7 @@ msgstr ""
 msgid "File ID"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/new_file.tt:62
+#: webapp_modtools/templates/source/manage/files/new_file.tt:63
 msgid "File contents"
 msgstr ""
 
@@ -1378,7 +1378,7 @@ msgstr ""
 #: webapp_modtools/templates/source/manage/files/automatic.tt:59
 #: webapp_modtools/templates/source/manage/files/edit.tt:35
 #: webapp_modtools/templates/source/manage/files/index.tt:14
-#: webapp_modtools/templates/source/manage/files/new_file.tt:23
+#: webapp_modtools/templates/source/manage/files/new_file.tt:24
 #: webapp_main/templates/source/group/files/index.tt:20
 msgid "File name"
 msgstr ""
@@ -1670,6 +1670,10 @@ msgstr ""
 #. (group_name)
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescription:6
 msgid "Group description for the %1 group"
+msgstr ""
+
+#: core_modules/lib/Freecycle/Email.pm:1025
+msgid "Group file"
 msgstr ""
 
 #. (group_file.group_file_id)
@@ -2725,7 +2729,7 @@ msgid "Mod Home"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:55
-#: webapp_modtools/templates/source/manage/files/new_file.tt:43
+#: webapp_modtools/templates/source/manage/files/new_file.tt:44
 msgid "ModTeam and Members of this Group"
 msgstr ""
 
@@ -2782,20 +2786,13 @@ msgid "Modified"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:56
-#: webapp_modtools/templates/source/manage/files/new_file.tt:44
+#: webapp_modtools/templates/source/manage/files/new_file.tt:45
 msgid "Mods and LMs of this Group"
 msgstr ""
 
 #: webapp_main/templates/source/donate.tt:51
 #: webapp_main/templates/source/donate.tt:83
 msgid "Monthly donation"
-msgstr ""
-
-#. ("http://privacy.yahoo.com/privacy/us/")
-#: webapp_main/templates/source/about/privacy.tt:26
-msgid ""
-"Most local Freecycle groups are currently members of Yahoo!Groups and to "
-"remain as such must follow Yahoo's privacy policy, which can be found at %1"
 msgstr ""
 
 #: webapp_main/templates/source/about/funds.tt:13
@@ -2975,7 +2972,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:153
 #: webapp_myf/templates/lib/standard_macros.tt:14
 #: webapp_myf/templates/source/home/posts/manage/show.tt:33
-#: core_modules/lib/Freecycle/Email.pm:3099
+#: core_modules/lib/Freecycle/Email.pm:3102
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:17
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:11
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:51
@@ -3078,7 +3075,7 @@ msgid "One-time donation"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:57
-#: webapp_modtools/templates/source/manage/files/new_file.tt:45
+#: webapp_modtools/templates/source/manage/files/new_file.tt:46
 msgid "Only LMs of this Group"
 msgstr ""
 
@@ -3256,7 +3253,7 @@ msgstr ""
 msgid "Pending Messages"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2301
+#: core_modules/lib/Freecycle/Email.pm:2304
 msgid "Pending Post for "
 msgstr ""
 
@@ -3265,7 +3262,7 @@ msgstr ""
 msgid "Pending approval"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2197
+#: core_modules/lib/Freecycle/Email.pm:2200
 msgid "Pending member for "
 msgstr ""
 
@@ -3295,12 +3292,12 @@ msgid ""
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:50
-#: webapp_modtools/templates/source/manage/files/new_file.tt:38
+#: webapp_modtools/templates/source/manage/files/new_file.tt:39
 msgid "Please check the file access level"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:63
-#: webapp_modtools/templates/source/manage/files/new_file.tt:51
+#: webapp_modtools/templates/source/manage/files/new_file.tt:52
 msgid "Please check the file type (upload/plain text/HMTL)"
 msgstr ""
 
@@ -3319,7 +3316,7 @@ msgid ""
 "site running. <br>Big thank-you hug!"
 msgstr ""
 
-#: webapp_main/templates/source/about/privacy.tt:29
+#: webapp_main/templates/source/about/privacy.tt:26
 msgid "Please contact us by email or in writing at:"
 msgstr ""
 
@@ -3344,12 +3341,12 @@ msgid ""
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:42
-#: webapp_modtools/templates/source/manage/files/new_file.tt:30
+#: webapp_modtools/templates/source/manage/files/new_file.tt:31
 msgid "Please enter a description for this file"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:27
-#: webapp_modtools/templates/source/manage/files/new_file.tt:20
+#: webapp_modtools/templates/source/manage/files/new_file.tt:21
 msgid ""
 "Please enter a filename, or use an uploaded file (which uses the uploaded "
 "file name)"
@@ -3492,7 +3489,7 @@ msgid ""
 "related gifting or communication."
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2545
+#: core_modules/lib/Freecycle/Email.pm:2548
 msgid "Please unsubscribe me"
 msgstr ""
 
@@ -3803,7 +3800,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:164
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:165
 #: webapp_myf/templates/lib/standard_macros.tt:17
-#: core_modules/lib/Freecycle/Email.pm:3102
+#: core_modules/lib/Freecycle/Email.pm:3105
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:20
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:14
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:54
@@ -3843,7 +3840,7 @@ msgstr ""
 msgid "Recent Posts on"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2534
+#: core_modules/lib/Freecycle/Email.pm:2537
 msgid "Recent emails (digest)"
 msgstr ""
 
@@ -3956,7 +3953,7 @@ msgstr ""
 msgid "Resend all invitations older than"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2773
+#: core_modules/lib/Freecycle/Email.pm:2776
 msgid "Response to Post"
 msgstr ""
 
@@ -4348,7 +4345,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:156
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:157
 #: webapp_myf/templates/lib/standard_macros.tt:16
-#: core_modules/lib/Freecycle/Email.pm:3100
+#: core_modules/lib/Freecycle/Email.pm:3103
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:18
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:12
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:52
@@ -4453,6 +4450,7 @@ msgid "That username is already taken"
 msgstr ""
 
 #. (group_name)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email.tpl:13
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email:6
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_nonmyf_email:12
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reject_email:11
@@ -4753,6 +4751,7 @@ msgid "The Internet Consumer Recycling Guide"
 msgstr ""
 
 #. (group_name)
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email.tpl:7
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email:1
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_nonmyf_email:1
 msgid ""
@@ -5292,6 +5291,10 @@ msgstr ""
 msgid "This is an automated email - please do not reply"
 msgstr ""
 
+#: core_modules/lib/Freecycle/Email.pm:975
+msgid "This is an automatic email containing a file from the Group."
+msgstr ""
+
 #: webapp_myf/templates/source/home/groups/index.tt:77
 msgid "This is your home (default) Group"
 msgstr ""
@@ -5558,7 +5561,7 @@ msgid "Type"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:65
-#: webapp_modtools/templates/source/manage/files/new_file.tt:53
+#: webapp_modtools/templates/source/manage/files/new_file.tt:54
 msgid "Type of file"
 msgstr ""
 
@@ -5836,7 +5839,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:161
 #: webapp_myf/templates/lib/standard_macros.tt:15
 #: webapp_myf/templates/source/home/posts/manage/show.tt:34
-#: core_modules/lib/Freecycle/Email.pm:3101
+#: core_modules/lib/Freecycle/Email.pm:3104
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:19
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:13
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:53
@@ -6029,10 +6032,6 @@ msgid ""
 "warranties."
 msgstr ""
 
-#: webapp_main/templates/source/about/privacy.tt:25
-msgid "Yahoo!"
-msgstr ""
-
 #: webapp_modtools/templates/perl/source/moderator/options/main.tt:59
 #: webapp_modtools/templates/perl/source/moderator/options/main.tt:66
 #: webapp_modtools/templates/perl/source/moderator/options/main.tt:73
@@ -6052,6 +6051,11 @@ msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/send_file.tt:19
 msgid "Yes, send it"
+msgstr ""
+
+#. (ve been invited to a group on My Freecycle')
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email.tpl:4
+msgid "You"
 msgstr ""
 
 #: webapp_main/templates/source/tos.tt:50
@@ -6175,6 +6179,7 @@ msgid ""
 "Freecycle Network'>browse the list of all Freecycle Groups</a>"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email.tpl:9
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email:3
 msgid ""
 "You can accept or decline this invitation by logging in to My Freecycle and "
@@ -6450,8 +6455,8 @@ msgid ""
 "you can search for Groups near you."
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1724
-#: core_modules/lib/Freecycle/Email.pm:1806
+#: core_modules/lib/Freecycle/Email.pm:1727
+#: core_modules/lib/Freecycle/Email.pm:1809
 msgid "You've been invited to a group on My Freecycle"
 msgstr ""
 
@@ -6459,7 +6464,7 @@ msgstr ""
 msgid "Your Facebook account is not linked to this My Freecycle account"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1857
+#: core_modules/lib/Freecycle/Email.pm:1860
 msgid "Your My Freecycle account has been created"
 msgstr ""
 
@@ -6470,7 +6475,7 @@ msgid ""
 "use a third-party login provider"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2036
+#: core_modules/lib/Freecycle/Email.pm:2039
 msgid "Your My Freecycle username reminder"
 msgstr ""
 
@@ -6504,7 +6509,7 @@ msgstr ""
 msgid "Your email software has mangled the link"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:3785
+#: core_modules/lib/Freecycle/Email.pm:3788
 msgid "Your forgotten password link"
 msgstr ""
 
@@ -6573,7 +6578,7 @@ msgstr ""
 msgid "Your password reset email has been sent"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2644
+#: core_modules/lib/Freecycle/Email.pm:2647
 msgid "Your post has not been approved"
 msgstr ""
 
@@ -7008,6 +7013,6 @@ msgstr ""
 msgid "yes"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2836
+#: core_modules/lib/Freecycle/Email.pm:2839
 msgid "{not available}"
 msgstr ""
