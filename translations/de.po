@@ -4518,7 +4518,7 @@ msgstr "Moderator/en der Gruppe group.group_name"
 #. (group.groupname)
 #: webapp_main/templates/source/group/contact_moderators.tt:14
 msgid "The moderators of the %1 Group"
-msgstr "Du bist Moderator von der Gruppe %1"
+msgstr "Das Moderatorenteam der Gruppe %1"
 
 #: webapp_myf/templates/source/home/groups/seach_optout.tt:28
 msgid ""
