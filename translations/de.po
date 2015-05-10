@@ -3022,8 +3022,8 @@ msgid ""
 "Please consider turning off your ad-blocking software for this site, and/or making a %1. As a charitable nonprofit we rely on this income to keep this site running. <br>Big thank-you "
 "hug!"
 msgstr ""
-"Bitte denke darüber nach deinen Werbeblocker für diese Seite abzuschalten oder mache eine %1. <br> Als gemeinnützige nonprofit Organisation rechnen wir auf diesen Einnahmen, um die "
-"Seite am <br> Laufen zu halten. Die ein großes Dankeschön für Deine Unterstützung!"
+"Bitte denke darüber nach deinen Werbeblocker für diese Seite abzuschalten oder mache eine %1. <br> Als gemeinnützige nonprofit Organisation rechnen wir mit diesen Einnahmen, um die "
+"Seite am <br> Laufen zu halten. Dir ein großes Dankeschön für Deine Unterstützung!"
 
 #: webapp_main/templates/source/about/privacy.tt:26
 msgid "Please contact us by email or in writing at:"
