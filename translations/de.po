@@ -410,11 +410,11 @@ msgstr "Alle"
 
 #: webapp_myf/templates/lib/box_tabbar.tt:6 core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:32
 msgid "All Items"
-msgstr "Alles"
+msgstr "Alle"
 
 #: webapp_modtools/templates/lib/moderator_menu:84 webapp_modtools/templates/perl/source/moderator_menu:84
 msgid "All Types"
-msgstr "Alles"
+msgstr "Alle"
 
 #: webapp_myf/templates/source/forgottenpassword.tt:88
 msgid ""
