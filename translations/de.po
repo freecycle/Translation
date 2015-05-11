@@ -2411,7 +2411,7 @@ msgstr "Mitglieder der Gruppe %1"
 
 #: webapp_modtools/templates/perl/source/moderator_members_overview:31
 msgid "Members/Mods/Lead Mods in this Group."
-msgstr "Alle Teilnehmer dieser Gruppe."
+msgstr "Teilnehmende in dieser Gruppe."
 
 #: webapp_modtools/templates/perl/source/moderator_display_group_invites:35 webapp_modtools/templates/perl/source/moderator_members_list:45
 msgid "Membership Level"
@@ -4820,7 +4820,7 @@ msgstr "Diese Datei ist in der Warteschleife des elektronischen Massenmailsystem
 #. (percent_modded)
 #: webapp_modtools/templates/perl/source/moderator_members_overview:32
 msgid "This group is %1% moderated."
-msgstr "Diese Gruppe ist %1 moderiert."
+msgstr "%1% der Mitglieder sind moderiert."
 
 # Incomplete, text seems to be interpreted as remark for the translator!
 #. (My Freecycle' system, and this list should be considered <b>incomplete and informationalonly')
