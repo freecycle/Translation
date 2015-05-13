@@ -181,7 +181,7 @@ msgstr ""
 msgid "Contact the ModTeam"
 msgstr ""
 
-#: webapp_myf/templates/lib/standard_footer.tt:13
+#: webapp_myf/templates/lib/standard_footer.tt:15
 msgid "Copyright"
 msgstr ""
 
@@ -199,6 +199,10 @@ msgstr ""
 
 #: webapp_myf/templates/source/home/info/delete_confirm.tt:16
 msgid "Delete my account"
+msgstr ""
+
+#: webapp_myf/templates/source/home/info/change_languages.tt:81
+msgid "Drag languages you prefer from right to left and sort in order of preference. <br>Drag something back from left to right to remove it."
 msgstr ""
 
 #. (email)
@@ -866,7 +870,7 @@ msgstr ""
 msgid "The CAPTCHA was incorrect"
 msgstr ""
 
-#: webapp_myf/templates/lib/standard_footer.tt:13
+#: webapp_myf/templates/lib/standard_footer.tt:15
 msgid "The Freecycle Network (http://www.freecycle.org). All rights reserved. Freecycle and the Freecycle logo are trademarks of The Freecycle Network in various countries."
 msgstr ""
 
@@ -1349,6 +1353,10 @@ msgstr ""
 
 #: webapp_myf/templates/source/home/info/change_username.tt:9
 msgid "contain only alphanumeric characters (A-Z, 0-9), underscores (_) and plus (+) or minus (-) signs."
+msgstr ""
+
+#: webapp_myf/templates/source/home/info/change_languages.tt:92
+msgid "language code"
 msgstr ""
 
 #: webapp_myf/templates/source/signup.tt:83

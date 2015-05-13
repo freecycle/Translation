@@ -71,6 +71,13 @@ msgstr ""
 msgid "'stalk' or otherwise harass anyone;"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:10
+msgid ""
+"(If you believe this should be escalated to the Spam Control Team, please "
+"forward this email to:\n"
+"spamcontrol@freecycle.org )"
+msgstr ""
+
 #: webapp_main/templates/source/about/pressroom.tt:10
 msgid ""
 "(When contacting us, please make sure to provide the full name of the "
@@ -610,7 +617,7 @@ msgid ""
 msgstr ""
 
 #. ($post->getPostID()
-#: core_modules/lib/Freecycle/Email.pm:3934
+#: core_modules/lib/Freecycle/Email.pm:3954
 msgid "Auto-abuse report: Post %1 has been flagged"
 msgstr ""
 
@@ -909,7 +916,7 @@ msgstr ""
 msgid "Contact your Group Moderators"
 msgstr ""
 
-#: webapp_myf/templates/lib/standard_footer.tt:13
+#: webapp_myf/templates/lib/standard_footer.tt:15
 msgid "Copyright"
 msgstr ""
 
@@ -1176,6 +1183,12 @@ msgstr ""
 
 #: webapp_main/templates/source/form990/form.tt:43
 msgid "Download this page"
+msgstr ""
+
+#: webapp_myf/templates/source/home/info/change_languages.tt:81
+msgid ""
+"Drag languages you prefer from right to left and sort in order of "
+"preference. <br>Drag something back from left to right to remove it."
 msgstr ""
 
 #. ("/about/funds")
@@ -2365,6 +2378,10 @@ msgstr ""
 msgid "Lead Moderators of the %1 group"
 msgstr ""
 
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:43
+msgid "Leadership"
+msgstr ""
+
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:73
 msgid "Leave the local Group"
 msgstr ""
@@ -2953,6 +2970,11 @@ msgstr ""
 msgid "Nonprofit Status"
 msgstr ""
 
+#. (t always instant. Please wait at least an hour or two before trying this again. Also, be sure that you've whitelisted "email_relay@freecycle.org" in your email provider settings so that your provider doesn't count the email as spam.')
+#: webapp_main/templates/source/login/login_link_sent.tt:8
+msgid "Note that email isn"
+msgstr ""
+
 #: webapp_modtools/templates/perl/source/moderator_members_overview:43
 msgid "Number"
 msgstr ""
@@ -2973,7 +2995,7 @@ msgstr ""
 #: webapp_myf/templates/lib/standard_macros.tt:14
 #: webapp_myf/templates/source/home/posts/manage/show.tt:33
 #: core_modules/lib/Freecycle/Email.pm:3213
-#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:17
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:22
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:11
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:51
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:103
@@ -3135,7 +3157,7 @@ msgstr ""
 msgid "Organizational Chart"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:9
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:14
 msgid "Original Post details:"
 msgstr ""
 
@@ -3309,7 +3331,7 @@ msgid ""
 msgstr ""
 
 #. ('<a href="//www.freecycle.org/donate">' _ c.loc('donation')
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:66
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:74
 msgid ""
 "Please consider turning off your ad-blocking software for this site, and/or "
 "making a %1. As a charitable nonprofit we rely on this income to keep this "
@@ -3520,7 +3542,7 @@ msgid "Post ID: "
 msgstr ""
 
 #. (post.post_id)
-#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:13
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:18
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:23
 msgid "Post ID: %1"
 msgstr ""
@@ -3536,7 +3558,7 @@ msgid "Post Type"
 msgstr ""
 
 #. (post.url)
-#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:12
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:17
 msgid "Post URL: %1"
 msgstr ""
 
@@ -3544,7 +3566,7 @@ msgstr ""
 msgid "Post description settings"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:23
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:28
 msgid "Post description:"
 msgstr ""
 
@@ -3600,7 +3622,7 @@ msgid "Post status: "
 msgstr ""
 
 #. (post.subject)
-#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:22
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:27
 msgid "Post subject: %1"
 msgstr ""
 
@@ -3622,7 +3644,7 @@ msgid "Post type"
 msgstr ""
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:30
-#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:15
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:20
 msgid "Post type: "
 msgstr ""
 
@@ -3686,7 +3708,7 @@ msgid "Posted to:"
 msgstr ""
 
 #. (poster.username _ ' <' _ poster.address _ '>')
-#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:11
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:16
 msgid "Poster: %1"
 msgstr ""
 
@@ -3801,7 +3823,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:165
 #: webapp_myf/templates/lib/standard_macros.tt:17
 #: core_modules/lib/Freecycle/Email.pm:3216
-#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:20
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:25
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:14
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:54
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:106
@@ -4214,7 +4236,7 @@ msgid "Showing %1 to %2 of %3"
 msgstr ""
 
 #. (((page - 1)
-#: webapp_main/templates/source/search/results.tt:31
+#: webapp_main/templates/source/search/results.tt:30
 msgid "Showing %1 to %2 of %3 results"
 msgstr ""
 
@@ -4279,11 +4301,10 @@ msgstr ""
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:40
 #: webapp_main/templates/source/about/index.tt:12
 #: webapp_main/templates/source/about/sponsors.tt:4
-#: webapp_main/templates/source/index.tt:39
+#: webapp_main/templates/source/index.tt:22
 msgid "Sponsors"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:43
 #: webapp_main/templates/source/about/index.tt:15
 #: webapp_main/templates/source/about/staff.tt:4
 msgid "Staff"
@@ -4352,7 +4373,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:157
 #: webapp_myf/templates/lib/standard_macros.tt:16
 #: core_modules/lib/Freecycle/Email.pm:3214
-#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:18
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:23
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:12
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:52
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:104
@@ -4497,14 +4518,14 @@ msgid ""
 "protect the environment, enhance quality of life, and promote social justice."
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:30
-#: webapp_main/templates/lib/standard_page.tt:7
+#: webapp_main/templates/lib/standard_page.tt:29
+#: webapp_main/templates/lib/standard_page.tt:8
 #: webapp_main/templates/source/about/background.tt:8
 #: webapp_main/templates/source/donate.tt:6
 msgid "The Freecycle Network"
 msgstr ""
 
-#: webapp_myf/templates/lib/standard_footer.tt:13
+#: webapp_myf/templates/lib/standard_footer.tt:15
 msgid ""
 "The Freecycle Network (http://www.freecycle.org). All rights reserved. "
 "Freecycle and the Freecycle logo are trademarks of The Freecycle Network in "
@@ -4965,11 +4986,7 @@ msgid "The page you were looking for cannot be found!"
 msgstr ""
 
 #: webapp_main/templates/source/login/password_reset.tt:10
-msgid "The password reset link has already been used"
-msgstr ""
-
-#: webapp_main/templates/source/login/password_reset.tt:11
-msgid "The password reset link has expired"
+msgid "The password reset link has already been used."
 msgstr ""
 
 #: webapp_main/templates/source/login/password_reset.tt:6
@@ -5149,7 +5166,7 @@ msgstr ""
 msgid "There was an error sending the notification email"
 msgstr ""
 
-#: webapp_main/templates/source/search/results.tt:50
+#: webapp_main/templates/source/search/results.tt:49
 msgid "There were no groups matching your search terms"
 msgstr ""
 
@@ -5854,7 +5871,7 @@ msgstr ""
 #: webapp_myf/templates/lib/standard_macros.tt:15
 #: webapp_myf/templates/source/home/posts/manage/show.tt:34
 #: core_modules/lib/Freecycle/Email.pm:3215
-#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:19
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:24
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:13
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:53
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:105
@@ -5965,7 +5982,7 @@ msgid "Welcome to the %1 Freecycle group!"
 msgstr ""
 
 #. (num_groups.chunk(-3)
-#: webapp_main/templates/source/index.tt:27
+#: webapp_main/templates/source/index.tt:17
 msgid ""
 "Welcome! The Freecycle Network&trade; is made up of %1 groups with %2 "
 "members around the world. It's a grassroots and entirely nonprofit movement "
@@ -6324,7 +6341,7 @@ msgid "You have been invited to join the following groups:"
 msgstr ""
 
 #: webapp_main/templates/source/login/password_reset.tt:9
-msgid "You have generated a new password reset link since the email was sent"
+msgid "You have generated a new password reset link since the email was sent."
 msgstr ""
 
 #: webapp_myf/templates/source/home/posts/index.tt:75
@@ -6526,10 +6543,13 @@ msgid "Your email could not be processed"
 msgstr ""
 
 #: webapp_main/templates/source/login/password_reset.tt:8
-msgid "Your email software has mangled the link"
+msgid ""
+"Your email software has mangled the link. Try cutting and pasting into "
+"browser."
 msgstr ""
 
 #: core_modules/lib/Freecycle/Email.pm:3899
+#: core_modules/lib/Freecycle/Email.pm:3918
 msgid "Your forgotten password link"
 msgstr ""
 
@@ -6724,7 +6744,7 @@ msgstr ""
 msgid "changing the world one gift at a time"
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:31
+#: webapp_main/templates/lib/standard_page.tt:30
 msgid "changing the world<br />one gift at a time&trade;"
 msgstr ""
 
@@ -6813,6 +6833,10 @@ msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_group_overview:52
 msgid "in"
+msgstr ""
+
+#: webapp_myf/templates/source/home/info/change_languages.tt:92
+msgid "language code"
 msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:27

@@ -665,6 +665,11 @@ msgstr ""
 msgid "Nonprofit Status"
 msgstr ""
 
+#. (t always instant. Please wait at least an hour or two before trying this again. Also, be sure that you've whitelisted "email_relay@freecycle.org" in your email provider settings so that your provider doesn't count the email as spam.')
+#: webapp_main/templates/source/login/login_link_sent.tt:8
+msgid "Note that email isn"
+msgstr ""
+
 #: webapp_main/templates/source/group/posts/display_list.tt:264 webapp_main/templates/source/group/posts/display_post.tt:5
 msgid "OFFER"
 msgstr ""
@@ -919,7 +924,7 @@ msgid "Share a skill"
 msgstr ""
 
 #. (((page - 1)
-#: webapp_main/templates/source/search/results.tt:31
+#: webapp_main/templates/source/search/results.tt:30
 msgid "Showing %1 to %2 of %3 results"
 msgstr ""
 
@@ -944,7 +949,7 @@ msgstr ""
 msgid "Sources and Use of Funds"
 msgstr ""
 
-#: webapp_main/templates/source/about/index.tt:12 webapp_main/templates/source/about/sponsors.tt:4 webapp_main/templates/source/index.tt:39
+#: webapp_main/templates/source/about/index.tt:12 webapp_main/templates/source/about/sponsors.tt:4 webapp_main/templates/source/index.tt:22
 msgid "Sponsors"
 msgstr ""
 
@@ -1000,7 +1005,7 @@ msgstr ""
 msgid "The Center for a New American Dream helps Americans consume responsibly to protect the environment, enhance quality of life, and promote social justice."
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:30 webapp_main/templates/lib/standard_page.tt:7 webapp_main/templates/source/about/background.tt:8 webapp_main/templates/source/donate.tt:6
+#: webapp_main/templates/lib/standard_page.tt:29 webapp_main/templates/lib/standard_page.tt:8 webapp_main/templates/source/about/background.tt:8 webapp_main/templates/source/donate.tt:6
 msgid "The Freecycle Network"
 msgstr ""
 
@@ -1178,11 +1183,7 @@ msgid "The page you requested doesn't exist, but you've got a couple of options:
 msgstr ""
 
 #: webapp_main/templates/source/login/password_reset.tt:10
-msgid "The password reset link has already been used"
-msgstr ""
-
-#: webapp_main/templates/source/login/password_reset.tt:11
-msgid "The password reset link has expired"
+msgid "The password reset link has already been used."
 msgstr ""
 
 #: webapp_main/templates/source/login/password_reset.tt:6
@@ -1197,7 +1198,7 @@ msgstr ""
 msgid "There is no preview available for this file - please download it to view"
 msgstr ""
 
-#: webapp_main/templates/source/search/results.tt:50
+#: webapp_main/templates/source/search/results.tt:49
 msgid "There were no groups matching your search terms"
 msgstr ""
 
@@ -1339,7 +1340,7 @@ msgid "We will not sell or exchange your personal information at any time. We wi
 msgstr ""
 
 #. (num_groups.chunk(-3)
-#: webapp_main/templates/source/index.tt:27
+#: webapp_main/templates/source/index.tt:17
 msgid "Welcome! The Freecycle Network&trade; is made up of %1 groups with %2 members around the world. It's a grassroots and entirely nonprofit movement of people who are giving (and getting) stuff for free in their own towns. It's all about reuse and keeping good stuff out of landfills. Each local group is moderated by local volunteers (them's good people). Membership is free. To sign up, find your community by entering it into the search box above or by clicking on 'Browse Groups' above the search box. Have fun!"
 msgstr ""
 
@@ -1389,7 +1390,7 @@ msgid "You can <a href='%1' title='List of countries, regions and Groups within 
 msgstr ""
 
 #: webapp_main/templates/source/login/password_reset.tt:9
-msgid "You have generated a new password reset link since the email was sent"
+msgid "You have generated a new password reset link since the email was sent."
 msgstr ""
 
 #. (#TODO: hard-coded URL      "http://my.freecycle.org/login?referer=$thispage")
@@ -1425,7 +1426,7 @@ msgid "You will need to <a href='%1'>join this group</a> before you can view thi
 msgstr ""
 
 #: webapp_main/templates/source/login/password_reset.tt:8
-msgid "Your email software has mangled the link"
+msgid "Your email software has mangled the link. Try cutting and pasting into browser."
 msgstr ""
 
 #: webapp_main/templates/source/tos.tt:56
@@ -1472,7 +1473,7 @@ msgstr ""
 msgid "call2recycle"
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:31
+#: webapp_main/templates/lib/standard_page.tt:30
 msgid "changing the world<br />one gift at a time&trade;"
 msgstr ""
 
