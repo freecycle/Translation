@@ -166,7 +166,7 @@ msgstr ""
 msgid "A truckload of diapers, clothes and supplies was collected through Freecycle for an orphanage in Haiti. FedEx donated the shipping!"
 msgstr ""
 
-#: webapp_main/templates/source/group/admin.tt:2 webapp_main/templates/source/group/posts/display_list.tt:259
+#: webapp_main/templates/source/group/admin.tt:2 webapp_main/templates/source/group/posts/display_list.tt:260
 msgid "ADMIN"
 msgstr ""
 
@@ -500,11 +500,11 @@ msgstr ""
 msgid "In just a few short years, Freecycle&trade; has generated a spectacular worldwide outpouring of generosity, changing the world one gift at a time. Those with still good used items happily share; those who need gracefully receive, all without judgement - or any funds - passed."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:34
+#: webapp_main/templates/source/group/posts/display_list.tt:35
 msgid "Include OFFER Posts?"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:40
+#: webapp_main/templates/source/group/posts/display_list.tt:41
 msgid "Include WANTED Posts?"
 msgstr ""
 
@@ -528,7 +528,7 @@ msgstr ""
 msgid "It is with great pride and with many, many thanks that we acknowledge the thousands of volunteer moderators worldwide. Each local group generally has two to six local moderators who, in turn, are helping over four million members to keep good stuff out of landfills and to develop stronger community ties."
 msgstr ""
 
-#: webapp_main/templates/lib/group_box.tt:39 webapp_main/templates/source/group/description.tt:9 webapp_main/templates/source/group/posts/display_list.tt:219
+#: webapp_main/templates/lib/group_box.tt:39 webapp_main/templates/source/group/description.tt:9 webapp_main/templates/source/group/posts/display_list.tt:220
 msgid "Join this Group"
 msgstr ""
 
@@ -565,7 +565,7 @@ msgstr ""
 msgid "Log in to Freecycle.org"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:213
+#: webapp_main/templates/source/group/posts/display_list.tt:214
 msgid "Make a new Post"
 msgstr ""
 
@@ -665,7 +665,12 @@ msgstr ""
 msgid "Nonprofit Status"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:263 webapp_main/templates/source/group/posts/display_post.tt:5
+#. (t always instant. Please wait at least an hour or two before trying this again. Also, be sure that you've whitelisted "email_relay@freecycle.org" in your email provider settings so that your provider doesn't count the email as spam.')
+#: webapp_main/templates/source/login/login_link_sent.tt:8
+msgid "Note that email isn"
+msgstr ""
+
+#: webapp_main/templates/source/group/posts/display_list.tt:264 webapp_main/templates/source/group/posts/display_post.tt:5
 msgid "OFFER"
 msgstr ""
 
@@ -773,11 +778,11 @@ msgstr ""
 msgid "Posted by :"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:44
+#: webapp_main/templates/source/group/posts/display_list.tt:45
 msgid "Posted on or after"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:48
+#: webapp_main/templates/source/group/posts/display_list.tt:49
 msgid "Posted on or before"
 msgstr ""
 
@@ -829,7 +834,7 @@ msgstr ""
 msgid "Quotes about Freecycle</a> (1.5 MB PDF)"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:275
+#: webapp_main/templates/source/group/posts/display_list.tt:276
 msgid "RECEIVED"
 msgstr ""
 
@@ -866,7 +871,7 @@ msgstr ""
 msgid "Reporter: %1 (%2)"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:52
+#: webapp_main/templates/source/group/posts/display_list.tt:53
 msgid "Results per page :"
 msgstr ""
 
@@ -882,11 +887,11 @@ msgstr ""
 msgid "Richard spends a lot of his free time coding away on the next version of the Freecycle website. He also heads up a couple of testing and development teams here all doing his part at home, including that of being husband and dad. If you talk voice to him, you're likely to hear the new baby singing in the background."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:22 webapp_main/templates/source/group/posts/display_list.tt:233
+#: webapp_main/templates/source/group/posts/display_list.tt:23 webapp_main/templates/source/group/posts/display_list.tt:234
 msgid "Search Posts"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:61
+#: webapp_main/templates/source/group/posts/display_list.tt:62
 msgid "Search for Posts"
 msgstr ""
 
@@ -894,7 +899,7 @@ msgstr ""
 msgid "Search results"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:120
+#: webapp_main/templates/source/group/posts/display_list.tt:121
 msgid "See details"
 msgstr ""
 
@@ -919,16 +924,16 @@ msgid "Share a skill"
 msgstr ""
 
 #. (((page - 1)
-#: webapp_main/templates/source/search/results.tt:31
+#: webapp_main/templates/source/search/results.tt:30
 msgid "Showing %1 to %2 of %3 results"
 msgstr ""
 
 #. (res_start, res_end, numresults)
-#: webapp_main/templates/source/group/posts/display_list.tt:153
+#: webapp_main/templates/source/group/posts/display_list.tt:154
 msgid "Showing %1 to %2 of %3 results."
 msgstr ""
 
-#: webapp_main/templates/source/group/description.tt:17 webapp_main/templates/source/group/posts/display_list.tt:227
+#: webapp_main/templates/source/group/description.tt:17 webapp_main/templates/source/group/posts/display_list.tt:228
 msgid "Sign up/log in"
 msgstr ""
 
@@ -944,7 +949,7 @@ msgstr ""
 msgid "Sources and Use of Funds"
 msgstr ""
 
-#: webapp_main/templates/source/about/index.tt:12 webapp_main/templates/source/about/sponsors.tt:4 webapp_main/templates/source/index.tt:39
+#: webapp_main/templates/source/about/index.tt:12 webapp_main/templates/source/about/sponsors.tt:4 webapp_main/templates/source/index.tt:22
 msgid "Sponsors"
 msgstr ""
 
@@ -956,7 +961,7 @@ msgstr ""
 msgid "Street performer Reverend Billy preaches his message of reducing consumption in his Church of Stop Shopping."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:267 webapp_main/templates/source/group/posts/display_post.tt:6
+#: webapp_main/templates/source/group/posts/display_list.tt:268 webapp_main/templates/source/group/posts/display_post.tt:6
 msgid "TAKEN"
 msgstr ""
 
@@ -1000,7 +1005,7 @@ msgstr ""
 msgid "The Center for a New American Dream helps Americans consume responsibly to protect the environment, enhance quality of life, and promote social justice."
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:29 webapp_main/templates/lib/standard_page.tt:6 webapp_main/templates/source/about/background.tt:8 webapp_main/templates/source/donate.tt:6
+#: webapp_main/templates/lib/standard_page.tt:29 webapp_main/templates/lib/standard_page.tt:8 webapp_main/templates/source/about/background.tt:8 webapp_main/templates/source/donate.tt:6
 msgid "The Freecycle Network"
 msgstr ""
 
@@ -1031,7 +1036,7 @@ msgid "The Freecycle Network - Mission Statement"
 msgstr ""
 
 #. (group.groupname)
-#: webapp_main/templates/source/group/posts/display_list.tt:3
+#: webapp_main/templates/source/group/posts/display_list.tt:3 webapp_main/templates/source/group/posts/display_list.tt:4
 msgid "The Freecycle Network - Posts on the %1 Group"
 msgstr ""
 
@@ -1178,11 +1183,7 @@ msgid "The page you requested doesn't exist, but you've got a couple of options:
 msgstr ""
 
 #: webapp_main/templates/source/login/password_reset.tt:10
-msgid "The password reset link has already been used"
-msgstr ""
-
-#: webapp_main/templates/source/login/password_reset.tt:11
-msgid "The password reset link has expired"
+msgid "The password reset link has already been used."
 msgstr ""
 
 #: webapp_main/templates/source/login/password_reset.tt:6
@@ -1197,11 +1198,11 @@ msgstr ""
 msgid "There is no preview available for this file - please download it to view"
 msgstr ""
 
-#: webapp_main/templates/source/search/results.tt:50
+#: webapp_main/templates/source/search/results.tt:49
 msgid "There were no groups matching your search terms"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:11
+#: webapp_main/templates/source/group/posts/display_list.tt:12
 msgid "There were no matching messages"
 msgstr ""
 
@@ -1322,7 +1323,7 @@ msgstr ""
 msgid "Volunteering"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:271 webapp_main/templates/source/group/posts/display_post.tt:7
+#: webapp_main/templates/source/group/posts/display_list.tt:272 webapp_main/templates/source/group/posts/display_post.tt:7
 msgid "WANTED"
 msgstr ""
 
@@ -1339,7 +1340,7 @@ msgid "We will not sell or exchange your personal information at any time. We wi
 msgstr ""
 
 #. (num_groups.chunk(-3)
-#: webapp_main/templates/source/index.tt:27
+#: webapp_main/templates/source/index.tt:17
 msgid "Welcome! The Freecycle Network&trade; is made up of %1 groups with %2 members around the world. It's a grassroots and entirely nonprofit movement of people who are giving (and getting) stuff for free in their own towns. It's all about reuse and keeping good stuff out of landfills. Each local group is moderated by local volunteers (them's good people). Membership is free. To sign up, find your community by entering it into the search box above or by clicking on 'Browse Groups' above the search box. Have fun!"
 msgstr ""
 
@@ -1355,7 +1356,7 @@ msgstr ""
 msgid "Within your local Group"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:26
+#: webapp_main/templates/source/group/posts/display_list.tt:27
 msgid "Words to look for :"
 msgstr ""
 
@@ -1389,7 +1390,7 @@ msgid "You can <a href='%1' title='List of countries, regions and Groups within 
 msgstr ""
 
 #: webapp_main/templates/source/login/password_reset.tt:9
-msgid "You have generated a new password reset link since the email was sent"
+msgid "You have generated a new password reset link since the email was sent."
 msgstr ""
 
 #. (#TODO: hard-coded URL      "http://my.freecycle.org/login?referer=$thispage")
@@ -1425,7 +1426,7 @@ msgid "You will need to <a href='%1'>join this group</a> before you can view thi
 msgstr ""
 
 #: webapp_main/templates/source/login/password_reset.tt:8
-msgid "Your email software has mangled the link"
+msgid "Your email software has mangled the link. Try cutting and pasting into browser."
 msgstr ""
 
 #: webapp_main/templates/source/tos.tt:56
