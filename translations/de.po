@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.7.6\n"
+"X-Generator: Poedit 1.7.4\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -82,6 +82,14 @@ msgstr "%1 Mitglieder"
 #: webapp_main/templates/source/tos.tt:38
 msgid "'stalk' or otherwise harass anyone;"
 msgstr "jemanden stalken oder anderweitig belästigen;"
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:10
+msgid ""
+"(If you believe this should be escalated to the Spam Control Team, please forward this email to:\n"
+"spamcontrol@freecycle.org )"
+msgstr ""
+"(Wenn Du davon ausgehst, dass dies dem Spam-Kontroll-Team gemeldet werden sollte, leite diese E-Mail bitte weiter an:\n"
+"spamcontrol@freecycle.org )"
 
 #: webapp_main/templates/source/about/pressroom.tt:10
 msgid "(When contacting us, please make sure to provide the full name of the Freecycle group (website address is best) and the State/Province/Country to which you are referring)"
@@ -562,7 +570,7 @@ msgid "At a local Freecycle 'Hurricane Help Project' event, hundreds of local co
 msgstr "At a local Freecycle 'Hurricane Help Project' event, hundreds of local community members helped victims of the latest hurricane with free furniture and building supplies."
 
 #. ($post->getPostID()
-#: core_modules/lib/Freecycle/Email.pm:3934
+#: core_modules/lib/Freecycle/Email.pm:3954
 msgid "Auto-abuse report: Post %1 has been flagged"
 msgstr "Auto-Beschwerde-Bericht: Anzeige %1 wurde gemeldet"
 
@@ -836,7 +844,7 @@ msgstr "Moderatoren-Kontakt"
 msgid "Contact your Group Moderators"
 msgstr "Kontakt mit den Moderatoren aufnehmen"
 
-#: webapp_myf/templates/lib/standard_footer.tt:13
+#: webapp_myf/templates/lib/standard_footer.tt:15
 msgid "Copyright"
 msgstr "Copyright"
 
@@ -1072,6 +1080,12 @@ msgstr "Datei herunterladen"
 msgid "Download this page"
 msgstr "Diese Seite herunterladen"
 
+#: webapp_myf/templates/source/home/info/change_languages.tt:81
+msgid "Drag languages you prefer from right to left and sort in order of preference. <br>Drag something back from left to right to remove it."
+msgstr ""
+"Ziehe die Sprachen, die Du bevorzugst, von rechts nach links und sortiere sie in der Reihenfolge Deiner Präferenz.<br> Um eine Sprache zu entfernen, ziehe sie bitte von links nach "
+"rechts."
+
 #. ("/about/funds")
 #: webapp_main/templates/source/donate.tt:16
 msgid ""
@@ -1129,7 +1143,7 @@ msgstr "Editorials über Freecycle"
 #. (region.country.country_name)
 #: webapp_main/templates/source/browse/group_list.tt:14
 msgid "Elsewhere in %1"
-msgstr "Woanders in %1"
+msgstr "Freecycle in anderen Ländern als in %1"
 
 #. (email)
 #: webapp_myf/templates/source/home/info/index.tt:48
@@ -2188,6 +2202,10 @@ msgstr "Leitende Moderatoren"
 msgid "Lead Moderators of the %1 group"
 msgstr "Leitende Moderatoren der Gruppe %1"
 
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:43
+msgid "Leadership"
+msgstr "Leitung"
+
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:73
 msgid "Leave the local Group"
 msgstr "Diese Gruppe verlassen"
@@ -2702,6 +2720,11 @@ msgstr "nur ADMIN-Nachrichten"
 msgid "Nonprofit Status"
 msgstr "Gemeinnütziger Status "
 
+#. (t always instant. Please wait at least an hour or two before trying this again. Also, be sure that you've whitelisted "email_relay@freecycle.org" in your email provider settings so that your provider doesn't count the email as spam.')
+#: webapp_main/templates/source/login/login_link_sent.tt:8
+msgid "Note that email isn"
+msgstr "Note that email isn"
+
 #: webapp_modtools/templates/perl/source/moderator_members_overview:43
 msgid "Number"
 msgstr "Anzahl"
@@ -2715,7 +2738,7 @@ msgstr "Anzahl der Mitglieder"
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:310 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:106
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:152 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:152
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:153 webapp_myf/templates/lib/standard_macros.tt:14 webapp_myf/templates/source/home/posts/manage/show.tt:33
-#: core_modules/lib/Freecycle/Email.pm:3213 core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:17
+#: core_modules/lib/Freecycle/Email.pm:3213 core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:22
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:11 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:51
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:103
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:76
@@ -2867,7 +2890,7 @@ msgstr "Organigramm"
 msgid "Organizational Chart"
 msgstr "Organigramm"
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:9
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:14
 msgid "Original Post details:"
 msgstr "Originale Anzeigen-Details:"
 
@@ -3017,7 +3040,7 @@ msgid "Please click here if you are interested in applying to set one up, and be
 msgstr "Bitte klicke hier wenn Du daran interessiert bist, eine neue Gruppe zu gründen und deren Moderator zu werden"
 
 #. ('<a href="//www.freecycle.org/donate">' _ c.loc('donation')
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:66
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:74
 msgid ""
 "Please consider turning off your ad-blocking software for this site, and/or making a %1. As a charitable nonprofit we rely on this income to keep this site running. <br>Big thank-you "
 "hug!"
@@ -3211,7 +3234,7 @@ msgid "Post ID: "
 msgstr "Anzeigen-ID:"
 
 #. (post.post_id)
-#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:13 core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:23
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:18 core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:23
 msgid "Post ID: %1"
 msgstr "Anzeigen-ID: %1"
 
@@ -3224,7 +3247,7 @@ msgid "Post Type"
 msgstr "Anzeigentyp"
 
 #. (post.url)
-#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:12
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:17
 msgid "Post URL: %1"
 msgstr "Anzeige URL: %1"
 
@@ -3232,7 +3255,7 @@ msgstr "Anzeige URL: %1"
 msgid "Post description settings"
 msgstr "Einstellungen für die Anzeigenbeschreibung"
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:23
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:28
 msgid "Post description:"
 msgstr "Beschreibung der Anzeige:"
 
@@ -3284,7 +3307,7 @@ msgid "Post status: "
 msgstr "Anzeigenstatus:"
 
 #. (post.subject)
-#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:22
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:27
 msgid "Post subject: %1"
 msgstr "Betreff der Anzeige: %1"
 
@@ -3304,7 +3327,7 @@ msgstr "Anzeige aufgeben"
 msgid "Post type"
 msgstr "Art der Anzeige"
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:30 core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:15
+#: webapp_myf/templates/source/home/posts/manage/show.tt:30 core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:20
 msgid "Post type: "
 msgstr "Anzeigentyp:"
 
@@ -3361,7 +3384,7 @@ msgid "Posted to:"
 msgstr "Gesendet an:"
 
 #. (poster.username _ ' <' _ poster.address _ '>')
-#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:11
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:16
 msgid "Poster: %1"
 msgstr "Ersteller/in: %1"
 
@@ -3464,7 +3487,7 @@ msgstr "Zitate über Freecycle</a> (1.5 MB PDF)"
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:322 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:118
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:164 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:164
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:165 webapp_myf/templates/lib/standard_macros.tt:17 core_modules/lib/Freecycle/Email.pm:3216
-#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:20 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:14
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:25 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:14
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:54
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:106
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:79
@@ -3847,7 +3870,7 @@ msgid "Showing %1 to %2 of %3"
 msgstr "Zeige %1 bis %2, von %3"
 
 #. (((page - 1)
-#: webapp_main/templates/source/search/results.tt:31
+#: webapp_main/templates/source/search/results.tt:30
 msgid "Showing %1 to %2 of %3 results"
 msgstr "Zeige %1 bis %2 von %3 Ergebnissen"
 
@@ -3905,11 +3928,11 @@ msgid "Sources and Use of Funds"
 msgstr "Finanzen: woher unser Geld kommt und wofür wir es ausgeben"
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:16 core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:40
-#: webapp_main/templates/source/about/index.tt:12 webapp_main/templates/source/about/sponsors.tt:4 webapp_main/templates/source/index.tt:39
+#: webapp_main/templates/source/about/index.tt:12 webapp_main/templates/source/about/sponsors.tt:4 webapp_main/templates/source/index.tt:22
 msgid "Sponsors"
 msgstr "Sponsoren"
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:43 webapp_main/templates/source/about/index.tt:15 webapp_main/templates/source/about/staff.tt:4
+#: webapp_main/templates/source/about/index.tt:15 webapp_main/templates/source/about/staff.tt:4
 msgid "Staff"
 msgstr "Mitarbeiter"
 
@@ -3963,7 +3986,7 @@ msgstr "Umschalten auf zusammenfassende E-Mail"
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:314 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:110
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:156 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:156
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:157 webapp_myf/templates/lib/standard_macros.tt:16 core_modules/lib/Freecycle/Email.pm:3214
-#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:18 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:12
+#: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:23 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:12
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:52
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:104
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:77
@@ -4099,11 +4122,11 @@ msgstr ""
 "Das 'Center for a New American Dream' hilft Amerikanern verantwortlich zu konsumieren zum Schutz der Umwelt, Verbesserung der Lebensqualität und um soziale Gerechtigkeit zu "
 "propagieren."
 
-#: webapp_main/templates/lib/standard_page.tt:30 webapp_main/templates/lib/standard_page.tt:7 webapp_main/templates/source/about/background.tt:8 webapp_main/templates/source/donate.tt:6
+#: webapp_main/templates/lib/standard_page.tt:29 webapp_main/templates/lib/standard_page.tt:8 webapp_main/templates/source/about/background.tt:8 webapp_main/templates/source/donate.tt:6
 msgid "The Freecycle Network"
 msgstr "The Freecycle Network"
 
-#: webapp_myf/templates/lib/standard_footer.tt:13
+#: webapp_myf/templates/lib/standard_footer.tt:15
 msgid "The Freecycle Network (http://www.freecycle.org). All rights reserved. Freecycle and the Freecycle logo are trademarks of The Freecycle Network in various countries."
 msgstr ""
 "The Freecycle Network (http://www.freecycle.org). All rights reserved. Alle Rechte vorbehalten. Freecycle und das Freecycle Logo sind Markenzeichen von The Freecycle Network in "
@@ -4559,12 +4582,8 @@ msgid "The page you were looking for cannot be found!"
 msgstr "Die Seite, die Du anschauen wolltest, kann nicht gefunden werden!"
 
 #: webapp_main/templates/source/login/password_reset.tt:10
-msgid "The password reset link has already been used"
-msgstr "Der Passwort-Zurücksetzen-Link wurde schon benutzt"
-
-#: webapp_main/templates/source/login/password_reset.tt:11
-msgid "The password reset link has expired"
-msgstr "Die Gültigkeit des Passwort-Zurücksetzen-Links ist abgelaufen"
+msgid "The password reset link has already been used."
+msgstr "Dieser Passwort-Zurücksetzen-Link wurde bereits benutzt."
 
 #: webapp_main/templates/source/login/password_reset.tt:6
 msgid "The password reset token you used has not been recognised. This may be because:"
@@ -4733,7 +4752,7 @@ msgstr "Bei der Erstellung des neuen Kennworts ist ein Fehler aufgetreten "
 msgid "There was an error sending the notification email"
 msgstr "Es ist ein Fehler beim Senden der Hinweisnachricht aufgetreten"
 
-#: webapp_main/templates/source/search/results.tt:50
+#: webapp_main/templates/source/search/results.tt:49
 msgid "There were no groups matching your search terms"
 msgstr "Es gibt keine Gruppen, die Deinen Suchkriterien entsprechen"
 
@@ -5389,7 +5408,7 @@ msgstr "Ehrenamtliche Tätigkeit "
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:318 webapp_modtools/templates/perl/source/moderator_group_posts_view_post:114
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:160 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:160
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:161 webapp_myf/templates/lib/standard_macros.tt:15 webapp_myf/templates/source/home/posts/manage/show.tt:34
-#: core_modules/lib/Freecycle/Email.pm:3215 core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:19
+#: core_modules/lib/Freecycle/Email.pm:3215 core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:24
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:13 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:53
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:105
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:78
@@ -5487,7 +5506,7 @@ msgid "Welcome to the %1 Freecycle group!"
 msgstr "Wilkommen bei der Freecycle-Gruppe %1"
 
 #. (num_groups.chunk(-3)
-#: webapp_main/templates/source/index.tt:27
+#: webapp_main/templates/source/index.tt:17
 msgid ""
 "Welcome! The Freecycle Network&trade; is made up of %1 groups with %2 members around the world. It's a grassroots and entirely nonprofit movement of people who are giving (and "
 "getting) stuff for free in their own towns. It's all about reuse and keeping good stuff out of landfills. Each local group is moderated by local volunteers (them's good people). "
@@ -5815,8 +5834,8 @@ msgid "You have been invited to join the following groups:"
 msgstr "Du bist zu den folgenden Gruppen eingeladen worden:"
 
 #: webapp_main/templates/source/login/password_reset.tt:9
-msgid "You have generated a new password reset link since the email was sent"
-msgstr "Du hast erneut einen Passwort-Zurücksetzen-Link erzeugt, seid die E-Mail geschickt wurde."
+msgid "You have generated a new password reset link since the email was sent."
+msgstr "Du hast während diese E-Mail verschickt wurde einen neuen Antrag auf Passwort-Rücksetzung eingereicht."
 
 #: webapp_myf/templates/source/home/posts/index.tt:75
 msgid "You have no open posts"
@@ -6002,10 +6021,10 @@ msgid "Your email could not be processed"
 msgstr "Deine E-Mail konnte nicht verarbeitet werden"
 
 #: webapp_main/templates/source/login/password_reset.tt:8
-msgid "Your email software has mangled the link"
-msgstr "Deine E-Mail-Software oder Firewall hat den Link verändert"
+msgid "Your email software has mangled the link. Try cutting and pasting into browser."
+msgstr "Deine E-Mail-Software hat den Link umgebrochen. Bitte kopiere den Link in die Adresszeile Deines Browsers."
 
-#: core_modules/lib/Freecycle/Email.pm:3899
+#: core_modules/lib/Freecycle/Email.pm:3899 core_modules/lib/Freecycle/Email.pm:3918
 msgid "Your forgotten password link"
 msgstr "Dein Kennwort vergessen Link"
 
@@ -6191,7 +6210,7 @@ msgstr "ändern"
 msgid "changing the world one gift at a time"
 msgstr "changing the world one gift at a time "
 
-#: webapp_main/templates/lib/standard_page.tt:31
+#: webapp_main/templates/lib/standard_page.tt:30
 msgid "changing the world<br />one gift at a time&trade;"
 msgstr "changing the world<br />one gift at a time&trade;"
 
@@ -6271,6 +6290,10 @@ msgstr "Stunden"
 #: webapp_modtools/templates/perl/source/moderator_group_overview:52
 msgid "in"
 msgstr "in"
+
+#: webapp_myf/templates/source/home/info/change_languages.tt:92
+msgid "language code"
+msgstr "Sprach-Code"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:27
 msgid "matches"
@@ -6467,6 +6490,18 @@ msgstr "ja"
 #: core_modules/lib/Freecycle/Email.pm:2842
 msgid "{not available}"
 msgstr "(nicht verfügbar)"
+
+#~ msgid "The password reset link has already been used"
+#~ msgstr "Der Passwort-Zurücksetzen-Link wurde schon benutzt"
+
+#~ msgid "The password reset link has expired"
+#~ msgstr "Die Gültigkeit des Passwort-Zurücksetzen-Links ist abgelaufen"
+
+#~ msgid "You have generated a new password reset link since the email was sent"
+#~ msgstr "Du hast erneut einen Passwort-Zurücksetzen-Link erzeugt, seid die E-Mail geschickt wurde."
+
+#~ msgid "Your email software has mangled the link"
+#~ msgstr "Deine E-Mail-Software oder Firewall hat den Link verändert"
 
 #~ msgid "Most local Freecycle groups are currently members of Yahoo!Groups and to remain as such must follow Yahoo's privacy policy, which can be found at %1"
 #~ msgstr ""
