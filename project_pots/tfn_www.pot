@@ -348,7 +348,7 @@ msgstr ""
 msgid "Forgotten password"
 msgstr ""
 
-#: webapp_main/templates/source/login/index.tt:19
+#: webapp_main/templates/source/login/index.tt:23
 msgid "Forgotten your password?"
 msgstr ""
 
@@ -512,6 +512,10 @@ msgstr ""
 msgid "Incorporation"
 msgstr ""
 
+#: webapp_main/templates/source/login/index.tt:19
+msgid "Incorrect username/password"
+msgstr ""
+
 #: webapp_main/templates/source/about/privacy.tt:15
 msgid "Information Collection"
 msgstr ""
@@ -665,9 +669,8 @@ msgstr ""
 msgid "Nonprofit Status"
 msgstr ""
 
-#. (t always instant. Please wait at least an hour or two before trying this again. Also, be sure that you've whitelisted "email_relay@freecycle.org" in your email provider settings so that your provider doesn't count the email as spam.')
 #: webapp_main/templates/source/login/login_link_sent.tt:8
-msgid "Note that email isn"
+msgid "Note that email isn't always instant. Please wait at least an hour or two before trying this again. Also, be sure that you've whitelisted 'email_relay@freecycle.org' in your email provider settings so that your provider doesn't count the email as spam."
 msgstr ""
 
 #: webapp_main/templates/source/group/posts/display_list.tt:264 webapp_main/templates/source/group/posts/display_post.tt:5
@@ -784,6 +787,11 @@ msgstr ""
 
 #: webapp_main/templates/source/group/posts/display_list.tt:49
 msgid "Posted on or before"
+msgstr ""
+
+#. (group.groupname)
+#: webapp_main/templates/source/group/posts/display_list.tt:3
+msgid "Posts on the %1 Group | The Freecycle Network"
 msgstr ""
 
 #: webapp_main/templates/source/about/pressroom.tt:32
@@ -1033,11 +1041,6 @@ msgstr ""
 
 #: webapp_main/templates/source/about/missionstatement.tt:1
 msgid "The Freecycle Network - Mission Statement"
-msgstr ""
-
-#. (group.groupname)
-#: webapp_main/templates/source/group/posts/display_list.tt:3 webapp_main/templates/source/group/posts/display_list.tt:4
-msgid "The Freecycle Network - Posts on the %1 Group"
 msgstr ""
 
 #: webapp_main/templates/source/about/promovideo.tt:1
@@ -1495,6 +1498,10 @@ msgstr ""
 
 #: webapp_main/templates/lib/search_box_group.tt:8
 msgid "go"
+msgstr ""
+
+#: webapp_main/templates/lib/standard_page.tt:29
+msgid "logo of The Freecycle Network"
 msgstr ""
 
 #: webapp_main/templates/source/tos.tt:42

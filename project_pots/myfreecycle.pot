@@ -19,7 +19,7 @@ msgstr ""
 msgid "(awaiting Mod approval)"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:129
+#: webapp_myf/templates/source/home/posts/manage/show.tt:130
 msgid "(click on the thumbnail for full size image)"
 msgstr ""
 
@@ -39,7 +39,7 @@ msgstr ""
 msgid "(please note that some local Groups do require approval of new Members and/or Posts and it may take a day or two before you are able to post)"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:29
+#: webapp_myf/templates/source/home/posts/new.tt:33
 msgid "--- Please choose a type ---"
 msgstr ""
 
@@ -109,7 +109,7 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:76 webapp_myf/templates/source/home/posts/manage/show.tt:77
+#: webapp_myf/templates/source/home/posts/manage/show.tt:77 webapp_myf/templates/source/home/posts/manage/show.tt:78
 msgid "Cancel and remove"
 msgstr ""
 
@@ -287,7 +287,7 @@ msgstr ""
 msgid "Group Info"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:46
+#: webapp_myf/templates/source/home/posts/manage/show.tt:47
 msgid "Group Members can see and search for this Post"
 msgstr ""
 
@@ -344,7 +344,7 @@ msgstr ""
 msgid "I've now RECEIVED this. Thank you to everyone who responded."
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new_okay.tt:21
+#: webapp_myf/templates/source/home/posts/new_okay.tt:23
 msgid ""
 "If you are on moderation (normally if this is your first post) then your message will not appear until a moderator has\n"
 "approved it. This measure is taken to stop spammers from joining groups and immediately posting junk - you should be taken\n"
@@ -360,12 +360,12 @@ msgstr ""
 msgid "If you do not wish to agree to the Freecycle Network Terms of Service, you may delete your Freecycle membership account. Accounts that have not either agreed to the Terms of Service or have been deleted by their owners may be automatically deleted."
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:95
-msgid "If you have a picture of the item (max file size: 256Kb), you can upload it now"
+#: webapp_myf/templates/source/home/posts/manage/show.tt:96
+msgid "If you have a picture of the item (max file size: 1.2MB), you can upload it now"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:59
-msgid "If you have a picture of the item, you can upload it :<br />(max file size: 256Kb)"
+#: webapp_myf/templates/source/home/posts/new.tt:69
+msgid "If you have a picture of the item, you can upload it."
 msgstr ""
 
 #. ('<a href="http://wiki.freecycle.org/MemberFAQ:/">')
@@ -409,7 +409,7 @@ msgid "If your email address hasn't been registered before, you can use the <a h
 msgstr ""
 
 #. (postinfo.post_id)
-#: webapp_myf/templates/source/home/posts/manage/show.tt:112
+#: webapp_myf/templates/source/home/posts/manage/show.tt:113
 msgid "Image for post %1"
 msgstr ""
 
@@ -450,11 +450,11 @@ msgstr ""
 msgid "Invited on : %1"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:31
+#: webapp_myf/templates/source/home/posts/new.tt:35
 msgid "It's a request for a WANTED item"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:30
+#: webapp_myf/templates/source/home/posts/new.tt:34
 msgid "It's an OFFER of an item"
 msgstr ""
 
@@ -487,7 +487,7 @@ msgstr ""
 msgid "Make a new post"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:64
+#: webapp_myf/templates/source/home/posts/new.tt:63
 msgid "Make the post"
 msgstr ""
 
@@ -495,15 +495,15 @@ msgstr ""
 msgid "Manage"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:14
+#: webapp_myf/templates/source/home/posts/manage/show.tt:15
 msgid "Manage this Post"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:86 webapp_myf/templates/source/home/posts/manage/show.tt:87
+#: webapp_myf/templates/source/home/posts/manage/show.tt:87 webapp_myf/templates/source/home/posts/manage/show.tt:88
 msgid "Mark as RECEIVED and remove"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:81 webapp_myf/templates/source/home/posts/manage/show.tt:82
+#: webapp_myf/templates/source/home/posts/manage/show.tt:82 webapp_myf/templates/source/home/posts/manage/show.tt:83
 msgid "Mark as TAKEN and remove"
 msgstr ""
 
@@ -540,6 +540,18 @@ msgstr ""
 msgid "My Freecycle - recently expired Posts"
 msgstr ""
 
+#: webapp_myf/templates/source/home/posts/manage/show.tt:2
+msgid "My Freecycle Network - Manage Post "
+msgstr ""
+
+#: webapp_myf/templates/source/home/posts/new.tt:2
+msgid "My Freecycle Network - New Post"
+msgstr ""
+
+#: webapp_myf/templates/source/home/posts/new_okay.tt:1
+msgid "My Freecycle Network - New Post Created"
+msgstr ""
+
 #: webapp_myf/templates/lib/box_tabbar.tt:18
 msgid "My Groups"
 msgstr ""
@@ -560,6 +572,10 @@ msgstr ""
 msgid "New username"
 msgstr ""
 
+#: webapp_myf/templates/source/home/posts/new.tt:69
+msgid "New!! If you have javascript enabled and a modern browser, choose any size image and it will be re-sized automatically before upload. Otherwise, maximum file size is 1.2MB."
+msgstr ""
+
 #: webapp_myf/templates/source/forgottenusername.tt:39
 msgid "No account with that email address could be found in the database. You may have registered with another email address."
 msgstr ""
@@ -576,7 +592,7 @@ msgstr ""
 msgid "None apart from ADMINs"
 msgstr ""
 
-#: webapp_myf/templates/lib/standard_macros.tt:14 webapp_myf/templates/source/home/posts/manage/show.tt:33
+#: webapp_myf/templates/lib/standard_macros.tt:14 webapp_myf/templates/source/home/posts/manage/show.tt:34
 msgid "OFFER"
 msgstr ""
 
@@ -677,7 +693,7 @@ msgstr ""
 msgid "Please select a group from the list"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:37
+#: webapp_myf/templates/source/home/posts/new.tt:41
 msgid "Please select a group:"
 msgstr ""
 
@@ -685,7 +701,7 @@ msgstr ""
 msgid "Post ID"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:18
+#: webapp_myf/templates/source/home/posts/manage/show.tt:19
 msgid "Post ID: "
 msgstr ""
 
@@ -701,23 +717,23 @@ msgstr ""
 msgid "Post errors"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:58
+#: webapp_myf/templates/source/home/posts/manage/show.tt:59
 msgid "Post image : "
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:39
+#: webapp_myf/templates/source/home/posts/manage/show.tt:40
 msgid "Post location: "
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:43
+#: webapp_myf/templates/source/home/posts/manage/show.tt:44
 msgid "Post status: "
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:26
+#: webapp_myf/templates/source/home/posts/manage/show.tt:27
 msgid "Post title: "
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:35
+#: webapp_myf/templates/source/home/posts/new.tt:39
 msgid "Post to :"
 msgstr ""
 
@@ -725,7 +741,7 @@ msgstr ""
 msgid "Post to this Group"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:30
+#: webapp_myf/templates/source/home/posts/manage/show.tt:31
 msgid "Post type: "
 msgstr ""
 
@@ -733,7 +749,7 @@ msgstr ""
 msgid "Post warnings"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:22
+#: webapp_myf/templates/source/home/posts/manage/show.tt:23
 msgid "Posted on : "
 msgstr ""
 
@@ -741,7 +757,7 @@ msgstr ""
 msgid "Posted on:"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:53
+#: webapp_myf/templates/source/home/posts/manage/show.tt:54
 msgid "Posted to : "
 msgstr ""
 
@@ -806,7 +822,7 @@ msgstr ""
 msgid "Settings for %1"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:46
+#: webapp_myf/templates/source/home/posts/new.tt:50
 msgid "Short description :"
 msgstr ""
 
@@ -961,7 +977,7 @@ msgstr ""
 msgid "There are %1 ADMIN message(s) for this Group - please make sure you've read them"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:63
+#: webapp_myf/templates/source/home/posts/manage/show.tt:64
 msgid "There is no image for this Post"
 msgstr ""
 
@@ -1031,7 +1047,7 @@ msgstr ""
 msgid "Untrapped error '%1' - please report this!"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:98
+#: webapp_myf/templates/source/home/posts/manage/show.tt:99
 msgid "Upload image"
 msgstr ""
 
@@ -1076,11 +1092,11 @@ msgstr ""
 msgid "View the Posts"
 msgstr ""
 
-#: webapp_myf/templates/lib/standard_macros.tt:15 webapp_myf/templates/source/home/posts/manage/show.tt:34
+#: webapp_myf/templates/lib/standard_macros.tt:15 webapp_myf/templates/source/home/posts/manage/show.tt:35
 msgid "WANTED"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:48
+#: webapp_myf/templates/source/home/posts/manage/show.tt:49
 msgid "Waiting for Moderator approval"
 msgstr ""
 
@@ -1092,11 +1108,11 @@ msgstr ""
 msgid "We hope you have fun as the newest member of this globally local and volunteer-run Freecycle Group!"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:50
+#: webapp_myf/templates/source/home/posts/new.tt:54
 msgid "What is your approximate location?"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:27
+#: webapp_myf/templates/source/home/posts/new.tt:31
 msgid "What type of post is this?"
 msgstr ""
 
@@ -1150,7 +1166,7 @@ msgstr ""
 msgid "You are not a member of any groups."
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:54
+#: webapp_myf/templates/source/home/posts/new.tt:58
 msgid "You can add more details here :"
 msgstr ""
 
@@ -1167,7 +1183,7 @@ msgid "You can nominate one of the Groups you belong to as your most local, 'hom
 msgstr ""
 
 #. (groupURL)
-#: webapp_myf/templates/source/home/posts/new_okay.tt:29
+#: webapp_myf/templates/source/home/posts/new_okay.tt:31
 msgid "You can return to your <a href='/home/posts'>posts</a> page, go to the <a href='%1'>group page</a> or use any of the tabs above to continue."
 msgstr ""
 
@@ -1200,7 +1216,7 @@ msgstr ""
 msgid "You didn't authorise the third-party application - unless you authorise My Freecycle to access your account details, we cannot log you in"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:72
+#: webapp_myf/templates/source/home/posts/new.tt:159
 msgid "You do not belong to any groups yet!"
 msgstr ""
 
@@ -1265,7 +1281,7 @@ msgstr ""
 msgid "You must enter something for the short description"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:74
+#: webapp_myf/templates/source/home/posts/new.tt:161
 msgid "You need to <a href='/home/groups'>join some groups</a> before you can post (please see your groups page for notes regarding membership to existing Yahoo!Groups)"
 msgstr ""
 
@@ -1327,7 +1343,7 @@ msgid "Your new email address could not be saved"
 msgstr ""
 
 #. (post_id)
-#: webapp_myf/templates/source/home/posts/new_okay.tt:16
+#: webapp_myf/templates/source/home/posts/new_okay.tt:18
 msgid "Your new message has been sent to the Group. This message has been given the ID number #%1."
 msgstr ""
 
