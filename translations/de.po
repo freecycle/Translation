@@ -7,16 +7,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Freecycle.org\n"
-"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2015-07-18 16:43+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Valentin Bachem <vbachem@gmx.de>\n"
-"Language-Team:  <steev@freecycle.org>\n"
+"Language-Team: steev@freecycle.org\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 1.8.2\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -2712,7 +2712,7 @@ msgstr "Keine-\"Mein Freecycle\"-E-Mail-Adresse"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:130
 msgid "None"
-msgstr "Nichts"
+msgstr "Keine"
 
 #: webapp_myf/templates/source/home/groups/index.tt:140 webapp_myf/templates/source/home/groups/options_display.tt:85
 msgid "None apart from ADMINs"
