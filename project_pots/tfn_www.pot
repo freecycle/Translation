@@ -284,6 +284,10 @@ msgstr ""
 msgid "Donate and support Freecycle.org"
 msgstr ""
 
+#: webapp_main/templates/source/campaigns/june2015appeal.tt:1
+msgid "Donate today!"
+msgstr ""
+
 #: webapp_main/templates/source/group/files/view_file.tt:27
 msgid "Download this file"
 msgstr ""
