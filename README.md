@@ -60,6 +60,9 @@ https://help.github.com/articles/creating-a-pull-request
 
 When you issue the pull request, We'll get a notification and can take a look and confirm the changes and merge it into our repository. Then there might be a delay of a few days before your translation changes appear on the website, as it involves copying your .po file and deploying it to our servers, etc.  But, new revisions to the website are usually pushed live at least once a week, so you'll probably see your changes happen in that timeframe. We'll also try to keep in direct touch with you when things are being updated.
 
+Note:  The Freecycle FAQ Wiki uses a separate translation system that is built into that site. Rather than ask for all content there to be translated, we've marked only a few pages to be translated. The list is here: http://wiki.freecycle.org/Special:PageTranslation
+If you want to help with those, get in touch.
+
 Again, don't hesitate to contact Steev with any questions or need for further clarification. 
 
 Thanks for all your hard work!
