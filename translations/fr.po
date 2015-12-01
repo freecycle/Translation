@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: Freecycle.org\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2015-11-03 23:13+0100\n"
+"PO-Revision-Date: 2015-12-01 19:20+0100\n"
 "Last-Translator: Steev Hise <steev@freecycle.org>\n"
 "Language-Team: French <richard.wallman@freecycle.org>\n"
 "Language: fr\n"
@@ -4517,12 +4517,11 @@ msgstr "L'identifiant ou l'adresse e-mail est incorrecte."
 msgid "The username/email combination could not be found in the database."
 msgstr "La combinaison identifiant/ e-mail n'est pas dans notre base de donnée."
 
-# what is supposed to be the %1? maybe not sense in French
 #. ((postlist.size == 1 ? c.loc('has')
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:72
 msgid "There %1 been %2 %3 since the last digest"
-msgstr "Il y a eu %1 %2 %3 depuis le dernier résumé quotidien"
+msgstr "Il y a eu %2 %3 depuis le dernier résumé quotidien"
 
 #. (group.admins.size)
 #: webapp_myf/templates/source/home/groups/index.tt:85
