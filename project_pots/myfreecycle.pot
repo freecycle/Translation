@@ -47,7 +47,7 @@ msgstr ""
 msgid "A digest of 25 Posts"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:198 webapp_myf/templates/source/signup.tt:206
+#: webapp_myf/templates/source/signup.tt:193 webapp_myf/templates/source/signup.tt:201
 msgid "A temporary error has occurred"
 msgstr ""
 
@@ -161,7 +161,11 @@ msgstr ""
 msgid "Changing your username"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:40
+#: webapp_myf/templates/source/signup.tt:55
+msgid "Check the \"not a robot\" box"
+msgstr ""
+
+#: webapp_myf/templates/source/signup.tt:41
 msgid "Confirm email address :"
 msgstr ""
 
@@ -173,7 +177,7 @@ msgstr ""
 msgid "Confirm new password:"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:49
+#: webapp_myf/templates/source/signup.tt:50
 msgid "Confirm password"
 msgstr ""
 
@@ -210,11 +214,11 @@ msgstr ""
 msgid "Email : %1"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenpassword.tt:97 webapp_myf/templates/source/forgottenusername.tt:20 webapp_myf/templates/source/signup.tt:35
+#: webapp_myf/templates/source/forgottenpassword.tt:97 webapp_myf/templates/source/forgottenusername.tt:20 webapp_myf/templates/source/signup.tt:36
 msgid "Email address :"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:205
+#: webapp_myf/templates/source/signup.tt:200
 msgid "Email address invalid - an error was returned when it was checked"
 msgstr ""
 
@@ -320,7 +324,7 @@ msgid "Home region : %1"
 msgstr ""
 
 #. ("//www.freecycle.org/tos")
-#: webapp_myf/templates/source/signup.tt:73
+#: webapp_myf/templates/source/signup.tt:68
 msgid "I agree to The Freecycle Network <a href='%1'>Terms of Service</a>."
 msgstr ""
 
@@ -399,7 +403,7 @@ msgid ""
 "  <a href='/home/posts'>the Posts you have made</a>."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:66
+#: webapp_myf/templates/source/signup.tt:61
 msgid "If you're having problems with CAPTCHAs, you can check this box to request an email confirmation. You will be sent a randomly generated password which you will need to use to log into My Freecycle"
 msgstr ""
 
@@ -425,19 +429,19 @@ msgstr ""
 msgid "Incorrect username/password"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:203
+#: webapp_myf/templates/source/signup.tt:198
 msgid "Invalid country"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:139 webapp_myf/templates/source/signup.tt:152
+#: webapp_myf/templates/source/signup.tt:134 webapp_myf/templates/source/signup.tt:147
 msgid "Invalid email address"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:204
+#: webapp_myf/templates/source/signup.tt:199
 msgid "Invalid region"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:112 webapp_myf/templates/source/signup.tt:125
+#: webapp_myf/templates/source/signup.tt:107 webapp_myf/templates/source/signup.tt:120
 msgid "Invalid username"
 msgstr ""
 
@@ -612,11 +616,11 @@ msgstr ""
 msgid "Oops..."
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:16 webapp_myf/templates/source/signup.tt:46
+#: webapp_myf/templates/source/index.tt:16 webapp_myf/templates/source/signup.tt:47
 msgid "Password"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:166
+#: webapp_myf/templates/source/signup.tt:161
 msgid "Passwords don't match"
 msgstr ""
 
@@ -669,19 +673,19 @@ msgstr ""
 msgid "Please give the moderators time to read your message before sending them another - group moderators are all volunteers, and so may not be at their computers checking their messages all the time."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:153
+#: webapp_myf/templates/source/signup.tt:148
 msgid "Please make sure you've entered your email address correctly in both fields"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:140
+#: webapp_myf/templates/source/signup.tt:135
 msgid "Please make sure you've entered your email address in correctly"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:208
+#: webapp_myf/templates/source/signup.tt:203
 msgid "Please make sure you've entered your email address in correctly in both fields"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:167
+#: webapp_myf/templates/source/signup.tt:162
 msgid "Please make sure you've entered your password correctly in both fields"
 msgstr ""
 
@@ -826,7 +830,7 @@ msgstr ""
 msgid "Short description :"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:77
+#: webapp_myf/templates/source/signup.tt:72
 msgid "Sign up"
 msgstr ""
 
@@ -834,15 +838,15 @@ msgstr ""
 msgid "Sign up for My Freecycle"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:26
+#: webapp_myf/templates/source/signup.tt:27
 msgid "Sign up form"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:86
+#: webapp_myf/templates/source/signup.tt:81
 msgid "Sign up using Facebook"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:27
+#: webapp_myf/templates/source/signup.tt:28
 msgid "Sign up using freecycle.org"
 msgstr ""
 
@@ -866,7 +870,7 @@ msgstr ""
 msgid "Thank you for using The Freecycle Network. You are now a member of the largest gifting and reuse network on the planet. You've automatically been registered as a member of the local Group in which you clicked the 'Join' button."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:201
+#: webapp_myf/templates/source/signup.tt:196
 msgid "That email address is already signed up"
 msgstr ""
 
@@ -874,7 +878,7 @@ msgstr ""
 msgid "That group cannot be found"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:200
+#: webapp_myf/templates/source/signup.tt:195
 msgid "That username is already taken"
 msgstr ""
 
@@ -882,8 +886,8 @@ msgstr ""
 msgid "The 'My Freecycle' site is aimed at making your experience of The Freecycle Network&trade; easier and more pleasant. Quickly and easily make and manage your Group memberships and Posts."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:209
-msgid "The CAPTCHA was incorrect"
+#: webapp_myf/templates/source/signup.tt:204
+msgid "The CAPTCHA was incorrect. Please check the box if you're really not a robot."
 msgstr ""
 
 #: webapp_myf/templates/lib/standard_footer.tt:15
@@ -964,7 +968,7 @@ msgstr ""
 msgid "The site administrators have been informed of the problem."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:199
+#: webapp_myf/templates/source/signup.tt:194
 msgid "The username or email address was invalid"
 msgstr ""
 
@@ -993,7 +997,7 @@ msgstr ""
 msgid "There was an error generating a new password for you"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:202
+#: webapp_myf/templates/source/signup.tt:197
 msgid "There was an error sending the notification email"
 msgstr ""
 
@@ -1059,7 +1063,7 @@ msgstr ""
 msgid "Username (or email address)"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenpassword.tt:94 webapp_myf/templates/source/signup.tt:31
+#: webapp_myf/templates/source/forgottenpassword.tt:94 webapp_myf/templates/source/signup.tt:32
 msgid "Username :"
 msgstr ""
 
@@ -1072,7 +1076,7 @@ msgstr ""
 msgid "Username sent"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:126
+#: webapp_myf/templates/source/signup.tt:121
 msgid "Usernames may only contain the letters, numbers, underscores, minus signs and plus signs"
 msgstr ""
 
@@ -1080,11 +1084,11 @@ msgstr ""
 msgid "Usernames must"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:113
+#: webapp_myf/templates/source/signup.tt:108
 msgid "Usernames must be at least 4 characters long"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:22
+#: webapp_myf/templates/source/signup.tt:23
 msgid "Usernames must be between 4 and 32 characters in length, start with a letter or number, and may only contain alphanumeric characters (A-Z, 0-9), underscores (_) and plus (+) or minus (-) signs."
 msgstr ""
 
@@ -1199,11 +1203,11 @@ msgstr ""
 msgid "You can use this form to choose the languages you prefer to get emails in."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:180
+#: webapp_myf/templates/source/signup.tt:175
 msgid "You cannot use My Freecycle without agreeing to the Terms of Service"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:207
+#: webapp_myf/templates/source/signup.tt:202
 msgid "You cannot use this service without agreeing to the Terms of Service"
 msgstr ""
 
@@ -1265,7 +1269,7 @@ msgstr ""
 msgid "You may view the most recent Posts of this Group by clicking <a href='%1'>here</a>. You may make a Post by clicking <a href='%2'>here</a>. Or, you may edit your membership settings by clicking <a href='%3'>here</a>."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:179
+#: webapp_myf/templates/source/signup.tt:174
 msgid "You must accept the Terms of Service"
 msgstr ""
 
@@ -1293,7 +1297,7 @@ msgstr ""
 msgid "You should receive your new password soon."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:19
+#: webapp_myf/templates/source/signup.tt:20
 msgid "You will need to create an account before you can use My Freecycle. You will need to pick a unique username and enter a valid email address that you read. If you are an existing Yahoo!Groups user, it is recommended that you either use your registered Yahoo! email address or add the new address to your Yahoo! profile."
 msgstr ""
 
@@ -1375,7 +1379,7 @@ msgstr ""
 msgid "language code"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:83
+#: webapp_myf/templates/source/signup.tt:78
 msgid "or"
 msgstr ""
 

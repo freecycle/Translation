@@ -714,7 +714,7 @@ msgid "Our expenses of about $130,000 are mainly in the paying of four individua
 msgstr ""
 
 #: webapp_main/templates/source/about/missionstatement.tt:6
-msgid "Our mission is to build a worldwide gifting movement that reduces waste, saves precious resources & eases the burden on our landfills while enabling our members to benefit from the strength of a larger community."
+msgid "Our mission is to build a worldwide sharing movement that reduces waste, saves precious resources & eases the burden on our landfills while enabling our members to benefit from the strength of a larger community."
 msgstr ""
 
 #: webapp_main/templates/source/about/funds.tt:10
