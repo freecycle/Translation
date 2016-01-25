@@ -111,6 +111,10 @@ msgstr ""
 msgid "Add new file"
 msgstr ""
 
+#: webapp_modtools/templates/source/manage/files/automatic.tt:86
+msgid "Add new file to this event"
+msgstr ""
+
 #: webapp_modtools/templates/perl/source/moderator_display_hotwords:23 webapp_modtools/templates/perl/source/moderator_display_hotwords:25
 msgid "Add new hotword"
 msgstr ""
@@ -119,7 +123,7 @@ msgstr ""
 msgid "Add new link"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/automatic.tt:92
+#: webapp_modtools/templates/source/manage/files/automatic.tt:93
 msgid "Add this file"
 msgstr ""
 
@@ -139,7 +143,7 @@ msgstr ""
 msgid "All pending Posts"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/automatic.tt:13
+#: webapp_modtools/templates/source/manage/files/automatic.tt:14
 msgid "Applying to join"
 msgstr ""
 
@@ -188,7 +192,7 @@ msgstr ""
 msgid "Automatic sending"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/automatic.tt:9
+#: webapp_modtools/templates/source/manage/files/automatic.tt:10
 msgid "Automatic sending of Group files"
 msgstr ""
 
@@ -453,7 +457,7 @@ msgstr ""
 msgid "Extend EFM by another 3 days"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/automatic.tt:58
+#: webapp_modtools/templates/source/manage/files/automatic.tt:59
 msgid "File ID"
 msgstr ""
 
@@ -469,7 +473,7 @@ msgstr ""
 msgid "File list"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/automatic.tt:59 webapp_modtools/templates/source/manage/files/edit.tt:35 webapp_modtools/templates/source/manage/files/index.tt:14 webapp_modtools/templates/source/manage/files/new_file.tt:24
+#: webapp_modtools/templates/source/manage/files/automatic.tt:60 webapp_modtools/templates/source/manage/files/edit.tt:35 webapp_modtools/templates/source/manage/files/index.tt:14 webapp_modtools/templates/source/manage/files/new_file.tt:24
 msgid "File name"
 msgstr ""
 
@@ -582,6 +586,10 @@ msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_group_overview:24
 msgid "Group unique name"
+msgstr ""
+
+#: webapp_modtools/templates/source/manage/files/new_file.tt:58
+msgid "HTML"
 msgstr ""
 
 #: webapp_modtools/templates/lib/moderator_menu:44 webapp_modtools/templates/perl/source/moderator_menu:44
@@ -1014,11 +1022,11 @@ msgstr ""
 msgid "On freecycle.org"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/automatic.tt:15
+#: webapp_modtools/templates/source/manage/files/automatic.tt:16
 msgid "On joining (auto or approved)"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/automatic.tt:16
+#: webapp_modtools/templates/source/manage/files/automatic.tt:17
 msgid "On leaving"
 msgstr ""
 
@@ -1083,7 +1091,7 @@ msgstr ""
 msgid "Pending Member"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/automatic.tt:14
+#: webapp_modtools/templates/source/manage/files/automatic.tt:15
 msgid "Pending Member approved"
 msgstr ""
 
@@ -1111,6 +1119,10 @@ msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:374
 msgid "Perform these actions"
+msgstr ""
+
+#: webapp_modtools/templates/source/manage/files/new_file.tt:57
+msgid "Plain text (no formatting)"
 msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:50 webapp_modtools/templates/source/manage/files/new_file.tt:39
@@ -1255,7 +1267,7 @@ msgstr ""
 msgid "Reject this Post and send message"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/automatic.tt:71
+#: webapp_modtools/templates/source/manage/files/automatic.tt:72
 msgid "Remove"
 msgstr ""
 
@@ -1511,19 +1523,19 @@ msgstr ""
 msgid "There are two \"wildcard\" characters you can use:"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/automatic.tt:21
+#: webapp_modtools/templates/source/manage/files/automatic.tt:22
 msgid "These files will be sent when a Member applies to join, only if the Group approves new Members."
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/automatic.tt:45
+#: webapp_modtools/templates/source/manage/files/automatic.tt:46
 msgid "These files will be sent when a Member leaves the Group"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/automatic.tt:37
+#: webapp_modtools/templates/source/manage/files/automatic.tt:38
 msgid "These files will be sent when a new Member joins, either having been approved by a Moderator or if the Group does not require new Members to be approved"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/automatic.tt:29
+#: webapp_modtools/templates/source/manage/files/automatic.tt:30
 msgid "These files will be sent when a pending Member has been approved."
 msgstr ""
 
@@ -1677,6 +1689,10 @@ msgstr ""
 #. (group_name)
 #: webapp_modtools/templates/perl/source/en/html/moderator_displaytimezones:11 webapp_modtools/templates/perl/source/moderator_displaytimezones:11
 msgid "Updating the timezone for %1"
+msgstr ""
+
+#: webapp_modtools/templates/source/manage/files/new_file.tt:56
+msgid "Uploaded file"
 msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_group_admins_view:27
