@@ -611,7 +611,7 @@ msgid ""
 msgstr ""
 
 #. ($post->getPostID()
-#: core_modules/lib/Freecycle/Email.pm:4117
+#: core_modules/lib/Freecycle/Email.pm:4132
 msgid "Auto-abuse report: Post %1 has been flagged"
 msgstr ""
 
@@ -934,15 +934,15 @@ msgid ""
 "various countries."
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1362
+#: core_modules/lib/Freecycle/Email.pm:1367
 msgid "Could not process your email: group does not use My Freecycle"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1615
+#: core_modules/lib/Freecycle/Email.pm:1620
 msgid "Could not process your email: you are not a Member of this Group"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1558
+#: core_modules/lib/Freecycle/Email.pm:1563
 msgid "Could not process your email: your address has not been recognised"
 msgstr ""
 
@@ -1682,7 +1682,7 @@ msgstr ""
 msgid "Group description for the %1 group"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1140
+#: core_modules/lib/Freecycle/Email.pm:1145
 msgid "Group file"
 msgstr ""
 
@@ -3012,7 +3012,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:153
 #: webapp_myf/templates/lib/standard_macros.tt:14
 #: webapp_myf/templates/source/home/posts/manage/show.tt:34
-#: core_modules/lib/Freecycle/Email.pm:3366
+#: core_modules/lib/Freecycle/Email.pm:3381
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:22
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:11
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:51
@@ -3076,7 +3076,7 @@ msgstr ""
 msgid "On Yahoo!Groups"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2925
+#: core_modules/lib/Freecycle/Email.pm:2933
 msgid "On behalf of Freecycle member"
 msgstr ""
 
@@ -3292,7 +3292,7 @@ msgstr ""
 msgid "Pending Messages"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2429
+#: core_modules/lib/Freecycle/Email.pm:2434
 msgid "Pending Post for "
 msgstr ""
 
@@ -3301,7 +3301,7 @@ msgstr ""
 msgid "Pending approval"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2325
+#: core_modules/lib/Freecycle/Email.pm:2330
 msgid "Pending member for "
 msgstr ""
 
@@ -3532,7 +3532,7 @@ msgid ""
 "related gifting or communication."
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2673
+#: core_modules/lib/Freecycle/Email.pm:2678
 msgid "Please unsubscribe me"
 msgstr ""
 
@@ -3848,7 +3848,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:164
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:165
 #: webapp_myf/templates/lib/standard_macros.tt:17
-#: core_modules/lib/Freecycle/Email.pm:3369
+#: core_modules/lib/Freecycle/Email.pm:3384
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:25
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:14
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:54
@@ -3884,11 +3884,11 @@ msgstr ""
 msgid "Reason given:"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:989
+#: core_modules/lib/Freecycle/Email.pm:994
 msgid "Recent Posts on"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2662
+#: core_modules/lib/Freecycle/Email.pm:2667
 msgid "Recent emails (digest)"
 msgstr ""
 
@@ -3971,7 +3971,7 @@ msgid "Reply to this online at"
 msgstr ""
 
 #. ($post->subject)
-#: core_modules/lib/Freecycle/Email.pm:3238
+#: core_modules/lib/Freecycle/Email.pm:3253
 msgid "Reply to your Freecycle post \"%1\""
 msgstr ""
 
@@ -4011,7 +4011,7 @@ msgid "Response to Post"
 msgstr ""
 
 #. ($post->getPostSubject()
-#: core_modules/lib/Freecycle/Email.pm:2934
+#: core_modules/lib/Freecycle/Email.pm:2942
 msgid "Response to your Freecycle Post \"%1\""
 msgstr ""
 
@@ -4401,7 +4401,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:156
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:157
 #: webapp_myf/templates/lib/standard_macros.tt:16
-#: core_modules/lib/Freecycle/Email.pm:3367
+#: core_modules/lib/Freecycle/Email.pm:3382
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:23
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:12
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:52
@@ -4463,6 +4463,10 @@ msgstr ""
 
 #: webapp_main/templates/source/group/posts/report_thanks.tt:3
 msgid "Thank you for taking the time to report this."
+msgstr ""
+
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_web_reply_email:12
+msgid "Thank you for using Freecycle!"
 msgstr ""
 
 #: webapp_myf/templates/source/home/groups/join_group.tt:15
@@ -4925,7 +4929,7 @@ msgid ""
 "\n"
 "Replying to Posts in this manner requires the use of a My Freecycle\n"
 "registered email address, to help reduce the amount of junk that our\n"
-"Member's receive.\n"
+"Members receive.\n"
 "\n"
 "If you are a My Freecycle user, please resend your email using your\n"
 "registered My Freecyle email address, or directly on the Post listings\n"
@@ -5334,15 +5338,15 @@ msgstr ""
 #. (group_name, post_subject, post_id, sender.username)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_web_reply_email:8
 msgid ""
-"This is a reply from Freecycle member \"%4\",\n"
-"to a Post you made on the \"%1\" Group titled \"%2\" (Post ID: %3)"
+"This is a reply from Freecycle member \"%4\", to a Post you made on the "
+"\"%1\" Group titled \"%2\" (Post ID: %3)."
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reply_nopost_email:17
 msgid "This is an automated email - please do not reply"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1089
+#: core_modules/lib/Freecycle/Email.pm:1094
 msgid "This is an automatic email containing a file from the Group."
 msgstr ""
 
@@ -5894,7 +5898,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:161
 #: webapp_myf/templates/lib/standard_macros.tt:15
 #: webapp_myf/templates/source/home/posts/manage/show.tt:35
-#: core_modules/lib/Freecycle/Email.pm:3368
+#: core_modules/lib/Freecycle/Email.pm:3383
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:24
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:13
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:53
@@ -6255,7 +6259,7 @@ msgid ""
 "You can associate the accounts <a href='#' onclick='set_fb_id()'>here</a>"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_web_reply_email:11
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_web_reply_email:10
 msgid ""
 "You can close this Post to new replies by marking it as TAKEN/RECEIVED on "
 "your \"My Posts\" page:"
@@ -6273,10 +6277,10 @@ msgid "You can re-open this Post using My Freecycle"
 msgstr ""
 
 #. (sender.email)
-#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_web_reply_email:10
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_web_reply_email:9
 msgid ""
 "You can reply to this message by pressing \"reply\" in your email program or "
-"by sending email to %1"
+"by sending email to %1."
 msgstr ""
 
 #. (groupURL)
@@ -6519,8 +6523,8 @@ msgid ""
 "you can search for Groups near you."
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1852
-#: core_modules/lib/Freecycle/Email.pm:1934
+#: core_modules/lib/Freecycle/Email.pm:1857
+#: core_modules/lib/Freecycle/Email.pm:1939
 msgid "You've been invited to a group on My Freecycle"
 msgstr ""
 
@@ -6528,7 +6532,7 @@ msgstr ""
 msgid "Your Facebook account is not linked to this My Freecycle account"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:1985
+#: core_modules/lib/Freecycle/Email.pm:1990
 msgid "Your My Freecycle account has been created"
 msgstr ""
 
@@ -6539,7 +6543,7 @@ msgid ""
 "use a third-party login provider"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2164
+#: core_modules/lib/Freecycle/Email.pm:2169
 msgid "Your My Freecycle username reminder"
 msgstr ""
 
@@ -6575,8 +6579,8 @@ msgid ""
 "browser."
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:4060
-#: core_modules/lib/Freecycle/Email.pm:4079
+#: core_modules/lib/Freecycle/Email.pm:4075
+#: core_modules/lib/Freecycle/Email.pm:4094
 msgid "Your forgotten password link"
 msgstr ""
 
@@ -6645,7 +6649,7 @@ msgstr ""
 msgid "Your password reset email has been sent"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2775
+#: core_modules/lib/Freecycle/Email.pm:2780
 msgid "Your post has not been approved"
 msgstr ""
 
@@ -7088,6 +7092,6 @@ msgstr ""
 msgid "yes"
 msgstr ""
 
-#: core_modules/lib/Freecycle/Email.pm:2994
+#: core_modules/lib/Freecycle/Email.pm:3009
 msgid "{not available}"
 msgstr ""
