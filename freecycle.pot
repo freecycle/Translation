@@ -4821,10 +4821,10 @@ msgid ""
 "The Moderators of the %1 group have not approved your post to the group:"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:178
+#: webapp_main/templates/source/group/posts/display_post.tt:180
 msgid ""
-"The Post ID is invalid - either the Post does not exist, or does not belong "
-"to this Group."
+"The Post ID is invalid - either the Post does not exist, it is closed, or it "
+"does not belong to this Group."
 msgstr ""
 
 #: webapp_main/templates/source/group/posts/display_post.tt:174
@@ -5263,6 +5263,10 @@ msgstr ""
 
 #: webapp_myf/templates/source/home/info/index.tt:101
 msgid "This My Freecycle account is associated with this Facebook account : "
+msgstr ""
+
+#: webapp_main/templates/source/group/posts/display_post.tt:178
+msgid "This Post has been closed ."
 msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:1

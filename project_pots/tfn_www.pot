@@ -1140,8 +1140,8 @@ msgstr ""
 msgid "The Internet Consumer Recycling Guide"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:178
-msgid "The Post ID is invalid - either the Post does not exist, or does not belong to this Group."
+#: webapp_main/templates/source/group/posts/display_post.tt:180
+msgid "The Post ID is invalid - either the Post does not exist, it is closed, or it does not belong to this Group."
 msgstr ""
 
 #: webapp_main/templates/source/group/posts/display_post.tt:174
@@ -1215,6 +1215,10 @@ msgstr ""
 
 #: webapp_main/templates/source/group/files/index.tt:13
 msgid "This Group has no files for you to view"
+msgstr ""
+
+#: webapp_main/templates/source/group/posts/display_post.tt:178
+msgid "This Post has been closed ."
 msgstr ""
 
 #: webapp_main/templates/source/email/group_link_report.tt:1
