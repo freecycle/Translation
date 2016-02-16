@@ -1,4 +1,0 @@
- Custom logos <b>must</b> be:
-   <ul>
-   <li>In JPEG or GIF format</li>
-   <li>Less that 256Kb in size</li>
