@@ -21,15 +21,15 @@ msgstr ""
 "Project-Id-Version: Freecycle.org\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-02-05 11:17-0700\n"
+"PO-Revision-Date: 2016-03-07 12:51-0700\n"
 "Last-Translator: Steev Hise <steev@freecycle.org>\n"
-"Language-Team: French <richard.wallman@freecycle.org>\n"
+"Language-Team: French <steev@freecycle.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:47
@@ -64,7 +64,7 @@ msgstr "Les suppressions se font avant les renvois, soyez donc attentifs quand v
 
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:28
 msgid " Or, delete current logo?"
-msgstr ""
+msgstr "Supprimer le logo?"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:2
 msgid ""
@@ -404,9 +404,8 @@ msgid "Add new file"
 msgstr "Ajouter un fichier"
 
 #: webapp_modtools/templates/source/manage/files/automatic.tt:86
-#, fuzzy
 msgid "Add new file to this event"
-msgstr "Ajouter un fichier"
+msgstr "Ajouter un fichier à cet événement"
 
 #: webapp_modtools/templates/perl/source/moderator_display_hotwords:23
 #: webapp_modtools/templates/perl/source/moderator_display_hotwords:25
@@ -601,17 +600,18 @@ msgstr "Avant de collecter des données personnelles, nous vous informerons de l
 msgid "Board"
 msgstr "Bureau"
 
+# not really sure about all those title, and the expression of him being a tall glass of water either.
 #: webapp_main/templates/source/about/board.tt:7
 msgid "Board Chairperson & Treasurer. Deron founded The Freecycle Network on May 1st, 2003. He now also fills the position of Executive Director. During and previous to this, he spent 2 1/2 years with RISE as its Enterprise Manager. RISE runs a recycling and transitional employment program in downtown Tucson. Before that, he worked with a conservation group called Native Seeds/SEARCH as its Director of Foundation Giving & Venture Philanthropy, and prior to that, as its Development Director. Deron has a BS in Foreign Service from Georgetown University, and an MBA in International Management from Thunderbird. He spent several years living, studying and working in Germany. He's a tall glass of water and loves cats"
-msgstr ""
+msgstr "Président du conseil et trésorier, Déron a créé le Réseau Freecycle le 1er mai 2003. Il est maintenant aussi directeur exécutif. Avant cela, il a passé 2 ans et demi avec RISE en tant que directeur d'entreprise. RISE est un programme de réinsertion par l'emploi et de recyclage au centre de Tucson. Avant cela, il a travaillé avec un groupe de conservation appelé Native Seeds/SEARCH, en tant que directeur des Donations et de la Philantropie de risque, et encore avant, en tant de directeur du développement.  Deron possède un BS en service diplomatique de l'université de Georgetown, et un MBA en management international de Thunderbid. Il a passé plusieurs années à vivre, étudier et travailler en Allemagne. C'est un grand verre d'eau et il adore les chats. "
 
 #: webapp_main/templates/source/about/board.tt:13
 msgid "Board Secretary. Also based in Tucson, Arizona, Jolie is the Director of The Nature Conservancy's Coda Global Fellows Program. She has previous experience in marketing with not-for-profit healthcare organizations, fundraising and program & strategy development for The Nature Conservancy, and has been an advisor for many other nonprofits. Her years of in-depth and high-level nonprofit experience add a critical element to the board. Jolie also shares Deron and Jennifer's love of cats..."
-msgstr ""
+msgstr "Secrétaire du Conseil. Elle aussi basée à Tucson, en Arizona, Jolie est la directrice du Conservatoire de la Nature du programme Coda Global Fellows. Elle a eu auparavant de l'expérience en marketing pour des organisation de santé à but non lucratif, la collecte de fonds et le développement de la stratégie et du programme du Conservatoire de la Nature, et a été conseillère pour beaucoup d'autres organisations à but non lucratif.  Julie partage la passion des chats de Deron et de Jennifer..."
 
 #: webapp_main/templates/source/about/board.tt:10
 msgid "Board Vice Chair. Jennifer currently is employed with Habitat for Humanity Tucson. She had previously administered various graduate studies program at the University of Arizona. Before that, she spent several years working in membership and media relations with The Nature Conservancy in its main office in Arlington, VA as well as in its Arizona state office in Tucson. Previous to this she worked for Greenpeace USA in DC. Her years of nonprofit experience are an invaluable asset to us. And, in the interest of full disclosure and as a point of pride, Jennifer also happens to be married to Deron."
-msgstr ""
+msgstr "VIce présidente du conseil. Jennifer est actuellement employée par Habitat pour l'Humanité de Tucson. Elle a précédemment administré plusieurs programmes d'étude de troisième cycle à l'université d'Arizona. Avant cela, elle a passé plusieurs années à travailler aux relations des membres et de la presse pour le Conservatoire de la Nature, à son siège d'Arlington, Virginie, ainsi qu'à son bureau de l'Arizona à Tucson. Encore avant, elle a travaillé pour Greenpeace USA à Washington DC. Ses années dans les organisation à but non lucratif sont un incomparable atout pour nous. Et pour tout vous dire et avec fierté, il se trouve aussi que Jennifer est mariée avec Deron. "
 
 #: webapp_modtools/templates/perl/source/moderator_group_admins_view:26
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:112
@@ -650,11 +650,11 @@ msgstr "ANNULE"
 
 #: webapp_main/templates/source/about/links.tt:12
 msgid "CPSC, California Product Stewardship Council: This site is chucky blocky full of good ideas about corporate product stewardship as well as great recycling and reuse ideas. It's all about the production <strong>cycle</strong> and eliminating waste."
-msgstr ""
+msgstr "CPSC, California Product Stewardship Council (Conseil de Gestion des produits de Californie) : Ce site est bardé de bonnes idées à propos de la gérance de produits aussi bien que pour le recyclage et les idées de réutilisation. C'est entièrement consacré au <strong>cycle </strong> de production et l'élimination des déchets. "
 
 #: webapp_main/templates/source/about/links.tt:11
 msgid "California Product Stewardship Council"
-msgstr ""
+msgstr "Conseil de Gestion des produits de Californie"
 
 #: webapp_modtools/templates/source/manage/files/delete_file.tt:20
 #: webapp_modtools/templates/source/manage/files/edit.tt:85
@@ -752,7 +752,7 @@ msgstr "Changer votre identifiant"
 
 #: webapp_myf/templates/source/signup.tt:55
 msgid "Check the \"not a robot\" box"
-msgstr ""
+msgstr "Cocher la case \"je ne suis pas un robot\""
 
 #: webapp_main/templates/source/about/privacy.tt:12
 msgid "Children"
@@ -777,7 +777,7 @@ msgstr "confirmer votre adresse e-mail :"
 
 #: webapp_myf/templates/source/home/info/change_email_address.tt:33
 msgid "Confirm new email address:"
-msgstr "Confirmez votre nouvelle adresse e-mail :"
+msgstr "Confirmez la nouvelle adresse e-mail :"
 
 #: webapp_myf/templates/source/home/info/change_password.tt:31
 msgid "Confirm new password:"
@@ -1569,7 +1569,7 @@ msgstr "Groupe : %1"
 
 #: webapp_modtools/templates/source/manage/files/new_file.tt:58
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #. (loginbox.username)
 #: webapp_myf/templates/source/home/info/index.tt:14
@@ -1592,7 +1592,7 @@ msgstr "Bonjour, <br>Une réinitialisation de mot de passe a été demandée à 
 
 #: webapp_main/templates/source/about/staff.tt:16
 msgid "Helping Deron is Stephanie, the Hub Coordinator. She works with all the team Coordinators and team leaders of the various areas to keep things rollin' along. Stephanie enjoys dabbling in painting and altered arts, in what little spare time she has, heh heh. We hear she is quite crafty. She works to be mindful and present in each moment. She is dedicated to cats, kids, the environment, and collecting as many scraps of paper as she can to form images she likes to call art. (stephanie@freecycle.org)"
-msgstr ""
+msgstr "Stéphanie aide Deron, en tant que Corrdinatrice de Hub. Elle travaille avec les coordinateurs des autres équipes, et les chefs d'équipe des différentes zones pour aider à ce que tout tourne comme sur des roulettes. Stéphanie apprécie de barboter dans la peinture et les arts divers, pendant le peu de temps libre qu'elle a, hé hé. Nous croyons savoir qu'elle est plutôt habile de ses mains. Elle fait en sorte d'être attentive et présente à tout moment. Elle se dévoue aux chats, enfatns, l'environnement, et à collectionner autant que morceaux de papier qu'elle peut pour créer des images qu'elle aime appeler de l'art. (stephanie@freecycle.org)"
 
 #: webapp_main/templates/source/about/links.tt:6
 msgid "Here's just a start on where we recommend you go on the 'Net to learn more about how to reduce, reuse and recycle:"
@@ -1665,7 +1665,7 @@ msgstr "J'accepte les conditions d'utilisation du réseau Freecycle"
 
 #: webapp_main/templates/source/about/pressroom.tt:84
 msgid "I gave a loveseat to a lady who had nothing. Her husband had walked out on her and her children, and they were starting over from scratch. She was so thankful she cried - over a loveseat I would have probably thrown away."
-msgstr ""
+msgstr "J'ai donné un fauteuil à une femme qui n'avait rien. Son mari était parti en la laissant seule avec ses enfants, et ils devaient repartir de zéro. Elle a tellement apprécié le geste qu'elle a pleuré! pour un fauteuil que j'aurai sans doute jeté autrement. "
 
 #: webapp_myf/templates/source/index.tt:8
 msgid "I'm already a My Freecycle user!"
@@ -1701,7 +1701,7 @@ msgstr "Identifiant: %1"
 #. ('<a href="mailto:InterimMod@freecycle.org">InterimMod@freecycle.org</a>')
 #: webapp_main/templates/source/about/volunteering.tt:37
 msgid "IMod team members work directly with local groups whose owner has left, to find and help new local moderators get started. The main goal of the IMod Team is to recruit and train new moderators for local groups. Team vacancies are normally filled by referrals. Candidates for an IMod Team position must have the ability to communicate effectively and the understanding of Freecycle guidelines is essential. Although this volunteer postition requires a significant amount of time daily, it is also a very rewarding opportunity. If applying, please include at least two references that can be confirmed, such as neighboring moderators, GOA, etc. Interested volunteers should contact the Interim Moderator Team Co-Leaders at %1"
-msgstr ""
+msgstr "Les membres de l'équipe IMOD (Modérateur par interim) travaillent directement avec les groupes dont les propriétaires sont partis, afin d'aider à trouver de nouveaux modérateurs à prendre leurs marques. Le but principal des IMOD est de recruter et former de nouveaux modérateurs pour les groupes locaux. Les vacances d'équipe sont en général remplies par des recommandations. Les candidats pour un poste d'IMOD doivent pouvoir communiquer de façon efficace, et comprendre le sens des règles de Freecycle est essentiel. Et si ce poste demande un certain temps quotidien, c'est aussi un poste très gratifiant. Si vous postulez, merci d'inclure au moins 2 références qui peuvent répondre de vous, comme des modérateurs de groupes voisins, votre GOA, etc. LEs volontaires intéressés doivent contacter les co-chef d'équipe d'IMod à %1"
 
 #: webapp_main/templates/source/tos.tt:57
 msgid "If there is a dispute between participants on this site, or between users and any third party, you understand and agree that The Freecycle Network is under no obligation to become involved. In the event that you have a dispute with one or more other users, you hereby release The Freecycle Network, its officers, employees, volunteers, agents and successors in rights from claims, demands and damages (actual and consequential) of every kind or nature, known or unknown, suspected and unsuspected, disclosed and undisclosed, arising out of or in any way related to such disputes and / or our service. If you are a California resident, you waive California Civil Code Section 1542, which says: 'A general release does not extend to claims which the creditor does not know or suspect to exist in his favor at the time of executing the release, which, if known by him must have materially affected his settlement with the debtor.'"
@@ -1860,11 +1860,11 @@ msgstr "Il peut arriver que nous vous demandions de modifier votre mot de passe 
 
 #: webapp_main/templates/source/about/privacy.tt:16
 msgid "In general, when you visit the Freecycle Web site and access information, you remain anonymous. We do not require you to register or provide personal information to us in order to view our site. There are occasions when we will ask for additional information, such as when you apply to become a member of a Freecycle group or make a donation to Freecycle. In these cases, we will only collect personally identifiable information (such as name, address, telephone number, or e-mail address) that you voluntarily provide through our Web site or via e-mail correspondence."
-msgstr ""
+msgstr "En général, quand vous visitez le site Freecycle et accèdez à des informations vous restez anonymes. Nous ne vous demandons pas de vous enregistrer ou nous donner des informations personnelles pour voir notre site. Dans certains cas nous vous demanderons des informations supplémentaires, comme quand vous demandez à rejoindre un groupe, ou à faire un don sur Freecycle. Dans ces cas-là, nous demanderons seulement des informations vous identifiant personnellement (comme le nom, l'adresse, le numéro de téléphone, ou l'adresse e-mail) que vous donneriez volontairement sur notre site ou par correspondance par email. "
 
 #: webapp_main/templates/source/donate.tt:8
 msgid "In just a few short years, Freecycle&trade; has generated a spectacular worldwide outpouring of generosity, changing the world one gift at a time. Those with still good used items happily share; those who need gracefully receive, all without judgement - or any funds - passed."
-msgstr ""
+msgstr "En seulement quelques années, Freecycle&trade; a généré un élan de générosité spectaculaire dans le monde entier, en changeant le monde, don après don. Ceux qui ont des objets encore utilisables les donnent généreusement, ceux qui ont besoin reçoivent gracieusement, sans jugement, et sans transfert d'argent. "
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:121
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:119
@@ -1931,9 +1931,10 @@ msgstr "Inclure les annonces en attente?"
 msgid "Include posts made to all Groups"
 msgstr "Inclure les messages envoyés à tous les groupes"
 
+# not sure
 #: webapp_main/templates/source/about/background.tt:22
 msgid "Incorporation"
-msgstr ""
+msgstr "Compagnie"
 
 #: webapp_myf/templates/source/index.tt:52
 #: webapp_main/templates/source/login/index.tt:19
@@ -2044,7 +2045,7 @@ msgstr "Invité le : %1"
 
 #: webapp_main/templates/source/about/staff.tt:6
 msgid "It is with great pride and with many, many thanks that we acknowledge the thousands of volunteer moderators worldwide. Each local group generally has two to six local moderators who, in turn, are helping over four million members to keep good stuff out of landfills and to develop stronger community ties."
-msgstr ""
+msgstr "C'est avec une grande fierté et beaucoup beaucoup de remerciements que nous annonçons avoir dépassé le millier de modérateurs volontaires à travers le monde. Chaque groupe local a de 2 à 6 modérateurs qui, à leur tour, aident plus de 4 millions de membres à éviter de jeter de bons objets dans la nature, et à créer des liens forts localement. "
 
 #: webapp_myf/templates/source/home/posts/new.tt:35
 msgid "It's a request for a WANTED item"
@@ -2561,9 +2562,10 @@ msgstr "Mon Réseau Freecycle - Nouveau Message"
 msgid "My Freecycle Network - New Post Created"
 msgstr "Mon Réseau Freecycle - Nouveau Message Créé"
 
+#  what the opt-out means, if it does means anything any more.
 #: webapp_modtools/templates/perl/source/moderator/options/main.tt:44
 msgid "My Freecycle opt-out status"
-msgstr ""
+msgstr "Mon statut d'opt-out Freecycle"
 
 #: webapp_myf/templates/lib/box_tabbar.tt:18
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:19
@@ -2706,7 +2708,7 @@ msgstr "Veuillez noter que les emails ne sont pas toujours instantanés. Veuille
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reply_email:13
 msgid "Note: Original email may have been shortened due to space limitations."
-msgstr ""
+msgstr "Le message original peut avoir été raccourci  en raison de limites de taille. "
 
 #: webapp_modtools/templates/perl/source/moderator_members_overview:43
 msgid "Number"
@@ -2779,16 +2781,15 @@ msgstr "Offre"
 
 #: webapp_main/templates/source/about/background.tt:15
 msgid "On May 1st, 2003, Deron Beal sent out the first e-mail announcing The Freecycle Network&trade; to about 30 or 40 friends and a handful of nonprofits in Tucson, Arizona. At the time Deron founded The Freecycle Network, he worked with a small nonprofit organization, RISE, which provides recycling services to downtown businesses and transitional employment to Tucsonans in need."
-msgstr ""
+msgstr "Le 1er mai 2003, Deron Beal a envoyé le premier mail annonçant la création du Réseau Freecycle&trade; à environ 30 ou 40 amis et quelques associations à but non lucratif à Tucson, en Arizona. Au moment ou Deron a fondé le Réseau Freecycle, il travaillait pour une organisation à but non lucratif, RISE, qui fournit des services de recyclages aux entreprises du centre ville, et de l'emploi de résinsertion au habitants de Tucson dans le besoin. "
 
 #: webapp_modtools/templates/perl/source/moderator_overview:35
 msgid "On Yahoo!Groups"
 msgstr "Sur Yahoo!Groupes"
 
 #: core_modules/lib/Freecycle/Email.pm:2933
-#, fuzzy
 msgid "On behalf of Freecycle member"
-msgstr "Je ne suis pas encore membre de My Freecycle"
+msgstr "De la part du membre Freecycle"
 
 #: webapp_modtools/templates/perl/source/moderator_overview:37
 msgid "On freecycle.org"
@@ -2867,9 +2868,10 @@ msgstr "Invitations actives"
 msgid "Open invitations to the %1 group"
 msgstr "Invitations actives pour le groupe %1"
 
+# still don't know what an opt-in and opt-out are.
 #: webapp_modtools/templates/perl/source/moderator/options/main.tt:49
 msgid "Opted in. To opt-out, send an email to your GOA requesting the opt-out."
-msgstr ""
+msgstr "Vous avez fait un opt-in. Pour faire un opt-out, envoyez un mail à votre GOA pour le lui demander. "
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:65
 msgid "Or by email"
@@ -2897,19 +2899,19 @@ msgstr "Autres messages de ce membre: (max 10)"
 
 #: webapp_main/templates/source/about/privacy.tt:6
 msgid "Our Commitment to Privacy"
-msgstr ""
+msgstr "Notre engagement de confidentialité"
 
 #: webapp_main/templates/source/about/funds.tt:8
 msgid "Our expenses of about $130,000 are mainly in the paying of four individuals and the maintenance of our current website and design of the new community. These individuals include the executive director, two contractors responsible for the current web community and one contractor for the new website design project. We have several servers to this end, coding expense and related site-design expenses. We also are incurring substantial legal expense, primarily in defending our trademark."
-msgstr ""
+msgstr "Nos dépenses d'environ 130 000$ partent principalement dans les salaires de 4 personnes et les coûts de maintenance de notre site web actuel, ainsi que la conception de la nouvelle communauté.  Ces personnes incluent le directeur exécutif, 2 contractuels responsables de la communauté web, et un contractuel  pour la conception du nouveau site web.  Nous avons plusieurs serveurs dédiés à ce projet, des dépenses de programmation et de conception de site. Nous avons aussi une certaine quantité de dépenses juridiques, surtout pour la défense de notre marque. "
 
 #: webapp_main/templates/source/about/missionstatement.tt:6
 msgid "Our mission is to build a worldwide sharing movement that reduces waste, saves precious resources & eases the burden on our landfills while enabling our members to benefit from the strength of a larger community."
-msgstr ""
+msgstr "Notre mission est de construire un mouvement de partage international qui réduit les déchets, économise de précieuses ressources et réduit l'impact environnemental, tout en permettant à nos membres de profiter des avantages d'une large communauté. "
 
 #: webapp_main/templates/source/about/funds.tt:10
 msgid "Our model is much like that of PBS. We seek to provide a free public forum for our members, and seek grants, underwriting and voluntary donations to fund these efforts. It's a rather unique model for a website, but The Freecycle Network is a unique organization. As we further develop community reuse and recycling on a globally local scale in over 70 countries we are creating a global gift economy in the process. <strong>Simply beautiful how one can change the world, one gift at a time</strong>."
-msgstr ""
+msgstr "Notre modèle est semblable à celui de PBS. Nous cherchons à fournir un forum public gratuit à nos membres, et demander des subventions, des donc bénévoles et des souscriptions pour financer ces efforts. C'est un modèle assez unique pour un site web, mais le Réseau Freecycle est une organisation unique. Au fer et à mesure que nous développons la communauté de personnes qui réutilisent et recyclent globalement sur une échelle locale dans plus de 70 pays, nous créons une économie globale du don. <strong>Simplement magnifique, comme on peut changer le monde, don après don</strong>"
 
 #: webapp_modtools/templates/lib/moderator_menu:19
 #: webapp_modtools/templates/perl/source/moderator_menu:19
@@ -3021,7 +3023,7 @@ msgstr "Effectuer ces actions"
 
 #: webapp_modtools/templates/source/manage/files/new_file.tt:57
 msgid "Plain text (no formatting)"
-msgstr ""
+msgstr "Texte simple (sans mise en forme)"
 
 # Look at webpage
 #. ("http://my.freecycle.org/login", "http://my.freecycle.org/signup")
@@ -3109,7 +3111,7 @@ msgstr "Veuillez entrer les codes séparés par une virgule (les espaces et reto
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_form:15
 msgid "Please enter user IDs or email addresses, one per line, in the box below"
-msgstr "Veuillez préciser ci-dessous votre adresse e-mail our votre identifiant. Un par ligne, svp. "
+msgstr "Veuillez saisir ci-dessous les adresse e-mail ou identifiants. Un par ligne, svp. "
 
 #: webapp_myf/templates/source/forgottenusername.tt:16
 msgid "Please enter your registered email address and your username will be sent to you."
@@ -3453,11 +3455,11 @@ msgstr "Politique de confidentialité"
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:37
 msgid "Promo Video - Lamp"
-msgstr ""
+msgstr "Vidéo promotionnelle - Lamp"
 
 #: webapp_main/templates/source/about/promovideo.tt:4
 msgid "Promo video"
-msgstr ""
+msgstr "Vidéo promotionnelle"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:270
 msgid "Promote to Lead Moderator"
@@ -3474,27 +3476,28 @@ msgstr "Aller à"
 
 #: webapp_main/templates/source/about/pressroom.tt:25
 msgid "Quick tips: only use it as an adjective (Freecycle group, etc.) and never as a noun or verb, or morphed into another word (freecycler, freecycling, freecycle the couch, etc. are no-nos)."
-msgstr ""
+msgstr "Astuce : utilisez-le seulement comme adjectif (un groupe Freecycle, etc.) et jamais comme un nom, verbe, ou comme base d'un autre mot (freecycleur, freecyclage, freecycler un objet, etc. sont interdit). "
 
 #: webapp_main/templates/source/about/pressroom.tt:76
 msgid "Quote from 'People' magazine"
-msgstr ""
+msgstr "Citation du magazine 'People'"
 
+# what is AARP?
 #: webapp_main/templates/source/about/pressroom.tt:78
 msgid "Quote from AARP"
-msgstr ""
+msgstr "Citation de AARP"
 
 #: webapp_main/templates/source/about/pressroom.tt:77
 msgid "Quote from PC Magazine"
-msgstr ""
+msgstr "Citation de PC Magazine"
 
 #: webapp_main/templates/source/about/pressroom.tt:64
 msgid "Quotes about Freecycle from the UK"
-msgstr ""
+msgstr "Citations à propos de Freecycle au Royaume-Uni"
 
 #: webapp_main/templates/source/about/pressroom.tt:56
 msgid "Quotes about Freecycle</a> (1.5 MB PDF)"
-msgstr ""
+msgstr "Citations à propos de Freecycle </a> (1.5 MB PDF)"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:131
 #: webapp_modtools/templates/perl/source/moderator_group_posts_overview:55
@@ -3632,9 +3635,8 @@ msgstr "Répondre en ligne à "
 
 #. ($post->subject)
 #: core_modules/lib/Freecycle/Email.pm:3253
-#, fuzzy
 msgid "Reply to your Freecycle post \"%1\""
-msgstr "Répondre à votre annonce %1"
+msgstr "Réponse à votre annonce %1"
 
 #: webapp_main/templates/source/group/posts/display_post.tt:120
 #: webapp_main/templates/source/group/posts/display_post.tt:126
@@ -3673,9 +3675,8 @@ msgstr "Réponse à cette annonce"
 
 #. ($post->getPostSubject()
 #: core_modules/lib/Freecycle/Email.pm:2942
-#, fuzzy
 msgid "Response to your Freecycle Post \"%1\""
-msgstr "Répondre à votre annonce %1"
+msgstr "Réponse à votre annonce \"%1\""
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:81
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:81
@@ -3701,7 +3702,7 @@ msgstr "Révérend Billy"
 
 #: webapp_main/templates/source/about/staff.tt:30
 msgid "Richard spends a lot of his free time coding away on the next version of the Freecycle website. He also heads up a couple of testing and development teams here all doing his part at home, including that of being husband and dad. If you talk voice to him, you're likely to hear the new baby singing in the background."
-msgstr ""
+msgstr "Richard passe beaucoup de son temps à programmer la prochaine version du site Freecycle. Il gère aussi quelques équipes de validation et de développement, tous travaillant de chez eux, tout en étant aussi un mari et un père. Si vous faites un chat audio avec lui, vous risquez d'entendre le dernier bébé qui chante, derrière."
 
 #: webapp_myf/templates/source/home/info/default_location.tt:22
 msgid "Save"
@@ -3965,7 +3966,7 @@ msgstr "Eviter le menu de navigation"
 
 #: webapp_main/templates/source/about/staff.tt:8
 msgid "Some 80 of these moderators volunteer further time to approve new groups for their state, province or country. In addition, there is a committed crew of some 20-30 moderators putting in countless hours for Group Outreach and Assistance, helping existing groups with day-to-day problems."
-msgstr ""
+msgstr "Quelque 80 de ces modérateurs sont aussi volontaires pour passer un peu plus de temps à approuver de nouveaux groupes pour leur province, état ou pays. De plus il y a une équipe de 20-30 modérateurs qui passent un temps inquantifiable en tant que GOA (assistance aux modérateurs et point de contact provincial, ou national), qui aident les groupes avec les problèmes du quotidien. "
 
 #: webapp_main/templates/source/group/links/report_thanks.tt:4
 msgid "Someone will look into this link and take any appropriate action"
@@ -4003,7 +4004,7 @@ msgstr "Boutique"
 
 #: webapp_main/templates/source/about/links.tt:30
 msgid "Street performer Reverend Billy preaches his message of reducing consumption in his Church of Stop Shopping."
-msgstr ""
+msgstr "Le révérend Billy, qui prêche dans la rue, diffuse son message sur la réduction de la consommation dans son Eglise d'Arret du Shopping. "
 
 #: webapp_modtools/templates/perl/source/moderator_group_admins_view:25
 #: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:44
@@ -4079,7 +4080,7 @@ msgstr "PARTIs"
 
 #: webapp_main/templates/source/about/pressroom.tt:19
 msgid "TIPS: Our success depends on your inspiration. So, please try your darnedest in your piece to be clear about what The Freecycle Network is and what it isn't... for example, it is *not* a place to just go get free stuff for nothing. It *is* a place to give or receive what you have and don't need or what you need and don't have -- a free cycle of giving which keeps stuff out of landfills. That perspective makes all the difference and we have seen a huge difference in the attitudes and participation from new members depending on how The Freecycle Network is portrayed in media pieces, which often result in significant membership spikes for local groups. We are only as good as the sum of our parts so we want to attract good parts, right?"
-msgstr ""
+msgstr "ASTUCES: Notre succès dépend de votre inspiration. Alors essayez autant que possible d'être clair à propos de ce qu'est ou n'est pas le Réseau Freecycle... Par exemple, ce n'est PAS un endroit uniquement pour trouver des trucs gratuits. C'EST un endroit pour donner et recevoir ce que vous avez dont vous n'avez pas besoin, ou ce dont vous avez besoin et n'avez pas. Un cycle gratuit de don qui empêche les objets de se retrouver dans la nature. Cette façon de voir fait toute la différence et nous avons vu une énorme différence dans les attitudes et la participation des nouveaux membres, grâce à la façon dont le Réseau Freecycle est décrit dans les média. Ces articles ont en général un effet important sur les pics d'inscription dans les groupes Freecycle locaux. Nous sommes aussi bons que la somme de nos parties, alors autant attirer les bonnes parties, n'est-ce pas? "
 
 #: webapp_myf/templates/source/index.tt:70
 msgid "Temporary error with the third-party provider - they may be having issues authorising logins. Please try again later, or log in with your My Freecycle username and password to continue"
@@ -4105,7 +4106,6 @@ msgid "Thank you for taking the time to report this."
 msgstr "Merci d'avoir pris le temps de nous envoyer ce message."
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_web_reply_email:12
-#, fuzzy
 msgid "Thank you for using Freecycle!"
 msgstr "Merci! A bientôt sur Freecycle.org!"
 
@@ -4115,7 +4115,7 @@ msgstr "Merci de votre participation au réseau Freecycle. Vous êtes désormais
 
 #: webapp_main/templates/source/about/pressroom.tt:17
 msgid "Thank you for your interest in The Freecycle Network&trade;. Freecycle has been a hot topic in the media and we truly appreciate the attention as it certainly accounts for a large portion of our tremendous growth."
-msgstr ""
+msgstr "Merci de votre intérêt pour le Réseau Freecycle&trade;. Freecycle a été un sujet brûlant des médias et nous apprécions cette attention parce qu'elle est certainement responsable en grande quantité de notre croissance importante. "
 
 #: webapp_main/templates/source/about/pressroom.tt:27
 msgid "Thank you for your time and support!"
@@ -4152,7 +4152,7 @@ msgstr "L'équipe de modération de %1"
 
 #: webapp_main/templates/source/about/background.tt:33
 msgid "The 'Freecycle&trade;' name is a registered trademark in the European Union (R) and is a trademark in the United States and Canada, or 'TM.' When the mark has been registered by the USPTO as well, this TM will also become an R, for registered."
-msgstr ""
+msgstr "Le nom 'Freecycle&trade;' est une marque commerciale déposé dans l'Union Européenne (R) et est aussi une marque déposée aux Etats-Unis et au Canada, ou 'TM'. Quand la marque  aura été enregistrée par l'USPTO, ce TM deviendra aussi un R, pour 'registered'. "
 
 #: webapp_myf/templates/source/index.tt:4
 msgid "The 'My Freecycle' site is aimed at making your experience of The Freecycle Network&trade; easier and more pleasant. Quickly and easily make and manage your Group memberships and Posts."
@@ -4160,15 +4160,15 @@ msgstr "Le site My Freecycle a été créé pour  améliorer votre expérience a
 
 #: webapp_main/templates/source/about/staff.tt:26
 msgid "The Back Office Team Coordinator is Amy. She brings with her the skills she utilizes in administrative nursing. Here, Any tends to various administrative duties that fall under this umbrella. Let's just hope her pups don't get ahold of this umbrella and do to it what was done to her set of headphones... (boc@freecycle.org)"
-msgstr ""
+msgstr "La coordinatrice de l'équipe du back office s'appelle Amy. Elle apporte les compétences qu'elle utilise dans les soins administratifs (?)"
 
 #: webapp_myf/templates/source/signup.tt:204
 msgid "The CAPTCHA was incorrect. Please check the box if you're really not a robot."
-msgstr ""
+msgstr "Le CAPTCHA est incorrect. Veuillez vérifiez la case pour prouver que vous n'êtes pas un robot. "
 
 #: webapp_main/templates/source/about/links.tt:15
 msgid "The Center for a New American Dream helps Americans consume responsibly to protect the environment, enhance quality of life, and promote social justice."
-msgstr ""
+msgstr "Le Center for a New American Dream (Centre pour un nouveau rêve américain) aide les américains à consommer de façon responsable pour protéger l'environnement, améliorer la qualité de vie, et promouvoir une justice sociale. "
 
 #: webapp_main/templates/lib/standard_page.tt:29
 #: webapp_main/templates/lib/standard_page.tt:8
@@ -4265,10 +4265,13 @@ msgid ""
 "\n"
 "You can sign up for your free account here:"
 msgstr ""
+"Le Réseau Freecycle est un groupe d'individus à but non lucratif, et globalement local, rassemblant des personnes qui donnent (et reçoivent) des objets gratuitement. Cela permet de réduire les déchets et conserver des objets encore utilisables hors de la Nature et notre environnement. L'adhésion est gratuite. \n"
+"\n"
+"Vous pouvez nous rejoindre en créant votre propre compte gratuit ici : "
 
 #: webapp_main/templates/source/about/background.tt:28
 msgid "The Freecycle Network is a private, nonprofit organization incorporated in the State of Arizona. Our application for federal nonprofit status -- what's known as a 501(c)3 ruling -- was approved in November, 2006 by the IRS. This means that <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KRKYQ7CC8LB5W' title='Donate'>any donations made to The Freecycle Network are tax deductible </a>retroactively stretching back to our original application date in July of 2004."
-msgstr ""
+msgstr "Le Réseau Freecycle est une organisation privée à but non lucratif, enregistrée dans l'Etat de l'Arizona. Notre enregistrement en tant qu'à but nonlucratif -- qui s'appelle un formulaire 501(c)3 -- a été approuvé en Novembre 2006 par l'IRS. Cela signifie que <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KRKYQ7CC8LB5W' title='Donner'>Donner au Réseau Freecycle est déductible des impôts</a> depuis notre demande initiale de Juillet 2004 et de façon rétroactive. "
 
 #: webapp_main/templates/source/browse/index.tt:19
 msgid "The Freecycle Network is active in these countries:"
@@ -4276,7 +4279,7 @@ msgstr "The Freecycle Network existe dans ces pays :"
 
 #: webapp_main/templates/source/about/background.tt:23
 msgid "The Freecycle Network is incorporated as a nonprofit in the State of Arizona."
-msgstr ""
+msgstr "Le Réseau Freecycle est enregistrée comme oragnisation à but non-lucratif dans l'Etat d'Arizona. "
 
 #: webapp_myf/templates/lib/standard_header.tt:18
 #: webapp_myf/templates/source/errors.tt:14
@@ -4285,11 +4288,11 @@ msgstr "Logo du réseau Freecycle"
 
 #: webapp_main/templates/source/about/privacy.tt:7
 msgid "The Freecycle Network respects everyone's right to privacy. This section summarizes what personally identifiable information we may collect, if any, and how we might use this information. This policy also describes other important topics relating to your privacy. The Freecycle Network reserves the right to modify this privacy policy at any time. We will promptly reflect any such modifications in these Web pages."
-msgstr ""
+msgstr "Le Réseau Freecycle respecte le droit de chacun à la confidentialité. Cette section résume quelles données personnelles nous collectons, le cas échéant, et comment nous utiliserions ces informations. Cette politique décrit aussi d'autres sujets liés à la protection de vos données.  Le Réseau Freecycle se réserve le droit de modifier cette politique de confidentialité à tout moment. Nous vous ferons part de telles modification dans ces pages web. "
 
 #: webapp_main/templates/source/about/privacy.tt:10
 msgid "The Freecycle Network websites may use cookies to verify its visitors' identity to provide services related to the use of Groups. However, it should be noted that some Freecycle groups currently operate in the Yahoo!Groups environment, which means that cookies may be used in accordance with Yahoo's aims. It should be noted that cookies can also be used to further the aims of individual groups, for example, to ensure that each visitor may vote in any online poll only once. Cookies set by and for Yahoo!Groups are outside the control of The Freecycle network and are subject to Yahoo!Group's privacy policy."
-msgstr ""
+msgstr "Le Réseau Freecycle peut utiliser des cookies pour vérifier l'identité de ses visiteurs en ce qui concerne l'utilisation des groupes. Cependant, notons que quelques groupes Freecycle tournent sur l'environnement des groupes Yahoo!, ce qui signifie que les cookies collectés seront utilisés selon les buts de Yahoo!. Notons aussi que les cookies  peuvent aussi être utilisés per les groupes eux-mêmes, par exemple pour s'assurer qu'un membre n'a voté qu'une fois à un sondage. Les cookies mis en place par et pour les Yahoo! groupes sont en dehors du contrôle du Réseau Freecycle, et sont sujet aux conditions d'utilisation et de confidentialité de Yahoo!. "
 
 #. ('%%num_groups', '%%num_members')
 #: core_modules/lib/Freecycle/standard_templates/source/standard_group_description.tt:2
@@ -4306,23 +4309,23 @@ msgstr "Le mouvement The Freecycle Network™ propose des ressources en ligne, i
 
 #: webapp_main/templates/source/about/funds.tt:6
 msgid "The Freecycle Network's current annual budget is running at about $140,000 in income. The funding comes from corporate underwriting, on-site advertising (in the form of a Google sponsor bar), grants and <a href='https://www.freecycle.org/donate' title='donate'>individual donations</a>. Approximately 90% of these funds are used directly for program expenses. The remaining 10% is split evenly between membership, fundraising and other administrative expenses. Our IRS 990s are posted at the hotlink below as well as on Guidestar.com. We are delighted to report that we have now received our 501(c)3 status from the IRS (11/06) and that donations to The Freecycle Network are tax-deductible! We likewise are a charity in the UK. Further, we are registered as a nonprofit corporation in the State of Arizona. Tax deductibility is retroactive to our application date in July of 2004.Members can show support for the mission of the Freecycle Network by <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KRKYQ7CC8LB5W' title='Donate'>making a one dollar donation today</a>.</p>"
-msgstr ""
+msgstr "Le budget annuel du Réseau Freecycle tourne autour d'environ 140,000$ de revenu. Les fonds viennent de souscription d'entreprises, de la publicité sur le site (sous la forme d'une barre de sponsor fornie par Google) et <a href='https://www.freecycle.org/donate' title='donate'>des donations individuelles</a>. Environ 90% de ces fonds sont utilisés pour la programmation. Les 10% restants sont divisés entre les adhésions, les levées de fonds, et d'autres dépenses administratives. Nos IRS 990 (déclarations de revenus) sont disponibles au bout du lien ci-dessous ainsi que sur Guidestar.com. Nous sommes ravis d'indiquer que nous avons maintenant notre statut 501(c)3 de l'IRS (11/06) et que les dons faits au Réseau Freecycle sont déductibles de vos impôts.  Nous sommes aussi classés comme organisme de bienfaisance (charity) au Royaume-Uni. De plus nous sommes enregistrés en tant qu'organisme à but non-lucratif dans l'Etat d'Arizona. La réduction d'impôt est rétroactive depuis le dépôt de notre demande, en juillet 2004.  Les membres peuvent montrer leur soutien pour notre mission en <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KRKYQ7CC8LB5W' title='Donate'>donnant un dollar</a>.</p>"
 
 #: webapp_main/templates/source/about/background.tt:17
 msgid "The Freecycle concept has since spread to over 85 countries, where there are thousands of local groups representing millions of of members -- people helping people and 'changing the world one gift at a time.' As a result, we are currently keeping over 500 tons a day out of landfills! This amounts to five times the height of Mt. Everest in the past year alone, when stacked in garbage trucks!"
-msgstr ""
+msgstr "Le concept de Freecycle s'est depuis répandu dans plus de 85 pays, où il y a des milliers de groupes locaux, ce qui représente des millions de membres -- des gens qui aident d'autres gens et \"changent le monde un don à la fois\". En conséquence, nous évitons à 500 tonnes de matière de se retrouver dans la Nature! Ceci correspond à cinq fois la hauteur du Mont Everest, rien que  l'année passée, le tout dans des camions d'ordure! "
 
 #: webapp_main/templates/source/about/staff.tt:22
 msgid "The Group Outreach & Assistance (GOA) Team, Mentor Mod (MM) Team and Interim Mod (IMod) Team are all headed up by Nan, the Outreach Coordinator with the help of some wonderful Team Leaders. Nan takes the TFN blue ribbon for the amazing amount of canning she does. If it stays in one place more than 10 seconds, Nan will can it. She brings this same enthusiasm to all her TFN duties. (nan@freecycle.org)"
-msgstr ""
+msgstr "L'équipe des GOA (Soutien aux groupes et point de contact national), l'équipe des modérateur mentor (MM), et celle des Modérateur intérim, sont tous dirigés par Nan, la coordinatrice GOA, avec l'aide de quelques merveilleux chefs d'équipe. Nan a droit au ruban bleu de TFN pour l'incroyable quantité de conserves qu'elle fait. Si quelque chose reste au même endroit 10 secondes, Nan l'aura mis en conserve. Elle apporte ce même enthousiasme à toutes ses tâches avec TFN. (nan@freecycle.org)"
 
 #: webapp_main/templates/source/form990/index.tt:9
 msgid "The IRS Form 990 is titled \"Return of Organization Exempt From Income Tax.\" It is submitted by tax-exempt organizations and non-profit organizations to provide the Internal Revenue Service with annual financial information."
-msgstr ""
+msgstr "Le formulaire des impôts (IRS) 990 est intitulé \"Déclaration d'organisation exempte d'impôt sur le revenu\". Il est soumis par les organisations exemptes d'impôt sur le revenu, et les organisation à but non-lucratif, aux autorités internes du Service des Revenus avec des informations annuelles financières. "
 
 #: webapp_main/templates/source/about/links.tt:17
 msgid "The Internet Consumer Recycling Guide"
-msgstr ""
+msgstr "Le guide de recyclage du consommateur sur internet"
 
 #. (group_name)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_email.tpl:7
@@ -4336,9 +4339,8 @@ msgstr "Les modérateurs du groupe %1 vous ont invité à rejoindre le groupe su
 msgid "The Moderators of the %1 group have not approved your post to the group:"
 msgstr "Les modérateurs du groupe %1 n'ont pas approuvé votre message au groupe : "
 
-#: webapp_main/templates/source/group/posts/display_post.tt:180
-#, fuzzy
-msgid "The Post ID is invalid - either the Post does not exist, it is closed, or it does not belong to this Group."
+#: webapp_main/templates/source/group/posts/display_post.tt:178
+msgid "The Post ID is invalid - either the Post does not exist, or does not belong to this Group."
 msgstr "Le numéro de l'annonce est incorrect - soit l'annonce n'existe pas, soit elle n'appartient pas à ce groupe."
 
 #: webapp_main/templates/source/group/posts/display_post.tt:174
@@ -4355,23 +4357,24 @@ msgstr "Le Service est protégé dans la limite des lois et traités internation
 
 #: webapp_main/templates/source/about/links.tt:8
 msgid "The Story of Stuff"
-msgstr ""
+msgstr "L'Histoire des Trucs"
 
 #: webapp_main/templates/source/about/links.tt:9
 msgid "The Story of Stuff is an interesting discussion of the materials economy with Annie Leonard."
-msgstr ""
+msgstr "L'Histoire des Trucs est une discussion intéressant de l'économie des matières, avec Annie Léonard."
 
+# not sure at all about the translation of the metaphor for the political campaign and so...
 #: webapp_main/templates/source/about/staff.tt:18
 msgid "The TM Team assists groups in using the mark correctly, works to educate the press about proper use of the mark, and pursues infringement. At the helm of this team is Charlotte. It is said that Charlotte is like a political campaign, short, sweet, to the point -- and extremely long winded. Oh, and since this is a gal who drives a 4X4 with a 3 inch lift and huge tires *and* is in the process of regaining her Federal Firearms License, we think she will easily stand on her own beliefs of being firm, reliable, efficient, effective and orderly. If you have any questions about the trademark or for help making your group trademark-compliant, please email tmsupport@freecycle.org."
-msgstr ""
+msgstr "L'équipe TM (trade mark : marque commerciale) aide les groupes à utiliser la marque correctement, elle travaille à éduquer la presse à propos de l'usage correct de la marque, et poursuis les contrevenants. A la tête de cette équipe se trouve Charlotte. On dit d'elle qu'elle est comme une campagne politique, courte, douce, directe -- et extrêmement tordue. Oh, et comme elle conduit un 4x4 avec un élévateur de 3 pouces et d'énormes pneus *et* qu'elle est en train de passer son permis de port d'arme fédéral, nous pensons qu'elle n'aura aucune difficulté à rester ferme comme elle le souhaite, fiable, efficace, efficiente, et ordonnée. Si vous avez la moindre question à propose de la marque commerciale ou pour de l'aide pour rendre votre groupe conforme, veuillez écrire à tmsupport@freecycle.org."
 
 #: webapp_main/templates/source/about/links.tt:23
 msgid "The U.S. Environmental Protection Agency"
-msgstr ""
+msgstr "L'Agence de Protection Environnementale des Etats-Unis"
 
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:39
 msgid "The custom group log"
-msgstr ""
+msgstr "Le journal personnalisé du groupe"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:21
 msgid "The details of the expired Post are:"
@@ -4398,7 +4401,6 @@ msgstr ""
 "de réponse."
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reply_notmfaddress_email:6
-#, fuzzy
 msgid ""
 "The email you sent in reply to a Post could not be delivered, as the\n"
 "email address you sent it from could not be found in the My Freecycle\n"
@@ -4431,7 +4433,7 @@ msgstr ""
 
 #: webapp_main/templates/source/about/staff.tt:14
 msgid "The founder & Executive Director is Deron Beal. Clocking in at 6'6', he heads up the Freecycle basketball team and is a sucker for black & white cats. He is blessed to be able to work with all these good people from his base at the Freecycle HQ -- which looks more like a guest bedroom to me, but so be it -- in Tucson, Arizona. (deron@freecycle.org)"
-msgstr ""
+msgstr "Le fondateur et directeur exécutif s'appelle Deron Beal. Il culmine à 6 pieds 6 pouces (1m98), il domine l'équipe de basketball de Freecycle et il adore les chats noir et blanc. Il a la chance de pouvoir travailler avec toutes ces belles personnes de sa base au QG de Freecycle -- qui ressemble plus à une chambre d'amis à mon avis, mais soit -- à Tucson en Arizona (deron@freecycle.org)"
 
 #: webapp_myf/templates/source/home/groups/index.tt:225
 msgid "The group has been removed"
@@ -4472,15 +4474,16 @@ msgstr "Le nombre de groupes Freecycle officiels"
 
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:38
 msgid "The official TFN copyright notice"
-msgstr ""
+msgstr "La note officielle du copyright du Réseau Freecycle"
 
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:40
 msgid "The official TFN disclaimer"
-msgstr ""
+msgstr "La décharge officielle de responsabilité du Réseau Freecycle"
 
+# I don't get the (bare ...etc.)
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:41
 msgid "The official TFN logo (bare &lt;img> tag with width and height attributes)"
-msgstr ""
+msgstr "Le logo officiel du Réseau Freecycle "
 
 #: webapp_main/templates/source/404.tt:12
 msgid "The page you requested doesn't exist, but you've got a couple of options:"
@@ -4505,7 +4508,7 @@ msgstr "La personne qui l'a <b>fait</b>"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:67
 msgid "The policy is now that no images will be moderated."
-msgstr ""
+msgstr "La politique est maintenant de ne plus modérer les images. "
 
 #. (post_matches.join(", ")
 #: webapp_myf/templates/source/home/posts/display_issues.tt:54
@@ -4598,7 +4601,7 @@ msgstr "Il y a %1 compte de ce niveau"
 
 #: webapp_main/templates/source/about/volunteering.tt:6
 msgid "There are literally thousands of volunteers who represent the passion and commitment behind the scenes which enable The Freecycle Network&trade; to function as a grassroots and nonprofit gifting movement."
-msgstr ""
+msgstr "Il y a littéralement des milliers de bénévoles qui représentent la passion et l'engagement qui permettent au Réseau Freecycle&trade; de fonctionner en tant que mouvement de base et à but non-lucratif de dons."
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:89
 msgid "There are no OFFERs matching your selection"
@@ -4718,11 +4721,6 @@ msgstr "Ce groupe n'a aucun fichier"
 msgid "This My Freecycle account is associated with this Facebook account : "
 msgstr "Ce compte My Freecycle est associé au compte Facebook suivant: "
 
-#: webapp_main/templates/source/group/posts/display_post.tt:178
-#, fuzzy
-msgid "This Post has been closed ."
-msgstr "Cette annonce a été supprimée"
-
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:1
 msgid "This Post has been marked by a Member as being inappropriate"
 msgstr "Cette annonce a été signalée comme inappropriée"
@@ -4821,40 +4819,40 @@ msgstr "Cette adresse e-mail est peut être déjà utilisée pour un autre compt
 
 #: webapp_main/templates/source/about/links.tt:21
 msgid "This organization has an extensive database on recycling options and shares many tips for conserving energy, preventing air pollution, and dealing with household hazardous waste."
-msgstr ""
+msgstr "Cette organisation a une vaste base de données sur les possibilités de recyclage, et partage de nombreuses astuces pour économiser de l'énergie, protéger l'air de la pollution, et éviter les déchets domestiques dangereux.  "
 
 #: webapp_main/templates/source/about/links.tt:27
 msgid "This organization is the only nonprofit group committed to comprehensive, nationwide program to collect and recycle rechargeable batteries and cell phones. Local drop-off sites noted on their site. A portion of proceeds goes to select charities."
-msgstr ""
+msgstr "Cette organisation est le seul groupe à but non lucatif dédiée à un programme national complet qui collecte et recycle les batteries rechargeables et les téléphones mobiles. Les zones de collecte locale sont indiquées sur leur site. Une partie des revenus issus de ces collectes est donnée à des oeuvres de charité. "
 
 #. ('<a href="mailto:goa@freecycle.org">goa@freecycle.org</a>')
 #: webapp_main/templates/source/about/volunteering.tt:31
 msgid "This position is usually promoted from other team positions within the Network as we've found the experience and knowledge base from these teams to be beneficial to the volunteer prior to taking on the responsibilities that come with GOA. Qualified volunteers can be an exception. Candidates for this position must be extremely tactful; have a good grasp on the written word; be friendly and insightful; be willing to devote several hours a week to the 'job;' be familiar with the workings of Yahoo Groups and Yahoo Messenger; have strong problem solving and diplomatic skills. Potential volunteers for this position must have a complete understanding of the workings of TFN, its guidelines, and what is appropriate for groups and moderators. A solid familiarity with the Moderator's Manual is a strong plus. Please note that this is a time consuming position; ample time for volunteering is required. If you're interested in learning more, please contact the GOA Coordinator, at %1"
-msgstr ""
+msgstr "Ce poste est en général pourvu à partir d'une autre équipe du réseau, car il est démontré que l'expérience et la connaissance de base acquise de ces équipes est bénéfique au bénévole avant de prendre les responsabilités qui vont avec le poste de GOA. Des bénévoles qualifiés peuvent être une exception. Les candidats à ce poste doivent avoir beaucoup de tact, une bonne expression écrite, être amicaux et perspicaces; volontaire pour passer plusieurs heures par semaine au \"boulot\"; être à l'aise avec l'utilisation des groupes Yahoo et Yahoo Messenger; avoir des compétences de résolution de problèmes et de diplomatie. Les volontaires pour ce poste doivent avoir une compréhension complète du fonctionnement du Réseau Freecycle, ses directives et ce qui est bon pour les groupes et les modérateurs. Une solide connaissance du Manuel des Modérateurs et un grand plus. Veuillez noter que c'est un poste qui prend du temps, une grande disponibilité est demandée. Si vous souahitez en savoir plus, veuillez contacter le coordinateur des GOA, à cette adresse %1"
 
 #. ('<a href="mailto:trademark@freecycle.org">trademark@freecycle.org</a>')
 #: webapp_main/templates/source/about/volunteering.tt:34
 msgid "This position requires a great degree of responsibility with varying time commitments depending on the specific role. Generally, you will have a great deal of experience as a Freecycle moderator before assuming a role in this team. Likely, you'll have gained experience previously in another team before doing a role here. It requires a high degree of attention to detail, and a great deal of diplomatic care in working to help educate local moderators regarding proper mark useage as well as in working with external entities. If you're interested, please contact the TM Team at %1"
-msgstr ""
+msgstr "Ce poste demande un haut niveau de responsabilité, avec des besoins en temps qui va varier selon le rôle spécifique. En général, vous aurez une grande expérience en tant que modérateur Freecycle avant de remplir un rôle dans cette équipe. Vos aurez probablement gagné de l'expérience dans une autre équipe avant de jouer un rôle ici. Cela demande une grande attention aux détails, beaucoup de diplomatie pour apprendre aux modérateurs l'usage correct de la marque, ainsi que de travailler avec des partenaires externes. Si vous êtes intéressé, veuillez contacter l'équipe TM à cette adresse %1"
 
 #. ('<a href="mailto:graphics@freecycle.org">graphics@freecycle.org</a>')
 #: webapp_main/templates/source/about/volunteering.tt:22
 msgid "This position requires that you have graphic design abilities and a desire to help other local mods put together a nifty new graphic for their local graphics/description which incorporates our logo with nice surrounding graphics that reflect the spirit of the local community. It requires good interpersonal skills in working wtih local mods to figure out their wishes The time commitment varies greatly depending on your wishes to do more or less. This is a small team with creative design energy. It does not require a great deal of moderation experience. If you're interested, please contact the Graphics Team at %1"
-msgstr ""
+msgstr "Ce poste vous demande d'avoir des compétences en conception graphique, et la volonté d'aider les autres modérateurs locaux à améliorer leur description de groupe avec de beaux graphismes qui incluent un logo avec un bel environnement graphique qui reflète l'esprit de la communauté locale. Cela demande une bonne compétence humaine pour travailler avec les modérateurs locaux, comprendre leurs besoins. Le temps nécessaire pour cette mission varie beaucoup, selon votre volonté d'en faire plus ou moins. C'est une petite équipe avec de l'énergie créatrice. Cela ne demande pas beaucoup d'expérience de modération de groupe. Si vous êtes intéressé, veuillez contacter l'équipe Graphique à cette adresse %1"
 
 #. ('<a href="mailto:mentormod@freecycle.org">mentormod@freecycle.org</a>')
 #: webapp_main/templates/source/about/volunteering.tt:19
 msgid "This position requires varying amounts of time depending on the interest of the individual Mentor Mod. This role is purely a peer-to-peer role in which one offers tips, guidance and what not to a typically newer local volunteer moderator. It's a sort of big brother / big sister type concept -- a nice extra way to help newbie mods. This position requires probably a good year of experience moderating a local TFN group under your belt and a desire to help and an open and patient heart. The Mentor Mod team also heads the Disaster Relief Temps project ~ if you wish to learn how to have a mod take care of your group in the event of a disaster or if you're interested in volunteering to serve in one of the positions above, please contact the MMod Team at %1"
-msgstr ""
+msgstr "Ce poste peut demander plus ou moins de temps selon les centres d'intérêts du Mentor. Ce rôle est un rôle de conseil de pair à pair, où l'un offre des astuces, un guidage et ce qui est nécessaire à un modérateur nouveau à son poste. C'est une sorte de grand frère / grande sœur -- une bonne façon supplémentaire d'aider un modérateur débutant.  Ce poste demande sans doute une bonne année de modération dans son propre groupe local, un désir d'aider et un cœur ouvert et patient. L'équipe des Mentor Mod mène aussi le projet Disaster Relief Temps (Soutien temporaire après catastrophe). Si vous souhaitez apprendre comment un autre modérateur peut prendre soin de votre groupe au cas où vous seriez victime d'une catastrophe naturelle, ou si vous êtes intéressé pour postuler à l'un des postes ci-dessus, veuillez contacter l'équipe MMod à cette adresse %1"
 
 #: webapp_main/templates/source/about/links.tt:18
 msgid "This recycling guide provides a starting point for consumers in the US and Canada searching the 'Net for recycling information. The goal is to help make recycling so easy and automatic that it blends into the flow of everyday life."
-msgstr ""
+msgstr "Ce guide d recyclage donne un point de départ aux consommateurs aux US et au Canada qui cherchent sur internet des informations sur le recyclage. Le but est de rendre le recyclage si facile et automatique qu'il devienne une part intégrante de votre vie de tous les jours. "
 
 #. ('<a href="mailto:modcoord@freecycle.org">modcoord@freecycle.org</a>')
 #: webapp_main/templates/source/about/volunteering.tt:25
 msgid "This team is responsible for making sure that all the moderator groups function smoothly and are responsible for the day-to-day task of making sure the questions mods have get answered. Only a few team members are needed for these roles. Candidates for this position would need to be seasoned TFN moderators who are familiar with TFN guidelines, the mod manual and functionality of the mod groups. Diplomatic skills are also a must. If you are interested in learning more about this team's duties, contact Ann at %1"
-msgstr ""
+msgstr "Cette équipe est en charge de s'assurer que les groupes des modérateurs tournent bien. Elle s'occupe aussi quotidiennement de s'assurer que les modérateurs ont des réponses à leurs questions. Seuls quelques membres sont nécessaire dans cette équipe pour tenir ces rôles. Les candidats pour ce poste doivent être des modérateurs expérimentés, familiers avec les règles d'utilisation du Réseau Freecycle, le guide du modérateur et les fonctionnalités des outils de modérations des groupes. Des compétences diplomatiques sont aussi nécessaires. Si vous êtes intéressé pour en savoir plus sur les rôles de cette équipe, contactez Ann via %1"
 
 #: webapp_myf/templates/source/home/info/save_password.tt:17
 msgid "This will not affect your current session, but you will need your new password when you next log in."
@@ -4960,11 +4958,11 @@ msgstr "Marque déposée"
 
 #: webapp_main/templates/source/about/volunteering.tt:33
 msgid "Trademark Team Member (TM Team)"
-msgstr ""
+msgstr "Membre de l'Equipe de la Marque (Equipe TM)"
 
 #: webapp_main/templates/source/about/pressroom.tt:21
 msgid "Trademark Tips and Guidelines"
-msgstr ""
+msgstr "Astuces et Règles sur la Marque"
 
 #. (uri_for('Root', 'forgottenusername')
 #: webapp_myf/templates/source/index.tt:39
@@ -4973,7 +4971,7 @@ msgstr "Essayez le <a href='%1'>formulaire pour identifiant oublié</a> pour vé
 
 #: webapp_modtools/templates/perl/source/moderator_group_overview:130
 msgid "Turn off EFM"
-msgstr ""
+msgstr "Eteindre EFM"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:60
 msgid "Turn off digest emails"
@@ -4998,7 +4996,7 @@ msgstr "Type de fichier"
 
 #: webapp_main/templates/source/about/pressroom.tt:61
 msgid "UK Press and Related Documents"
-msgstr ""
+msgstr "Documents de presse du Royaume-Uni et assimilés"
 
 #: webapp_main/templates/source/tos.tt:69
 msgid "UNDER NO CIRCUMSTANCES SHALL THE FREECYCLE NETWORK BE LIABLE FOR DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES (EVEN IF THE FREECYCLE NETWORK HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES), RESULTING FROM ANY ASPECT OF YOUR USE OF THE FREECYCLE NETWORK SITE OR THE SERVICE, WHETHER THE DAMAGES ARISE FROM USE OR MISUSE OF THE FREECYCLE NETWORK SITE OR THE SERVICE, FROM INABILITY TO USE THE FREECYCLE NETWORK SITE OR THE SERVICE, OR THE INTERRUPTION, SUSPENSION, MODIFICATION, ALTERATION, OR TERMINATION OF THE FREECYCLE NETWORK SITE OR THE SERVICE. SUCH LIMITATION SHALL ALSO APPLY WITH RESPECT TO DAMAGES INCURRED BY REASON OF OTHER SERVICES OR PRODUCTS RECEIVED THROUGH OR ADVERTISED IN CONNECTION WITH THE FREECYCLE NETWORK SITE OR THE SERVICE OR ANY LINKS ON THE FREECYCLE NETWORK SITE, AS WELL AS BY REASON OF ANY INFORMATION OR ADVICE RECEIVED THROUGH OR ADVERTISED IN CONNECTION WITH THE FREECYCLE NETWORK SITE OR THE SERVICE OR ANY LINKS ON THE FREECYCLE NETWORK SITE. THESE LIMITATIONS SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW. In some jurisdiction, limitations of liability are not permitted. In such jurisdictions, some of the foregoing limitation may not apply to you."
@@ -5017,7 +5015,7 @@ msgstr "URL :"
 #. (link.url)
 #: webapp_main/templates/source/email/group_link_report.tt:13
 msgid "URL: %1"
-msgstr "URL : %1"
+msgstr "EURL : %1"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:136
 msgid "Uh oh...this shouldn't happen. Please report it!"
@@ -5025,7 +5023,7 @@ msgstr "Uh oh... Ceci ne devrait pas arriver. Veuillez reporter ceci!"
 
 #: webapp_main/templates/source/about/links.tt:24
 msgid "Uncle Sam offers lots of statistics as well as news and practical tips on this site."
-msgstr ""
+msgstr "Oncle Sam offre de nombreuses statistiques ainsi que des infos et des astuces pratiques sur ce site. "
 
 #: webapp_modtools/templates/perl/source/moderator_group_admins_view:57
 msgid "Unexpire the ADMIN and send emails"
@@ -5107,9 +5105,8 @@ msgid "Upload image"
 msgstr "Télécharger une image"
 
 #: webapp_modtools/templates/source/manage/files/new_file.tt:56
-#, fuzzy
 msgid "Uploaded file"
-msgstr "Télécharger une image"
+msgstr "Image téléchargée"
 
 #: webapp_modtools/templates/perl/source/moderator_group_admins_view:27
 msgid "Urgent"
@@ -5196,7 +5193,7 @@ msgstr "Nom (affiché) du groupe"
 
 #: webapp_main/templates/source/about/pressroom.tt:64
 msgid "Various quotes from magazines in the UK"
-msgstr ""
+msgstr "Divers citations de magazines au Royaume-Uni"
 
 #: webapp_main/templates/source/about/video.tt:4
 msgid "Video"
@@ -5331,11 +5328,11 @@ msgstr "Avertir si l'\"objet\" contient trop de majuscules ?"
 
 #: webapp_main/templates/source/about/pressroom.tt:23
 msgid "We are a big grassroots movement but a tiny little nonprofit organization with a staff of one so defending our trademark takes many hands and hearts."
-msgstr ""
+msgstr "Nous sommes un gros mouvement de base mais une toute petite organisation à but non lucratif avec une masse salariale de 1 personne. Défendre notre marque nécessite de nombreuses mains et de nombreux cœurs. "
 
 #: webapp_main/templates/source/donate.tt:19
 msgid "We depend upon donations to help meet these expenses and to continue to refine and spread our extraordinarily successful Freecycle&trade; infrastructure.Your generous donations to The Freecycle Network are tax deductible as we are a 501(c)3 nonprofit organization(thanks to you!).<br>Thank you for your support in \"changing the world one gift at a time.\" "
-msgstr ""
+msgstr "Nous dépendons de dons pour nous aider à payer ces dépenses et continuer à préciser et répandre nos infrastructures Freecycle&trade; sources d'incroyables réussites. Vos dons généreux au Réseau Freecycle sont déductibles des impôts puisque nous sommes une organisation à but non-lucratif selon le 501(c)3 (Merci à vous!). <br> Merci pour votre soutien pour \"Changer le monde, don après don\".  "
 
 #: webapp_myf/templates/source/home/groups/join_group.tt:21
 msgid "We hope you have fun as the newest member of this globally local and volunteer-run Freecycle Group!"
@@ -5375,7 +5372,7 @@ msgstr "Type de message :"
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:36
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:36
 msgid "What was done <b>to</b> - a Member or Post"
-msgstr ""
+msgstr "Ce qui fut fait <b>à</b> - un membre ou une annonce"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:19
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:19
@@ -5384,7 +5381,7 @@ msgstr "Quand"
 
 #: webapp_main/templates/source/about/privacy.tt:23
 msgid "While Freecycle is highly selective about which sites we provide links to, we do not control these Web sites, nor do we endorse or otherwise accept responsibility for the content or privacy policies of those sites. We encourage you to review the privacy policies posted on third party sites."
-msgstr ""
+msgstr "Même si Freecycle est très exigeant quant aux sites vers  lesquels il pointe, nous ne contrôlons pas ces sites, ni n'en prenons la responsabilité pour leur contenu ou leurs règles de gestion de données personnelles. Nous vous encourageons à consulter leurs règles de gestion des données personnelles."
 
 #: webapp_main/templates/source/about/volunteering.tt:9
 msgid "Within your local Group"
@@ -5542,7 +5539,6 @@ msgstr "Vous pouvez rouvrir l'annonce de My Freecycle"
 
 #. (sender.email)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_web_reply_email:9
-#, fuzzy
 msgid "You can reply to this message by pressing \"reply\" in your email program or by sending email to %1."
 msgstr "Vous pouvez répondre à ce message en utilisant le bouton \"Répondre\" dans votre outil ou en écrivant à %1"
 
@@ -5930,7 +5926,7 @@ msgstr "avoir une longueur comprise entre entre 4 et 32 caractères."
 
 #: webapp_main/templates/source/about/links.tt:26
 msgid "call2recycle"
-msgstr ""
+msgstr "call2recycle (appelez pour recycler)"
 
 #: webapp_myf/templates/source/home/info/index.tt:51
 msgid "change"
@@ -6228,15 +6224,10 @@ msgstr "{non disponible}"
 #~ msgstr "Autorise les formulaires à télécharger des images? "
 
 #~ msgid "Default email delivery option for new Members"
-#~ msgstr ""
-#~ "Option de réception des e-mails par défaut pour les nouveaux membres. "
+#~ msgstr "Option de réception des e-mails par défaut pour les nouveaux membres. "
 
-#~ msgid ""
-#~ "If you have a picture of the item, you can upload it :<br />(max file "
-#~ "size: 256Kb)"
-#~ msgstr ""
-#~ "Si vous avez une photo, vous pouvez la télécharger. <br /> ( taille "
-#~ "maximale du fichier: 256kb)"
+#~ msgid "If you have a picture of the item, you can upload it :<br />(max file size: 256Kb)"
+#~ msgstr "Si vous avez une photo, vous pouvez la télécharger. <br /> ( taille maximale du fichier: 256kb)"
 
 #~ msgid "The Freecycle Network - Posts on the %1 Group"
 #~ msgstr "Le réseau Freecycle - Annonces du groupe %1"
@@ -6251,16 +6242,12 @@ msgstr "{non disponible}"
 #~ msgstr "Yahoo!"
 
 #~ msgid "Automatically include the FOP tag in the subject line?"
-#~ msgstr ""
-#~ "Ajouter automatiquement la mention \"annonce équitable\" dans l'objet?"
+#~ msgstr "Ajouter automatiquement la mention \"annonce équitable\" dans l'objet?"
 
 #~ msgid ""
-#~ "Currently, this does nothing for the forms on the main website and MyF. "
-#~ "I'd like the FOP to be canonised, and a copy made\n"
-#~ "        available in the wiki for public viewing - that way we can all "
-#~ "point people to a single, definitive document"
-#~ msgstr ""
-#~ "Actuellement, cette option ne modifie pas les formulaires de MyFreecycle."
+#~ "Currently, this does nothing for the forms on the main website and MyF. I'd like the FOP to be canonised, and a copy made\n"
+#~ "        available in the wiki for public viewing - that way we can all point people to a single, definitive document"
+#~ msgstr "Actuellement, cette option ne modifie pas les formulaires de MyFreecycle."
 
 #~ msgid "Fair Offer Policy"
 #~ msgstr "Annonce Équitable"
@@ -6280,14 +6267,8 @@ msgstr "{non disponible}"
 #~ msgid "The image is awaiting moderator approval"
 #~ msgstr "Cette image est en attente d'approbation par le modérateur"
 
-#~ msgid ""
-#~ "I agree to The Freecycle Network <a href='%1'>Terms of Service</a> and "
-#~ "understand that the use of Yahoo!Groups is subject to their Terms of "
-#~ "Service"
-#~ msgstr ""
-#~ "J'accepte <a href='%1'>les conditions d'utilisation</a> du réseau "
-#~ "Freecycle et je comprends que l'utilisation de Yahoo!Groupes dépend des "
-#~ "conditions d'utilisation de Yahoo! et non de Freecycle. "
+#~ msgid "I agree to The Freecycle Network <a href='%1'>Terms of Service</a> and understand that the use of Yahoo!Groups is subject to their Terms of Service"
+#~ msgstr "J'accepte <a href='%1'>les conditions d'utilisation</a> du réseau Freecycle et je comprends que l'utilisation de Yahoo!Groupes dépend des conditions d'utilisation de Yahoo! et non de Freecycle. "
 
 #~ msgid "%1 Member(s) pending approval"
 #~ msgstr "(En attente d'approbation par le modérateur)"
