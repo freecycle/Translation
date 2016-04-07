@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Freecycle Spanish Translation 1.1\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-04-07 11:30-0700\n"
+"PO-Revision-Date: 2016-04-07 17:34-0300\n"
 "Last-Translator: Steev Hise <steev@freecycle.org>\n"
 "Language-Team: \n"
 "Language: es_419\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.8.7\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:47
@@ -66,9 +66,8 @@ msgstr ""
 #. ($poster->getUsername()
 #: core_modules/lib/Freecycle/Email.pm:2965
 #: core_modules/lib/Freecycle/Email.pm:3421
-#, fuzzy
 msgid "\"%1\" via The Freecycle Network <email_relay@freecycle.org>"
-msgstr "La Red Freecycle - Grupo %1"
+msgstr "\"%1\" via La Red Freecycle <email_relay@freecycle.org>"
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:67
 msgid "\"My Freecycle\" users to be invited"
@@ -1525,6 +1524,13 @@ msgid ""
 "this can be extended by hitting the button again.\n"
 "<b>It is intended for short-term use only.</b>"
 msgstr ""
+"La Moderación Total de Emergencia retendrá automáticamente todas las "
+"Publicaciones realizadas em el Grupo como 'pendientes', solicitando la "
+"aprobanción del Mod. Esta opción\n"
+"es una <b>medida de emergencia</b> y sólo dura hasta três días, aunque esto "
+"puede ser extendido haciendo um clic sobre el botón nuevamente.\n"
+"<b>Está diseñado para utilizarse solamente por um breve período de tiempo.</"
+"b>"
 
 #: webapp_modtools/templates/perl/source/moderator_group_overview:127
 msgid "Enabled until"
@@ -5343,6 +5349,10 @@ msgid ""
 "countries. For more trademark info please <a href='https://wiki.freecycle."
 "org/Trademark'>click here</a>."
 msgstr ""
+"La Red Freecycle há registrado marcas registradas em 32 países incluyendo "
+"Australia, Nueva Zelanda, Canadá, los Estados Unidos, y todos los países de "
+"la Unión Europea. Por más información sobre marcas registradas, por favor <a "
+"href='https://wiki.freecycle.org/Trademark'>haz un clic aquí</a>."
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_nonmyf_email:3
 msgid ""
@@ -5526,7 +5536,6 @@ msgstr ""
 "de un dólar hoy</a>.</p>"
 
 #: webapp_main/templates/source/about/background.tt:9
-#, fuzzy
 msgid ""
 "The Freecycle Network<span style='vertical-align:super;font-size:70%;'>&reg;"
 "</span> is made up of 5,000+ groups with over 9 million members across the "
@@ -5534,14 +5543,13 @@ msgid ""
 "giving (and getting) stuff for free in their own towns and keeping good "
 "stuff out of landfills."
 msgstr ""
-"La Red Freecycle&trade; está constituída por más de 5.000 grupos con 7 "
-"millones de socios por todo el globo. Es un movimiento esencial sin fines "
+"La Red Freecycle&trade; está constituída por más de 5.000 grupos con más de "
+"9 millones de socios por todo el globo. Es un movimiento esencial sin fines "
 "lucrativos de personas que están regalando (y recibiendo) cosas "
 "gratuitamente en sus propias ciudades y manteniendo cosas en buen estado "
 "fuera de los vertederos."
 
 #: webapp_main/templates/source/about/background.tt:17
-#, fuzzy
 msgid ""
 "The Freecycle concept has since spread to more than 110 countries, where "
 "there are thousands of local groups representing millions of of members -- "
@@ -5550,11 +5558,11 @@ msgid ""
 "landfills! This amounts to fifteen times the height of Mt. Everest in the "
 "past year alone, when stacked in garbage trucks!"
 msgstr ""
-"El concepto de Freecycle se ha propagado a más de 85 países, donde existen "
+"El concepto de Freecycle se ha propagado a más de 110 países, donde existen "
 "miles de grupos representando millones de socios -- personas ayudando a "
-"personas y 'cambiando el mundo de a un regalo por vez'. Como resultado, "
-"¡actualmente estamos manteniendo más de 500 toneladas por día fuera de los "
-"vertederos! ¡Esta cantidad asciende a cinco veces la altura del monte "
+"personas y 'cambiando el mundo un regalo por vez'. Como resultado, "
+"¡actualmente estamos manteniendo más de mil toneladas por día fuera de los "
+"vertederos! ¡Esta cantidad asciende a quince veces la altura del monte "
 "Everest solamente durante el año pasado, cuando apilados en camiones de "
 "basura!"
 
@@ -7376,6 +7384,9 @@ msgid ""
 "group. This is a post to that group from Freecycle member \"%2\" (Post ID: "
 "%3)."
 msgstr ""
+"Estás recibiendo este email porque eres sócio del grupo de Freecycle %1. "
+"Esta es uma publicación para esse grupo del sócio de Freecycle \"%2\" (ID de "
+"la Publicación: %3)."
 
 #: webapp_myf/templates/source/home/groups/index.tt:99
 msgid "You are not a member of any groups."
@@ -7457,25 +7468,26 @@ msgstr ""
 
 #. (group.unique_name, post.post_id, post.email, post.title)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:55
-#, fuzzy
 msgid ""
 "You can reply to this post on the web site <a href=\"http://groups.freecycle."
 "org/%1/posts/%2\">here</a> or by pressing \"reply\" in your email program, "
 "or by sending email to <a href=\"mailto:%3?subject=RE: %4\">%3</a>."
 msgstr ""
-"Puedes responder este mensaje presionando \"responder\" en tu programa de "
-"email o enviando un email a %1."
+"Puedes responder esta publicación en el sitio web <a href=\"http://groups."
+"freecycle.org/%1/posts/%2\">aquí</a> o presionando \"responder\" em tu "
+"programa de email, o enviando un email a <a href=\"mailto:%3?subject=RE: "
+"%4\">%3</a>."
 
 #. (group.unique_name, post.post_id, post.email)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:9
-#, fuzzy
 msgid ""
 "You can reply to this post on the web site here: http://groups.freecycle.org/"
 "%1/posts/%2 or by pressing \"reply\" in your email program, or by sending "
 "email to %3."
 msgstr ""
-"Puedes responder este mensaje presionando \"responder\" en tu programa de "
-"email o enviando un email a %1."
+"Puedes responder esta publicación em el sitio web aquí: http://groups."
+"freecycle.org/%1/posts/%2 o pressionando \"responder\" em tu programa de "
+"email, o enviando um email a %3."
 
 #. (groupURL)
 #: webapp_myf/templates/source/home/posts/new_okay.tt:31
@@ -8195,9 +8207,8 @@ msgid "did...umm..something (better report this!)...to"
 msgstr "hizo... eee... algo (¡será mejor que informes esto!)... para"
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:76
-#, fuzzy
 msgid "donation"
-msgstr "Donación mensual"
+msgstr "donación"
 
 #: webapp_main/templates/lib/search_box_group.tt:19
 msgid "e.g. Tucson, Arizona"
@@ -8220,9 +8231,8 @@ msgstr "ir"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:71
-#, fuzzy
 msgid "has"
-msgstr "Un error temporario ha ocurrido"
+msgstr "tiene"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:71
@@ -8282,12 +8292,11 @@ msgstr "o"
 
 #: webapp_myf/templates/source/home/posts/recently_closed.tt:26
 msgid "p.getPostTypeName(\"en\")"
-msgstr ""
+msgstr "p.getPostTypeName(\"en\")"
 
 #: webapp_myf/templates/source/home/posts/index.tt:54
-#, fuzzy
 msgid "p.type_name"
-msgstr "Nombre del archivo"
+msgstr "p.type_name"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:170
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:58
