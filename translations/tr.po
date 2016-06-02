@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Freecycle\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-05-28 11:46+0300\n"
+"PO-Revision-Date: 2016-06-02 08:00+0300\n"
 "Last-Translator: steev <steev@hise.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1165,7 +1165,7 @@ msgstr "Tarih"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:56
 msgid "Date (YYYY-MM-DD)"
-msgstr "Tarih (YYY-AA-GG)"
+msgstr "Tarih (YYYY-AA-GG)"
 
 #: webapp_main/templates/source/group/posts/display_post.tt:81
 msgid "Date :"
@@ -3321,32 +3321,32 @@ msgstr "MyF kullanıcı adım"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:127
 msgid "N/A"
-msgstr ""
+msgstr "Uygulanamaz"
 
 #: webapp_main/templates/source/about/links.tt:14
 msgid "New American Dream"
-msgstr ""
+msgstr "Yeni Amerikan Rüyası (New American Dream)"
 
 #: webapp_main/templates/source/about/volunteering.tt:27
 msgid "New Group Appprover Team Member (NGA)"
-msgstr ""
+msgstr "Yeni Grup Onaylayıcısı Ekibi Üyesi (NGA)"
 
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:27
 msgid "New custom logo:"
-msgstr ""
+msgstr "Yeni özel logo"
 
 #: webapp_modtools/templates/lib/moderator_menu:151
 #: webapp_modtools/templates/perl/source/moderator_menu:151
 msgid "New file"
-msgstr ""
+msgstr "Yeni dosya"
 
 #: webapp_myf/templates/source/forgottenpassword.tt:83
 msgid "New password generated"
-msgstr ""
+msgstr "Yeni şifre oluşturuldu"
 
 #: webapp_myf/templates/source/home/info/change_username.tt:14
 msgid "New username"
-msgstr ""
+msgstr "Yeni kullanıcı adı"
 
 #: webapp_myf/templates/source/home/posts/new.tt:69
 msgid ""
@@ -3354,16 +3354,20 @@ msgid ""
 "image and it will be re-sized automatically before upload. Otherwise, "
 "maximum file size is 1.2MB."
 msgstr ""
+"Yeni! Eğer javacriptleriniz etkinleştirilmişse ve modern bir tarayıcınız "
+"varsa, herhangi bir büyüklükteki resmi seçiniz ve yüklenmeden önce o "
+"otomatik olarak yeniden-boyutlandırılacaktır. Yoksa, maksimum dosya "
+"büyüklüğü 1.2MB'tır."
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:34
 #: webapp_main/templates/source/about/index.tt:6
 msgid "Newswire"
-msgstr ""
+msgstr "İnternet gazetesi"
 
 #: webapp_main/templates/source/form990/form.tt:45
 #: webapp_main/templates/source/group/posts/display_post.tt:137
 msgid "Next"
-msgstr ""
+msgstr "Sonraki"
 
 #: core_modules/lib/Freecycle/standard_templates/source/html/widget/buttonbar/yesno.tt:5
 #: webapp_modtools/templates/perl/source/moderator/options/main.tt:60
@@ -3372,59 +3376,61 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_admins_view:37
 #: webapp_modtools/templates/perl/source/moderator_preferences:54
 msgid "No"
-msgstr ""
+msgstr "Hayır"
 
 #: webapp_modtools/templates/perl/source/moderator_group_admins_view:78
 msgid "No ADMINs have been sent to this Group yet"
-msgstr ""
+msgstr "Bu Gruba henüz herhangi bir Yönetici Mesajı gönderilmemiştir"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:64
 msgid "No Posts match your search terms"
-msgstr ""
+msgstr "Arama kelimelerinize uyan herhangi bir Mesaj bulunamamıştır"
 
 #: webapp_myf/templates/source/forgottenusername.tt:35
 msgid ""
 "No account with that email address could be found in the database. You may "
 "have registered with another email address."
 msgstr ""
+"Bu eposta adresini kullanan bir hesap veri-tabanında bulunamadı. Başka bir "
+"eposta adresiyle kayıt yaptırmış olabilirsiniz."
 
 #: webapp_modtools/templates/perl/source/moderator/options/main.tt:73
 msgid "No emails"
-msgstr ""
+msgstr "Eposta yok"
 
 #: webapp_myf/templates/source/home/groups/search.tt:79
 msgid "No groups matched your search terms"
-msgstr ""
+msgstr "Arama kelimelerinize hiç bir grup uymadı"
 
 #: webapp_myf/templates/source/home/groups/search.tt:88
 #: webapp_main/templates/lib/search_box_group.tt:24
 msgid "No local group?"
-msgstr ""
+msgstr "Yerel grup yok mu?"
 
 #: webapp_main/templates/source/login/forgotten_password.tt:19
 msgid "No user with that username/email address could be found"
-msgstr ""
+msgstr "Bu kullanıcı adına/eposta adresine sahip hiç bir kullanıcı bulunamadı"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:15
 msgid "No users could be found"
-msgstr ""
+msgstr "Hiçbir kullanıcı bulunamadı"
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:80
 msgid "Non-\"My Freecycle\" email addresses"
-msgstr ""
+msgstr "\"My Freecyle\" olmayan eposta adresim"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:130
 msgid "None"
-msgstr ""
+msgstr "Hiçbiri"
 
 #: webapp_myf/templates/source/home/groups/index.tt:138
 #: webapp_myf/templates/source/home/groups/options_display.tt:84
 msgid "None apart from ADMINs"
-msgstr ""
+msgstr "YÖNETİCİ MESAJLARINDAN başka hiç biri"
 
 #: webapp_main/templates/source/about/background.tt:27
 msgid "Nonprofit Status"
-msgstr ""
+msgstr "Kâr amacı gütmeyen Durumu"
 
 #: webapp_main/templates/source/login/login_link_sent.tt:8
 msgid ""
@@ -3433,18 +3439,23 @@ msgid ""
 "'email_relay@freecycle.org' in your email provider settings so that your "
 "provider doesn't count the email as spam."
 msgstr ""
+"Epostanın her zaman anlık olmadığına dikkat ediniz. Bunu tekrar denemeden "
+"önce en az bir veya iki saat bekleyiniz. Ayrıca, 'email_relay@freecycle.org' "
+"adresini, eposta sağlayıcınız onu bir istenmeyen mesaj (spam) olarak "
+"saymaması için, eposta sağlayıcınızın ayarlarında güvenilir eposta listesine "
+"aldığınıza emin olunuz."
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reply_email:13
 msgid "Note: Original email may have been shortened due to space limitations."
-msgstr ""
+msgstr "Not: Orijinal e-posta yer kısıtlamasından dolayı kısaltılmış olabilir."
 
 #: webapp_modtools/templates/perl/source/moderator_members_overview:43
 msgid "Number"
-msgstr ""
+msgstr "Sayı"
 
 #: webapp_modtools/templates/perl/source/moderator_group_overview:55
 msgid "Number of Members"
-msgstr ""
+msgstr "Üyelerin Sayısı"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:32
 #: core_modules/lib/Freecycle/Email.pm:3412
@@ -3495,23 +3506,23 @@ msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:12
 msgid "OR"
-msgstr ""
+msgstr "VEYA"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:18
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:36
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:18
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:36
 msgid "Object"
-msgstr ""
+msgstr "Nesne"
 
 #: webapp_main/templates/source/about/volunteering.tt:15
 msgid "Offer ideas"
-msgstr ""
+msgstr "Teklif fikirleri"
 
 #: webapp_myf/templates/lib/box_tabbar.tt:3
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:0
 msgid "Offers"
-msgstr ""
+msgstr "Teklifler"
 
 #: webapp_main/templates/source/about/background.tt:15
 msgid ""
@@ -3522,22 +3533,28 @@ msgid ""
 "recycling services to downtown businesses and transitional employment to "
 "Tucsonans in need."
 msgstr ""
+"Deron Beal, 1 Mayıs 2003'te Tucson, Arizona'da The Freecycle "
+"Network&trade;'i duyuran ilk mesajını yaklaşık 30 veya 40 arkadaşına ve az "
+"sayıdaki kâr amacı gütmeyen kuruluşlara gönderdi. O zamanlar Deron The "
+"Freecycle Network'ü kurdu, küçük bir kâr amacı gütmeyen kuruluş olan, şehir "
+"merkezindeki işletmelere ve ihtiyaç duyulan Tucson'lulara geçici geri "
+"dönüşüm hizmetleri sunan RISE ile çalıştı."
 
 #: webapp_modtools/templates/perl/source/moderator_overview:35
 msgid "On Yahoo!Groups"
-msgstr ""
+msgstr "Yahoo! Grupları üzerine"
 
 #: webapp_modtools/templates/perl/source/moderator_overview:37
 msgid "On freecycle.org"
-msgstr ""
+msgstr "freecycle.org üzerine"
 
 #: webapp_modtools/templates/source/manage/files/automatic.tt:16
 msgid "On joining (auto or approved)"
-msgstr ""
+msgstr "Katılma üzerine (otomatik veya onaylanmış)"
 
 #: webapp_modtools/templates/source/manage/files/automatic.tt:17
 msgid "On leaving"
-msgstr ""
+msgstr "Ayrılma üzerine"
 
 #. (My, Groups, " tab - any invitations you have will be listed at the bottom.")
 #. (My Groups' tab - any invitations you have will be listed at the bottom.')
@@ -3546,11 +3563,13 @@ msgid ""
 "Once you have set your account up, you can accept or decline this invitation "
 "by logging in to My Freecycle and viewing the "
 msgstr ""
+"Hesabınızı oluşturduğunuzda, bu daveti My Freecycle'a giriş yaparak kabul "
+"veya red edebilirsiniz"
 
 #: webapp_myf/templates/source/home/groups/index.tt:138
 #: webapp_myf/templates/source/home/groups/options_display.tt:84
 msgid "One for each Post"
-msgstr ""
+msgstr "Her Mesaj için bir tane"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:2
 msgid ""
@@ -3560,80 +3579,89 @@ msgid ""
 "prevent Members receiving unexpected replies to old Posts they may have\n"
 "forgotten about."
 msgstr ""
+"Freecycle Grubuna asmış olduğunuz Mesajlarınızdan birisinin süresi otomatik "
+"olarak dolmuştur\n"
+"ve gösterimden kaldırılmıştır. Bu, Freecycle Grubu'nu düzenli tutmak için "
+"yapılır, bu nedenle\n"
+"Gruba gelen ziyaretçiler o anda neler olup bittiğini görmek ve \n"
+"Üyelerin unutmuş olabilecekleri eski Mesajlar için beklenmedik mesajlar "
+"almalarını önlemek içindir."
 
 #: webapp_main/templates/source/donate.tt:42
 #: webapp_main/templates/source/donate.tt:74
 msgid "One-time donation"
-msgstr ""
+msgstr "Bir-defalık bağış"
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:57
 #: webapp_modtools/templates/source/manage/files/new_file.tt:46
 msgid "Only LMs of this Group"
-msgstr ""
+msgstr "Sadece bu grubun Grup Yöneticileri (LM)"
 
 #: webapp_main/templates/source/404.tt:10
 msgid "Oops - page not found!"
-msgstr ""
+msgstr "Hoop -  sayfa bulunamadı"
 
 #: webapp_myf/templates/source/404.tt:3
 msgid "Oops!"
-msgstr ""
+msgstr "Hoop!"
 
 #: webapp_myf/templates/source/errors.tt:18
 msgid "Oops..."
-msgstr ""
+msgstr "Hoop..."
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_overview:20
 msgid "Open"
-msgstr ""
+msgstr "Açık"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:100
 #: webapp_modtools/templates/perl/source/moderator_members_list:101
 #: webapp_modtools/templates/perl/source/moderator_members_list:102
 msgid "Open invitation"
-msgstr ""
+msgstr "Açık davetler"
 
 #: webapp_modtools/templates/lib/moderator_menu:85
 #: webapp_modtools/templates/perl/source/moderator_menu:85
 msgid "Open invitations"
-msgstr ""
+msgstr "Açık davetler"
 
 #. (group_name)
 #: webapp_modtools/templates/perl/source/moderator_members_list:21
 msgid "Open invitations to the %1 group"
-msgstr ""
+msgstr " %1 grubuna açık davetler"
 
 #: webapp_modtools/templates/perl/source/moderator/options/main.tt:49
 msgid "Opted in. To opt-out, send an email to your GOA requesting the opt-out."
 msgstr ""
+"Katıldınız. Ayrılmak için GOA'inize ayrılma talebinizi içeren bir eposta "
+"gönderiniz."
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:65
 msgid "Or by email"
-msgstr ""
+msgstr "Veya epostayla"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:312
 msgid "Order by:"
-msgstr ""
+msgstr "Sıralama düzeni:"
 
 #: webapp_main/templates/source/about/background.tt:39
 msgid "Org Chart"
-msgstr ""
+msgstr "Kuruluş Çizelgesi"
 
 #: webapp_main/templates/source/about/background.tt:37
 msgid "Organizational Chart"
-msgstr ""
+msgstr "Kuruluş Çizelgesi"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:14
 msgid "Original Post details:"
-msgstr ""
+msgstr "Orijinal Mesaj ayrıntıları:"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:150
 msgid "Other Posts from this Member: (max 10)"
-msgstr ""
+msgstr "Bu Üyeden gelen diğer Mesajlar: (maksimum 10)"
 
 #: webapp_main/templates/source/about/privacy.tt:6
 msgid "Our Commitment to Privacy"
-msgstr ""
+msgstr "Özel Bilgilerle İlgili Sözümüz"
 
 #: webapp_main/templates/source/about/funds.tt:8
 msgid ""
@@ -3645,6 +3673,13 @@ msgid ""
 "and related site-design expenses. We also are incurring substantial legal "
 "expense, primarily in defending our trademark."
 msgstr ""
+"130,000 Dolarlık harcamalarımız esas olarak dört kişinin ödemesine ve mevcut "
+"web sitemizin bakımına ve yeni toplumun tasarımına gitmektedir. Bu kişiler "
+"bir yönetici müdür, mevcut web toplumundan sorumlu olan iki müteahhit ve "
+"yeni web-sitesi tasarımı projesiyle ilgili bir müteahhittir. Bu tarafta "
+"birkaç sunucumuz (server), program yazma harcaması ve ilişkili site-tasarımı "
+"harcamalarımız vardır. Ayrıca, esas olarak ticari markamızı korumak için "
+"önemli çapta hukuki harcamalarımız da olmaktadır."
 
 #: webapp_main/templates/source/about/missionstatement.tt:6
 msgid ""
@@ -3652,6 +3687,9 @@ msgid ""
 "saves precious resources & eases the burden on our landfills while enabling "
 "our members to benefit from the strength of a larger community."
 msgstr ""
+"Misyonumuz, üyelerimizin daha büyük bir toplumdan yararlanmasını sağlarken, "
+"dünya çapında atıkları azaltan, değerli kaynaklarımızı koruyan & çöp dökme "
+"alanlarımızdaki yükü azaltan bir paylaşma hareketi inşa etmektir. "
 
 #: webapp_main/templates/source/about/funds.tt:10
 msgid ""
@@ -3663,15 +3701,23 @@ msgid ""
 "creating a global gift economy in the process. <strong>Simply beautiful how "
 "one can change the world, one gift at a time</strong>."
 msgstr ""
+"Modelimiz, PBS'ye epeyce benzer. Üyelerimiz için ücretsiz halk forumu "
+"sağlamaya çalışıyoruz ve bu çabalara fon sağlayabilmek için bağışlar, "
+"taahhütler ve gönüllü bağışlar bulmaya çalışıyoruz. Bir web-sitesi için "
+"oldukça benzersiz bir modeldir ama The Freecycle Network benzersiz bir "
+"kuruluştur. Dünya çapında 70 ülkede yerel olarak toplumun tekrar kullanımı "
+"ve geri dönüştürmesini daha fazla geliştirdikçe, süreçte küresel bir hediye "
+"ekonomisi yaratıyoruz. <kuvvetli>Birisinin dünyayı değiştirebilmesi "
+"güzeldir, her defasında bir hediye</kuvvetli>."
 
 #: webapp_modtools/templates/lib/moderator_menu:19
 #: webapp_modtools/templates/perl/source/moderator_menu:19
 msgid "Overview page"
-msgstr ""
+msgstr "Gözden geçirme sayfası"
 
 #: webapp_main/templates/source/form990/form.tt:28
 msgid "PDF files available : <br />"
-msgstr ""
+msgstr "PDF dosyaları mevcuttur : <br />"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:88
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:88
@@ -3680,28 +3726,28 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:132
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:133
 msgid "Page"
-msgstr ""
+msgstr "Sayfa"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:334
 msgid "Page:"
-msgstr ""
+msgstr "Sayfa:"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:126
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:124
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:124
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:125
 msgid "Paging options"
-msgstr ""
+msgstr "Çağrı seçenekleri"
 
 #: webapp_myf/templates/source/index.tt:16
 #: webapp_myf/templates/source/signup.tt:47
 #: webapp_main/templates/source/login/index.tt:11
 msgid "Password"
-msgstr ""
+msgstr "Şifre"
 
 #: webapp_myf/templates/source/signup.tt:161
 msgid "Passwords don't match"
-msgstr ""
+msgstr "Şifreler eşleşmiyor"
 
 #: webapp_modtools/templates/lib/moderator_menu:112
 #: webapp_modtools/templates/lib/moderator_menu:128
@@ -3712,11 +3758,11 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_menu:128
 #: webapp_modtools/templates/perl/source/moderator_menu:92
 msgid "Pending"
-msgstr ""
+msgstr "Bekliyor"
 
 #: webapp_modtools/templates/perl/source/moderator_overview:28
 msgid "Pending Images"
-msgstr ""
+msgstr "Bekleyen resimler"
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:0
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:51
@@ -3724,58 +3770,58 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_members_list:103
 #: webapp_modtools/templates/perl/source/moderator_members_list:104
 msgid "Pending Member"
-msgstr ""
+msgstr "Bekleyen Üye"
 
 #: webapp_modtools/templates/source/manage/files/automatic.tt:15
 msgid "Pending Member approved"
-msgstr ""
+msgstr "Bekleyen Üye onaaylandı"
 
 #: webapp_modtools/templates/perl/source/moderator_overview:26
 msgid "Pending Members"
-msgstr ""
+msgstr "Bekleyen Üyeler"
 
 #. (group_name)
 #: webapp_modtools/templates/perl/source/moderator_members_list:29
 msgid "Pending Members of the %1 group"
-msgstr ""
+msgstr "%1 grubunun bekleyen Üyeleri"
 
 #: webapp_modtools/templates/perl/source/moderator_overview:27
 msgid "Pending Messages"
-msgstr ""
+msgstr "Bekleyen Mesajlar"
 
 #: core_modules/lib/Freecycle/Email.pm:2459
 msgid "Pending Post for "
-msgstr ""
+msgstr "Şunun için Bekleyen Mesaj"
 
 #: webapp_myf/templates/source/home/groups/index.tt:120
 #: webapp_myf/templates/source/home/groups/options_display.tt:31
 msgid "Pending approval"
-msgstr ""
+msgstr "Onay bekliyor"
 
 #: core_modules/lib/Freecycle/Email.pm:2355
 msgid "Pending member for "
-msgstr ""
+msgstr "Şunun için bekleyen üye"
 
 #. (group_name)
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:16
 msgid "Pending posts for the %1 group"
-msgstr ""
+msgstr "%1 grubu için bekleyen mesajlar"
 
 #: webapp_myf/templates/source/home/groups/index.tt:120
 msgid "Pending unsubscribe"
-msgstr ""
+msgstr "Üyelikten ayrılma bekleniyor"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:301
 msgid "Perform bulk operation"
-msgstr ""
+msgstr "Büyük hacimli eylemler yapmak."
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:374
 msgid "Perform these actions"
-msgstr ""
+msgstr "Bu eylemleri yapınız"
 
 #: webapp_modtools/templates/source/manage/files/new_file.tt:57
 msgid "Plain text (no formatting)"
-msgstr ""
+msgstr "Düz yazı (formatlama yok!)"
 
 #. ("http://my.freecycle.org/login", "http://my.freecycle.org/signup")
 #: webapp_main/templates/lib/group_box.tt:0
@@ -4051,7 +4097,7 @@ msgstr "Lütfen beni üyelikten çıkarınız"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:119
 msgid "Post"
-msgstr ""
+msgstr "Mesaj"
 
 #: webapp_myf/templates/source/home/posts/index.tt:44
 #: webapp_myf/templates/source/home/posts/recently_closed.tt:17
@@ -4069,53 +4115,53 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:21
 #: webapp_main/templates/source/group/posts/display_post.tt:74
 msgid "Post ID"
-msgstr ""
+msgstr "Mesaj Kimliği"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:19
 msgid "Post ID: "
-msgstr ""
+msgstr "Mesaj Kimliği:"
 
 #. (post.post_id)
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:18
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:23
 msgid "Post ID: %1"
-msgstr ""
+msgstr "Mesaj Kimliği: %1"
 
 #: webapp_myf/templates/source/home/posts/index.tt:46
 #: webapp_myf/templates/source/home/posts/recently_closed.tt:19
 msgid "Post Subject"
-msgstr ""
+msgstr "Mesaj Konusu"
 
 #: webapp_myf/templates/source/home/posts/index.tt:45
 #: webapp_myf/templates/source/home/posts/recently_closed.tt:18
 msgid "Post Type"
-msgstr ""
+msgstr "Mesaj Tipi"
 
 #. (post.url)
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:17
 msgid "Post URL: %1"
-msgstr ""
+msgstr "Mesaj Bağlantısı: %1"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:70
 msgid "Post description settings"
-msgstr ""
+msgstr "Mesaj ayarlama ayarları"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:28
 msgid "Post description:"
-msgstr ""
+msgstr "Mesaj açıklaması:"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:6
 msgid "Post details"
-msgstr ""
+msgstr "Mesaj ayrıntıları"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:24
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:90
 msgid "Post details follow"
-msgstr ""
+msgstr "Mesaj ayrıntıları aşağıdadır"
 
 #: webapp_myf/templates/source/home/posts/display_issues.tt:1
 msgid "Post errors"
-msgstr ""
+msgstr "Mesaj hataları"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:18
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:111
@@ -4123,68 +4169,68 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:109
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:110
 msgid "Post flags"
-msgstr ""
+msgstr "Mesaj işaretçileri"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:59
 msgid "Post image : "
-msgstr ""
+msgstr "Mesaj resmi :"
 
 #. (post.post_subject)
 #: webapp_main/templates/source/group/posts/display_post.tt:93
 msgid "Post image for %1"
-msgstr ""
+msgstr "%1 için mesaj resmi"
 
 #: webapp_modtools/templates/lib/moderator_menu:123
 #: webapp_modtools/templates/perl/source/moderator_menu:123
 msgid "Post images"
-msgstr ""
+msgstr "Mesaj resimleri"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:40
 msgid "Post location settings"
-msgstr ""
+msgstr "Mesaj yeri ayarları"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:40
 msgid "Post location: "
-msgstr ""
+msgstr "Mesaj yeri:"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:174
 msgid "Post reject reason"
-msgstr ""
+msgstr "Mesajın reddedilme nedeni"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:44
 msgid "Post status: "
-msgstr ""
+msgstr "Mesajın durumu:"
 
 #. (post.subject)
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:27
 msgid "Post subject: %1"
-msgstr ""
+msgstr "Mesaj konusu: %1"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:27
 msgid "Post title: "
-msgstr ""
+msgstr "Mesaj başlığı:"
 
 #: webapp_myf/templates/source/home/posts/new.tt:39
 msgid "Post to :"
-msgstr ""
+msgstr "Mesajı şuraya asınız :"
 
 #: webapp_myf/templates/source/home/groups/index.tt:164
 msgid "Post to this Group"
-msgstr ""
+msgstr "Mesajı bu Gruba asınız"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:10
 #: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:26
 msgid "Post type"
-msgstr ""
+msgstr "Mesaj tipi"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:31
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:20
 msgid "Post type: "
-msgstr ""
+msgstr "Mesaj tipi:"
 
 #: webapp_myf/templates/source/home/posts/display_issues.tt:1
 msgid "Post warnings"
-msgstr ""
+msgstr "Mesaj uyarıları"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:22
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:26
@@ -4195,134 +4241,134 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:26
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:26
 msgid "Posted By"
-msgstr ""
+msgstr "Mesajı Asan"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:23
 msgid "Posted On"
-msgstr ""
+msgstr "Mesajın asılma Tarihi"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:56
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:9
 #: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:52
 msgid "Posted by"
-msgstr ""
+msgstr "Mesajı asan"
 
 #: webapp_main/templates/source/group/posts/display_post.tt:84
 msgid "Posted by :"
-msgstr ""
+msgstr "Mesajı asan :"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:23
 msgid "Posted on : "
-msgstr ""
+msgstr "Mesajın asılma tarihi :"
 
 #: webapp_main/templates/source/group/posts/display_list.tt:45
 msgid "Posted on or after"
-msgstr ""
+msgstr "Mesaj şu tarihte veya sonrasında asılmıştır"
 
 #: webapp_main/templates/source/group/posts/display_list.tt:49
 msgid "Posted on or before"
-msgstr ""
+msgstr "Mesaj şu tarihte veya öncesinde asılmıştır"
 
 #: webapp_myf/templates/source/home/posts/index.tt:48
 msgid "Posted on:"
-msgstr ""
+msgstr "Mesajın asılma tarihi:"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:155
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:22
 msgid "Posted to"
-msgstr ""
+msgstr "Mesaj şuraya asılmıştır"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:54
 msgid "Posted to : "
-msgstr ""
+msgstr "Mesaj şuraya asılmıştır :"
 
 #: webapp_myf/templates/source/home/posts/index.tt:47
 #: webapp_myf/templates/source/home/posts/recently_closed.tt:20
 msgid "Posted to:"
-msgstr ""
+msgstr "Mesaj şuraya asılmıştır:"
 
 #. (poster.username _ ' <' _ poster.address _ '>')
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:16
 msgid "Poster: %1"
-msgstr ""
+msgstr "Mesajı asan: %1"
 
 #. (group_name)
 #: webapp_modtools/templates/perl/source/moderator_group_posts_overview:16
 msgid "Posting history for the %1 group"
-msgstr ""
+msgstr "%1 grubu için mesaj asma geçmişi"
 
 #: webapp_modtools/templates/perl/source/moderator_preferences:24
 msgid "Posts"
-msgstr ""
+msgstr "Mesajlar"
 
 #: webapp_modtools/templates/perl/source/moderator_group_overview:59
 msgid "Posts in last 24 hours/7 days"
-msgstr ""
+msgstr "Son 24 saatte/7 günde asılan mesajlar"
 
 #. (group.groupname)
 #: webapp_main/templates/source/group/posts/display_list.tt:1
 msgid "Posts on the %1 Group | The Freecycle Network"
-msgstr ""
+msgstr "%1 Grubuna | The Freecycle Network'e asılan mesajlar "
 
 #: webapp_modtools/templates/lib/moderator_menu.tt:6
 #: webapp_modtools/templates/lib/moderator_menu:5
 #: webapp_modtools/templates/perl/source/moderator_menu:5
 msgid "Preferences"
-msgstr ""
+msgstr "Tercihler"
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_form:19
 msgid "Prepare invitations"
-msgstr ""
+msgstr "Davetleri hazırlayınız"
 
 #: webapp_main/templates/source/about/pressroom.tt:32
 msgid "Press Releases"
-msgstr ""
+msgstr "Basın bildirileri"
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:39
 #: webapp_main/templates/source/about/index.tt:11
 #: webapp_main/templates/source/about/pressroom.tt:1
 #: webapp_main/templates/source/about/pressroom.tt:4
 msgid "Press Room"
-msgstr ""
+msgstr "Basın Odası"
 
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:16
 msgid "Preview group description"
-msgstr ""
+msgstr "Grup açıklamasının önizlemesi"
 
 #: webapp_main/templates/source/form990/form.tt:41
 #: webapp_main/templates/source/group/posts/display_post.tt:134
 msgid "Previous"
-msgstr ""
+msgstr "Önceki"
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:45
 #: webapp_main/templates/source/about/index.tt:17
 msgid "Privacy"
-msgstr ""
+msgstr "Kişisel gizlilik"
 
 #: webapp_main/templates/source/about/privacy.tt:4
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Kişisel gizlilik Politikası"
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:37
 msgid "Promo Video - Lamp"
-msgstr ""
+msgstr "Reklâm Videosu - Lamba"
 
 #: webapp_main/templates/source/about/promovideo.tt:4
 msgid "Promo video"
-msgstr ""
+msgstr "Reklâm videosu"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:270
 msgid "Promote to Lead Moderator"
-msgstr ""
+msgstr "Grup Yöneticiliğine (Lead Moderator) Yükseltiniz"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:204
 msgid "Promote to Moderator"
-msgstr ""
+msgstr "Yöneticiliğe (moderator) yükseltiniz"
 
 #: webapp_modtools/templates/lib/moderator_menu:17
 #: webapp_modtools/templates/perl/source/moderator_menu:17
 msgid "Quick jump to"
-msgstr ""
+msgstr "Çabucak şuraya atlayınız"
 
 #: webapp_main/templates/source/about/pressroom.tt:25
 msgid ""
@@ -4330,26 +4376,30 @@ msgid ""
 "a noun or verb, or morphed into another word (freecycler, freecycling, "
 "freecycle the couch, etc. are no-nos)."
 msgstr ""
+"Çabuk ipuçları: onu sadece bir sıfat olarak kullanınız (Freecycle Grubu, "
+"vs.) ve asla bir isim veya fiil olarak kullanmayınız veya başka bir kelime "
+"şekline (freecycle yapan, freecycle yapma, kanepeyi freecycle yapmak, vs. "
+"şeklindeki kullanımlara hayır) dönüştürmeyiniz."
 
 #: webapp_main/templates/source/about/pressroom.tt:76
 msgid "Quote from 'People' magazine"
-msgstr ""
+msgstr "'People' Dergisi'nden alıntı"
 
 #: webapp_main/templates/source/about/pressroom.tt:78
 msgid "Quote from AARP"
-msgstr ""
+msgstr "AARP'den alıntı"
 
 #: webapp_main/templates/source/about/pressroom.tt:77
 msgid "Quote from PC Magazine"
-msgstr ""
+msgstr "PC Dergisi'nden alıntı"
 
 #: webapp_main/templates/source/about/pressroom.tt:64
 msgid "Quotes about Freecycle from the UK"
-msgstr ""
+msgstr "İngiltere'den Freecycle ile ilgili alıntılar"
 
 #: webapp_main/templates/source/about/pressroom.tt:56
 msgid "Quotes about Freecycle</a> (1.5 MB PDF)"
-msgstr ""
+msgstr "Freecycle ile ilgili alıntılar</a> (1.5 MB PDF)"
 
 #: core_modules/lib/Freecycle/Email.pm:3415
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:20
@@ -4403,133 +4453,133 @@ msgstr "Gösterilen neden:"
 
 #: core_modules/lib/Freecycle/Email.pm:1016
 msgid "Recent Posts on"
-msgstr ""
+msgstr "Şununla ilgili son Mesajlar"
 
 #: core_modules/lib/Freecycle/Email.pm:2691
 msgid "Recent emails (digest)"
-msgstr ""
+msgstr "Son epostalar (özet)"
 
 #: webapp_myf/templates/source/home/posts/index.tt:23
 #: webapp_myf/templates/source/home/posts/recently_closed.tt:3
 msgid "Recently expired Posts"
-msgstr ""
+msgstr "Süresi yeni sona eren Mesajlar"
 
 #: templates/source/index.tt:74 templates/source/search_box.tt:63
 msgid "Region : "
-msgstr ""
+msgstr "Bölge :"
 
 #: webapp_modtools/templates/perl/source/moderator_group_overview:51
 msgid "Region/Country"
-msgstr ""
+msgstr "Bölge/Ülke"
 
 #: webapp_main/templates/source/browse/region_list.tt:0
 msgid "Regions from "
-msgstr ""
+msgstr "Şuradan bölgeler"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:179
 msgid "Reject Member"
-msgstr ""
+msgstr "Üyeyi Reddediniz"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:77
 msgid "Reject all pending Members"
-msgstr ""
+msgstr "Bekleyen tüm Üyeleri reddediniz"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:129
 msgid "Reject this Post and send Group file"
-msgstr ""
+msgstr "Bu Mesajı reddediniz ve Grup dosyası gönderiniz"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:127
 msgid "Reject this Post and send message"
-msgstr ""
+msgstr "Bu Mesajı reddediniz ve mesaj gönderiniz"
 
 #: webapp_main/templates/source/about/pressroom.tt:51
 msgid "Related Documents"
-msgstr ""
+msgstr "İlgili Belgeler"
 
 #: webapp_modtools/templates/source/manage/files/automatic.tt:72
 msgid "Remove"
-msgstr ""
+msgstr "Çıkarınız"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:203
 msgid "Remove Member from Group"
-msgstr ""
+msgstr "Üyeyi Gruptan Çıkarınız"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:74
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:72
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:72
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:73
 msgid "Remove Post and mod Member"
-msgstr ""
+msgstr "Mesajı çıkarınız ve Üyeyi kontrole alınız"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:72
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:70
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:70
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:71
 msgid "Remove Post from My Freecycle"
-msgstr ""
+msgstr "Mesajı My Freecycle'dan çıkarınız"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:120
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:48
 msgid "Reply by email"
-msgstr ""
+msgstr "Epostayla cevaplayınız"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:119
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:47
 msgid "Reply online"
-msgstr ""
+msgstr "Çevrimiçi olarak cevaplayınız"
 
 #: webapp_main/templates/source/group/posts/display_post.tt:149
 msgid "Reply to this Post"
-msgstr ""
+msgstr "Bu Mesajı cevaplayınız"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:63
 msgid "Reply to this online at"
-msgstr ""
+msgstr "Buna çevrimiçi olarak şurada cevap veriniz"
 
 #. ($post->subject)
 #: core_modules/lib/Freecycle/Email.pm:3284
 msgid "Reply to your Freecycle post \"%1\""
-msgstr ""
+msgstr "Freecycle mesajınızı \"%1\" cevaplayınız"
 
 #: webapp_main/templates/source/group/posts/display_post.tt:120
 #: webapp_main/templates/source/group/posts/display_post.tt:126
 msgid "Report as inappropriate"
-msgstr ""
+msgstr "Uygunsuz olarak rapor ediniz"
 
 #: webapp_main/templates/source/group/links/index.tt:50
 msgid "Report link"
-msgstr ""
+msgstr "Bağlantı rapor ediniz"
 
 #. (reporter.username _ ' <' _ reporter.address _ '>')
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:3
 msgid "Reporter: %1"
-msgstr ""
+msgstr "Rapor eden: %1"
 
 #. (c.user.getUsername, c.user.getUserEmailAddress)
 #: webapp_main/templates/source/email/group_link_report.tt:8
 msgid "Reporter: %1 (%2)"
-msgstr ""
+msgstr "Rapor eden: %1 (%2)"
 
 #: webapp_myf/templates/source/forgottenpassword.tt:83
 msgid "Request new password"
-msgstr ""
+msgstr "Yeni şifre talep ediniz"
 
 #: webapp_myf/templates/source/forgottenusername.tt:23
 msgid "Request username"
-msgstr ""
+msgstr "Kullanıcı adı talep ediniz"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:369
 msgid "Resend all invitations older than"
-msgstr ""
+msgstr "Şu tarihten daha eski olan tüm davetleri tekrar gönderiniz"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reply_email:4
 msgid "Response to Post"
-msgstr ""
+msgstr "Mesaja cevap veriniz"
 
 #. ($post->getPostSubject()
 #: core_modules/lib/Freecycle/Email.pm:2973
 msgid "Response to your Freecycle Post \"%1\""
-msgstr ""
+msgstr "Freecycle Mesajınıza \"%1\" cevap veriniz"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:81
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:81
@@ -4538,20 +4588,20 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:125
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:126
 msgid "Results per page"
-msgstr ""
+msgstr "Sayfa başına sonuçlar"
 
 #: webapp_main/templates/source/group/posts/display_list.tt:53
 msgid "Results per page :"
-msgstr ""
+msgstr "Sayfa başına sonuçlar :"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:326
 #: webapp_main/templates/lib/search_box_group.tt:11
 msgid "Results per page:"
-msgstr ""
+msgstr "Sayfa başına sonuçlar:"
 
 #: webapp_main/templates/source/about/links.tt:29
 msgid "Reverend Billy"
-msgstr ""
+msgstr "Sayın Billy"
 
 #: webapp_main/templates/source/about/staff.tt:30
 msgid ""
@@ -4561,51 +4611,56 @@ msgid ""
 "dad. If you talk voice to him, you're likely to hear the new baby singing in "
 "the background."
 msgstr ""
+"Richard, boş zamanının pek çoğunu Freecycle Websitesi’nin yeni sürümünün "
+"programını yazarak geçiriyor. Ayrıca, bir eş ve baba olarak evdeki tüm "
+"görevlerini yaparken, buradaki birkaç test ve geliştirme ekibine de ön "
+"bilgiler sağlıyor. Onunla sesli konuşma yaparsanız, arka plânda ağlayan yeni "
+"bebeğin şarkı söylediğini duymanız olasıdır."
 
 #: webapp_myf/templates/source/home/info/default_location.tt:22
 msgid "Save"
-msgstr ""
+msgstr "Kaydediniz"
 
 #: webapp_modtools/templates/perl/source/moderator_preferences:40
 msgid "Save any changes"
-msgstr ""
+msgstr "Herhangi bir değişikliği kaydediniz"
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:84
 msgid "Save changes"
-msgstr ""
+msgstr "Değişiklikleri kaydediniz"
 
 #: webapp_modtools/templates/perl/source/moderator_areacodes:17
 msgid "Save codes"
-msgstr ""
+msgstr "Kodları kaydediniz"
 
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:14
 msgid "Save group description"
-msgstr ""
+msgstr "Grup açıklamasını kaydediniz"
 
 #: webapp_myf/templates/source/home/info/change_email_address.tt:35
 msgid "Save new email address"
-msgstr ""
+msgstr "Yeni eposta adresini kaydediniz"
 
 #: webapp_myf/templates/source/home/info/change_password.tt:33
 msgid "Save new password"
-msgstr ""
+msgstr "Yeni şifreyi kaydediniz"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:92
 msgid "Save post edits"
-msgstr ""
+msgstr "Mesaj düzenlemelerini kaydediniz"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:100
 msgid "Save preferences"
-msgstr ""
+msgstr "Tercihleri kaydediniz"
 
 #: webapp_modtools/templates/perl/source/moderator/options/main.tt:31
 msgid "Save these options"
-msgstr ""
+msgstr "Bu seenekleri kaydediniz"
 
 #. (group_file.size)
 #: webapp_modtools/templates/source/manage/files/edit.tt:80
 msgid "Saved file size: %1 bytes"
-msgstr ""
+msgstr "Kaydedilmiş dosya büyüklüğü: %1 bittir"
 
 #: templates/source/index.tt:42 templates/source/index.tt:82
 #: templates/source/index.tt:97 templates/source/search_box.tt:28
@@ -4757,20 +4812,20 @@ msgstr "Eposta tercihini \"Eposta İstemiyorum\" olarak ayarla"
 #. (group.group_name)
 #: webapp_myf/templates/source/home/groups/options_display.tt:23
 msgid "Settings for %1"
-msgstr ""
+msgstr "%1 için ayarlar"
 
 #: webapp_main/templates/source/about/volunteering.tt:12
 msgid "Share a skill"
-msgstr ""
+msgstr "Bir beceriyi paylaşınız"
 
 #: webapp_myf/templates/source/home/posts/new.tt:50
 msgid "Short description :"
-msgstr ""
+msgstr "Kısa açıklaması :"
 
 #: webapp_modtools/templates/source/manage/links/add.tt:12
 #: webapp_modtools/templates/source/manage/links/edit.tt:12
 msgid "Short description : "
-msgstr ""
+msgstr "Kısa açıklaması :"
 
 #. (first, last, total_results)
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:101
@@ -4782,17 +4837,17 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:100
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:98
 msgid "Showing %1 to %2 of %3"
-msgstr ""
+msgstr "%3 'ün %1 'i ilâ %2 'sini gösteriyor"
 
 #. (((page - 1) * resultsperpage) + 1, ((page * resultsperpage) > numresults ? numresults : (page * resultsperpage)), numresults)
 #: webapp_main/templates/source/search/results.tt:28
 msgid "Showing %1 to %2 of %3 results"
-msgstr ""
+msgstr "%3 'sonuçlarının %1 'i ilâ %2 'sini gösteriyor"
 
 #. (res_start, res_end, numresults)
 #: webapp_main/templates/source/group/posts/display_list.tt:148
 msgid "Showing %1 to %2 of %3 results."
-msgstr ""
+msgstr "%3 'sonuçlarının %1 'i ilâ %2 'sini gösteriyor."
 
 #: webapp_myf/templates/source/signup.tt:72
 msgid "Sign up"
@@ -4821,7 +4876,7 @@ msgstr "Üye olunuz/Giriş yapınız"
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:7
 msgid "Skip navigation menu"
-msgstr ""
+msgstr "Gezinme menüsünü atlayınız"
 
 #: webapp_main/templates/source/about/staff.tt:8
 msgid ""
@@ -4830,21 +4885,27 @@ msgid ""
 "some 20-30 moderators putting in countless hours for Group Outreach and "
 "Assistance, helping existing groups with day-to-day problems."
 msgstr ""
+"Bu moderatörlerden 80'den fazlası kendi eyaletleri, ilçeleri veya ülkeleri "
+"için yeni grupları onaylamak için daha fazla zaman harcamaya gönüllü "
+"oluyorlar. Ayrıca, Grup Destek ve Yardım (Group Outreach and Assistance - "
+"GOA) için sayısız saatler harcayan, mevcut grupların günlük sorunlarına "
+"yardımcı olan 20-30 moderatörden oluşan adanmış bir ekip var. "
 
 #: webapp_main/templates/source/group/links/report_thanks.tt:4
 msgid "Someone will look into this link and take any appropriate action"
-msgstr ""
+msgstr "Birisi bu bağlantıya bakacak ve gereğini yapacaktır"
 
 #: webapp_myf/templates/source/errors.tt:21
 msgid ""
 "Something went wrong while trying to serve this page - please try again in a "
 "little while"
 msgstr ""
+"Bu sayfaya bağlanırken bir hata oluştu - lütfen biraz sonra tekrar deneyiniz"
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:41
 #: webapp_main/templates/source/about/index.tt:13
 msgid "Sources and Use of Funds"
-msgstr ""
+msgstr "Kaynaklar ve Fonların Kullanımı"
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:16
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:40
@@ -4872,6 +4933,8 @@ msgid ""
 "Street performer Reverend Billy preaches his message of reducing consumption "
 "in his Church of Stop Shopping."
 msgstr ""
+"Sokak Sanatçısı Sayın Billy, Alışverişi Durdurun Kilisesinde (Church of Stop "
+"Shopping) tüketimin azaltılması konusunda konuşmalar yapıyor."
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:16
 #: webapp_modtools/templates/perl/source/moderator_group_admins_view:25
@@ -4890,26 +4953,26 @@ msgstr "Konu :"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:10
 msgid "Subject line settings"
-msgstr ""
+msgstr "Konu satırı ayarları"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_nomember_email:9
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_notamember_email:9
 msgid "Subject:"
-msgstr ""
+msgstr "Konu:"
 
 #. (subject)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_mfoptout_email:11
 msgid "Subject: %1"
-msgstr ""
+msgstr "Konu: %1"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:341
 #: webapp_modtools/templates/source/agreement.tt:17
 msgid "Submit"
-msgstr ""
+msgstr "Gönderiniz"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:81
 msgid "Switch to digest email"
-msgstr ""
+msgstr "Özet epostaya geçin"
 
 #: core_modules/lib/Freecycle/Email.pm:3413
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:20
@@ -4937,18 +5000,18 @@ msgstr ""
 #: webapp_main/templates/source/group/posts/display_list.tt:268
 #: webapp_main/templates/source/group/posts/display_post.tt:1
 msgid "TAKEN"
-msgstr ""
+msgstr "VERİLDİ"
 
 #. (group_name)
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:14
 msgid "TAKEN posts for the %1 group"
-msgstr ""
+msgstr "%1 grubu için VERİLDİ mesajları"
 
 #: webapp_modtools/templates/lib/moderator_menu:106
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:299
 #: webapp_modtools/templates/perl/source/moderator_menu:106
 msgid "TAKENs"
-msgstr ""
+msgstr "VERİLDİ MESAJLARI"
 
 #: webapp_main/templates/source/about/pressroom.tt:19
 msgid ""
@@ -7509,17 +7572,17 @@ msgstr ""
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:71
 msgid "post"
-msgstr ""
+msgstr "mesaj"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:0
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:48
 msgid "posted to Freecycle"
-msgstr ""
+msgstr "Freecycle'a asıldı"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:71
 msgid "posts"
-msgstr ""
+msgstr "mesajlar"
 
 #: webapp_main/templates/source/tos.tt:42
 msgid ""
@@ -7554,39 +7617,39 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:125
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:143
 msgid "seconds"
-msgstr ""
+msgstr "saniyeler"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:46
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:48
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:46
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:48
 msgid "sent an invitation to"
-msgstr ""
+msgstr "şuna bir eposta gönderildi"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:46
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:55
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:46
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:55
 msgid "set this person to \"LeadMod\" level"
-msgstr ""
+msgstr "bu kişiyi \"GrupModeratörü\" düzeyine ayarla"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:46
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:53
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:46
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:53
 msgid "set this person to \"Member\" level"
-msgstr ""
+msgstr "bu kişiyi \"Üye\" düzeyine ayarla"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:46
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:54
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:46
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:54
 msgid "set this person to \"Mod\" level"
-msgstr ""
+msgstr "bu kişiyi \"Moderatör\" düzeyine ayarla"
 
 #: webapp_myf/templates/source/home/info/change_username.tt:8
 msgid "start with a letter or number"
-msgstr ""
+msgstr "bir harf veya sayıyla başlayınız"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:95
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:95
@@ -7595,7 +7658,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:140
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:141
 msgid "submit"
-msgstr ""
+msgstr "gönderiniz"
 
 #: webapp_main/templates/source/tos.tt:28
 msgid ""
@@ -7679,14 +7742,14 @@ msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:37
 msgid "update"
-msgstr ""
+msgstr "güncelle"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:46
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:56
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:46
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:56
 msgid "uploaded or modified Group file with ID "
-msgstr ""
+msgstr "yüklenmiş veya değiştirilmiş KİMLİKLİ Grup dosyası"
 
 #: webapp_main/templates/source/tos.tt:41
 msgid ""
@@ -7695,21 +7758,26 @@ msgid ""
 "internet search engines (e.g. Google) and non-commercial public archives (e."
 "g. archive.org) that comply with our robots.txt file;"
 msgstr ""
+"Hizmetten veri indirmek için, örümcekler, robotlar, sürüngenler, veri "
+"madenciliği araçları, veya benzerleri dahil otomasyonlu araçları kullanın -"
+"bizim robots.txt dosyasına uyan internet arama motorları için (örneğin, "
+"Google) ve ticari-olmayan kamu arşivleri için (örneğin, archive.org) bir "
+"istisna yapılmıştır;"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:108
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:106
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:106
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:107
 msgid "view_offers"
-msgstr ""
+msgstr "tekliflere_gözat"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:109
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:107
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:107
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:108
 msgid "yes"
-msgstr ""
+msgstr "evet"
 
 #: core_modules/lib/Freecycle/Email.pm:3040
 msgid "{not available}"
-msgstr ""
+msgstr "{mevcut değildir}"
