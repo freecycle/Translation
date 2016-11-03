@@ -21,7 +21,7 @@ msgid "%1 Freecycle - %2: %3 (%4)"
 msgstr ""
 
 #. (group.membercount)
-#: webapp_main/templates/lib/group_box.tt:11
+#: webapp_main/templates/lib/group_box.tt:12
 msgid "%1 Members"
 msgstr ""
 
@@ -247,7 +247,7 @@ msgstr ""
 msgid "Children may participate only with the permission and supervision of their parents and/or guardians. Freecycle.org does not intend to collect any information from individuals under the age of 13."
 msgstr ""
 
-#: webapp_main/templates/lib/group_box.tt:14 webapp_main/templates/source/group/contact_moderators.tt:3
+#: webapp_main/templates/lib/group_box.tt:17 webapp_main/templates/source/group/contact_moderators.tt:3
 msgid "Contact Moderators"
 msgstr ""
 
@@ -284,7 +284,7 @@ msgstr ""
 msgid "Donate and support Freecycle.org"
 msgstr ""
 
-#: webapp_main/templates/source/campaigns/june2015appeal.tt:1
+#: webapp_main/templates/source/campaigns/june2015appeal.tt:1 webapp_main/templates/source/campaigns/june2016appeal.tt:1
 msgid "Donate today!"
 msgstr ""
 
@@ -581,7 +581,7 @@ msgstr ""
 msgid "Media Intro and Tips"
 msgstr ""
 
-#: webapp_main/templates/lib/group_box.tt:16
+#: webapp_main/templates/lib/group_box.tt:19
 msgid "Member FAQ"
 msgstr ""
 
@@ -768,7 +768,7 @@ msgid "Please note that the person who made the Post may receive a number of res
 msgstr ""
 
 #. ("<a href=\"http://wiki.freecycle.org/Main_Page#Members\">' _ c.loc(\"Member FAQ\") _ '</a>")
-#: webapp_main/templates/lib/group_box.tt:16
+#: webapp_main/templates/lib/group_box.tt:19
 msgid "Please see the %1 for help"
 msgstr ""
 
