@@ -316,7 +316,7 @@ msgstr ""
 
 #. (region.country.country_name)
 #: webapp_main/templates/source/browse/group_list.tt:14
-msgid "Elsewhere in %1"
+msgid "Elsewhere"
 msgstr ""
 
 #: webapp_main/templates/source/login/forgotten_password.tt:7 webapp_main/templates/source/login/index.tt:8
@@ -1356,7 +1356,7 @@ msgstr ""
 
 #. (num_groups.chunk(-3).join(","), num_members.chunk(-3).join(","))
 #: webapp_main/templates/source/index.tt:17
-msgid "Welcome! The Freecycle Network&trade; is made up of %1 groups with %2 members around the world. It's a grassroots and entirely nonprofit movement of people who are giving (and getting) stuff for free in their own towns. It's all about reuse and keeping good stuff out of landfills. Each local group is moderated by local volunteers (them's good people). Membership is free. To sign up, find your community by entering it into the search box above or by clicking on 'Browse Groups' above the search box. Have fun!"
+msgid "Welcome! The Freecycle Network&trade; is made up of %1 groups with %2 members around the world, and next door to you. It's a grassroots and entirely nonprofit movement of people who are giving (and getting) stuff for free in their own towns and neighborhoods. It's all about reuse and keeping good stuff out of landfills. Each local group is moderated by local volunteers (them's good people). Membership is free. To sign up, find your community by entering it into the search box above or by clicking on 'Browse Groups' above the search box. Have fun!"
 msgstr ""
 
 #: webapp_main/templates/source/form990/index.tt:4

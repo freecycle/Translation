@@ -48,6 +48,10 @@ msgid "A digest of 25 Posts"
 msgstr ""
 
 #: webapp_myf/templates/source/signup.tt:192
+msgid "A temporary error has happened"
+msgstr ""
+
+#: webapp_myf/templates/source/signup.tt:192
 msgid "A temporary error has occurred"
 msgstr ""
 
@@ -214,7 +218,7 @@ msgstr ""
 msgid "Email : %1"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenpassword.tt:83 webapp_myf/templates/source/forgottenusername.tt:20 webapp_myf/templates/source/signup.tt:36
+#: webapp_myf/templates/source/forgottenpassword.tt:83 webapp_myf/templates/source/forgottenusername.tt:21 webapp_myf/templates/source/signup.tt:36
 msgid "Email address :"
 msgstr ""
 
@@ -408,7 +412,7 @@ msgid "If you're having problems with CAPTCHAs, you can check this box to reques
 msgstr ""
 
 #. (uri_for("Root", "signup"))
-#: webapp_myf/templates/source/index.tt:40
+#: webapp_myf/templates/source/index.tt:42
 msgid "If your email address hasn't been registered before, you can use the <a href='%1'>signup form</a> to create your new account for free"
 msgstr ""
 
@@ -425,7 +429,7 @@ msgstr ""
 msgid "In certain cases you may be required to change your password (usually if you have just signed up or requested a new password) - if you find yourself here unexpectedly, this may be the case.  Please check the web address in your browser to make sure it doesn't contain anything suspicious (a phishing attempt, for example) and if you're in <b>any</b> doubt then open a new browser window and type in 'freecycle.org' yourself."
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:47
+#: webapp_myf/templates/source/index.tt:49
 msgid "Incorrect username/password"
 msgstr ""
 
@@ -580,7 +584,7 @@ msgstr ""
 msgid "New!! If you have javascript enabled and a modern browser, choose any size image and it will be re-sized automatically before upload. Otherwise, maximum file size is 1.2MB."
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenusername.tt:35
+#: webapp_myf/templates/source/forgottenusername.tt:37
 msgid "No account with that email address could be found in the database. You may have registered with another email address."
 msgstr ""
 
@@ -661,7 +665,7 @@ msgstr ""
 msgid "Please enter something shorter for your location - the group has a limit of %1 letters"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenusername.tt:16
+#: webapp_myf/templates/source/forgottenusername.tt:19
 msgid "Please enter your registered email address and your username will be sent to you."
 msgstr ""
 
@@ -781,7 +785,7 @@ msgstr ""
 msgid "Request new password"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenusername.tt:23
+#: webapp_myf/templates/source/forgottenusername.tt:24
 msgid "Request username"
 msgstr ""
 
@@ -854,7 +858,7 @@ msgstr ""
 msgid "Subject :"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:70
+#: webapp_myf/templates/source/index.tt:72
 msgid "Temporary error with the third-party provider - they may be having issues authorising logins. Please try again later, or log in with your My Freecycle username and password to continue"
 msgstr ""
 
@@ -1033,13 +1037,15 @@ msgstr ""
 msgid "Too many Groups!"
 msgstr ""
 
-#. (uri_for("Root", "forgottenusername"), "https://www.freecycle.org/login/forgotten_password")
-#: webapp_myf/templates/source/index.tt:39
-msgid "Try the <a href='%1'>forgotten username form</a> and see if your email address has been registered before. If it has, you'll be sent a reminder of your username, which you can then use in the <a href='%2'>forgotten password form</a> to get a new, temporary password sent to you."
+#. ("https://www.freecycle.org/login/forgotten_password")
+#: webapp_myf/templates/source/index.tt:40
+msgid ""
+"Try the \n"
+"<a href='%1'>forgotten password form</a> to reset your password."
 msgstr ""
 
 #. (e)
-#: webapp_myf/templates/source/index.tt:47
+#: webapp_myf/templates/source/index.tt:49
 msgid "Untrapped error '%1' - please report this!"
 msgstr ""
 
@@ -1047,7 +1053,7 @@ msgstr ""
 msgid "Upload image"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenpassword.tt:83 webapp_myf/templates/source/forgottenusername.tt:35
+#: webapp_myf/templates/source/forgottenpassword.tt:83 webapp_myf/templates/source/forgottenusername.tt:37
 msgid "User not found"
 msgstr ""
 
@@ -1064,7 +1070,7 @@ msgstr ""
 msgid "Username : %1"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenusername.tt:35
+#: webapp_myf/templates/source/forgottenusername.tt:37
 msgid "Username sent"
 msgstr ""
 
@@ -1102,6 +1108,10 @@ msgstr ""
 
 #: webapp_myf/templates/source/home/groups/join_group.tt:21
 msgid "We hope you have fun as the newest member of this globally local and volunteer-run Freecycle Group!"
+msgstr ""
+
+#: webapp_myf/templates/source/forgottenusername.tt:16
+msgid "Well, you can just log in with your email address."
 msgstr ""
 
 #: webapp_myf/templates/source/home/posts/new.tt:54
@@ -1174,6 +1184,10 @@ msgstr ""
 msgid "You can associate the accounts <a href='#' onclick='set_fb_id()'>here</a>"
 msgstr ""
 
+#: webapp_myf/templates/source/index.tt:39
+msgid "You can log in with your email address if you don't know your user name."
+msgstr ""
+
 #: webapp_myf/templates/source/home/groups/home.tt:4
 msgid "You can nominate one of the Groups you belong to as your most local, 'home' Group. This Group will be used by default wherever possible (like, for example, when making a new Post)."
 msgstr ""
@@ -1208,7 +1222,7 @@ msgstr ""
 msgid "You currently do not have a \"home\" Group selected - please choose one from <a href=\"%1\">your Group Membership list</a>"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:69
+#: webapp_myf/templates/source/index.tt:71
 msgid "You didn't authorise the third-party application - unless you authorise My Freecycle to access your account details, we cannot log you in"
 msgstr ""
 
@@ -1281,7 +1295,7 @@ msgstr ""
 msgid "You need to <a href='/home/groups'>join some groups</a> before you can post (please see your groups page for notes regarding membership to existing Yahoo!Groups)"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenusername.tt:35
+#: webapp_myf/templates/source/forgottenusername.tt:37
 msgid "You should receive an email with your username in soon."
 msgstr ""
 
@@ -1301,7 +1315,7 @@ msgstr ""
 msgid "Your Facebook account is not linked to this My Freecycle account"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:68
+#: webapp_myf/templates/source/index.tt:70
 msgid "Your My Freecycle account is not associated - you need to log in with your My Freecycle username and password and associate your account before you can use a third-party login provider"
 msgstr ""
 
@@ -1351,7 +1365,7 @@ msgstr ""
 msgid "Your password has been successfully changed"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:66
+#: webapp_myf/templates/source/index.tt:68
 msgid "Your third-party login attempt failed - the most common causes are:"
 msgstr ""
 

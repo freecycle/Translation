@@ -63,7 +63,7 @@ msgstr ""
 msgid "(max size: 1Kb)"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_post_admin_form:15
+#: webapp_modtools/templates/perl/source/moderator_post_admin_form:11
 msgid "(not available for Yahoo!Groups"
 msgstr ""
 
@@ -83,7 +83,7 @@ msgstr ""
 msgid "ADMIN"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_post_admin_form:21
+#: webapp_modtools/templates/perl/source/moderator_post_admin_form:17
 msgid "ADMIN title"
 msgstr ""
 
@@ -95,7 +95,7 @@ msgstr ""
 msgid "Accessible to"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:29 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:28 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:28 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:28 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:28 webapp_modtools/templates/perl/source/moderator_members_list:55
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:28 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:28 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:28 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:28 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:28 webapp_modtools/templates/perl/source/moderator_members_list:55
 msgid "Actions"
 msgstr ""
 
@@ -264,7 +264,7 @@ msgstr ""
 msgid "Collective Membership Mark Usage Agreement"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_post_admin_form:30
+#: webapp_modtools/templates/perl/source/moderator_post_admin_form:26
 msgid "Create ADMIN"
 msgstr ""
 
@@ -316,7 +316,7 @@ msgstr ""
 msgid "Delete link"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:61
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:52
 msgid "Delete this ADMIN"
 msgstr ""
 
@@ -371,7 +371,7 @@ msgstr ""
 msgid "Do it"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:40 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:71 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:69 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:69 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:70 webapp_modtools/templates/perl/source/moderator_members_list:153
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:38 webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:71 webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:69 webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:69 webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:70 webapp_modtools/templates/perl/source/moderator_members_list:153
 msgid "Do nothing"
 msgstr ""
 
@@ -451,7 +451,7 @@ msgstr ""
 msgid "Existing Members"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:28
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:27
 msgid "Expired"
 msgstr ""
 
@@ -803,24 +803,12 @@ msgstr ""
 msgid "Manage Zip Codes"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:53
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:44
 msgid "Mark this ADMIN as expired"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:55
-msgid "Mark this ADMIN as not expired"
-msgstr ""
-
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:48
-msgid "Mark this ADMIN as not urgent"
-msgstr ""
-
 #: webapp_modtools/templates/perl/source/moderator_group_admins_view:46
-msgid "Mark this ADMIN as urgent"
-msgstr ""
-
-#: webapp_modtools/templates/perl/source/moderator_post_admin_form:9
-msgid "Mark this ADMIN as urgent?"
+msgid "Mark this ADMIN as not expired"
 msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:85
@@ -959,11 +947,11 @@ msgstr ""
 msgid "New file"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator/options/main.tt:60 webapp_modtools/templates/perl/source/moderator/options/main.tt:67 webapp_modtools/templates/perl/source/moderator_group_admins_view:36 webapp_modtools/templates/perl/source/moderator_group_admins_view:37 webapp_modtools/templates/perl/source/moderator_preferences:54
+#: webapp_modtools/templates/perl/source/moderator/options/main.tt:60 webapp_modtools/templates/perl/source/moderator/options/main.tt:67 webapp_modtools/templates/perl/source/moderator_group_admins_view:35 webapp_modtools/templates/perl/source/moderator_preferences:54
 msgid "No"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:78
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:69
 msgid "No ADMINs have been sent to this Group yet"
 msgstr ""
 
@@ -1355,7 +1343,7 @@ msgstr ""
 msgid "Search results for the %1 group"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_post_admin_form:32
+#: webapp_modtools/templates/perl/source/moderator_post_admin_form:28
 msgid "Send ADMIN"
 msgstr ""
 
@@ -1371,7 +1359,7 @@ msgstr ""
 msgid "Send invite to"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:42
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:40
 msgid "Send the ADMIN emails again"
 msgstr ""
 
@@ -1379,7 +1367,7 @@ msgstr ""
 msgid "Send them an email"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_post_admin_form:13
+#: webapp_modtools/templates/perl/source/moderator_post_admin_form:9
 msgid "Send this ADMIN as an email to all Members?"
 msgstr ""
 
@@ -1442,7 +1430,7 @@ msgstr ""
 msgid "TAKENs"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_post_admin_form:25
+#: webapp_modtools/templates/perl/source/moderator_post_admin_form:21
 msgid "Text of the ADMIN Post"
 msgstr ""
 
@@ -1648,7 +1636,7 @@ msgstr ""
 msgid "Uh oh...this shouldn't happen. Please report it!"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:57
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:48
 msgid "Unexpire the ADMIN and send emails"
 msgstr ""
 
@@ -1676,7 +1664,7 @@ msgstr ""
 msgid "Unmoderated"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:68
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:59
 msgid "Update these ADMINs"
 msgstr ""
 
@@ -1695,10 +1683,6 @@ msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/new_file.tt:56
 msgid "Uploaded file"
-msgstr ""
-
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:27
-msgid "Urgent"
 msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:44
@@ -1798,7 +1782,7 @@ msgstr ""
 msgid "When"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator/options/main.tt:59 webapp_modtools/templates/perl/source/moderator/options/main.tt:66 webapp_modtools/templates/perl/source/moderator_group_admins_view:36 webapp_modtools/templates/perl/source/moderator_group_admins_view:37 webapp_modtools/templates/perl/source/moderator_preferences:53
+#: webapp_modtools/templates/perl/source/moderator/options/main.tt:59 webapp_modtools/templates/perl/source/moderator/options/main.tt:66 webapp_modtools/templates/perl/source/moderator_group_admins_view:35 webapp_modtools/templates/perl/source/moderator_preferences:53
 msgid "Yes"
 msgstr ""
 

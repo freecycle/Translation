@@ -146,7 +146,7 @@ msgstr ""
 msgid "(max size: 1Kb)"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_post_admin_form:15
+#: webapp_modtools/templates/perl/source/moderator_post_admin_form:11
 msgid "(not available for Yahoo!Groups"
 msgstr ""
 
@@ -345,6 +345,10 @@ msgid "A request was received to retrieve your Freecycle username."
 msgstr ""
 
 #: webapp_myf/templates/source/signup.tt:192
+msgid "A temporary error has happened"
+msgstr ""
+
+#: webapp_myf/templates/source/signup.tt:192
 msgid "A temporary error has occurred"
 msgstr ""
 
@@ -367,7 +371,7 @@ msgstr ""
 msgid "ADMIN"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_post_admin_form:21
+#: webapp_modtools/templates/perl/source/moderator_post_admin_form:17
 msgid "ADMIN title"
 msgstr ""
 
@@ -402,7 +406,7 @@ msgstr ""
 
 #: webapp_myf/templates/source/home/posts/index.tt:49
 #: webapp_myf/templates/source/home/posts/recently_closed.tt:21
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:29
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:28
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:28
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:28
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:28
@@ -960,7 +964,7 @@ msgstr ""
 msgid "Country : "
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_post_admin_form:30
+#: webapp_modtools/templates/perl/source/moderator_post_admin_form:26
 msgid "Create ADMIN"
 msgstr ""
 
@@ -1054,7 +1058,7 @@ msgstr ""
 msgid "Delete my account"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:61
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:52
 msgid "Delete this ADMIN"
 msgstr ""
 
@@ -1138,7 +1142,7 @@ msgstr ""
 msgid "Do it"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:40
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:38
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:71
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:69
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:69
@@ -1257,7 +1261,7 @@ msgstr ""
 
 #. (region.country.country_name)
 #: webapp_main/templates/source/browse/group_list.tt:14
-msgid "Elsewhere in %1"
+msgid "Elsewhere"
 msgstr ""
 
 #. (email)
@@ -1275,7 +1279,7 @@ msgstr ""
 
 #: templates/source/index.tt:93 templates/source/search_box.tt:84
 #: webapp_myf/templates/source/forgottenpassword.tt:83
-#: webapp_myf/templates/source/forgottenusername.tt:20
+#: webapp_myf/templates/source/forgottenusername.tt:21
 #: webapp_myf/templates/source/signup.tt:36
 msgid "Email address :"
 msgstr ""
@@ -1361,7 +1365,7 @@ msgstr ""
 msgid "Existing Members"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:28
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:27
 msgid "Expired"
 msgstr ""
 
@@ -2087,7 +2091,7 @@ msgid ""
 msgstr ""
 
 #. (uri_for("Root", "signup"))
-#: webapp_myf/templates/source/index.tt:40
+#: webapp_myf/templates/source/index.tt:42
 msgid ""
 "If your email address hasn't been registered before, you can use the <a "
 "href='%1'>signup form</a> to create your new account for free"
@@ -2215,7 +2219,7 @@ msgstr ""
 msgid "Incorporation"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:47
+#: webapp_myf/templates/source/index.tt:49
 #: webapp_main/templates/source/login/index.tt:19
 msgid "Incorrect username/password"
 msgstr ""
@@ -2546,24 +2550,12 @@ msgstr ""
 msgid "Mark as TAKEN and remove"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:53
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:44
 msgid "Mark this ADMIN as expired"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:55
-msgid "Mark this ADMIN as not expired"
-msgstr ""
-
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:48
-msgid "Mark this ADMIN as not urgent"
-msgstr ""
-
 #: webapp_modtools/templates/perl/source/moderator_group_admins_view:46
-msgid "Mark this ADMIN as urgent"
-msgstr ""
-
-#: webapp_modtools/templates/perl/source/moderator_post_admin_form:9
-msgid "Mark this ADMIN as urgent?"
+msgid "Mark this ADMIN as not expired"
 msgstr ""
 
 #. (num_of_results)
@@ -2958,13 +2950,12 @@ msgstr ""
 #: core_modules/lib/Freecycle/standard_templates/source/html/widget/buttonbar/yesno.tt:5
 #: webapp_modtools/templates/perl/source/moderator/options/main.tt:60
 #: webapp_modtools/templates/perl/source/moderator/options/main.tt:67
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:36
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:37
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:35
 #: webapp_modtools/templates/perl/source/moderator_preferences:54
 msgid "No"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:78
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:69
 msgid "No ADMINs have been sent to this Group yet"
 msgstr ""
 
@@ -2972,7 +2963,7 @@ msgstr ""
 msgid "No Posts match your search terms"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenusername.tt:35
+#: webapp_myf/templates/source/forgottenusername.tt:37
 msgid ""
 "No account with that email address could be found in the database. You may "
 "have registered with another email address."
@@ -3390,7 +3381,7 @@ msgid ""
 msgstr ""
 
 #. ("<a href=\"//www.freecycle.org/donate\">' _ c.loc(\"donation\") _ '</a>")
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:76
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:75
 msgid ""
 "Please consider turning off your ad-blocking software for this site, and/or "
 "making a %1. As a charitable nonprofit we rely on this income to keep this "
@@ -3469,7 +3460,7 @@ msgid ""
 "Please enter user IDs or email addresses, one per line, in the box below"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenusername.tt:16
+#: webapp_myf/templates/source/forgottenusername.tt:19
 msgid ""
 "Please enter your registered email address and your username will be sent to "
 "you."
@@ -4041,7 +4032,7 @@ msgstr ""
 msgid "Request new password"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenusername.tt:23
+#: webapp_myf/templates/source/forgottenusername.tt:24
 msgid "Request username"
 msgstr ""
 
@@ -4201,7 +4192,7 @@ msgstr ""
 msgid "Send"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_post_admin_form:32
+#: webapp_modtools/templates/perl/source/moderator_post_admin_form:28
 msgid "Send ADMIN"
 msgstr ""
 
@@ -4234,7 +4225,7 @@ msgstr ""
 msgid "Send me a login link"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:42
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:40
 msgid "Send the ADMIN emails again"
 msgstr ""
 
@@ -4242,7 +4233,7 @@ msgstr ""
 msgid "Send them an email"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_post_admin_form:13
+#: webapp_modtools/templates/perl/source/moderator_post_admin_form:9
 msgid "Send this ADMIN as an email to all Members?"
 msgstr ""
 
@@ -4491,7 +4482,7 @@ msgid ""
 "as good as the sum of our parts so we want to attract good parts, right?"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:70
+#: webapp_myf/templates/source/index.tt:72
 msgid ""
 "Temporary error with the third-party provider - they may be having issues "
 "authorising logins. Please try again later, or log in with your My Freecycle "
@@ -4504,7 +4495,7 @@ msgstr ""
 msgid "Terms of Service"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_post_admin_form:25
+#: webapp_modtools/templates/perl/source/moderator_post_admin_form:21
 msgid "Text of the ADMIN Post"
 msgstr ""
 
@@ -5645,13 +5636,11 @@ msgstr ""
 msgid "Trademark Tips and Guidelines"
 msgstr ""
 
-#. (uri_for("Root", "forgottenusername"), "https://www.freecycle.org/login/forgotten_password")
-#: webapp_myf/templates/source/index.tt:39
+#. ("https://www.freecycle.org/login/forgotten_password")
+#: webapp_myf/templates/source/index.tt:40
 msgid ""
-"Try the <a href='%1'>forgotten username form</a> and see if your email "
-"address has been registered before. If it has, you'll be sent a reminder of "
-"your username, which you can then use in the <a href='%2'>forgotten password "
-"form</a> to get a new, temporary password sent to you."
+"Try the \n"
+"<a href='%1'>forgotten password form</a> to reset your password."
 msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_group_overview:130
@@ -5729,7 +5718,7 @@ msgid ""
 "this site."
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:57
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:48
 msgid "Unexpire the ADMIN and send emails"
 msgstr ""
 
@@ -5777,11 +5766,11 @@ msgid "Unsubscribe from the Group"
 msgstr ""
 
 #. (e)
-#: webapp_myf/templates/source/index.tt:47
+#: webapp_myf/templates/source/index.tt:49
 msgid "Untrapped error '%1' - please report this!"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:68
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:59
 msgid "Update these ADMINs"
 msgstr ""
 
@@ -5810,10 +5799,6 @@ msgstr ""
 msgid "Uploaded file"
 msgstr ""
 
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:27
-msgid "Urgent"
-msgstr ""
-
 #: webapp_main/templates/source/about/privacy.tt:9
 msgid "Use of Cookies"
 msgstr ""
@@ -5831,7 +5816,7 @@ msgid "User name, ID, or email address"
 msgstr ""
 
 #: webapp_myf/templates/source/forgottenpassword.tt:83
-#: webapp_myf/templates/source/forgottenusername.tt:35
+#: webapp_myf/templates/source/forgottenusername.tt:37
 msgid "User not found"
 msgstr ""
 
@@ -5860,7 +5845,7 @@ msgstr ""
 msgid "Username or email address"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenusername.tt:35
+#: webapp_myf/templates/source/forgottenusername.tt:37
 msgid "Username sent"
 msgstr ""
 
@@ -6076,12 +6061,17 @@ msgstr ""
 #: webapp_main/templates/source/index.tt:17
 msgid ""
 "Welcome! The Freecycle Network&trade; is made up of %1 groups with %2 "
-"members around the world. It's a grassroots and entirely nonprofit movement "
-"of people who are giving (and getting) stuff for free in their own towns. "
-"It's all about reuse and keeping good stuff out of landfills. Each local "
-"group is moderated by local volunteers (them's good people). Membership is "
-"free. To sign up, find your community by entering it into the search box "
-"above or by clicking on 'Browse Groups' above the search box. Have fun!"
+"members around the world, and next door to you. It's a grassroots and "
+"entirely nonprofit movement of people who are giving (and getting) stuff for "
+"free in their own towns and neighborhoods. It's all about reuse and keeping "
+"good stuff out of landfills. Each local group is moderated by local "
+"volunteers (them's good people). Membership is free. To sign up, find your "
+"community by entering it into the search box above or by clicking on 'Browse "
+"Groups' above the search box. Have fun!"
+msgstr ""
+
+#: webapp_myf/templates/source/forgottenusername.tt:16
+msgid "Well, you can just log in with your email address."
 msgstr ""
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:35
@@ -6157,8 +6147,7 @@ msgstr ""
 #: core_modules/lib/Freecycle/standard_templates/source/html/widget/buttonbar/yesno.tt:3
 #: webapp_modtools/templates/perl/source/moderator/options/main.tt:59
 #: webapp_modtools/templates/perl/source/moderator/options/main.tt:66
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:36
-#: webapp_modtools/templates/perl/source/moderator_group_admins_view:37
+#: webapp_modtools/templates/perl/source/moderator_group_admins_view:35
 #: webapp_modtools/templates/perl/source/moderator_preferences:53
 msgid "Yes"
 msgstr ""
@@ -6337,6 +6326,11 @@ msgid ""
 "your \"My Posts\" page:"
 msgstr ""
 
+#: webapp_myf/templates/source/index.tt:39
+msgid ""
+"You can log in with your email address if you don't know your user name."
+msgstr ""
+
 #: webapp_myf/templates/source/home/groups/home.tt:4
 msgid ""
 "You can nominate one of the Groups you belong to as your most local, 'home' "
@@ -6417,7 +6411,7 @@ msgid ""
 "<a href=\"%1\">your Group Membership list</a>"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:69
+#: webapp_myf/templates/source/index.tt:71
 msgid ""
 "You didn't authorise the third-party application - unless you authorise My "
 "Freecycle to access your account details, we cannot log you in"
@@ -6516,7 +6510,7 @@ msgid ""
 "this Group to view the Post details"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenusername.tt:35
+#: webapp_myf/templates/source/forgottenusername.tt:37
 msgid "You should receive an email with your username in soon."
 msgstr ""
 
@@ -6624,7 +6618,7 @@ msgstr ""
 msgid "Your My Freecycle account has been created"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:68
+#: webapp_myf/templates/source/index.tt:70
 msgid ""
 "Your My Freecycle account is not associated - you need to log in with your "
 "My Freecycle username and password and associate your account before you can "
@@ -6796,7 +6790,7 @@ msgid ""
 "details on record."
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:66
+#: webapp_myf/templates/source/index.tt:68
 msgid "Your third-party login attempt failed - the most common causes are:"
 msgstr ""
 
@@ -6936,7 +6930,7 @@ msgstr ""
 msgid "did...umm..something (better report this!)...to"
 msgstr ""
 
-#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:76
+#: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:75
 msgid "donation"
 msgstr ""
 
