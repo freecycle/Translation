@@ -8,7 +8,7 @@
 # French translations for PACKAGE package.
 # Copyright (C) 2010 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#  <wallmari@devserver.freecycle.org>, 2010.
+#  <steev@freecycle.org>, 2016.
 #
 # #-#-#-#-#  fr.po (PACKAGE VERSION)  #-#-#-#-#
 # SOME DESCRIPTIVE TITLE.
@@ -4582,7 +4582,7 @@ msgstr "La combinaison identifiant/ e-mail n'est pas dans notre base de donnée.
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:71
 msgid "There %1 been %2 %3 since the last digest"
-msgstr "Il y a eu %1 %2 %3 depuis le dernier résumé quotidien"
+msgstr "Il y a eu %2 %3 depuis le dernier résumé quotidien"
 
 #. (group.admins.size)
 #: webapp_myf/templates/source/home/groups/index.tt:85
