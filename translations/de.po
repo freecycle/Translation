@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Freecycle.org\n"
-"POT-Creation-Date: 2017-06-04 14:12+0200\n"
+"POT-Creation-Date: 2017-06-10 00:05+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Valentin Bachem <valentin@herrbachem.de>\n"
 "Language-Team: steev@freecycle.org\n"
@@ -1666,11 +1666,11 @@ msgstr "Dateien der Gruppe %1"
 
 #: webapp_myf/templates/source/home_group_box_search.tt:15
 msgid "Find a group near you :"
-msgstr "Eine Gruppe in Deiner Nähe suchen:"
+msgstr "Eine Gruppe in Deiner Nähe finden:"
 
 #: webapp_myf/templates/source/home_group_box_search.tt:21
 msgid "Find group"
-msgstr "Gruppe suchen"
+msgstr "Gruppe finden"
 
 #: webapp_myf/templates/source/home_group_box_search.tt:1
 msgid "Find other groups"
@@ -7140,7 +7140,7 @@ msgid ""
 "Groups' above the search box. Have fun!"
 msgstr ""
 "Willkommen! Das Freecycle Netzwerk&trade; besteht aus %1 Gruppen mit %2 "
-"Mitgliedern, die über die ganze Erde verteilt sind und auf bei Dir um die "
+"Mitgliedern, die über die ganze Erde verteilt sind und auch bei Dir um die "
 "Ecke wohnen. Es ist eine Bewegung, die ehrenamtlich und durch viele "
 "Mitglieder auf der ganzen Welt betrieben wird.  Es geht dabei um das "
 "Verschenken (und Suchen) von Dingen in der eigenen Stadt und der "
