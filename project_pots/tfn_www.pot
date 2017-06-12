@@ -175,7 +175,7 @@ msgstr ""
 msgid "Active groups in %1 :"
 msgstr ""
 
-#: webapp_main/templates/source/donate.tt:62 webapp_main/templates/source/donate.tt:95
+#: webapp_main/templates/source/donate.tt:62
 msgid "Add a note:"
 msgstr ""
 
@@ -477,7 +477,7 @@ msgstr ""
 msgid "If you haven't logged in (or haven't signed up), you can try searching for your most local Group below"
 msgstr ""
 
-#: webapp_main/templates/source/donate.tt:103
+#: webapp_main/templates/source/donate.tt:118
 msgid ""
 "If you prefer mailing a check, you may make it out to \"The Freecycle Network\" and send it to:\n"
 "The Freecycle Network\n"
@@ -637,7 +637,7 @@ msgstr ""
 msgid "Modified"
 msgstr ""
 
-#: webapp_main/templates/source/donate.tt:51 webapp_main/templates/source/donate.tt:83
+#: webapp_main/templates/source/donate.tt:51 webapp_main/templates/source/donate.tt:92
 msgid "Monthly donation"
 msgstr ""
 
@@ -693,7 +693,7 @@ msgstr ""
 msgid "On May 1st, 2003, Deron Beal sent out the first e-mail announcing The Freecycle Network&trade; to about 30 or 40 friends and a handful of nonprofits in Tucson, Arizona. At the time Deron founded The Freecycle Network, he worked with a small nonprofit organization, RISE, which provides recycling services to downtown businesses and transitional employment to Tucsonans in need."
 msgstr ""
 
-#: webapp_main/templates/source/donate.tt:42 webapp_main/templates/source/donate.tt:74
+#: webapp_main/templates/source/donate.tt:42 webapp_main/templates/source/donate.tt:73
 msgid "One-time donation"
 msgstr ""
 
@@ -965,7 +965,7 @@ msgstr ""
 msgid "Sources and Use of Funds"
 msgstr ""
 
-#: webapp_main/templates/source/about/index.tt:12 webapp_main/templates/source/about/sponsors.tt:4 webapp_main/templates/source/index.tt:22
+#: webapp_main/templates/source/about/index.tt:12 webapp_main/templates/source/about/sponsors.tt:4 webapp_main/templates/source/index.tt:39
 msgid "Sponsors"
 msgstr ""
 
@@ -1249,7 +1249,7 @@ msgstr ""
 msgid "This position requires a great degree of responsibility with varying time commitments depending on the specific role. Generally, you will have a great deal of experience as a Freecycle moderator before assuming a role in this team. Likely, you'll have gained experience previously in another team before doing a role here. It requires a high degree of attention to detail, and a great deal of diplomatic care in working to help educate local moderators regarding proper mark useage as well as in working with external entities. If you're interested, please contact the TM Team at %1"
 msgstr ""
 
-#. ("<a href=\"mailto:graphics@freecycle.org\">graphics@freecycle.org</a>")
+#. ("<a href=\"mailto:volunteer@freecycle.org\">volunteer at freecycle.org</a>")
 #: webapp_main/templates/source/about/volunteering.tt:22
 msgid "This position requires that you have graphic design abilities and a desire to help other local mods put together a nifty new graphic for their local graphics/description which incorporates our logo with nice surrounding graphics that reflect the spirit of the local community. It requires good interpersonal skills in working wtih local mods to figure out their wishes The time commitment varies greatly depending on your wishes to do more or less. This is a small team with creative design energy. It does not require a great deal of moderation experience. If you're interested, please contact the Graphics Team at %1"
 msgstr ""
@@ -1355,7 +1355,7 @@ msgid "We will not sell or exchange your personal information at any time. We wi
 msgstr ""
 
 #. (num_groups.chunk(-3).join(","), num_members.chunk(-3).join(","))
-#: webapp_main/templates/source/index.tt:17
+#: webapp_main/templates/source/index.tt:34
 msgid "Welcome! The Freecycle Network&trade; is made up of %1 groups with %2 members around the world, and next door to you. It's a grassroots and entirely nonprofit movement of people who are giving (and getting) stuff for free in their own towns and neighborhoods. It's all about reuse and keeping good stuff out of landfills. Each local group is moderated by local volunteers (them's good people). Membership is free. To sign up, find your community by entering it into the search box above or by clicking on 'Browse Groups' above the search box. Have fun!"
 msgstr ""
 
