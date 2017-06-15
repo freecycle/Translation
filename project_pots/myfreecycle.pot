@@ -412,7 +412,7 @@ msgid "If you're having problems with CAPTCHAs, you can check this box to reques
 msgstr ""
 
 #. (uri_for("Root", "signup"))
-#: webapp_myf/templates/source/index.tt:42
+#: webapp_myf/templates/source/index.tt:41
 msgid "If your email address hasn't been registered before, you can use the <a href='%1'>signup form</a> to create your new account for free"
 msgstr ""
 
@@ -429,7 +429,7 @@ msgstr ""
 msgid "In certain cases you may be required to change your password (usually if you have just signed up or requested a new password) - if you find yourself here unexpectedly, this may be the case.  Please check the web address in your browser to make sure it doesn't contain anything suspicious (a phishing attempt, for example) and if you're in <b>any</b> doubt then open a new browser window and type in 'freecycle.org' yourself."
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:49
+#: webapp_myf/templates/source/index.tt:48
 msgid "Incorrect username/password"
 msgstr ""
 
@@ -858,7 +858,7 @@ msgstr ""
 msgid "Subject :"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:72
+#: webapp_myf/templates/source/index.tt:71
 msgid "Temporary error with the third-party provider - they may be having issues authorising logins. Please try again later, or log in with your My Freecycle username and password to continue"
 msgstr ""
 
@@ -1039,13 +1039,11 @@ msgstr ""
 
 #. ("https://www.freecycle.org/login/forgotten_password")
 #: webapp_myf/templates/source/index.tt:40
-msgid ""
-"Try the \n"
-"<a href='%1'>forgotten password form</a> to reset your password."
+msgid "Try the <a href='%1'>forgotten password form</a> to reset your password."
 msgstr ""
 
 #. (e)
-#: webapp_myf/templates/source/index.tt:49
+#: webapp_myf/templates/source/index.tt:48
 msgid "Untrapped error '%1' - please report this!"
 msgstr ""
 
@@ -1222,7 +1220,7 @@ msgstr ""
 msgid "You currently do not have a \"home\" Group selected - please choose one from <a href=\"%1\">your Group Membership list</a>"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:71
+#: webapp_myf/templates/source/index.tt:70
 msgid "You didn't authorise the third-party application - unless you authorise My Freecycle to access your account details, we cannot log you in"
 msgstr ""
 
@@ -1315,7 +1313,7 @@ msgstr ""
 msgid "Your Facebook account is not linked to this My Freecycle account"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:70
+#: webapp_myf/templates/source/index.tt:69
 msgid "Your My Freecycle account is not associated - you need to log in with your My Freecycle username and password and associate your account before you can use a third-party login provider"
 msgstr ""
 
@@ -1365,7 +1363,7 @@ msgstr ""
 msgid "Your password has been successfully changed"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:68
+#: webapp_myf/templates/source/index.tt:67
 msgid "Your third-party login attempt failed - the most common causes are:"
 msgstr ""
 

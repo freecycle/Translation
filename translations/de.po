@@ -6659,13 +6659,8 @@ msgstr "Warenzeichen Tipps und Richtlinien"
 
 #. ("https://www.freecycle.org/login/forgotten_password")
 #: webapp_myf/templates/source/index.tt:40
-msgid ""
-"Try the \n"
-"<a href='%1'>forgotten password form</a> to reset your password."
-msgstr ""
-"Versuche es mit dem \n"
-"<a href='%1'>Passwort vergessen-Formular</a>, um Dein Passwort neu zu "
-"vergeben."
+msgid "Try the <a href='%1'>forgotten password form</a> to reset your password."
+msgstr "Versuche es mit dem <a href='%1'>Passwort vergessen-Formular</a>, um Dein Passwort neu zu vergeben."
 
 #: webapp_modtools/templates/perl/source/moderator_group_overview:130
 msgid "Turn off EFM"

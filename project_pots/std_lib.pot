@@ -306,8 +306,8 @@ msgstr ""
 msgid "Offers"
 msgstr ""
 
-#. (My Groups' tab - any invitations you have will be listed at the bottom.')
 #. (My, Groups, " tab - any invitations you have will be listed at the bottom.")
+#. (My Groups' tab - any invitations you have will be listed at the bottom.')
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_nonmyf_email:9
 msgid "Once you have set your account up, you can accept or decline this invitation by logging in to My Freecycle and viewing the "
 msgstr ""
@@ -350,8 +350,8 @@ msgid ""
 "The subject line for your email was:"
 msgstr ""
 
-#. (My Groups' tab,search for your local group and join it.If you have any difficulties please write to support@freecycle.orgThanks for joining!')
 #. (My, Groups, " tab,\nsearch for your local group and join it.\n\nIf you have any difficulties please write to support@freecycle.org\n\nThanks for joining!")
+#. (My Groups' tab,search for your local group and join it.If you have any difficulties please write to support@freecycle.orgThanks for joining!')
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_member_created_okay_email.tpl:11 core_modules/lib/Freecycle/standard_templates/source/email/standard_member_created_okay_email.tpl:6
 msgid ""
 "Please now return to the page http://my.freecycle.org and log in using\n"
@@ -585,8 +585,8 @@ msgstr ""
 msgid "The reporter gave the following reason:"
 msgstr ""
 
-#. ((postlist.size == 1 ? c.loc('has')
 #. ((postlist.size eq 1 ? c.loc("has") : c.loc("have")), postlist.size, (postlist.size eq 1 ? c.loc("post") : c.loc("posts")))
+#. ((postlist.size == 1 ? c.loc('has')
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6 core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:71
 msgid "There %1 been %2 %3 since the last digest"
 msgstr ""
@@ -830,8 +830,8 @@ msgstr ""
 msgid "Your username is: %1"
 msgstr ""
 
-#. ('http://moderator.freecycle.org/manage/' _ unique_groupname _ '/members/pending')
 #. ("http://moderator.freecycle.org/manage/' _ unique_groupname _ '/members/pending")
+#. ('http://moderator.freecycle.org/manage/' _ unique_groupname _ '/members/pending')
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_member_email:7
 msgid "approve pending members at %1"
 msgstr ""

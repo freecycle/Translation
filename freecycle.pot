@@ -2090,7 +2090,7 @@ msgid ""
 msgstr ""
 
 #. (uri_for("Root", "signup"))
-#: webapp_myf/templates/source/index.tt:42
+#: webapp_myf/templates/source/index.tt:41
 msgid ""
 "If your email address hasn't been registered before, you can use the <a "
 "href='%1'>signup form</a> to create your new account for free"
@@ -2218,7 +2218,7 @@ msgstr ""
 msgid "Incorporation"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:49
+#: webapp_myf/templates/source/index.tt:48
 #: webapp_main/templates/source/login/index.tt:19
 msgid "Incorrect username/password"
 msgstr ""
@@ -3117,8 +3117,8 @@ msgstr ""
 msgid "On leaving"
 msgstr ""
 
-#. (My Groups' tab - any invitations you have will be listed at the bottom.')
 #. (My, Groups, " tab - any invitations you have will be listed at the bottom.")
+#. (My Groups' tab - any invitations you have will be listed at the bottom.')
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_nonmyf_email:9
 msgid ""
 "Once you have set your account up, you can accept or decline this invitation "
@@ -3523,8 +3523,8 @@ msgid ""
 "Moderators."
 msgstr ""
 
-#. (My Groups' tab,search for your local group and join it.If you have any difficulties please write to support@freecycle.orgThanks for joining!')
 #. (My, Groups, " tab,\nsearch for your local group and join it.\n\nIf you have any difficulties please write to support@freecycle.org\n\nThanks for joining!")
+#. (My Groups' tab,search for your local group and join it.If you have any difficulties please write to support@freecycle.orgThanks for joining!')
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_member_created_okay_email.tpl:11
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_member_created_okay_email.tpl:6
 msgid ""
@@ -4481,7 +4481,7 @@ msgid ""
 "as good as the sum of our parts so we want to attract good parts, right?"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:72
+#: webapp_myf/templates/source/index.tt:71
 msgid ""
 "Temporary error with the third-party provider - they may be having issues "
 "authorising logins. Please try again later, or log in with your My Freecycle "
@@ -5140,8 +5140,8 @@ msgstr ""
 msgid "The username/email combination could not be found in the database."
 msgstr ""
 
-#. ((postlist.size == 1 ? c.loc('has')
 #. ((postlist.size eq 1 ? c.loc("has") : c.loc("have")), postlist.size, (postlist.size eq 1 ? c.loc("post") : c.loc("posts")))
+#. ((postlist.size == 1 ? c.loc('has')
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:71
 msgid "There %1 been %2 %3 since the last digest"
@@ -5638,8 +5638,7 @@ msgstr ""
 #. ("https://www.freecycle.org/login/forgotten_password")
 #: webapp_myf/templates/source/index.tt:40
 msgid ""
-"Try the \n"
-"<a href='%1'>forgotten password form</a> to reset your password."
+"Try the <a href='%1'>forgotten password form</a> to reset your password."
 msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_group_overview:130
@@ -5765,7 +5764,7 @@ msgid "Unsubscribe from the Group"
 msgstr ""
 
 #. (e)
-#: webapp_myf/templates/source/index.tt:49
+#: webapp_myf/templates/source/index.tt:48
 msgid "Untrapped error '%1' - please report this!"
 msgstr ""
 
@@ -6410,7 +6409,7 @@ msgid ""
 "<a href=\"%1\">your Group Membership list</a>"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:71
+#: webapp_myf/templates/source/index.tt:70
 msgid ""
 "You didn't authorise the third-party application - unless you authorise My "
 "Freecycle to access your account details, we cannot log you in"
@@ -6617,7 +6616,7 @@ msgstr ""
 msgid "Your My Freecycle account has been created"
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:70
+#: webapp_myf/templates/source/index.tt:69
 msgid ""
 "Your My Freecycle account is not associated - you need to log in with your "
 "My Freecycle username and password and associate your account before you can "
@@ -6789,7 +6788,7 @@ msgid ""
 "details on record."
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:68
+#: webapp_myf/templates/source/index.tt:67
 msgid "Your third-party login attempt failed - the most common causes are:"
 msgstr ""
 
@@ -6816,8 +6815,8 @@ msgstr ""
 msgid "ago"
 msgstr ""
 
-#. ('http://moderator.freecycle.org/manage/' _ unique_groupname _ '/members/pending')
 #. ("http://moderator.freecycle.org/manage/' _ unique_groupname _ '/members/pending")
+#. ('http://moderator.freecycle.org/manage/' _ unique_groupname _ '/members/pending')
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_member_email:7
 msgid "approve pending members at %1"
 msgstr ""
