@@ -208,7 +208,7 @@ msgstr ""
 msgid "Available timezones"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/delete_file.tt:30 webapp_modtools/templates/source/manage/files/send_file.tt:30
+#: webapp_modtools/templates/source/manage/files/delete_file.tt:30 webapp_modtools/templates/source/manage/files/send_file.tt:31
 msgid "Back to file list"
 msgstr ""
 
@@ -228,7 +228,7 @@ msgstr ""
 msgid "CANCELLED"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/delete_file.tt:20 webapp_modtools/templates/source/manage/files/edit.tt:85 webapp_modtools/templates/source/manage/files/send_file.tt:20
+#: webapp_modtools/templates/source/manage/files/delete_file.tt:20 webapp_modtools/templates/source/manage/files/edit.tt:85 webapp_modtools/templates/source/manage/files/send_file.tt:21
 msgid "Cancel"
 msgstr ""
 
@@ -411,7 +411,7 @@ msgstr ""
 msgid "Email on pending"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/send_file.tt:27
+#: webapp_modtools/templates/source/manage/files/send_file.tt:28
 msgid "Email queued for sending"
 msgstr ""
 
@@ -1559,7 +1559,7 @@ msgstr ""
 msgid "This file has been deleted from the Group"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/send_file.tt:29
+#: webapp_modtools/templates/source/manage/files/send_file.tt:30
 msgid "This file has been queued for sending by the bulk email system, and will be processed as soon as possible."
 msgstr ""
 
@@ -1600,7 +1600,7 @@ msgstr ""
 msgid "This will permanently delete the file from the Group - are you sure you want to do this?"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/send_file.tt:17
+#: webapp_modtools/templates/source/manage/files/send_file.tt:18
 msgid "This will send the Group file to ALL Members of this Group - are you sure you want to do this?"
 msgstr ""
 
@@ -1790,7 +1790,7 @@ msgstr ""
 msgid "Yes, delete it"
 msgstr ""
 
-#: webapp_modtools/templates/source/manage/files/send_file.tt:19
+#: webapp_modtools/templates/source/manage/files/send_file.tt:20
 msgid "Yes, send it"
 msgstr ""
 
