@@ -183,6 +183,10 @@ msgstr ""
 msgid "Additionally, you agree not to:"
 msgstr ""
 
+#: webapp_main/templates/source/group/posts/display_post.tt:102 webapp_main/templates/source/group/posts/display_post.tt:164
+msgid "All Freecycle items are gifted freely and are for direct pickup. Avoid scams: Don't send payment for any reason, including 'delivery' costs. Further updates <a href='https://wiki.freecycle.org/Spam_and_scams'>here</a>"
+msgstr ""
+
 #: webapp_main/templates/source/about/staff.tt:29
 msgid "Also in each American state, Canadian province, and country worldwide, there is a New Group Approver. The NGAs evaluate the need for, assist and approve new Freecycle groups. Jackie is the NGA Coordinator. Handling her TFN duties are a piece of cake since the experience with her children has helped her develop a get-to-the-point working mentality and much provided her with much experience on handling temper tantrums. She keeps the tech boys hopping because anytime she sees an error from the NGA POV, she lets them know. (ngacoordinator@freecycle.org)"
 msgstr ""
@@ -593,7 +597,7 @@ msgstr ""
 msgid "Mentor Mods Team Member (MMods)"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:174
+#: webapp_main/templates/source/group/posts/display_post.tt:181
 msgid "Message not found"
 msgstr ""
 
@@ -621,7 +625,7 @@ msgstr ""
 msgid "Message to send"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:154
+#: webapp_main/templates/source/group/posts/display_post.tt:158
 msgid "Message to send to the person who made this Post:"
 msgstr ""
 
@@ -641,7 +645,7 @@ msgstr ""
 msgid "Monthly donation"
 msgstr ""
 
-#: webapp_main/templates/source/about/funds.tt:18
+#: webapp_main/templates/source/about/funds.tt:16
 msgid "Most recent Form 990"
 msgstr ""
 
@@ -661,7 +665,7 @@ msgstr ""
 msgid "Newswire"
 msgstr ""
 
-#: webapp_main/templates/source/form990/form.tt:45 webapp_main/templates/source/group/posts/display_post.tt:141
+#: webapp_main/templates/source/form990/form.tt:45 webapp_main/templates/source/group/posts/display_post.tt:145
 msgid "Next"
 msgstr ""
 
@@ -713,16 +717,12 @@ msgstr ""
 msgid "Our Commitment to Privacy"
 msgstr ""
 
-#: webapp_main/templates/source/about/funds.tt:13
-msgid "Our expenses of about $130,000 are mainly in the paying of four individuals and the maintenance of our current website and design of the new community. These individuals include the executive director, two contractors responsible for the current web community and one contractor for the new website design project. We have several servers to this end, coding expense and related site-design expenses. We also are incurring substantial legal expense, primarily in defending our trademark."
-msgstr ""
-
 #: webapp_main/templates/source/about/missionstatement.tt:11
 msgid "Our mission is to build a worldwide sharing movement that reduces waste, saves precious resources & eases the burden on our landfills while enabling our members to benefit from the strength of a larger community."
 msgstr ""
 
-#: webapp_main/templates/source/about/funds.tt:15
-msgid "Our model is much like that of PBS. We seek to provide a free public forum for our members, and seek grants, underwriting and voluntary donations to fund these efforts. It's a rather unique model for a website, but The Freecycle Network is a unique organization. As we further develop community reuse and recycling on a globally local scale in over 70 countries we are creating a global gift economy in the process. <strong>Simply beautiful how one can change the world, one gift at a time</strong>."
+#: webapp_main/templates/source/about/funds.tt:13
+msgid "Our model is much like that of PBS. We seek to provide a free public forum for our members, and seek grants, underwriting and voluntary donations to fund these efforts. It's a rather unique model for a website, but The Freecycle Network is a unique organization. As we further develop community reuse and recycling on a globally local scale in over 110 countries we are creating a global gift economy in the process. <strong>Simply beautiful how one can change the world, one gift at a time</strong>."
 msgstr ""
 
 #: webapp_main/templates/source/form990/form.tt:28
@@ -750,7 +750,7 @@ msgstr ""
 msgid "Please enter some keywords to search for"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:126
+#: webapp_main/templates/source/group/posts/display_post.tt:130
 msgid "Please indicate why you feel this Post is inappropriate:"
 msgstr ""
 
@@ -759,7 +759,7 @@ msgid "Please let us know why you think this link is an issue:"
 msgstr ""
 
 #. ("http://www.freecycle.org/faq/faq/faq_guidelines")
-#: webapp_main/templates/source/group/posts/display_post.tt:129
+#: webapp_main/templates/source/group/posts/display_post.tt:133
 msgid "Please note that required guidelines are posted in each Group as well as centrally <a href=\"%1\">in the FAQ</a> and while you may personally feel that a Post is inappropriate it may still be following these Guidelines. You are advised to read the rules and any ADMINs that have been posted before submitting reports."
 msgstr ""
 
@@ -810,7 +810,7 @@ msgstr ""
 msgid "Press Room"
 msgstr ""
 
-#: webapp_main/templates/source/form990/form.tt:41 webapp_main/templates/source/group/posts/display_post.tt:138
+#: webapp_main/templates/source/form990/form.tt:41 webapp_main/templates/source/group/posts/display_post.tt:142
 msgid "Previous"
 msgstr ""
 
@@ -870,11 +870,11 @@ msgstr ""
 msgid "Related Documents"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:153
+#: webapp_main/templates/source/group/posts/display_post.tt:157
 msgid "Reply to this Post"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:124 webapp_main/templates/source/group/posts/display_post.tt:130
+#: webapp_main/templates/source/group/posts/display_post.tt:128 webapp_main/templates/source/group/posts/display_post.tt:134
 msgid "Report as inappropriate"
 msgstr ""
 
@@ -923,7 +923,7 @@ msgstr ""
 msgid "Send"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:157
+#: webapp_main/templates/source/group/posts/display_post.tt:161
 msgid "Send Message"
 msgstr ""
 
@@ -1017,7 +1017,7 @@ msgstr ""
 msgid "The Center for a New American Dream helps Americans consume responsibly to protect the environment, enhance quality of life, and promote social justice."
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:32 webapp_main/templates/lib/standard_page.tt:8 webapp_main/templates/source/about/background.tt:8 webapp_main/templates/source/donate.tt:11
+#: webapp_main/templates/lib/standard_page.tt:34 webapp_main/templates/lib/standard_page.tt:8 webapp_main/templates/source/about/background.tt:8 webapp_main/templates/source/donate.tt:11
 msgid "The Freecycle Network"
 msgstr ""
 
@@ -1121,7 +1121,7 @@ msgid "The Freecycle Network&trade; provides online resources, including free gi
 msgstr ""
 
 #: webapp_main/templates/source/about/funds.tt:11
-msgid "The Freecycle Network's current annual budget is running at about $140,000 in income. The funding comes from corporate underwriting, on-site advertising (in the form of a Google sponsor bar), grants and <a href='https://www.freecycle.org/donate' title='donate'>individual donations</a>. Approximately 90% of these funds are used directly for program expenses. The remaining 10% is split evenly between membership, fundraising and other administrative expenses. Our IRS 990s are posted at the hotlink below as well as on Guidestar.com. We are delighted to report that we have now received our 501(c)3 status from the IRS (11/06) and that donations to The Freecycle Network are tax-deductible! We likewise are a charity in the UK. Further, we are registered as a nonprofit corporation in the State of Arizona. Tax deductibility is retroactive to our application date in July of 2004.Members can show support for the mission of the Freecycle Network by <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KRKYQ7CC8LB5W' title='Donate'>making a one dollar donation today</a>.</p>"
+msgid "The Freecycle Network's current annual budget is running at about $275,000 in income. The funding comes from corporate underwriting, on-site advertising royalties, grants and <a href='https://www.freecycle.org/donate' title='donate'>individual donations</a>. Approximately 90% of these funds are used directly for program expenses. The remaining 10% is split evenly between membership, fundraising and other administrative expenses. Our IRS 990s are posted at the hotlink below as well as on Guidestar.com. The Freecycle Network is a charitable nonprofit with our 501(c)3 status from the IRS. As such, donations to The Freecycle Network are tax-deductible. Members can show support for the mission of the Freecycle Network by <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KRKYQ7CC8LB5W' title='Donate'>making a donation today</a>."
 msgstr ""
 
 #: webapp_main/templates/source/about/background.tt:9
@@ -1144,15 +1144,15 @@ msgstr ""
 msgid "The Internet Consumer Recycling Guide"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:176
+#: webapp_main/templates/source/group/posts/display_post.tt:183
 msgid "The Post ID is invalid - either the Post does not exist, it is closed, or it does not belong to this Group."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:176
+#: webapp_main/templates/source/group/posts/display_post.tt:183
 msgid "The Post has been deleted."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:176
+#: webapp_main/templates/source/group/posts/display_post.tt:183
 msgid "The Post is still awaiting approval by a Group Moderator."
 msgstr ""
 
@@ -1221,7 +1221,7 @@ msgstr ""
 msgid "This Group has no files for you to view"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:176
+#: webapp_main/templates/source/group/posts/display_post.tt:183
 msgid "This Post has been closed ."
 msgstr ""
 
@@ -1488,7 +1488,7 @@ msgstr ""
 msgid "call2recycle"
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:33
+#: webapp_main/templates/lib/standard_page.tt:35
 msgid "changing the world<br />one gift at a time&trade;"
 msgstr ""
 
@@ -1512,7 +1512,7 @@ msgstr ""
 msgid "go"
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:32
+#: webapp_main/templates/lib/standard_page.tt:34
 msgid "logo of The Freecycle Network"
 msgstr ""
 
