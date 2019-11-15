@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: Freecycle.org\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-03 16:30-0700\n"
-"PO-Revision-Date: 2019-09-03 16:36-0700\n"
+"PO-Revision-Date: 2019-11-15 15:53+0100\n"
 "Last-Translator: Steev Hise <steev@freecycle.org>\n"
 "Language-Team: French <steev@freecycle.org>\n"
 "Language: fr\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.2.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: core_modules/lib/Freecycle/Email.pm:506
@@ -48,7 +48,7 @@ msgid ""
 "who sent this.  Cancel and use one of the other 2 methods described above to "
 "reply."
 msgstr ""
-"NOTE : Votre outil de mail pourrait ne pas reconnaître le champ ReplyTo de "
+" NOTE : Votre outil de mail pourrait ne pas reconnaître le champ ReplyTo de "
 "l'entête. Si vous faites \"Répondre à\" et qu'il y a \"email_relay@freecycle."
 "org\" dans le champ Destinataire, ce message n'arrivera pas à la personne "
 "qui a envoyé le message. Annulez l'envoi et utilisez l'une des deux méthodes "
@@ -59,14 +59,14 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:59
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:59
 msgid " (closed)"
-msgstr "(clos)"
+msgstr " (clos)"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:48
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:60
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:60
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:60
 msgid " (pending)"
-msgstr "(en attente)"
+msgstr " (en attente)"
 
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:22
 msgid ""
@@ -75,7 +75,7 @@ msgid ""
 "   <li>In JPEG or GIF format</li>\n"
 "   <li>Less that 256Kb in size</li>"
 msgstr ""
-"Les logos personnalisés <b>doivent</b> être;\n"
+" Les logos personnalisés <b>doivent</b> être;\n"
 "   <ul>\n"
 "   <li>Au format JPEG ou GIF</li>\n"
 "   <li>de taille inférieure à 256Kb</li>"
@@ -85,24 +85,23 @@ msgid ""
 " Deletions happen before resends, so be careful when putting in the numbers. "
 "If in doubt, delete first and then resend."
 msgstr ""
-"Les suppressions se font avant les renvois, soyez donc attentifs quand vous "
+" Les suppressions se font avant les renvois, soyez donc attentifs quand vous "
 "saisissez les nombres. En cas de doute, supprimez d'abord, puis renvoyez."
 
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:28
 msgid " Or, delete current logo?"
-msgstr "Supprimer le logo?"
+msgstr " Supprimer le logo?"
 
 #. (group.name, group.region)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:2
-#, fuzzy
 msgid ""
 " To respond to any of these posts in %1, %2, please use the links below - "
 "do\n"
 "                      not reply directly to this email"
 msgstr ""
-"Pour répondre à l'un de ces message, veuillez utiliser les liens ci-"
-"dessous \n"
-"Ne répondez pas directement à ce mail."
+" Pour répondre à l'une de ces annonces de %1, %2, veuillez utiliser les "
+"liens ci-dessous \n"
+"Ne répondez pas directement à cet email"
 
 #. ($member->getUsername()
 #. ($poster->getUsername()
@@ -207,7 +206,7 @@ msgstr "(taille max : 1 ko)"
 # missing a parenthesis in english
 #: webapp_modtools/templates/perl/source/moderator_post_admin_form:11
 msgid "(not available for Yahoo!Groups"
-msgstr "Non disponible pour les Groupes Yahoo!"
+msgstr "(non disponible pour les Groupes Yahoo!"
 
 #: webapp_myf/templates/source/home/info/index.tt:50
 msgid "(not set)"
@@ -459,7 +458,7 @@ msgid ""
 "for an orphanage in Haiti. FedEx donated the shipping!"
 msgstr ""
 "Un camion plein de couches, vêtements et fournitures a été collecté grâce à "
-"Freecycle pour un orphelinat à Haïti. FedEx a offert le transport! "
+"Freecycle pour un orphelinat à Haïti. FedEx a offert le transport!"
 
 #: core_modules/lib/Freecycle/Email.pm:499
 #: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:111
@@ -597,10 +596,9 @@ msgid ""
 "Further updates <a href='https://wiki.freecycle.org/Spam_and_scams'>here</a>"
 msgstr ""
 "Tous les articles Freecycle sont offerts gratuitement et sont à ramasser "
-"directement.\n"
-"Évitez les escroqueries : N'envoyez pas de paiement pour quelque raison que "
-"ce soit, y compris pour la \"livraison.\" Plus d'informations <a "
-"href='https://wiki.freecycle.org/Spam_and_scams'>ici.</a>"
+"directement. Évitez les escroqueries : N'envoyez pas de paiement pour "
+"quelque raison que ce soit, y compris pour la \" livraison \". Plus "
+"d'informations <a href='https://wiki.freecycle.org/Spam_and_scams'>ici</a>"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:7
 msgid ""
@@ -609,9 +607,9 @@ msgid ""
 "Further updates here: "
 msgstr ""
 "Tous les articles Freecycle sont offerts gratuitement et sont à ramasser "
-"directement.\n"
-"Évitez les escroqueries : N'envoyez pas de paiement pour quelque raison que "
-"ce soit, y compris pour la \"livraison.\" Plus d'informations ici."
+"directement. Évitez les escroqueries : N'envoyez pas de paiement pour "
+"quelque raison que ce soit, y compris pour la \" livraison \". Plus "
+"d'informations ici : "
 
 #: webapp_myf/templates/lib/box_tabbar.tt:3
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:0
@@ -685,7 +683,7 @@ msgid ""
 "admins@freecycle.org"
 msgstr ""
 "Une erreur non reconnue s'est produite : '%1' - merci de bien vouloir "
-"envoyer ce code à server.admins@freecycle.org."
+"envoyer ce code à server.admins@freecycle.org"
 
 #. (e)
 #: webapp_myf/templates/source/home/posts/display_issues.tt:1
@@ -694,12 +692,11 @@ msgid ""
 "admins@freecycle.org"
 msgstr ""
 "Une erreur non reconnue s'est produite : '%1' - merci de bien vouloir "
-"envoyer un email à server.admins@freecycle.org pour nous en informer."
+"envoyer un email à server.admins@freecycle.org pour nous en informer"
 
 #: webapp_main/templates/source/about/staff.tt:33
-#, fuzzy
 msgid "And, finally there are Steev, Adam, and Nigel, our Tech Gurus."
-msgstr "Et voici Richard et Nigel, no gourous du web. (et Steev)"
+msgstr "Et enfin, il y a Steev, Adam et Nigel, nos gourous de la technologie."
 
 #: webapp_main/templates/source/about/staff.tt:25
 msgid ""
@@ -731,7 +728,7 @@ msgstr ""
 "y a aussi 6 ou 8 chefs qui font un super travail en aidant les autres "
 "équipes à faire leur job. (Il y a aussi quelques comités adéquats mis en "
 "place pour traiter les problèmes). Il y a encore quelques autres bénévoles "
-"qui aident à gérer le site web et notre base de données. "
+"qui aident à gérer le site web et notre base de données."
 
 #: webapp_modtools/templates/source/manage/files/automatic.tt:14
 msgid "Applying to join"
@@ -791,7 +788,7 @@ msgstr ""
 "tours dans le coin pour en faire profiter des organisations caritatives. En "
 "pensant qu'il devait y avoir un meilleur moyen, Beal a créé la première "
 "mailing-liste Freecycle de façon à ce que les personnes de Tucson puissent "
-"donner et recevoir. Freecycle était lancé. "
+"donner et recevoir. Freecycle était lancé."
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:321
 msgid "Ascending"
@@ -806,7 +803,7 @@ msgstr ""
 "Lors d'un événement local d'aide après un ouragan \"Hurricane Help Project\" "
 "organisé par Freecycle, une centaine de membres d'une communauté locale ont "
 "aidé des victimes d'un ouragan en fournissant des meubles et des fournitures "
-"gratuites. "
+"gratuites."
 
 #. ($post->getPostID()
 #: core_modules/lib/Freecycle/Email.pm:4413
@@ -824,11 +821,11 @@ msgstr "Envoi automatique des fichiers du groupe"
 
 #: webapp_modtools/templates/perl/source/moderator/options/main.tt:79
 msgid "Automatically expire OFFER posts after :"
-msgstr "Les annonces OFFRE expirent automatiquement après: "
+msgstr "Les annonces OFFRE expirent automatiquement après :"
 
 #: webapp_modtools/templates/perl/source/moderator/options/main.tt:83
 msgid "Automatically expire WANTED posts after :"
-msgstr "Les annonces CHERCHE expirent automatiquement après: "
+msgstr "Les annonces CHERCHE expirent automatiquement après :"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_displaytimezones:14
 #: webapp_modtools/templates/perl/source/moderator_displaytimezones:14
@@ -868,7 +865,7 @@ msgstr ""
 "transmettre vos données personnelles. Si vous nous avez fourni ces données "
 "de façon électronique, et souhaitez que nous les supprimions ou les "
 "corrigions, contactez-nous. Nous ferons tout ce qui est raisonnablement "
-"nécessaire pour accéder à votre requête. "
+"nécessaire pour accéder à votre requête."
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:43
 #: webapp_main/templates/source/about/board.tt:4
@@ -900,7 +897,7 @@ msgstr ""
 "possède un BS en service diplomatique de l'université de Georgetown, et un "
 "MBA en management international de Thunderbid. Il a passé plusieurs années à "
 "vivre, étudier et travailler en Allemagne. C'est un grand verre d'eau et il "
-"adore les chats. "
+"adore les chats"
 
 #: webapp_main/templates/source/about/board.tt:17
 msgid ""
@@ -941,7 +938,7 @@ msgstr ""
 "travaillé pour Greenpeace USA à Washington DC. Ses années dans les "
 "organisation à but non lucratif sont un incomparable atout pour nous. Et "
 "pour tout vous dire et avec fierté, il se trouve aussi que Jennifer est "
-"mariée avec Deron. "
+"mariée avec Deron."
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:18
 #: webapp_modtools/templates/perl/source/moderator_group_admins_view:26
@@ -954,7 +951,7 @@ msgstr "Corps"
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_nomember_email:11
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_notamember_email:11
 msgid "Body:"
-msgstr "Corps : "
+msgstr "Corps :"
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:11
 msgid "Browse Groups"
@@ -975,7 +972,7 @@ msgstr ""
 "sens d'esprit de générosité tout en renforçant les liens de la communauté "
 "locale, et ils promeuvent le maintien de l'environnement et la "
 "réutilisation. Des personnes de tout horizon se sont ainsi rejoint pour "
-"transformer des déchets en trésors. "
+"transformer des déchets en trésors."
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:115
 msgid "CANCEL"
@@ -998,7 +995,7 @@ msgstr ""
 "produits de Californie) : Ce site est bardé de bonnes idées à propos de la "
 "gérance de produits aussi bien que pour le recyclage et les idées de "
 "réutilisation. C'est entièrement consacré au <strong>cycle </strong> de "
-"production et l'élimination des déchets. "
+"production et l'élimination des déchets."
 
 #: webapp_main/templates/source/about/links.tt:16
 msgid "California Product Stewardship Council"
@@ -1057,7 +1054,7 @@ msgstr "Changer les critères de la liste"
 
 #: webapp_myf/templates/source/home/groups/home.tt:18
 msgid "Change my 'home' Group to: "
-msgstr "Modifier mon groupe 'local' en :"
+msgstr "Modifier mon groupe 'local' en : "
 
 #: webapp_myf/templates/source/home/info/index.tt:139
 msgid "Change password"
@@ -1110,11 +1107,11 @@ msgid ""
 msgstr ""
 "Les enfants peuvent participer avec l'accord et la supervision de leurs "
 "parents/tuteurs. Freecycle.org ne souhaite pas collecter d'information "
-"d'individus de moins de 13 ans. "
+"d'individus de moins de 13 ans."
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_overview:21
 msgid "Closed"
-msgstr "fermé"
+msgstr "Fermé"
 
 #: webapp_modtools/templates/source/agreement.tt:1
 #: webapp_modtools/templates/source/agreement.tt:11
@@ -1123,7 +1120,7 @@ msgstr "Accord d'utilisation de la marque d'association collective"
 
 #: webapp_myf/templates/source/signup.tt:40
 msgid "Confirm email address :"
-msgstr "confirmer votre adresse e-mail :"
+msgstr "Confirmer votre adresse e-mail :"
 
 #: webapp_myf/templates/source/home/info/change_email_address.tt:33
 msgid "Confirm new email address:"
@@ -1131,7 +1128,7 @@ msgstr "Confirmez la nouvelle adresse e-mail :"
 
 #: webapp_myf/templates/source/home/info/change_password.tt:31
 msgid "Confirm new password:"
-msgstr "Confirmez votre mot de passe"
+msgstr "Confirmez votre mot de passe :"
 
 #: webapp_myf/templates/source/signup.tt:49
 msgid "Confirm password"
@@ -1157,7 +1154,7 @@ msgstr "Contacter les modérateurs"
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:69
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:96
 msgid "Contact your Group Moderators"
-msgstr "Contactez les modérateurs de votre groupe."
+msgstr "Contactez les modérateurs de votre groupe"
 
 #: webapp_myf/templates/lib/standard_footer.tt:20
 msgid "Copyright"
@@ -1202,7 +1199,7 @@ msgstr ""
 
 #: templates/source/index.tt:66 templates/source/search_box.tt:55
 msgid "Country : "
-msgstr "Pays :"
+msgstr "Pays : "
 
 #: webapp_modtools/templates/perl/source/moderator_post_admin_form:26
 msgid "Create ADMIN"
@@ -1234,7 +1231,7 @@ msgstr ""
 "cas, ni les propriétaires de la liste, ni les modérateurs, ni aucune "
 "personne affiliée au réseau Freecycle ne pourront être tenus responsables de "
 "tout événement résultant d’un échange ou d’une communication en liaison avec "
-"Freecycle.  "
+"Freecycle."
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:63
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:110
@@ -1246,7 +1243,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:27
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:27
 msgid "Date"
-msgstr "Date: "
+msgstr "Date"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_edit_form:56
 msgid "Date (YYYY-MM-DD)"
@@ -1254,11 +1251,12 @@ msgstr "Date (AAAA-MM-JJ)"
 
 #: webapp_main/templates/source/group/posts/display_post.tt:83
 msgid "Date :"
-msgstr "Date: "
+msgstr "Date :"
 
 #: webapp_modtools/templates/perl/source/moderator/options/main.tt:71
 msgid "Default email delivery option for new Members : "
-msgstr "Option de réception des e-mails par défaut pour les nouveaux membres :"
+msgstr ""
+"Option de réception des e-mails par défaut pour les nouveaux membres : "
 
 #: webapp_myf/templates/source/home/info/default_location.tt:18
 #: webapp_myf/templates/source/home/info/index.tt:49
@@ -1370,7 +1368,7 @@ msgstr "Condensé"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:3
 msgid "Direct link to group pending posts:"
-msgstr "Accès direct aux messages en attente du groupe : "
+msgstr "Accès direct aux annonces en attente du groupe :"
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:46
 #: webapp_main/templates/source/about/disclaimer.tt:5
@@ -1408,7 +1406,7 @@ msgid ""
 msgstr ""
 "Avez-vous une compétence qui ferait de vous un bon bénévole pour Freecycle? "
 "Nous sommes toujours à la recherche d'un coup de main dans des domaines "
-"comme les arts graphiques, la collecte de fonds, et le réseau. Contact %1  "
+"comme les arts graphiques, la collecte de fonds, et le réseau. Contact %1"
 
 #: webapp_main/templates/source/about/volunteering.tt:15
 msgid ""
@@ -1538,7 +1536,7 @@ msgstr "A propos de Freecycle"
 #. (region.country.country_name)
 #: webapp_main/templates/source/browse/group_list.tt:14
 msgid "Elsewhere"
-msgstr "Ailleurs "
+msgstr "Ailleurs"
 
 #. (email)
 #: webapp_myf/templates/source/home/info/index.tt:48
@@ -1564,7 +1562,7 @@ msgstr "Adresse e-mail :"
 msgid "Email address invalid - an error was returned when it was checked"
 msgstr ""
 "Adresse e-mail incorrecte - nous avons reçu une erreur lors de la "
-"vérification de l'adresse."
+"vérification de l'adresse"
 
 #: webapp_myf/templates/source/home/groups/index.tt:138
 #: webapp_myf/templates/source/home/groups/options_display.tt:84
@@ -1589,7 +1587,7 @@ msgstr "Vos préférences d'e-mail"
 msgid "Email queued for sending"
 msgstr ""
 "Une erreur est survenue lors de l'envoi de l'e-mail de notification. E-mail "
-"en attente."
+"en attente"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:54
 msgid "Emails"
@@ -1607,7 +1605,7 @@ msgid ""
 "this can be extended by hitting the button again.\n"
 "<b>It is intended for short-term use only.</b>"
 msgstr ""
-"La modération d'urgence bloquera tous les messages envoyés au groupe et les "
+"La modération d'urgence bloquera tous les annonces envoyés au groupe et les "
 "placera en attente, jusqu'à l'approbation d'un modérateur. Cette option \n"
 "est une <b>mesure d'urgence</b> et ne dure que 3 jours, cependant vous "
 "pouvez la renouveler en rappuyant sur le bouton. \n"
@@ -1627,7 +1625,7 @@ msgstr "Nouveau mot de passe :"
 
 #: webapp_myf/templates/source/home/groups/contact_mods_form.tt:52
 msgid "Error sending email!"
-msgstr "Erreur lors de l'envoi de l'e-mail"
+msgstr "Erreur lors de l'envoi de l'e-mail !"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:17
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:35
@@ -1669,7 +1667,7 @@ msgid ""
 "instructions on how to use it correctly here:"
 msgstr ""
 "FREECYCLE est un mot protégé par une marque déposée. Nous vous donnons des "
-"explications sur comment bien l'utiliser ici : "
+"explications sur comment bien l'utiliser ici :"
 
 #: webapp_modtools/templates/source/manage/files/automatic.tt:59
 msgid "File ID"
@@ -1716,7 +1714,7 @@ msgstr "Fichiers pour le groupe %1"
 
 #: webapp_myf/templates/source/home_group_box_search.tt:15
 msgid "Find a group near you :"
-msgstr "Trouver un groupe près de chez vous"
+msgstr "Trouver un groupe près de chez vous :"
 
 #: webapp_myf/templates/source/home_group_box_search.tt:21
 msgid "Find group"
@@ -1730,10 +1728,12 @@ msgstr "Trouver d'autres groupes"
 #: webapp_myf/templates/lib/standard_footer.tt:10
 msgid "For concerns regarding your data protection, please click %1"
 msgstr ""
+"Pour toute question concernant la protection de vos données, veuillez "
+"cliquer %1"
 
 #: webapp_main/templates/source/about/pressroom.tt:12
 msgid "For inquiries please contact:"
-msgstr "Pour toute questions veuillez contacter : "
+msgstr "Pour toute questions veuillez contacter :"
 
 #. ("http://faq.freecycle.org/faq/?menu=manual/required")
 #: webapp_main/templates/source/tos.tt:65
@@ -1772,8 +1772,7 @@ msgid ""
 "page."
 msgstr ""
 "Si vous avez des questions sur les groupes, veuillez contacter le modérateur "
-"de votre groupe local. Son email est noté en haut de la page \"Annonces\" de "
-"votre groupe."
+"de votre groupe local via le lien en haut de la page \"Annonces\"."
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:73
 msgid "Force people to put something in the description box?"
@@ -1781,7 +1780,7 @@ msgstr "Obliger à indiquer quelque chose dans la boîte de description?"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:43
 msgid "Force people to put something in the location box"
-msgstr "Obliger à indiquer quelque chose dans la boîte du lieu ?"
+msgstr "Obliger à indiquer quelque chose dans la boîte du lieu"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:13
 msgid "Force people to put something in the subject line?"
@@ -1842,7 +1841,7 @@ msgstr ""
 "meilleur endroit, à un niveau local et basique, en préservant "
 "l'environnement en empêchant des tonnes d'objets réutilisable de finir à la "
 "décharge. C'est un cercle vertueux de don, pas de la charité. Tout le monde "
-"donne à tout le monde avec aucune attente en retour. "
+"donne à tout le monde avec aucune attente en retour."
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:44
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:61
@@ -1851,6 +1850,8 @@ msgstr ""
 msgid ""
 "Freecycle has updated its privacy policy! You can see it by clicking here"
 msgstr ""
+"Freecycle a mis à jour sa Politique de Confidentialité ! Vous pouvez le voir "
+"en cliquant ici"
 
 #: webapp_main/templates/source/browse/region_list.tt:15
 msgid "Freecycle is active in the following :"
@@ -1878,7 +1879,7 @@ msgstr "Afficher la liste des questions souvent posées"
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:106
 #: webapp_main/templates/source/group/contact_moderators.tt:8
 msgid "From"
-msgstr "De:"
+msgstr "De"
 
 #: webapp_myf/templates/source/home/groups/contact_mods_form.tt:52
 msgid "From :"
@@ -1955,11 +1956,11 @@ msgstr "Fichiers du groupe"
 
 #: webapp_modtools/templates/perl/source/moderator_preferences:21
 msgid "Group ID"
-msgstr "Numéro du groupe : "
+msgstr "Numéro du groupe"
 
 #: templates/source/index.tt:32 templates/source/search_box.tt:18
 msgid "Group ID number :"
-msgstr "Numero du groupe"
+msgstr "Numèro du groupe :"
 
 #. (link.group.getGroupID)
 #: webapp_main/templates/source/email/group_link_report.tt:18
@@ -1974,7 +1975,7 @@ msgstr "Info du groupe"
 
 #: webapp_main/templates/source/email/group_link_report.tt:17
 msgid "Group Information:"
-msgstr "Information du groupe"
+msgstr "Information du groupe :"
 
 #: webapp_modtools/templates/lib/moderator_menu.tt:171
 #: webapp_modtools/templates/lib/moderator_menu:137
@@ -1984,7 +1985,7 @@ msgstr "Liens du groupe"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:45
 msgid "Group Members can see and search for this Post"
-msgstr "Les membres du groupe peuvent voir et rechercher votre annonce."
+msgstr "Les membres du groupe peuvent voir et rechercher votre annonce"
 
 #: webapp_modtools/templates/perl/source/moderator_group_overview:39
 msgid "Group ModTeam email address"
@@ -2010,7 +2011,7 @@ msgstr "Adresse e-mail pour les annonces du groupe"
 
 #: templates/source/index.tt:55 templates/source/search_box.tt:43
 msgid "Group Status : "
-msgstr "État actuel"
+msgstr "État actuel : "
 
 #: templates/source/index.tt:38 templates/source/search_box.tt:24
 msgid "Group URL :"
@@ -2050,7 +2051,7 @@ msgstr "La limite maximum du groupe a été atteinte"
 
 #: webapp_modtools/templates/perl/source/moderator_overview:23
 msgid "Group name"
-msgstr "Nom du groupe:"
+msgstr "Nom du groupe"
 
 #: webapp_modtools/templates/perl/source/moderator_group_overview:28
 msgid "Group short(er) URLs"
@@ -2210,14 +2211,14 @@ msgid ""
 msgstr ""
 "Je reconnais et j'accepte de ne pas utiliser le logo \"freecycle.org\" "
 "autrement que que comme marque d'association collective au réseau et pour "
-"désigner un groupe de The Freecyle Network (Désigné ci-dessous « réseau »). "
+"désigner un groupe de The Freecycle Network (Désigné ci-dessous « réseau »). "
 "J'accepte également de ne pas modifier le logo ou l'expression verbale « "
 "freecycle.org » de The Freecycle Network (« Marques commerciales ») ; de "
 "cesser d'utiliser les Marques commerciales en cas de perte du statut de "
 "membre, et d'utiliser les Marques commerciales uniquement en conformité avec "
 "les recommandations et politiques applicables aux groupes locaux, "
-"consultables sur la <a href=\"%1\">pagesuivante</a>. Par ailleurs, je "
-"reconnais qu'en tant que membre et Lead moderator d'un groupe local du "
+"consultables sur la <a href=\"%1\">page suivante</a>. Par ailleurs, je "
+"reconnais qu'en tant que membre et Lead moderateur d'un groupe local du "
 "réseau The Freecycle Network, je ne peux utiliser les Marques commerciales "
 "qu'en signe d'appartenance au réseau. En cas de désinscription du service ou "
 "de résiliation du statut de membre, je reconnaissais ne disposer d'aucun "
@@ -2225,18 +2226,18 @@ msgstr ""
 
 #. ("//www.freecycle.org/tos", "//www.freecycle.org/about/privacy")
 #: webapp_myf/templates/source/signup.tt:67
-#, fuzzy
 msgid ""
 "I agree to The Freecycle Network <a href='%1'>Terms of Service</a> and <a "
 "href='%2'>Privacy Policy</a>."
 msgstr ""
-"J'accepte <a href='%1'>les conditions d'utilisation</a> du réseau Freecycle."
+"J'accepte les <a href='%1'>Conditions d’Utilisation</a> et la <a "
+"href=‘%2’>Politique de Confidentialité</a> du Réseau Freecycle."
 
 #: webapp_modtools/templates/source/agreement.tt:16
 msgid "I agree to the Collective Membership Mark Usage Agreement"
 msgstr ""
 "J'accepte les termes de l'accord d'utilisation de la marque d'association "
-"collective."
+"collective"
 
 #: webapp_myf/templates/source/home/agree_to_tos.tt:27
 msgid "I agree to the Terms of Service"
@@ -2251,11 +2252,11 @@ msgstr ""
 "J'ai donné un fauteuil à une femme qui n'avait rien. Son mari était parti en "
 "la laissant seule avec ses enfants, et ils devaient repartir de zéro. Elle a "
 "tellement apprécié le geste qu'elle a pleuré! pour un fauteuil que j'aurai "
-"sans doute jeté autrement. "
+"sans doute jeté autrement."
 
 #: webapp_myf/templates/source/index.tt:8
 msgid "I'm already a My Freecycle user!"
-msgstr "Je suis déjà membre de My Freecycle"
+msgstr "Je suis déjà membre de My Freecycle !"
 
 #: webapp_myf/templates/source/index.tt:27
 msgid "I'm not a My Freecycle user"
@@ -2355,8 +2356,8 @@ msgid ""
 "acknowledge your report - it may have been just one of many they've received "
 "in relation to this Post."
 msgstr ""
-"Si ce message est abusif, le modérateur prendra les mesures nécéssaires. Ne "
-"soyez pas offensensé s'il ne prend pas le temps de vous répondre "
+"Si cette annonce est abusive, le modérateur prendra les mesures nécéssaires. "
+"Ne soyez pas offensensé s'il ne prend pas le temps de vous répondre "
 "personnellement - il a peut être reçu un grand nombre de messages liés à "
 "cette annonce."
 
@@ -2378,9 +2379,9 @@ msgstr ""
 "Si vous faites partie des membres modérés (ce qui est la règle pour tout "
 "nouveau membre), votre message n'apparaîtra qu'après approbation par un "
 "modérateur. Cette mesure nous permet d'éviter que des spammeurs deviennent "
-"membres et encombrent nos groupes. Si un modérateur rejette votre  message, "
+"membres et encombrent nos groupes. Si un modérateur rejette votre message, "
 "quelle qu'en soit la raison, vous pouvez l'annuler ce qui aura pour effet de "
-"l'effacer de votre onglet : \"Mes Messages\"."
+"l'effacer de votre onglet : \"Mes annonces\"."
 
 #: webapp_myf/templates/source/home/info/delete_confirm.tt:13
 msgid ""
@@ -2402,6 +2403,8 @@ msgstr "Si vous ne n'avez pas demandé, veuillez ignorer ce message."
 msgid ""
 "If you disagree with the updated policy, you can delete your account here"
 msgstr ""
+"Si vous n’êtes pas d’accord avec la politique actuelle, vous pouvez "
+"supprimer votre compte ici"
 
 #: core_modules/lib/Freecycle/Email.pm:508
 msgid ""
@@ -2409,6 +2412,10 @@ msgid ""
 "https://my.freecycle.org/home/info/delete_confirm \n"
 "\n"
 msgstr ""
+"Si vous n’êtes pas d’accord avec la politique actuelle, vous pouvez "
+"supprimer votre compte ici : https://my.freecycle.org/home/info/"
+"delete_confirm \n"
+"\n"
 
 #: webapp_myf/templates/source/home/agree_to_tos.tt:23
 msgid ""
@@ -2426,6 +2433,8 @@ msgstr ""
 msgid ""
 "If you don't agree with the updated policy, you can delete your account here"
 msgstr ""
+"Si vous n’êtes pas d’accord avec la politique actuelle, vous pouvez "
+"supprimer votre compte ici"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:96
 msgid ""
@@ -2433,7 +2442,7 @@ msgid ""
 "now"
 msgstr ""
 "Si vous avez une photo ( taille maximale: 1.2MB), vous pouvez la télécharger "
-"maintenant."
+"maintenant"
 
 #: webapp_myf/templates/source/home/posts/new.tt:69
 msgid "If you have a picture of the item, you can upload it."
@@ -2446,7 +2455,7 @@ msgid ""
 "email addresses for GOAs may be found here:"
 msgstr ""
 "Si vous rencontrez un problème concernant ce lien, veuillez contacter votre "
-"GOA. Les adresse email pour les GOA peuvent être trouvées ici : "
+"GOA. Les adresse email pour les GOA peuvent être trouvées ici :"
 
 #. ("<a href=\"http://wiki.freecycle.org/MemberFAQ:/\">")
 #: webapp_myf/templates/lib/standard_footer.tt:7
@@ -2454,9 +2463,7 @@ msgid ""
 "If you have any problems or feedback when using My Freecycle, please refer "
 "to the %1"
 msgstr ""
-"Si vous avez des questions concernant Freecycle, veuillez consulter la %1 "
-"(en Anglais). Si vous avez des questions sur les groupes, veuillez contacter "
-"le modérateur de votre groupe local."
+"Si vous avez des questions concernant Freecycle, veuillez consulter la %1"
 
 #: webapp_main/templates/source/404.tt:16
 msgid ""
@@ -2496,7 +2503,7 @@ msgid ""
 "page:"
 msgstr ""
 "Vous pouvez devenir membre de ce groupe directement depuis la page Yahoo!"
-"Groupes : "
+"Groupes :"
 
 #. ("<a href=\"mailto:help@freecycle.org\">help@freecycle.org</a>")
 #: webapp_main/templates/source/about/sponsors.tt:16
@@ -2507,7 +2514,7 @@ msgid ""
 msgstr ""
 "Si vous voulez sponsoriser The Freecycle Network, merci de nous écrire %1. "
 "Nous avons eu la chance de compter Intuit, Nokia et Waste Management parmi "
-"nos sponsors. "
+"nos sponsors."
 
 # Note: I find the first sentence a bit unclear in English. I get the idea but I think it may be useful to rephrase and clarify for new myfreecycle members.
 #: webapp_myf/templates/source/home/groups/index.tt:101
@@ -2526,14 +2533,17 @@ msgid ""
 "<br />\n"
 "Tip: Search for the unique Yahoo!Group name to find individual groups."
 msgstr ""
+"Avis seulement aux membres d’un groupe Freecycle géré par Yahoo!Groupes.<br /"
+">\n"
 "Si vous êtes membre d'un groupe géré par Yahoo!Groupes, vous pouvez "
 "rechercher ce groupe et vous abonner ici. Les conditions d'utilisation de "
-"Yahoo! ne nous permettent pas de détecter automatiquement votre groupe. Ceci "
-"dit, notre système essaiera d'ajouter automatiquement votre adresse à Yahoo!"
-"Groupes- vous devriez donc recevoir un message automatique de Yahoo! disant "
-"que vous êtes déjà membre ou confirmant votre abonnement (si votre adresse "
-"My Freecycle est différente de celle que vous aviez procuré à Yahoo!) <br /"
+"Yahoo! ne nous permettent pas de détecter automatiquement votre groupe.<br /"
 ">\n"
+"Ceci dit, notre système essaiera d'ajouter automatiquement votre adresse à "
+"Yahoo!Groupes- vous devriez donc recevoir un message automatique de Yahoo! "
+"disant que vous êtes déjà membre ou confirmant votre abonnement (si votre "
+"adresse My Freecycle est différente de celle que vous aviez procuré à "
+"Yahoo!) <br />\n"
 "Si vous êtes déjà membre, vous pouvez immédiatement choisir: \"Mon "
 "abonnement a été approuvé\". Veuillez noter que notre site est tout à fait "
 "différent de Yahoo!Groupes - dire que votre demande a été approuvée ne vous "
@@ -2550,9 +2560,9 @@ msgid ""
 "  <a href='/home/posts'>the Posts you have made</a>."
 msgstr ""
 "Si vous êtes déjà connecté, vous pouvez voir  \n"
-"  <a href='/home/info'>votre compte </a>,\n"
-"  <a href='/home/groups'> vos groupes </a>, et\n"
-"  <a href='/home/posts'>vos messages </a>."
+"  <a href='/home/info'>votre compte</a>,\n"
+"  <a href='/home/groups'>vos groupes</a>, et\n"
+"  <a href='/home/posts'>vos annonces</a>."
 
 #: webapp_myf/templates/source/signup.tt:60
 msgid ""
@@ -2562,7 +2572,7 @@ msgid ""
 msgstr ""
 "Si vous rencontrez des difficultés avec les CAPTCHAs, vous pouvez cliquer "
 "ici pour demander une confirmation par email. Vous recevrez alors un mot de "
-"passe automatique que vous devrez changer dès votre prochaine connexion.  "
+"passe automatique que vous devrez utiliser pour se connecter"
 
 #. ("http://my.freecycle.org/home/groups")
 #: webapp_main/templates/source/404.tt:15
@@ -2573,7 +2583,7 @@ msgid ""
 msgstr ""
 "Si vous est déjà connecté à My Freecycle, les liens suivants vous "
 "permettront de naviguer directement vers un de vos groupes. \"<a href='%1' "
-"title=' Liste de vos groupes'>Mes Groupes</a>\" "
+"title=' Liste de vos groupes'>Mes Groupes</a>\""
 
 #. (uri_for("Root", "signup"))
 #: webapp_myf/templates/source/index.tt:35
@@ -2582,7 +2592,7 @@ msgid ""
 "href='%1'>signup form</a> to create your new account for free"
 msgstr ""
 "Si vous n'avez pas encore enregistré votre e-mail, vous pouvez utiliser le "
-"<a href='%1'> formulaire d'inscription</a> pour créer un compte gratuitement."
+"<a href='%1'> formulaire d'inscription</a> pour créer un compte gratuitement"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:117
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:64
@@ -2647,7 +2657,7 @@ msgstr ""
 "un don sur Freecycle. Dans ces cas-là, nous demanderons seulement des "
 "informations vous identifiant personnellement (comme le nom, l'adresse, le "
 "numéro de téléphone, ou l'adresse e-mail) que vous donneriez volontairement "
-"sur notre site ou par correspondance par email. "
+"sur notre site ou par correspondance par email."
 
 #: webapp_main/templates/source/donate.tt:13
 msgid ""
@@ -2660,7 +2670,7 @@ msgstr ""
 "générosité spectaculaire dans le monde entier, en changeant le monde, don "
 "après don. Ceux qui ont des objets encore utilisables les donnent "
 "généreusement, ceux qui ont besoin reçoivent gracieusement, sans jugement, "
-"et sans transfert d'argent. "
+"et sans transfert d'argent."
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:121
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_receiveds:119
@@ -2674,7 +2684,7 @@ msgstr "Inclure les annonces closes ?"
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:115
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:116
 msgid "Include 'open' (approved) posts?"
-msgstr "Inclure les annonces ouvertes (approuvées)? "
+msgstr "Inclure les annonces ouvertes (approuvées) ?"
 
 #: webapp_modtools/templates/perl/source/moderator_members_search_form:31
 msgid "Include Lead Moderators"
@@ -2690,7 +2700,7 @@ msgstr "Inclure les Modérateurs"
 
 #: webapp_main/templates/source/group/posts/display_list.tt:36
 msgid "Include OFFER Posts?"
-msgstr "inclure les annonces OFFRE?"
+msgstr "Inclure les annonces OFFRE ?"
 
 #: webapp_main/templates/source/group/posts/display_list.tt:42
 msgid "Include WANTED Posts?"
@@ -2698,11 +2708,11 @@ msgstr "Inclure les annonces CHERCHE?"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:19
 msgid "Include approved posts"
-msgstr "Inclure les annonces approuvées. "
+msgstr "Inclure les annonces approuvées"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:23
 msgid "Include closed posts"
-msgstr "inclure les annonces closes"
+msgstr "Inclure les annonces closes"
 
 #: webapp_modtools/templates/perl/source/moderator_members_search_form:11
 msgid "Include invitations"
@@ -2743,7 +2753,7 @@ msgstr "Mails individuels"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:156
 msgid "Info"
-msgstr "info"
+msgstr "Info"
 
 #: webapp_modtools/templates/lib/moderator_menu:36
 #: webapp_modtools/templates/perl/source/moderator_menu:36
@@ -2804,7 +2814,7 @@ msgstr ""
 "Les messages d'invitation seront envoyés à <b>tous ceux</b> dont la dernière "
 "invitation date de plus de ce délai - ce qui peut mener à des renvois  \n"
 "    d'invitations très anciennes. Il vaut mieux supprimer les anciennes "
-"invitations avant de renvoyer. "
+"invitations avant de renvoyer."
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:49
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:50
@@ -2858,7 +2868,7 @@ msgstr ""
 "annonçons avoir dépassé le millier de modérateurs volontaires à travers le "
 "monde. Chaque groupe local a de 2 à 6 modérateurs qui, à leur tour, aident "
 "plus de 4 millions de membres à éviter de jeter de bons objets dans la "
-"nature, et à créer des liens forts localement. "
+"nature, et à créer des liens forts localement."
 
 #: webapp_myf/templates/source/home/posts/new.tt:35
 msgid "It's a request for a WANTED item"
@@ -2954,7 +2964,7 @@ msgstr "Niveau"
 
 #: webapp_main/templates/source/email/group_link_report.tt:10
 msgid "Link Information:"
-msgstr "Liens d'information : "
+msgstr "Liens d'information :"
 
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:57
 #: webapp_main/templates/source/about/old_privacy.tt:24
@@ -2970,7 +2980,7 @@ msgstr "Liens pour le groupe %1"
 #: webapp_main/templates/source/about/index.tt:27
 #: webapp_main/templates/source/about/links.tt:4
 msgid "Links we like"
-msgstr "Des liens que nous aimons "
+msgstr "Des liens que nous aimons"
 
 #: templates/source/index.tt:7 templates/source/search_box.tt:4
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:64
@@ -3152,7 +3162,7 @@ msgstr "FAQ - membres"
 # page?
 #: webapp_myf/templates/lib/standard_footer.tt:8
 msgid "Member FAQ page"
-msgstr "page FAQ - membres"
+msgstr "Page FAQ - membres"
 
 #. (member.username, member.email)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_member_email:3
@@ -3186,7 +3196,7 @@ msgstr "Vous êtes le modérateur du groupe %1"
 
 #: webapp_modtools/templates/perl/source/moderator_members_overview:31
 msgid "Members/Mods/Lead Mods in this Group."
-msgstr "Membres/Mods/Mods principaux de ce groupe"
+msgstr "Membres/Mods/Mods Principaux de ce groupe."
 
 #: webapp_modtools/templates/perl/source/moderator_display_group_invites:35
 #: webapp_modtools/templates/perl/source/moderator_members_list:45
@@ -3200,9 +3210,9 @@ msgid ""
 "appropriate for all ages. To view the items being given away or sought in "
 "%1, you must be a member of the local group."
 msgstr ""
-"L'adhésion est gratuire, et tout ce qui est posté doit être gratuit, légal, "
+"L'adhésion est gratuite, et tout ce qui est posté doit être gratuit, légal, "
 "et adapté à tout âge. Pour voir les éléments en cours de don, ou recherchés "
-"sur %1, vous devez être membre du groupe. "
+"sur %1, vous devez être membre du groupe."
 
 #: webapp_main/templates/source/about/background.tt:10
 msgid ""
@@ -3247,7 +3257,7 @@ msgstr "Message"
 
 #: webapp_myf/templates/source/home/groups/contact_mods_form.tt:52
 msgid "Message : "
-msgstr "Message :"
+msgstr "Message : "
 
 #: webapp_modtools/templates/lib/moderator_menu:42
 #: webapp_modtools/templates/perl/source/moderator_menu:42
@@ -3277,7 +3287,7 @@ msgstr "Le message n'a pas été envoyé - il y a un problème avec votre répon
 
 #: webapp_main/templates/source/group/posts/reply_error.tt:1
 msgid "Message not sent - the poster is no longer a Freecycle.org user "
-msgstr "Message non envoyé - la personne n'est plus membre de Freecycle.org"
+msgstr "Message non envoyé - la personne n'est plus membre de Freecycle.org "
 
 #: webapp_main/templates/source/group/posts/reply_error.tt:1
 msgid "Message not sent - this Post has been closed"
@@ -3293,7 +3303,7 @@ msgstr "Message à envoyer"
 
 #: webapp_main/templates/source/group/posts/display_post.tt:158
 msgid "Message to send to the person who made this Post:"
-msgstr "Ce message va être envoyé à la personne qui a publié cette annonce."
+msgstr "Ce message va être envoyé à la personne qui a publié cette annonce :"
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:37
 #: webapp_main/templates/source/about/index.tt:17
@@ -3320,7 +3330,7 @@ msgstr "Modérer"
 #: webapp_modtools/templates/perl/source/moderator_members_list:214
 #: webapp_modtools/templates/perl/source/moderator_members_list:233
 msgid "Moderate Member for Posting"
-msgstr "Modérer l'envoi de message pour ce membre"
+msgstr "Modérer les annonces pour ce membre"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:119
 #: webapp_modtools/templates/perl/source/moderator_members_list:121
@@ -3394,15 +3404,15 @@ msgstr "My Freecycle – Annonces récemment expirées"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:1
 msgid "My Freecycle Network - Manage Post "
-msgstr "Mon Réseau Freecycle Network - Gérer les messages"
+msgstr "Mon Réseau Freecycle - Gérer les annonces "
 
 #: webapp_myf/templates/source/home/posts/new.tt:1
 msgid "My Freecycle Network - New Post"
-msgstr "Mon Réseau Freecycle - Nouveau Message"
+msgstr "Mon Réseau Freecycle - Nouveau Annonce"
 
 #: webapp_myf/templates/source/home/posts/new_okay.tt:1
 msgid "My Freecycle Network - New Post Created"
-msgstr "Mon Réseau Freecycle - Nouveau Message Créé"
+msgstr "Mon Réseau Freecycle - Nouveau Annonce Créée"
 
 #  what the opt-out means, if it does means anything any more.
 #: webapp_modtools/templates/perl/source/moderator/options/main.tt:44
@@ -3429,7 +3439,7 @@ msgstr "Mes infos"
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:0
 #: core_modules/lib/Freecycle/standard_templates/source/web_contentbox_tab_bar.tt:17
 msgid "My Posts"
-msgstr "Mes messages"
+msgstr "Mes annonces"
 
 #: webapp_modtools/templates/lib/moderator_menu.tt:5
 #: webapp_modtools/templates/lib/moderator_menu:4
@@ -3439,7 +3449,7 @@ msgstr "MyF"
 
 #: templates/source/index.tt:90 templates/source/search_box.tt:81
 msgid "MyF username :"
-msgstr "Mon identifiant freecycle"
+msgstr "Mon identifiant Freecycle :"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:127
 msgid "N/A"
@@ -3480,7 +3490,7 @@ msgstr "Nouveau message"
 
 #: webapp_myf/templates/source/forgottenpassword.tt:83
 msgid "New password generated"
-msgstr "Nouveau mot de passe créé "
+msgstr "Nouveau mot de passe créé"
 
 #: webapp_myf/templates/source/home/info/change_username.tt:14
 msgid "New username"
@@ -3494,7 +3504,7 @@ msgid ""
 msgstr ""
 "Nouveau!! Si vous avez javascript d'activé et un browser récent, choisissez "
 "une image de n'importe quelle taille et elle sera automatiquement "
-"redimensionnée avant chargement. Sinon, la taille maximale est de 1.2 Mo"
+"redimensionnée avant chargement. Sinon, la taille maximale est de 1.2 Mo."
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:33
 #: webapp_main/templates/source/about/index.tt:13
@@ -3516,7 +3526,7 @@ msgstr "Non"
 
 #: webapp_modtools/templates/perl/source/moderator_group_admins_view:69
 msgid "No ADMINs have been sent to this Group yet"
-msgstr "Aucun ADMIN n'a encore été envoyé à ce groupe."
+msgstr "Aucun ADMIN n'a encore été envoyé à ce groupe"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:64
 msgid "No Posts match your search terms"
@@ -3545,8 +3555,7 @@ msgstr "Pas de groupe local?"
 
 #: webapp_main/templates/source/login/forgotten_password.tt:19
 msgid "No user with that username/email address could be found"
-msgstr ""
-"Nous ne trouvons aucun utilisateur avec cet identifiant/adresse e-mail. "
+msgstr "Nous ne trouvons aucun utilisateur avec cet identifiant/adresse e-mail"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:15
 msgid "No users could be found"
@@ -3554,7 +3563,7 @@ msgstr "Aucun membre trouvé"
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:80
 msgid "Non-\"My Freecycle\" email addresses"
-msgstr "Adresses e-mail non  -\"My Freecycle\" "
+msgstr "Adresses e-mail non -\"My Freecycle\""
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:130
 msgid "None"
@@ -3585,8 +3594,7 @@ msgstr ""
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reply_email:13
 msgid "Note: Original email may have been shortened due to space limitations."
 msgstr ""
-"Le message original peut avoir été raccourci  en raison de limites de "
-"taille. "
+"Le message original peut avoir été raccourci en raison de limites de taille."
 
 #: webapp_modtools/templates/perl/source/moderator_members_overview:43
 msgid "Number"
@@ -3639,7 +3647,7 @@ msgstr "OFFREs"
 #. (post.group.getGroupName, post.group.expire_offers_days)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:10
 msgid "OFFERs posted to %1 will automatically expire after %2 days. "
-msgstr "les OFFREs postées sur %1 expireront automatiquement après %2 jours."
+msgstr "Les OFFREs postées sur %1 expireront automatiquement après %2 jours. "
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_form:12
 msgid "OR"
@@ -3675,7 +3683,7 @@ msgstr ""
 "à but non lucratif à Tucson, en Arizona. Au moment ou Deron a fondé le "
 "Réseau Freecycle, il travaillait pour une organisation à but non lucratif, "
 "RISE, qui fournit des services de recyclages aux entreprises du centre "
-"ville, et de l'emploi de résinsertion au habitants de Tucson dans le besoin. "
+"ville, et de l'emploi de résinsertion au habitants de Tucson dans le besoin."
 
 #: webapp_modtools/templates/perl/source/moderator_overview:35
 msgid "On Yahoo!Groups"
@@ -3701,12 +3709,12 @@ msgid ""
 "by logging in to My Freecycle and viewing the "
 msgstr ""
 "Une fois votre compte créé, vous pouvez accepter ou refuser cette invitation "
-"en vous connectant sur My Freecycle et en regardant les"
+"en vous connectant sur My Freecycle et en regardant les "
 
 #: webapp_myf/templates/source/home/groups/index.tt:138
 #: webapp_myf/templates/source/home/groups/options_display.tt:84
 msgid "One for each Post"
-msgstr "Un e-mail par message"
+msgstr "Un e-mail par annonce"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:2
 msgid ""
@@ -3716,12 +3724,12 @@ msgid ""
 "prevent Members receiving unexpected replies to old Posts they may have\n"
 "forgotten about."
 msgstr ""
-"L'un de vos messages sur un groupe Freecyce a automatiquement expiré\n"
+"L'un de vos annonces sur un groupe Freecyce a automatiquement expiré\n"
 "et été retiré de l'affichage. Ceci permet de nettoyer les groupes "
 "Freecycle, \n"
 "afin que les visiteurs puissent voir ce qui se passe réellement, et pour "
 "éviter\n"
-"que les membres reçoivent des réponses inattendues à de vieux messages\n"
+"que les membres reçoivent des réponses inattendues aux anciennes annonces\n"
 "qu'ils pourraient même avoir oublié."
 
 #: webapp_main/templates/source/donate.tt:48
@@ -3736,7 +3744,7 @@ msgstr "Seuls les modérateurs principaux de ce groupe"
 
 #: webapp_main/templates/source/404.tt:10
 msgid "Oops - page not found!"
-msgstr "Page non trouvée"
+msgstr "Page non trouvée !"
 
 #: webapp_myf/templates/source/404.tt:3
 msgid "Oops!"
@@ -3771,19 +3779,19 @@ msgstr "Invitations actives pour le groupe %1"
 msgid "Opted in. To opt-out, send an email to your GOA requesting the opt-out."
 msgstr ""
 "Vous avez fait un opt-in. Pour faire un opt-out, envoyez un mail à votre GOA "
-"pour le lui demander. "
+"pour le lui demander."
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:71
 msgid "Or by email"
-msgstr "ou par email"
+msgstr "Ou par email"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:312
 msgid "Order by:"
-msgstr "Trier par : "
+msgstr "Trier par :"
 
 #: webapp_main/templates/source/about/background.tt:39
 msgid "Org Chart"
-msgstr "Organig."
+msgstr "Organigramme"
 
 #: webapp_main/templates/source/about/background.tt:37
 msgid "Organizational Chart"
@@ -3791,11 +3799,11 @@ msgstr "Organigramme"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:14
 msgid "Original Post details:"
-msgstr "Détails de l'annonce d'origine: "
+msgstr "Détails de l'annonce d'origine :"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:150
 msgid "Other Posts from this Member: (max 10)"
-msgstr "Autres messages de ce membre: (max 10)"
+msgstr "Autres annonces de ce membre: (max 10)"
 
 #: webapp_main/templates/source/about/old_privacy.tt:8
 msgid "Our Commitment to Privacy"
@@ -3810,10 +3818,9 @@ msgstr ""
 "Notre mission est de construire un mouvement de partage international qui "
 "réduit les déchets, économise de précieuses ressources et réduit l'impact "
 "environnemental, tout en permettant à nos membres de profiter des avantages "
-"d'une large communauté. "
+"d'une large communauté."
 
 #: webapp_main/templates/source/about/funds.tt:13
-#, fuzzy
 msgid ""
 "Our model is much like that of PBS. We seek to provide a free public forum "
 "for our members, and seek grants, underwriting and voluntary donations to "
@@ -3830,7 +3837,7 @@ msgstr ""
 "unique. Au fer et à mesure que nous développons la communauté de personnes "
 "qui réutilisent et recyclent globalement sur une échelle locale dans plus de "
 "70 pays, nous créons une économie globale du don. <strong>Simplement "
-"magnifique, comme on peut changer le monde, don après don</strong>"
+"magnifique, comme on peut changer le monde, don après don</strong>."
 
 #: webapp_modtools/templates/lib/moderator_menu:19
 #: webapp_modtools/templates/perl/source/moderator_menu:19
@@ -3909,11 +3916,11 @@ msgstr "Membres en attente pour le groupe %1"
 
 #: webapp_modtools/templates/perl/source/moderator_overview:27
 msgid "Pending Messages"
-msgstr "Messages en attente"
+msgstr "Annonces en attente"
 
 #: core_modules/lib/Freecycle/Email.pm:2584
 msgid "Pending Post for "
-msgstr "Annonces en attentes pour"
+msgstr "Annonces en attentes pour "
 
 #: webapp_myf/templates/source/home/groups/index.tt:120
 #: webapp_myf/templates/source/home/groups/options_display.tt:31
@@ -3922,7 +3929,7 @@ msgstr "En attente d'approbation"
 
 #: core_modules/lib/Freecycle/Email.pm:2464
 msgid "Pending member for "
-msgstr "Membre en attente pour"
+msgstr "Membre en attente pour "
 
 #. (group_name)
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:16
@@ -3998,7 +4005,7 @@ msgid ""
 msgstr ""
 "Merci de ne pas essayer de reposter votre message, parce que cette erreur "
 "est permanente et votre message sera de nouveau refusé.\n"
-"Le Sujet de votre message était : "
+"Le Sujet de votre message était :"
 
 #: webapp_myf/templates/source/home/info/change_email_address.tt:17
 msgid ""
@@ -4006,7 +4013,7 @@ msgid ""
 "entries are the same"
 msgstr ""
 "Veuillez vous assurer que vous avez entré votre adresse e-mail deux fois et "
-"de manière identique."
+"de manière identique"
 
 #: webapp_myf/templates/source/home/info/change_password.tt:25
 msgid ""
@@ -4014,12 +4021,12 @@ msgid ""
 "entries are the same"
 msgstr ""
 "Veuillez vous assurer que vous avez entré votre mot de passe deux fois et de "
-"manière identique."
+"manière identique"
 
 #: webapp_modtools/templates/source/manage/files/edit.tt:42
 #: webapp_modtools/templates/source/manage/files/new_file.tt:31
 msgid "Please enter a description for this file"
-msgstr "Veuillez ajouter une brève description."
+msgstr "Veuillez ajouter une brève description"
 
 # [Marina] I don't get the real sense of this sentence
 #: webapp_modtools/templates/source/manage/files/edit.tt:27
@@ -4037,11 +4044,11 @@ msgstr "Veuillez entrer un ou plusieurs mot-clés"
 
 #: webapp_myf/templates/source/home/posts/display_issues.tt:1
 msgid "Please enter some more details about this post"
-msgstr "Veuillez ajouter plus d'informations concernant votre message."
+msgstr "Veuillez ajouter plus d'informations concernant votre message"
 
 #: webapp_myf/templates/source/home/posts/display_issues.tt:1
 msgid "Please enter something for the short description"
-msgstr "Veuillez ajouter une brève description."
+msgstr "Veuillez ajouter une brève description"
 
 #: webapp_myf/templates/source/home/posts/display_issues.tt:1
 msgid ""
@@ -4049,7 +4056,7 @@ msgid ""
 "how far they may need to travel"
 msgstr ""
 "Veuillez préciser votre lieu - cela permet aux membres de connaître la "
-"distance qu'ils auront à parcourir."
+"distance qu'ils auront à parcourir"
 
 #. (mmaker.maximum_location_length)
 #: webapp_myf/templates/source/home/posts/display_issues.tt:1
@@ -4058,7 +4065,7 @@ msgid ""
 "%1 letters"
 msgstr ""
 "Veuillez abréger la description du lieu - le groupe à une limite de %1 "
-"lettres."
+"lettres"
 
 #: webapp_modtools/templates/perl/source/moderator_areacodes:12
 msgid ""
@@ -4074,7 +4081,7 @@ msgid ""
 "Please enter user IDs or email addresses, one per line, in the box below"
 msgstr ""
 "Veuillez saisir ci-dessous les adresse e-mail ou identifiants. Un par ligne, "
-"svp. "
+"svp"
 
 #: webapp_myf/templates/source/forgottenusername.tt:19
 msgid ""
@@ -4096,15 +4103,15 @@ msgid ""
 msgstr ""
 "Les modérateurs des groupes Freecycle sont tous des volontaires et ne lisent "
 "pas toujours les messages sur le champ. Merci de bien vouloir leur laisser "
-"le temps de lire votre message avant de leur en envoyer un deuxième. "
+"le temps de lire votre message avant de leur en envoyer un deuxième."
 
 #: webapp_main/templates/source/group/posts/display_post.tt:130
 msgid "Please indicate why you feel this Post is inappropriate:"
-msgstr "Veuillez indiquer pourquoi vous trouvez cette annonce inappropriée"
+msgstr "Veuillez indiquer pourquoi vous trouvez cette annonce inappropriée :"
 
 #: webapp_main/templates/source/group/links/report_issue.tt:6
 msgid "Please let us know why you think this link is an issue:"
-msgstr "Merci de nous dire quel est le problème lié à ce lien."
+msgstr "Merci de nous dire quel est le problème lié à ce lien :"
 
 #: webapp_myf/templates/source/signup.tt:146
 msgid ""
@@ -4122,7 +4129,7 @@ msgid ""
 "fields"
 msgstr ""
 "Veuillez vérifier que vous avez entré votre adresse e-mail correctement dans "
-"les deux champs."
+"les deux champs"
 
 #: webapp_myf/templates/source/signup.tt:160
 msgid "Please make sure you've entered your password correctly in both fields"
@@ -4139,10 +4146,10 @@ msgid ""
 "submitting reports."
 msgstr ""
 "Vous trouverez les consignes d'utilisation dans chaque groupe ainsi que dans "
-"les FAQ. Veuillez noter qu'il est possible qu'une annonce  qui vous "
+"les FAQ. Veuillez noter qu'il est possible qu'une annonce qui vous "
 "paraitrait inappropriée soit tout de même acceptable du point de vue des "
 "consignes. Avant de soumettre un rapport, nous vous conseillons de lire les "
-"règles et les messages ADMINS qui ont été publiés sur le groupe "
+"règles et les messages ADMINS qui ont été publiés sur le groupe."
 
 #: webapp_main/templates/source/group/posts/reply_sent.tt:5
 msgid ""
@@ -4156,9 +4163,9 @@ msgstr ""
 "Veuillez noter que la personne ayant publié cette annonce peut recevoir un "
 "grand nombre de réponses et peut choisir de ne pas répondre à tout le monde. "
 "Si vous ne recevez pas de réponse, veuillez en conclure que la personne a "
-"choisi quelqu'un d'autre. Comme cette transaction est privée, le réseau "
-"Freecycle &trade ne peut pas intervenir. En cas d'abus, vous pouvez "
-"néanmoins contacter le modérateur du groupe. "
+"choisi quelqu'un d'autre. Comme cette transaction est privée, le Réseau "
+"Freecycle &trade; ne peut pas intervenir. En cas d'abus, vous pouvez "
+"néanmoins contacter le modérateur du groupe."
 
 #. (My Groups' tab,search for your local group and join it.If you have any difficulties please write to support@freecycle.orgThanks for joining!')
 #. (My, Groups, " tab,\nsearch for your local group and join it.\n\nIf you have any difficulties please write to support@freecycle.org\n\nThanks for joining!")
@@ -4177,7 +4184,7 @@ msgstr ""
 "\n"
 "Une fois connecté, veuillez changer afin de personnaliser votre mot de "
 "passe .\n"
-"Une fois fait, cliquez sur le"
+"Une fois fait, cliquez sur le "
 
 # si vous plais,  keep the %1 - this will read "please see the Member FAQ for help" (%1 will get turned into "Member FAQ"
 #. ("<a href=\"http://wiki.freecycle.org/Main_Page#Members\">' _ c.loc(\"Member FAQ\") _ '</a>")
@@ -4195,7 +4202,7 @@ msgstr "Veuillez sélectionner un groupe dans la liste"
 
 #: webapp_myf/templates/source/home/posts/new.tt:41
 msgid "Please select a group:"
-msgstr "Veuillez sélectionner un groupe"
+msgstr "Veuillez sélectionner un groupe :"
 
 #: webapp_main/templates/source/about/disclaimer.tt:13
 msgid ""
@@ -4213,7 +4220,7 @@ msgstr ""
 "cas, ni les propriétaires de la liste, ni les modérateurs, ni aucune "
 "personne affiliée au réseau Freecycle ne pourront être tenus responsables de "
 "tout événement résultant d’un échange ou d’une communication en liaison avec "
-"Freecycle.  "
+"Freecycle."
 
 #: core_modules/lib/Freecycle/Email.pm:2827
 msgid "Please unsubscribe me"
@@ -4249,7 +4256,7 @@ msgstr "Numéro de l'annonce : "
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:18
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:23
 msgid "Post ID: %1"
-msgstr "Message numéro: %1"
+msgstr "Numéro de l’annonce: %1"
 
 #: webapp_myf/templates/source/home/posts/index.tt:46
 #: webapp_myf/templates/source/home/posts/recently_closed.tt:19
@@ -4272,16 +4279,16 @@ msgstr "Paramètres de l'annonce"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:28
 msgid "Post description:"
-msgstr "Description de l'annonce"
+msgstr "Description de l'annonce :"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:6
 msgid "Post details"
-msgstr "Détails du message : "
+msgstr "Détails de l’annonce"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:24
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:100
 msgid "Post details follow"
-msgstr "Les détails du message suivent"
+msgstr "Les détails de l’annonce suivent"
 
 #: webapp_myf/templates/source/home/posts/display_issues.tt:1
 msgid "Post errors"
@@ -4297,7 +4304,7 @@ msgstr "Marques du message"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:59
 msgid "Post image : "
-msgstr "Photo :"
+msgstr "Photo : "
 
 #. (post.post_subject)
 #: webapp_main/templates/source/group/posts/display_post.tt:95
@@ -4315,7 +4322,7 @@ msgstr "Paramètres du lieu"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:40
 msgid "Post location: "
-msgstr "Lieu :"
+msgstr "Lieu : "
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:174
 msgid "Post reject reason"
@@ -4332,7 +4339,7 @@ msgstr "Objet de l'annonce : %1"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:27
 msgid "Post title: "
-msgstr "Objet :"
+msgstr "Objet : "
 
 #: webapp_myf/templates/source/home/posts/new.tt:39
 msgid "Post to :"
@@ -4350,7 +4357,7 @@ msgstr "Type d'annonce"
 #: webapp_myf/templates/source/home/posts/manage/show.tt:31
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:20
 msgid "Post type: "
-msgstr "Type d'annonce :"
+msgstr "Type d'annonce : "
 
 #: webapp_myf/templates/source/home/posts/display_issues.tt:1
 msgid "Post warnings"
@@ -4365,11 +4372,11 @@ msgstr "Attention"
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:26
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:26
 msgid "Posted By"
-msgstr "Publié par : "
+msgstr "Publié par"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:23
 msgid "Posted On"
-msgstr "Publié le :"
+msgstr "Publié le"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:62
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:9
@@ -4379,19 +4386,19 @@ msgstr "Publié par"
 
 #: webapp_main/templates/source/group/posts/display_post.tt:86
 msgid "Posted by :"
-msgstr "Publié par : "
+msgstr "Publié par :"
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:23
 msgid "Posted on : "
-msgstr "Publié le :"
+msgstr "Publié le : "
 
 #: webapp_main/templates/source/group/posts/display_list.tt:46
 msgid "Posted on or after"
-msgstr "Publié le ou après le "
+msgstr "Publié le ou après le"
 
 #: webapp_main/templates/source/group/posts/display_list.tt:50
 msgid "Posted on or before"
-msgstr "Publié le ou avant le "
+msgstr "Publié le ou avant le"
 
 #: webapp_myf/templates/source/home/posts/index.tt:48
 msgid "Posted on:"
@@ -4419,7 +4426,7 @@ msgstr "Auteur de l'annonce : %1"
 #. (group_name)
 #: webapp_modtools/templates/perl/source/moderator_group_posts_overview:16
 msgid "Posting history for the %1 group"
-msgstr "Historique des annonce pour le groupe %1"
+msgstr "Historique des annonces pour le groupe %1"
 
 #: webapp_modtools/templates/perl/source/moderator_preferences:24
 msgid "Posts"
@@ -4432,7 +4439,7 @@ msgstr "Annonces dans les dernières 24h/les 7 derniers jours"
 #. (group.groupname)
 #: webapp_main/templates/source/group/posts/display_list.tt:1
 msgid "Posts on the %1 Group | The Freecycle Network"
-msgstr "Message sur le group %1 | The Freecycle Network"
+msgstr "Annonces sur le groupe %1 | The Freecycle Network"
 
 #: webapp_modtools/templates/lib/moderator_menu.tt:6
 #: webapp_modtools/templates/lib/moderator_menu:5
@@ -4502,7 +4509,7 @@ msgid ""
 msgstr ""
 "Astuce : utilisez-le seulement comme adjectif (un groupe Freecycle, etc.) et "
 "jamais comme un nom, verbe, ou comme base d'un autre mot (freecycleur, "
-"freecyclage, freecycler un objet, etc. sont interdit). "
+"freecyclage, freecycler un objet, etc. sont interdit)."
 
 #: webapp_main/templates/source/about/pressroom.tt:81
 msgid "Quote from 'People' magazine"
@@ -4574,7 +4581,7 @@ msgstr "Ré-ouvrir"
 
 #: webapp_main/templates/source/email/group_link_report.tt:22
 msgid "Reason given:"
-msgstr "Motif : "
+msgstr "Motif :"
 
 #: core_modules/lib/Freecycle/Email.pm:1082
 msgid "Recent Posts on"
@@ -4591,7 +4598,7 @@ msgstr "Annonces récemment expirées"
 
 #: templates/source/index.tt:74 templates/source/search_box.tt:63
 msgid "Region : "
-msgstr "Région :"
+msgstr "Région : "
 
 #: webapp_modtools/templates/perl/source/moderator_group_overview:51
 msgid "Region/Country"
@@ -4599,7 +4606,7 @@ msgstr "Région/Pays"
 
 #: webapp_main/templates/source/browse/region_list.tt:0
 msgid "Regions from "
-msgstr "Régions de"
+msgstr "Régions de "
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:179
 msgid "Reject Member"
@@ -4611,11 +4618,11 @@ msgstr "Rejeter tous les membres en attente"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:129
 msgid "Reject this Post and send Group file"
-msgstr "Rejeter ce message et envoyer le fichier du groupe"
+msgstr "Rejeter cette annonce et envoyer le fichier du groupe"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:127
 msgid "Reject this Post and send message"
-msgstr "Rejeter ce message et envoyer un message"
+msgstr "Rejeter cette annonce et envoyer un message"
 
 #: webapp_main/templates/source/about/pressroom.tt:56
 msgid "Related Documents"
@@ -4659,7 +4666,7 @@ msgstr "Répondre à cette annonce"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:69
 msgid "Reply to this online at"
-msgstr "Répondre en ligne à "
+msgstr "Répondre en ligne à"
 
 #. ($subj)
 #: core_modules/lib/Freecycle/Email.pm:3434
@@ -4713,7 +4720,7 @@ msgstr "Réponse à votre annonce \"%1\""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:125
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:126
 msgid "Results per page"
-msgstr "Résultats par page :"
+msgstr "Résultats par page"
 
 #: webapp_main/templates/source/group/posts/display_list.tt:54
 msgid "Results per page :"
@@ -4722,7 +4729,7 @@ msgstr "Résultats par page :"
 #: webapp_modtools/templates/perl/source/moderator_members_list:326
 #: webapp_main/templates/lib/search_box_group.tt:11
 msgid "Results per page:"
-msgstr "Résultats par page : "
+msgstr "Résultats par page :"
 
 #: webapp_main/templates/source/about/links.tt:34
 msgid "Reverend Billy"
@@ -4787,7 +4794,7 @@ msgstr "Chercher les groupes/demandes par : "
 #: webapp_main/templates/source/group/posts/display_list.tt:23
 #: webapp_main/templates/source/group/posts/display_list.tt:237
 msgid "Search Posts"
-msgstr "Chercher dans les messages"
+msgstr "Chercher dans les annonces"
 
 #: templates/source/index.tt:18
 msgid "Search Results"
@@ -4900,7 +4907,7 @@ msgstr "Choisir mon groupe \"local\""
 
 #: webapp_myf/templates/source/home/groups/index.tt:187
 msgid "Set as 'home' group"
-msgstr "Choisir comme groupe local"
+msgstr "Faire groupe principal"
 
 #: webapp_modtools/templates/perl/source/moderator_members_list:197
 #: webapp_modtools/templates/perl/source/moderator_members_list:221
@@ -4931,7 +4938,7 @@ msgstr "Partager une compétence"
 
 #: webapp_myf/templates/source/home/posts/new.tt:50
 msgid "Short description :"
-msgstr "Brève description: "
+msgstr "Brève description :"
 
 #: webapp_modtools/templates/source/manage/links/add.tt:12
 #: webapp_modtools/templates/source/manage/links/edit.tt:12
@@ -4948,12 +4955,12 @@ msgstr "Brève description: "
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:100
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:98
 msgid "Showing %1 to %2 of %3"
-msgstr "Voir de %1 à %2 sur %3 résultats."
+msgstr "Voir de %1 à %2 sur %3 résultats"
 
 #. (((page - 1) * resultsperpage) + 1, ((page * resultsperpage) > numresults ? numresults : (page * resultsperpage)), numresults)
 #: webapp_main/templates/source/search/results.tt:28
 msgid "Showing %1 to %2 of %3 results"
-msgstr "De %1 à %2 sur %3 résultats."
+msgstr "De %1 à %2 sur %3 résultats"
 
 #. (res_start, res_end, numresults)
 #: webapp_main/templates/source/group/posts/display_list.tt:151
@@ -4997,11 +5004,11 @@ msgstr ""
 "De plus il y a une équipe de 20-30 modérateurs qui passent un temps "
 "inquantifiable en tant que GOA (assistance aux modérateurs et point de "
 "contact provincial, ou national), qui aident les groupes avec les problèmes "
-"du quotidien. "
+"du quotidien."
 
 #: webapp_main/templates/source/group/links/report_thanks.tt:4
 msgid "Someone will look into this link and take any appropriate action"
-msgstr "Quelqu'un va étudier le problème et s'attacher à le résoudre."
+msgstr "Quelqu'un va étudier le problème et s'attacher à le résoudre"
 
 #: webapp_myf/templates/source/errors.tt:21
 msgid ""
@@ -5009,7 +5016,7 @@ msgid ""
 "little while"
 msgstr ""
 "Une erreur est survenue sur cette page - veuillez essayer ultérieurement et "
-"merci de votre patience."
+"merci de votre patience"
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:40
 #: webapp_main/templates/source/about/index.tt:20
@@ -5048,7 +5055,7 @@ msgid ""
 "in his Church of Stop Shopping."
 msgstr ""
 "Le révérend Billy, qui prêche dans la rue, diffuse son message sur la "
-"réduction de la consommation dans son Eglise d'Arret du Shopping. "
+"réduction de la consommation dans son Eglise d'Arret du Shopping."
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:16
 #: webapp_modtools/templates/perl/source/moderator_group_admins_view:25
@@ -5059,11 +5066,11 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:96
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:36
 msgid "Subject"
-msgstr "Objet : "
+msgstr "Objet"
 
 #: webapp_myf/templates/source/home/groups/contact_mods_form.tt:52
 msgid "Subject :"
-msgstr "Objet : "
+msgstr "Objet :"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:10
 msgid "Subject line settings"
@@ -5072,7 +5079,7 @@ msgstr "Paramètres de l'Objet"
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_nomember_email:9
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_notamember_email:9
 msgid "Subject:"
-msgstr "Objet : "
+msgstr "Objet :"
 
 #. (subject)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_mfoptout_email:11
@@ -5119,7 +5126,7 @@ msgstr "PARTI"
 #. (group_name)
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:14
 msgid "TAKEN posts for the %1 group"
-msgstr "messages PARTI pour le groupe %1 "
+msgstr "Annonces PARTI pour le groupe %1"
 
 #: webapp_modtools/templates/lib/moderator_menu:106
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:299
@@ -5152,7 +5159,7 @@ msgstr ""
 "média. Ces articles ont en général un effet important sur les pics "
 "d'inscription dans les groupes Freecycle locaux. Nous sommes aussi bons que "
 "la somme de nos parties, alors autant attirer les bonnes parties, n'est-ce "
-"pas? "
+"pas?"
 
 #: webapp_myf/templates/source/index.tt:65
 msgid ""
@@ -5163,7 +5170,7 @@ msgstr ""
 "Erreur temporaire avec le site tiers – il se peut qu'ils aient des problèmes "
 "avec l'authentification des mots de passe. Veuillez essayer ultérieurement "
 "ou vous connecter avec votre identifiant et mot de passe MyFreecycle pour "
-"continuer."
+"continuer"
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_menu.tt:45
 #: webapp_main/templates/source/about/index.tt:25
@@ -5210,11 +5217,11 @@ msgstr ""
 "Merci de votre intérêt pour le Réseau Freecycle&trade;. Freecycle a été un "
 "sujet brûlant des médias et nous apprécions cette attention parce qu'elle "
 "est certainement responsable en grande quantité de notre croissance "
-"importante. "
+"importante."
 
 #: webapp_main/templates/source/about/pressroom.tt:32
 msgid "Thank you for your time and support!"
-msgstr "Merci d'avoir pris le temps de nous envoyer ce message."
+msgstr "Merci d'avoir pris le temps de nous envoyer ce message !"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.html.tt:16
 #: core_modules/lib/Freecycle/standard_templates/source/email/password_reset.text.tt:8
@@ -5251,8 +5258,8 @@ msgid ""
 "Network&trade; easier and more pleasant. Quickly and easily make and manage "
 "your Group memberships and Posts."
 msgstr ""
-"Le site My Freecycle a été créé pour  améliorer votre expérience au sein du "
-"Réseau Freecyle&trade. My Freecycle permet de gérer facilement vos "
+"Le site My Freecycle a été créé pour améliorer votre expérience au sein du "
+"Réseau Freecycle&trade;. My Freecycle permet de gérer facilement vos "
 "abonnements et vos annonces sur un ou plusieurs groupes."
 
 #: webapp_main/templates/source/about/staff.tt:31
@@ -5270,8 +5277,8 @@ msgstr ""
 msgid ""
 "The CAPTCHA was incorrect. Please check the box if you're really not a robot."
 msgstr ""
-"Le CAPTCHA est incorrect. Veuillez vérifiez la case pour prouver que vous "
-"n'êtes pas un robot. "
+"Le CAPTCHA était incorrect. Veuillez cocher la case pour prouver que vous "
+"n'êtes pas un robot."
 
 #: webapp_main/templates/source/about/links.tt:20
 msgid ""
@@ -5281,7 +5288,7 @@ msgstr ""
 "Le Center for a New American Dream (Centre pour un nouveau rêve américain) "
 "aide les américains à consommer de façon responsable pour protéger "
 "l'environnement, améliorer la qualité de vie, et promouvoir une justice "
-"sociale. "
+"sociale."
 
 #: webapp_main/templates/lib/standard_page.tt:34
 #: webapp_main/templates/lib/standard_page.tt:8
@@ -5303,7 +5310,7 @@ msgstr ""
 #. (group.groupname)
 #: webapp_main/templates/source/group/posts/display_post.tt:1
 msgid "The Freecycle Network - %1 Group"
-msgstr "Le réseau Freecycle - Groupe de %1 "
+msgstr "Le réseau Freecycle - Groupe de %1"
 
 #: webapp_main/templates/source/about/board.tt:1
 msgid "The Freecycle Network - Board"
@@ -5348,7 +5355,7 @@ msgstr "Le réseau Freecycle - à propos du groupe  %1"
 #. (group.groupname)
 #: webapp_main/templates/source/group/contact_moderators.tt:1
 msgid "The Freecycle Network - contact%1 Group Moderators"
-msgstr "Le réseau Freecycle - contacter les modérateurs du groupe de %1 "
+msgstr "Le réseau Freecycle - contacter les modérateurs du groupe de %1"
 
 #. (file.name)
 #: webapp_main/templates/source/group/files/view_file.tt:1
@@ -5359,7 +5366,7 @@ msgstr "Le réseau Freecycle - fichier '%1'"
 #: webapp_main/templates/source/group/links/index.tt:1
 #: webapp_main/templates/source/group/links/report_thanks.tt:1
 msgid "The Freecycle Network - interesting links from the %1 Group"
-msgstr "Le réseau Freecycle – Liens intéressants du groupe 1%"
+msgstr "Le réseau Freecycle – Liens intéressants du groupe %1"
 
 #. (group.groupname)
 #: webapp_main/templates/source/group/links/report_issue.tt:1
@@ -5378,12 +5385,12 @@ msgid ""
 "when clicking on any links, particularly those which use a link-shortening "
 "service. Please report any issues you may have with any links"
 msgstr ""
-"Le réseau freecycle ne recommande pas officiellement les liens listés sur "
+"Le Réseau Freecycle ne recommande pas officiellement les liens listés sur "
 "cette page et n'a aucun contrôle sur les sites qui ne font pas parti du "
-"réseau Freecycle. Nous recommandons aux utilisateurs de rester prudents "
+"Réseau Freecycle. Nous recommandons aux utilisateurs de rester prudents "
 "quand ils choisissent de cliquer sur des liens, en particulier ceux qui "
 "utilisent des services de ...Si vous rencontrez un problème en cliquant sur "
-"un de ces liens, veuillez nous l'indiquer. "
+"un de ces liens, veuillez nous l'indiquer"
 
 #: webapp_main/templates/source/tos.tt:19
 msgid ""
@@ -5422,10 +5429,10 @@ msgid ""
 "countries. For more trademark info please <a href='https://wiki.freecycle."
 "org/Trademark'>click here</a>."
 msgstr ""
-"Le Réseau Frecycle a enregistré des marques déposées dans 32 pays, dont "
-"l'Austalie, la Nouvelle Zélande, le Canada, les Etats-Unis, et tous les pays "
-"de l'Union Européenne. Pour plus d'information sur les marques déposées, <a "
-"href='https://wiki.freecycle.org/Trademark'>cliquez ici</a>. "
+"Le Réseau Freecycle a enregistré des marques déposées dans 32 pays, dont "
+"l'Australie, la Nouvelle Zélande, le Canada, les Etats-Unis, et tous les "
+"pays de l'Union Européenne. Pour plus d'information sur les marques "
+"déposées, <a href='https://wiki.freecycle.org/Trademark'>cliquez ici</a>."
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_invite_nonmyf_email:3
 msgid ""
@@ -5442,7 +5449,7 @@ msgstr ""
 "objets encore utilisables hors de la Nature et notre environnement. "
 "L'adhésion est gratuite. \n"
 "\n"
-"Vous pouvez nous rejoindre en créant votre propre compte gratuit ici : "
+"Vous pouvez nous rejoindre en créant votre propre compte gratuit ici :"
 
 #: webapp_main/templates/source/about/background.tt:28
 msgid ""
@@ -5460,7 +5467,7 @@ msgstr ""
 "Novembre 2006 par l'IRS. Cela signifie que <a href='https://www.paypal.com/"
 "cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KRKYQ7CC8LB5W' "
 "title='Donner'>Donner au Réseau Freecycle est déductible des impôts</a> "
-"depuis notre demande initiale de Juillet 2004 et de façon rétroactive. "
+"depuis notre demande initiale de Juillet 2004 et de façon rétroactive."
 
 #: webapp_main/templates/source/browse/index.tt:19
 msgid "The Freecycle Network is active in these countries:"
@@ -5470,8 +5477,8 @@ msgstr "The Freecycle Network existe dans ces pays :"
 msgid ""
 "The Freecycle Network is incorporated as a nonprofit in the State of Arizona."
 msgstr ""
-"Le Réseau Freecycle est enregistrée comme oragnisation à but non-lucratif "
-"dans l'Etat d'Arizona. "
+"Le Réseau Freecycle est enregistrée comme organisation à but non-lucratif "
+"dans l'Etat d'Arizona."
 
 #: webapp_myf/templates/lib/standard_header.tt:23
 #: webapp_myf/templates/source/errors.tt:14
@@ -5490,9 +5497,9 @@ msgstr ""
 "Le Réseau Freecycle respecte le droit de chacun à la confidentialité. Cette "
 "section résume quelles données personnelles nous collectons, le cas échéant, "
 "et comment nous utiliserions ces informations. Cette politique décrit aussi "
-"d'autres sujets liés à la protection de vos données.  Le Réseau Freecycle se "
+"d'autres sujets liés à la protection de vos données. Le Réseau Freecycle se "
 "réserve le droit de modifier cette politique de confidentialité à tout "
-"moment. Nous vous ferons part de telles modification dans ces pages web. "
+"moment. Nous vous ferons part de telles modification dans ces pages web."
 
 #: webapp_main/templates/source/about/old_privacy.tt:12
 msgid ""
@@ -5514,7 +5521,7 @@ msgstr ""
 "utilisés per les groupes eux-mêmes, par exemple pour s'assurer qu'un membre "
 "n'a voté qu'une fois à un sondage. Les cookies mis en place par et pour les "
 "Yahoo! groupes sont en dehors du contrôle du Réseau Freecycle, et sont sujet "
-"aux conditions d'utilisation et de confidentialité de Yahoo!. "
+"aux conditions d'utilisation et de confidentialité de Yahoo!."
 
 #. ("%%num_groups", "%%num_members")
 #: core_modules/lib/Freecycle/standard_templates/source/standard_group_description.tt:2
@@ -5567,7 +5574,6 @@ msgstr ""
 "recours est de cesser d'utiliser les services de The Freecycle Network."
 
 #: webapp_main/templates/source/about/funds.tt:11
-#, fuzzy
 msgid ""
 "The Freecycle Network's current annual budget is running at about $275,000 "
 "in income. The funding comes from corporate underwriting, on-site "
@@ -5585,7 +5591,7 @@ msgid ""
 msgstr ""
 "Le budget annuel du Réseau Freecycle tourne autour d'environ 140,000$ de "
 "revenu. Les fonds viennent de souscription d'entreprises, de la publicité "
-"sur le site (sous la forme d'une barre de sponsor fornie par Google) et <a "
+"sur le site (sous la forme d'une barre de sponsor fournie par Google) et <a "
 "href='https://www.freecycle.org/donate' title='donate'>des donations "
 "individuelles</a>. Environ 90% de ces fonds sont utilisés pour la "
 "programmation. Les 10% restants sont divisés entre les adhésions, les levées "
@@ -5593,14 +5599,13 @@ msgstr ""
 "revenus) sont disponibles au bout du lien ci-dessous ainsi que sur Guidestar."
 "com. Nous sommes ravis d'indiquer que nous avons maintenant notre statut "
 "501(c)3 de l'IRS (11/06) et que les dons faits au Réseau Freecycle sont "
-"déductibles de vos impôts.  Nous sommes aussi classés comme organisme de "
+"déductibles de vos impôts. Nous sommes aussi classés comme organisme de "
 "bienfaisance (charity) au Royaume-Uni. De plus nous sommes enregistrés en "
 "tant qu'organisme à but non-lucratif dans l'Etat d'Arizona. La réduction "
 "d'impôt est rétroactive depuis le dépôt de notre demande, en juillet 2004.  "
 "Les membres peuvent montrer leur soutien pour notre mission en <a "
 "href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-"
 "xclick&hosted_button_id=KRKYQ7CC8LB5W' title='Donate'>donnant un dollar</a>."
-"</p>"
 
 #: webapp_main/templates/source/about/background.tt:9
 msgid ""
@@ -5630,7 +5635,7 @@ msgstr ""
 "-- des gens qui aident d'autres gens et \"changent le monde un don à la fois"
 "\". En conséquence, nous évitons à 1000 tonnes de matière de se retrouver "
 "dans la Nature! Ceci correspond à 15 fois la hauteur du Mont Everest, rien "
-"que  l'année passée, le tout dans des camions d'ordure! "
+"que l'année passée, le tout dans des camions d'ordure !"
 
 #: webapp_main/templates/source/about/staff.tt:27
 msgid ""
@@ -5659,7 +5664,7 @@ msgstr ""
 "exempte d'impôt sur le revenu\". Il est soumis par les organisations "
 "exemptes d'impôt sur le revenu, et les organisation à but non-lucratif, aux "
 "autorités internes du Service des Revenus avec des informations annuelles "
-"financières. "
+"financières."
 
 #: webapp_main/templates/source/about/links.tt:22
 msgid "The Internet Consumer Recycling Guide"
@@ -5681,7 +5686,7 @@ msgstr ""
 msgid ""
 "The Moderators of the %1 group have not approved your post to the group:"
 msgstr ""
-"Les modérateurs du groupe %1 n'ont pas approuvé votre message au groupe : "
+"Les modérateurs du groupe %1 n'ont pas approuvé votre message au groupe :"
 
 #: webapp_main/templates/source/group/posts/display_post.tt:183
 msgid ""
@@ -5693,11 +5698,11 @@ msgstr ""
 
 #: webapp_main/templates/source/group/posts/display_post.tt:183
 msgid "The Post has been deleted."
-msgstr "Cette annonce a été supprimée"
+msgstr "Cette annonce a été supprimée."
 
 #: webapp_main/templates/source/group/posts/display_post.tt:183
 msgid "The Post is still awaiting approval by a Group Moderator."
-msgstr "Ce message est en attente d'approbation par le modérateur"
+msgstr "Cette annonce est en attente d'approbation par un modérateur."
 
 #: webapp_main/templates/source/tos.tt:68
 msgid ""
@@ -5813,13 +5818,13 @@ msgstr "Le journal personnalisé du groupe"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_expired_email:21
 msgid "The details of the expired Post are:"
-msgstr "Les détails du message expiré sont : "
+msgstr "Les détails de l’annonce expirée sont :"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_mfoptout_email:9
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_nomember_email:7
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_notamember_email:7
 msgid "The details of the original email were:"
-msgstr "Les détails du mail d'origine étaient  : "
+msgstr "Les détails du email original étaient :"
 
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:42
 msgid "The display name for this Group"
@@ -5860,7 +5865,7 @@ msgstr ""
 "trouvée\n"
 "dans la base de données de My Freecycle. \n"
 "\n"
-"Répondre aux messages de cette façon implique d'avoir une adresse email "
+"Répondre aux annonces de cette façon implique d'avoir une adresse email "
 "connue\n"
 "afin de réduire la quantité de spam que nos membres reçoivent. \n"
 "\n"
@@ -5871,7 +5876,7 @@ msgstr ""
 "sur http://www.freecycle.org\n"
 "\n"
 "--\n"
-"Ceci est un message automatique - veuillez ne pas y répondre. "
+"Ceci est un message automatique - veuillez ne pas y répondre"
 
 #: webapp_main/templates/source/about/staff.tt:14
 msgid ""
@@ -5930,7 +5935,7 @@ msgstr ""
 
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:44
 msgid "The number of members in this group"
-msgstr "le nombre de membres pour ce groupe"
+msgstr "Le nombre de membres pour ce groupe"
 
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:43
 msgid "The number of official Freecycle group"
@@ -5948,22 +5953,22 @@ msgstr "La décharge officielle de responsabilité du Réseau Freecycle"
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:41
 msgid ""
 "The official TFN logo (bare &lt;img> tag with width and height attributes)"
-msgstr "Le logo officiel du Réseau Freecycle "
+msgstr "Le logo officiel du Réseau Freecycle"
 
 #: webapp_main/templates/source/404.tt:12
 msgid ""
 "The page you requested doesn't exist, but you've got a couple of options:"
 msgstr ""
 "L'adresse que vous visitez n'existe pas, mais vous avez les options "
-"suivantes : "
+"suivantes :"
 
 #: webapp_myf/templates/source/404.tt:5
 msgid "The page you were looking for cannot be found!"
-msgstr "La page demandée n'existe pas."
+msgstr "La page demandée n'existe pas!"
 
 #: webapp_main/templates/source/login/password_reset.tt:10
 msgid "The password reset link has already been used."
-msgstr "Le lien de réinitialisation du mot de passe a déjà été utilisé"
+msgstr "Le lien de réinitialisation du mot de passe a déjà été utilisé."
 
 #: webapp_main/templates/source/login/password_reset.tt:6
 msgid ""
@@ -5971,7 +5976,7 @@ msgid ""
 "because:"
 msgstr ""
 "Le jeton de réinitialisation du mot de passe n'a pas été reconnu. Les causes "
-"peuvent être : "
+"peuvent être :"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:34
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:34
@@ -5980,7 +5985,7 @@ msgstr "La personne qui l'a <b>fait</b>"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:67
 msgid "The policy is now that no images will be moderated."
-msgstr "La politique est maintenant de ne plus modérer les images. "
+msgstr "La politique est maintenant de ne plus modérer les images."
 
 #. (post_matches.join(", "))
 #: webapp_myf/templates/source/home/posts/display_issues.tt:1
@@ -5991,27 +5996,27 @@ msgstr "Il semble que cette annonce est un double de ces annonces : %1"
 #: webapp_myf/templates/source/home/posts/display_issues.tt:1
 msgid "The post body has too many capitals  - this group has a limit of %1%"
 msgstr ""
-"Le corps du message a trop de majuscules - ce groupe a une limite de %1%"
+"Le corps de l’annonce a trop de majuscules - ce groupe a une limite de %1%"
 
 #. (mmaker.maximum_description_length)
 #: webapp_myf/templates/source/home/posts/display_issues.tt:1
 msgid "The post body is too long - this group has a limit of %1 letters"
 msgstr ""
-"Le corps du message est trop long - ce groupe à une limite de %1 lettres"
+"Le corps de l’annonce est trop long - ce groupe à une limite de %1 lettres"
 
 #. (mmaker.maximum_item_caps_percentage)
 #: webapp_myf/templates/source/home/posts/display_issues.tt:1
 msgid ""
 "The post description has too many capitals  - this group has a limit of %1%"
 msgstr ""
-"La description du message contient trop de majuscules - ce groupe a une "
+"La description de l’annonce contient trop de majuscules - ce groupe a une "
 "limite de %1%"
 
 #. (mmaker.maximum_item_length)
 #: webapp_myf/templates/source/home/posts/display_issues.tt:1
 msgid "The post description is too long - this group has a limit of %1 letters"
 msgstr ""
-"La description du message est trop longue - ce groupe a une limite de %1 "
+"La description de l’annonce est trop longue - ce groupe a une limite de %1 "
 "lettres"
 
 #. (mmaker.maximum_location_caps_percentage)
@@ -6022,11 +6027,11 @@ msgstr "Le lieu contient trop de majuscules - ce groupe a une limite de %1%"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reject_email:5
 msgid "The reason given was:"
-msgstr "La raison donnée est la suivante : "
+msgstr "La raison donnée est la suivante :"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/post_abuse_report.tt:5
 msgid "The reporter gave the following reason:"
-msgstr "Le reporter a donné la raison suivante : "
+msgstr "Le reporter a donné la raison suivante :"
 
 #: webapp_myf/templates/source/home/groups/set_email_confirmed.tt:14
 msgid "The request has been sent to Yahoo!Groups for processing."
@@ -6034,7 +6039,7 @@ msgstr "Votre demande a été envoyée à Yahoo!Groupes."
 
 #: webapp_myf/templates/source/home/posts/display_issues.tt:1
 msgid "The short description is not valid"
-msgstr "Votre description n'est pas valide."
+msgstr "Votre description n'est pas valide"
 
 #: webapp_myf/templates/source/forgottenpassword.tt:83
 msgid "The site administrators have been informed of the problem."
@@ -6042,11 +6047,11 @@ msgstr "Les administrateurs du site ont été informés du problème."
 
 #: webapp_modtools/templates/perl/source/moderator_displaygroupdescriptioncode:45
 msgid "The total number of members in all groups"
-msgstr "le nombre total de membres pour tous les groupes"
+msgstr "Le nombre total de membres pour tous les groupes"
 
 #: webapp_myf/templates/source/signup.tt:190
 msgid "The username or email address was invalid"
-msgstr "L'identifiant ou l'adresse e-mail est incorrecte."
+msgstr "L'identifiant ou l'adresse e-mail est incorrecte"
 
 #: webapp_myf/templates/source/forgottenpassword.tt:83
 msgid "The username/email combination could not be found in the database."
@@ -6067,23 +6072,23 @@ msgid ""
 "There are %1 ADMIN message(s) for this Group - please make sure you've read "
 "them"
 msgstr ""
-"Il y a %1 message(s) ADMIN pour ce groupe - Veuillez vous assurez de le(s) "
-"lire."
+"Il y a %1 message(s) ADMIN pour ce groupe - veuillez vous assurez de le(s) "
+"lire"
 
 #. (pending_members)
 #: webapp_modtools/templates/perl/source/moderator_group_overview:75
 msgid "There are %1 Members waiting for approval"
-msgstr "Vous avez %1 membre(s) en attente d'approbation."
+msgstr "Vous avez %1 membre(s) en attente d'approbation"
 
 #. (pending_posts)
 #: webapp_modtools/templates/perl/source/moderator_group_overview:80
 msgid "There are %1 Posts waiting for approval"
-msgstr "Il y a %1 message(s) en attente"
+msgstr "Il y a %1 annonce(s) en attente"
 
 #. (memberlist.size)
 #: webapp_modtools/templates/perl/source/moderator_display_group_invites:31
 msgid "There are %1 accounts at this level."
-msgstr "Il y a %1 compte(s) de ce niveau"
+msgstr "Il y a %1 compte(s) de ce niveau."
 
 #: webapp_main/templates/source/about/volunteering.tt:11
 msgid ""
@@ -6101,7 +6106,7 @@ msgstr "Aucune annonce d'OFFRE ne correspond à vos critères"
 
 #: webapp_modtools/templates/source/manage/links/index.tt:45
 msgid "There are no links for this Group"
-msgstr "Il n'y a pas de liens pour ce groupe."
+msgstr "Il n'y a pas de liens pour ce groupe"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:37
 msgid "There are no pending posts"
@@ -6119,7 +6124,7 @@ msgstr "Il y a plusieurs variables-type que vous pouvez utiliser :"
 
 #: webapp_modtools/templates/perl/source/moderator_display_hotwords:32
 msgid "There are two \"wildcard\" characters you can use:"
-msgstr "Il y a deux caractères \"joker\" que vous pouvez utiliser : "
+msgstr "Il y a deux caractères \"joker\" que vous pouvez utiliser :"
 
 #. (group_name)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_member_email:1
@@ -6129,7 +6134,7 @@ msgstr "Vous avez un membre en attente d'approbation pour %1 groupe."
 #. (group_name)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_post_email:1
 msgid "There is a new Post awaiting approval to %1 group."
-msgstr "Il y a un message en attente d'approbation pour %1 groupe."
+msgstr "Il y a une annoncee en attente d'approbation pour %1 groupe."
 
 #: webapp_myf/templates/source/home/posts/manage/show.tt:60
 msgid "There is no image for this Post"
@@ -6139,7 +6144,7 @@ msgstr "Pas d'image pour cette annonce"
 msgid ""
 "There is no preview available for this file - please download it to view"
 msgstr ""
-"Il n'y a pas d'aperçu pour ce fichier - pour le voir veuillez le télécharger."
+"Il n'y a pas d'aperçu pour ce fichier - pour le voir veuillez le télécharger"
 
 #: webapp_myf/templates/source/home/groups/index.tt:217
 msgid ""
@@ -6147,19 +6152,19 @@ msgid ""
 "fulfilled"
 msgstr ""
 "Un problème est survenu lors de l'envoi de l'e-mail, votre demande n'a pu "
-"être prise en compte."
+"être prise en compte"
 
 #: webapp_myf/templates/source/forgottenpassword.tt:83
 msgid "There was a problem sending you the password"
-msgstr "Une erreur est survenue lors de l'envoi du mot de passe."
+msgstr "Une erreur est survenue lors de l'envoi du mot de passe"
 
 #: webapp_myf/templates/source/forgottenpassword.tt:83
 msgid "There was an error generating a new password for you"
-msgstr "Une erreur est survenue lors de la création de votre mot de passe."
+msgstr "Une erreur est survenue lors de la création de votre mot de passe"
 
 #: webapp_myf/templates/source/signup.tt:190
 msgid "There was an error sending the notification email"
-msgstr "Une erreur est survenue lors de l'envoi de l'email de notification."
+msgstr "Une erreur est survenue lors de l'envoi de l'email de notification"
 
 #: webapp_main/templates/source/search/results.tt:49
 msgid "There were no groups matching your search terms"
@@ -6179,7 +6184,7 @@ msgstr ""
 
 #: webapp_modtools/templates/source/manage/files/automatic.tt:46
 msgid "These files will be sent when a Member leaves the Group"
-msgstr "Ces fichiers seront envoyés à un membre qui quitte le groupe."
+msgstr "Ces fichiers seront envoyés à un membre qui quitte le groupe"
 
 #: webapp_modtools/templates/source/manage/files/automatic.tt:38
 msgid ""
@@ -6188,7 +6193,7 @@ msgid ""
 "approved"
 msgstr ""
 "Ces fichiers seront envoyés quand un membre rejoint le groupe, qu'il soit "
-"approuvé par un modérateur ou si le groupe ne demande pas d'approbation. "
+"approuvé par un modérateur ou si le groupe ne demande pas d'approbation"
 
 #: webapp_modtools/templates/source/manage/files/automatic.tt:30
 msgid "These files will be sent when a pending Member has been approved."
@@ -6206,7 +6211,7 @@ msgid ""
 "Freecycle\" account and join the Group."
 msgstr ""
 "Ces personnes vont recevoir un mail générique qui les invitera à créer un "
-"compte \"MyFreecycle\" et rejoindre le groupe. "
+"compte \"MyFreecycle\" et rejoindre le groupe."
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_confirm:68
 msgid ""
@@ -6214,7 +6219,7 @@ msgid ""
 "invitation will be shown on their \"My Groups\" page"
 msgstr ""
 "Ces personnes vont recevoir un mail les invitant à rejoindre le groupe, et "
-"une invitation sera visible sur leur page \"Mes groupes\". "
+"une invitation sera visible sur leur page \"Mes groupes\""
 
 #: webapp_modtools/templates/perl/source/moderator_members_invite_form:22
 msgid ""
@@ -6235,9 +6240,9 @@ msgid ""
 "description. Let your GOA know if you can think of anything else you would "
 "like."
 msgstr ""
-"Ils seront automatiquement remplacé par les bonnes valeurs par le système,  "
+"Ils seront automatiquement remplacé par les bonnes valeurs par le système, "
 "et vous évite d'avoir à éditer continuellement la description de votre "
-"groupe. Prévenez votre GOA si vous pensez avoir besoin d'autre chose. "
+"groupe. Prévenez votre GOA si vous pensez avoir besoin d'autre chose."
 
 #: webapp_main/templates/source/group/files/index.tt:13
 msgid "This Group has no files for you to view"
@@ -6268,11 +6273,11 @@ msgstr ""
 "bas est défectueux/ne fonctionne pas. Une copie vous est envoyée en tant que "
 "modérateur du groupe afin que vous puissiez vérifier la pertinence du "
 "contenu et/ou des fonctionalités du lien lui-même sur la base des "
-"informations ci-dessous. "
+"informations ci-dessous."
 
 #: webapp_modtools/templates/source/manage/files/delete_file.tt:29
 msgid "This file has been deleted from the Group"
-msgstr "Ce fichier a été effacé du groupe. "
+msgstr "Ce fichier a été effacé du groupe"
 
 #: webapp_modtools/templates/source/manage/files/send_file.tt:30
 msgid ""
@@ -6280,7 +6285,7 @@ msgid ""
 "processed as soon as possible."
 msgstr ""
 "Ce fichier est placé en file d'attente pour être envoyé par le système "
-"d'envoi en masse de fichiers, et sera traité dès que possible. "
+"d'envoi en masse de fichiers, et sera traité dès que possible."
 
 #. (percent_modded)
 #: webapp_modtools/templates/perl/source/moderator_members_overview:32
@@ -6327,8 +6332,7 @@ msgstr ""
 "<a href=\"http://fr.groups.yahoo.com/group/%1/members\">Pages de Gestion des "
 "membres</a>pour gérer les membres. Tout membre\n"
 "listé ici est passé par le système 'My Freecycle', et cette liste doit être "
-"considérée <b>incomplète et seulement pour information\n"
-" "
+"considérée <b>incomplète et seulement pour information"
 
 #: webapp_myf/templates/source/home/posts/manage/taken_form.tt:17
 msgid ""
@@ -6349,8 +6353,8 @@ msgid ""
 "This is a reply from Freecycle member \"%4\", to a Post you made on the "
 "\"%1\" Group titled \"%2\" (Post ID: %3)."
 msgstr ""
-"Ceci est une réponse de \"%4\", membre de Freecycle,à une annonce que vous "
-"avez postée sur le group \"%1\", qui a pour titre \"%2\" (POSTID : %3)."
+"Ceci est une réponse de \"%4\", membre de Freecycle, à une annonce que vous "
+"avez postée sur le groupe \"%1\", qui a pour titre \"%2\" (POSTID : %3)."
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_reply_nopost_email:17
 msgid "This is an automated email - please do not reply"
@@ -6358,7 +6362,7 @@ msgstr "Ceci est un message automatique - veuillez ne pas y répondre"
 
 #: core_modules/lib/Freecycle/Email.pm:1215
 msgid "This is an automatic email containing a file from the Group."
-msgstr "Ceci est un message automatique qui contient un fichier du groupe."
+msgstr "Ceci est un email automatique qui contient un fichier du groupe."
 
 #: webapp_myf/templates/source/home/groups/index.tt:72
 msgid "This is your home (default) Group"
@@ -6398,8 +6402,7 @@ msgid ""
 msgstr ""
 "Cette organisation a une vaste base de données sur les possibilités de "
 "recyclage, et partage de nombreuses astuces pour économiser de l'énergie, "
-"protéger l'air de la pollution, et éviter les déchets domestiques "
-"dangereux.  "
+"protéger l'air de la pollution, et éviter les déchets domestiques dangereux."
 
 #: webapp_main/templates/source/about/links.tt:32
 msgid ""
@@ -6412,7 +6415,7 @@ msgstr ""
 "programme national complet qui collecte et recycle les batteries "
 "rechargeables et les téléphones mobiles. Les zones de collecte locale sont "
 "indiquées sur leur site. Une partie des revenus issus de ces collectes est "
-"donnée à des oeuvres de charité. "
+"donnée à des oeuvres de charité."
 
 #. ("<a href=\"mailto:goa@freecycle.org\">goa@freecycle.org</a>")
 #: webapp_main/templates/source/about/volunteering.tt:36
@@ -6531,7 +6534,7 @@ msgstr ""
 "Ce guide d recyclage donne un point de départ aux consommateurs aux US et au "
 "Canada qui cherchent sur internet des informations sur le recyclage. Le but "
 "est de rendre le recyclage si facile et automatique qu'il devienne une part "
-"intégrante de votre vie de tous les jours. "
+"intégrante de votre vie de tous les jours."
 
 #. ("<a href=\"mailto:modcoord@freecycle.org\">modcoord@freecycle.org</a>")
 #: webapp_main/templates/source/about/volunteering.tt:30
@@ -6568,7 +6571,7 @@ msgid ""
 "to do this?"
 msgstr ""
 "Ceci supprimera définitivement le fichier du groupe - êtes-vous sûr de "
-"vouloir faire ceci? "
+"vouloir faire ceci?"
 
 #: webapp_modtools/templates/source/manage/files/send_file.tt:18
 msgid ""
@@ -6597,7 +6600,7 @@ msgstr "Titre :  %1"
 
 #: webapp_main/templates/source/group/contact_moderators.tt:13
 msgid "To"
-msgstr "À "
+msgstr "À"
 
 #: webapp_myf/templates/source/home/groups/contact_mods_form.tt:52
 msgid "To :"
@@ -6614,14 +6617,11 @@ msgstr ""
 "cette option."
 
 #: core_modules/lib/Freecycle/Email.pm:505
-#, fuzzy
 msgid ""
 "To change your group email settings directly on the site use this link\n"
 msgstr ""
 "Pour changer les paramètres de votre groupe directement sur le site, cliquez "
-"ici. Vous\n"
-"aurez peut-être besoin de vous connecter sur le site pour pouvoir utiliser "
-"cette option."
+"ici\n"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:24
 msgid ""
@@ -6635,13 +6635,12 @@ msgstr ""
 
 #. (group.name, group.region)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:35
-#, fuzzy
 msgid ""
 "To respond to any of these %1, %2 posts, please use the links below - do not "
 "reply directly to this email"
 msgstr ""
-"Pour répondre à un de ces messages, veuillez utliser les liens ci-dessous - "
-"ne répondez pas directement à ce message"
+"Pour répondre à l’une de ces annonces de %1, %2 veuillez utiliser les liens "
+"ci-dessous - ne répondez pas directement à cet email"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:28
 msgid "To send a message to the group moderators click here"
@@ -6665,9 +6664,8 @@ msgid "To unsubscribe from this Group, use this link"
 msgstr "Pour vous désinscrire de ce groupe, utilisez ce lien"
 
 #: core_modules/lib/Freecycle/Email.pm:508
-#, fuzzy
 msgid "To unsubscribe from this Group, use this link: %s "
-msgstr "Pour vous désinscrire de ce groupe, utilisez ce lien"
+msgstr "Pour vous désinscrire de ce groupe, utilisez ce lien: %s "
 
 #: core_modules/lib/Freecycle/standard_templates/source/standard_group_description.tt:4
 msgid ""
@@ -6679,11 +6677,11 @@ msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:33
 msgid "To visit your Group on the web, go to:"
-msgstr "Pour voir votre groupe sur le web, allez sur : "
+msgstr "Pour voir votre groupe sur le web, allez sur :"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:21
 msgid "To visit your group on the web, go to"
-msgstr "Pour voir votre groupe sur le web, allez sur : "
+msgstr "Pour voir votre groupe sur le web, allez sur"
 
 #: webapp_myf/templates/source/home/groups/join_too_many.tt:3
 msgid "Too many Groups!"
@@ -6707,11 +6705,11 @@ msgstr "Astuces et Règles sur la Marque"
 
 #. ("https://www.freecycle.org/login/forgotten_password")
 #: webapp_myf/templates/source/index.tt:34
-#, fuzzy
 msgid ""
 "Try the <a href='%1'>forgotten password form</a> to reset your password."
 msgstr ""
-"Essayez le <a href='%1'>formulaire de réinitialisation de mot de passe</a> . "
+"Essayez le <a href='%1'>formulaire mot de passe oublié</a> pour "
+"réinitialiser votre mot de passe."
 
 #: webapp_modtools/templates/perl/source/moderator_group_overview:130
 msgid "Turn off EFM"
@@ -6787,7 +6785,7 @@ msgstr "URL"
 #: webapp_modtools/templates/source/manage/links/add.tt:6
 #: webapp_modtools/templates/source/manage/links/edit.tt:6
 msgid "URL : "
-msgstr "URL :"
+msgstr "URL : "
 
 #. (link.url)
 #: webapp_main/templates/source/email/group_link_report.tt:13
@@ -6804,7 +6802,7 @@ msgid ""
 "this site."
 msgstr ""
 "Oncle Sam offre de nombreuses statistiques ainsi que des infos et des "
-"astuces pratiques sur ce site. "
+"astuces pratiques sur ce site."
 
 #: webapp_modtools/templates/perl/source/moderator_group_admins_view:48
 msgid "Unexpire the ADMIN and send emails"
@@ -6866,7 +6864,7 @@ msgstr "Valider"
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:37
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:37
 msgid "Update these Posts"
-msgstr "Mettre à jour ces messages"
+msgstr "Mettre à jour ces annonces"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_displaytimezones:20
 #: webapp_modtools/templates/perl/source/moderator_displaytimezones:20
@@ -6922,7 +6920,7 @@ msgstr "Identifiant ou adresse e-mail"
 #: webapp_myf/templates/source/forgottenpassword.tt:83
 #: webapp_myf/templates/source/signup.tt:31
 msgid "Username :"
-msgstr "Identifiant : "
+msgstr "Identifiant :"
 
 #. (username)
 #: webapp_myf/templates/source/home/info/index.tt:43
@@ -6943,11 +6941,11 @@ msgid ""
 "and plus signs"
 msgstr ""
 "Votre identifiant peut contenir des lettres, des nombres, et les signes "
-"suivants: + - _ "
+"suivants: + - _"
 
 #: webapp_myf/templates/source/home/info/change_username.tt:5
 msgid "Usernames must"
-msgstr "les identifiants doivent"
+msgstr "Les identifiants doivent"
 
 #: webapp_myf/templates/source/signup.tt:106
 msgid "Usernames must be at least 4 characters long"
@@ -6988,7 +6986,7 @@ msgstr "Vidéo"
 #: webapp_modtools/templates/lib/moderator_menu:125
 #: webapp_modtools/templates/perl/source/moderator_menu:125
 msgid "View Posts"
-msgstr "Voir les messages"
+msgstr "Voir les annonces"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:93
 msgid "View all items"
@@ -7004,7 +7002,7 @@ msgstr "Voir"
 
 #: webapp_modtools/templates/source/manage/files/index.tt:24
 msgid "View/Edit details"
-msgstr "Voir/Modifier "
+msgstr "Voir/Modifier"
 
 #. (groupname)
 #: core_modules/lib/Freecycle/standard_templates/source/group_template_yahoogrouplink.tt:1
@@ -7090,7 +7088,7 @@ msgstr "Avertir si la case \"description\" est vide ?"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:17
 msgid "Warn people if they haven't put something in the subject line"
-msgstr "Avertir si la case \"objet\" est vide ?"
+msgstr "Avertir si la case \"objet\" est vide"
 
 #: webapp_modtools/templates/perl/source/moderator_mmakerprefs:81
 msgid "Warn people if they've made the description too long?"
@@ -7125,7 +7123,7 @@ msgid ""
 msgstr ""
 "Nous sommes un gros mouvement de base mais une toute petite organisation à "
 "but non lucratif avec une masse salariale de 1 personne. Défendre notre "
-"marque nécessite de nombreuses mains et de nombreux cœurs. "
+"marque nécessite de nombreuses mains et de nombreux cœurs."
 
 #: webapp_main/templates/source/donate.tt:24
 msgid ""
@@ -7158,9 +7156,11 @@ msgid ""
 "you request, and the domain name and country from which you request "
 "information) to improve our Web site and better meet your needs."
 msgstr ""
-"Les bénévoles locaux qui gèrent ce groupe vous souhaitent la bienvenue sur "
-"ce groupe du réseau Freecycle. Nous espérons que vous apprécieriez ce groupe "
-"autant que nous !"
+"Nous ne vendrons ni n’échangerons vos renseignements personnels en aucun "
+"temps. Nous recueillerons des renseignements généraux (comme le type de "
+"navigateur que vous utilisez, les fichiers que vous demandez, le nom de "
+"domaine et le pays auprès duquel vous demandez des renseignements) pour "
+"améliorer notre site Web et mieux répondre à vos besoins."
 
 #. ("%%group_name")
 #: core_modules/lib/Freecycle/standard_templates/source/standard_group_description.tt:1
@@ -7186,11 +7186,11 @@ msgstr ""
 "poubelles et décharges d'objets qui sont tout à fait réutilisables. Chaque "
 "groupe local est modéré par des bénévoles. L'adhésion est gratuite. Pour "
 "vous inscrire, trouvez votre localité en la tapant dans la boite de saisie "
-"ci-dessus, ou en cliquant sur \"Parcourir les groupes\".  Amusez-vous bien ! "
+"ci-dessus, ou en cliquant sur \"Parcourir les groupes\". Amusez-vous bien !"
 
 #: webapp_myf/templates/source/forgottenusername.tt:16
 msgid "Well, you can just log in with your email address."
-msgstr "Eh bien, vous pouvez vous connecter avec votre adresse e-mail. "
+msgstr "Eh bien, vous pouvez vous connecter avec votre adresse e-mail."
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:35
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:35
@@ -7203,7 +7203,7 @@ msgstr "Qu'est-ce que le \"Formulaire 990\"?"
 
 #: webapp_myf/templates/source/home/posts/new.tt:54
 msgid "What is your approximate location?"
-msgstr "Lieu approximatif :"
+msgstr "Quel est votre lieu approximatif ?"
 
 #: webapp_myf/templates/source/home/posts/new.tt:31
 msgid "What type of post is this?"
@@ -7238,7 +7238,7 @@ msgstr "Au sein de votre groupe local"
 
 #: webapp_main/templates/source/group/posts/display_list.tt:28
 msgid "Words to look for :"
-msgstr "Mot à rechercher"
+msgstr "Mots à rechercher :"
 
 #: webapp_main/templates/source/about/staff.tt:12
 msgid "Wow! Hats off to ALL these wonderful people!!"
@@ -7297,7 +7297,7 @@ msgstr "Oui"
 
 #: webapp_modtools/templates/source/manage/files/delete_file.tt:19
 msgid "Yes, delete it"
-msgstr "Oui, supprimer."
+msgstr "Oui, supprimer"
 
 #: webapp_modtools/templates/source/manage/files/send_file.tt:20
 msgid "Yes, send it"
@@ -7435,7 +7435,7 @@ msgstr "Vous êtes membre de %1 groupe(s)"
 
 #: webapp_myf/templates/source/home/groups/search.tt:99
 msgid "You are already a Lead Moderator of this Group"
-msgstr "Vous êtes déjà modérateur principal pour ce groupe."
+msgstr "Vous êtes déjà modérateur principal pour ce groupe"
 
 #: webapp_myf/templates/source/home/groups/join_too_many.tt:6
 msgid ""
@@ -7448,11 +7448,11 @@ msgstr ""
 
 #: webapp_myf/templates/source/home/groups/search.tt:99
 msgid "You are already a Moderator of this Group"
-msgstr "Vous êtes déjà modérateur pour ce groupe."
+msgstr "Vous êtes déjà modérateur pour ce groupe"
 
 #: webapp_myf/templates/source/home/groups/index.tt:217
 msgid "You are already subscribed to the maximum number of groups"
-msgstr "Vous êtes déjà membre du plus grand nombre de groupe autorisé."
+msgstr "Vous êtes déjà membre du plus grand nombre de groupes autorisé"
 
 #. (group.unique_name, post.user_name, post.post_id)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:10
@@ -7466,13 +7466,12 @@ msgstr ""
 "%1. C'est un message adressé au groupe par le membre \"%2\" (Msg n°: %3)."
 
 #: core_modules/lib/Freecycle/Email.pm:504
-#, fuzzy
 msgid ""
 "You are getting this email because you are a member of the %s Freecycle "
 "group. \n"
 msgstr ""
-"Vous recevez ce message parce que vous êtes membre du groupe Freecycle de "
-"%1. C'est un message adressé au groupe par le membre \"%2\" (Msg n°: %3)."
+"Vous recevez cet email parce que vous êtes membre du groupe Freecycle de "
+"%s. \n"
 
 #: webapp_myf/templates/source/home/groups/index.tt:99
 msgid "You are not a member of any groups."
@@ -7527,15 +7526,15 @@ msgid ""
 "You can close this Post to new replies by marking it as TAKEN/RECEIVED on "
 "your \"My Posts\" page:"
 msgstr ""
-"Vous pouvez clore votre annonce en la marquant PARTI/RECU sur votre Page "
-"\"MesPosts\":"
+"Vous pouvez fermer cette annonce aux nouvelles réponses en la marquant PARTI/"
+"RECU sur votre Page \"Mes annonces\":"
 
 #: webapp_myf/templates/source/index.tt:33
 msgid ""
 "You can log in with your email address if you don't know your user name."
 msgstr ""
 "Vous pouvez vous connecter avec votre adresse e-mail si vous ne vous "
-"souvenez pas de votre ientifiant. "
+"souvenez pas de votre identifiant."
 
 #: webapp_myf/templates/source/home/groups/home.tt:4
 msgid ""
@@ -7552,13 +7551,12 @@ msgstr "Vous pouvez rouvrir l'annonce de My Freecycle"
 
 #. (sender.email)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_post_web_reply_email:9
-#, fuzzy
 msgid ""
 "You can reply to this message by pressing \"reply\" in your email program or "
 "by sending email to %1 -"
 msgstr ""
-"Vous pouvez répondre à ce message en utilisant le bouton \"Répondre\" dans "
-"votre outil ou en écrivant à %1"
+"Vous pouvez répondre à cet email en utilisant le bouton \"Répondre\" ou en "
+"écrivant à %1 -"
 
 #. (group.unique_name, post.post_id, post.email, post.title)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:61
@@ -7570,7 +7568,7 @@ msgstr ""
 "Vous pouvez répondre à ce message sur <a href=\"http://groups.freecycle.org/"
 "%1/posts/%2\">le site</a> ou en utilisant le bouton \"Répondre\" dans votre "
 "outil de mail, ou encore en écrivant à <a href=\"mailto:%3?subject=RE: %4\">"
-"%3</a>"
+"%3</a>."
 
 #. (group.unique_name, post.post_id, post.email)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:11
@@ -7582,7 +7580,7 @@ msgstr ""
 "Vous pouvez répondre à ce message sur <a href=\"http://groups.freecycle.org/"
 "%1/posts/%2\">le site</a> ou en utilisant le bouton \"Répondre\" dans votre "
 "outil de mail, ou encore en écrivant à <a href=\"mailto:%3?subject=RE: %4\">"
-"%3</a>"
+"%3</a>."
 
 #. (groupURL)
 #: webapp_myf/templates/source/home/posts/new_okay.tt:31
@@ -7590,7 +7588,7 @@ msgid ""
 "You can return to your <a href='/home/posts'>posts</a> page, go to the <a "
 "href='%1'>group page</a> or use any of the tabs above to continue."
 msgstr ""
-"Vous pouvez retourner à <a href='/home/posts'> vos messages</a>, allez à la "
+"Vous pouvez retourner à <a href='/home/posts'> vos annonces</a>, allez à la "
 "<a href='%1'>page du groupe </a> ou utiliser les onglets ci-dessus pour "
 "continuer."
 
@@ -7606,7 +7604,7 @@ msgstr ""
 "adresse e-mail. Vous pouvez préciser plusieurs identifiant/adresse e-mail\n"
 " en les séparant avec un espace, une tabulation, un retour chariot ou une "
 "virgule.<br/>\n"
-" La recherche sera limitée à ce groupe. "
+" La recherche sera limitée à ce groupe."
 
 #: webapp_myf/templates/source/home/info/change_password.tt:17
 msgid "You can use this form to change your login password for 'My Freecycle'."
@@ -7629,7 +7627,7 @@ msgid ""
 "You can use this form to choose the languages you prefer to get emails in."
 msgstr ""
 "Vous pouvez utiliser ce formulaire pour modifier la langue dans laquelle "
-"vous préférez recevoir les emails. "
+"vous préférez recevoir les emails."
 
 #: webapp_myf/templates/source/signup.tt:173
 msgid "You cannot use My Freecycle without agreeing to the Terms of Service"
@@ -7640,8 +7638,8 @@ msgstr ""
 #: webapp_myf/templates/source/signup.tt:190
 msgid "You cannot use this service without agreeing to the Terms of Service"
 msgstr ""
-"Vous ne pouvez pas utiliser ce service sans accepter les conditions "
-"d'utilisation."
+"Vous ne pouvez pas utiliser ce service sans accepter les Conditions "
+"d’Utilisation"
 
 #. ("/home/groups")
 #: webapp_myf/templates/lib/box_tabbar.tt:39
@@ -7659,7 +7657,7 @@ msgid ""
 msgstr ""
 "Vous n'avez pas autorisé les applications par des tiers – Pour vous "
 "connecter vous devez autoriser My Freecycle à accéder aux informations de "
-"votre compte."
+"votre compte"
 
 #: webapp_myf/templates/source/home/posts/new.tt:159
 msgid "You do not belong to any groups yet!"
@@ -7682,7 +7680,7 @@ msgstr "Vous avez %1 annonce(s) active(s)"
 #. (group_counts.pending)
 #: webapp_myf/templates/source/home/groups/index.tt:31
 msgid "You have %1 group membership(s) waiting for approval. "
-msgstr "Vous avez %1 demande(s) d'adhésion en attente d'approbation."
+msgstr "Vous avez %1 demande(s) d'adhésion en attente d'approbation. "
 
 #. (posts.numPosts)
 #: webapp_myf/templates/source/home/info/index.tt:16
@@ -7695,13 +7693,13 @@ msgstr "Vous appartenez déjà à ce groupe"
 
 #: webapp_myf/templates/source/home/groups/index.tt:238
 msgid "You have been invited to join the following groups:"
-msgstr "Vous avez été invité à rejoindre les groupes suivants : "
+msgstr "Vous avez été invité à rejoindre les groupes suivants :"
 
 #: webapp_main/templates/source/login/password_reset.tt:9
 msgid "You have generated a new password reset link since the email was sent."
 msgstr ""
 "Vous avez généré un nouveau lien de réinitialisation de mot de passe depuis "
-"que ce message a été envoyé"
+"que ce message a été envoyé."
 
 #: webapp_myf/templates/source/home/posts/index.tt:75
 msgid "You have no open posts"
@@ -7756,8 +7754,8 @@ msgid ""
 "You need to be <a class='link_login' href='%1'>logged in</a> and a Member of "
 "this Group to reply to this Post"
 msgstr ""
-"Pour pouvoir répondre à cette annonce, vous devez être membre de ce groupe "
-"et vous être <a class='link_login' href='%1'>connecté</a>."
+"Vous devez être <a class='link_login' href='%1'>connecté</a> et membre de ce "
+"groupe pour pouvoir répondre à cette annonce"
 
 #. (('http://my.freecycle.org/login?referer=' _ thispage))
 #: webapp_main/templates/source/group/posts/display_post.tt:0
@@ -7765,8 +7763,8 @@ msgid ""
 "You need to be <a class='link_login' href='%1'>logged in</a> and a Member of "
 "this Group to view the Post details"
 msgstr ""
-"Vous devez être abonné à ce groupe et <a class='link_login' "
-"href='%1'>connecté</a> pour voir les détails de l'annonce"
+"Vous devez être <a class='link_login' href='%1'>connecté</a> et membre de ce "
+"groupe pour pouvoir voir les détails de cette annonce"
 
 #: webapp_myf/templates/source/forgottenusername.tt:37
 msgid "You should receive an email with your username in soon."
@@ -7781,7 +7779,7 @@ msgid ""
 msgstr ""
 "Vous devriez recevoir sous peu un e-mail avec un lien de réinitialisation de "
 "mot de passe à votre adresse enregistrée sur Freecycle.org. Veuillez suivre "
-"les instructions dans l'e-mail pour réinitialiser votre mot passe. "
+"les instructions dans l'e-mail pour réinitialiser votre mot passe"
 
 #: webapp_myf/templates/source/forgottenpassword.tt:83
 msgid "You should receive your new password soon."
@@ -7903,9 +7901,11 @@ msgid ""
 msgstr ""
 "Pour pouvoir utiliser My Freecycle vous devez tout d'abord créer un compte. "
 "Choisissez un identifiant et une adresse e-mail valide que vous consultez "
-"régulièrement. Si vous êtes un utilisateur de Yahoo!Groupes, nous vous "
-"conseillons d'utiliser la même adresse que celle que vous utilisez pour "
-"Yahoo!Groupes, ou d'ajouter la nouvelle adresse à votre profil Yahoo!."
+"régulièrement.\n"
+"\n"
+"(Si vous êtes un utilisateur de Yahoo!Groupes, nous vous conseillons "
+"d'utiliser la même adresse que celle que vous utilisez pour Yahoo!Groupes, "
+"ou d'ajouter la nouvelle adresse à votre profil Yahoo!.)"
 
 #: webapp_myf/templates/source/home/info/index.tt:36
 msgid ""
@@ -7928,7 +7928,7 @@ msgstr "Votre compte Facebook n'est pas associé à votre compte My Freecycle"
 
 #: core_modules/lib/Freecycle/Email.pm:2124
 msgid "Your My Freecycle account has been created"
-msgstr "Votre compte My Freecycle a été créé. "
+msgstr "Votre compte My Freecycle a été créé"
 
 #: webapp_myf/templates/source/index.tt:63
 msgid ""
@@ -7938,7 +7938,7 @@ msgid ""
 msgstr ""
 "Vous devez vous connecter avec votre identifiant et votre mot de passe "
 "Freecycle et associer votre compter avant de pouvoir utiliser un compte "
-"tiers pour vous identifier."
+"tiers pour vous identifier"
 
 #: core_modules/lib/Freecycle/Email.pm:2303
 msgid "Your My Freecycle username reminder"
@@ -7946,7 +7946,7 @@ msgstr "Rappel de votre identifiant My Freecycle"
 
 #: webapp_myf/templates/source/home/delete_account.tt:12
 msgid "Your account has been closed"
-msgstr "Votre compte est désormais clos."
+msgstr "Votre compte est désormais clos"
 
 #: webapp_myf/templates/source/signup_okay.tt:12
 msgid ""
@@ -8022,7 +8022,7 @@ msgstr "Votre message a été envoyé"
 
 #: webapp_main/templates/source/group/posts/reply_sent.tt:3
 msgid "Your message was sent successfully"
-msgstr "Votre message a été envoyé "
+msgstr "Votre message a été envoyé"
 
 #: webapp_myf/templates/source/home/info/change_email_address.tt:19
 msgid "Your new email address could not be saved"
@@ -8047,7 +8047,7 @@ msgstr ""
 
 #: webapp_myf/templates/source/home/info/save_password.tt:14
 msgid "Your password has been successfully changed"
-msgstr "Votre mot de passe a été modifié."
+msgstr "Votre mot de passe a été modifié"
 
 #. (passwd)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_member_created_okay_email.tpl:4
@@ -8057,7 +8057,7 @@ msgstr "Mot de passe : %1"
 #: webapp_main/templates/source/login/password_reset.tt:1
 #: webapp_main/templates/source/login/password_reset.tt:3
 msgid "Your password reset could not be actioned"
-msgstr "Votre réinitialisation de mot de passe n'a pas pu être mis en action. "
+msgstr "Votre réinitialisation de mot de passe n'a pas pu être mis en action"
 
 #: webapp_main/templates/source/login/login_link_sent.tt:1
 #: webapp_main/templates/source/login/login_link_sent.tt:3
@@ -8086,7 +8086,7 @@ msgstr ""
 "n'a pas pu être transmis, parce que l'adresse email de laquelle vous l'avez "
 "envoyé n'a pas été reconnue comme celle d'un membre de ce groupe. Vous devez "
 "utiliser l'adresse email enregistrée sur My Freecycle pour écrire aux "
-"groupes. "
+"groupes."
 
 #. (attempted_address)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_nomember_email:1
@@ -8105,7 +8105,7 @@ msgstr ""
 "\n"
 "n'a pas pu être transmis, parce que l'adresse email de laquelle vous l'avez "
 "envoyé n'a pas été reconnue. Vous devez utiliser l'adresse email enregistrée "
-"sur My Freecycle pour écrire aux groupes. "
+"sur My Freecycle pour écrire aux groupes."
 
 #. (attempted_address)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_group_inbound_mfoptout_email:1
@@ -8167,7 +8167,7 @@ msgstr "Votre identifiant est : %1"
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:46
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:57
 msgid "added a Group link "
-msgstr "a ajouté un lien pour le groupe"
+msgstr "a ajouté un lien pour le groupe "
 
 # [Marina] cannot be translated as it is... must be part of a sentence. usually "Il y a" but places before the time : 3 years ago = Il y a 3 ans. - this occurs in the context of a certain thing having happened, like a a post was posted "2 days ago", etc. [steev]
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:196
@@ -8175,13 +8175,13 @@ msgstr "a ajouté un lien pour le groupe"
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:125
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:147
 msgid "ago"
-msgstr "il y a "
+msgstr "il y a"
 
 #. ('http://moderator.freecycle.org/manage/' _ unique_groupname _ '/members/pending')
 #. ("http://moderator.freecycle.org/manage/' _ unique_groupname _ '/members/pending")
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_pending_member_email:7
 msgid "approve pending members at %1"
-msgstr "Approuver les membres en attente sur %1"
+msgstr "approuver les membres en attente sur %1"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:170
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:58
@@ -8193,7 +8193,7 @@ msgstr "approuvé"
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:46
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:51
 msgid "approved Post ID"
-msgstr "Numéro de l'annonce approuvée"
+msgstr "numéro de l'annonce approuvée"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:46
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:49
@@ -8216,7 +8216,7 @@ msgstr ""
 
 #: webapp_myf/templates/source/home/info/change_username.tt:7
 msgid "be between 4 and 32 characters in length"
-msgstr "avoir une longueur comprise entre entre 4 et 32 caractères."
+msgstr "avoir une longueur comprise entre entre 4 et 32 caractères"
 
 #: webapp_main/templates/source/about/links.tt:31
 msgid "call2recycle"
@@ -8240,7 +8240,7 @@ msgstr "cliquez sur l'icône pour voir la photo"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:84
 msgid "click to edit Post"
-msgstr "Cliquez pour modifier l'annonce"
+msgstr "cliquez pour modifier l'annonce"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:171
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_post:59
@@ -8293,7 +8293,7 @@ msgstr "jours (0 pour annuler. Valeur max: 255)"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:52
 msgid "days ago"
-msgstr "Il y a ... jours"
+msgstr "il y a ... jours"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:46
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:60
@@ -8315,22 +8315,20 @@ msgstr "ex. Paris"
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:46
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:59
 msgid "edited a Group link "
-msgstr "a édité un lien du groupe"
+msgstr "a édité un lien du groupe "
 
 #: webapp_main/templates/lib/search_box_group.tt:3
 msgid "find a group near you"
-msgstr "Trouver un groupe près de chez vous"
+msgstr "trouver un groupe près de chez vous"
 
 #: webapp_main/templates/lib/search_box_group.tt:8
 msgid "go"
-msgstr "Rechercher"
+msgstr "rechercher"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:81
-#, fuzzy
 msgid "has"
-msgstr ""
-"Le corps du message a trop de majuscules - ce groupe a une limite de %1%"
+msgstr "a"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:6
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:81
@@ -8338,9 +8336,8 @@ msgid "have"
 msgstr "a/ont"
 
 #: webapp_myf/templates/lib/standard_footer.tt:11
-#, fuzzy
 msgid "here"
-msgstr "Ailleurs "
+msgstr "ailleurs"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:196
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:206
@@ -8356,11 +8353,11 @@ msgstr "dans"
 # Check lines 434, 435, 436, 437 they seem to be duplicates
 #: webapp_myf/templates/source/home/info/change_languages.tt:92
 msgid "language code"
-msgstr "Code de langue"
+msgstr "code de langue"
 
 #: webapp_main/templates/lib/standard_page.tt:34
 msgid "logo of The Freecycle Network"
-msgstr "Logo du réseau Freecycle"
+msgstr "logo du Réseau Freecycle"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_search_results:27
 msgid "matches"
@@ -8437,7 +8434,7 @@ msgstr ""
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:46
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:52
 msgid "rejected Post ID"
-msgstr "Numéro de l'annonce rejetée"
+msgstr "numéro de l'annonce rejetée"
 
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:46
 #: webapp_modtools/templates/perl/source/en/html/moderator_group_activity_log:50
@@ -8451,7 +8448,7 @@ msgstr "demande d'adhésion rejetée de"
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:46
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:58
 msgid "removed a Group link "
-msgstr "a supprimé un lien du groupe"
+msgstr "a supprimé un lien du groupe "
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:196
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_pending:214
@@ -8499,7 +8496,7 @@ msgstr "commencer avec une lettre ou un nombre"
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:140
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:141
 msgid "submit"
-msgstr "Envoyer"
+msgstr "envoyer"
 
 #: webapp_main/templates/source/tos.tt:33
 msgid ""
@@ -8616,7 +8613,7 @@ msgid ""
 msgstr ""
 "transmettre par le biais du Service tout Contenu de nature illicite, "
 "menaçante, diffamatoire, offensante, vulgaire, obscène, choquante ou "
-"discutable "
+"discutable ;"
 
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_offers:37
 msgid "update"
@@ -8627,7 +8624,7 @@ msgstr "mise à jour"
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:46
 #: webapp_modtools/templates/perl/source/moderator_group_activity_log:56
 msgid "uploaded or modified Group file with ID "
-msgstr "a mis à jour ou modifié le fichier du groupe avec l'identifiant"
+msgstr "a mis à jour ou modifié le fichier du groupe avec l'identifiant "
 
 #: webapp_main/templates/source/tos.tt:46
 msgid ""
@@ -8654,7 +8651,7 @@ msgstr "voir_offres"
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_takens:107
 #: webapp_modtools/templates/perl/source/moderator_group_posts_view_wanteds:108
 msgid "yes"
-msgstr "Oui"
+msgstr "oui"
 
 #: core_modules/lib/Freecycle/Email.pm:3184
 msgid "{not available}"
