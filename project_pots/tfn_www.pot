@@ -183,7 +183,7 @@ msgstr ""
 msgid "Additionally, you agree not to:"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:102 webapp_main/templates/source/group/posts/display_post.tt:164
+#: webapp_main/templates/source/group/posts/display_post.tt:103 webapp_main/templates/source/group/posts/display_post.tt:161
 msgid "All Freecycle items are gifted freely and are for direct pickup. Avoid scams: Don't send payment for any reason, including 'delivery' costs. Further updates <a href='https://wiki.freecycle.org/Spam_and_scams'>here</a>"
 msgstr ""
 
@@ -597,7 +597,7 @@ msgstr ""
 msgid "Mentor Mods Team Member (MMods)"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:181
+#: webapp_main/templates/source/group/posts/display_post.tt:180
 msgid "Message not found"
 msgstr ""
 
@@ -923,7 +923,7 @@ msgstr ""
 msgid "Send"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:161
+#: webapp_main/templates/source/group/posts/display_post.tt:163
 msgid "Send Message"
 msgstr ""
 
@@ -1144,15 +1144,15 @@ msgstr ""
 msgid "The Internet Consumer Recycling Guide"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:183
+#: webapp_main/templates/source/group/posts/display_post.tt:182
 msgid "The Post ID is invalid - either the Post does not exist, it is closed, or it does not belong to this Group."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:183
+#: webapp_main/templates/source/group/posts/display_post.tt:182
 msgid "The Post has been deleted."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:183
+#: webapp_main/templates/source/group/posts/display_post.tt:182
 msgid "The Post is still awaiting approval by a Group Moderator."
 msgstr ""
 
@@ -1221,7 +1221,7 @@ msgstr ""
 msgid "This Group has no files for you to view"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:183
+#: webapp_main/templates/source/group/posts/display_post.tt:182
 msgid "This Post has been closed ."
 msgstr ""
 
@@ -1410,12 +1410,12 @@ msgstr ""
 
 #. (('http://my.freecycle.org/login?referer=' _ thispage))
 #: webapp_main/templates/source/group/posts/display_post.tt:0
-msgid "You need to be <a class='link_login' href='%1'>logged in</a> and a Member of this Group to reply to this Post"
+msgid "You need to be <a href='%1'>logged in</a> and a Member of this Group to reply to this Post"
 msgstr ""
 
 #. (('http://my.freecycle.org/login?referer=' _ thispage))
 #: webapp_main/templates/source/group/posts/display_post.tt:0
-msgid "You need to be <a class='link_login' href='%1'>logged in</a> and a Member of this Group to view the Post details"
+msgid "You need to be <a href='%1'>logged in</a> and a Member of this Group to view the Post details"
 msgstr ""
 
 #: webapp_main/templates/source/login/login_link_sent.tt:6

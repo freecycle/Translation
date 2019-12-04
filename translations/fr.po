@@ -20,8 +20,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Freecycle.org\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-03 16:30-0700\n"
-"PO-Revision-Date: 2019-11-27 20:17+0100\n"
+"POT-Creation-Date: 2019-12-04 16:33-0700\n"
+"PO-Revision-Date: 2019-12-04 16:36-0700\n"
 "Last-Translator: Steev Hise <steev@freecycle.org>\n"
 "Language-Team: French <steev@freecycle.org>\n"
 "Language: fr\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 1.8.11\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: core_modules/lib/Freecycle/Email.pm:506
@@ -594,8 +594,8 @@ msgstr "Tous"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:37
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:46
-#: webapp_main/templates/source/group/posts/display_post.tt:102
-#: webapp_main/templates/source/group/posts/display_post.tt:164
+#: webapp_main/templates/source/group/posts/display_post.tt:103
+#: webapp_main/templates/source/group/posts/display_post.tt:161
 msgid ""
 "All Freecycle items are gifted freely and are for direct pickup. Avoid "
 "scams: Don't send payment for any reason, including 'delivery' costs. "
@@ -3279,7 +3279,7 @@ msgstr "Préférences de saisie des messages pour le groupe %1"
 msgid "Message body"
 msgstr "Corps du message"
 
-#: webapp_main/templates/source/group/posts/display_post.tt:181
+#: webapp_main/templates/source/group/posts/display_post.tt:180
 msgid "Message not found"
 msgstr "Message non trouvé"
 
@@ -4858,7 +4858,7 @@ msgid "Send ADMIN"
 msgstr "Envoyer un ADMIN"
 
 #: webapp_myf/templates/source/home/groups/contact_mods_form.tt:52
-#: webapp_main/templates/source/group/posts/display_post.tt:161
+#: webapp_main/templates/source/group/posts/display_post.tt:163
 msgid "Send Message"
 msgstr "Envoyer un message"
 
@@ -5700,7 +5700,7 @@ msgid ""
 msgstr ""
 "Les modérateurs du groupe %1 n'ont pas approuvé votre message au groupe :"
 
-#: webapp_main/templates/source/group/posts/display_post.tt:183
+#: webapp_main/templates/source/group/posts/display_post.tt:182
 msgid ""
 "The Post ID is invalid - either the Post does not exist, it is closed, or it "
 "does not belong to this Group."
@@ -5708,11 +5708,11 @@ msgstr ""
 "Le numéro de l'annonce est incorrect - soit l'annonce n'existe pas, a été "
 "clôturée, ou elle n'appartient pas à ce groupe."
 
-#: webapp_main/templates/source/group/posts/display_post.tt:183
+#: webapp_main/templates/source/group/posts/display_post.tt:182
 msgid "The Post has been deleted."
 msgstr "Cette annonce a été supprimée."
 
-#: webapp_main/templates/source/group/posts/display_post.tt:183
+#: webapp_main/templates/source/group/posts/display_post.tt:182
 msgid "The Post is still awaiting approval by a Group Moderator."
 msgstr "Cette annonce est en attente d'approbation par un modérateur."
 
@@ -6264,7 +6264,7 @@ msgstr "Ce groupe n'a aucun fichier"
 msgid "This My Freecycle account is associated with this Facebook account : "
 msgstr "Ce compte My Freecycle est associé au compte Facebook suivant: "
 
-#: webapp_main/templates/source/group/posts/display_post.tt:183
+#: webapp_main/templates/source/group/posts/display_post.tt:182
 msgid "This Post has been closed ."
 msgstr "Cette annonce a été clôturée."
 
@@ -7763,20 +7763,20 @@ msgstr ""
 #. (('http://my.freecycle.org/login?referer=' _ thispage))
 #: webapp_main/templates/source/group/posts/display_post.tt:0
 msgid ""
-"You need to be <a class='link_login' href='%1'>logged in</a> and a Member of "
-"this Group to reply to this Post"
+"You need to be <a href='%1'>logged in</a> and a Member of this Group to "
+"reply to this Post"
 msgstr ""
-"Vous devez être <a class='link_login' href='%1'>connecté</a> et membre de ce "
-"groupe pour pouvoir répondre à cette annonce"
+"Vous devez être <a href='%1'>connecté</a> et membre de ce groupe pour "
+"pouvoir répondre à cette annonce"
 
 #. (('http://my.freecycle.org/login?referer=' _ thispage))
 #: webapp_main/templates/source/group/posts/display_post.tt:0
 msgid ""
-"You need to be <a class='link_login' href='%1'>logged in</a> and a Member of "
-"this Group to view the Post details"
+"You need to be <a href='%1'>logged in</a> and a Member of this Group to view "
+"the Post details"
 msgstr ""
-"Vous devez être <a class='link_login' href='%1'>connecté</a> et membre de ce "
-"groupe pour pouvoir voir les détails de cette annonce"
+"Vous devez être <a href='%1'>connecté</a> et membre de ce groupe pour "
+"pouvoir voir les détails de cette annonce"
 
 #: webapp_myf/templates/source/forgottenusername.tt:37
 msgid "You should receive an email with your username in soon."
@@ -8403,10 +8403,12 @@ msgstr "ouvrir"
 msgid "or"
 msgstr "ou"
 
+# not sure why this is in here. code mistake, i think.
 #: webapp_myf/templates/source/home/posts/recently_closed.tt:26
 msgid "p.getPostTypeName(\"en\")"
 msgstr ""
 
+# code mistake, probably.
 #: webapp_myf/templates/source/home/posts/index.tt:54
 msgid "p.type_name"
 msgstr ""

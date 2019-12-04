@@ -496,8 +496,8 @@ msgstr ""
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:37
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:46
-#: webapp_main/templates/source/group/posts/display_post.tt:102
-#: webapp_main/templates/source/group/posts/display_post.tt:164
+#: webapp_main/templates/source/group/posts/display_post.tt:103
+#: webapp_main/templates/source/group/posts/display_post.tt:161
 msgid ""
 "All Freecycle items are gifted freely and are for direct pickup. Avoid "
 "scams: Don't send payment for any reason, including 'delivery' costs. "
@@ -2774,7 +2774,7 @@ msgstr ""
 msgid "Message body"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:181
+#: webapp_main/templates/source/group/posts/display_post.tt:180
 msgid "Message not found"
 msgstr ""
 
@@ -4236,7 +4236,7 @@ msgid "Send ADMIN"
 msgstr ""
 
 #: webapp_myf/templates/source/home/groups/contact_mods_form.tt:52
-#: webapp_main/templates/source/group/posts/display_post.tt:161
+#: webapp_main/templates/source/group/posts/display_post.tt:163
 msgid "Send Message"
 msgstr ""
 
@@ -4903,17 +4903,17 @@ msgid ""
 "The Moderators of the %1 group have not approved your post to the group:"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:183
+#: webapp_main/templates/source/group/posts/display_post.tt:182
 msgid ""
 "The Post ID is invalid - either the Post does not exist, it is closed, or it "
 "does not belong to this Group."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:183
+#: webapp_main/templates/source/group/posts/display_post.tt:182
 msgid "The Post has been deleted."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:183
+#: webapp_main/templates/source/group/posts/display_post.tt:182
 msgid "The Post is still awaiting approval by a Group Moderator."
 msgstr ""
 
@@ -5348,7 +5348,7 @@ msgstr ""
 msgid "This My Freecycle account is associated with this Facebook account : "
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:183
+#: webapp_main/templates/source/group/posts/display_post.tt:182
 msgid "This Post has been closed ."
 msgstr ""
 
@@ -6551,15 +6551,15 @@ msgstr ""
 #. (('http://my.freecycle.org/login?referer=' _ thispage))
 #: webapp_main/templates/source/group/posts/display_post.tt:0
 msgid ""
-"You need to be <a class='link_login' href='%1'>logged in</a> and a Member of "
-"this Group to reply to this Post"
+"You need to be <a href='%1'>logged in</a> and a Member of this Group to "
+"reply to this Post"
 msgstr ""
 
 #. (('http://my.freecycle.org/login?referer=' _ thispage))
 #: webapp_main/templates/source/group/posts/display_post.tt:0
 msgid ""
-"You need to be <a class='link_login' href='%1'>logged in</a> and a Member of "
-"this Group to view the Post details"
+"You need to be <a href='%1'>logged in</a> and a Member of this Group to view "
+"the Post details"
 msgstr ""
 
 #: webapp_myf/templates/source/forgottenusername.tt:37
