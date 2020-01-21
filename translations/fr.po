@@ -99,9 +99,7 @@ msgstr " Supprimer le logo?"
 #. (group.name, group.region)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_email:2
 msgid ""
-" To respond to any of these posts in %1, %2, please use the links below - "
-"do\n"
-"                      not reply directly to this email"
+" To respond to any of these posts in %1, %2, please use the links below - do not reply directly to this email"
 msgstr ""
 " Pour répondre à l'une de ces annonces de %1, %2, veuillez utiliser les "
 "liens ci-dessous \n"
@@ -6647,12 +6645,8 @@ msgstr ""
 
 #. (group.name, group.region)
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_digest_post_html_email:35
-msgid ""
-"To respond to any of these %1, %2 posts, please use the links below - do not "
-"reply directly to this email"
-msgstr ""
-"Pour répondre à l’une de ces annonces de %1, %2 veuillez utiliser les liens "
-"ci-dessous - ne répondez pas directement à cet email"
+msgid "To respond to any of these %1, %2 posts, please use the links below - do not reply directly to this email"
+msgstr "Pour répondre à l’une de ces annonces de %1, %2 veuillez utiliser les liens ci-dessous - ne répondez pas directement à cet email"
 
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email:28
 msgid "To send a message to the group moderators click here"
