@@ -22,6 +22,9 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 1.5.4\n"
 
+msgid "Coronavirus Information"
+msgstr "Informações sobre o coronavírus"
+
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:62
 msgid "COVID-19 Notice: Please use extreme care during item exchanges to insure physical distancing of at least 6ft/2m, to disinfect items and to not offer items or respond to offers if you are ill or under quarantine for illness or for exposure to a known source of the virus."
 msgstr "Aviso COVID-19: Tenha muito cuidado durante as trocas de itens. Aconselhamos que mantenha um distanciamento físico de pelo menos 2 metros, desinfete os itens e não ofereça itens ou responda a ofertas se apresentar qualquer sintoma ou se estiver em quarentena por doença ou por exposição a uma fonte conhecida do vírus."

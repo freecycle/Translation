@@ -27,6 +27,9 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
+msgid "Coronavirus Information"
+msgstr "Freecycle Coronavirus Informationen"
+
 #: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:62
 msgid "COVID-19 Notice: Please use extreme care during item exchanges to insure physical distancing of at least 6ft/2m, to disinfect items and to not offer items or respond to offers if you are ill or under quarantine for illness or for exposure to a known source of the virus."
 msgstr "COVID-19 Hinweis: Bitte beim Austausch von Gegenständen auf einen Mindestabstand von 1,5 Meter achten und dabei jeweils die Gegenstände desinfizieren. Auch bitte keine Gegenstände anbieten oder auf Angebote antworten, wenn bei Ihnen Krankheitszeichen vorhanden sind, oder Sie wegen Kontakt zu Infizierten in Quarantäne sind."
