@@ -15,6 +15,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:62
+msgid "COVID-19 Notice: Please use extreme care during item exchanges to insure physical distancing of at least 6ft/2m, to disinfect items and to not offer items or respond to offers if you are ill or under quarantine for illness or for exposure to a known source of the virus."
+msgstr ""
+
 #: core_modules/lib/Freecycle/Email.pm:506
 msgid ""
 "\n"

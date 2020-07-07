@@ -32,6 +32,10 @@ msgstr ""
 "X-Generator: Poedit 1.8.11\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
+#: core_modules/lib/Freecycle/standard_templates/source/email/standard_single_post_email_html:62
+msgid "COVID-19 Notice: Please use extreme care during item exchanges to insure physical distancing of at least 6ft/2m, to disinfect items and to not offer items or respond to offers if you are ill or under quarantine for illness or for exposure to a known source of the virus."
+msgstr "COVID-19 Avis: Veuillez faire preuve d'une extrême prudence lors des échanges d'articles pour : assurer une distance physique d'au moins 1,5 mètre, désinfecter les articles. N'offrez pas d'articles ou ne répondez pas aux offres si vous êtes malade, sous quarantaine ou si vous avez été en contact avec une personne atteinte du virus."
+
 #: core_modules/lib/Freecycle/Email.pm:506
 msgid ""
 "\n"
