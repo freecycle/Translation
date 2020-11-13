@@ -27,7 +27,7 @@ msgstr ""
 msgid "(e.g. <b>Tucson, Arizona</b> or <b>\"milton keynes\"</b>)"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:72
+#: webapp_myf/templates/source/home/groups/index.tt:75
 msgid "(home Group)"
 msgstr ""
 
@@ -39,23 +39,23 @@ msgstr ""
 msgid "(please note that some local Groups do require approval of new Members and/or Posts and it may take a day or two before you are able to post)"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:33
+#: webapp_myf/templates/source/home/posts/new.tt:34
 msgid "--- Please choose a type ---"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:138 webapp_myf/templates/source/home/groups/options_display.tt:84
+#: webapp_myf/templates/source/home/groups/index.tt:144 webapp_myf/templates/source/home/groups/options_display.tt:90
 msgid "A digest of 25 Posts"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:190
+#: webapp_myf/templates/source/signup.tt:185
 msgid "A temporary error has happened"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:190
+#: webapp_myf/templates/source/signup.tt:193
 msgid "A temporary error has occurred"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:244
+#: webapp_myf/templates/source/home/groups/index.tt:248
 msgid "Accept invite"
 msgstr ""
 
@@ -75,29 +75,29 @@ msgstr ""
 msgid "Activate the Freecycle Facebook application to log in with your Facebook account"
 msgstr ""
 
-#: webapp_myf/templates/lib/box_tabbar.tt:3
+#: webapp_myf/templates/lib/box_tabbar.tt:6
 msgid "All Items"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenpassword.tt:83
+#: webapp_myf/templates/source/forgottenpassword.tt:88
 msgid "All passwords are stored in an encrypted format, and so cannot be retrieved. A new password will be generated and sent to you by email. You will need to change your password once you have logged in."
 msgstr ""
 
-#: webapp_myf/templates/lib/box_tabbar.tt:3
+#: webapp_myf/templates/lib/box_tabbar.tt:11
 msgid "All posts"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/contact_mods_form.tt:52
+#: webapp_myf/templates/source/home/groups/contact_mods_form.tt:75
 msgid "An error occured when we tried to send the email. You could try again right now (in case it was just a blip) or leave it for a bit and try again later (when the problem may have been fixed)"
 msgstr ""
 
 #. (e)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:24
 msgid "An unrecognised error was sent : '%1' - please report this to server.admins@freecycle.org"
 msgstr ""
 
 #. (e)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:56
 msgid "An unrecognised warning was sent : '%1' - please report this to server.admins@freecycle.org"
 msgstr ""
 
@@ -105,23 +105,23 @@ msgstr ""
 msgid "Are you sure you want to leave this Group?"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/join_too_many.tt:11
+#: webapp_myf/templates/source/home/groups/join_too_many.tt:14 webapp_myf/templates/source/home/groups/join_too_many.tt:15
 msgid "Back to 'My Groups'"
 msgstr ""
 
-#: webapp_myf/templates/lib/_fudge.tt:1
+#: webapp_myf/templates/lib/_fudge.tt:6
 msgid "Cancel"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:74
+#: webapp_myf/templates/source/home/posts/manage/show.tt:77 webapp_myf/templates/source/home/posts/manage/show.tt:78
 msgid "Cancel and remove"
 msgstr ""
 
-#: webapp_myf/templates/source/home/info/index.tt:139
+#: webapp_myf/templates/source/home/info/index.tt:147 webapp_myf/templates/source/home/info/index.tt:148
 msgid "Change My Freecycle email address"
 msgstr ""
 
-#: webapp_myf/templates/source/home/info/index.tt:151
+#: webapp_myf/templates/source/home/info/index.tt:153 webapp_myf/templates/source/home/info/index.tt:154
 msgid "Change My Freecycle email language preferences"
 msgstr ""
 
@@ -137,11 +137,11 @@ msgstr ""
 msgid "Change my 'home' Group to: "
 msgstr ""
 
-#: webapp_myf/templates/source/home/info/index.tt:139
+#: webapp_myf/templates/source/home/info/index.tt:142 webapp_myf/templates/source/home/info/index.tt:143
 msgid "Change password"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:187
+#: webapp_myf/templates/source/home/groups/index.tt:188
 msgid "Change settings"
 msgstr ""
 
@@ -165,12 +165,8 @@ msgstr ""
 msgid "Changing your username"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:54
+#: webapp_myf/templates/source/signup.tt:47
 msgid "Check the \"not a robot\" box"
-msgstr ""
-
-#: webapp_myf/templates/source/signup.tt:40
-msgid "Confirm email address :"
 msgstr ""
 
 #: webapp_myf/templates/source/home/info/change_email_address.tt:33
@@ -181,11 +177,11 @@ msgstr ""
 msgid "Confirm new password:"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:49
+#: webapp_myf/templates/source/signup.tt:42
 msgid "Confirm password"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:164
+#: webapp_myf/templates/source/home/groups/index.tt:179
 msgid "Contact the ModTeam"
 msgstr ""
 
@@ -197,11 +193,11 @@ msgstr ""
 msgid "Default location for Posts :"
 msgstr ""
 
-#: webapp_myf/templates/source/home/agree_to_tos.tt:30 webapp_myf/templates/source/home/info/index.tt:160
+#: webapp_myf/templates/source/home/agree_to_tos.tt:30 webapp_myf/templates/source/home/info/index.tt:163 webapp_myf/templates/source/home/info/index.tt:164
 msgid "Delete account"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:244
+#: webapp_myf/templates/source/home/groups/index.tt:255
 msgid "Delete invite"
 msgstr ""
 
@@ -218,15 +214,15 @@ msgstr ""
 msgid "Email : %1"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenpassword.tt:83 webapp_myf/templates/source/forgottenusername.tt:21 webapp_myf/templates/source/signup.tt:35
+#: webapp_myf/templates/source/forgottenpassword.tt:97 webapp_myf/templates/source/forgottenusername.tt:21 webapp_myf/templates/source/signup.tt:35
 msgid "Email address :"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:190
+#: webapp_myf/templates/source/signup.tt:192
 msgid "Email address invalid - an error was returned when it was checked"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:138 webapp_myf/templates/source/home/groups/options_display.tt:84
+#: webapp_myf/templates/source/home/groups/index.tt:146 webapp_myf/templates/source/home/groups/options_display.tt:88
 msgid "Email digest"
 msgstr ""
 
@@ -242,7 +238,7 @@ msgstr ""
 msgid "Enter new password:"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/contact_mods_form.tt:52
+#: webapp_myf/templates/source/home/groups/contact_mods_form.tt:72
 msgid "Error sending email!"
 msgstr ""
 
@@ -258,7 +254,7 @@ msgstr ""
 msgid "Find other groups"
 msgstr ""
 
-#. ("<a href=\"https://wiki.freecycle.org/Privacy\">")
+#. ('<a href="https://wiki.freecycle.org/Privacy">')
 #: webapp_myf/templates/lib/standard_footer.tt:10
 msgid "For concerns regarding your data protection, please click %1"
 msgstr ""
@@ -267,7 +263,7 @@ msgstr ""
 msgid "For specific queries about groups, please contact your local group moderator whose contact info is noted at the top of each local group \"All Items\" page."
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenpassword.tt:83
+#: webapp_myf/templates/source/forgottenpassword.tt:85
 msgid "Forgotten your password?"
 msgstr ""
 
@@ -275,19 +271,19 @@ msgstr ""
 msgid "Forgotten your username?"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/contact_mods_form.tt:52
+#: webapp_myf/templates/source/home/groups/contact_mods_form.tt:57
 msgid "From :"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:187
+#: webapp_myf/templates/source/home/groups/index.tt:203
 msgid "Go to ModTools"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/search.tt:99
+#: webapp_myf/templates/source/home/groups/search.tt:108
 msgid "Go to group page"
 msgstr ""
 
-#. (uri_for("Root", "signup", [ ], undef, { 'referer' => c.request.param("referer"), 'join_group' => c.request.param("join_group")  }))
+#. (uri_for('Root', 'signup', [], undef, {referer=> c.request.param('referer')
 #: webapp_myf/templates/source/index.tt:28
 msgid "Go to the <a href='%1'>signup form</a> and create your account for free"
 msgstr ""
@@ -296,19 +292,19 @@ msgstr ""
 msgid "Goodbye!"
 msgstr ""
 
-#: webapp_myf/templates/lib/box_tabbar.tt:3
+#: webapp_myf/templates/lib/box_tabbar.tt:9
 msgid "Group Info"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:45
+#: webapp_myf/templates/source/home/posts/manage/show.tt:47
 msgid "Group Members can see and search for this Post"
 msgstr ""
 
-#: webapp_myf/templates/lib/box_tabbar.tt:3
+#: webapp_myf/templates/lib/box_tabbar.tt:14
 msgid "Group info"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:244 webapp_myf/templates/source/home/groups/search.tt:99
+#: webapp_myf/templates/source/home/groups/index.tt:246 webapp_myf/templates/source/home/groups/search.tt:123
 msgid "Group limit reached"
 msgstr ""
 
@@ -333,7 +329,7 @@ msgid "Home region : %1"
 msgstr ""
 
 #. ("//www.freecycle.org/tos", "//www.freecycle.org/about/privacy")
-#: webapp_myf/templates/source/signup.tt:67
+#: webapp_myf/templates/source/signup.tt:61
 msgid "I agree to The Freecycle Network <a href='%1'>Terms of Service</a> and <a href='%2'>Privacy Policy</a>."
 msgstr ""
 
@@ -357,7 +353,7 @@ msgstr ""
 msgid "I've now RECEIVED this. Thank you to everyone who responded."
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new_okay.tt:23
+#: webapp_myf/templates/source/home/posts/new_okay.tt:25
 msgid ""
 "If you are on moderation (normally if this is your first post) then your message will not appear until a moderator has\n"
 "approved it. This measure is taken to stop spammers from joining groups and immediately posting junk - you should be taken\n"
@@ -377,11 +373,11 @@ msgstr ""
 msgid "If you have a picture of the item (max file size: 1.2MB), you can upload it now"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:69
+#: webapp_myf/templates/source/home/posts/new.tt:70
 msgid "If you have a picture of the item, you can upload it."
 msgstr ""
 
-#. ("<a href=\"http://wiki.freecycle.org/MemberFAQ:/\">")
+#. ('<a href="http://wiki.freecycle.org/MemberFAQ:/">')
 #: webapp_myf/templates/lib/standard_footer.tt:7
 msgid "If you have any problems or feedback when using My Freecycle, please refer to the %1"
 msgstr ""
@@ -390,7 +386,7 @@ msgstr ""
 msgid "If you wish to join this group, you may do so directly at the Yahoo!Groups page:"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:101
+#: webapp_myf/templates/source/home/groups/index.tt:102
 msgid ""
 "If you're a member of groups running on Yahoo!Groups you will need to find and 'join' the groups here. We cannot automatically detect your group memberships due to the Yahoo! Terms of Service.<br />\n"
 "This system will automatically try and join your address to the Yahoo!Group - you should receive an automated email from Yahoo! either saying that you're an existing member, or to confirm your membership (if your registered 'My Freecycle' email address is different to your Yahoo! one.)<br />\n"
@@ -407,11 +403,11 @@ msgid ""
 "  <a href='/home/posts'>the Posts you have made</a>."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:60
-msgid "If you're having problems with CAPTCHAs, you can check this box to request an email confirmation. You will be sent a randomly generated password which you will need to use to log into My Freecycle"
+#: webapp_myf/templates/source/signup.tt:54
+msgid "If you're having trouble with the Recaptcha, please contact us <a href='https://freecycle.helpscoutdocs.com/article/149-contact-info'>here</a>"
 msgstr ""
 
-#. (uri_for("Root", "signup"))
+#. (uri_for('Root', 'signup')
 #: webapp_myf/templates/source/index.tt:35
 msgid "If your email address hasn't been registered before, you can use the <a href='%1'>signup form</a> to create your new account for free"
 msgstr ""
@@ -421,7 +417,7 @@ msgstr ""
 msgid "Image for post %1"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:20
 msgid "Images are only accepted in JPEG, GIF and PNG format"
 msgstr ""
 
@@ -429,7 +425,7 @@ msgstr ""
 msgid "In certain cases you may be required to change your password (usually if you have just signed up or requested a new password) - if you find yourself here unexpectedly, this may be the case.  Please check the web address in your browser to make sure it doesn't contain anything suspicious (a phishing attempt, for example) and if you're in <b>any</b> doubt then open a new browser window and type in 'freecycle.org' yourself."
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:42
+#: webapp_myf/templates/source/index.tt:47
 msgid "Incorrect username/password"
 msgstr ""
 
@@ -437,15 +433,15 @@ msgstr ""
 msgid "Invalid country"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:132 webapp_myf/templates/source/signup.tt:145
+#: webapp_myf/templates/source/signup.tt:126 webapp_myf/templates/source/signup.tt:139
 msgid "Invalid email address"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:190
+#: webapp_myf/templates/source/signup.tt:191
 msgid "Invalid region"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:105 webapp_myf/templates/source/signup.tt:118
+#: webapp_myf/templates/source/signup.tt:112 webapp_myf/templates/source/signup.tt:99
 msgid "Invalid username"
 msgstr ""
 
@@ -458,11 +454,11 @@ msgstr ""
 msgid "Invited on : %1"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:35
+#: webapp_myf/templates/source/home/posts/new.tt:36
 msgid "It's a request for a WANTED item"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:34
+#: webapp_myf/templates/source/home/posts/new.tt:35
 msgid "It's an OFFER of an item"
 msgstr ""
 
@@ -471,7 +467,7 @@ msgstr ""
 msgid "Join the %1 group on Yahoo!Groups"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/search.tt:99
+#: webapp_myf/templates/source/home/groups/search.tt:126
 msgid "Join this group"
 msgstr ""
 
@@ -479,11 +475,11 @@ msgstr ""
 msgid "Joined/Applied"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:120 webapp_myf/templates/source/home/groups/options_display.tt:31 webapp_myf/templates/source/home/groups/options_display.tt:73
+#: webapp_myf/templates/source/home/groups/index.tt:125 webapp_myf/templates/source/home/groups/options_display.tt:36 webapp_myf/templates/source/home/groups/options_display.tt:73
 msgid "Lead Moderator"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/options_display.tt:52
+#: webapp_myf/templates/source/home/groups/options_display.tt:57 webapp_myf/templates/source/home/groups/options_display.tt:58
 msgid "Leave this Group"
 msgstr ""
 
@@ -491,15 +487,15 @@ msgstr ""
 msgid "Log in"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/index.tt:23
+#: webapp_myf/templates/source/home/posts/index.tt:26 webapp_myf/templates/source/home/posts/index.tt:27
 msgid "Make a new post"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:63
+#: webapp_myf/templates/source/home/posts/new.tt:64
 msgid "Make the post"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/index.tt:59
+#: webapp_myf/templates/source/home/posts/index.tt:62 webapp_myf/templates/source/home/posts/index.tt:63
 msgid "Manage"
 msgstr ""
 
@@ -507,24 +503,24 @@ msgstr ""
 msgid "Manage this Post"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:74
+#: webapp_myf/templates/source/home/posts/manage/show.tt:87 webapp_myf/templates/source/home/posts/manage/show.tt:88
 msgid "Mark as RECEIVED and remove"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:74
+#: webapp_myf/templates/source/home/posts/manage/show.tt:82 webapp_myf/templates/source/home/posts/manage/show.tt:83
 msgid "Mark as TAKEN and remove"
 msgstr ""
 
 #. (num_of_results)
-#: webapp_myf/templates/source/home/groups/search.tt:99
+#: webapp_myf/templates/source/home/groups/search.tt:102
 msgid "Matched %1 Groups"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/search.tt:99
+#: webapp_myf/templates/source/home/groups/search.tt:104
 msgid "Matched 1 Group"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:120 webapp_myf/templates/source/home/groups/options_display.tt:31 webapp_myf/templates/source/home/groups/options_display.tt:70
+#: webapp_myf/templates/source/home/groups/index.tt:123 webapp_myf/templates/source/home/groups/options_display.tt:34 webapp_myf/templates/source/home/groups/options_display.tt:70
 msgid "Member"
 msgstr ""
 
@@ -536,11 +532,11 @@ msgstr ""
 msgid "Membership level"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/contact_mods_form.tt:52
+#: webapp_myf/templates/source/home/groups/contact_mods_form.tt:66
 msgid "Message : "
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:120 webapp_myf/templates/source/home/groups/options_display.tt:31 webapp_myf/templates/source/home/groups/options_display.tt:71
+#: webapp_myf/templates/source/home/groups/index.tt:124 webapp_myf/templates/source/home/groups/options_display.tt:35 webapp_myf/templates/source/home/groups/options_display.tt:71
 msgid "Moderator"
 msgstr ""
 
@@ -548,11 +544,11 @@ msgstr ""
 msgid "My Freecycle - recently expired Posts"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:1
+#: webapp_myf/templates/source/home/posts/manage/show.tt:2
 msgid "My Freecycle Network - Manage Post "
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:1
+#: webapp_myf/templates/source/home/posts/new.tt:2
 msgid "My Freecycle Network - New Post"
 msgstr ""
 
@@ -560,19 +556,19 @@ msgstr ""
 msgid "My Freecycle Network - New Post Created"
 msgstr ""
 
-#: webapp_myf/templates/lib/box_tabbar.tt:3
+#: webapp_myf/templates/lib/box_tabbar.tt:18
 msgid "My Groups"
 msgstr ""
 
-#: webapp_myf/templates/lib/box_tabbar.tt:3
+#: webapp_myf/templates/lib/box_tabbar.tt:19
 msgid "My Info"
 msgstr ""
 
-#: webapp_myf/templates/lib/box_tabbar.tt:3
+#: webapp_myf/templates/lib/box_tabbar.tt:17
 msgid "My Posts"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenpassword.tt:83
+#: webapp_myf/templates/source/forgottenpassword.tt:121
 msgid "New password generated"
 msgstr ""
 
@@ -580,11 +576,11 @@ msgstr ""
 msgid "New username"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:69
+#: webapp_myf/templates/source/home/posts/new.tt:70
 msgid "New!! If you have javascript enabled and a modern browser, choose any size image and it will be re-sized automatically before upload. Otherwise, maximum file size is 1.2MB."
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenusername.tt:37
+#: webapp_myf/templates/source/forgottenusername.tt:41
 msgid "No account with that email address could be found in the database. You may have registered with another email address."
 msgstr ""
 
@@ -596,19 +592,19 @@ msgstr ""
 msgid "No local group?"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:138 webapp_myf/templates/source/home/groups/options_display.tt:84
+#: webapp_myf/templates/source/home/groups/index.tt:140 webapp_myf/templates/source/home/groups/options_display.tt:85
 msgid "None apart from ADMINs"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:32
+#: webapp_myf/templates/lib/standard_macros.tt:14 webapp_myf/templates/source/home/posts/manage/show.tt:34
 msgid "OFFER"
 msgstr ""
 
-#: webapp_myf/templates/lib/box_tabbar.tt:3
+#: webapp_myf/templates/lib/box_tabbar.tt:12 webapp_myf/templates/lib/box_tabbar.tt:7
 msgid "Offers"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:138 webapp_myf/templates/source/home/groups/options_display.tt:84
+#: webapp_myf/templates/source/home/groups/index.tt:141 webapp_myf/templates/source/home/groups/options_display.tt:86
 msgid "One for each Post"
 msgstr ""
 
@@ -620,19 +616,19 @@ msgstr ""
 msgid "Oops..."
 msgstr ""
 
-#: webapp_myf/templates/source/index.tt:16 webapp_myf/templates/source/signup.tt:46
+#: webapp_myf/templates/source/index.tt:16 webapp_myf/templates/source/signup.tt:39
 msgid "Password"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:159
+#: webapp_myf/templates/source/signup.tt:153
 msgid "Passwords don't match"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:120 webapp_myf/templates/source/home/groups/options_display.tt:31
+#: webapp_myf/templates/source/home/groups/index.tt:121 webapp_myf/templates/source/home/groups/options_display.tt:32
 msgid "Pending approval"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:120
+#: webapp_myf/templates/source/home/groups/index.tt:122 webapp_myf/templates/source/home/groups/options_display.tt:33
 msgid "Pending unsubscribe"
 msgstr ""
 
@@ -648,20 +644,20 @@ msgstr ""
 msgid "Please ensure you have entered the new password in twice, and that both entries are the same"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:48
 msgid "Please enter some more details about this post"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:36
 msgid "Please enter something for the short description"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:42
 msgid "Please enter something for your location - it allows people to quickly see how far they may need to travel"
 msgstr ""
 
 #. (mmaker.maximum_location_length)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:44
 msgid "Please enter something shorter for your location - the group has a limit of %1 letters"
 msgstr ""
 
@@ -669,7 +665,7 @@ msgstr ""
 msgid "Please enter your registered email address and your username will be sent to you."
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenpassword.tt:83
+#: webapp_myf/templates/source/forgottenpassword.tt:91
 msgid "Please enter your username and registered email address."
 msgstr ""
 
@@ -677,19 +673,19 @@ msgstr ""
 msgid "Please give the moderators time to read your message before sending them another - group moderators are all volunteers, and so may not be at their computers checking their messages all the time."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:146
+#: webapp_myf/templates/source/signup.tt:140
 msgid "Please make sure you've entered your email address correctly in both fields"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:133
+#: webapp_myf/templates/source/signup.tt:127
 msgid "Please make sure you've entered your email address in correctly"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:190
+#: webapp_myf/templates/source/signup.tt:195
 msgid "Please make sure you've entered your email address in correctly in both fields"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:160
+#: webapp_myf/templates/source/signup.tt:154
 msgid "Please make sure you've entered your password correctly in both fields"
 msgstr ""
 
@@ -697,11 +693,11 @@ msgstr ""
 msgid "Please select a \"home\" Group"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:16
 msgid "Please select a group from the list"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:41
+#: webapp_myf/templates/source/home/posts/new.tt:42
 msgid "Please select a group:"
 msgstr ""
 
@@ -721,7 +717,7 @@ msgstr ""
 msgid "Post Type"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:3
 msgid "Post errors"
 msgstr ""
 
@@ -741,11 +737,11 @@ msgstr ""
 msgid "Post title: "
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:39
+#: webapp_myf/templates/source/home/posts/new.tt:40
 msgid "Post to :"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:164
+#: webapp_myf/templates/source/home/groups/index.tt:166
 msgid "Post to this Group"
 msgstr ""
 
@@ -753,7 +749,7 @@ msgstr ""
 msgid "Post type: "
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:31
 msgid "Post warnings"
 msgstr ""
 
@@ -773,15 +769,19 @@ msgstr ""
 msgid "Posted to:"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/recently_closed.tt:30
+#: webapp_myf/templates/lib/standard_macros.tt:17
+msgid "RECEIVED"
+msgstr ""
+
+#: webapp_myf/templates/source/home/posts/recently_closed.tt:33 webapp_myf/templates/source/home/posts/recently_closed.tt:34
 msgid "Re-open"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/index.tt:23 webapp_myf/templates/source/home/posts/recently_closed.tt:3
+#: webapp_myf/templates/source/home/posts/index.tt:30 webapp_myf/templates/source/home/posts/index.tt:31 webapp_myf/templates/source/home/posts/recently_closed.tt:3
 msgid "Recently expired Posts"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenpassword.tt:83
+#: webapp_myf/templates/source/forgottenpassword.tt:100
 msgid "Request new password"
 msgstr ""
 
@@ -801,7 +801,7 @@ msgstr ""
 msgid "Save new password"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/contact_mods_form.tt:52
+#: webapp_myf/templates/source/home/groups/contact_mods_form.tt:69
 msgid "Send Message"
 msgstr ""
 
@@ -817,7 +817,7 @@ msgstr ""
 msgid "Set 'home' Group"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:187
+#: webapp_myf/templates/source/home/groups/index.tt:195
 msgid "Set as 'home' group"
 msgstr ""
 
@@ -826,11 +826,11 @@ msgstr ""
 msgid "Settings for %1"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:50
+#: webapp_myf/templates/source/home/posts/new.tt:51
 msgid "Short description :"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:71
+#: webapp_myf/templates/source/signup.tt:65
 msgid "Sign up"
 msgstr ""
 
@@ -850,8 +850,12 @@ msgstr ""
 msgid "Something went wrong while trying to serve this page - please try again in a little while"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/contact_mods_form.tt:52
+#: webapp_myf/templates/source/home/groups/contact_mods_form.tt:63
 msgid "Subject :"
+msgstr ""
+
+#: webapp_myf/templates/lib/standard_macros.tt:16
+msgid "TAKEN"
 msgstr ""
 
 #: webapp_myf/templates/source/index.tt:65
@@ -862,15 +866,15 @@ msgstr ""
 msgid "Thank you for using The Freecycle Network. You are now a member of the largest gifting and reuse network on the planet. You've automatically been registered as a member of the local Group in which you clicked the 'Join' button."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:190
+#: webapp_myf/templates/source/signup.tt:188
 msgid "That email address is already signed up"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:217
+#: webapp_myf/templates/source/home/groups/index.tt:223
 msgid "That group cannot be found"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:190
+#: webapp_myf/templates/source/signup.tt:187
 msgid "That username is already taken"
 msgstr ""
 
@@ -878,8 +882,12 @@ msgstr ""
 msgid "The 'My Freecycle' site is aimed at making your experience of The Freecycle Network&trade; easier and more pleasant. Quickly and easily make and manage your Group memberships and Posts."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:190
+#: webapp_myf/templates/source/signup.tt:196
 msgid "The CAPTCHA was incorrect. Please check the box if you're really not a robot."
+msgstr ""
+
+#: webapp_myf/templates/lib/standard_header.tt:9
+msgid "The Freecycle Network"
 msgstr ""
 
 #: webapp_myf/templates/lib/standard_footer.tt:20
@@ -890,23 +898,23 @@ msgstr ""
 msgid "The Freecycle Network Terms of Service"
 msgstr ""
 
-#: webapp_myf/templates/lib/standard_header.tt:23 webapp_myf/templates/source/errors.tt:14
+#: webapp_myf/templates/lib/standard_header.tt:28 webapp_myf/templates/source/errors.tt:14
 msgid "The Freecycle Network logo"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:217
+#: webapp_myf/templates/source/home/groups/index.tt:225
 msgid "The group has been removed"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:18
 msgid "The image you uploaded was too big"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:22
 msgid "The location you provided is invalid"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/contact_mods_form.tt:52
+#: webapp_myf/templates/source/home/groups/contact_mods_form.tt:60
 msgid "The moderator(s) of group.group_name"
 msgstr ""
 
@@ -918,33 +926,33 @@ msgstr ""
 msgid "The page you were looking for cannot be found!"
 msgstr ""
 
-#. (post_matches.join(", "))
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#. (post_matches.join(", ")
+#: webapp_myf/templates/source/home/posts/display_issues.tt:54
 msgid "The post appears to be a duplicate of these Posts : %1"
 msgstr ""
 
 #. (mmaker.maximum_description_caps_percentage)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:52
 msgid "The post body has too many capitals  - this group has a limit of %1%"
 msgstr ""
 
 #. (mmaker.maximum_description_length)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:50
 msgid "The post body is too long - this group has a limit of %1 letters"
 msgstr ""
 
 #. (mmaker.maximum_item_caps_percentage)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:40
 msgid "The post description has too many capitals  - this group has a limit of %1%"
 msgstr ""
 
 #. (mmaker.maximum_item_length)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:38
 msgid "The post description is too long - this group has a limit of %1 letters"
 msgstr ""
 
 #. (mmaker.maximum_location_caps_percentage)
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:46
 msgid "The post location has too many capitals  - this group has a limit of %1%"
 msgstr ""
 
@@ -952,44 +960,44 @@ msgstr ""
 msgid "The request has been sent to Yahoo!Groups for processing."
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:8
 msgid "The short description is not valid"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenpassword.tt:83
+#: webapp_myf/templates/source/forgottenpassword.tt:106
 msgid "The site administrators have been informed of the problem."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:190
+#: webapp_myf/templates/source/signup.tt:186
 msgid "The username or email address was invalid"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenpassword.tt:83
+#: webapp_myf/templates/source/forgottenpassword.tt:118
 msgid "The username/email combination could not be found in the database."
 msgstr ""
 
 #. (group.admins.size)
-#: webapp_myf/templates/source/home/groups/index.tt:84
+#: webapp_myf/templates/source/home/groups/index.tt:85
 msgid "There are %1 ADMIN message(s) for this Group - please make sure you've read them"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:60
+#: webapp_myf/templates/source/home/posts/manage/show.tt:64
 msgid "There is no image for this Post"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:217
+#: webapp_myf/templates/source/home/groups/index.tt:227
 msgid "There was a problem sending the email - your request may not have been fulfilled"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenpassword.tt:83
+#: webapp_myf/templates/source/forgottenpassword.tt:109
 msgid "There was a problem sending you the password"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenpassword.tt:83
+#: webapp_myf/templates/source/forgottenpassword.tt:103
 msgid "There was an error generating a new password for you"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:190
+#: webapp_myf/templates/source/signup.tt:189
 msgid "There was an error sending the notification email"
 msgstr ""
 
@@ -1005,7 +1013,7 @@ msgstr ""
 msgid "This incident has been automatically reported"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:72
+#: webapp_myf/templates/source/home/groups/index.tt:77
 msgid "This is your home (default) Group"
 msgstr ""
 
@@ -1025,7 +1033,7 @@ msgstr ""
 msgid "This will not affect your current session, but you will need your new password when you next log in."
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/contact_mods_form.tt:52
+#: webapp_myf/templates/source/home/groups/contact_mods_form.tt:54
 msgid "To :"
 msgstr ""
 
@@ -1033,13 +1041,13 @@ msgstr ""
 msgid "Too many Groups!"
 msgstr ""
 
-#. ("https://www.freecycle.org/login/forgotten_password")
+#. ('https://www.freecycle.org/login/forgotten_password')
 #: webapp_myf/templates/source/index.tt:34
 msgid "Try the <a href='%1'>forgotten password form</a> to reset your password."
 msgstr ""
 
 #. (e)
-#: webapp_myf/templates/source/index.tt:42
+#: webapp_myf/templates/source/index.tt:53
 msgid "Untrapped error '%1' - please report this!"
 msgstr ""
 
@@ -1047,7 +1055,7 @@ msgstr ""
 msgid "Upload image"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenpassword.tt:83 webapp_myf/templates/source/forgottenusername.tt:37
+#: webapp_myf/templates/source/forgottenpassword.tt:115 webapp_myf/templates/source/forgottenusername.tt:40
 msgid "User not found"
 msgstr ""
 
@@ -1055,7 +1063,7 @@ msgstr ""
 msgid "Username (or email address)"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenpassword.tt:83 webapp_myf/templates/source/signup.tt:31
+#: webapp_myf/templates/source/forgottenpassword.tt:94 webapp_myf/templates/source/signup.tt:31
 msgid "Username :"
 msgstr ""
 
@@ -1064,11 +1072,11 @@ msgstr ""
 msgid "Username : %1"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenusername.tt:37
+#: webapp_myf/templates/source/forgottenusername.tt:44
 msgid "Username sent"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:119
+#: webapp_myf/templates/source/signup.tt:113
 msgid "Usernames may only contain the letters, numbers, underscores, minus signs and plus signs"
 msgstr ""
 
@@ -1076,7 +1084,7 @@ msgstr ""
 msgid "Usernames must"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:106
+#: webapp_myf/templates/source/signup.tt:100
 msgid "Usernames must be at least 4 characters long"
 msgstr ""
 
@@ -1084,19 +1092,19 @@ msgstr ""
 msgid "Usernames must be between 4 and 32 characters in length, start with a letter or number, and may only contain alphanumeric characters (A-Z, 0-9), underscores (_) and plus (+) or minus (-) signs."
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:164
+#: webapp_myf/templates/source/home/groups/index.tt:172
 msgid "View the Posts"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:32
+#: webapp_myf/templates/lib/standard_macros.tt:15 webapp_myf/templates/source/home/posts/manage/show.tt:35
 msgid "WANTED"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/manage/show.tt:45
+#: webapp_myf/templates/source/home/posts/manage/show.tt:49
 msgid "Waiting for Moderator approval"
 msgstr ""
 
-#: webapp_myf/templates/lib/box_tabbar.tt:3
+#: webapp_myf/templates/lib/box_tabbar.tt:13 webapp_myf/templates/lib/box_tabbar.tt:8
 msgid "Wanteds"
 msgstr ""
 
@@ -1108,45 +1116,45 @@ msgstr ""
 msgid "Well, you can just log in with your email address."
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:54
+#: webapp_myf/templates/source/home/posts/new.tt:55
 msgid "What is your approximate location?"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:31
+#: webapp_myf/templates/source/home/posts/new.tt:32
 msgid "What type of post is this?"
 msgstr ""
 
 #. (groups.leadmod)
-#: webapp_myf/templates/source/home/info/index.tt:17
+#: webapp_myf/templates/source/home/info/index.tt:31
 msgid "You are a LeadMod of %1 Group(s)"
 msgstr ""
 
 #. (group_counts.leadmod)
-#: webapp_myf/templates/source/home/groups/index.tt:31
+#: webapp_myf/templates/source/home/groups/index.tt:42
 msgid "You are a LeadMod of %1 group(s)."
 msgstr ""
 
 #. (groups.moderator)
-#: webapp_myf/templates/source/home/info/index.tt:17
+#: webapp_myf/templates/source/home/info/index.tt:27
 msgid "You are a Moderator of %1 Group(s)"
 msgstr ""
 
 #. (group_counts.moderator)
-#: webapp_myf/templates/source/home/groups/index.tt:31
+#: webapp_myf/templates/source/home/groups/index.tt:39
 msgid "You are a Moderator of %1 group(s)."
 msgstr ""
 
 #. (groups.member)
-#: webapp_myf/templates/source/home/info/index.tt:17
+#: webapp_myf/templates/source/home/info/index.tt:23
 msgid "You are a member of %1 Group(s)"
 msgstr ""
 
 #. (group_counts.member)
-#: webapp_myf/templates/source/home/groups/index.tt:31
+#: webapp_myf/templates/source/home/groups/index.tt:36
 msgid "You are a member of %1 group(s)."
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/search.tt:99
+#: webapp_myf/templates/source/home/groups/search.tt:120
 msgid "You are already a Lead Moderator of this Group"
 msgstr ""
 
@@ -1154,11 +1162,11 @@ msgstr ""
 msgid "You are already a Member of too many Freecycle Groups - If you wish to join another Freecycle Group, you must leave one first."
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/search.tt:99
+#: webapp_myf/templates/source/home/groups/search.tt:117
 msgid "You are already a Moderator of this Group"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/index.tt:217
+#: webapp_myf/templates/source/home/groups/index.tt:221
 msgid "You are already subscribed to the maximum number of groups"
 msgstr ""
 
@@ -1166,7 +1174,7 @@ msgstr ""
 msgid "You are not a member of any groups."
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:58
+#: webapp_myf/templates/source/home/posts/new.tt:59
 msgid "You can add more details here :"
 msgstr ""
 
@@ -1187,7 +1195,7 @@ msgid "You can nominate one of the Groups you belong to as your most local, 'hom
 msgstr ""
 
 #. (groupURL)
-#: webapp_myf/templates/source/home/posts/new_okay.tt:31
+#: webapp_myf/templates/source/home/posts/new_okay.tt:33
 msgid "You can return to your <a href='/home/posts'>posts</a> page, go to the <a href='%1'>group page</a> or use any of the tabs above to continue."
 msgstr ""
 
@@ -1203,15 +1211,15 @@ msgstr ""
 msgid "You can use this form to choose the languages you prefer to get emails in."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:173
+#: webapp_myf/templates/source/signup.tt:167
 msgid "You cannot use My Freecycle without agreeing to the Terms of Service"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:190
+#: webapp_myf/templates/source/signup.tt:194
 msgid "You cannot use this service without agreeing to the Terms of Service"
 msgstr ""
 
-#. ("/home/groups")
+#. ('/home/groups')
 #: webapp_myf/templates/lib/box_tabbar.tt:39
 msgid "You currently do not have a \"home\" Group selected - please choose one from <a href=\"%1\">your Group Membership list</a>"
 msgstr ""
@@ -1220,16 +1228,16 @@ msgstr ""
 msgid "You didn't authorise the third-party application - unless you authorise My Freecycle to access your account details, we cannot log you in"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:159
+#: webapp_myf/templates/source/home/posts/new.tt:160
 msgid "You do not belong to any groups yet!"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/home.tt:8
+#: webapp_myf/templates/source/home/groups/home.tt:12
 msgid "You do not currently have a 'home' Group"
 msgstr ""
 
 #. (groups.pending)
-#: webapp_myf/templates/source/home/info/index.tt:17
+#: webapp_myf/templates/source/home/info/index.tt:19
 msgid "You have %1 Group membership(s) waiting for approval."
 msgstr ""
 
@@ -1239,7 +1247,7 @@ msgid "You have %1 Post(s) open"
 msgstr ""
 
 #. (group_counts.pending)
-#: webapp_myf/templates/source/home/groups/index.tt:31
+#: webapp_myf/templates/source/home/groups/index.tt:33
 msgid "You have %1 group membership(s) waiting for approval. "
 msgstr ""
 
@@ -1248,7 +1256,7 @@ msgstr ""
 msgid "You have %1 post(s) open"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/search.tt:99
+#: webapp_myf/templates/source/home/groups/search.tt:114
 msgid "You have already joined this group"
 msgstr ""
 
@@ -1264,36 +1272,36 @@ msgstr ""
 msgid "You have no recently expired Posts"
 msgstr ""
 
-#. (('//groups.freecycle.org/' _ group_unique_name), ('//my.freecycle.org/home/posts/' _ group_unique_name _ '/post_to_group'), ('//my.freecycle.org/home/groups/' _ group_unique_name _ '/options'))
-#: webapp_myf/templates/source/home/groups/join_group.tt:0
+#. ("//groups.freecycle.org/$group_unique_name","//my.freecycle.org/home/posts/$group_unique_name/post_to_group","//my.freecycle.org/home/groups/$group_unique_name/options")
+#: webapp_myf/templates/source/home/groups/join_group.tt:18
 msgid "You may view the most recent Posts of this Group by clicking <a href='%1'>here</a>. You may make a Post by clicking <a href='%2'>here</a>. Or, you may edit your membership settings by clicking <a href='%3'>here</a>."
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:172
+#: webapp_myf/templates/source/signup.tt:166
 msgid "You must accept the Terms of Service"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:12
 msgid "You must enter more details for this post"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:14
 msgid "You must enter something for the location"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/display_issues.tt:1
+#: webapp_myf/templates/source/home/posts/display_issues.tt:10
 msgid "You must enter something for the short description"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new.tt:161
+#: webapp_myf/templates/source/home/posts/new.tt:162
 msgid "You need to <a href='/home/groups'>join some groups</a> before you can post (please see your groups page for notes regarding membership to existing Yahoo!Groups)"
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenusername.tt:37
+#: webapp_myf/templates/source/forgottenusername.tt:45
 msgid "You should receive an email with your username in soon."
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenpassword.tt:83
+#: webapp_myf/templates/source/forgottenpassword.tt:124
 msgid "You should receive your new password soon."
 msgstr ""
 
@@ -1301,7 +1309,7 @@ msgstr ""
 msgid "You will need to create an account before you can use My Freecycle. You will need to pick a unique username and enter a valid email address that you read. If you are an existing Yahoo!Groups user, it is recommended that you either use your registered Yahoo! email address or add the new address to your Yahoo! profile."
 msgstr ""
 
-#: webapp_myf/templates/source/home/info/index.tt:36
+#: webapp_myf/templates/source/home/info/index.tt:38
 msgid "You will need to join some Groups before you can start finding the items available through The Freecycle Network. Click on the 'My Groups' tab and you can search for Groups near you."
 msgstr ""
 
@@ -1321,8 +1329,8 @@ msgstr ""
 msgid "Your account has been created, and an email with your password in has been sent. You will need this password to log in for the first time, after which you can change it to something you prefer. Please check any 'Junk' and 'spam' folders in case the email has been quarantined."
 msgstr ""
 
-#. (home_group.getGroupName)
-#: webapp_myf/templates/source/home/groups/home.tt:8
+#. (home_group.getGroupName()
+#: webapp_myf/templates/source/home/groups/home.tt:10
 msgid "Your current 'home' Group is: %1"
 msgstr ""
 
@@ -1330,11 +1338,11 @@ msgstr ""
 msgid "Your email address has been successfully changed"
 msgstr ""
 
-#: webapp_myf/templates/source/home/groups/search.tt:99
+#: webapp_myf/templates/source/home/groups/search.tt:111
 msgid "Your membership to this group is still pending"
 msgstr ""
 
-#: webapp_myf/templates/source/home/posts/new_okay.tt:13
+#: webapp_myf/templates/source/home/posts/new_okay.tt:15
 msgid "Your message has been posted"
 msgstr ""
 
@@ -1347,11 +1355,11 @@ msgid "Your new email address could not be saved"
 msgstr ""
 
 #. (post_id)
-#: webapp_myf/templates/source/home/posts/new_okay.tt:18
+#: webapp_myf/templates/source/home/posts/new_okay.tt:20
 msgid "Your new message has been sent to the Group. This message has been given the ID number #%1."
 msgstr ""
 
-#: webapp_myf/templates/source/forgottenpassword.tt:83
+#: webapp_myf/templates/source/forgottenpassword.tt:112
 msgid "Your password has been changed, but an error occured whilst trying to send you your new password."
 msgstr ""
 
@@ -1383,16 +1391,8 @@ msgstr ""
 msgid "language code"
 msgstr ""
 
-#: webapp_myf/templates/source/signup.tt:78
+#: webapp_myf/templates/source/signup.tt:72
 msgid "or"
-msgstr ""
-
-#: webapp_myf/templates/source/home/posts/recently_closed.tt:26
-msgid "p.getPostTypeName(\"en\")"
-msgstr ""
-
-#: webapp_myf/templates/source/home/posts/index.tt:54
-msgid "p.type_name"
 msgstr ""
 
 #: webapp_myf/templates/source/home/info/change_username.tt:8

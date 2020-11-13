@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. (group.groupname, post.type, post.post_subject, post.location)
-#: webapp_main/templates/source/group/posts/display_post.tt:1
+#: webapp_main/templates/source/group/posts/display_post.tt:14
 msgid "%1 Freecycle - %2: %3 (%4)"
 msgstr ""
 
@@ -149,7 +149,7 @@ msgstr ""
 msgid "<b>The Terms constitute the entire agreement between you and The Freecycle Network and govern your use of the Service, superceding any prior agreements between you and The Freecycle Network. The Terms and the relationship between you and The Freecycle Network shall be governed by the laws of the State of Arizona without regard to its conflict of law provisions. You and The Freecycle Network agree to submit to the personal and exclusive jurisdiction of the courts located within the county of Pima, Arizona. The failure of The Freecycle Network to exercise or enforce any right or provision of the Terms shall not constitute a waiver of such right or provision. If any provision of the Terms is found by a court of competent jurisdiction to be invalid, the parties nevertheless agree that the court should endeavor to give effect to the parties' intentions as reflected in the provision, and the other provisions of the Terms remain in full force and effect. You agree that regardless of any statute or law to the contrary, any claim or cause of action arising out of or related to use of the Service or the Terms must be filed within one (1) year after such claim or cause of action arose or be forever barred.</b>"
 msgstr ""
 
-#. ("<a href=\"mailto:info@freecycle.org\">info@freecycle.org</a>")
+#. ('<a href="mailto:info@freecycle.org">info@freecycle.org</a>')
 #: webapp_main/templates/source/tos.tt:83
 msgid "<b>We welcome your feedback on this document. Please contact us at %1</b>"
 msgstr ""
@@ -173,10 +173,6 @@ msgstr ""
 #. (region.region_name)
 #: webapp_main/templates/source/browse/group_list.tt:12
 msgid "Active groups in %1 :"
-msgstr ""
-
-#: webapp_main/templates/source/donate.tt:68
-msgid "Add a note:"
 msgstr ""
 
 #: webapp_main/templates/source/tos.tt:39
@@ -259,6 +255,10 @@ msgstr ""
 msgid "Contact Us"
 msgstr ""
 
+#: webapp_main/templates/source/donate.tt:123
+msgid "Currency:"
+msgstr ""
+
 #: webapp_main/templates/source/group/posts/display_post.tt:83
 msgid "Date :"
 msgstr ""
@@ -275,7 +275,7 @@ msgstr ""
 msgid "Disclaimer"
 msgstr ""
 
-#. ("<a href=\"mailto:volunteer@freecycle.org\">volunteer@freecycle.org</a>")
+#. ('<a href="mailto:volunteer@freecycle.org">volunteer@freecycle.org</a>')
 #: webapp_main/templates/source/about/volunteering.tt:18
 msgid "Do you have a skill you could volunteer to help Freecycle. We are wlays looking for help in areas such as graphics, fund-raising and networking? Contact %1"
 msgstr ""
@@ -284,11 +284,11 @@ msgstr ""
 msgid "Do you have some time available to help at events or to be trained as a moderator? To contact your local Group, go to your home page and click 'Contact the Mod Team'"
 msgstr ""
 
-#: webapp_main/templates/source/donate.tt:1
+#: webapp_main/templates/source/donate.tt:1 webapp_main/templates/source/thanks.tt:1
 msgid "Donate and support Freecycle.org"
 msgstr ""
 
-#: webapp_main/templates/source/campaigns/june2015appeal.tt:1 webapp_main/templates/source/campaigns/june2016appeal.tt:1
+#: webapp_main/templates/source/campaigns/june16test.html:1 webapp_main/templates/source/campaigns/june2015appeal.tt:1 webapp_main/templates/source/campaigns/june2016appeal.tt:1
 msgid "Donate today!"
 msgstr ""
 
@@ -301,8 +301,12 @@ msgid "Download this page"
 msgstr ""
 
 #. ("/about/funds")
-#: webapp_main/templates/source/donate.tt:21
+#: webapp_main/templates/source/donate.tt:67
 msgid "Due to the incredible efforts of nearly 7,000 local volunteers, The Freecycle Network&trade; is able to keep its administrative expenses quite low. However, as the largest recycling and reuse website in the world, we have rather substantial server, bandwidth and coding expenses. Your help to keep this incredible grassroots effort going is deeply appreciated. Please feel free to reference <a href='%1'>our latest IRS 990s</a> as well as on the independent website GuideStar.org."
+msgstr ""
+
+#: webapp_main/templates/source/donate.tt:96
+msgid "Due to the incredible efforts of thousands of local volunteers, The Freecycle Network&trade; is able to keep its administrative expenses quite low. However, as the largest recycling and reuse website in the world, we have rather substantial server, bandwidth and coding expenses. Your help to keep this incredible grassroots effort going is deeply appreciated."
 msgstr ""
 
 #. ("<a href='mailto:ngacoordinator@freecycle.org'>ngacoordinator@freecycle.org</a>")
@@ -347,7 +351,7 @@ msgstr ""
 msgid "For inquiries please contact:"
 msgstr ""
 
-#. ("http://faq.freecycle.org/faq/?menu=manual/required")
+#. ('http://faq.freecycle.org/faq/?menu=manual/required')
 #: webapp_main/templates/source/tos.tt:65
 msgid "For members using The Freecycle Network in the United States, you acknowledge and agree not to use the 'freecycle.org' logo other than as a sign of local Membership in The Freecycle Network. You also agree not to alter the logo or The Freecycle Network word mark 'freecycle.org' (collectively 'Trademarks') and to stop using the Trademarks when membership status is lost, and to only use the Trademarks in accordance with the local Group required guidelines and policies found <a href='%1'>here</a>. You further acknowledge that as a local Group Member of The Freecycle Network, you may only use the Trademarks as a sign of Membership in The Freecycle Network. Should you unsubscribe/cancel your Membership or should you be removed as a Member, you agree you have no rights to use the Trademarks."
 msgstr ""
@@ -370,7 +374,7 @@ msgid "Forms are available for each of these years:"
 msgstr ""
 
 #. (region.region_name, region.country.country_name)
-#: webapp_main/templates/source/browse/group_list.tt:1
+#: webapp_main/templates/source/browse/group_list.tt:2
 msgid "Freecycle Groups in %1, %2"
 msgstr ""
 
@@ -382,7 +386,7 @@ msgstr ""
 msgid "Freecycle is active in the following :"
 msgstr ""
 
-#: webapp_main/templates/source/donate.tt:16
+#: webapp_main/templates/source/donate.tt:64
 msgid "Freecycle&trade; performs many wonderful functions: building bonds and community, keeping material items from the landfills, and redeeming the clutter that consumes us by moving it forward to a new, productive life."
 msgstr ""
 
@@ -451,7 +455,7 @@ msgid "I gave a loveseat to a lady who had nothing. Her husband had walked out o
 msgstr ""
 
 #. (e)
-#: webapp_main/templates/source/group/posts/reply_error.tt:1
+#: webapp_main/templates/source/group/posts/reply_error.tt:28
 msgid "I'm sorry, there was an error when trying to send your response. The site admins have already been informed of the error, and will investigate it further. Please try again later. <!-- %1 -->"
 msgstr ""
 
@@ -460,7 +464,7 @@ msgstr ""
 msgid "ID: %1"
 msgstr ""
 
-#. ("<a href=\"mailto:InterimMod@freecycle.org\">InterimMod@freecycle.org</a>")
+#. ('<a href="mailto:InterimMod@freecycle.org">InterimMod@freecycle.org</a>')
 #: webapp_main/templates/source/about/volunteering.tt:42
 msgid "IMod team members work directly with local groups whose owner has left, to find and help new local moderators get started. The main goal of the IMod Team is to recruit and train new moderators for local groups. Team vacancies are normally filled by referrals. Candidates for an IMod Team position must have the ability to communicate effectively and the understanding of Freecycle guidelines is essential. Although this volunteer postition requires a significant amount of time daily, it is also a very rewarding opportunity. If applying, please include at least two references that can be confirmed, such as neighboring moderators, GOA, etc. Interested volunteers should contact the Interim Moderator Team Co-Leaders at %1"
 msgstr ""
@@ -481,16 +485,26 @@ msgstr ""
 msgid "If you haven't logged in (or haven't signed up), you can try searching for your most local Group below"
 msgstr ""
 
-#: webapp_main/templates/source/donate.tt:124
+#: webapp_main/templates/source/donate.tt:142
 msgid ""
-"If you prefer mailing a check, you may make it out to \"The Freecycle Network\" and send it to:\n"
-"The Freecycle Network\n"
+"If you prefer mailing a check, you may make it out to\n"
+"<br> \"The Freecycle Network\" and send it to:\n"
+"<br>The Freecycle Network\n"
 "P.O. Box 294\n"
 "Tucson, Arizona 85702\n"
 "USA"
 msgstr ""
 
-#. ("<a href=\"mailto:help@freecycle.org\">help@freecycle.org</a>")
+#: webapp_main/templates/source/donate.tt:133
+msgid ""
+"If you prefer mailing a check, you may make it out to \"The Freecycle Network\" and send it to:\n"
+"<br>The Freecycle Network\n"
+"P.O. Box 294\n"
+"Tucson, Arizona 85702\n"
+"USA"
+msgstr ""
+
+#. ('<a href="mailto:help@freecycle.org">help@freecycle.org</a>')
 #: webapp_main/templates/source/about/sponsors.tt:16
 msgid "If you'd like to become a sponsor for The Freecycle Network, please email %1. We've been fortunate to count Intuit, Nokia and Waste Management amongst our sponsors over the years."
 msgstr ""
@@ -504,7 +518,11 @@ msgstr ""
 msgid "In general, when you visit the Freecycle Web site and access information, you remain anonymous. We do not require you to register or provide personal information to us in order to view our site. There are occasions when we will ask for additional information, such as when you apply to become a member of a Freecycle group or make a donation to Freecycle. In these cases, we will only collect personally identifiable information (such as name, address, telephone number, or e-mail address) that you voluntarily provide through our Web site or via e-mail correspondence."
 msgstr ""
 
-#: webapp_main/templates/source/donate.tt:13
+#: webapp_main/templates/source/donate.tt:90
+msgid "In just a few short years, Freecycle&reg; members have generated a spectacular worldwide outpouring of generosity, changing the world one gift at a time. Those with still good used items happily share; those who need gracefully receive: all on a completely free and charitable nonprofit website."
+msgstr ""
+
+#: webapp_main/templates/source/donate.tt:61
 msgid "In just a few short years, Freecycle&trade; has generated a spectacular worldwide outpouring of generosity, changing the world one gift at a time. Those with still good used items happily share; those who need gracefully receive, all without judgement - or any funds - passed."
 msgstr ""
 
@@ -540,15 +558,15 @@ msgstr ""
 msgid "It is with great pride and with many, many thanks that we acknowledge the thousands of volunteer moderators worldwide. Each local group generally has two to six local moderators who, in turn, are helping over four million members to keep good stuff out of landfills and to develop stronger community ties."
 msgstr ""
 
-#: webapp_main/templates/lib/group_box.tt:0 webapp_main/templates/source/group/description.tt:0 webapp_main/templates/source/group/posts/display_list.tt:0
+#: webapp_main/templates/lib/group_box.tt:49 webapp_main/templates/source/group/description.tt:9 webapp_main/templates/source/group/posts/display_list.tt:223
 msgid "Join this Group"
 msgstr ""
 
-#: webapp_main/templates/lib/group_box.tt:0
+#: webapp_main/templates/lib/group_box.tt:45 webapp_main/templates/lib/group_box.tt:56
 msgid "Join this group at Yahoo!Groups"
 msgstr ""
 
-#. ("<a href=\"mailto:volunteer@freecycle.org\">volunteer@freecycle.org</a>")
+#. ('<a href="mailto:volunteer@freecycle.org">volunteer@freecycle.org</a>')
 #: webapp_main/templates/source/about/volunteering.tt:21
 msgid "Let us know what you think would improve the Freecycle experience - contact %1"
 msgstr ""
@@ -577,16 +595,12 @@ msgstr ""
 msgid "Log in to Freecycle.org"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:0
+#: webapp_main/templates/source/group/posts/display_list.tt:217
 msgid "Make a new Post"
 msgstr ""
 
 #: webapp_main/templates/source/about/pressroom.tt:20
 msgid "Media Intro and Tips"
-msgstr ""
-
-#: webapp_main/templates/lib/group_box.tt:26
-msgid "Member FAQ"
 msgstr ""
 
 #: webapp_main/templates/source/about/background.tt:10
@@ -601,19 +615,19 @@ msgstr ""
 msgid "Message not found"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/reply_error.tt:1
+#: webapp_main/templates/source/group/posts/reply_error.tt:27 webapp_main/templates/source/group/posts/reply_error.tt:7
 msgid "Message not sent"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/reply_error.tt:1
+#: webapp_main/templates/source/group/posts/reply_error.tt:22
 msgid "Message not sent - problem with the your response"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/reply_error.tt:1
+#: webapp_main/templates/source/group/posts/reply_error.tt:12
 msgid "Message not sent - the poster is no longer a Freecycle.org user "
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/reply_error.tt:1
+#: webapp_main/templates/source/group/posts/reply_error.tt:17
 msgid "Message not sent - this Post has been closed"
 msgstr ""
 
@@ -639,10 +653,6 @@ msgstr ""
 
 #: webapp_main/templates/source/group/files/index.tt:22
 msgid "Modified"
-msgstr ""
-
-#: webapp_main/templates/source/donate.tt:57 webapp_main/templates/source/donate.tt:98
-msgid "Monthly donation"
 msgstr ""
 
 #: webapp_main/templates/source/about/funds.tt:16
@@ -673,7 +683,7 @@ msgstr ""
 msgid "No local group?"
 msgstr ""
 
-#: webapp_main/templates/source/login/forgotten_password.tt:19
+#: webapp_main/templates/source/login/forgotten_password.tt:26
 msgid "No user with that username/email address could be found"
 msgstr ""
 
@@ -685,7 +695,7 @@ msgstr ""
 msgid "Note that email isn't always instant. Please wait at least an hour or two before trying this again. Also, be sure that you've whitelisted 'email_relay@freecycle.org' in your email provider settings so that your provider doesn't count the email as spam."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:267 webapp_main/templates/source/group/posts/display_post.tt:1
+#: webapp_main/templates/source/group/posts/display_list.tt:267 webapp_main/templates/source/group/posts/display_post.tt:7
 msgid "OFFER"
 msgstr ""
 
@@ -695,10 +705,6 @@ msgstr ""
 
 #: webapp_main/templates/source/about/background.tt:15
 msgid "On May 1st, 2003, Deron Beal sent out the first e-mail announcing The Freecycle Network&trade; to about 30 or 40 friends and a handful of nonprofits in Tucson, Arizona. At the time Deron founded The Freecycle Network, he worked with a small nonprofit organization, RISE, which provides recycling services to downtown businesses and transitional employment to Tucsonans in need."
-msgstr ""
-
-#: webapp_main/templates/source/donate.tt:48 webapp_main/templates/source/donate.tt:79
-msgid "One-time donation"
 msgstr ""
 
 #: webapp_main/templates/source/404.tt:10
@@ -725,7 +731,7 @@ msgstr ""
 msgid "Our model is much like that of PBS. We seek to provide a free public forum for our members, and seek grants, underwriting and voluntary donations to fund these efforts. It's a rather unique model for a website, but The Freecycle Network is a unique organization. As we further develop community reuse and recycling on a globally local scale in over 110 countries we are creating a global gift economy in the process. <strong>Simply beautiful how one can change the world, one gift at a time</strong>."
 msgstr ""
 
-#: webapp_main/templates/source/form990/form.tt:28
+#: webapp_main/templates/source/form990/form.tt:29
 msgid "PDF files available : <br />"
 msgstr ""
 
@@ -734,7 +740,7 @@ msgid "Password"
 msgstr ""
 
 #. ("http://my.freecycle.org/login", "http://my.freecycle.org/signup")
-#: webapp_main/templates/lib/group_box.tt:0
+#: webapp_main/templates/lib/group_box.tt:59
 msgid "Please <a href='%1'>login</a> or <a href='%2'>sign up</a> to My Freecycle to join this group."
 msgstr ""
 
@@ -746,7 +752,7 @@ msgstr ""
 msgid "Please contact us by email or in writing at:"
 msgstr ""
 
-#: webapp_main/templates/source/search/no_keywords.tt:1
+#: webapp_main/templates/source/search/no_keywords.tt:4
 msgid "Please enter some keywords to search for"
 msgstr ""
 
@@ -758,7 +764,7 @@ msgstr ""
 msgid "Please let us know why you think this link is an issue:"
 msgstr ""
 
-#. ("http://www.freecycle.org/faq/faq/faq_guidelines")
+#. ('http://www.freecycle.org/faq/faq/faq_guidelines')
 #: webapp_main/templates/source/group/posts/display_post.tt:133
 msgid "Please note that required guidelines are posted in each Group as well as centrally <a href=\"%1\">in the FAQ</a> and while you may personally feel that a Post is inappropriate it may still be following these Guidelines. You are advised to read the rules and any ADMINs that have been posted before submitting reports."
 msgstr ""
@@ -767,7 +773,7 @@ msgstr ""
 msgid "Please note that the person who made the Post may receive a number of responses, and may not be able to acknowledge all of them. If you don't get a response to your message, you must assume that the person has chosen someone else. As this is a private transaction, The Freecycle Network&trade; has no power to intervene, although you should report any abuse to the Group Moderators."
 msgstr ""
 
-#. ("<a href=\"http://wiki.freecycle.org/Main_Page#Members\">' _ c.loc(\"Member FAQ\") _ '</a>")
+#. ('<a href="http://wiki.freecycle.org/Main_Page#Members">' _ c.loc('Member FAQ')
 #: webapp_main/templates/lib/group_box.tt:26
 msgid "Please see the %1 for help"
 msgstr ""
@@ -798,7 +804,7 @@ msgid "Posted on or before"
 msgstr ""
 
 #. (group.groupname)
-#: webapp_main/templates/source/group/posts/display_list.tt:1
+#: webapp_main/templates/source/group/posts/display_list.tt:3
 msgid "Posts on the %1 Group | The Freecycle Network"
 msgstr ""
 
@@ -854,7 +860,7 @@ msgstr ""
 msgid "RECEIVED"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:1
+#: webapp_main/templates/source/group/posts/display_post.tt:10
 msgid "RECIEVED"
 msgstr ""
 
@@ -862,7 +868,7 @@ msgstr ""
 msgid "Reason given:"
 msgstr ""
 
-#: webapp_main/templates/source/browse/region_list.tt:0
+#: webapp_main/templates/source/browse/region_list.tt:24
 msgid "Regions from "
 msgstr ""
 
@@ -907,7 +913,7 @@ msgstr ""
 msgid "Search for Posts"
 msgstr ""
 
-#: webapp_main/templates/source/search/results.tt:1
+#: webapp_main/templates/source/search/results.tt:4
 msgid "Search results"
 msgstr ""
 
@@ -935,17 +941,17 @@ msgstr ""
 msgid "Share a skill"
 msgstr ""
 
-#. (((page - 1) * resultsperpage) + 1, ((page * resultsperpage) > numresults ? numresults : (page * resultsperpage)), numresults)
-#: webapp_main/templates/source/search/results.tt:28
+#. (((page - 1)
+#: webapp_main/templates/source/search/results.tt:30
 msgid "Showing %1 to %2 of %3 results"
 msgstr ""
 
 #. (res_start, res_end, numresults)
-#: webapp_main/templates/source/group/posts/display_list.tt:151
+#: webapp_main/templates/source/group/posts/display_list.tt:157
 msgid "Showing %1 to %2 of %3 results."
 msgstr ""
 
-#: webapp_main/templates/source/group/description.tt:0 webapp_main/templates/source/group/posts/display_list.tt:0
+#: webapp_main/templates/source/group/description.tt:17 webapp_main/templates/source/group/posts/display_list.tt:231
 msgid "Sign up/log in"
 msgstr ""
 
@@ -977,7 +983,7 @@ msgstr ""
 msgid "Street performer Reverend Billy preaches his message of reducing consumption in his Church of Stop Shopping."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:271 webapp_main/templates/source/group/posts/display_post.tt:1
+#: webapp_main/templates/source/group/posts/display_list.tt:271 webapp_main/templates/source/group/posts/display_post.tt:8
 msgid "TAKEN"
 msgstr ""
 
@@ -1001,6 +1007,10 @@ msgstr ""
 msgid "Thank you for your interest in The Freecycle Network&trade;. Freecycle has been a hot topic in the media and we truly appreciate the attention as it certainly accounts for a large portion of our tremendous growth."
 msgstr ""
 
+#: webapp_main/templates/source/donate.tt:101
+msgid "Thank you for your support in 'changing the world one gift at a time.'"
+msgstr ""
+
 #: webapp_main/templates/source/about/pressroom.tt:32
 msgid "Thank you for your time and support!"
 msgstr ""
@@ -1017,12 +1027,12 @@ msgstr ""
 msgid "The Center for a New American Dream helps Americans consume responsibly to protect the environment, enhance quality of life, and promote social justice."
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:34 webapp_main/templates/lib/standard_page.tt:8 webapp_main/templates/source/about/background.tt:8 webapp_main/templates/source/donate.tt:11
+#: webapp_main/templates/lib/standard_page.tt:11 webapp_main/templates/lib/standard_page.tt:12 webapp_main/templates/lib/standard_page.tt:40 webapp_main/templates/source/about/background.tt:8 webapp_main/templates/source/donate.tt:59 webapp_main/templates/source/donate.tt:88
 msgid "The Freecycle Network"
 msgstr ""
 
 #. (group.groupname)
-#: webapp_main/templates/source/group/posts/display_post.tt:1
+#: webapp_main/templates/source/group/posts/display_post.tt:16
 msgid "The Freecycle Network - %1 Group"
 msgstr ""
 
@@ -1031,7 +1041,7 @@ msgid "The Freecycle Network - Board"
 msgstr ""
 
 #. (year)
-#: webapp_main/templates/source/form990/form.tt:1
+#: webapp_main/templates/source/form990/form.tt:2
 msgid "The Freecycle Network - Form 990 for %1"
 msgstr ""
 
@@ -1060,7 +1070,7 @@ msgid "The Freecycle Network - Volunteering"
 msgstr ""
 
 #. (group.groupname)
-#: webapp_main/templates/source/group/admin.tt:1 webapp_main/templates/source/group/description.tt:1 webapp_main/templates/source/group/files/index.tt:1
+#: webapp_main/templates/source/group/admin.tt:1 webapp_main/templates/source/group/description.tt:1 webapp_main/templates/source/group/files/index.tt:2
 msgid "The Freecycle Network - about the %1 Group"
 msgstr ""
 
@@ -1070,12 +1080,12 @@ msgid "The Freecycle Network - contact%1 Group Moderators"
 msgstr ""
 
 #. (file.name)
-#: webapp_main/templates/source/group/files/view_file.tt:1
+#: webapp_main/templates/source/group/files/view_file.tt:2
 msgid "The Freecycle Network - file '%1'"
 msgstr ""
 
 #. (group.groupname)
-#: webapp_main/templates/source/group/links/index.tt:1 webapp_main/templates/source/group/links/report_thanks.tt:1
+#: webapp_main/templates/source/group/links/index.tt:3 webapp_main/templates/source/group/links/report_thanks.tt:1
 msgid "The Freecycle Network - interesting links from the %1 Group"
 msgstr ""
 
@@ -1106,6 +1116,10 @@ msgstr ""
 
 #: webapp_main/templates/source/about/background.tt:23
 msgid "The Freecycle Network is incorporated as a nonprofit in the State of Arizona."
+msgstr ""
+
+#: webapp_main/templates/source/donate.tt:93
+msgid "The Freecycle Network performs many wonderful functions: building bonds and community, keeping material items out of the tip, and redeeming the clutter that consumes us by moving it forward to a new, productive life."
 msgstr ""
 
 #: webapp_main/templates/source/about/old_privacy.tt:9
@@ -1144,15 +1158,15 @@ msgstr ""
 msgid "The Internet Consumer Recycling Guide"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:182
+#: webapp_main/templates/source/group/posts/display_post.tt:190
 msgid "The Post ID is invalid - either the Post does not exist, it is closed, or it does not belong to this Group."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:182
+#: webapp_main/templates/source/group/posts/display_post.tt:184
 msgid "The Post has been deleted."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:182
+#: webapp_main/templates/source/group/posts/display_post.tt:186
 msgid "The Post is still awaiting approval by a Group Moderator."
 msgstr ""
 
@@ -1213,7 +1227,7 @@ msgstr ""
 msgid "There were no groups matching your search terms"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:1
+#: webapp_main/templates/source/group/posts/display_list.tt:12
 msgid "There were no matching messages"
 msgstr ""
 
@@ -1221,7 +1235,7 @@ msgstr ""
 msgid "This Group has no files for you to view"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_post.tt:182
+#: webapp_main/templates/source/group/posts/display_post.tt:188
 msgid "This Post has been closed ."
 msgstr ""
 
@@ -1239,22 +1253,22 @@ msgstr ""
 msgid "This organization is the only nonprofit group committed to comprehensive, nationwide program to collect and recycle rechargeable batteries and cell phones. Local drop-off sites noted on their site. A portion of proceeds goes to select charities."
 msgstr ""
 
-#. ("<a href=\"mailto:goa@freecycle.org\">goa@freecycle.org</a>")
+#. ('<a href="mailto:goa@freecycle.org">goa@freecycle.org</a>')
 #: webapp_main/templates/source/about/volunteering.tt:36
 msgid "This position is usually promoted from other team positions within the Network as we've found the experience and knowledge base from these teams to be beneficial to the volunteer prior to taking on the responsibilities that come with GOA. Qualified volunteers can be an exception. Candidates for this position must be extremely tactful; have a good grasp on the written word; be friendly and insightful; be willing to devote several hours a week to the 'job;' be familiar with the workings of Yahoo Groups and Yahoo Messenger; have strong problem solving and diplomatic skills. Potential volunteers for this position must have a complete understanding of the workings of TFN, its guidelines, and what is appropriate for groups and moderators. A solid familiarity with the Moderator's Manual is a strong plus. Please note that this is a time consuming position; ample time for volunteering is required. If you're interested in learning more, please contact the GOA Coordinator, at %1"
 msgstr ""
 
-#. ("<a href=\"mailto:trademark@freecycle.org\">trademark@freecycle.org</a>")
+#. ('<a href="mailto:trademark@freecycle.org">trademark@freecycle.org</a>')
 #: webapp_main/templates/source/about/volunteering.tt:39
 msgid "This position requires a great degree of responsibility with varying time commitments depending on the specific role. Generally, you will have a great deal of experience as a Freecycle moderator before assuming a role in this team. Likely, you'll have gained experience previously in another team before doing a role here. It requires a high degree of attention to detail, and a great deal of diplomatic care in working to help educate local moderators regarding proper mark useage as well as in working with external entities. If you're interested, please contact the TM Team at %1"
 msgstr ""
 
-#. ("<a href=\"mailto:volunteer@freecycle.org\">volunteer at freecycle.org</a>")
+#. ('<a href="mailto:volunteer@freecycle.org">volunteer at freecycle.org</a>')
 #: webapp_main/templates/source/about/volunteering.tt:27
 msgid "This position requires that you have graphic design abilities and a desire to help other local mods put together a nifty new graphic for their local graphics/description which incorporates our logo with nice surrounding graphics that reflect the spirit of the local community. It requires good interpersonal skills in working wtih local mods to figure out their wishes The time commitment varies greatly depending on your wishes to do more or less. This is a small team with creative design energy. It does not require a great deal of moderation experience. If you're interested, please contact the Graphics Team at %1"
 msgstr ""
 
-#. ("<a href=\"mailto:mentormod@freecycle.org\">mentormod@freecycle.org</a>")
+#. ('<a href="mailto:mentormod@freecycle.org">mentormod@freecycle.org</a>')
 #: webapp_main/templates/source/about/volunteering.tt:24
 msgid "This position requires varying amounts of time depending on the interest of the individual Mentor Mod. This role is purely a peer-to-peer role in which one offers tips, guidance and what not to a typically newer local volunteer moderator. It's a sort of big brother / big sister type concept -- a nice extra way to help newbie mods. This position requires probably a good year of experience moderating a local TFN group under your belt and a desire to help and an open and patient heart. The Mentor Mod team also heads the Disaster Relief Temps project ~ if you wish to learn how to have a mod take care of your group in the event of a disaster or if you're interested in volunteering to serve in one of the positions above, please contact the MMod Team at %1"
 msgstr ""
@@ -1263,7 +1277,7 @@ msgstr ""
 msgid "This recycling guide provides a starting point for consumers in the US and Canada searching the 'Net for recycling information. The goal is to help make recycling so easy and automatic that it blends into the flow of everyday life."
 msgstr ""
 
-#. ("<a href=\"mailto:modcoord@freecycle.org\">modcoord@freecycle.org</a>")
+#. ('<a href="mailto:modcoord@freecycle.org">modcoord@freecycle.org</a>')
 #: webapp_main/templates/source/about/volunteering.tt:30
 msgid "This team is responsible for making sure that all the moderator groups function smoothly and are responsible for the day-to-day task of making sure the questions mods have get answered. Only a few team members are needed for these roles. Candidates for this position would need to be seasoned TFN moderators who are familiar with TFN guidelines, the mod manual and functionality of the mod groups. Diplomatic skills are also a must. If you are interested in learning more about this team's duties, contact Ann at %1"
 msgstr ""
@@ -1338,7 +1352,7 @@ msgstr ""
 msgid "Volunteering"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/display_list.tt:275 webapp_main/templates/source/group/posts/display_post.tt:1
+#: webapp_main/templates/source/group/posts/display_list.tt:275 webapp_main/templates/source/group/posts/display_post.tt:9
 msgid "WANTED"
 msgstr ""
 
@@ -1346,15 +1360,19 @@ msgstr ""
 msgid "We are a big grassroots movement but a tiny little nonprofit organization with a staff of one so defending our trademark takes many hands and hearts."
 msgstr ""
 
-#: webapp_main/templates/source/donate.tt:24
+#: webapp_main/templates/source/donate.tt:70
 msgid "We depend upon donations to help meet these expenses and to continue to refine and spread our extraordinarily successful Freecycle&trade; infrastructure.Your generous donations to The Freecycle Network are tax deductible as we are a 501(c)3 nonprofit organization(thanks to you!).<br>Thank you for your support in \"changing the world one gift at a time.\" "
+msgstr ""
+
+#: webapp_main/templates/source/donate.tt:99
+msgid "We depend upon donations to help meet these expenses and to continue to to update our infrastructure."
 msgstr ""
 
 #: webapp_main/templates/source/about/old_privacy.tt:19
 msgid "We will not sell or exchange your personal information at any time. We will collect general information (such as the type of browser you use, the files you request, and the domain name and country from which you request information) to improve our Web site and better meet your needs."
 msgstr ""
 
-#. (num_groups.chunk(-3).join(","), num_members.chunk(-3).join(","))
+#. (num_groups.chunk(-3)
 #: webapp_main/templates/source/index.tt:16
 msgid "Welcome! The Freecycle Network&trade; is made up of %1 groups with %2 members around the world, and next door to you. It's a grassroots and entirely nonprofit movement of people who are giving (and getting) stuff for free in their own towns and neighborhoods. It's all about reuse and keeping good stuff out of landfills. Each local group is moderated by local volunteers (them's good people). Membership is free. To sign up, find your community by entering it into the search box above or by clicking on 'Browse Groups' above the search box. Have fun!"
 msgstr ""
@@ -1399,7 +1417,7 @@ msgstr ""
 msgid "You agree to indemnify and hold The Freecycle Network, its officers, subsidiaries, affiliates, successors, assigns, directors, officers, agents, service providers, suppliers and employees, harmless from any claim or demand, including reasonable attorney fees and court costs, made by any third party due to or arising out of Content you submit, post or make available through the Service, your use of the Service, your violation of the Terms, your breach of any of the representations and warranties herein, or your violation of any rights of another."
 msgstr ""
 
-#. (c.uri_for_action("/browse/index"))
+#. (c.uri_for_action('/browse/index')
 #: webapp_main/templates/source/404.tt:17
 msgid "You can <a href='%1' title='List of countries, regions and Groups within the Freecycle Network'>browse the list of all Freecycle Groups</a>"
 msgstr ""
@@ -1408,13 +1426,13 @@ msgstr ""
 msgid "You have generated a new password reset link since the email was sent."
 msgstr ""
 
-#. (('http://my.freecycle.org/login?referer=' _ thispage))
-#: webapp_main/templates/source/group/posts/display_post.tt:0
+#. (#TODO: hard-coded URL      "http://my.freecycle.org/login?referer=$thispage")
+#: webapp_main/templates/source/group/posts/display_post.tt:61
 msgid "You need to be <a href='%1'>logged in</a> and a Member of this Group to reply to this Post"
 msgstr ""
 
-#. (('http://my.freecycle.org/login?referer=' _ thispage))
-#: webapp_main/templates/source/group/posts/display_post.tt:0
+#. (#TODO: hard-coded URL      "http://my.freecycle.org/login?referer=$thispage")
+#: webapp_main/templates/source/group/posts/display_post.tt:55
 msgid "You need to be <a href='%1'>logged in</a> and a Member of this Group to view the Post details"
 msgstr ""
 
@@ -1430,13 +1448,13 @@ msgstr ""
 msgid "You understand that all postings, messages, text, files, images, photos, video, sounds, or other materials (&quot;Content&quot;) posted on, transmitted through, or linked from the Service are the sole responsibility of the person from whom such Content originated. More specifically, you are entirely responsible for all Content that you post, email or otherwise make available via the Service. You understand that The Freecycle Network does not control, and is not responsible for Content made available through the Service, and that by using the Service, you may be exposed to Content that is offensive, indecent, inaccurate, misleading, or otherwise objectionable. Furthermore, The Freecycle Network site and Content available through the Service may contain links to other websites, which are completely independent of The Freecycle Network. The Freecycle Network makes no representation or warranty as to the accuracy, completeness or authenticity of the information contained in any such site. Your linking to any other websites is at your own risk. You agree that you must evaluate, and bear all risks associated with, the use of any Content, that you may not rely on said Content, and that under no circumstances will The Freecycle Network be liable in any way for any Content or for any loss or damage of any kind incurred as a result of the use of any Content posted, emailed or otherwise made available via the Service. You acknowledge that The Freecycle Network does not pre-screen or approve Content, but that The Freecycle Network shall have the right (but not the obligation) in its sole discretion to refuse, delete or move any Content that is available via the Service, for violating the letter or spirit of the Terms or for any other reason. Should you be a moderator of a local group, you agree to abide by all Terms as well as the rules noted in bold on Freecycle.org within the FAQ section. Should you not do so, you will be asked to step down and remove yourself from the role of moderator and/or owner of the local Freecycle group. The local members are Freecycle members to which you volunteer to provide moderating services as a steward."
 msgstr ""
 
-#. (('http://my.freecycle.org/home/groups/join_group/' _ group.unique_name _ '?referer=' _ thispage))
-#: webapp_main/templates/source/group/posts/display_post.tt:0
+#. (#TODO: hard-coded URL      "http://my.freecycle.org/home/groups/join_group/$group.unique_name?referer=$thispage")
+#: webapp_main/templates/source/group/posts/display_post.tt:47
 msgid "You will need to <a href='%1'>join this group</a> before you can reply to this message."
 msgstr ""
 
-#. (('http://my.freecycle.org/home/groups/join_group/' _ group.unique_name _ '?referer=' _ thispage))
-#: webapp_main/templates/source/group/posts/display_post.tt:0
+#. (#TODO: hard-coded URL      "http://my.freecycle.org/home/groups/join_group/$group.unique_name?referer=$thispage")
+#: webapp_main/templates/source/group/posts/display_post.tt:41
 msgid "You will need to <a href='%1'>join this group</a> before you can view this message."
 msgstr ""
 
@@ -1464,19 +1482,19 @@ msgstr ""
 msgid "Your password reset email has been sent"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/reply_error.tt:1
+#: webapp_main/templates/source/group/posts/reply_error.tt:18
 msgid "Your response could not be sent because the person who made this Post has closed it to new replies."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/reply_error.tt:1
+#: webapp_main/templates/source/group/posts/reply_error.tt:13
 msgid "Your response could not be sent because the person who made this Post no longer uses Freecycle.org"
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/reply_error.tt:1
+#: webapp_main/templates/source/group/posts/reply_error.tt:23
 msgid "Your response could not be sent because there is a problem with it. Please go back and make sure you enter something to send as a response."
 msgstr ""
 
-#: webapp_main/templates/source/group/posts/reply_error.tt:1
+#: webapp_main/templates/source/group/posts/reply_error.tt:8
 msgid "Your response could not be sent because there is a problem with the Post you're replying to. This may be because the Post ID is invalid, the Post has already been closed, or that the person making the Post has no contact details on record."
 msgstr ""
 
@@ -1488,7 +1506,7 @@ msgstr ""
 msgid "call2recycle"
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:35
+#: webapp_main/templates/lib/standard_page.tt:41
 msgid "changing the world<br />one gift at a time&trade;"
 msgstr ""
 
@@ -1512,7 +1530,7 @@ msgstr ""
 msgid "go"
 msgstr ""
 
-#: webapp_main/templates/lib/standard_page.tt:34
+#: webapp_main/templates/lib/standard_page.tt:40
 msgid "logo of The Freecycle Network"
 msgstr ""
 
