@@ -1,6 +1,9 @@
 Translation
 ===========
 
+## NOTE: this repo is no longer accepting pull requests, we are transitioning to a new process for translations as we prepare to launch our new version of the website. If you wish to volunteer to help with translations, please get in touch ( if you don't have contact info please see https://freecycle.org/about/volunteering )
+
+<hr>
 Translation catalogs for The Freecycle Network (legacy, "FC2") sites
 
 There are several sub-projects within the Freecycle.org system - these each have separate translation catalogs, which are combined to form a single master translation catalog. This master catalog (freecycle.pot) is used to update the translation files (the various .po files like de.po, fr.po, etc), allowing for an overview of how "complete" a translation is.
